@@ -1,5 +1,5 @@
 myst-parser==0.17.0
-Sphinx==4.2.0
+Sphinx==4.5.0
 sphinx-rtd-theme==1.0.0
 sphinxcontrib-applehelp @ file:///home/ktietz/src/ci/sphinxcontrib-applehelp_1611920841464/work
 sphinxcontrib-blockdiag==3.0.0
@@ -16,4 +16,4 @@ sphinxjp.themecore==0.2.0
 sphinxjp.themes.trstyle==0.1.1
 blockdiag==3.0.0
 seqdiag==3.0.0
-Pillow==8.4.0
+Pillow==9.1.0
