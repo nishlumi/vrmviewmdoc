@@ -1,0 +1,30 @@
+@import url("theme.css");
+ 
+.wy-nav-content {
+    max-width: none;
+}
+
+h1 {
+    border-bottom: 4x solid #ccc;
+}
+h2 {
+    border-bottom: 3px solid #ccc;
+}
+h3 {
+    border-bottom: 2px solid #ccc;
+}
+h4,h5,h6 {
+    border-bottom: 1px solid #ccc;
+}
+
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+}
+
+colgroup {
+    display: none;
+}
+
+ul.simple li {
+    margin-bottom : 0.75rem;
+}
