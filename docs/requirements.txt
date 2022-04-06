@@ -1,17 +1,10 @@
 myst-parser==0.17.0
 Sphinx==4.5.0
 sphinx-rtd-theme==1.0.0
-sphinxcontrib-applehelp @ file:///home/ktietz/src/ci/sphinxcontrib-applehelp_1611920841464/work
 sphinxcontrib-blockdiag==3.0.0
-sphinxcontrib-devhelp @ file:///home/ktietz/src/ci/sphinxcontrib-devhelp_1611920923094/work
-sphinxcontrib-htmlhelp @ file:///tmp/build/80754af9/sphinxcontrib-htmlhelp_1623945626792/work
-sphinxcontrib-jsmath @ file:///home/ktietz/src/ci/sphinxcontrib-jsmath_1611920942228/work
 sphinxcontrib-mermaid==0.7.1
 sphinxcontrib-pandoc-markdown==1.6.8
-sphinxcontrib-qthelp @ file:///home/ktietz/src/ci/sphinxcontrib-qthelp_1611921055322/work
 sphinxcontrib-seqdiag==3.0.0
-sphinxcontrib-serializinghtml @ file:///tmp/build/80754af9/sphinxcontrib-serializinghtml_1624451540180/work
-sphinxcontrib-websupport @ file:///tmp/build/80754af9/sphinxcontrib-websupport_1597081412696/work
 sphinxjp.themecore==0.2.0
 sphinxjp.themes.trstyle==0.1.1
 blockdiag==3.0.0
