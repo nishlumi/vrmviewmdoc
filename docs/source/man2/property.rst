@@ -11,3 +11,13 @@
 
     prop_common
     prop_vrm
+    prop_obj
+    prop_light
+    prop_camera
+    prop_effect
+    prop_image
+    prop_text
+    prop_uimage
+    prop_stage
+    prop_syseffect
+    prop_audio
