@@ -12,7 +12,6 @@ Welcome to VRMViewMeister's documentation!
 
 
 ウェブアプリでできる、VRoid(VRM)のポーズ・アニメーション！
----------------------------------------------------------------
 
 
 .. toctree::
@@ -21,8 +20,8 @@ Welcome to VRMViewMeister's documentation!
    :numbered:
 
    man1/initial
-   man1/environ
    man1/aboutuse
+   man1/environ
    man1/install
    man1/feature
 
@@ -30,6 +29,13 @@ Welcome to VRMViewMeister's documentation!
 
    man2/object_about
    man2/property
+   man2/operation
+   man3/posing
+   man4/animation
+
+   man5/special_operation
+   man5/photograph
+   man5/config
 
 索引と検索
 ==================

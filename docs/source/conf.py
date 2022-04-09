@@ -88,3 +88,5 @@ html_static_path = ['_static']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+pdf_break_level = 2
