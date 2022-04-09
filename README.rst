@@ -1,9 +1,23 @@
-Template for the Read the Docs tutorial
+Documents source of VRMViewMeister
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This documents made by Sphinx.
 
-Read the tutorial here:
+Hosting is below:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://nishlumi-vrmviewmdoc.readthedocs.io/ja/latest/
+
+License:
+
+MIT
+
+
+**Note**
+
+VRMViewMeister is below:
+
+https://vrmviewmeister.azurewebsites.net/
+
+
+Copyright 2022, ISHII Eiju.
+
