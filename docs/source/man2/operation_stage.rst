@@ -22,7 +22,7 @@ Stage
 
 |
 
-.. note::
+.. hint::
     ※建築物や木などはOtherObjectを使って表現してください。
 
 |
@@ -37,6 +37,8 @@ Stage
 
 .. image:: ../img/operation_stage_3.png
     :align: center
+
+|
 
 .. note::
     ※Stageの照明はLightオブジェクトのように削除はできません。

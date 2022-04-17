@@ -80,6 +80,32 @@ Windowsの手順です。
 
 macOS
 ^^^^^^^^^^^
+..
+    .. caution::
+        | 今後パッケージ化に成功したら正式な手順を掲載します。以下はソースからビルドして起動する場合です。
+        | 必ずウェブアプリ版や他OS版を試して当方を信頼できる、と判断した場合のみソースからビルド・実行をしてください。
+        | この場合、ご利用端末で問題が発生した場合に責任は保証できませんのでご了承ください。
+
+    1. Node.jsやPythonをインストールします。
+    #. githubから ``git clone`` をしてリポジトリをダウンロードします。
+    #. README.mdに記載の通り、次のコマンドを順次実行していきます。
+
+    .. code-block:: bash
+
+        $ npm install
+        $ npm run wpbuild
+        $ npm run swbuild
+        $ npm run compile:electron
+        $ npm run electron
+
+    ※パッケージをビルドして実行する場合
+
+    .. code-block:: bash
+
+        $ npm run build:mac
+
+        ※後はFinder上で dist/ 内の vrmviewmeisterを実行します。
+
 
 1. ダウンロードした ``vrmviewmeister.app.zip`` を解凍します。
 2. 中にある ``vrmviewmeister`` をダブルクリックして起動してください。
