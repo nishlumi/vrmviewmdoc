@@ -154,3 +154,24 @@ IKマーカーの割り当て
 
 
 　装備させたいオブジェクトを選び、「OK」ボタンを押すと装備できます。
+
+
+| 
+
+テクスチャ
+----------------------
+
+.. image:: ../img/prop_vrm_7.png
+    :align: center
+
+|
+
+以下のシェーダーの設定を変更できます。詳しくはUnityのヘルプ等でご確認ください。
+
+::
+
+    SrcBlend、DstBlend、
+    色、ブレンドモード、カリングモード
+    発光色（Emission Color）、シェードの色（Shade Color）
+    Shading Toony、 Rim Color、Rim fresnel power
+
