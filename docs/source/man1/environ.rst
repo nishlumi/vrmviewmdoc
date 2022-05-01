@@ -6,18 +6,14 @@
 
 
 :OS:
-  | Windows, macOS, Linux, ChromeOS※
-  | ※Android, iOSは使えないこともありませんが非推奨です
-  | ※PC版はChromeOSでは使えません。
-
+  Windows, macOS, Linux, ChromeOS [1]_  
 :対応ブラウザ:
-  | Edge, Chrome, Opera, Vivaldi, (Firefox)
-  | ※FirefoxはPWAの独立したウィンドウ化を行なえません。
+  | Edge, Chrome, Opera, Vivaldi, Firefox [2]_ 
 
 
 :通信量:
   | 初回起動・・・約20～25MB
-  | 初回以降データ・・・約30MB（初使用時のみ）
+  | Stage変更・Effect使用・・・約30MB（初使用時のみ）
   | アップデート直後・・・1KB～25MB
   | 2回目以降の通常・・・約1～10KB程度
   | ※ウェブアプリ版のみ
@@ -50,12 +46,16 @@
 
 
 .. note::
+    * Android, iOSはUnityのWebGLの仕様に従い、サポート外とさせていただきます。
     * 通信量はあくまでも目安です。PWA対応のため通信はアプリの読み込み・アップデート時にしか原則として行わないようにしています。
     * 利用にあたりUnity本体や追加のライブラリ等は不要です。
     * PWA（Progressive Wab App）対応のため、インストールしてブラウザから独立して利用可能です。
-    * Windows, macOS、Linuxは単独で動作するPC版も用意する予定です。
+    * Windows, macOS、Linuxは単独で動作するPC版も用意します。
     * マウスジェスチャーのあるブラウザ・拡張機能は誤操作の可能性があるので事前にオフにするか後述のキー操作をする必要があります。
     * 初回以後、むやみにリロードはしないでください。アップデートは用意できましたらアプリ上で通知いたします。
+
+.. [1] ChromeOSではPC版を使うことはできません。
+.. [2] FirefoxはPWAの独立したウィンドウ化を行なえません。
 
 
 .. raw:: latex

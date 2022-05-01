@@ -12,8 +12,6 @@ URL
 https://vrmviewmeister.azurewebsites.net
 
 
-gitのソースからローカルでホスティングする場合はビルドとホスティングの手順後にブラウザで下記を実行するとローカルでもPWAによるアプリ表示が行なえます。
-
 |
 
 .. index:: インストール方法（ウェブアプリ）
