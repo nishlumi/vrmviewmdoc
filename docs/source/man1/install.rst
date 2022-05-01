@@ -9,10 +9,8 @@
 URL
 -----
 
-ホスティングは検討中です。
+https://vrmviewmeister.azurewebsites.net
 
-..
-    https://vrmviewmeister.azurewebsites.net
 
 gitのソースからローカルでホスティングする場合はビルドとホスティングの手順後にブラウザで下記を実行するとローカルでもPWAによるアプリ表示が行なえます。
 

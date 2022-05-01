@@ -36,6 +36,7 @@ Welcome to VRMViewMeister's documentation!
    man5/special_operation
    man5/photograph
    man5/config
+   man5/other
 
 索引と検索
 ==================

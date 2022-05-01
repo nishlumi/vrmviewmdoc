@@ -183,17 +183,25 @@ IKマーカーの割り当て
 テクスチャ
 ----------------------
 
-.. image:: ../img/prop_vrm_7.png
+.. image:: ../img/prop_obj_1.png
     :align: center
 
 |
+
+　VRMが保有しているテクスチャに関するプロパティです。テクスチャやマテリアルが複数存在した場合はコンボボックスから選ぶことができます。検出できるテクスチャの数は実際のVRMによって異なります。
+
+
+:シェーダー:
+  Unity標準のStandard、VRM標準のVRM/MToonのいずれかにシェーダーを切り替えます。
 
 以下のシェーダーの設定を変更できます。詳しくはUnityのヘルプ等でご確認ください。
 
 ::
 
-    SrcBlend、DstBlend、
     色、ブレンドモード、カリングモード
     発光色（Emission Color）、シェードの色（Shade Color）
     Shading Toony、 Rim Color、Rim fresnel power
+    SrcBlend、DstBlend、テクスチャ
 
+.. hint::
+    後述のOtherObjectのテクスチャの設定と同一です。

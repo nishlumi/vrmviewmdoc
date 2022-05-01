@@ -11,12 +11,11 @@ OtherObject
 --------------------
 
 .. image:: ../img/prop_obj_1.png
-    :scale: 100%
     :align: center
 
 |
 
-　OtherObjecに関する設定のうち、テクスチャに関するプロパティです。オブジェクトにテクスチャが複数存在した場合はコンボボックスから選ぶことができます。検出できるテクスチャの数はFBXやOBJなどによって異なります。
+　OtherObjectに関する設定のうち、テクスチャに関するプロパティです。オブジェクトにテクスチャが複数存在した場合はコンボボックスから選ぶことができます。検出できるテクスチャの数はFBXやOBJなどによって異なります。
 
 
 
@@ -30,8 +29,10 @@ OtherObject
     色、ブレンドモード、カリングモード
     メタリック、光沢、発光色（Emission Color）、シェードの色（Shade Color）
     Shading Toony、 Rim Color、Rim fresnel power
-    メインのテクスチャ
+    SrcBlend、DstBlend、テクスチャ
 
+.. hint::
+  VRMのほうのテクスチャのプロパティと内容・設定方法いずれも全く同じです。
 
 |
 
