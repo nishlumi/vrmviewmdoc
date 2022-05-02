@@ -5,7 +5,6 @@
 ####################################
 
 .. image:: ../img/screen_scrshot.png
-    :scale: 80
     :align: center
 
 |
