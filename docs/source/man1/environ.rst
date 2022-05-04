@@ -9,8 +9,6 @@
   Windows, macOS, Linux, ChromeOS [1]_  
 :対応ブラウザ:
   | Edge, Chrome, Opera, Vivaldi, Firefox [2]_ 
-
-
 :通信量:
   | 初回起動・・・約20～25MB
   | Stage変更・Effect使用・・・約30MB（初使用時のみ）

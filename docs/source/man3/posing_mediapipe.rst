@@ -5,8 +5,7 @@ MediaPipeでポーズを検出する
 #####################################
 
 
-　MediaPipeとはGoogleが公開している、ライブメディアとストリーミングメディア向けのソリューションで無償で利用できます。
-　本アプリではPoseの機能を利用しています。これによりウェブカメラ等で移した映像から自動的にポーズを検出し、それをVRoid/VRMに適用することができます。
+　MediaPipeとはGoogleが公開している、ライブメディアとストリーミングメディア向けのソリューションで無償で利用できます。本アプリではPoseの機能を利用しています。これによりウェブカメラ等で移した映像から自動的にポーズを検出し、それをVRoid/VRMに適用することができます。
 
 https://google.github.io/mediapipe/
 
@@ -154,9 +153,13 @@ https://google.github.io/mediapipe/
 
 |
 
-| Selfie Mode・・・映像を反転します。
-| 映像ソース・・・カメラあるいは参照ボタンで画像を指定します。
-| Min Detection Confidence・・・検出の精度
-| Min Tracking Confidence・・・トラッキングの精度
+:Selfie Mode:
+    映像を反転します。
+:映像ソース:
+    カメラあるいは参照ボタンで画像を指定します。
+:Min Detection Confidence:
+    検出の精度
+:Min Tracking Confidence:
+    トラッキングの精度
 
 ※他のオプションは `MediaPipe <https://google.github.io/mediapipe/>`_ のサイトで確認してください。

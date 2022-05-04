@@ -64,3 +64,7 @@ IKマーカーは他と判別しやすくするために実際のカメラ風で
 .. image:: ../img/operation_camera_3.png
     :align: center
 
+|
+
+.. warning::
+    レンダーテクスチャはマシンパワーを比較的使います。多用にはご注意ください。
