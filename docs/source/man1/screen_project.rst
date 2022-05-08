@@ -82,5 +82,4 @@
     .. image::  ../img/screen_project5.png
         :align: center
     
-    |
     ``No Preview`` ボタンを押すと画像を読み込みます。

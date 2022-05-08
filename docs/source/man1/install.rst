@@ -223,6 +223,21 @@ LinuxはAppImage形式に対応したディストリビューションでご利�
     ~/.config/vrmviewmeister
 
 
+.. index:: 
+    言語の切り替え
+    Change language
+    Locale
+
+言語の切り替え
+=========================
+
+言語の切り替えはリボンバーの ``ホーム`` タブから行えます。
+
+.. image:: ../img/screen_lang.png
+
+切り替えたい言語を選びます。一部UIを除いて即座に言語が切り替わります。
+
+
 .. raw:: latex
 
    \cleardoublepage
