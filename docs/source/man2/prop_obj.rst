@@ -20,16 +20,20 @@ OtherObject
 
 
 :シェーダー:
-  Unity標準のStandard、VRM標準のVRM/MToonのいずれかにシェーダーを切り替えます。
+  Unity標準のStandard、VRM標準のVRM/MToon、StandardAssetのWater（FX/Water4）のいずれかにシェーダーを切り替えます。
 
 以下のシェーダーの設定を変更できます。詳しくはUnityのヘルプ等でご確認ください。
 
-::
-
-    色、ブレンドモード、カリングモード
-    メタリック、光沢、発光色（Emission Color）、シェードの色（Shade Color）
-    Shading Toony、 Rim Color、Rim fresnel power
-    SrcBlend、DstBlend、テクスチャ
+:Standard:
+  色、ブレンドモード、メタリック、光沢、発光色（Emission Color）、テクスチャ
+:VRM/MToon:
+  色、ブレンドモード、カリングモード
+  メタリック、光沢、発光色（Emission Color）、シェードの色（Shade Color）
+  Shading Toony、 Rim Color、Rim fresnel power
+  SrcBlend、DstBlend、テクスチャ
+:Water:
+  FresnelScale、ReflectionColor、specularColor、WaveAmplitude、WaveFrequency、WaveSteepness
+  WaveSpeed、WaveDirection AB、WaveDirection CD
 
 .. hint::
   VRMのほうのテクスチャのプロパティと内容・設定方法いずれも全く同じです。
