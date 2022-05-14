@@ -204,8 +204,7 @@ IKマーカーの割り当て
   Shading Toony、 Rim Color、Rim fresnel power
   SrcBlend、DstBlend、テクスチャ
 :Water:
-  FresnelScale、ReflectionColor、specularColor、WaveAmplitude、WaveFrequency、WaveSteepness
-  WaveSpeed、WaveDirection AB、WaveDirection CD
+  フレネルスケール、反射色、鏡面色、波の振れ幅、波の周波数、波の急勾配、波の速度、波方向AB、波方向CD
 
 
 .. hint::
