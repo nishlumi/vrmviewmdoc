@@ -4,6 +4,8 @@
 Stage
 ####################################
 
+.. contents::
+
 
 メインのプロパティ
 ------------------------
@@ -21,8 +23,9 @@ Stage
 .. csv-table::
 
     Default,    グリッドで表されるデフォルトの床です。
-    SeaDayTime, 水面です。日中の水面を表しており水面はアニメーションします。
-    SeaNight,   水面です。夜の水面を表しており水面はアニメーションします。
+    BasicSeaLevel, 細かく調整可能な汎用的な水面です。水面はアニメーションします。不透明度が反映されます。
+    DayTimeWaterStage, 水面です。日中の水面を表しており水面はアニメーションします。
+    NighttimeWaterStage,   水面です。夜の水面を表しており水面はアニメーションします。
     DryGround,  乾燥地帯のような地面です。
     Desert,     砂漠の砂地です。
     Field1～4,  その他一般的な地形のような地面です。
@@ -44,6 +47,10 @@ Stage
     :発光色:
         シェーダのEmission Color
 
+BasicSeaLevel、DayTimeWaterStage、NighttimeWaterStageについて
+    設定オプションが多岐にわたるものがあります。詳しくはUnityのドキュメントを御覧ください。
+
+    `<https://docs.unity3d.com/ja/2019.1/Manual/HOWTO-Water.html>`_
 
 |
 

@@ -8,6 +8,7 @@ Stage
 　Stageは床や空、照明などの環境を扱います。
 
 
+.. contents::
 
 舞台
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -30,7 +31,18 @@ Stage
     ※建築物や木などはOtherObjectを使って表現してください。
 
 
-UserStageの場合
+水面の舞台
+----------------------
+
+　BasicSeaLevel、DaytimeWaterStage、NighttimeWaterStageの3種類は海面・水面となる舞台です。それぞれ演出効果が若干異なります。
+
+　DaytimeWaterStage、NighttimeWaterStageの2種類は角が丸い平面となっており、他の舞台より若干地平線（水平線）が低めとなっています。
+
+.. hint::
+    OtherObjectの基本の図形にある ``水面`` を使うと地面の舞台を使いながら、部分的に水面を演出することができます。
+
+
+UserStage
 ----------------------
 
 UserStageは自分で好きなテクスチャを貼り付けて表現できる舞台の種類です。
