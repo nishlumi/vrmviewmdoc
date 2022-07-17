@@ -39,5 +39,6 @@ WebGL画面
     | Vroid/VRM(.vrm)
     | その他3Dオブジェクト(.obj, .fbx, .zip, .gltf ,.glb, .ply, .stl, .3mf)
     | 画像(.png, .jpg, .gif)
-    | アニメーションプロジェクト(.json, .vvmproj)
+    | アニメーションプロジェクト(.vvmproj)
+    | モーションファイル(.vvmmot)
 
