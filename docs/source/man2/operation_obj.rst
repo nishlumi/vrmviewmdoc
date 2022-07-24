@@ -84,7 +84,7 @@ OtherObject
 2. 各種設定を好みで変更します。
 
 :シェーダー:
-    ``Standard`` ,  ``VRM/MToon`` , ``Water``, ``Water2`` のいずれかを選択します。
+    ``Standard`` ,  ``VRM/MToon`` , ``Water`` のいずれかを選択します。
 :色:
     テクスチャのベースの色を変更します。
 :カリングモード:
