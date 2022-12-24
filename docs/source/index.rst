@@ -35,6 +35,8 @@ Welcome to VRMViewMeister's documentation!
 
    man5/special_operation
    man5/photograph
+   man5/videorec
+   man5/texttrack
    man5/config
    man5/other
 
