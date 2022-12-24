@@ -27,12 +27,14 @@ Stage
 
 |
 
+.. index::
+    SweetHome 3D
+    建物の3Dモデル
+
 .. hint::
     ※建築物や木などはOtherObjectを使って表現してください。
 
-    .. index::
-        SweetHome 3D
-        建物の3Dモデル
+    
     建物や庭などを作るには、「SweetHome 3D」というアプリケーションがオススメです。このソフトの詳しい使い方は検索してください。
 
     http://www.sweethome3d.com/
