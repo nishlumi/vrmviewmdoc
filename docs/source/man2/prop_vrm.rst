@@ -36,11 +36,11 @@ IK、全身
     VRMが持つIKマーカーを別のオブジェクトに切り替えます。
 
 IKマーカーの割り当て
-    | 　IKマーカーの部位:
+    IKマーカーの部位:
         切り替え対象のIKのマーカーの部位を選択します。
-    | 　割り当て中のロール:
+    割り当て中のロール:
         選択した部位に対しどのオブジェクトをIKマーカーとして割り当てるか選択します。
-    | 　Reset:
+    Reset:
         IKマーカーを元のマーカーに戻します。
 
 |
@@ -77,7 +77,7 @@ IKマーカーの割り当て
 
 
 
-.. index:: ブレンドシェイプ（VRMのプロパティ)
+.. index:: ブレンドシェイプ（VRMのプロパティ）
 
 ブレンドシェイプ
 ----------------------------
@@ -91,15 +91,16 @@ IKマーカーの割り当て
 
 　VRoid/VRMはブレンドシェイプを2種類保有しています。Unity的な意味と本アプリでの捉え方は次のとおりに分類しています。
 
-==================== =
-Unity上              本アプリ
--------------------- -
-SkinnedMeshRenderer  汎用
-VRMBlendShapeProxy   専用
-==================== =
+======================= ============== ============== ================
+Unity上                  VRM version   本アプリ(1.x)   本アプリ(2.x)
+----------------------- -------------- -------------- ----------------
+SkinnedMeshRenderer     0.x/1.x        汎用            専用
+VRMBlendShapeProxy      0.x            専用            廃止
+VRM10RuntimeExpression  1.x            専用            共通
+======================= ============== ============== ================
 
 
-　汎用のブレンドシェイプについて、VRoid/VRMはその命名規則が次のように大体決まっています。キャラクターによりその実際の数は異なるのでご注意ください。
+　SkinnedMeshRendererのブレンドシェイプについて、その命名規則が次のように大体決まっています。キャラクターによりその実際の数は異なるのでご注意ください。
 
 ===============  ==================================
 キー               説明
@@ -114,8 +115,20 @@ VRMBlendShapeProxy   専用
 
 
 .. note::
+    * VRoidStudio製のVRMの場合です。
     * 本アプリではわかりやすさのため、本来のブレンドシェイプの接頭辞を一括して非表示にしてあります。ご了承ください。
     * なお、他のアプリでも上記を目印にすればブレンドシェイプを探しやすいと思います。
+
+.. warning::
+    VRM 1.xの仕様によりExpressionとBlendShapeでは動作が変わります。詳しくは :doc:`operation_vrm` をご覧ください。
+    
+    素のVRM1.xですと、主に次のBlendShapeが動かない傾向にあります。
+
+    * 喜怒哀楽（Fcl_Allなど、眉・目・口がすべて動くタイプ）
+    * 口（あいうえお）
+    * etc
+
+    ※本アプリではどのVRMのどのブレンドシェイプが動かなくなるのか判別しきれないため、新しい方式の「Expression」に機能を移行しました。（独自改修あり）
 
 |
 
@@ -228,7 +241,12 @@ VRMBlendShapeProxy   専用
     SrcBlend、DstBlend、テクスチャ
 :Water:
     フレネルスケール、反射色、鏡面色、波の振れ幅、波の周波数、波の急勾配、波の速度、波方向AB、波方向CD
-
+:Sketch:
+    Outline width、Stroke density、Add brightness、Mult brightness、Shadow brightness
+:PostSketch:
+    Outline width、Stroke density、Add brightness、Mult brightness
+:Comic:
+    enableTexTransparent、Line width、色、Tone threshold
 
 .. hint::
     後述のOtherObjectのテクスチャの設定と同一です。

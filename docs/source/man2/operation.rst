@@ -8,6 +8,7 @@
     :maxdepth: 2
 
     operation_initial
+    operation_texture
     operation_vrm
     operation_obj
     operation_light

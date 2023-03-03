@@ -5,7 +5,7 @@
 ポーズトラッキング画面
 ####################################
 
-.. image:: ../img/screen_mediapipe.png
+.. image:: ../man3/posing_c.png
     :align: center
 
 |

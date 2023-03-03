@@ -54,7 +54,9 @@ BasicSeaLevel、DayTimeWaterStage、NighttimeWaterStageについて
 
 |
 
-.. index:: 空（Stageのプロパティ）
+.. index:: 
+    空（Stageのプロパティ）
+    太陽
 
 空のプロパティ
 -------------------
@@ -71,7 +73,7 @@ BasicSeaLevel、DayTimeWaterStage、NighttimeWaterStageについて
     |skydaytime|, |skynight|
 
 :空のモード:
-    ``単色`` 、``通常の空`` のどちらかを指定します。
+    ``単色`` 、 ``通常の空`` のどちらかを指定します。 ``通常の空`` にすると太陽が表示されるようになります。
 :空の色:
     空の色を変更します。
 :空のシェーダ:
@@ -81,10 +83,16 @@ BasicSeaLevel、DayTimeWaterStage、NighttimeWaterStageについて
 
 `<https://docs.unity3d.com/ja/2019.4/Manual/shader-skybox-procedural.html>`_
 
+.. hint::
+    ``通常の空`` にして太陽が表示されたら、照明の回転をすることにより太陽を動かすことができます。
 
 |
 
-.. index:: 照明（Stageのプロパティ）
+.. index:: 
+    照明（Stageのプロパティ）
+    オブジェクトの影（Stageのプロパティ）
+    ハロー
+    フレア
 
 照明のプロパティ
 -------------------
@@ -100,8 +108,30 @@ BasicSeaLevel、DayTimeWaterStage、NighttimeWaterStageについて
     光の強さを設定します。
 :影の強さ:
     オブジェクトの影の濃さを設定します。
+
+    .. hint::
+        照明やLightオブジェクトの回転で影の向かう先を変化させることができます。
+
 :色:
     光の色さを設定します。
+:ハロー:
+    円光の効果の基本値を調整します。
+
+    .. warning::
+        Stageの照明にはハローは効果がありません。
+
+    .. note::
+        このハローの設定は、すべてのLightオブジェクトに影響します。
+        実際のハローの効果については、Lightオブジェクト側の色や強さ・範囲によって合わせて変化させることができます。
+
+:フレアタイプ:
+    光のフレアの種類を ``なし`` ``50mmZoom`` ``FlareSmall`` ``Sun`` から選びます。
+:フレアカラー:
+    フレアの色を指定します。
+:フレアの明るさ:
+    フレアの明るさを指定します。
+:フレアフェードスピード:
+    フレアが出現・消滅するスピードを指定します。
 
 |
 

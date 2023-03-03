@@ -25,3 +25,4 @@
     screen_timeline
     screen_keyframe
     screen_internaldlg
+    screen_naviwin

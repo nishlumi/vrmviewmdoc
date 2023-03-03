@@ -27,6 +27,8 @@ Welcome to VRMViewMeister's documentation!
 
    man1/screen
 
+   man5/general_use
+   
    man2/object_about
    man2/property
    man2/operation
@@ -44,6 +46,8 @@ Welcome to VRMViewMeister's documentation!
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+
+..
+  * :ref:`modindex`
+  * :ref:`search`
 
