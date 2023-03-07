@@ -17,7 +17,7 @@
     * - VRM
       - 本アプリでメインの3Dモデルオブジェクトです。
     * - OtherObject
-      - FBX、Obj、STXなどのその他の3Dオブジェクトです。
+      - FBX、Obj、STXなどのその他の3Dオブジェクトです。 [1]_
     * - Light
       - Unity標準機能によるライトオブジェクトです。
     * - Camera
@@ -37,6 +37,7 @@
     * - Stage
       - 地面や空、風などの地形・舞台を扱います。
 
+.. [1] TriLib2で対応可能なフォーマットすべて（https://ricardoreis.net/trilib-2/）
 
 .. note::
     ※TextとUImageは3Dオブジェクトとして扱うことはできませんが、移動・回転は可能です。

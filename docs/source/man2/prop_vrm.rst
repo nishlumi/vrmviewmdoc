@@ -120,7 +120,7 @@ VRM10RuntimeExpression  1.x            専用            共通
     * なお、他のアプリでも上記を目印にすればブレンドシェイプを探しやすいと思います。
 
 .. warning::
-    VRM 1.xの仕様によりExpressionとBlendShapeでは動作が変わります。詳しくは :doc:`operation_vrm` をご覧ください。
+    VRM 1.xの仕様によりExpressionとBlendShapeでは動作が変わります。詳しくは :ref:`blendshape_vrm` をご覧ください。
     
     素のVRM1.xですと、主に次のBlendShapeが動かない傾向にあります。
 

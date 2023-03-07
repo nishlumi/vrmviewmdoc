@@ -10,7 +10,6 @@
     screen_main
     screen_webgl
     screen_appconfig
-    screen_vpad
     screen_vrminfo
     screen_project
     screen_scrshot
@@ -25,4 +24,5 @@
     screen_timeline
     screen_keyframe
     screen_internaldlg
+    screen_vpad
     screen_naviwin
