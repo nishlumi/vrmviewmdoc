@@ -22,6 +22,7 @@
     screen_objlist
     screen_prop
     screen_timeline
+    screen_keyframereg
     screen_keyframe
     screen_internaldlg
     screen_vpad

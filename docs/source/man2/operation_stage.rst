@@ -179,7 +179,7 @@ UserStage
 
 .. index:: 空（オブジェクトの操作）
 
-.. _operation_sky::
+.. _operation_sky:
 
 空
 ^^^^^^^^^^^^^^^^^^^
