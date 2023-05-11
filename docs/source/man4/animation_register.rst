@@ -127,7 +127,7 @@
 
 |
 
-4. ``キーフレームの登録ウィンドウ`` が表示されます。
+1. ``キーフレームの登録ウィンドウ`` が表示されます。
 
 .. |keyframe1| image:: ../img/screen_ribbon_animation_keyframe1.png
 .. |keyframe2| image:: ../img/screen_ribbon_animation_keyframe2.png
@@ -141,6 +141,10 @@
     VRM, VRM以外
     |keyframe1|, |keyframe2|
     IKParentを含めた全てのIKマーカー, IKParentのみ
+
+.. hint::
+    リボンバーの中ならどこで右クリック（macOSの場合はControlキーを押しながらクリックまたは2点タップ）することで表示可能です。
+
 
 .. index:: キーフレームに登録する内容
 
