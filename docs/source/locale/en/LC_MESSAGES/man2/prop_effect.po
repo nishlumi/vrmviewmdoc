@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 11:41+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_effect.rst:5
+msgid "Effect"
+msgstr "Effect"
+
+#: ../../source/man2/prop_effect.rst:8
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man2/prop_effect.rst:11
+msgid "メインのプロパティ"
+msgstr "Main Properties"
+
+#: ../../source/man2/prop_effect.rst:18
+msgid "アニメーションする特殊な画面効果、エフェクトに関する設定です。"
+msgstr "This is a special screen effect that animates, and settings related to effects."
+
+#: ../../source/man2/prop_effect.rst
+msgid "ジャンル"
+msgstr "Genre"
+
+#: ../../source/man2/prop_effect.rst:22
+msgid "エフェクトのジャンルを選びます。（下記を参照）"
+msgstr "Select the effect genre. (see below)"
+
+#: ../../source/man2/prop_effect.rst
+msgid "エフェクト"
+msgstr "Effect"
+
+#: ../../source/man2/prop_effect.rst:24
+msgid "選択したジャンルのエフェクトを選びます。"
+msgstr "Select an effect for the selected genre."
+
+#: ../../source/man2/prop_effect.rst
+msgid "プレビュー"
+msgstr "Preview"
+
+#: ../../source/man2/prop_effect.rst:26
+msgid "エフェクトのプレビューを再生・一時停止、停止します。プレビューのためアニメーションプロジェクトには反映されません。"
+msgstr "Play/pause/stop the effect preview. Because it is a preview, it is not reflected in the animation project."
+
+#: ../../source/man2/prop_effect.rst
+msgid "ループ"
+msgstr "Loop"
+
+#: ../../source/man2/prop_effect.rst:28
+msgid "エフェクトをずっと再生します。"
+msgstr "Play the effect forever."
+
+#: ../../source/man2/prop_effect.rst
+msgid "エフェクトの状態（登録用）"
+msgstr "Effect status (for registration)"
+
+#: ../../source/man2/prop_effect.rst:30
+msgid "エフェクトの再生状態をアニメーションプロジェクトに登録します。"
+msgstr "Register the playback status of the effect in the animation project."
+
+#: ../../source/man2/prop_effect.rst:1
+msgid "Explosion"
+msgstr "Explosion"
+
+#: ../../source/man2/prop_effect.rst:1
+msgid "爆発系のエフェクト"
+msgstr "explosive effects"
+
+#: ../../source/man2/prop_effect.rst:1
+msgid "Smoke"
+msgstr "Smoke"
+
+#: ../../source/man2/prop_effect.rst:1
+msgid "煙・モヤ系のエフェクト"
+msgstr "smoke and haze effects"
+
+#: ../../source/man2/prop_effect.rst:1
+msgid "Water"
+msgstr "Water"
+
+#: ../../source/man2/prop_effect.rst:1
+msgid "水に関するエフェクト"
+msgstr "effects related to water"
+
+#: ../../source/man2/prop_effect.rst:1
+msgid "Action"
+msgstr "Action"
+
+#: ../../source/man2/prop_effect.rst:1
+msgid "その他エフェクト"
+msgstr "other effects"
+
+#: ../../source/man2/prop_effect.rst:48
+msgid "VRMとの衝突プロパティ"
+msgstr "Collision properties with VRM"
+
+#: ../../source/man2/prop_effect.rst:56
+msgid "衝突機能を利用するエフェクトのプロパティです。"
+msgstr "This is the property of the effect that uses the collision function."
+
+#: ../../source/man2/prop_effect.rst
+msgid "衝突機能の使用"
+msgstr "Using Collision Features"
+
+#: ../../source/man2/prop_effect.rst:60
+msgid "このエフェクトオブジェクトの衝突を有効にします。"
+msgstr "Enables collisions for this effect object."
+
+#: ../../source/man2/prop_effect.rst
+msgid "衝突範囲の大きさ"
+msgstr "Collision area size"
+
+#: ../../source/man2/prop_effect.rst:62
+msgid "衝突の範囲を数値で指定します。画面上の球体のプレビューの大きさも変わります。"
+msgstr "Specifies the extent of collision as a number. The size of the sphere preview on the screen also changes."
+
+#: ../../source/man2/prop_effect.rst
+msgid "対象のVRM"
+msgstr "Target VRM"
+
+#: ../../source/man2/prop_effect.rst:64
+msgid "衝突の対象とするVRMを選択するコンボボックスです。"
+msgstr "A combo box that selects the VRM that is the target of the collision."
+
+#: ../../source/man2/prop_effect.rst
+msgid "決定ボタン"
+msgstr "Enter button"
+
+#: ../../source/man2/prop_effect.rst:66
+msgid "選んだVRMを決定します。"
+msgstr "Decide on your chosen VRM."
+
+#: ../../source/man2/prop_effect.rst
+msgid "VRM一覧"
+msgstr "VRM list"
+
+#: ../../source/man2/prop_effect.rst:68
+msgid "このエフェクトオブジェクトの衝突の対象にしているVRMの一覧です。右端の削除ボタンで対象から外すことができます。"
+msgstr "A list of VRMs that this effect object collides with. You can remove it from the target with the delete button on the right end."

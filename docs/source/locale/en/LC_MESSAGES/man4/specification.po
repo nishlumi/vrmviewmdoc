@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 14:25+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man4/specification.rst:5
+msgid "アニメーションプロジェクトの構成"
+msgstr "Animation project structure"
+
+#: ../../source/man4/specification.rst:8
+msgid "アニメーションプロジェクトの構成について説明します。大まかに言うと次のようになっています。"
+msgstr "We will explain the structure of the animation project. Roughly speaking, it goes like this:"
+
+#: ../../source/man4/specification.rst:18
+msgid "タイムライン"
+msgstr "Timeline"
+
+#: ../../source/man4/specification.rst
+msgid "タイムラインはアニメーションの基本単位です。1つのタイムラインに1つのロール、1つのキャストが対応しています。"
+msgstr "The timeline is the basic unit of animation. One timeline corresponds to one role and one cast."
+
+#: ../../source/man4/specification.rst
+msgid "実際の機能としては次のロールがすべて受け持っています。"
+msgstr "The following roles are responsible for all of the actual functions."
+
+#: ../../source/man4/specification.rst:37
+msgid "ロール・役割"
+msgstr "Role"
+
+#: ../../source/man4/specification.rst
+msgid "ロールとは、各オブジェクトがタイムラインにおいてどう動くかの役割・キャラクターの動作のまとまりです。"
+msgstr "A role is a collection of roles and character actions that determine how each object moves on the timeline."
+
+#: ../../source/man4/specification.rst
+msgid "ロールの中には割り当てるキャスト、そしてキーフレームのデータが存在します。"
+msgstr "Within the role there are casts to be assigned and keyframe data."
+
+#: ../../source/man4/specification.rst
+msgid "ロールは同じオブジェクトの種類であれば、別のオブジェクトに差し替えることができます。"
+msgstr "A role can be replaced with another object as long as it is of the same object type."
+
+#: ../../source/man4/specification.rst:37
+msgid "実質的には、 **タイムライン＝ロール** です。本説明書でタイムラインというときはロールを指し、その逆としても使われます。"
+msgstr "In effect, **Timeline = Roll**. When we say timeline in this manual, we mean role, and vice versa."
+
+#: ../../source/man4/specification.rst:51
+msgid "キャスト・オブジェクト・アバター"
+msgstr "Cast / object / avatar"
+
+#: ../../source/man4/specification.rst
+msgid "キャストとはロールに割り当てるオブジェクトのことです。ここが実際のVRoid/VRM、FBX、Light、Audioなどのオブジェクトの実体となっています。"
+msgstr "A cast is an object assigned to a role. This is the substance of the actual VRoid/VRM, FBX, Light, Audio, and other objects."
+
+#: ../../source/man4/specification.rst
+msgid "本アプリでは単にオブジェクトとか、アバターなどとも言い換えています。"
+msgstr "In this application, they are simply referred to as OBJECT or AVATAR."
+
+#: ../../source/man4/specification.rst:63
+msgid "キーフレーム"
+msgstr "Key frame"
+
+#: ../../source/man4/specification.rst:63
+msgid "キーフレームはロールの実際の動きのデータ、モーションです。このデータはあくまでロールが保持しており、原則として各オブジェクトには依存しない形になっています。"
+msgstr "A keyframe is the actual movement data of the roll, the motion. This data is only held by the role, and in principle it does not depend on each object."
+
+#: ../../source/man4/specification.rst:70
+msgid "タイムライン・ロール・キャストの関係"
+msgstr "timeline role cast relationship"
+
+#: ../../source/man4/specification.rst
+msgid "タイムラインは最終的にはロールと同じ意味です。それからキャストは実際のオブジェクトと同じ意味です。"
+msgstr "The timeline is ultimately the same as the role. Then cast means the same as the actual object."
+
+#: ../../source/man4/specification.rst
+msgid "ロールはキャスト（オブジェクト）と１：１で紐付いています。ロールはキャストなしの状態がありえますが、キャストはロールなしには動くことはできません。"
+msgstr "A role is tied to a cast (object) on a 1:1 basis. A roll can be without a cast, but a cast cannot move without a roll."
+
+#: ../../source/man4/specification.rst:75
+msgid "厳密ではなくゆるい紐付きです。そのため、ロールには後から別のキャスト（オブジェクト）を紐付けることができます。"
+msgstr "It's loosely tied, not strict. Therefore, the role can later be associated with another cast (object)."
+
+#: ../../source/man4/specification.rst:77
+msgid "例で言うと次のようになります。(色とアイコンは上記の例に対応しています)"
+msgstr "For example, it would be as follows. (colors and icons correspond to the example above)"
+
+#: ../../source/man4/specification.rst:83
+msgid "**ロール** ・・・アニメやドラマの人物"
+msgstr "**Roll** ...  anime and drama characters"
+
+#: ../../source/man4/specification.rst:85
+msgid "**キャスト**・・・声優、俳優本人"
+msgstr "**Cast** ... Voice actor, actor himself"
+
+#: ../../source/man4/specification.rst:88
+msgid "実際のアニメーションデータはロールが持っています。そのためそのモーションを再生するのに実際のキャスト（オブジェクト）が何であるかは問いません。"
+msgstr "The actual animation data is held by the role. So it doesn't matter what the actual cast (object) is to play that motion."
+
+#: ../../source/man4/specification.rst:89
+msgid "上記の仕組みのために、好きなアニメーションを好きなオブジェクトで再生することができるようになっています。"
+msgstr "Because of the above mechanism, you can play your favorite animation with your favorite object."

@@ -1,0 +1,443 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-04 13:45+0900\n"
+"PO-Revision-Date: 2023-06-04 13:50+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man4/animation_proper.rst:3
+msgid "アニメーションの各種設定"
+msgstr "Various animation settings"
+
+#: ../../source/man4/animation_proper.rst:6
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man4/animation_proper.rst:14
+msgid "フレーム数とFPSを設定する"
+msgstr "Set number of frames and FPS"
+
+#: ../../source/man4/animation_proper.rst:16
+msgid ""
+"アニメーションの長さを最初に決めます。デフォルトでは60となっており、FPSも60になっています。リボンバーの ``アニメーション`` タブにある"
+"図の2箇所を好みで設定してください。"
+msgstr ""
+"Determine the length of the animation first. By default it is 60 and FPS is also 60. Please set two places of the figure in the "
+"``Animation`` tab of the ribbon bar as you like."
+
+#: ../../source/man4/animation_proper.rst:18
+msgid "prop_right"
+msgstr "prop_right"
+
+#: ../../source/man4/animation_proper.rst:19
+msgid "prop_left"
+msgstr "prop_left"
+
+#: ../../source/man4/animation_proper.rst:1
+msgid "|prop_left|"
+msgstr "|prop_left|"
+
+#: ../../source/man4/animation_proper.rst:1
+msgid "|prop_right|"
+msgstr "|prop_right|"
+
+#: ../../source/man4/animation_proper.rst:1
+msgid "プロジェクトの設定画面"
+msgstr "Project setting screen"
+
+#: ../../source/man4/animation_proper.rst:1
+msgid "リボンバー"
+msgstr "Ribbon bar"
+
+#: ../../source/man4/animation_proper.rst:1
+msgid "FPS（1秒間あたりのフレーム数）"
+msgstr "FPS (frames per second)"
+
+#: ../../source/man4/animation_proper.rst:1
+msgid "最大のフレーム数"
+msgstr "maximum number of frames"
+
+#: ../../source/man4/animation_proper.rst:31
+msgid ""
+"※FPSで示される ``フレーム`` と本アプリでの ``フレーム`` は同意味ではありません。本アプリでの ``フレーム`` はあくまでもデータの管理上"
+"の配列の意味にすぎません。"
+msgstr ""
+"``Frame`` indicated by FPS and ``Frame`` in this application are not the same. ``Frame`` in this application is just an array for "
+"data management."
+
+#: ../../source/man4/animation_proper.rst:34
+msgid ""
+"FPSを変更すると、 ``FPS / 6000.0`` を再計算して自動的に全キーフレームのduration(間隔)を更新します。手動で設定した間隔も全て変更される"
+"ので、FPSの変更を本当にするべきなのか確認してください。"
+msgstr ""
+"Changing FPS will recalculate ``FPS / 6000.0`` and automatically update the duration of all keyframes. Any manually set intervals "
+"will also change, so make sure you really want to change the FPS."
+
+#: ../../source/man4/animation_proper.rst:43
+msgid "デフォルトの間隔を設定する"
+msgstr "Set default interval"
+
+#: ../../source/man4/animation_proper.rst:45
+msgid ""
+"アニメーションプロジェクトでは、そのフレームの内容に到達する間隔が秒数で決まっています。デフォルトでは ``FPS / 6000.0`` の計算結果が"
+"設定されています。"
+msgstr ""
+"In an animation project, the interval between reaching the content of the frame is determined in seconds. By default, the "
+"calculation result of ``FPS / 6000.0`` is set."
+
+#: ../../source/man4/animation_proper.rst:47
+msgid "これを任意の秒数に変更することができます。"
+msgstr "You can change this to any number of seconds."
+
+#: ../../source/man4/animation_proper.rst:49
+msgid "リボンバーの ``デフォルトの間隔`` を入力します。（0.0001～99.9999 秒）"
+msgstr "Enter the ``default spacing`` for the ribbon bar. (0.0001 to 99.9999 seconds)"
+
+#: ../../source/man4/animation_proper.rst:56
+msgid "ここで指定することにより、これ以後のキーフレームの登録では変更後の秒数が基準となって登録されます。"
+msgstr "By specifying it here, subsequent keyframe registrations will be registered based on the number of seconds after the change."
+
+#: ../../source/man4/animation_proper.rst:58
+msgid ""
+"フレームを1つ以上離して登録すると、そのフレームの間隔は ``デフォルトの間隔 * 離したフレーム数`` の計算結果をベースとして調整された秒"
+"数となります。"
+msgstr ""
+"If you register more than one frame apart, the frame interval will be the number of seconds adjusted based on the calculation result "
+"of ``default interval * number of frames apart`` ."
+
+#: ../../source/man4/animation_proper.rst:61
+msgid "キーフレーム個別で間隔を設定したい場合は後述の :doc:`animation_register` →「キーフレームの間隔を設定する」を参照してください。"
+msgstr ""
+"If you want to set the interval for each keyframe, please refer to :doc:`animation_register` ... \"Setting the keyframe interval\" "
+"below."
+
+#: ../../source/man4/animation_proper.rst:70
+msgid "WebGL画面サイズを設定する"
+msgstr "Set WebGL screen size"
+
+#: ../../source/man4/animation_proper.rst:73
+msgid ""
+"必要に応じてWebGLの画面サイズを設定します。デフォルトはウィンドウの大きさに依存しています。リボンバーの ``画面`` タブにて画面サイズを"
+"指定してください。"
+msgstr ""
+"Set the screen size of WebGL as necessary. The default depends on the size of the window. Specify the screen size in the ``Screen`` "
+"tab of the ribbon bar."
+
+#: ../../source/man4/animation_proper.rst:80
+msgid "現在のアプリのウィンドウサイズを超える画面サイズを指定した場合はスクロールバーが表示されます。"
+msgstr "If you specify a screen size that exceeds the window size of the current app, a scroll bar will be displayed."
+
+#: ../../source/man4/animation_proper.rst:81
+msgid "``元のサイズ`` ボタンを押すとウィンドウサイズにフィットした画面サイズに戻ります。"
+msgstr "If you press the ``Original size`` button, the screen size will return to fit the window size."
+
+#: ../../source/man4/animation_proper.rst:83
+msgid ""
+"また、比率が違うと画面サイズを変えた時にメインカメラやCameraオブジェクトからの想定していた見え方が変わってきますのでご注意ください。"
+msgstr ""
+"Also, please note that if the ratio is different, the expected view from the main camera and Camera object will change when the "
+"screen size is changed."
+
+#: ../../source/man4/animation_proper.rst:86
+msgid "ウィンドウのサイズとWebGLの画面サイズの関係について"
+msgstr "Relation between window size and WebGL screen size"
+
+#: ../../source/man4/animation_proper.rst:88
+msgid "本アプリではウィンドウサイズの変更とWebGLの画面サイズの変更の2種類の意味が存在します。"
+msgstr "There are two meanings in this application: window size change and WebGL screen size change."
+
+#: ../../source/man4/animation_proper.rst
+msgid "ウィンドウサイズの変更"
+msgstr "Change window size"
+
+#: ../../source/man4/animation_proper.rst:91
+msgid ""
+"アプリのウィンドウ自体の変更です。リボンバーや左右のパネル・タイムラインパネルを差し引いた幅・高さがWebGL画面の最終的なサイズとなりま"
+"す。WebGL画面サイズがアプリの初期状態の場合、WebGL画面はウィンドウサイズに応じて自動的にリサイズされます。"
+msgstr ""
+"This is a change to the app window itself. The width and height after subtracting the ribbon bar, left and right panels, and "
+"timeline panel will be the final size of the WebGL screen. If the WebGL screen size is the initial state of the app, the WebGL "
+"screen will automatically resize according to the window size."
+
+#: ../../source/man4/animation_proper.rst
+msgid "WebGLの画面サイズの変更"
+msgstr "WebGL screen size change"
+
+#: ../../source/man4/animation_proper.rst
+msgid ""
+"アプリのウィンドウと関係なくサイズを変更することができます。WebGL画面のサイズが大幅に大きい場合はスクロールバーが表示されます。一度で"
+"も手動でWebGL画面サイズを変更している場合はウィンドウサイズを変更しても自動的に変わることはありません。"
+msgstr ""
+"The size can be changed regardless of the application window. Scrollbars will appear if the WebGL screen size is significantly "
+"larger. If you have changed the WebGL screen size manually even once, it will not change automatically even if you change the window "
+"size."
+
+#: ../../source/man4/animation_proper.rst
+msgid "``元のサイズ`` で元に戻せばまた自動的にリサイズされるようになります。"
+msgstr "If you restore it to ``original size``, it will be automatically resized again."
+
+#: ../../source/man4/animation_proper.rst:103
+msgid "ナビゲーションウィンドウ"
+msgstr "navigation window"
+
+#: ../../source/man4/animation_proper.rst:105
+msgid ""
+"画面サイズが変わった時にスクロールするのは手間になります。そのような時にこれを使うと全体を把握しつつスクロールできるようになるため操"
+"作性の向上が見込めます。"
+msgstr ""
+"It is troublesome to scroll when the screen size changes. If you use this in such a case, you can expect to improve operability "
+"because you can scroll while grasping the whole."
+
+#: ../../source/man4/animation_proper.rst:107
+msgid "リボンバーの画面タブにある ``Navigation`` ボタンを押します。"
+msgstr "Press the ``Navigation`` button in the Screens tab of the ribbon bar."
+
+#: ../../source/man4/animation_proper.rst:114
+msgid "アプリのメインウィンドウ内にナビゲーションの小ウィンドウが表示されます。"
+msgstr "A small navigation window will appear inside the main app window."
+
+#: ../../source/man4/animation_proper.rst:121
+msgid "ナビゲーションのプレビュー画面に現在表示中の範囲として赤い枠が表示されます。"
+msgstr "A red frame is displayed as the currently displayed range on the navigation preview screen."
+
+#: ../../source/man4/animation_proper.rst:122
+msgid ""
+"表示領域よりWebGL画面の解像度が大きい場合、赤い枠を任意の場所でクリックしたりドラッグすると、WebGL画面がその通りにスクロールします。"
+msgstr ""
+"If the resolution of the WebGL screen is larger than the display area, clicking or dragging the red frame anywhere will scroll the "
+"WebGL screen accordingly."
+
+#: ../../source/man4/animation_proper.rst:125
+msgid "ナビゲーションのウィンドウ内からも ``元のサイズ`` や ``カメラのリセット`` を行うことができます。"
+msgstr "You can also ``Resize`` and ``Reset Camera`` from within the navigation window."
+
+#: ../../source/man4/animation_proper.rst:135
+msgid "ロールにキャストを割り当てる"
+msgstr "Assign Cast to Role"
+
+#: ../../source/man4/animation_proper.rst:138
+msgid ""
+"アニメーションプロジェクトはロールごとにタイムラインが存在します。ロールは通常、キャスト（アバター・オブジェクト）を読み込んだときに"
+"自動的に割り当てられます。ここではキャストを特定のロールに割り当てる方法を説明します。"
+msgstr ""
+"An animation project has a timeline for each role. Roles are usually assigned automatically when loading a cast (avatar object). "
+"Here's how to assign a cast to a specific role."
+
+#: ../../source/man4/animation_proper.rst:140
+msgid "キャストがロールに割り当られることにより、ロール上にあるアニメーションデータをそのキャストで再生できるようになります。"
+msgstr "By assigning a cast to a role, the animation data on the role can be played with that cast."
+
+#: ../../source/man4/animation_proper.rst:148
+msgid "キャスト（アバター・オブジェクト）とロールが紐づくタイミング"
+msgstr "Timing when casts (avatars/objects) and roles are linked"
+
+#: ../../source/man4/animation_proper.rst:144
+msgid "VRoid/VRMや各オブジェクトなどを新規に読み込んだとき"
+msgstr "When loading a new VRoid/VRM or each object"
+
+#: ../../source/man4/animation_proper.rst:145
+msgid "役割の設定画面で後から変更したとき"
+msgstr "When changed later on the role setting screen"
+
+#: ../../source/man4/animation_proper.rst:146
+msgid "保存したプロジェクトを開いたとき"
+msgstr "When opening a saved project"
+
+#: ../../source/man4/animation_proper.rst:153
+msgid "後からキャストをロールに割り当てる"
+msgstr "Assign Casts to Roles Later"
+
+#: ../../source/man4/animation_proper.rst:155
+msgid "ケースとしては、一度登録したアニメーションを後から読み込んだ同種類のキャストに置き換えたい、などです。"
+msgstr "As a case, you want to replace an animation that has been registered once with a cast of the same type that is read later."
+
+#: ../../source/man4/animation_proper.rst:158 ../../source/man4/animation_proper.rst:224 ../../source/man4/animation_proper.rst:307
+msgid "リボンバーの ``アニメーション`` タブから ``設定`` をクリックします。"
+msgstr "Click ``Settings`` from the ``Animation`` tab of the ribbon bar."
+
+#: ../../source/man4/animation_proper.rst:166 ../../source/man4/animation_proper.rst:231 ../../source/man4/animation_proper.rst:314
+#: ../../source/man4/animation_proper.rst:354
+msgid "``役割の管理`` タブを開きます。"
+msgstr "Open the ``Manage Roles`` tab."
+
+#: ../../source/man4/animation_proper.rst:173
+msgid "キャストを割り当てたい役割（ロール）の列をクリックします。"
+msgstr "Click the row of the role you want to assign the cast to."
+
+#: ../../source/man4/animation_proper.rst:181
+msgid "ポップアップダイアログが開くので、目的のキャストを選択してSETボタンを押します。"
+msgstr "A pop-up dialog will open, select the desired cast and press the SET button."
+
+#: ../../source/man4/animation_proper.rst:190
+msgid "``None`` を選択するとロールをキャストなしの状態にすることができます。"
+msgstr "Select ``None`` to make the role uncast."
+
+#: ../../source/man4/animation_proper.rst:193
+msgid "元々の役割からキャストが自動的に割当解除されるのを確認します。"
+msgstr "Observe that the cast is automatically unassigned from its original role."
+
+#: ../../source/man4/animation_proper.rst:200
+msgid "※アニメーションのタイムライン上も表示が切り替わります。"
+msgstr "The display will also switch on the animation timeline."
+
+#: ../../source/man4/animation_proper.rst:205
+msgid "**上:** 後から割り当てたロールのタイムライン"
+msgstr "**Top:** Timeline for later assigned roles"
+
+#: ../../source/man4/animation_proper.rst:207
+msgid "**下:** 元々のロールのタイムライン"
+msgstr "**Bottom:** Timeline of the original role"
+
+#: ../../source/man4/animation_proper.rst:211
+msgid "キャストの割当が解除されたロールとタイムラインは削除されずにそのまま残ります。"
+msgstr "Cast unassigned roles and timelines remain intact and are not deleted."
+
+#: ../../source/man4/animation_proper.rst:219
+msgid "ロールを削除する"
+msgstr "Delete role"
+
+#: ../../source/man4/animation_proper.rst:221
+msgid ""
+"ロールを削除します。アニメーションプロジェクトにおいて不要になったロールを削除します。この操作により、ロールに割り当てられているキャ"
+"ストである実際のオブジェクトも合わせて削除されます。"
+msgstr ""
+"Delete the role. Delete roles that are no longer needed in your animation project. This operation also removes the actual object "
+"that is the cast assigned to the role."
+
+#: ../../source/man4/animation_proper.rst:222
+msgid "キャスト（オブジェクト）だけを削除する場合はオブジェクト一覧を右クリックして削除してください。"
+msgstr "To delete only the cast (object), right-click the object list and delete it."
+
+#: ../../source/man4/animation_proper.rst:232
+msgid "削除したい役割の左端のラジオボタンにチェックを入れ、ツールバーの ``役割を削除`` をクリックします。"
+msgstr "Check the radio button to the left of the role you want to remove, and click ``Remove Role`` on the toolbar."
+
+#: ../../source/man4/animation_proper.rst:239 ../../source/man4/animation_proper.rst:270
+msgid "確認メッセージが表示されるのでよければOKボタンを押します。"
+msgstr "A confirmation message will be displayed, so press the OK button."
+
+#: ../../source/man4/animation_proper.rst:242
+msgid "このようにロールを削除すると、ロールとキャスト（オブジェクト）の両方を削除します。"
+msgstr "Deleting a role like this deletes both the role and the cast(object)."
+
+#: ../../source/man4/animation_proper.rst:243
+msgid "Stageは削除できません。"
+msgstr "cannot delete Stage."
+
+#: ../../source/man4/animation_proper.rst:246
+msgid "※オブジェクト一覧で右クリックし、 ``このオブジェクトとロールを両方削除する`` でも同じことを行えます。"
+msgstr "The same thing can be done by right-clicking on the object list and selecting ``Delete both this object and role`` ."
+
+#: ../../source/man4/animation_proper.rst:257
+msgid "空のタイムラインをまとめて削除する"
+msgstr "Delete empty timelines all at once"
+
+#: ../../source/man4/animation_proper.rst:259
+msgid ""
+"ロールにキャスト（オブジェクト）を割り当るのを繰り返していると、オブジェクトが割り当てられていない・何もキーフレームが登録されていな"
+"いタイムライン（ロール）が比較的多く残ることがあります。"
+msgstr ""
+"If you repeatedly assign casts (objects) to roles, there may be a relatively large number of timelines (roles) with no objects "
+"assigned or no keyframes registered."
+
+#: ../../source/man4/animation_proper.rst:261 ../../source/man4/animation_proper.rst:347
+msgid "リボンバーの ``アニメーション`` タブの ``設定`` をクリックします。"
+msgstr "Click ``Settings`` on the ``Animation`` tab of the ribbon bar."
+
+#: ../../source/man4/animation_proper.rst:263
+msgid "ツールバーの ``空のタイムラインを削除`` をクリックします。"
+msgstr "Click ``Delete Empty Timeline`` on the toolbar."
+
+#: ../../source/man4/animation_proper.rst:277
+msgid "ここで削除されるのは次の条件に合致するタイムラインです。"
+msgstr "A confirmation message will be displayed, so press the OK button."
+
+#: ../../source/man4/animation_proper.rst
+msgid "1. キーフレームが一つも登録されていない"
+msgstr "1. No keyframes are registered"
+
+#: ../../source/man4/animation_proper.rst
+msgid "2. タイムライン（ロール）にオブジェクトが割り当てられていない"
+msgstr "2. Object is not assigned to timeline (role)"
+
+#: ../../source/man4/animation_proper.rst:283
+msgid "※SystemEffect、BGM、SE、Stageはロールとオブジェクトを分離することはできないため、対象になりません。"
+msgstr "SystemEffect, BGM, SE, Stage cannot be separated from roles, so they are not included."
+
+#: ../../source/man4/animation_proper.rst:291
+msgid "ロールのタイトルを変更する"
+msgstr "Change role title"
+
+#: ../../source/man4/animation_proper.rst:294
+msgid "ロールにはわかりやすさのためタイトルを入力できます。通常は次のように初期値として設定されます。"
+msgstr "You can enter a title for the role for clarity. It is usually set as an initial value as follows."
+
+#: ../../source/man4/animation_proper.rst
+msgid "VRM"
+msgstr "VRM"
+
+#: ../../source/man4/animation_proper.rst:298
+msgid "VRMのメタ情報のタイトル"
+msgstr "VRM meta information title"
+
+#: ../../source/man4/animation_proper.rst
+msgid "VRM以外"
+msgstr "Non-VRM"
+
+#: ../../source/man4/animation_proper.rst:301
+msgid "種類名＋日時による連番"
+msgstr "Sequential number by type name + date and time"
+
+#: ../../source/man4/animation_proper.rst:303
+msgid "この仕様のため、VRMのタイトルがロールのタイトルと同じVRMの場合は自動的にロールとキャストが割り当てられます。"
+msgstr "Because of this specification, roles and casts are automatically assigned if the VRM title is the same as the role title."
+
+#: ../../source/man4/animation_proper.rst:304
+msgid ""
+"変更するとVRMは自動的に割り当てられなくなりますが、アニメーションプロジェクトにおいてわかりやすいロール名で管理することができます。"
+msgstr ""
+"When changed, the VRM will not be automatically assigned, but it can be managed with an easy-to-understand role name in the "
+"animation project."
+
+#: ../../source/man4/animation_proper.rst:321
+msgid "役割のタイトルを編集したい行を探し役割の箇所をクリックします。"
+msgstr "Find the row where you want to edit the role title and click on the role."
+
+#: ../../source/man4/animation_proper.rst:328
+msgid "ポップアップダイアログが表示されるので新しい名前を入力しSETボタンを押します。"
+msgstr "A pop-up dialog will appear. Enter a new name and press the SET button."
+
+#: ../../source/man4/animation_proper.rst:335
+msgid "入力を確定するとタイムライン上のロールのタイトルの表示も変わります。"
+msgstr "Confirming the entry also changes the role title display on the timeline."
+
+#: ../../source/man4/animation_proper.rst:343
+msgid "すべてのロールを再読込する"
+msgstr "Reload all roles"
+
+#: ../../source/man4/animation_proper.rst:345
+msgid ""
+"HTMLとUnityのWebGLは常に完全に連動しているわけではありません。HTML側とWebGL側のロールのデータと表示にずれがあった場合に再読込すること"
+"で表示を最新化します。"
+msgstr ""
+"HTML and Unity's WebGL are not always perfectly linked. If there is a discrepancy between the role data and display on the HTML side "
+"and WebGL side, the display is updated by reloading."
+
+#: ../../source/man4/animation_proper.rst:355
+msgid "ツールバーの ``最新の状態に更新`` をクリックします。"
+msgstr "Click ``Refresh`` on the toolbar."

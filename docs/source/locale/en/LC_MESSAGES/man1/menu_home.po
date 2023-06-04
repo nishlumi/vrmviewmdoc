@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 20:38+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/menu_home.rst:5
+msgid "ホームタブ"
+msgstr "Home tab"
+
+#: ../../source/man1/menu_home.rst:14
+msgid "ホームにはよく使う機能のボタンを集めてあります。"
+msgstr "The home screen has buttons for frequently used functions."
+
+#: ../../source/man1/menu_home.rst:34
+msgid "Application"
+msgstr "Application"
+
+#: ../../source/man1/menu_home.rst
+msgid "このアプリについて"
+msgstr "About this app"
+
+#: ../../source/man1/menu_home.rst:19
+msgid "本アプリのロゴを表示します。"
+msgstr "Displays the logo of this application."
+
+#: ../../source/man1/menu_home.rst
+msgid "キャッシュクリア"
+msgstr "Clear cache"
+
+#: ../../source/man1/menu_home.rst:21
+msgid "ファイルの開いた履歴や一時ファイルを一括で削除します。"
+msgstr "Deletes file open history and temporary files all at once."
+
+#: ../../source/man1/menu_home.rst:28
+msgid "WebGLの動作を整理する"
+msgstr "Organize the operation of WebGL"
+
+#: ../../source/man1/menu_home.rst:28
+msgid "HTMLのUIを操作したときにWebGL内が動かなくなったときに動作をチェックして不要なキャッシュをクリアします。"
+msgstr "Check the behavior and clear unnecessary caches when WebGL gets stuck when you operate the HTML UI."
+
+#: ../../source/man1/menu_home.rst:29
+msgid "アプリのキャッシュをクリアする"
+msgstr "Clear the app cache"
+
+#: ../../source/man1/menu_home.rst:29
+msgid "アプリ内で一時的に保持するだけのデータをまとめて削除します。"
+msgstr "Delete all the data that is only temporarily stored in the app."
+
+#: ../../source/man1/menu_home.rst:30
+msgid "アプリの設定を削除する"
+msgstr "Delete app settings"
+
+#: ../../source/man1/menu_home.rst:30
+msgid "アプリの設定で示される設定内容をすべて削除してデフォルトの状態に戻します。"
+msgstr "Deletes all the settings shown in the app settings and restores them to their default state."
+
+#: ../../source/man1/menu_home.rst
+msgid "言語選択"
+msgstr "Language selection"
+
+#: ../../source/man1/menu_home.rst:34
+msgid "本アプリのUI言語を切り替えます。一部UIは次回起動後に反映されます。"
+msgstr "Switch the UI language of this application. Some UI will be reflected after the next startup."
+
+#: ../../source/man1/menu_home.rst
+msgid "詳細情報"
+msgstr "Detailed information"
+
+#: ../../source/man1/menu_home.rst:37
+msgid "選択したVRMの情報を表示します。"
+msgstr "Displays information for the selected VRM."
+
+#: ../../source/man1/menu_home.rst:43
+msgid "Load"
+msgstr "Load"
+
+#: ../../source/man1/menu_home.rst
+msgid "VRM"
+msgstr "VRM"
+
+#: ../../source/man1/menu_home.rst:41
+msgid "VRMを開いて読み込みます。"
+msgstr "Open and load VRM."
+
+#: ../../source/man1/menu_home.rst
+msgid "オブジェクト"
+msgstr "Object"
+
+#: ../../source/man1/menu_home.rst:43
+msgid "FBXやOBJなどを開いて読み込みます。"
+msgstr "Open and load FBX, OBJ, etc."
+
+#: ../../source/man1/menu_home.rst:49
+msgid "Project"
+msgstr "Project"
+
+#: ../../source/man1/menu_home.rst
+msgid "開く"
+msgstr "Open"
+
+#: ../../source/man1/menu_home.rst:47
+msgid "既存のアニメーションプロジェクトファイルを開きます。"
+msgstr "Open an existing animation project file."
+
+#: ../../source/man1/menu_home.rst
+msgid "保存"
+msgstr "Save"
+
+#: ../../source/man1/menu_home.rst:49
+msgid "現在のアニメーションプロジェクトをファイルに保存します。このタブでは **上書き保存** と同等です。"
+msgstr "Save the current animation project to a file. Equivalent to **Save** in this tab."
+
+#: ../../source/man1/menu_home.rst
+msgid "履歴"
+msgstr "History"
+
+#: ../../source/man1/menu_home.rst:52
+msgid "一度開いたことの各オブジェクト（VRM、OtherObject、画像）を開くダイアログを表示します。"
+msgstr "Displays a dialog to open each object (VRM, OtherObject, Image) once opened."
+
+#: ../../source/man1/menu_home.rst
+msgid "キャプチャ"
+msgstr "capture"
+
+#: ../../source/man1/menu_home.rst:55
+msgid "現在のWebGLの画面をスクリーンショットを撮って保存します。"
+msgstr "Take a screenshot of the current WebGL screen and save it."
+
+#: ../../source/man1/menu_home.rst
+msgid "設定"
+msgstr "Config"
+
+#: ../../source/man1/menu_home.rst:58
+msgid "本アプリの設定画面を表示します。"
+msgstr "Display the setting screen of this application."
+
+#: ../../source/man1/menu_home.rst
+msgid "v-pad"
+msgstr "v-pad"
+
+#: ../../source/man1/menu_home.rst:60
+msgid "メインカメラの操作パッドを表示します。"
+msgstr "Displays the operation pad of the main camera."

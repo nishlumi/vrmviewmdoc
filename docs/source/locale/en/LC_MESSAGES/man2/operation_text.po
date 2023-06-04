@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 00:01+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_text.rst:3
+msgid "Text"
+msgstr "Text"
+
+#: ../../source/man2/operation_text.rst:6
+msgid ""
+"Textは3Dオブジェクトではなく、HTMLのような2Dです。主にUI"
+"としてテキストを表示することができます。 　3Dオブジェクト"
+"よりも優先して描画されます。"
+msgstr ""
+"Text is 2D like HTML, not a 3D object. You can mainly "
+"display text as UI. 　It is drawn with priority over 3D "
+"objects."
+
+#: ../../source/man2/operation_text.rst:16
+msgid ""
+"位置を示すX,Y座標はUnityとは異なり、わかりやすさを重視し"
+"てHTMLなどと同様に左上を(0, 0)として表します。また、Unity"
+"の仕様上2Dも実際は3Dオブジェクトのため回転も本来X座標、Y"
+"座標でできるのですが、本アプリではわかりやすさ重視のた"
+"め、Z座標のみの回転としています。（X座標、Y座標は自動設定"
+"です）"
+msgstr ""
+"Unlike Unity, the X and Y coordinates that indicate the "
+"position are expressed with the upper left as (0, 0), "
+"just like HTML, for the sake of clarity. Also, due to "
+"Unity's specifications, 2D objects are actually 3D "
+"objects, so they can be rotated using the X and Y "
+"coordinates. (X and Y coordinates are automatically set)"
+
+#: ../../source/man2/operation_text.rst:25
+msgid ""
+"Textももちろんアニメーションプロジェクトに対応していま"
+"す。"
+msgstr "Text, of course, also supports animation projects."

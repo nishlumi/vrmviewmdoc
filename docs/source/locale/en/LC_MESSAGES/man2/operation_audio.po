@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 23:12+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_audio.rst:5
+msgid "Audio"
+msgstr "Audio"
+
+#: ../../source/man2/operation_audio.rst:8
+msgid ""
+"Audioは3Dオブジェクトではなく、その名の通りオーディオです。Unity標準機能で再生されますが、WebGLの制限"
+"で「ogg」は使用不可となっています。"
+msgstr ""
+"Audio is not a 3D object, it is audio as the name suggests. It is played with the Unity standard "
+"function, but \"ogg\" cannot be used due to WebGL restrictions."
+
+#: ../../source/man2/operation_audio.rst:17
+msgid "Audioはプロパティ一覧ではなく、上部のリボンバーのオーディオタブで設定を変更します。"
+msgstr ""
+"For Audio, change the settings in the Audio tab of the top ribbon bar, not in the property list."
+
+#: ../../source/man2/operation_audio.rst:19
+msgid "次のボタンを押してオーディオファイルを読み込みます。"
+msgstr "Press the next button to load the audio file."
+
+#: ../../source/man2/operation_audio.rst:26
+msgid "直下のコンボボックスで再生したいオーディオ名を選択します。"
+msgstr "Select the audio name you want to play in the combo box directly below."
+
+#: ../../source/man2/operation_audio.rst:33
+msgid "プレビュー再生あるいはアニメーションプロジェクト用に設定します。"
+msgstr "Configure for preview playback or animation projects."
+
+#: ../../source/man2/operation_audio.rst:35
+msgid "norange"
+msgstr "norange"
+
+#: ../../source/man2/operation_audio.rst:36
+msgid "isrange"
+msgstr "isrange"
+
+#: ../../source/man2/operation_audio.rst:1
+msgid "プレビュー再生"
+msgstr "preview playback"
+
+#: ../../source/man2/operation_audio.rst:1
+msgid "アニメーション登録用"
+msgstr "for animation registration"
+
+#: ../../source/man2/operation_audio.rst:1
+msgid "|norange|"
+msgstr "|norange|"
+
+#: ../../source/man2/operation_audio.rst:1
+msgid "|isrange|"
+msgstr "|isrange|"
+
+#: ../../source/man2/operation_audio.rst:1
+msgid "即座に再生されます。こちらの操作はキーフレームには登録されません。"
+msgstr "It will play instantly. This operation is not registered in the keyframe."
+
+#: ../../source/man2/operation_audio.rst:1
+msgid "「再生」や「停止」を選択後にキーフレームに登録します。"
+msgstr "Register the keyframe after selecting \"Play\" or \"Stop\"."
+
+#: ../../source/man2/operation_audio.rst:45
+msgid ""
+"オーディオをアニメーションプロジェクトに登録するにはタブ内の ``キーフレーム登録`` ボタンか、このタブ内"
+"で右クリックし、「キーフレーム登録」ボタンを使用します。"
+msgstr ""
+"To register audio to your animation project, use the ``Register Keyframe`` button in the tab, or "
+"right-click in this tab and select the ``Register Keyframe`` button."
+
+#: ../../source/man2/operation_audio.rst:53
+msgid ""
+"※このタブ内で右クリックした場合に表示される「キーフレーム登録」はオーディオ専用です。どのオブジェクト"
+"を選択していても、必ずオーディオだけを対象にしますので、お間違えないようご注意ください。"
+msgstr ""
+"* \"Register keyframe\" displayed when right-clicking in this tab is for audio only. No matter what "
+"object you select, it will always target audio only, so be careful."
+
+#: ../../source/man2/operation_audio.rst:56
+msgid ""
+"※オーディオファイルは権利関係が特に厳しいと思われますので、第三者の音楽ファイルを使用する場合は必ず権"
+"利関係を守って使用してください。"
+msgstr ""
+"* Because the rights of audio files are considered to be particularly strict, please be sure to "
+"protect the rights when using music files of third parties."
+
+#: ../../source/man2/operation_audio.rst:58
+msgid ""
+"本アプリでは読み込んだオーディオはアプリを再読み込みするとブラウザ上からは削除されます。ローカルでしか"
+"扱われず共有機能もないので使用者自身が所持しているファイルしか使えないようになっています。"
+msgstr ""
+"The audio loaded in this application will be deleted from the browser when the application is "
+"reloaded. Since it is only handled locally and there is no sharing function, only files that the user "
+"owns can be used."

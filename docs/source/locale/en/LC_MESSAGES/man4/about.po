@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 13:05+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man4/about.rst:5
+msgid "アニメーションプロジェクトとは"
+msgstr "What is an animation project?"
+
+#: ../../source/man4/about.rst:8
+msgid ""
+"本アプリで読み込めるオブジェクトを自由にアニメーションさせることができます。アニメーションの作り方はMMD、MMM（MikuMikuMoving）"
+"や一般的なアニメーション作成ソフトと似せてあるので、少し使っていただければすぐ慣れると思います。"
+msgstr ""
+"You can freely animate objects that can be read with this application. The method of making animations is similar to MMD, MMM "
+"(MikuMikuMoving), and general animation creation software, so I think you'll get used to it in no time if you use it for a "
+"while."
+
+#: ../../source/man4/about.rst:9
+msgid "本アプリ独自のアニメーションを「アニメーションプロジェクト」という名で説明に使っていきます。"
+msgstr "This application's original animation will be used for explanation under the name of \"animation project\"."
+
+#: ../../source/man4/about.rst:17
+msgid ""
+"本アプリのアニメーションは独自の実装のため、MMDやUnity Editorで使われるアニメーションの形式とは一切互換性はありませんのでご注意"
+"ください。（将来的には一般的な形式にエクスポートする機能の実装も考えています）"
+msgstr ""
+"Please note that the animations in this application are unique implementations and are not compatible with the animation "
+"format used in MMD or Unity Editor. (We are also considering implementing a function to export to common formats in the future)"
+
+#: ../../source/man4/about.rst:18
+msgid "FBXに含まれるアニメーションデータを再生することはできます。"
+msgstr "Animation data included in FBX can be played."
+
+#: ../../source/man4/about.rst:19
+msgid "後述の録画をすると一般的に再生可能な形式で保存することができます。"
+msgstr "If you record later, you can save it in a generally playable format."
+
+#: ../../source/man4/about.rst:29
+msgid "本アプリで使われるアニメーションに関するファイル形式"
+msgstr "File format for animation used in this application"
+
+#: ../../source/man4/about.rst:22
+msgid "独自の形式となっています。次の3つです。"
+msgstr "It has its own format. There are three:"
+
+#: ../../source/man4/about.rst:1
+msgid "拡張子"
+msgstr "Extension"
+
+#: ../../source/man4/about.rst:1
+msgid "概要"
+msgstr "overview"
+
+#: ../../source/man4/about.rst:1
+msgid ".vvmproj"
+msgstr ".vvmproj"
+
+#: ../../source/man4/about.rst:1
+msgid "アニメーションプロジェクト（本アプリでのアニメーションにかかわる全情報を保持するファイル）。"
+msgstr "animation project (file that holds all information related to animation in this application)."
+
+#: ../../source/man4/about.rst:1
+msgid ".vvmmot"
+msgstr ".vvmmot"
+
+#: ../../source/man4/about.rst:1
+msgid ""
+"モーションデータ（本アプリで各タイムライン（ロール）１つあたりのアニメーション情報）。VRMやOtherObjectだけでなくカメラや2Dオブ"
+"ジェクト、システムエフェクトのアニメーション情報も保持可能。"
+msgstr ""
+"motion data (animation information for each timeline (roll) in this application). In addition to VRM and OtherObject, "
+"animation information for cameras, 2D objects, and system effects can also be stored."
+
+#: ../../source/man4/about.rst:1
+msgid ".vvmpose"
+msgstr ".vvmpose"
+
+#: ../../source/man4/about.rst:1
+msgid "ポーズデータ（アニメーションでいうと１フレームのみの情報）、VRM専用。"
+msgstr "Pose data (information for only one frame in animation), VRM only."

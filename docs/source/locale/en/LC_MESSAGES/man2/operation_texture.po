@@ -1,0 +1,543 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 11:07+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_texture.rst:6
+msgid "テクスチャ"
+msgstr "Texture"
+
+#: ../../source/man2/operation_texture.rst:8
+msgid "テクスチャの設定はVRMとOtherObjectに共通して存在します。"
+msgstr "Texture settings are common to VRM and OtherObject."
+
+#: ../../source/man2/operation_texture.rst:11
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man2/operation_texture.rst:13
+msgid "詳しい説明は各サイトを御覧ください。"
+msgstr "Please see each site for detailed explanations."
+
+#: ../../source/man2/operation_texture.rst:1
+msgid "Standard assetのWater"
+msgstr "Standard asset Water"
+
+#: ../../source/man2/operation_texture.rst:1
+msgid "https://docs.unity3d.com/ja/2019.1/Manual/HOWTO-Water.html"
+msgstr "https://docs.unity3d.com/ja/2019.1/Manual/HOWTO-Water.html"
+
+#: ../../source/man2/operation_texture.rst:1
+msgid "MToonリファレンス"
+msgstr "MToon reference"
+
+#: ../../source/man2/operation_texture.rst:1
+msgid "https://virtualcast.jp/wiki/unity/shader/mtoonreference"
+msgstr "https://virtualcast.jp/wiki/unity/shader/mtoonreference"
+
+#: ../../source/man2/operation_texture.rst:1
+msgid "デッサン風シェーダー"
+msgstr "drawing style shader"
+
+#: ../../source/man2/operation_texture.rst:1 ../../source/man2/operation_texture.rst:167
+msgid "https://usagi-meteor.booth.pm/items/4453497"
+msgstr "https://usagi-meteor.booth.pm/items/4453497"
+
+#: ../../source/man2/operation_texture.rst:1
+msgid "コミックシェーダー"
+msgstr "Comic shader"
+
+#: ../../source/man2/operation_texture.rst:1 ../../source/man2/operation_texture.rst:187
+msgid "https://booth.pm/ja/items/2138884"
+msgstr "https://booth.pm/ja/items/2138884"
+
+#: ../../source/man2/operation_texture.rst:1
+msgid "氷シェーダー"
+msgstr "Ice shader"
+
+#: ../../source/man2/operation_texture.rst:1 ../../source/man2/operation_texture.rst:209
+msgid "https://booth.pm/ja/items/2138863"
+msgstr "https://booth.pm/ja/items/2138863"
+
+#: ../../source/man2/operation_texture.rst:25
+msgid "テクスチャの操作"
+msgstr "Manipulating Textures"
+
+#: ../../source/man2/operation_texture.rst:26
+msgid ""
+"VRMやOtherObjectが保持しているテクスチャを細かく設定変更することができます。なお、両者の設定と使用方法は全く同じです。"
+msgstr ""
+"You can finely change the settings of the textures held by VRM and OtherObject. Both settings and usage are exactly the "
+"same."
+
+#: ../../source/man2/operation_texture.rst:33
+msgid "マテリアルが複数存在する場合は上部のコンボボックスから対象のマテリアルを選択します。"
+msgstr "If there are multiple materials, select the target material from the upper combo box."
+
+#: ../../source/man2/operation_texture.rst:35
+msgid "※テクスチャの設定の内容が切り替わります。"
+msgstr "The contents of the texture settings are switched."
+
+#: ../../source/man2/operation_texture.rst:37
+msgid "各種設定を好みで変更します。"
+msgstr "Change various settings as you like."
+
+#: ../../source/man2/operation_texture.rst:40
+msgid "すべての部位に適用する"
+msgstr "Apply to all parts"
+
+#: ../../source/man2/operation_texture.rst:47
+msgid ""
+"基本的には一つのマテリアルごとに設定していくことになりますが、マテリアルの数が多かったり、モデルの見た目を一括して変えたい"
+"場合、このオプションにチェックを入れてからテクスチャの設定を変更することで、全て同時に変更できるようになります。"
+msgstr ""
+"Basically, it will be set for each material, but if there are many materials or you want to change the appearance of the "
+"model all at once, check this option and change the texture setting This will allow you to change them all at the same "
+"time."
+
+#: ../../source/man2/operation_texture.rst:49
+msgid "なお、チェックを入れている間はマテリアルを選ぶことはできません。"
+msgstr "Note that you cannot select a material while the checkbox is checked."
+
+#: ../../source/man2/operation_texture.rst:53
+msgid "テクスチャの詳細"
+msgstr "Ttexture details"
+
+#: ../../source/man2/operation_texture.rst
+msgid "シェーダー"
+msgstr "Shader"
+
+#: ../../source/man2/operation_texture.rst:56
+msgid ""
+"``Standard`` ,  ``VRM/MToon`` , ``VRM10/MToon10`` , ``Water``, ``Sketch``, ``PostSketch``, ``Comic``, ``Ice`` のいずれかを"
+"選択します。"
+msgstr ""
+"Choose one of the following: ``Standard``, ``VRM/MToon``, ``VRM10/MToon1``, ``Water``, ``Sketch``, ``PostSketch``, "
+"``Comic``, ``Ice`` "
+
+#: ../../source/man2/operation_texture.rst:59
+msgid "テクスチャの変更はこのアプリの使用中のみで実際には変更されません。"
+msgstr "The texture changes are not actually changed only while using this app."
+
+#: ../../source/man2/operation_texture.rst:60
+msgid "各色のプロパティの不透明度はWebGLの場合適切に反映されないことがあります。ご了承ください。"
+msgstr "The opacity of each color property may not be properly reflected in WebGL. note that."
+
+#: ../../source/man2/operation_texture.rst:61
+msgid ""
+"同じマテリアルを使用しているテクスチャ（メッシュ）が複数ある場合、アニメーションプロジェクトにおいてはその最後のテクスチャ"
+"の設定のみが最終的に反映されます。（例: Aというマテリアルを使用しているテクスチャが3つ存在する場合、3番目の設定が最後に適用"
+"される）"
+msgstr ""
+"If you have multiple textures (meshes) that use the same material, only the settings of the last texture will be reflected "
+"in the final animation project. (e.g. if there are 3 textures using material A, the 3rd setting will be applied last)"
+
+#: ../../source/man2/operation_texture.rst:62
+msgid ""
+"VRM 0.xモデルも本アプリで読み込むとVRM 1.xの仕様に従っています。そのため、基本的にシェーダーは ``VRM10/MToon10`` を使用して"
+"ください。"
+msgstr ""
+"VRM 0.x models also follow the VRM 1.x specifications when loaded with this app. Therefore, basically use ``VRM10/"
+"MToon10`` shaders."
+
+#: ../../source/man2/operation_texture.rst:66
+msgid "Standard"
+msgstr "Standard"
+
+#: ../../source/man2/operation_texture.rst:68
+msgid "Unity標準のテクスチャです。"
+msgstr "Unity standard texture."
+
+#: ../../source/man2/operation_texture.rst
+msgid "色"
+msgstr "Color"
+
+#: ../../source/man2/operation_texture.rst:71 ../../source/man2/operation_texture.rst:102
+msgid "テクスチャのベースの色を変更します。"
+msgstr "Change the base color of the texture."
+
+#: ../../source/man2/operation_texture.rst
+msgid "ブレンドモード"
+msgstr "blend mode"
+
+#: ../../source/man2/operation_texture.rst:73 ../../source/man2/operation_texture.rst:104
+msgid "``Opaque``、 ``Cutout``、 ``Fade``、 ``Transparent`` のいずれかを選択します。"
+msgstr "Choose one of the following: ``Opaque``, ``Cutout``, ``Fade``, ``Transparent``"
+
+#: ../../source/man2/operation_texture.rst
+msgid "カリングモード"
+msgstr "culling mode"
+
+#: ../../source/man2/operation_texture.rst:76 ../../source/man2/operation_texture.rst:107
+msgid "``Off``、 ``Front``、 ``Back`` のいずれかを選択します。"
+msgstr "Choose one of the following: ``Off``,  ``Front``,  ``Back``"
+
+#: ../../source/man2/operation_texture.rst
+msgid "メタリック"
+msgstr "metallic"
+
+#: ../../source/man2/operation_texture.rst:78
+msgid "金属のような表面にします。"
+msgstr "Makes the surface look like metal."
+
+#: ../../source/man2/operation_texture.rst
+msgid "光沢"
+msgstr "Glossiness"
+
+#: ../../source/man2/operation_texture.rst:80
+msgid "表面に輝きを追加します。"
+msgstr "Adds shine to the surface."
+
+#: ../../source/man2/operation_texture.rst
+msgid "発光色"
+msgstr "Emitting color"
+
+#: ../../source/man2/operation_texture.rst:82
+msgid "Emission Colorです。"
+msgstr "Emission Color"
+
+#: ../../source/man2/operation_texture.rst
+msgid "テクスチャの種類"
+msgstr "Texture type"
+
+#: ../../source/man2/operation_texture.rst:84
+msgid "``ファイルから``、あるいは ``カメラから`` を選択します。いずれの場合も ``--`` を選ぶと参照を解除できます。"
+msgstr "Select ``From File`` or ``From Camera``. In either case, you can unreference it by choosing ``--``."
+
+#: ../../source/man2/operation_texture.rst:86
+msgid "ファイルから [1]_"
+msgstr "From file [1]_"
+
+#: ../../source/man2/operation_texture.rst:87
+msgid ""
+"別途読み込み済みのテクスチャファイルに付けた素材名を選択して読み込みます。元のテクスチャに戻す場合は ``--`` を選択してくだ"
+"さい。"
+msgstr ""
+"Select and load the material name given to the separately loaded texture file. Select ``--`` to return to the original "
+"texture."
+
+#: ../../source/man2/operation_texture.rst:89
+msgid "カメラから [2]_"
+msgstr "From camera [2]_"
+
+#: ../../source/man2/operation_texture.rst:89
+msgid ""
+"プロジェクトに存在するカメラオブジェクトを選択します。別途カメラオブジェクト側でレンダーテクスチャの設定をしておく必要があ"
+"ります。"
+msgstr ""
+"Select a camera object that exists in your project. It is necessary to set the render texture separately on the camera "
+"object side."
+
+#: ../../source/man2/operation_texture.rst:92
+msgid ""
+"リボンバーの ``アニメーション`` タブ → ``設定`` ボタン → ``素材`` タブ　にて必要なテクスチャファイルを事前に読み込んでくだ"
+"さい。"
+msgstr ""
+"Load the necessary texture files in advance from the ``Animation`` tab on the ribbon bar → ``Settings`` button → "
+"``Material`` tab."
+
+#: ../../source/man2/operation_texture.rst:93
+msgid "Cameraオブジェクトで事前にレンダーテクスチャを設定しておいてください。"
+msgstr "Set the render texture in advance with the Camera object."
+
+#: ../../source/man2/operation_texture.rst:97
+msgid "VRM10/MToon10"
+msgstr "VRM10/MToon10"
+
+#: ../../source/man2/operation_texture.rst:99
+msgid "VRM 1.0標準のシェーダーです。VRM 0.xのものとは若干異なります。"
+msgstr "VRM 1.0 standard shader. It is slightly different from that of VRM 0.x."
+
+#: ../../source/man2/operation_texture.rst
+msgid "カットオフ"
+msgstr "cut off"
+
+#: ../../source/man2/operation_texture.rst:109
+msgid "0.5が基本値です。それより低いと欠けたテクスチャが次第に表示されていきます。1.0だと完全に透明になります。"
+msgstr ""
+"0.5 is the base value. Anything lower than that will gradually reveal missing textures. 1.0 is completely transparent."
+
+#: ../../source/man2/operation_texture.rst:111
+msgid "_EmissionColorです。"
+msgstr "_EmissionColor"
+
+#: ../../source/man2/operation_texture.rst
+msgid "シェードの色"
+msgstr "shade color"
+
+#: ../../source/man2/operation_texture.rst:113
+msgid "_ShadeColor です。"
+msgstr "_ShadeColor"
+
+#: ../../source/man2/operation_texture.rst
+msgid "影の境界線のなめらかさ"
+msgstr "Shadow border smoothness"
+
+#: ../../source/man2/operation_texture.rst:115
+msgid "Shading Toonyです。"
+msgstr "Shading Toony"
+
+#: ../../source/man2/operation_texture.rst
+msgid "影のかかる領域"
+msgstr "shadowed area"
+
+#: ../../source/man2/operation_texture.rst:117
+msgid "Shade Shiftです。"
+msgstr "Shade Shift"
+
+#: ../../source/man2/operation_texture.rst
+msgid "影の受け具合"
+msgstr "Acceptance of shadows"
+
+#: ../../source/man2/operation_texture.rst:119
+msgid "Receive Shadowです。"
+msgstr "Receive Shadow"
+
+#: ../../source/man2/operation_texture.rst
+msgid "シェーディンググレード"
+msgstr "shading grade"
+
+#: ../../source/man2/operation_texture.rst:121
+msgid "Shading Gradeです。"
+msgstr "Shading Grade"
+
+#: ../../source/man2/operation_texture.rst
+msgid "環境光の反映の度合い"
+msgstr "Degree of reflection of ambient light"
+
+#: ../../source/man2/operation_texture.rst:123
+msgid "Light Color Attenuationです。"
+msgstr "Light Color Attenuation"
+
+#: ../../source/man2/operation_texture.rst
+msgid "リムライトの色"
+msgstr "rim light color"
+
+#: ../../source/man2/operation_texture.rst:125
+msgid "Rim colorです。"
+msgstr "Rim color"
+
+#: ../../source/man2/operation_texture.rst
+msgid "リムライトの境界線の強さ"
+msgstr "Rimlight border strength"
+
+#: ../../source/man2/operation_texture.rst:127
+msgid "Rim Fresnel Powerです。"
+msgstr "Rim Fresnel Power"
+
+#: ../../source/man2/operation_texture.rst
+msgid "SrcBlend～DstBlend"
+msgstr "SrcBlend ~ DstBlend"
+
+#: ../../source/man2/operation_texture.rst:129
+msgid "色と透過を複合的に変化させて適用します。詳しくはVRM/MToonの解説サイトを検索してください。"
+msgstr "Applies complex changes in color and transparency. For details, please search the explanation site of VRM/MToon."
+
+#: ../../source/man2/operation_texture.rst:132
+msgid "Standardと同様です。"
+msgstr "Same as Standard"
+
+#: ../../source/man2/operation_texture.rst:136
+msgid "Water"
+msgstr "Water"
+
+#: ../../source/man2/operation_texture.rst:138
+msgid "水面を表現するシェーダーです。"
+msgstr "A shader that represents the water surface."
+
+#: ../../source/man2/operation_texture.rst
+msgid "フレネルスケール"
+msgstr "Fresnel Scale"
+
+#: ../../source/man2/operation_texture.rst:141
+msgid "Fresnel Scaleです。"
+msgstr "Fresnel Scale"
+
+#: ../../source/man2/operation_texture.rst
+msgid "反射色"
+msgstr "reflection color"
+
+#: ../../source/man2/operation_texture.rst:143
+msgid "光に照らされた際の水面の色です。"
+msgstr "The color of the water surface when illuminated by light."
+
+#: ../../source/man2/operation_texture.rst
+msgid "鏡面色"
+msgstr "mirror surface color"
+
+#: ../../source/man2/operation_texture.rst:145
+msgid "水面の反射したものの色です。"
+msgstr "The color of the reflection on the water surface."
+
+#: ../../source/man2/operation_texture.rst
+msgid "波の揺れ幅、波の周波数、波の急勾配、波の速度、波方向AB、波方向CD"
+msgstr "Wave amplitude, wave frequency, wave steepness, wave velocity, wave direction AB, wave direction CD"
+
+#: ../../source/man2/operation_texture.rst:147
+msgid "波の頻度や大きさなどを変化させます。"
+msgstr "Changes the frequency and magnitude of waves."
+
+#: ../../source/man2/operation_texture.rst:151
+msgid "Sketch、PostSketch"
+msgstr "Sketch / PostSketch"
+
+#: ../../source/man2/operation_texture.rst:153
+msgid "スケッチ風の描写になるシェーダーです。"
+msgstr "This is a shader that creates a sketch-like depiction."
+
+#: ../../source/man2/operation_texture.rst
+msgid "アウトライン幅"
+msgstr "outline width"
+
+#: ../../source/man2/operation_texture.rst:156 ../../source/man2/operation_texture.rst:177
+msgid "テクスチャのオブジェクトの周囲に線を付けます。"
+msgstr "Draw lines around textured objects."
+
+#: ../../source/man2/operation_texture.rst
+msgid "ストローク密度"
+msgstr "stroke density"
+
+#: ../../source/man2/operation_texture.rst
+msgid "追加の明るさ"
+msgstr "extra brightness"
+
+#: ../../source/man2/operation_texture.rst
+msgid "マルチブライトネス"
+msgstr "multi brightness"
+
+#: ../../source/man2/operation_texture.rst
+msgid "影の明るさ"
+msgstr "shadow brightness"
+
+#: ../../source/man2/operation_texture.rst:161
+msgid "Sketchのみです。"
+msgstr "Only Sketch"
+
+#: ../../source/man2/operation_texture.rst:163
+msgid "配布・購入先"
+msgstr "Distribution/Purchase"
+
+#: ../../source/man2/operation_texture.rst:165
+msgid "うさぎ流星群様"
+msgstr "うさぎ流星群様"
+
+#: ../../source/man2/operation_texture.rst:170
+msgid "Comic"
+msgstr "Comic"
+
+#: ../../source/man2/operation_texture.rst:172
+msgid "漫画風の描写になるシェーダーです。"
+msgstr "It is a shader that creates a cartoon-like depiction."
+
+#: ../../source/man2/operation_texture.rst
+msgid "テクスチャの透明度"
+msgstr "texture transparency"
+
+#: ../../source/man2/operation_texture.rst:175
+msgid "VRM10/MToon10のカットオフと似た効果です。欠けたテクスチャを透明にします。"
+msgstr "The effect is similar to the VRM10/MToon10 cutoff. Make missing textures transparent."
+
+#: ../../source/man2/operation_texture.rst
+msgid "線幅"
+msgstr "line width"
+
+#: ../../source/man2/operation_texture.rst:179
+msgid "線や影の色を変えます。"
+msgstr "Change the color of lines and shadows."
+
+#: ../../source/man2/operation_texture.rst
+msgid "トーンのしきい値"
+msgstr "tone threshold"
+
+#: ../../source/man2/operation_texture.rst:181
+msgid "トーンの範囲を変えます。"
+msgstr "Change the tone range."
+
+#: ../../source/man2/operation_texture.rst:183 ../../source/man2/operation_texture.rst:205
+msgid "配布先"
+msgstr "Distributor"
+
+#: ../../source/man2/operation_texture.rst:185 ../../source/man2/operation_texture.rst:207
+msgid "Xin Games様"
+msgstr "Xin Games様"
+
+#: ../../source/man2/operation_texture.rst:190
+msgid "Ice"
+msgstr "Ice"
+
+#: ../../source/man2/operation_texture.rst:192
+msgid "氷のような描写になるシェーダーです。"
+msgstr "This is a shader that renders like ice."
+
+#: ../../source/man2/operation_texture.rst:195
+msgid "氷の表面の色を変えます。"
+msgstr "Change the color of the ice surface."
+
+#: ../../source/man2/operation_texture.rst
+msgid "透明度"
+msgstr "Transparency"
+
+#: ../../source/man2/operation_texture.rst:197
+msgid ""
+"透明度がプラスの値だと氷として色がはっきりします。0に近づくと透明になります。マイナスが多くなると透明ではなく色が反転し始め"
+"ます。"
+msgstr ""
+"If the transparency is a positive value, the color becomes clear as ice. As it approaches 0, it becomes transparent. More "
+"negatives start to invert colors instead of being transparent."
+
+#: ../../source/man2/operation_texture.rst
+msgid "基本の透明度"
+msgstr "basic transparency"
+
+#: ../../source/man2/operation_texture.rst:199
+msgid "透明度にさらに透明度をかけ合わせます。"
+msgstr "Multiply the transparency by the transparency."
+
+#: ../../source/man2/operation_texture.rst
+msgid "氷の粗さ"
+msgstr "roughness of ice"
+
+#: ../../source/man2/operation_texture.rst:201
+msgid "氷をギザギザに荒くします。"
+msgstr "Rough the ice into jagged edges."
+
+#: ../../source/man2/operation_texture.rst
+msgid "ねじれ"
+msgstr "distortion"
+
+#: ../../source/man2/operation_texture.rst:203
+msgid "氷に反射したものの形のねじれ具合を変えます。"
+msgstr "Changes the twist of the shape of the reflection on the ice."
+
+#: ../../source/man2/operation_texture.rst:214
+msgid "PixelizeTexture"
+msgstr "PixelizeTexture"
+
+#: ../../source/man2/operation_texture.rst:216
+msgid "某ブロック風のテクスチャになるシェーダーです。これはChatGPTによって一から作った独自のシェーダーです。"
+msgstr "It is a shader that becomes a certain block-like texture. This is a custom shader made from scratch by ChatGPT."
+
+#: ../../source/man2/operation_texture.rst
+msgid "ピクセルサイズ"
+msgstr "pixel size"
+
+#: ../../source/man2/operation_texture.rst:219
+msgid "ピクセル化するテクスチャのサイズです。これを大きくすればするほどモザイク的になります。"
+msgstr "The size of the texture to pixelate. The larger this is, the more mosaic-like it becomes."

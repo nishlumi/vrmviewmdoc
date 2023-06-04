@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 12:01+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_stage.rst:5
+msgid "Stage"
+msgstr "Stage"
+
+#: ../../source/man2/prop_stage.rst:8
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man2/prop_stage.rst:11
+msgid "メインのプロパティ"
+msgstr "Main property"
+
+#: ../../source/man2/prop_stage.rst:18
+msgid "Stageのメインのプロパティです。"
+msgstr "This is the main property of the Stage."
+
+#: ../../source/man2/prop_stage.rst:21
+msgid "舞台の種類色・・床のテクスチャを切り替えます。"
+msgstr "Type of stage Color: Change the texture of the floor."
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "Default"
+msgstr "Default"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "グリッドで表されるデフォルトの床です。"
+msgstr "the default floor represented by the grid."
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "BasicSeaLevel"
+msgstr "BasicSeaLevel"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid ""
+"細かく調整可能な汎用的な水面です。水面はアニメーションします。不透明度が反"
+"映されます。"
+msgstr ""
+"A general-purpose water level that can be finely adjusted. The water "
+"surface is animated. Reflects opacity."
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "DayTimeWaterStage"
+msgstr "DayTimeWaterStage"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "水面です。日中の水面を表しており水面はアニメーションします。"
+msgstr ""
+"the water surface. It represents the water surface during the day and the "
+"water surface is animated."
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "NighttimeWaterStage"
+msgstr "NighttimeWaterStage"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "水面です。夜の水面を表しており水面はアニメーションします。"
+msgstr ""
+"the water surface. It represents the water surface at night and the water "
+"surface is animated."
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "DryGround"
+msgstr "DryGround"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "乾燥地帯のような地面です。"
+msgstr "ground like dry ground."
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "Desert"
+msgstr "Desert"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "砂漠の砂地です。"
+msgstr "desert sand."
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "Field1～4"
+msgstr "Field1 ~ 4"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "その他一般的な地形のような地面です。"
+msgstr "other ground like general terrain."
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "User"
+msgstr "User"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "テクスチャを指定できるなど、ユーザーがカスタマイズできる床です。"
+msgstr ""
+"A floor that can be customized by the user, such as specifying a texture."
+
+#: ../../source/man2/prop_stage.rst:48
+msgid "以下はUser stageのみ"
+msgstr "User stage only"
+
+#: ../../source/man2/prop_stage.rst
+msgid "メインのテクスチャ"
+msgstr "Main texture"
+
+#: ../../source/man2/prop_stage.rst:36
+msgid "テクスチャファイル"
+msgstr "texture file"
+
+#: ../../source/man2/prop_stage.rst
+msgid "法線マップテクスチャ"
+msgstr "normal map texture"
+
+#: ../../source/man2/prop_stage.rst:38
+msgid "法線マップのファイル"
+msgstr "normal map file"
+
+#: ../../source/man2/prop_stage.rst
+msgid "色"
+msgstr "Color"
+
+#: ../../source/man2/prop_stage.rst:40
+msgid "テクスチャのベースの色"
+msgstr "texture base color"
+
+#: ../../source/man2/prop_stage.rst
+msgid "ブレンドモード"
+msgstr "blend mode"
+
+#: ../../source/man2/prop_stage.rst:42
+msgid "シェーダのMode"
+msgstr "Shader Mode"
+
+#: ../../source/man2/prop_stage.rst
+msgid "メタリック"
+msgstr "metallic"
+
+#: ../../source/man2/prop_stage.rst:44
+msgid "シェーダのMetallic"
+msgstr "Metallic in shader"
+
+#: ../../source/man2/prop_stage.rst
+msgid "光沢"
+msgstr "Glossiness"
+
+#: ../../source/man2/prop_stage.rst:46
+msgid "シェーダのGlossiness"
+msgstr "Glossiness in shader"
+
+#: ../../source/man2/prop_stage.rst
+msgid "発光色"
+msgstr "Emitting color"
+
+#: ../../source/man2/prop_stage.rst:48
+msgid "シェーダのEmission Color"
+msgstr "Emission Color in shader"
+
+#: ../../source/man2/prop_stage.rst:53
+msgid "BasicSeaLevel、DayTimeWaterStage、NighttimeWaterStageについて"
+msgstr "About BasicSeaLevel, DayTimeWaterStage, NighttimeWaterStage"
+
+#: ../../source/man2/prop_stage.rst:51
+msgid ""
+"設定オプションが多岐にわたるものがあります。詳しくはUnityのドキュメントを御"
+"覧ください。"
+msgstr ""
+"There are a wide variety of configuration options. See the Unity "
+"documentation for details."
+
+#: ../../source/man2/prop_stage.rst:53
+msgid "`<https://docs.unity3d.com/ja/2019.1/Manual/HOWTO-Water.html>`_"
+msgstr "`<https://docs.unity3d.com/ja/2019.1/Manual/HOWTO-Water.html>`_"
+
+#: ../../source/man2/prop_stage.rst:62
+msgid "空のプロパティ"
+msgstr "Sky properties"
+
+#: ../../source/man2/prop_stage.rst:64
+msgid "空に関する設定です。単色、太陽付き、夜間を細かく設定できます。"
+msgstr "Sky settings. Single color, with sun, night can be set in detail."
+
+#: ../../source/man2/prop_stage.rst:67
+msgid "skydaytime"
+msgstr "skydaytime"
+
+#: ../../source/man2/prop_stage.rst:68
+msgid "skynight"
+msgstr "skynight"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "sky daytimeの場合"
+msgstr "For sky daytime"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "sky night blue, sky night purpleの場合"
+msgstr "For sky night blue / sky night purple"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "|skydaytime|"
+msgstr "|skydaytime|"
+
+#: ../../source/man2/prop_stage.rst:1
+msgid "|skynight|"
+msgstr "|skynight|"
+
+#: ../../source/man2/prop_stage.rst
+msgid "空のモード"
+msgstr "Sky mode"
+
+#: ../../source/man2/prop_stage.rst:76
+msgid ""
+"``単色`` 、 ``通常の空`` のどちらかを指定します。 ``通常の空`` にすると太陽"
+"が表示されるようになります。"
+msgstr ""
+"Specify either ``Solid Color`` or ``Normal Empty``. ``Normal Sky`` will "
+"show the sun."
+
+#: ../../source/man2/prop_stage.rst
+msgid "空の色"
+msgstr "Sky color"
+
+#: ../../source/man2/prop_stage.rst:78
+msgid "空の色を変更します。"
+msgstr "Change sky color."
+
+#: ../../source/man2/prop_stage.rst
+msgid "空のシェーダ"
+msgstr "Sky shader"
+
+#: ../../source/man2/prop_stage.rst:80
+msgid ""
+"``通常の空`` の場合に ``sky daitime``, ``sky night blue``, ``sky night "
+"purple`` のいずれかから選びます。また、選択によって設定が切り替わります。"
+msgstr ""
+"Choose from ``sky daitime``, ``sky night blue``, or ``sky night purple`` "
+"for ``normal sky`` . Also, the setting changes depending on the selection."
+
+#: ../../source/man2/prop_stage.rst:82
+msgid "詳しくはUnityのドキュメントをご覧ください。"
+msgstr "See the Unity documentation for details."
+
+#: ../../source/man2/prop_stage.rst:84
+msgid ""
+"`<https://docs.unity3d.com/ja/2019.4/Manual/shader-skybox-procedural."
+"html>`_"
+msgstr ""
+"`<https://docs.unity3d.com/ja/2019.4/Manual/shader-skybox-procedural."
+"html>`_"
+
+#: ../../source/man2/prop_stage.rst:87
+msgid ""
+"``通常の空`` にして太陽が表示されたら、照明の回転をすることにより太陽を動か"
+"すことができます。"
+msgstr ""
+"Once you have a ``normal sky`` and the sun is visible, you can move the "
+"sun by rotating the lights."
+
+#: ../../source/man2/prop_stage.rst:98
+msgid "照明のプロパティ"
+msgstr "Light properties"
+
+#: ../../source/man2/prop_stage.rst:100
+msgid ""
+"照明（Directional light）の設定です。Lightとは異なりシステム的なライトとい"
+"うことで、Stageのプロパティ扱いです。"
+msgstr ""
+"This is the lighting (Directional light) setting. Unlike Light, it is a "
+"system light, so it is treated as a property of Stage."
+
+#: ../../source/man2/prop_stage.rst
+msgid "回転"
+msgstr "rotation"
+
+#: ../../source/man2/prop_stage.rst:106
+msgid ""
+"光が照射される角度を指定します。この回転は操作ハンドルで行ったほうが楽で"
+"す。"
+msgstr ""
+"Specifies the angle at which light is emitted. It is easier to do this "
+"rotation with the operation handle."
+
+#: ../../source/man2/prop_stage.rst
+msgid "強さ"
+msgstr "strength"
+
+#: ../../source/man2/prop_stage.rst:108
+msgid "光の強さを設定します。"
+msgstr "Sets the intensity of light."
+
+#: ../../source/man2/prop_stage.rst
+msgid "影の強さ"
+msgstr "Shadow strength"
+
+#: ../../source/man2/prop_stage.rst:110
+msgid "オブジェクトの影の濃さを設定します。"
+msgstr "Sets the darkness of object shadows."
+
+#: ../../source/man2/prop_stage.rst:113
+msgid ""
+"照明やLightオブジェクトの回転で影の向かう先を変化させることができます。"
+msgstr ""
+"You can change where the shadows go by lighting and rotating the Light "
+"object."
+
+#: ../../source/man2/prop_stage.rst:116
+msgid "光の色さを設定します。"
+msgstr "Sets the color of the light."
+
+#: ../../source/man2/prop_stage.rst
+msgid "ハロー"
+msgstr "Halo"
+
+#: ../../source/man2/prop_stage.rst:118
+msgid "円光の効果の基本値を調整します。"
+msgstr "Adjusts the base value of the halo effect."
+
+#: ../../source/man2/prop_stage.rst:121
+msgid "Stageの照明にはハローは効果がありません。"
+msgstr "Halos have no effect on Stage lighting."
+
+#: ../../source/man2/prop_stage.rst:124
+msgid ""
+"このハローの設定は、すべてのLightオブジェクトに影響します。 実際のハローの"
+"効果については、Lightオブジェクト側の色や強さ・範囲によって合わせて変化させ"
+"ることができます。"
+msgstr ""
+"This halo setting affects all light objects. The actual halo effect can be "
+"changed according to the color, strength, and range of the Light object."
+
+#: ../../source/man2/prop_stage.rst
+msgid "フレアタイプ"
+msgstr "flare type"
+
+#: ../../source/man2/prop_stage.rst:128
+msgid ""
+"光のフレアの種類を ``なし`` ``50mmZoom`` ``FlareSmall`` ``Sun`` から選びま"
+"す。"
+msgstr ""
+"Select the type of light flare from flowwing: ``None``, ``50mmZoom``, "
+"``FlareSmall``, ``Sun`` ."
+
+#: ../../source/man2/prop_stage.rst
+msgid "フレアカラー"
+msgstr "flare color"
+
+#: ../../source/man2/prop_stage.rst:130
+msgid "フレアの色を指定します。"
+msgstr "Specifies the flare color."
+
+#: ../../source/man2/prop_stage.rst
+msgid "フレアの明るさ"
+msgstr "flare brightness"
+
+#: ../../source/man2/prop_stage.rst:132
+msgid "フレアの明るさを指定します。"
+msgstr "Specifies the brightness of the flare."
+
+#: ../../source/man2/prop_stage.rst
+msgid "フレアフェードスピード"
+msgstr "flare fade speed"
+
+#: ../../source/man2/prop_stage.rst:134
+msgid "フレアが出現・消滅するスピードを指定します。"
+msgstr "Specifies the speed at which flares appear and disappear."
+
+#: ../../source/man2/prop_stage.rst:141
+msgid "風のプロパティ"
+msgstr "Wind properties"
+
+#: ../../source/man2/prop_stage.rst:143
+msgid "風（WindZone）の設定です。"
+msgstr "This is the wind (WindZone) setting."
+
+#: ../../source/man2/prop_stage.rst
+msgid "風の向き"
+msgstr "Wind direction"
+
+#: ../../source/man2/prop_stage.rst:150
+msgid "風の向きです。水平（X・Z方向）、垂直（Y方向）を0～360度指定します。"
+msgstr ""
+"The direction of the wind. Specify horizontal (X/Z direction) and vertical "
+"(Y direction) from 0 to 360 degrees."
+
+#: ../../source/man2/prop_stage.rst
+msgid "風の強さ"
+msgstr "Wind strength"
+
+#: ../../source/man2/prop_stage.rst:152
+msgid "VRMなどにかかる風の強さを指定します。0の場合はオフとなります。"
+msgstr "Specifies the strength of the wind applied to VRM, etc. 0 is off."
+
+#: ../../source/man2/prop_stage.rst
+msgid "風の揺らぎ具合"
+msgstr "How the wind fluctuates"
+
+#: ../../source/man2/prop_stage.rst:154
+msgid "風の強さにランダムにかかる副次的な強さです。"
+msgstr ""
+"A secondary strength that is randomly applied to the strength of the wind."
+
+#: ../../source/man2/prop_stage.rst
+msgid "風の吹くタイミング"
+msgstr "When the wind blows"
+
+#: ../../source/man2/prop_stage.rst:156
+msgid "風をこの範囲で指定した秒の範囲の間隔で吹かせます。"
+msgstr "Makes the wind blow at intervals of seconds specified in this range."

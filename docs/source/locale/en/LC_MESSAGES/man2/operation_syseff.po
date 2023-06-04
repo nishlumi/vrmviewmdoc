@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 23:59+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_syseff.rst:5
+msgid "SystemEffect"
+msgstr "SystemEffect"
+
+#: ../../source/man2/operation_syseff.rst:8
+msgid ""
+"SystemEffectはUnityの用語でいうPost-processingです。世間的なわかりやすさを重視して「システム」＋"
+"「エフェクト」＝「システムエフェクト」という名称で本アプリでは扱います。"
+msgstr ""
+"SystemEffect is Post-processing in Unity terminology. In order to make it easier for the public "
+"to understand, this application uses the name \"system\" + \"effect\" = \"system effect\"."
+
+#: ../../source/man2/operation_syseff.rst:12
+msgid "syseff1"
+msgstr "syseff1"
+
+#: ../../source/man2/operation_syseff.rst:13
+msgid "syseff2"
+msgstr "syseff2"
+
+#: ../../source/man2/operation_syseff.rst:1
+msgid "|syseff1|"
+msgstr "|syseff1|"
+
+#: ../../source/man2/operation_syseff.rst:1
+msgid "|syseff2|"
+msgstr "|syseff2|"
+
+#: ../../source/man2/operation_syseff.rst:22
+msgid ""
+"SystemEffectではPost-processingの次の効果を使用できます。すべてのオプションではなく一部のオプ"
+"ションのみです。"
+msgstr ""
+"SystemEffect can use the following Post-processing effects: Only some options, not all options."
+
+#: ../../source/man2/operation_syseff.rst:29
+msgid "※効果を多用すると動作が重くなる可能性があります。"
+msgstr "If you use many effects, the operation may become slow."
+
+#: ../../source/man2/operation_syseff.rst:33
+msgid "antialias"
+msgstr "antialias"
+
+#: ../../source/man2/operation_syseff.rst:37
+msgid "**画面のトランジション**"
+msgstr "**Screen Transitions**"
+
+#: ../../source/man2/operation_syseff.rst:39
+msgid ""
+"画面を暗転などして画面を切り替える演出はこれらのシステムエフェクトを組み合わせて表現してくださ"
+"い。"
+msgstr ""
+"Please use a combination of these system effects to create screen switching effects such as "
+"blacking out the screen."
+
+#: ../../source/man2/operation_syseff.rst:45
+msgid "**アンチエイリアスについて**"
+msgstr "**About Antialiasing**"
+
+#: ../../source/man2/operation_syseff.rst
+msgid "|antialias|"
+msgstr "|antialias|"
+
+#: ../../source/man2/operation_syseff.rst:48
+msgid ""
+"アンチエイリアスはSystemEffectではなく、リボンバーの「画面」タブの「アンチエイリアス」で設定して"
+"ください。（アニメーションプロジェクトのキーフレームには登録できません）"
+msgstr ""
+"Set anti-aliasing in \"Anti-aliasing\" in the \"Screen\" tab of the ribbon bar, not in "
+"SystemEffect. (Cannot be registered to keyframes of animation projects)"
+
+#: ../../source/man2/operation_syseff.rst:51
+msgid "**アニメーションプロジェクトへの登録方法**"
+msgstr "**How to register for the animation project**"
+
+#: ../../source/man2/operation_syseff.rst:53
+msgid ""
+"システムエフェクトをアニメーションプロジェクトに登録するには、タブ内の ``キーフレーム登録`` ボタ"
+"ンか、 ``システムエフェクト`` タブ内で右クリック [1]_ して ``キーフレーム登録`` ボタンをクリック"
+"します。"
+msgstr ""
+"To register a system effect to an animation project, click the ``Register Keyframe`` button in "
+"the tab, or right-click [1]_ in the ``System Effects`` tab and click the ``Register Keyframe`` "
+"button. Click"
+
+#: ../../source/man2/operation_syseff.rst:60
+msgid ""
+"※このタブ内で右クリックした場合に表示される「キーフレーム登録」はシステムエフェクト専用です。3D"
+"オブジェクトをなにか選択していたとしても、 **必ずシステムエフェクトだけを対象** にしますので、お"
+"間違えないようご注意ください。"
+msgstr ""
+"\"Register keyframe\" displayed when right-clicking in this tab is for system effects only. "
+"Even if you have selected any 3D object, it will **only target system effects**, so be careful "
+"not to make a mistake."
+
+#: ../../source/man2/operation_syseff.rst:62
+msgid "macOSの場合はControlキー + クリックまたは2点タップ"
+msgstr "Control key + click or double tap for macOS"

@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 12:05+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_syseffect.rst:5
+msgid "SystemEffect"
+msgstr "SystemEffect"
+
+#: ../../source/man2/prop_syseffect.rst:7
+msgid "syseff1"
+msgstr "syseff1"
+
+#: ../../source/man2/prop_syseffect.rst:8
+msgid "syseff2"
+msgstr "syseff2"
+
+#: ../../source/man2/prop_syseffect.rst:1
+msgid "|syseff1|"
+msgstr "|syseff1|"
+
+#: ../../source/man2/prop_syseffect.rst:1
+msgid "|syseff2|"
+msgstr "|syseff2|"
+
+#: ../../source/man2/prop_syseffect.rst:17
+msgid "SystemEffectのプロパティです。これはリボンバーのシステムエフェクトタブにあります。図の値がデフォルト値です。"
+msgstr "This is a SystemEffect property. You can find this in the system effects tab of the ribbon bar. The values in the diagram are the default values."
+
+#: ../../source/man2/prop_syseffect.rst:25
+msgid "Bloomのプロパティです。"
+msgstr "Bloom property."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "強さ"
+msgstr "strength"
+
+#: ../../source/man2/prop_syseffect.rst:28
+#: ../../source/man2/prop_syseffect.rst:133
+msgid "0～100の間で指定します。"
+msgstr "Specify between 0 and 100."
+
+#: ../../source/man2/prop_syseffect.rst:40
+msgid "Chromatic Abberationのプロパティです。"
+msgstr "Chromatic Abberation property."
+
+#: ../../source/man2/prop_syseffect.rst:43
+#: ../../source/man2/prop_syseffect.rst:95
+#: ../../source/man2/prop_syseffect.rst:111
+msgid "0～1の間で0.1刻みで指定します。"
+msgstr "Specify between 0 and 1 in increments of 0.1."
+
+#: ../../source/man2/prop_syseffect.rst:55
+msgid "Color gradingのプロパティです。"
+msgstr "Color grading property."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "色"
+msgstr "Color"
+
+#: ../../source/man2/prop_syseffect.rst:58
+msgid "ベースの色を指定します。"
+msgstr "Specifies the base color."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "温度"
+msgstr "temperature"
+
+#: ../../source/man2/prop_syseffect.rst:60
+#: ../../source/man2/prop_syseffect.rst:62
+msgid "-100～100の間で指定します。"
+msgstr "Specify between -100 and 100."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "色合い"
+msgstr "Tint"
+
+#: ../../source/man2/prop_syseffect.rst:74
+msgid "Depth Of Fieldのプロパティです。"
+msgstr "Depth Of Field property."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "被写体までの距離 (Focus Distance)"
+msgstr "Focus Distance"
+
+#: ../../source/man2/prop_syseffect.rst:77
+msgid "0.1～50の間で0.05刻みで指定します。Depth Of Fieldのフォーカスの直接的な距離となります。"
+msgstr "Specify between 0.1 and 50 in increments of 0.05. This is the direct distance of focus for Depth Of Field."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "絞り"
+msgstr "Aperture"
+
+#: ../../source/man2/prop_syseffect.rst:79
+msgid "0.1～32の間で0.1刻みで指定します。"
+msgstr "Specify between 0.1 and 32 in increments of 0.1."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "レンズの焦点距離 (Focal Length)"
+msgstr "Focal Length of Lens"
+
+#: ../../source/man2/prop_syseffect.rst:81
+msgid "1～50の間で指定します。"
+msgstr "Specify between 1 and 50."
+
+#: ../../source/man2/prop_syseffect.rst:92
+msgid "Grainのプロパティです。"
+msgstr "Grain property."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "サイズ"
+msgstr "Size"
+
+#: ../../source/man2/prop_syseffect.rst:97
+msgid "0.3～3の間で0.1刻みで指定します。"
+msgstr "Specify between 0 and 1 in increments of 0.1."
+
+#: ../../source/man2/prop_syseffect.rst:108
+msgid "Vignetteのプロパティです。"
+msgstr "Vignette property."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "滑らかさ"
+msgstr "Smoothness"
+
+#: ../../source/man2/prop_syseffect.rst:113
+msgid "0.1～1の間で0.01刻みで指定します。Vignetteの効果のかかる縁にアンチエイリアスをかけるかくっきりさせるかを調整します。"
+msgstr "Specify between 0.1 and 1 in increments of 0.01. Adjusts whether to apply anti-aliasing to sharpen the edges where the Vignette effect is applied."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "丸み"
+msgstr "Roundness"
+
+#: ../../source/man2/prop_syseffect.rst:115
+msgid "0～1の間で0.01刻みで指定します。Vignetteの効果を円形から四角形に調整します。"
+msgstr "Specify between 0 and 1 in increments of 0.01. Adjusts the vignette effect from circular to square."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "center X"
+msgstr "center X"
+
+#: ../../source/man2/prop_syseffect.rst:117
+msgid "-3～5の間で0.01刻みで指定します。Vignetteの効果の中心位置のX座標を調整します。"
+msgstr "Specify between -3 and 5 in increments of 0.01. Adjusts the X coordinate of the center position of the Vignette effect."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "center Y"
+msgstr "center Y"
+
+#: ../../source/man2/prop_syseffect.rst:119
+msgid "-3～5の間で0.01刻みで指定します。Vignetteの効果の中心位置のY座標を調整します。"
+msgstr "Specify between -3 and 5 in increments of 0.01. Adjusts the Y coordinate of the center position of the Vignette effect."
+
+#: ../../source/man2/prop_syseffect.rst:130
+msgid "Motion blurのプロパティです。"
+msgstr "Motion blur properties."
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "シャッター角"
+msgstr "Shutter angle"
+
+#: ../../source/man2/prop_syseffect.rst
+msgid "サンプルカウント"
+msgstr "Sample count"
+
+#: ../../source/man2/prop_syseffect.rst:135
+msgid "4～32の間で指定します。"
+msgstr "Specify between 4 and 32."

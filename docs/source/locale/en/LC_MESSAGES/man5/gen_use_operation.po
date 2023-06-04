@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 15:24+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man5/gen_use_operation.rst:3
+msgid "アプリの操作"
+msgstr "App operation"
+
+#: ../../source/man5/gen_use_operation.rst:6
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man5/gen_use_operation.rst:12
+msgid "（ウェブアプリ版）ブラウザとは別ウィンドウで使う"
+msgstr "(Web application version) Use in a separate window from the browser"
+
+#: ../../source/man5/gen_use_operation.rst:14
+msgid "ウェブアプリ版はPWAという技術によってChromeやEdgeなどのブラウザ本体とは完全に別のウィンドウで利用することができます。"
+msgstr ""
+"The web app version can be used in a completely separate window from the browser itself, such as Chrome or Edge, using a "
+"technology called PWA."
+
+#: ../../source/man5/gen_use_operation.rst:16
+msgid "詳しくは :doc:`../man1/install` をご覧ください。"
+msgstr "See :doc:`../man1/install` for details."
+
+#: ../../source/man5/gen_use_operation.rst:22
+msgid "メリット"
+msgstr "merit"
+
+#: ../../source/man5/gen_use_operation.rst:19
+msgid "ブラウザ本体とは異なるウィンドウサイズにできる"
+msgstr "You can make the window size different from the browser body"
+
+#: ../../source/man5/gen_use_operation.rst:20
+msgid "ブラウザ本体を閉じても本アプリを利用し続けられる"
+msgstr "You can continue using this application even if you close the browser body"
+
+#: ../../source/man5/gen_use_operation.rst:21
+msgid "見た目が各OSのアプリと近くなる"
+msgstr "Appearance becomes closer to the app of each OS"
+
+#: ../../source/man5/gen_use_operation.rst:22
+msgid "スタートメニューやランチャーメニューに追加され、そこから開けるようになる"
+msgstr "Added to the Start Menu or Launcher Menu and can be opened from there"
+
+#: ../../source/man5/gen_use_operation.rst:24
+msgid "ウェブアプリ版はタブのまま使うのではなく、ぜひインストールしてお使いください。"
+msgstr "Please install the web app version instead of using it as a tab."
+
+#: ../../source/man5/gen_use_operation.rst:28
+msgid "画面解像度を変更する"
+msgstr "Change screen resolution"
+
+#: ../../source/man5/gen_use_operation.rst:30
+msgid ""
+"3Dモデルを操作するWebGL画面はデフォルトではウィンドウサイズに適したサイズとなっています。本アプリではWebGL画面のサイズ（≒解像度）を"
+"自由なサイズに変更することができます。"
+msgstr ""
+"By default, the WebGL screen that manipulates the 3D model has a size suitable for the window size. With this application, you can "
+"freely change the size (≈ resolution) of the WebGL screen."
+
+#: ../../source/man5/gen_use_operation.rst:37
+msgid "``幅`` と ``高さ`` を入力します。"
+msgstr "Enter the ``Width`` and ``Height``."
+
+#: ../../source/man5/gen_use_operation.rst:38
+msgid "適用ボタンを押します。"
+msgstr "Press the Apply button."
+
+#: ../../source/man5/gen_use_operation.rst:40
+msgid "表示する領域に収まりきらない場合、スクロールバーが表示されます。"
+msgstr "Scrollbars are displayed if they do not fit in the display area."
+
+#: ../../source/man5/gen_use_operation.rst:42
+msgid "**元のサイズに戻す**"
+msgstr "**restore to original size**"
+
+#: ../../source/man5/gen_use_operation.rst:44
+msgid "``元のサイズ`` ボタンを押します。"
+msgstr "Press the ``Original Size`` button."
+
+#: ../../source/man5/gen_use_operation.rst:49
+msgid "ナビゲーションを活用する"
+msgstr "Take advantage of navigation"
+
+#: ../../source/man5/gen_use_operation.rst:51
+msgid ""
+"画面解像度が上がると見えなくなった部分をスクロールしてから操作する必要があります。その場合、 Ver 2.0から実装した ``ナビゲーション"
+"`` を使うと操作しやすくなります。"
+msgstr ""
+"When the screen resolution increases, it is necessary to scroll the part that cannot be seen before operating. In that case, using "
+"the ``navigation`` implemented from Ver 2.0 makes it easier to operate."
+
+#: ../../source/man5/gen_use_operation.rst:53
+msgid "リボンバーの画面タブにある ``Navigation`` ボタンを押します。"
+msgstr "Press the ``Navigation`` button in the Screens tab of the ribbon bar."
+
+#: ../../source/man5/gen_use_operation.rst:60
+msgid "アプリのメインウィンドウ内にナビゲーションの小ウィンドウが表示されます。"
+msgstr "A small navigation window will appear inside the main app window."
+
+#: ../../source/man5/gen_use_operation.rst:67
+msgid "ナビゲーションのプレビュー画面に現在表示中の範囲として赤い枠が表示されます。"
+msgstr "A red frame is displayed as the currently displayed range on the navigation preview screen."
+
+#: ../../source/man5/gen_use_operation.rst:68
+msgid ""
+"表示領域よりWebGL画面の解像度が大きい場合、赤い枠を任意の場所でクリックしたりドラッグすると、WebGL画面がその通りにスクロールしま"
+"す。"
+msgstr ""
+"If the resolution of the WebGL screen is larger than the display area, clicking or dragging the red frame anywhere will scroll the "
+"WebGL screen accordingly."
+
+#: ../../source/man5/gen_use_operation.rst:71
+msgid "ナビゲーションのウィンドウ内からも ``元のサイズ`` や ``カメラのリセット`` を行うことができます。"
+msgstr "You can also ``Resize'' and ``Reset Camera`` from within the navigation window."
+
+#: ../../source/man5/gen_use_operation.rst:78
+msgid "アンチエイリアスをかける"
+msgstr "apply anti-aliasing"
+
+#: ../../source/man5/gen_use_operation.rst:80
+msgid "本アプリではWebGL画面にアンチエイリアスをかけることができます。"
+msgstr "With this application, you can apply anti-aliasing to the WebGL screen."
+
+#: ../../source/man5/gen_use_operation.rst:82
+msgid "リボンバーの画面タブを開きます。"
+msgstr "Open the Screens tab of the Ribbon bar."
+
+#: ../../source/man5/gen_use_operation.rst:83
+msgid "右にある ``アンチエイリアス`` にチェックを入れます。"
+msgstr "Check ``Antialiasing`` on the right."
+
+#: ../../source/man5/gen_use_operation.rst:92
+msgid "かけたままポーズやモーションを再生することもできますが、動作が重くなる可能性があります。"
+msgstr "It is possible to play poses and motions while it is on, but the operation may become slow."
+
+#: ../../source/man5/gen_use_operation.rst:93
+msgid ""
+"アンチエイリアスは本来であればシステムエフェクト（ポストプロセッシング）の範疇ですが、動作への影響を考慮してアニメーションへの登録"
+"の対象外とさせていただきます。"
+msgstr ""
+"Anti-aliasing is originally in the category of system effects (post-processing), but in consideration of the impact on operation, "
+"it will not be registered in animations."
+
+#: ../../source/man5/gen_use_operation.rst:94
+msgid ""
+"アンチエイリアスを有効にしていると、Stageオブジェクトの空の設定において、 ``sky night blue/sky night purple`` の2つはキャプチャ時に"
+"不要な線が交じることがあります。これはWebGLの仕様です。ご了承下さい。"
+msgstr ""
+"When anti-aliasing is enabled, unnecessary lines may intersect when capturing ``sky night blue/sky night purple`` in the sky "
+"setting of the Stage object. This is the WebGL specification. please note that."
+
+#: ../../source/man5/gen_use_operation.rst:102
+msgid "IKマーカーのサイズや表示を変更する"
+msgstr "Change the size and display of IK markers"
+
+#: ../../source/man5/gen_use_operation.rst:104
+msgid "IKマーカーのサイズを変更するには、リボンバーの ``画面`` タブ にあるOptionsから指定します。"
+msgstr "To change the size of the IK marker, specify it from Options on the ``Screen`` tab of the ribbon bar."
+
+#: ../../source/man5/gen_use_operation.rst:112
+msgid "サイズの変更"
+msgstr "resize"
+
+#: ../../source/man5/gen_use_operation.rst:112
+msgid "IKマーカーのサイズのスライダーを動かして指定します。"
+msgstr "Specify by moving the IK marker size slider."
+
+#: ../../source/man5/gen_use_operation.rst:117
+msgid "表示自体"
+msgstr "the display itself"
+
+#: ../../source/man5/gen_use_operation.rst:115
+msgid "IKマーカーを表示するのチェックをオン・オフします。"
+msgstr "Turn on/off the check for Show IK Markers."
+
+#: ../../source/man5/gen_use_operation.rst:125
+msgid "メインカメラの操作"
+msgstr "Operating the main camera"
+
+#: ../../source/man5/gen_use_operation.rst:127
+msgid ""
+"本アプリではメインカメラには必ず回転軸となる中心点が存在します。設定により表示をオンオフ切り替えられますが、初期設定ではわかりやす"
+"さのため表示をオンにしています。"
+msgstr ""
+"In this app, the main camera always has a center point that serves as the axis of rotation. The display can be turned on and off "
+"by setting, but the display is turned on by default for clarity."
+
+#: ../../source/man5/gen_use_operation.rst:129
+msgid "キーボード操作が関係しますので詳しい操作方法は :doc:`../man5/special_operation` をご覧ください。"
+msgstr "Since keyboard operations are involved, please see :doc:`../man5/special_operation` for detailed operation methods."
+
+#: ../../source/man5/gen_use_operation.rst:-1
+msgid "中心点"
+msgstr "center point"
+
+#: ../../source/man5/gen_use_operation.rst:137
+msgid "薄暗い半透明で表示される■が該当します。"
+msgstr "Rectangle displayed in dim semitransparency is applicable."
+
+#: ../../source/man5/gen_use_operation.rst:139
+msgid ""
+"メインカメラはこの中心点を基準にして回転します。見たいオブジェクトを中心点に近づければ、そのオブジェクトを360度眺めることができま"
+"す。"
+msgstr ""
+"The main camera rotates based on this center point. If you bring the object you want to see closer to the center point, you can "
+"see the object in 360 degrees."
+
+#: ../../source/man5/gen_use_operation.rst:141
+msgid ""
+"ただ、カメラの移動やオブジェクトの移動をし続けていると必ずしも距離や位置が一致せずにだんだん表示がズレていくことがあります。そうい"
+"うときはキーボードの ``Iキー`` または ``Oキー`` を押してください。"
+msgstr ""
+"However, if you continue to move the camera or move the object, the distance and position may not necessarily match, and the "
+"display may gradually shift. In that case, press the ``I key`` or ``O key`` on your keyboard."
+
+#: ../../source/man5/gen_use_operation.rst:143
+msgid "すると中心点がメインカメラに向かって近づいたり離れたりします。"
+msgstr "Then the center point will move closer or further away from the main camera."
+
+#: ../../source/man5/gen_use_operation.rst:146
+msgid "**中心点とオブジェクトの距離**"
+msgstr "**Distance between center point and object**"
+
+#: ../../source/man5/gen_use_operation.rst:148
+msgid "中心点と現在選択中のオブジェクトの距離は右上に表示されます。"
+msgstr "The distance between the center point and the currently selected object is displayed in the upper right."
+
+#: ../../source/man5/gen_use_operation.rst:150
+msgid "sub2"
+msgstr "sub2"
+
+#: ../../source/man5/gen_use_operation.rst:151
+msgid "sub3"
+msgstr "sub3"
+
+#: ../../source/man5/gen_use_operation.rst:-1
+msgid "中心点とオブジェクトの距離"
+msgstr "Distance between center point and object"
+
+#: ../../source/man5/gen_use_operation.rst:159
+msgid ""
+"あくまで目安です。IとOキーを押していると **数値が減っていくのと増える境目** があります。そこが中心点と現在選択中のオブジェクトが重"
+"なっている点です。そこでカメラを回転すれば比較的きれいにオブジェクトの周囲を回転することができます。"
+msgstr ""
+"This is just a guideline. If you press the I and O keys, there will be a **border between decreasing and increasing values**. That "
+"is the point where the center point and the currently selected object overlap. If you rotate the camera there, you can rotate "
+"around the object relatively cleanly."
+
+#: ../../source/man5/gen_use_operation.rst:162
+msgid "v-padにあるボタン |sub2| |sub3| でも同じ操作を行えます。 :doc:`../man1/screen_vpad`"
+msgstr "The same operation can be performed with the buttons |sub2| |sub3| on the v-pad. :doc:`../man1/screen_vpad`"
+
+#: ../../source/man5/gen_use_operation.rst:164
+msgid "**移動・回転しすぎて中心点が吹っ飛んだら**"
+msgstr "**If you move or rotate too much and the center point is blown away**"
+
+#: ../../source/man5/gen_use_operation.rst:166
+msgid ""
+"移動や回転、WebGL画面の右上の軸の変更をすると中心点がずれることがあります。そういうときはキーボード操作がカメラモードのときに ``R"
+"キー`` を押してください。するとメインカメラと中心点が初期位置にリセットされます。"
+msgstr ""
+"If you move, rotate, or change the axis on the upper right of the WebGL screen, the center point may shift. In that case, press "
+"the ``R key`` when the keyboard is in camera mode. Then the main camera and center point will be reset to the initial position."
+
+#: ../../source/man5/gen_use_operation.rst:169
+msgid "リボンバーの画面タブの ``カメラをリセット`` ボタンでも同様です。"
+msgstr "he same is true for the ``Reset Camera`` button on the Screen tab of the ribbon bar."
+
+#: ../../source/man5/gen_use_operation.rst:171
+msgid "調整しづらいZ軸をリセットするには ``Q`` キーを押してください。"
+msgstr "Press the ``Q`` key to reset the hard-to-adjust Z axis."
+
+#: ../../source/man5/gen_use_operation.rst:181
+msgid "オブジェクトとキーボード操作"
+msgstr "Objects and keyboard operations"
+
+#: ../../source/man5/gen_use_operation.rst:183
+msgid "キーボード操作の詳しい説明は :doc:`../man5/special_operation` をご覧ください。"
+msgstr "For a detailed explanation of keyboard operations, please see :doc:`../man5/special_operation` ."
+
+#: ../../source/man5/gen_use_operation.rst:196
+msgid "操作の基準"
+msgstr "Standard of operation"
+
+#: ../../source/man5/gen_use_operation.rst:186
+msgid "本アプリでは **グローバル座標** を基準としています。"
+msgstr "This app is based on **global coordinates** ."
+
+#: ../../source/man5/gen_use_operation.rst:189
+msgid "キーボード操作にてグローバル←→ローカル座標を切り替えて操作することができます。"
+msgstr "You can operate by switching global and local coordinates by keyboard operation."
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "``Xキー``"
+msgstr "``X key``"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "IKマーカーに対するグローバル・ローカル切り替え"
+msgstr "global/local switching for IK markers"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "``Gキー``"
+msgstr "``G key``"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "キーボード操作で移動・回転することに対するグローバル・ローカル切り替え"
+msgstr "global/local switching for keyboard movement/rotation"
+
+#: ../../source/man5/gen_use_operation.rst:196
+msgid "ただし、UI上の入力欄に表示されるのはグローバル座標です。"
+msgstr "However, what is displayed in the input field on the UI is the global coordinates."
+
+#: ../../source/man5/gen_use_operation.rst:198
+msgid "objmark_CO"
+msgstr "objmark_CO"
+
+#: ../../source/man5/gen_use_operation.rst:199
+msgid "objmark_GL"
+msgstr "objmark_GL"
+
+#: ../../source/man5/gen_use_operation.rst:227
+msgid "現在の操作の状態"
+msgstr "the state of the current operation"
+
+#: ../../source/man5/gen_use_operation.rst:202
+msgid "現在のオブジェクトや画面に対する操作基準は右上に表示されます。"
+msgstr "The operating criteria for the current object or screen are displayed in the upper right."
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "操作モード"
+msgstr "operation mode"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "座標の切り替え"
+msgstr "coordinate switching"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "値1"
+msgstr "Value 1"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "C - カメラ"
+msgstr "C - Camera"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "G - グローバル"
+msgstr "G - Global"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "値2"
+msgstr "value 2"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "O - オブジェクト"
+msgstr "O - Object"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "L - ローカル"
+msgstr "L - Local"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "画面表示"
+msgstr "Screen display"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "|objmark_CO|"
+msgstr "|objmark_CO|"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "|objmark_GL|"
+msgstr "|objmark_GL|"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "操作キー"
+msgstr "Operation key"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "Mキー"
+msgstr "M key"
+
+#: ../../source/man5/gen_use_operation.rst:1
+msgid "Gキー"
+msgstr "G key"
+
+#: ../../source/man5/gen_use_operation.rst:218
+msgid "左のアルファベット"
+msgstr "left alphabet"
+
+#: ../../source/man5/gen_use_operation.rst:216
+msgid "キーボードでの操作モードを示します。 ``Mキー`` を押すことで C - Oが入れ替わります。"
+msgstr "Indicates the operation mode with the keyboard. Pressing the ``M key`` will switch C - O."
+
+#: ../../source/man5/gen_use_operation.rst:218
+msgid "**C** のときはメインカメラの操作、 **O** のときは選択中のオブジェクトの操作となります。"
+msgstr "**C** operates the main camera, and **O** operates the selected object."
+
+#: ../../source/man5/gen_use_operation.rst:227
+msgid "右のアルファベット"
+msgstr "right alphabet"
+
+#: ../../source/man5/gen_use_operation.rst:221
+msgid "オブジェクトの操作の時の座標を示します。 ``Gキー`` を押すことで G - L が入れ替わります。"
+msgstr "Indicates the coordinates at which the object is manipulated. Pressing the ``G key`` will switch G - L."
+
+#: ../../source/man5/gen_use_operation.rst:223
+msgid "**G** のときはグローバル座標で移動や回転し、 **L** の時はローカル座標での移動・回転となります。"
+msgstr "**G** moves and rotates in global coordinates, and **L** moves and rotates in local coordinates."
+
+#: ../../source/man5/gen_use_operation.rst:226
+msgid "``Xキー`` のグローバル・ローカルの切り替えは反映されません。混同にご注意ください。"
+msgstr "Global/local switching of the ``X key`` is not reflected. Please be careful of confusion."
+
+#: ../../source/man5/gen_use_operation.rst:230
+msgid ""
+"操作モードを ``O`` オブジェクトにしておくと、マウスとキーボードの両方でオブジェクトを移動や回転させることができ、効率アップするで"
+"しょう。"
+msgstr ""
+"Setting the manipulation mode to ``O`` object will allow you to move and rotate the object with both mouse and keyboard, which "
+"will be more efficient."
+
+#: ../../source/man5/gen_use_operation.rst:235
+msgid "マウスやタッチの操作をさらに活用する"
+msgstr "Get more out of your mouse and touch interactions"
+
+#: ../../source/man5/gen_use_operation.rst:237
+msgid ""
+"本アプリはWebGL画面をマウスやタッチ操作で動かしますが、使い方や環境によってはCtrlキーやSPACEキーなど、キーボード操作を交える必要が"
+"あります。キーボードをすぐに使えない環境などで全てマウス操作をできるのが、v-padというウィンドウです。"
+msgstr ""
+"This application moves the WebGL screen with a mouse or touch operation, but depending on the usage and environment, it may be "
+"necessary to use keyboard operations such as the Ctrl key and SPACE key. A window called v-pad allows all mouse operations in an "
+"environment where the keyboard cannot be used immediately."
+
+#: ../../source/man5/gen_use_operation.rst:239
+msgid ""
+"このウィンドウを使うことにより、メインカメラの移動・回転・ズームインズームアウトをマウスやタッチの環境に悩むことなく共通して使うこ"
+"とができるようになります。"
+msgstr ""
+"By using this window, you will be able to use the movement, rotation, zoom in and zoom out of the main camera in common without "
+"worrying about the mouse or touch environment."
+
+#: ../../source/man5/gen_use_operation.rst:246
+msgid "ウィンドウの見た目と使い方は :doc:`../man1/screen_vpad` をご覧ください。"
+msgstr "See :doc:`../man1/screen_vpad` for how windows look and how to use them."
+
+#: ../../source/man5/gen_use_operation.rst:250
+msgid "いろんな操作例"
+msgstr "Various operation examples"
+
+#: ../../source/man5/gen_use_operation.rst:249
+msgid "メインカメラ、回転はマウス＋メインカメラの移動は WASD FV で"
+msgstr "Main camera, rotate with mouse + move main camera with WASD FV"
+
+#: ../../source/man5/gen_use_operation.rst:250
+msgid "メインカメラの操作全般を v-pad で、細かい調整をマウスで"
+msgstr "General operation of main camera with v-pad, fine adjustment with mouse"
+
+#: ../../source/man5/gen_use_operation.rst:252
+msgid "自分に適した操作方法を見つけてみてください。"
+msgstr "Try to find the operation method that suits you."

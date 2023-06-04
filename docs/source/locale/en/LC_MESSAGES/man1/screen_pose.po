@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:21+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_pose.rst:5
+msgid "ポーズ一覧"
+msgstr "Pose list"
+
+#: ../../source/man1/screen_pose.rst:12
+msgid "ポーズ一覧はVRoid/VRMの単一のポーズを保存しておくことができます。別ウィンドウが開きます。アプリとは別ウィンドウです。"
+msgstr "The pose list can save a single pose of VRoid/VRM. A new window will open. It is a separate window from the app."
+
+#: ../../source/man1/screen_pose.rst:16
+msgid "**上部：**"
+msgstr "**Top:**"
+
+#: ../../source/man1/screen_pose.rst
+msgid "再読み込み"
+msgstr "Reload"
+
+#: ../../source/man1/screen_pose.rst:19
+msgid "ポーズ一覧を再読み込みする。"
+msgstr "Reload the pose list."
+
+#: ../../source/man1/screen_pose.rst
+msgid "ポーズを適用"
+msgstr "Apply Pose"
+
+#: ../../source/man1/screen_pose.rst:21
+msgid "現在選択中のポーズを現在選択中のVRoid/VRMに反映する。"
+msgstr "Reflect the currently selected pose to the currently selected VRoid/VRM."
+
+#: ../../source/man1/screen_pose.rst
+msgid "ポーズを削除"
+msgstr "delete pose"
+
+#: ../../source/man1/screen_pose.rst:23
+msgid "現在選択中のポーズを削除する。"
+msgstr "Delete the currently selected pose."
+
+#: ../../source/man1/screen_pose.rst
+msgid "ファイルとしてダウンロード"
+msgstr "Download as file"
+
+#: ../../source/man1/screen_pose.rst:25
+msgid "現在選択中のポーズをファイルにダウンロードする。"
+msgstr "Download the currently selected pose to a file."
+
+#: ../../source/man1/screen_pose.rst
+msgid "ファイルから開く"
+msgstr "open from file"
+
+#: ../../source/man1/screen_pose.rst:27
+msgid "端末からポーズファイルを開く。"
+msgstr "Open the pose file from your terminal."
+
+#: ../../source/man1/screen_pose.rst:30
+msgid "**下部：**"
+msgstr "**Bottom:**"
+
+#: ../../source/man1/screen_pose.rst:33
+msgid "ポーズ一覧:"
+msgstr "Pose list"
+
+#: ../../source/man1/screen_pose.rst:33
+msgid "保存したポーズをサムネイル付きで表示します。サムネイルの横にはポーズ名と保存時のアバター（VRM）名を合わせて表示。"
+msgstr "Display saved poses with thumbnails. The pose name and avatar (VRM) name at the time of saving are displayed together next to the thumbnail."
+
+#: ../../source/man1/screen_pose.rst:38
+msgid "ウィンドウのサイズに応じて2列・3列と多段表示になります。"
+msgstr "Depending on the size of the window, it will be displayed in 2 columns or 3 columns."

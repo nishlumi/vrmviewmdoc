@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:40+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_naviwin.rst:5
+msgid "ナビゲーション画面"
+msgstr "Navigation"
+
+#: ../../source/man1/screen_naviwin.rst:12
+msgid "ナビゲーション画面はWebGL画面全体のプレビューを表示します。本ウィンドウはドラッグ可能です。"
+msgstr "The navigation screen shows a preview of the entire WebGL screen. This window is draggable."
+
+#: ../../source/man1/screen_naviwin.rst:16
+msgid "**上部：**"
+msgstr "**Top:**"
+
+#: ../../source/man1/screen_naviwin.rst:18
+msgid "WebGL画面のプレビューです。赤い枠が現在スクロールして表示している領域です。これもドラッグ可能です。"
+msgstr "This is a preview of the WebGL screen. The red frame is the area currently being scrolled and displayed. It is also draggable."
+
+#: ../../source/man1/screen_naviwin.rst:20
+msgid "**下部：**"
+msgstr "**Bottom:**"
+
+#: ../../source/man1/screen_naviwin.rst:23
+msgid "元のサイズ:"
+msgstr "Original size:"
+
+#: ../../source/man1/screen_naviwin.rst:23
+msgid "リボンバーの画面タブにある同名のボタンと同じ機能です。現在のウィンドウにフィットしたサイズに戻します。"
+msgstr "It has the same function as the button of the same name on the Screen tab of the ribbon bar. Resize to fit the current window."
+
+#: ../../source/man1/screen_naviwin.rst:26
+msgid "カメラをリセット:"
+msgstr "Reset camera:"
+
+#: ../../source/man1/screen_naviwin.rst:26
+msgid "リボンバーの画面タブにある同名のボタンと同じ機能です。メインカメラを初期位置・回転に戻します。"
+msgstr "It has the same function as the button of the same name on the Screen tab of the ribbon bar. Returns the main camera to its initial position and rotation."

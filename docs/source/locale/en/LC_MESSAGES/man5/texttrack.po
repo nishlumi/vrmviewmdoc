@@ -1,0 +1,535 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 15:50+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man5/texttrack.rst:3
+msgid "字幕の編集"
+msgstr "Edit Subtitles"
+
+#: ../../source/man5/texttrack.rst:7
+msgid ""
+"ver 1.2.0よりビデオプレイヤーに字幕編集機能を実装しました。 他のアプリやツールを使わなくても、録画した後にそのまま動画"
+"に合わせた字幕の編集をし始めることができます。"
+msgstr ""
+"A subtitle editing function has been implemented in the video player since ver 1.2.0.\n"
+"After recording, you can start editing the subtitles to match the video without using any other apps or tools."
+
+#: ../../source/man5/texttrack.rst:10
+msgid "字幕・テキストトラックについてはMDNの下記のページを御覧ください。"
+msgstr "For subtitles and text tracks, please see the following page on MDN."
+
+#: ../../source/man5/texttrack.rst:12
+msgid "https://developer.mozilla.org/ja/docs/Web/API/WebVTT_API"
+msgstr "https://developer.mozilla.org/ja/docs/Web/API/WebVTT_API"
+
+#: ../../source/man5/texttrack.rst:15
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man5/texttrack.rst:18
+msgid "パネルを表示する"
+msgstr "show the panel"
+
+#: ../../source/man5/texttrack.rst:20
+msgid "字幕を編集するには、右上にある字幕の編集ボタンを押します。"
+msgstr "To edit subtitles, press the Edit Subtitles button in the top right."
+
+#: ../../source/man5/texttrack.rst:22
+msgid "headerbtn"
+msgstr "headerbtn"
+
+#: ../../source/man5/texttrack.rst:23
+msgid "rightpanel"
+msgstr "rightpanel"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "|headerbtn|"
+msgstr "|headerbtn|"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "→"
+msgstr "..."
+
+#: ../../source/man5/texttrack.rst:1
+msgid "|rightpanel|"
+msgstr "|rightpanel|"
+
+#: ../../source/man5/texttrack.rst:34
+msgid "テキストトラックを追加する"
+msgstr "Add a text track"
+
+#: ../../source/man5/texttrack.rst:36
+msgid "ビデオプレイヤーではデフォルトで1つのテキストトラックを用意しています。さらに追加したい場合の方法です。"
+msgstr "The video player has one text track by default. This is the method if you want to add more."
+
+#: ../../source/man5/texttrack.rst:43
+msgid "テキストトラックタブを開きます。"
+msgstr "Open the Text Track tab."
+
+#: ../../source/man5/texttrack.rst:44
+msgid "パネルの上部の ``ラベル`` を入力します。"
+msgstr "Enter a ``label`` for the top of the panel."
+
+#: ../../source/man5/texttrack.rst:45
+msgid "その隣の ``言語`` を入力します。（日本語であれば ``ja-JP`` などと）"
+msgstr "Enter the ``Language`` next to it. (For Japanese, ``ja-JP`` etc.)"
+
+#: ../../source/man5/texttrack.rst:46
+msgid "トラックの種類を選びます。"
+msgstr "Select the track type."
+
+#: ../../source/man5/texttrack.rst:49
+msgid "トラックの種類については下記のサイトをご覧ください。"
+msgstr "See below for track types."
+
+#: ../../source/man5/texttrack.rst:51
+msgid "https://developer.mozilla.org/ja/docs/Web/HTML/Element/track#attr-kind"
+msgstr "https://developer.mozilla.org/ja/docs/Web/HTML/Element/track#attr-kind"
+
+#: ../../source/man5/texttrack.rst:53
+msgid "通常の用途では ``subtitles`` でかまいません。"
+msgstr "``subtitles`` is fine for normal use."
+
+#: ../../source/man5/texttrack.rst:58
+msgid "既存のテキストトラックを管理する"
+msgstr "Manage existing text tracks"
+
+#: ../../source/man5/texttrack.rst:60
+msgid "すでに存在するテキストトラックを選択したり削除など管理します。"
+msgstr "Manage existing text tracks by selecting or deleting them."
+
+#: ../../source/man5/texttrack.rst:67
+msgid "``テキストトラック`` から操作したいトラックを選択します。"
+msgstr "Select the track you want to operate from the ``Text Tracks``."
+
+#: ../../source/man5/texttrack.rst:70
+msgid "表示モードを変更する"
+msgstr "Change display mode"
+
+#: ../../source/man5/texttrack.rst:72
+msgid "``表示モード`` から目的のモードを選択します。"
+msgstr "Select the desired mode from the ``Display Mode``."
+
+#: ../../source/man5/texttrack.rst:1
+msgid "モード名"
+msgstr "Mode name"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "効果"
+msgstr "effect"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "disabled"
+msgstr "disabled"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "トラックを完全に無効化します。"
+msgstr "disable the track completely."
+
+#: ../../source/man5/texttrack.rst:1
+msgid "hidden"
+msgstr "hidden"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "トラックを非表示にします。"
+msgstr "hides the track."
+
+#: ../../source/man5/texttrack.rst:1
+msgid "showing"
+msgstr "showing"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "トラックを表示します。"
+msgstr "showing the track."
+
+#: ../../source/man5/texttrack.rst:84
+msgid "モードについて詳しい説明は下記サイトをご覧ください。"
+msgstr "For a detailed explanation of the mode, please see the following site."
+
+#: ../../source/man5/texttrack.rst:86
+msgid "https://developer.mozilla.org/ja/docs/Web/API/TextTrack/mode"
+msgstr "https://developer.mozilla.org/ja/docs/Web/API/TextTrack/mode"
+
+#: ../../source/man5/texttrack.rst:91
+msgid "字幕ファイルを読み込む"
+msgstr "Load subtitle file"
+
+#: ../../source/man5/texttrack.rst:93
+msgid "端末上にある字幕ファイルを読み込みます。"
+msgstr "Load the subtitle file on your device."
+
+#: ../../source/man5/texttrack.rst:95
+msgid "開くボタンをクリックします。"
+msgstr "Click the Open button."
+
+#: ../../source/man5/texttrack.rst:96
+msgid "目的の字幕ファイルを選択し、開きます。"
+msgstr "Select the desired subtitle file and open it."
+
+#: ../../source/man5/texttrack.rst:97
+msgid "選択中のトラックに字幕ファイルの中身が読み込まれます。"
+msgstr "The content of the subtitle file will be read into the selected track."
+
+#: ../../source/man5/texttrack.rst
+msgid "対応するファイル拡張子"
+msgstr "Corresponding file extension"
+
+#: ../../source/man5/texttrack.rst:99
+msgid ".vtt, .srt"
+msgstr ".vtt, .srt"
+
+#: ../../source/man5/texttrack.rst:102
+msgid ""
+"本アプリでは用意しきれない機能についてもVTTファイル・SRTファイルでは記述することができます（スタイルシートやコメントな"
+"ど）。それら設定の効果は本アプリ上で再生した場合でも発揮できますが、アプリのUI上には反映されません。"
+msgstr ""
+"Functions that cannot be prepared in this application can also be described in VTT and SRT files (style sheets, "
+"comments, etc.). The effect of those settings can be demonstrated even when playing on this application, but it is not "
+"reflected on the UI of the application."
+
+#: ../../source/man5/texttrack.rst:104
+msgid "特にスタイルシートを追加・編集したい場合はCSSタブで改めて定義し直して下さい。"
+msgstr "Especially if you want to add or edit a stylesheet, redefine it in the CSS tab."
+
+#: ../../source/man5/texttrack.rst:109
+msgid "字幕ファイルとして保存する"
+msgstr "Save as subtitle file"
+
+#: ../../source/man5/texttrack.rst:111
+msgid "選択中のテキストトラックを字幕ファイルとして端末上に保存します。"
+msgstr "Save the selected text track as a subtitle file on your device."
+
+#: ../../source/man5/texttrack.rst:113
+msgid "保存ボタンを押します。"
+msgstr "Press the Save button."
+
+#: ../../source/man5/texttrack.rst:114
+msgid "ファイル名をつけて保存します。"
+msgstr "Give the file a name and save it."
+
+#: ../../source/man5/texttrack.rst:117
+msgid ""
+"端末上から読み込んだ字幕ファイルを改めて保存し直す場合、元の字幕ファイルに含んでいるスタイルシートは保存されませんので"
+"ご注意ください。"
+msgstr ""
+"Please note that if you re-save the subtitle file loaded from the device, the style sheet included in the original "
+"subtitle file will not be saved."
+
+#: ../../source/man5/texttrack.rst:121
+msgid "字幕を編集する"
+msgstr "Edit subtitles"
+
+#: ../../source/man5/texttrack.rst:123
+msgid "選択したテキストトラック中に字幕のを追加したり削除できます。"
+msgstr "The upper toolbar has a display of the current seek position and delete/add/apply buttons."
+
+#: ../../source/man5/texttrack.rst:125
+msgid "上部ツールバーは現在のシーク位置の表示、削除・追加・適用ボタンがあります。 字幕の一覧で出来る操作は次の通りです。"
+msgstr "The operations that can be performed in the subtitle list are as follows."
+
+#: ../../source/man5/texttrack.rst:1
+msgid "クリック"
+msgstr "Click"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "選択"
+msgstr "Select"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "ダブルクリック"
+msgstr "Double click"
+
+#: ../../source/man5/texttrack.rst:1
+msgid "選択した字幕の開始位置まで自動的にシーク"
+msgstr "Automatically seek to the start of the selected subtitle"
+
+#: ../../source/man5/texttrack.rst:143
+msgid "**字幕で編集できること**"
+msgstr "**What you can edit with subtitles**"
+
+#: ../../source/man5/texttrack.rst:145
+msgid "字幕の次のプロパティを設定できます。"
+msgstr "You can set the following properties for subtitles:"
+
+#: ../../source/man5/texttrack.rst:150
+msgid "開始位置・終了位置"
+msgstr "start position/end position"
+
+#: ../../source/man5/texttrack.rst:150
+msgid "動画のシークバーで動かした後、左のアイコンで開始位置、右のアイコンで終了位置を決定します。"
+msgstr ""
+"After moving with the video seek bar, the left icon determines the start position, and the right icon determines the "
+"end position."
+
+#: ../../source/man5/texttrack.rst
+msgid "テキスト"
+msgstr "Text"
+
+#: ../../source/man5/texttrack.rst:153
+msgid "字幕の文章です。なお、次のタグを使用できます。"
+msgstr "Subtitle text. Note that you can use the following tags:"
+
+#: ../../source/man5/texttrack.rst
+msgid "横(position)"
+msgstr "Horizontal (position)"
+
+#: ../../source/man5/texttrack.rst:167
+msgid "動画における字幕のX座標の位置をパーセンテージで設定します。"
+msgstr "Sets the X-coordinate position of the subtitle in the video as a percentage."
+
+#: ../../source/man5/texttrack.rst
+msgid "横(自動)"
+msgstr "Horizontal (Automatic)"
+
+#: ../../source/man5/texttrack.rst:170 ../../source/man5/texttrack.rst:176
+msgid "X座標の位置を自動で調整するようにします。"
+msgstr "Automatically adjust the position of the X coordinate."
+
+#: ../../source/man5/texttrack.rst
+msgid "縦(line)"
+msgstr "Vertical (line)"
+
+#: ../../source/man5/texttrack.rst:173
+msgid "動画における字幕のY座標の位置をパーセンテージで設定します。"
+msgstr "Sets the Y-coordinate position of the subtitle in the video as a percentage."
+
+#: ../../source/man5/texttrack.rst
+msgid "縦(自動)"
+msgstr "Vertical (Automatic)"
+
+#: ../../source/man5/texttrack.rst
+msgid "行揃え"
+msgstr "justify"
+
+#: ../../source/man5/texttrack.rst:181
+msgid "字幕の領域における位置を調整します。"
+msgstr "Adjust the position in the subtitle area."
+
+#: ../../source/man5/texttrack.rst:183
+msgid "VTTCueのalignです。"
+msgstr "It is align of VTTCue."
+
+#: ../../source/man5/texttrack.rst:185
+msgid "https://developer.mozilla.org/en-US/docs/Web/API/VTTCue/align"
+msgstr "https://developer.mozilla.org/en-US/docs/Web/API/VTTCue/align"
+
+#: ../../source/man5/texttrack.rst
+msgid "字幕のサイズ"
+msgstr "Subtitle size"
+
+#: ../../source/man5/texttrack.rst:188
+msgid ""
+"字幕の領域を設定します。 **文字の大きさではありません** 。文字の大きさよりのこのサイズが小さいと字幕が入り切らないこと"
+"があります。"
+msgstr ""
+"Set the subtitle area. **not font size**. If this size is smaller than the character size, the subtitles may not fit."
+
+#: ../../source/man5/texttrack.rst
+msgid "スタイルシートクラス名"
+msgstr "Stylesheet class name"
+
+#: ../../source/man5/texttrack.rst:191
+msgid "CSSタブで定義したクラス名を指定します。そのスタイルシートどおりに字幕のフォントや色が変わります。"
+msgstr "Specify the class name defined in the CSS tab. Subtitle fonts and colors change according to the stylesheet."
+
+#: ../../source/man5/texttrack.rst:194
+msgid "VTTCueというクラスにあたります。詳しくは下記サイトのページをご覧ください。"
+msgstr "It corresponds to a class called VTTCue. For details, please see the page of the following site."
+
+#: ../../source/man5/texttrack.rst:196
+msgid "https://developer.mozilla.org/ja/docs/Web/API/VTTCue"
+msgstr "https://developer.mozilla.org/ja/docs/Web/API/VTTCue"
+
+#: ../../source/man5/texttrack.rst:200
+msgid "字幕を追加する"
+msgstr "Add subtitles"
+
+#: ../../source/man5/texttrack.rst:202
+msgid "cueaddbtn"
+msgstr "cueaddbtn"
+
+#: ../../source/man5/texttrack.rst:204
+msgid "動画のシークバーを動かします。"
+msgstr "Move the video seek bar."
+
+#: ../../source/man5/texttrack.rst:205
+msgid "開始位置のアイコンを押します。"
+msgstr "Press the start position icon."
+
+#: ../../source/man5/texttrack.rst:206
+msgid "終了位置にしたいところまでシークバーを動かします。"
+msgstr "Move the seek bar to the desired end position."
+
+#: ../../source/man5/texttrack.rst:207
+msgid "終了位置にのアイコンを押します。"
+msgstr "Press the icon to the end position."
+
+#: ../../source/man5/texttrack.rst:208
+msgid "字幕の各プロパティを入力します。"
+msgstr "Enter the subtitle properties."
+
+#: ../../source/man5/texttrack.rst:209
+msgid "このボタンを押します。 |cueaddbtn|"
+msgstr "Press this button. |cueaddbtn|"
+
+#: ../../source/man5/texttrack.rst:213
+msgid "字幕を選択する・編集する"
+msgstr "Select/edit subtitles"
+
+#: ../../source/man5/texttrack.rst:215
+msgid "cueeditbtn"
+msgstr "cueeditbtn"
+
+#: ../../source/man5/texttrack.rst:217 ../../source/man5/texttrack.rst:227
+msgid "字幕の一覧上で目的の行を選択します。"
+msgstr "Select the desired line on the list of subtitles."
+
+#: ../../source/man5/texttrack.rst:218
+msgid "**追加** 時と同じく開始位置・終了位置・各プロパティを設定します。"
+msgstr "Set the start position, end position, and properties in the same way as when adding ."
+
+#: ../../source/man5/texttrack.rst:219 ../../source/man5/texttrack.rst:303
+msgid "このボタンを押します。 |cueeditbtn|"
+msgstr "Press this button. |cueeditbtn|"
+
+#: ../../source/man5/texttrack.rst:223
+msgid "字幕を削除する"
+msgstr "Remove subtitles"
+
+#: ../../source/man5/texttrack.rst:225
+msgid "cuedelbtn"
+msgstr "cuedelbtn"
+
+#: ../../source/man5/texttrack.rst:228 ../../source/man5/texttrack.rst:314
+msgid "このボタンを押します。 |cuedelbtn|"
+msgstr "Select the desired line on the list of subtitles."
+
+#: ../../source/man5/texttrack.rst:233
+msgid "CSSを管理する"
+msgstr "Manage CSS"
+
+#: ../../source/man5/texttrack.rst:235
+msgid "字幕に適用するスタイルシートを追加したり削除できます。"
+msgstr "You can add or remove stylesheets that apply to subtitles."
+
+#: ../../source/man5/texttrack.rst:238
+msgid ""
+".vttや.srtファイルを読み込んだ際に含まれているスタイルシートは、HTMLの仕様のため本アプリのこのタブに復元することはでき"
+"ません。"
+msgstr ""
+"Stylesheets included when reading .vtt or .srt files cannot be restored to this tab of this application due to HTML "
+"specifications."
+
+#: ../../source/man5/texttrack.rst:240
+msgid "改めて保存する場合、ご面倒ですがこのタブにて改めて定義し直してください。"
+msgstr "If you want to save it again, please redefine it in this tab."
+
+#: ../../source/man5/texttrack.rst:248
+msgid "CSSファイルを読み込む"
+msgstr "Load CSS file"
+
+#: ../../source/man5/texttrack.rst:250
+msgid ".cssファイルを読み込んで字幕のスタイルシートとして使うことができます。"
+msgstr "You can load a .css file and use it as a subtitle stylesheet."
+
+#: ../../source/man5/texttrack.rst:252
+msgid "upbtn1"
+msgstr "upbtn1"
+
+#: ../../source/man5/texttrack.rst:254
+msgid "CSSタブのツールバーの左端にある |upbtn1| をクリックします。"
+msgstr "Click |upbtn1| at the left end of the CSS tab toolbar."
+
+#: ../../source/man5/texttrack.rst:255
+msgid ".cssファイルを選択して開きます。"
+msgstr "Select the .css file and open it."
+
+#: ../../source/man5/texttrack.rst:258
+msgid ".cssファイル中に ``::cue()`` のセレクタがある定義が対象です（それ以外のセレクタは無視されます）。"
+msgstr "Definitions with ``::cue()`` selectors in .css files are targeted (other selectors are ignored)."
+
+#: ../../source/man5/texttrack.rst:263
+msgid "CSSをファイルに保存する"
+msgstr "Save CSS to file"
+
+#: ../../source/man5/texttrack.rst:265
+msgid "本アプリ上で定義したCSSを .vttファイルとは別に .cssファイルで保存します。"
+msgstr "Save the CSS defined on this application as a .css file separately from the .vtt file."
+
+#: ../../source/man5/texttrack.rst:267
+msgid "dwnbtn1"
+msgstr "dwnbtn1"
+
+#: ../../source/man5/texttrack.rst:269
+msgid "CSSタブのツールバーの左端にある |dwnbtn1| をクリックします。"
+msgstr "Click |dwnbtn1| at the left end of the CSS tab toolbar."
+
+#: ../../source/man5/texttrack.rst:272
+msgid "ファイル名は ``style_[日付をベースとした連番].css`` で固定です。"
+msgstr "The file name is fixed at ``style_[date-based serial number].css``."
+
+#: ../../source/man5/texttrack.rst:276
+msgid "CSSを追加する"
+msgstr "Add CSS"
+
+#: ../../source/man5/texttrack.rst:279
+msgid "``スタイルシートクラス名`` の入力欄に入力します。"
+msgstr "Fill in the ``stylesheet class name`` field."
+
+#: ../../source/man5/texttrack.rst:281
+msgid "ここでは ``::cue()`` の記述は不要です。あくまで名称だけです。"
+msgstr "You don't need to write ``::cue()`` here. It's just a name."
+
+#: ../../source/man5/texttrack.rst:283
+msgid "``CSS`` の入力ボックスに必要なスタイルを記述していきます。"
+msgstr "Write the styles you want in the ``CSS`` input box."
+
+#: ../../source/man5/texttrack.rst:285
+msgid "通常のCSSのように記述していきます。"
+msgstr "Write like normal CSS."
+
+#: ../../source/man5/texttrack.rst:294
+msgid "ツールバーのこのボタン |cueaddbtn| を押します。"
+msgstr "Press this button |cueaddbtn| on the toolbar."
+
+#: ../../source/man5/texttrack.rst:298
+msgid "CSSを編集する"
+msgstr "Edit CSS"
+
+#: ../../source/man5/texttrack.rst:301
+msgid "CSSの一覧で編集したいクラス名の行を選択します。"
+msgstr "Select the line of the class name you want to edit in the CSS list."
+
+#: ../../source/man5/texttrack.rst:302
+msgid "``CSS`` の入力ボックスでスタイルを変更します。"
+msgstr "Change the style in the ``CSS`` input box."
+
+#: ../../source/man5/texttrack.rst:306
+msgid "スタイルシートクラス名は変更することはできません。"
+msgstr "The stylesheet class name cannot be changed."
+
+#: ../../source/man5/texttrack.rst:311
+msgid "CSSを削除する"
+msgstr "Remove CSS"
+
+#: ../../source/man5/texttrack.rst:313
+msgid "CSSの一覧で削除したいクラス名の行を選択します。"
+msgstr "Select the line of the class name you want to delete in the CSS list."

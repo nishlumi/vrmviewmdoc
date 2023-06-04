@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 11:32+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_camera.rst:5
+msgid "Camera"
+msgstr "Camera"
+
+#: ../../source/man2/prop_camera.rst:14
+msgid "メインカメラとは別のカメラオブジェクトの設定です。これをサブカメラと称します。"
+msgstr "Settings for a camera object that is separate from the main camera. This is called a sub camera."
+
+#: ../../source/man2/prop_camera.rst
+msgid "カメラの状態（登録用）"
+msgstr "Camera status (for registration)"
+
+#: ../../source/man2/prop_camera.rst:18
+msgid "サブカメラを投影するか否かを選びます。"
+msgstr "Select whether to project the sub camera."
+
+#: ../../source/man2/prop_camera.rst
+msgid "プレビュー"
+msgstr "Preview"
+
+#: ../../source/man2/prop_camera.rst:20
+msgid "サブカメラの映像を表示します。表示中はメインカメラの映像は下に隠れます。"
+msgstr "Displays the image of the sub camera. During display, the image of the main camera is hidden below."
+
+#: ../../source/man2/prop_camera.rst
+msgid "視界"
+msgstr "Vision"
+
+#: ../../source/man2/prop_camera.rst:22
+msgid "カメラの視界を広げたり狭くします。Unityでは有効視野（FOV）です。"
+msgstr "Widens or narrows the field of view of the camera. In Unity it is the field of view (FOV)."
+
+#: ../../source/man2/prop_camera.rst
+msgid "深度"
+msgstr "Depth"
+
+#: ../../source/man2/prop_camera.rst:24
+msgid "カメラの表示の優先度です。わかりやすく示すとCSSのz-indexの効果が近いイメージです。"
+msgstr "riority of camera display. To make it easier to understand, it is an image similar to the effect of CSS z-index."
+
+#: ../../source/man2/prop_camera.rst
+msgid "ビューポート"
+msgstr "Viewport"
+
+#: ../../source/man2/prop_camera.rst:26
+msgid "WebGL画面におけるカメラの映像の表示範囲を指定します。"
+msgstr "Specify the display range of the camera image on the WebGL screen."
+
+#: ../../source/man2/prop_camera.rst
+msgid "レンダーテクスチャ"
+msgstr "Render texture"
+
+#: ../../source/man2/prop_camera.rst:28
+msgid "OtherObjectと組み合わせて使います。カメラの映像を別オブジェクトに投影するために使います。"
+msgstr "Used in combination with OtherObject. Used to project the camera image onto another object."
+
+#: ../../source/man2/prop_camera.rst
+msgid "X, Y"
+msgstr "X, Y"
+
+#: ../../source/man2/prop_camera.rst:31
+msgid "カメラから投影される映像のサイズ"
+msgstr "The size of the image projected from the camera"
+
+#: ../../source/man2/prop_camera.rst
+msgid "ON/OFF"
+msgstr "ON/OFF"
+
+#: ../../source/man2/prop_camera.rst:33
+msgid "レンダーテクスチャを有効にします。"
+msgstr "Enable Render Textures."
+
+#: ../../source/man2/prop_camera.rst:38
+msgid "shikai30"
+msgstr "shikai30"
+
+#: ../../source/man2/prop_camera.rst:39
+msgid "shikai60"
+msgstr "shikai60"
+
+#: ../../source/man2/prop_camera.rst:40
+msgid "vp0011"
+msgstr "vp0011"
+
+#: ../../source/man2/prop_camera.rst:41
+msgid "vp0055"
+msgstr "vp0055"
+
+#: ../../source/man2/prop_camera.rst:46
+msgid "視界＝30"
+msgstr "Visibility = 30"
+
+#: ../../source/man2/prop_camera.rst:47
+msgid "視界＝60"
+msgstr "Visibility = 60"
+
+#: ../../source/man2/prop_camera.rst:48
+msgid "|shikai30|"
+msgstr "|shikai30|"
+
+#: ../../source/man2/prop_camera.rst:49
+msgid "|shikai60|"
+msgstr "|shikai60|"
+
+#: ../../source/man2/prop_camera.rst:54
+msgid "ビューポート＝0, 0, 1, 1"
+msgstr "Viewport = 0, 0, 1, 1"
+
+#: ../../source/man2/prop_camera.rst:55
+msgid "ビューポート＝0, 0, 0.5, 0.5"
+msgstr "Viewport = 0, 0, 0.5, 0.5"
+
+#: ../../source/man2/prop_camera.rst:56
+msgid "|vp0011|"
+msgstr "|vp0011|"
+
+#: ../../source/man2/prop_camera.rst:57
+msgid "|vp0055|"
+msgstr "|vp0055|"

@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:14+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_mediapipe.rst:6
+msgid "ポーズトラッキング画面"
+msgstr "pose tracking"
+
+#: ../../source/man1/screen_mediapipe.rst:13
+msgid "GoogleのMediaPipeというライブラリによるポーズのリアルタイム取得画面です。このウィンドウはアプリとは別ウィンドウです。"
+msgstr "It is a real-time acquisition screen of the pose by the library called MediaPipe of Google. This window is a separate window from the app."
+
+#: ../../source/man1/screen_mediapipe.rst:16
+msgid "**右上：**"
+msgstr "**Upper Right:**"
+
+#: ../../source/man1/screen_mediapipe.rst:18
+msgid "ポーズ検出のための各機能のメニューです。"
+msgstr "Menu of each function for pose detection."
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "Selfie Mode(セルフィーモード)"
+msgstr "Selfie Mode"
+
+#: ../../source/man1/screen_mediapipe.rst:21
+msgid "映像が反転します。"
+msgstr "The image is reversed."
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "コンボボックス"
+msgstr "combo box"
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "カメラを選択します。"
+msgstr "Select a camera."
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "ボックスの **横のアイコン** をクリックすると画像ファイルを開くことができます。"
+msgstr "Click the **icon next to the box** to open the image file."
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "Smooth Landmarks(プレビューのスムーズ化)"
+msgstr "Smooth Landmarks"
+
+#: ../../source/man1/screen_mediapipe.rst:26
+msgid "右上の全体のプレビューの精度を調整します。"
+msgstr "Adjust the precision of the overall preview on the top right."
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "Min Detection Confidence(ポーズ検出の正確さ)"
+msgstr "Min Detection Confidence"
+
+#: ../../source/man1/screen_mediapipe.rst:28
+msgid "ポーズの検出の精度を高めます。"
+msgstr "Increases accuracy of pose detection."
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "Min Tracking Confidence(トラッキングの正確さ)"
+msgstr "Min Tracking Confidence"
+
+#: ../../source/man1/screen_mediapipe.rst:30
+msgid "トラッキングの精度を高めます。"
+msgstr "Increase tracking accuracy."
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "Effect(エフェクト)"
+msgstr "Effect"
+
+#: ../../source/man1/screen_mediapipe.rst:32
+msgid "（MediaPipeのサイトを参照してください）"
+msgstr "(see MediaPipe site)"
+
+#: ../../source/man1/screen_mediapipe.rst:34
+msgid "**右上（背景）：**"
+msgstr "**Upper right (background):**"
+
+#: ../../source/man1/screen_mediapipe.rst:36
+msgid "メニューを隠すと背景にトラッキング結果のプレビューを見ることができます。"
+msgstr "Hiding the menu allows you to see a preview of the tracking results in the background."
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "全体のプレビュー"
+msgstr "full preview"
+
+#: ../../source/man1/screen_mediapipe.rst:39
+msgid "トラッキング結果のプレビューです。ドラッグして任意の方向を確認できます。左下の || ボタンでプレビューの回転を固定することができます。"
+msgstr "This is a preview of the tracking results. You can check any direction by dragging. You can lock the rotation of the preview with the || button on the bottom left."
+
+#: ../../source/man1/screen_mediapipe.rst:41
+msgid "**右下：**"
+msgstr "**bottom right:**"
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "タイマー"
+msgstr "Timer"
+
+#: ../../source/man1/screen_mediapipe.rst:44
+msgid "この指定秒数後に自動的に撮影します。"
+msgstr "After this specified number of seconds, the picture will be taken automatically."
+
+#: ../../source/man1/screen_mediapipe.rst
+msgid "ポーズ保存"
+msgstr "save pose"
+
+#: ../../source/man1/screen_mediapipe.rst:46
+msgid "このボタンを押した瞬間の検出ポーズをデータに保存します。タイマーの秒数が0以外の場合はタイマーが起動します。"
+msgstr "The detected pose at the moment this button is pressed is saved in data. If the number of seconds in the timer is non-zero, the timer fires."
+
+#: ../../source/man1/screen_mediapipe.rst:49
+msgid "メニューパネルは ＝ボタンで非表示に出来ます。"
+msgstr "The menu panel can be hidden with the = button."

@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:03+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/menu_audio.rst:5
+msgid "オーディオタブ"
+msgstr "Audio tab"
+
+#: ../../source/man1/menu_audio.rst:13
+msgid "BGMやSEに関する機能のボタンがあります。"
+msgstr "There are buttons for functions related to BGM and SE."
+
+#: ../../source/man1/menu_audio.rst
+msgid "BGM・SE"
+msgstr "BGM/SE"
+
+#: ../../source/man1/menu_audio.rst:17
+msgid "操作するオーディオの種類を選択します。"
+msgstr "Select the type of audio you want to work with."
+
+#: ../../source/man1/menu_audio.rst
+msgid "開く"
+msgstr "Open"
+
+#: ../../source/man1/menu_audio.rst:20
+msgid ""
+"端末からオーディオファイルを開きます。（対応形式: ``mp3``、 ``wav``）"
+msgstr ""
+"Open an audio file from your device. (Supported formats: ``mp3``, "
+"``wav``)"
+
+#: ../../source/man1/menu_audio.rst
+msgid "削除"
+msgstr "Remove"
+
+#: ../../source/man1/menu_audio.rst:22
+msgid "オーディオ一覧で選択したオーディオを削除します。"
+msgstr "Deletes the audio selected in the audio list."
+
+#: ../../source/man1/menu_audio.rst
+msgid "再生"
+msgstr "Play"
+
+#: ../../source/man1/menu_audio.rst:24
+msgid "オーディオを再生します。"
+msgstr "Play audio."
+
+#: ../../source/man1/menu_audio.rst
+msgid "停止"
+msgstr "Stop"
+
+#: ../../source/man1/menu_audio.rst:26
+msgid "オーディオを停止します。"
+msgstr "Stop audio."
+
+#: ../../source/man1/menu_audio.rst
+msgid "オーディオ一覧"
+msgstr "audio list"
+
+#: ../../source/man1/menu_audio.rst:29
+msgid ""
+"開いたオーディオファイルを管理します。選択するとその音声をプレビュー"
+"することができます。"
+msgstr ""
+"Manage open audio files. You can preview the audio by selecting it."
+
+#: ../../source/man1/menu_audio.rst
+msgid "シークバー"
+msgstr "seek bar"
+
+#: ../../source/man1/menu_audio.rst:31
+msgid "再生するオーディオの位置を指定します。"
+msgstr "Specifies the position of the audio to play."
+
+#: ../../source/man1/menu_audio.rst
+msgid "音量"
+msgstr "Volume"
+
+#: ../../source/man1/menu_audio.rst:34
+msgid "選択中のオーディオの音量を調整します。"
+msgstr "Adjusts the volume of the selected audio."
+
+#: ../../source/man1/menu_audio.rst
+msgid "オーディオの状態"
+msgstr "audio state"
+
+#: ../../source/man1/menu_audio.rst:36
+msgid ""
+"アニメーションプロジェクトにおいて選択中のオーディオをどのような状態"
+"で登録するかを選択します。"
+msgstr ""
+"Select how to register the selected audio in the animation project."
+
+#: ../../source/man1/menu_audio.rst
+msgid "ピッチ"
+msgstr "pitch"
+
+#: ../../source/man1/menu_audio.rst:39
+msgid "選択中のオーディオのピッチを調整します。"
+msgstr "Adjusts the pitch of the selected audio."
+
+#: ../../source/man1/menu_audio.rst:42
+msgid ""
+"``ver 2.1.0`` より他のオブジェクトと同様に右クリックして表示される"
+"キーフレームの登録ウィンドウから行えるようにもなりました。 **ただし、"
+"オーディオタブを開いている間はオーディオしか登録できません。**"
+msgstr ""
+"Starting with ``ver 2.1.0``, you can also use the keyframe "
+"registration window displayed by right-clicking on other objects. "
+"**However, only audio can be registered while the audio tab is "
+"open** ."
+
+#: ../../source/man1/menu_audio.rst:45
+msgid ""
+"基本的にはタブ内にある ``キーフレーム登録`` ボタンからするほうがわか"
+"りやすく便利ですが、うまく使い分けてください。"
+msgstr ""
+"Basically, it is easier to understand and more convenient to use the "
+"``Register keyframe`` button in the tab, but please use it properly."
+
+#: ../../source/man1/menu_audio.rst:48
+msgid ""
+"※ここでの再生・停止操作はアニメーションプロジェクトには反映されませ"
+"ん。あくまでもプレビューです。"
+msgstr ""
+"The playback/stop operation here is not reflected in the animation "
+"project. It's just a preview."

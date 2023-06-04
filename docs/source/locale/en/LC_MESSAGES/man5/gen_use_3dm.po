@@ -1,0 +1,462 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 15:02+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man5/gen_use_3dm.rst:3
+msgid "3Dモデルの使い方"
+msgstr "How to use 3D model"
+
+#: ../../source/man5/gen_use_3dm.rst:6
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man5/gen_use_3dm.rst:9
+msgid "3Dモデルを開く・操作する"
+msgstr "Open/manipulate 3D models"
+
+#: ../../source/man5/gen_use_3dm.rst:11
+msgid "本アプリの基本的な用途です。VRMやobjやFBXなどの一般的な3Dモデルを読み込み、動かしていきます。"
+msgstr "This is the basic usage of this application. Load and move general 3D models such as VRM, obj and FBX."
+
+#: ../../source/man5/gen_use_3dm.rst:13
+msgid "基本的な機能は :doc:`../man2/operation_initial` をご覧ください。そこでは次の機能を知ることができます。"
+msgstr "See :doc:`../man2/operation_initial` for basic functions. There you will find the following features:"
+
+#: ../../source/man5/gen_use_3dm.rst:15
+msgid "オブジェクトの開き方"
+msgstr "How to open an object"
+
+#: ../../source/man5/gen_use_3dm.rst:16
+msgid "一度開いたオブジェクトの履歴の使い方"
+msgstr "How to use the history of opened objects"
+
+#: ../../source/man5/gen_use_3dm.rst:17
+msgid "オブジェクトの選択の仕方"
+msgstr "How to select objects"
+
+#: ../../source/man5/gen_use_3dm.rst:18
+msgid "(グローバル)位置や回転・倍率の使い方"
+msgstr "How to use (global) position, rotation and magnification"
+
+#: ../../source/man5/gen_use_3dm.rst:19
+msgid "etc..."
+msgstr "etc..."
+
+#: ../../source/man5/gen_use_3dm.rst:21
+msgid "オブジェクトのプロパティ自体について知りたい場合は :doc:`../man2/property` をご覧ください。"
+msgstr "If you want to know about the object properties themselves, see :doc:`../man2/property`."
+
+#: ../../source/man5/gen_use_3dm.rst:23
+msgid "オブジェクトの操作や補足事項を知りたい場合は :doc:`../man2/operation` をご覧ください。"
+msgstr "See :doc:`../man2/operation` if you want to know about object operations and supplementary information."
+
+#: ../../source/man5/gen_use_3dm.rst:26
+msgid "3Dモデルファイルを開く際はあらかじめ設定の ``メモリの使用率`` で必要と思われるサイズに増やしておくことをオススメします。"
+msgstr "When opening a 3D model file, it is recommended that you increase the ``memory usage`` setting in advance to the size you think is necessary."
+
+#: ../../source/man5/gen_use_3dm.rst:28
+msgid ""
+"ただし、ご利用中の端末のメモリが少ない場合は本アプリで多く確保しすぎると動作が不安定になる可能性があります。どのくらいメモリを確保すべきかはご自身で判断"
+"してください。"
+msgstr ""
+"However, if the memory of the device you are using is low, the operation may become unstable if you secure too much with this application. It is up to "
+"you to decide how much memory you should reserve."
+
+#: ../../source/man5/gen_use_3dm.rst:35
+msgid "3Dモデルにポーズ・アニメーションさせる"
+msgstr "Pose and animate a 3D model"
+
+#: ../../source/man5/gen_use_3dm.rst:37
+msgid ""
+"本アプリのメインの用途です。UnityエディタやBlender等の高機能すぎるアプリを使わずに、手軽にキーフレーム方式のアニメーション作成を行うことができます。"
+msgstr ""
+"This is the main purpose of this application. You can easily create keyframe animations without using highly functional applications such as the Unity "
+"editor or Blender."
+
+#: ../../source/man5/gen_use_3dm.rst:40
+msgid "基本的な説明"
+msgstr "Basic explanation"
+
+#: ../../source/man5/gen_use_3dm.rst:40
+msgid ":doc:`../man4/about` や :doc:`../man4/specification` をご覧ください。"
+msgstr "See :doc:`../man4/about` and :doc:`../man4/specification`."
+
+#: ../../source/man5/gen_use_3dm.rst:43
+msgid "VRMの操作について"
+msgstr "Operation of VRM"
+
+#: ../../source/man5/gen_use_3dm.rst:43
+msgid ":doc:`../man2/operation_vrm` にて詳しく説明しています。なお、ポーズについてはキーフレームに登録しなくても動かしただけですぐに反映されています。"
+msgstr ""
+"See :doc:`../man2/operation_vrm` for more details. In addition, the pose is reflected immediately just by moving it without registering it in the key "
+"frame."
+
+#: ../../source/man5/gen_use_3dm.rst:46
+msgid "アニメーションの登録について"
+msgstr "About registration of animation"
+
+#: ../../source/man5/gen_use_3dm.rst:46
+msgid "`キーフレームに登録する・更新する <../man4/animation_register.html#index-2>`_ をご覧ください。"
+msgstr "See `Registering and updating keyframes <../man4/animation_register.html#index-2>`_."
+
+#: ../../source/man5/gen_use_3dm.rst:49
+msgid ""
+"本アプリのボーンの可動システムは **IK方式** が基本です。ボーンの回転のみで動かす **FK方式** ではないため、手足や腰の位置がVRMの身長・体格によって若干の差"
+"が生じます。"
+msgstr ""
+"The bone movement system of this application is based on the **IK method**. Since it is not the **FK method** that moves only by rotating bones, the "
+"position of the limbs and waist may vary slightly depending on the height and build of the VRM."
+
+#: ../../source/man5/gen_use_3dm.rst:51
+msgid "身長差のあるポーズやモーションファイルを読み込んだ時はその身長差を自動的に計算して解決しておりますが完璧ではありません。ご了承下さい。"
+msgstr ""
+"When reading a pose or motion file with a height difference, the height difference is automatically calculated and resolved, but it is not perfect. "
+"please note that."
+
+#: ../../source/man5/gen_use_3dm.rst:53
+msgid "なお、FK方式は将来的に対応する予定です。"
+msgstr "The FK method is planned to be supported in the future."
+
+#: ../../source/man5/gen_use_3dm.rst:61
+msgid "VRMを動かす色んな方法"
+msgstr "Various ways to run VRM"
+
+#: ../../source/man5/gen_use_3dm.rst:63
+msgid "本アプリではVRMを動かすのに次の方法を用意しています。それぞれ特徴やポーズを取らせるための精度が異なります。"
+msgstr "This application provides the following methods to run VRM. Each has different characteristics and accuracy for posing."
+
+#: ../../source/man5/gen_use_3dm.rst:74
+msgid "IKマーカー"
+msgstr "IK marker"
+
+#: ../../source/man5/gen_use_3dm.rst:66
+msgid "基本の操作方法。IKマーカーを動かすことにより、その位置めがけてVRMの各部位が移動・回転してその通りにポーズを取ります。高精度。"
+msgstr ""
+"Basic operation method. By moving the IK marker, each part of the VRM moves and rotates toward that position and poses accordingly. High precision."
+
+#: ../../source/man5/gen_use_3dm.rst:68
+msgid "詳しくは :ref:`inputikasmarker` をご覧ください。"
+msgstr "See :ref:`inputikasmarker` for more information."
+
+#: ../../source/man5/gen_use_3dm.rst:89
+msgid "MediaPipeのAIによるポーズ認識"
+msgstr "Pose recognition by MediaPipe AI"
+
+#: ../../source/man5/gen_use_3dm.rst:77
+msgid "GoogleのMediaPipeのPose機能により、ウェブカメラで映した対象からポーズを検出し、それに近いポーズを取得します。低精度。"
+msgstr "The Pose function of Google's MediaPipe detects the pose from the object captured by the webcam and obtains a pose close to it. Low precision."
+
+#: ../../source/man5/gen_use_3dm.rst:79
+msgid "詳しくは :doc:`../man3/posing_mediapipe` をご覧ください。"
+msgstr "See :doc:`../man3/posing_mediapipe` for details."
+
+#: ../../source/man5/gen_use_3dm.rst:87
+msgid ""
+"MediaPipeが返すボーンの位置・回転情報はUnityのものとも本アプリのIKのものとも異なるため、変換が必要になります。そのため低精度とさせていただきます。あくま"
+"でモデルの映像・画像に近いポーズを取らせ、後は手動で調整する・・・という流れを許容していただけるなら有効にご活用いただけます。"
+msgstr ""
+"The bone position/rotation information returned by MediaPipe is different from that of Unity and the IK of this application, so conversion is necessary. "
+"Therefore, the accuracy is considered to be low. It can be used effectively if you allow the flow of making a pose close to the model's video / image, "
+"and then adjusting it manually."
+
+#: ../../source/man5/gen_use_3dm.rst:89
+msgid "※精度については今後も調整を続けていきます。"
+msgstr "We will continue to adjust the accuracy in the future."
+
+#: ../../source/man5/gen_use_3dm.rst:104
+msgid "スプレッドシートで直接指定"
+msgstr "Specify directly in the spreadsheet"
+
+#: ../../source/man5/gen_use_3dm.rst:92
+msgid "IKマーカーの位置や回転をスプレッドシート形式で各セルに入力し、そのとおりにポーズを取ります。高精度。"
+msgstr "Enter the position and rotation of the IK markers in each cell in spreadsheet form, and pose accordingly. High precision."
+
+#: ../../source/man5/gen_use_3dm.rst:94
+msgid "詳しくは :ref:`inputikasnumber` をご覧ください。"
+msgstr "See :ref:`inputikasnumber` for details."
+
+#: ../../source/man5/gen_use_3dm.rst:102
+msgid ""
+"本来はIKマーカーを動かしてボーンを移動・回転させるのを、スプレッドシートで直接移動量・回転量を小数点付きで入力して指定できます。コピーしてExcelやGoogleス"
+"プレッドシートに保存することもできます。もちろん、その逆で **本アプリのスプレッドシートに貼り付ける** こともできます。"
+msgstr ""
+"Instead of moving and rotating the bones by moving the IK marker, you can directly enter the amount of movement and rotation with a decimal point in the "
+"spreadsheet. You can also copy and save to Excel or Google Sheets. Of course, you can also **paste into the spreadsheet of this app** in reverse."
+
+#: ../../source/man5/gen_use_3dm.rst:104
+msgid "その他、ポーズの微修正にも活用できるでしょう。"
+msgstr "In addition, it can also be used for fine correction of poses."
+
+#: ../../source/man5/gen_use_3dm.rst:107
+msgid "VRMのポーズを反転する"
+msgstr "Invert VRM pose"
+
+#: ../../source/man5/gen_use_3dm.rst:109
+msgid "スプレッドシートのみの機能ですが、VRMのポーズを反転することができます。"
+msgstr "Although it is a function only for the spreadsheet, you can invert the pose of the VRM."
+
+#: ../../source/man5/gen_use_3dm.rst:111
+msgid "btnbonetranapply"
+msgstr "btnbonetranapply"
+
+#: ../../source/man5/gen_use_3dm.rst:112
+msgid "btnbonetranmirror"
+msgstr "btnbonetranmirror"
+
+#: ../../source/man5/gen_use_3dm.rst:114
+msgid "VRMのプロパティの ``IK、全身`` パネルにある ``IK位置の一括変更`` をクリックし、IKマーカーの一括変更ウィンドウを表示します。"
+msgstr "Click ``Batch change IK position`` in the ``IK, whole body`` panel of the VRM properties to display the batch change window for IK markers."
+
+#: ../../source/man5/gen_use_3dm.rst:115
+msgid "上部のツールバーにある |btnbonetranmirror| をクリックします。"
+msgstr "Click |btnbonetranmirror| on the top toolbar."
+
+#: ../../source/man5/gen_use_3dm.rst:116
+msgid "|btnbonetranapply| ポーズを適用をクリックします。"
+msgstr "Click |btnbonetranapply| Apply Pose."
+
+#: ../../source/man5/gen_use_3dm.rst:118
+msgid ""
+"すると現在のポーズが反転します。動きとしてはスプレッドシートのセルを入れ替えているだけなので、その際に手入力すれば反転しつつ一部だけ変えるということも可"
+"能です。"
+msgstr ""
+"The current pose will be reversed. Since the movement is just replacing the cells of the spreadsheet, it is also possible to change only a part while "
+"reversing if you manually enter it at that time."
+
+#: ../../source/man5/gen_use_3dm.rst:129
+msgid "IKマーカーの便利な使い方"
+msgstr "Convenient use of IK markers"
+
+#: ../../source/man5/gen_use_3dm.rst:131
+msgid "IKマーカーはただ動かすだけではありません。次のように便利に使うことができます。詳しくは :ref:`specialoperation_vrm` をご覧ください。"
+msgstr "IK markers don't just move. You can use it conveniently as follows. See :ref:`specialoperation_vrm` for details."
+
+#: ../../source/man5/gen_use_3dm.rst:141
+msgid "複数同時に動かす"
+msgstr "move multiple at the same time"
+
+#: ../../source/man5/gen_use_3dm.rst:134
+msgid "同時にIKマーカーが複数存在するVRMだけですが、IKマーカーを複数選択して動かすことができます。"
+msgstr "Although it is only a VRM that has multiple IK markers at the same time, you can select multiple IK markers and move them."
+
+#: ../../source/man5/gen_use_3dm.rst:139
+msgid ""
+"``Ctrlキー`` を押しながらIKマーカーを一つ以上クリックしてください。すると、IKマーカーが複数赤くなります。その状態で移動したり回転すると、同時に動かすこと"
+"ができます。"
+msgstr ""
+"Hold down the ``Ctrl key`` and click on one or more IK markers. Then, multiple IK markers turn red. If you move or rotate in that state, you can move it "
+"at the same time."
+
+#: ../../source/man5/gen_use_3dm.rst:141
+msgid "ただし、当たり判定が存在するので適時カメラをズームインするなどしてみやすさを調整して操作してください。"
+msgstr "However, since there is a collision detection, please adjust the visibility by zooming in the camera as needed."
+
+#: ../../source/man5/gen_use_3dm.rst:150
+msgid "IKマーカーの移動を取り消す"
+msgstr "Undo moving IK markers"
+
+#: ../../source/man5/gen_use_3dm.rst:144
+msgid "``Shiftキー`` + ``Z`` でIKマーカーの直前の移動・回転を元に戻すことが出来ます。"
+msgstr "``Shift key`` + ``Z`` can be used to undo the previous movement/rotation of the IK marker."
+
+#: ../../source/man5/gen_use_3dm.rst:146
+msgid "``Shiftキー`` + ``Y`` でその戻しをやり直すことができます。"
+msgstr "You can redo the return with ``Shift key`` + ``Y`` ."
+
+#: ../../source/man5/gen_use_3dm.rst:149
+msgid "通常のアプリの Ctrl + Z のように Ctrlキーではないのでご注意ください。"
+msgstr "Please note that it is not a Ctrl key like Ctrl + Z in normal apps."
+
+#: ../../source/man5/gen_use_3dm.rst:158
+msgid "ポーズやモーションを扱う"
+msgstr "Use with poses and motions"
+
+#: ../../source/man5/gen_use_3dm.rst:160
+msgid "ここでは主にポーズやモーション自体の扱い方について説明をまとめていきます。"
+msgstr "Here, we will mainly summarize the explanations on how to handle the poses and motions themselves."
+
+#: ../../source/man5/gen_use_3dm.rst:162
+msgid "本アプリでできることと、外部への出力ファイルは次のように対応しています。"
+msgstr "What you can do with this app and output files to the outside correspond as follows."
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "動作"
+msgstr "action"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "対象"
+msgstr "target"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "出力ファイル"
+msgstr "output file"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "参照ページ"
+msgstr "reference page"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "ポーズ"
+msgstr "Pose"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "VRM"
+msgstr "VRM"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "``.vvmpose``"
+msgstr "``.vvmpose``"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid ":doc:`../man3/posing`"
+msgstr ":doc:`../man3/posing`"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "モーション"
+msgstr "Motion"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "すべてのオブジェクト"
+msgstr "All objects"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "``.vvmmot``"
+msgstr "``.vvmmot``"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid ":ref:`savemotionfile`"
+msgstr ":ref:`savemotionfile`"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "プロジェクト"
+msgstr "Project"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "すべてのオブジェクト＋現在のアニメーションの設定"
+msgstr "All objects + current animation settings"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid "``.vvmproj``"
+msgstr "``.vvmproj``"
+
+#: ../../source/man5/gen_use_3dm.rst:1
+msgid ":ref:`saveproject`"
+msgstr ":ref:`saveproject`"
+
+#: ../../source/man5/gen_use_3dm.rst:173
+msgid ""
+"**ポーズとモーション** は実際のオブジェクトに依存しないため、別のオブジェクトを割り当てているロールに読み込んでそれを再現することができます。ポーズファイ"
+"ル・モーションファイルを配布することで、他のユーザーにも使っていただくことが可能です。"
+msgstr ""
+"**Poses and motions** do not depend on the actual object, so you can load it into a role that assigns another object and reproduce it. By distributing "
+"pose files and motion files, it is possible for other users to use them."
+
+#: ../../source/man5/gen_use_3dm.rst:176
+msgid "VRMの場合、身長差が極端にあると許容できないズレが生じることがあります。配布する際は参考情報として元のVRMの身長を知らせるとよいでしょう。"
+msgstr ""
+"For VRMs, extreme height differences can lead to unacceptable deviations. When distributing it, it is a good idea to inform the height of the original "
+"VRM as reference information."
+
+#: ../../source/man5/gen_use_3dm.rst:178
+msgid "※MMDのようにボーンの回転角度を直接指定する方式ではなく、IK方式のため身長・体格の誤差吸収が完全ではありません。ご了承下さい。"
+msgstr ""
+"It is not a method that directly specifies the rotation angle of the bone like MMD, but it is an IK method, so the error absorption of height and "
+"physique is not complete. please note that."
+
+#: ../../source/man5/gen_use_3dm.rst:180
+msgid ""
+"**プロジェクト** はもともと開いていたオブジェクトファイルも開こうとする関係上、他ユーザーへの配布には適しません。とはいえ、 `ロールにキャストを割り当て"
+"る <../man4/animation_proper.html#index-4>`_  操作をすることにより、別のオブジェクトでもモーションを可能な限り再現させることができます。"
+msgstr ""
+"**Project** is not suitable for distribution to other users because it tries to open the object files that were originally opened. However, by "
+"`assigning a cast to a role <../man4/animation_proper.html#index-4>`_ operation, the motion can be reproduced as much as possible on different objects."
+
+#: ../../source/man5/gen_use_3dm.rst:182
+msgid ""
+"もし配布を考えている場合、一度履歴を削除してからプロジェクトファイルを開いて、ロールにキャストを割り当てる操作を試してみるなどして、事前に確認することを"
+"オススメします。"
+msgstr ""
+"If you are thinking of distributing it, it is recommended that you check it in advance by deleting the history, opening the project file, and trying to "
+"assign a cast to a role."
+
+#: ../../source/man5/gen_use_3dm.rst:187
+msgid "タイムラインとオブジェクトを紐づける"
+msgstr "Associating timelines with objects"
+
+#: ../../source/man5/gen_use_3dm.rst:189
+msgid "タイムラインやオブジェクトの関係について詳しくは、上記と同じく :doc:`../man4/specification` を参照してください。"
+msgstr "For details on the relationship between timelines and objects, see :doc:`../man4/specification` as above."
+
+#: ../../source/man5/gen_use_3dm.rst:191
+msgid ""
+"本アプリでは一度ポーズやモーションをさせたロール（タイムライン）に対し、後から実際のオブジェクトだけ差し替えて別のオブジェクトで同じポーズやモーションを"
+"させて楽しむことができます。"
+msgstr ""
+"In this app, you can enjoy the same pose and motion with another object by replacing only the actual object later on the role (timeline) that has been "
+"pose and motion once."
+
+#: ../../source/man5/gen_use_3dm.rst:193
+msgid ":ref:`settingcast2role`"
+msgstr ":ref:`settingcast2role`"
+
+#: ../../source/man5/gen_use_3dm.rst:203
+msgid "アニメーションのFPSを調整する"
+msgstr "Adjust animation FPS"
+
+#: ../../source/man5/gen_use_3dm.rst:208
+msgid "プロジェクト単位での調整"
+msgstr "Coordination on a project-by-project basis"
+
+#: ../../source/man5/gen_use_3dm.rst:206
+msgid "アニメーションプロジェクトごとにFPSを調整することができます。"
+msgstr "You can adjust the FPS for each animation project."
+
+#: ../../source/man5/gen_use_3dm.rst:208
+msgid ""
+"詳しくは :ref:`setfpsframe` をご覧ください。また、FPSを変更するのではなく、キーフレーム登録時にデフォルトでセットされる間隔(duration)の基準値だけを変更し"
+"たい場合は :ref:`setdefaultduration` をご覧ください。"
+msgstr ""
+"See :ref:`setfpsframe` for details. Also, if you do not want to change the FPS, but want to change only the reference value of the default duration when "
+"registering keyframes, see :ref:`setdefaultduration`."
+
+#: ../../source/man5/gen_use_3dm.rst:225
+msgid "タイムラインごと・キーフレームごとの調整"
+msgstr "Adjustment for each timeline and keyframe"
+
+#: ../../source/man5/gen_use_3dm.rst
+msgid ""
+"プロジェクトで決められたFPSと間隔(duration)に従う場合、キーフレームごとの間隔(duration)は基本的にはフレーム間を目的に沿って適切に離して登録します。すると"
+"自動的に間隔(duration)が計算されてセットされます。"
+msgstr ""
+"When following the FPS and duration determined by the project, the duration for each keyframe is basically registered with an appropriate distance "
+"between frames according to the purpose. Then the duration is automatically calculated and set."
+
+#: ../../source/man5/gen_use_3dm.rst
+msgid "プロジェクトの間隔(duration)に従うと、膨大なフレームが必要になる可能性もあります。それが労力的に問題なければ構いません。"
+msgstr "According to the duration of the project, a huge number of frames may be required. It doesn't matter if it's labor-intensive."
+
+#: ../../source/man5/gen_use_3dm.rst:219
+msgid "少ないフレームで自在にモーションを作りたい場合、キーフレームの設定で間隔(duration)を直接編集するとよいでしょう。"
+msgstr "If you want to freely create motion with a small number of frames, it is a good idea to directly edit the duration in the keyframe settings."
+
+#: ../../source/man5/gen_use_3dm.rst:226
+msgid "詳しくは :ref:`modifyeachduration` をご覧ください。"
+msgstr "See :ref:`modifyeachduration` for more information."

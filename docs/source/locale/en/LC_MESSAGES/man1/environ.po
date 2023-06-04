@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 19:19+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/environ.rst:5
+msgid "動作環境"
+msgstr "Operating environment"
+
+#: ../../source/man1/environ.rst
+msgid "OS"
+msgstr "OS"
+
+#: ../../source/man1/environ.rst:9
+msgid "Windows, macOS, Linux, ChromeOS [1]_"
+msgstr "Windows, macOS, Linux, ChromeOS [1]_"
+
+#: ../../source/man1/environ.rst
+msgid "対応ブラウザ"
+msgstr "Supported browser"
+
+#: ../../source/man1/environ.rst
+msgid "Edge, Chrome, Opera, Vivaldi, Firefox [2]_"
+msgstr "Edge, Chrome, Opera, Vivaldi, Firefox [2]_"
+
+#: ../../source/man1/environ.rst
+msgid "通信量"
+msgstr "Ttraffic"
+
+#: ../../source/man1/environ.rst
+msgid "初回起動・・・約20～25MB"
+msgstr "First boot: about 20-25MB"
+
+#: ../../source/man1/environ.rst
+msgid "Stage変更・Effect使用・・・約30MB（初使用時のみ）"
+msgstr "Stage change/effect usage:  30MB (first use only)"
+
+#: ../../source/man1/environ.rst
+msgid "アップデート直後・・・1KB～25MB"
+msgstr "Immediately after update: 1KB～25MB"
+
+#: ../../source/man1/environ.rst
+msgid "2回目以降の通常・・・約1～10KB程度"
+msgstr "Normal for the second and subsequent times: about 1 to 10 KB"
+
+#: ../../source/man1/environ.rst
+msgid "※ウェブアプリ版のみ"
+msgstr "Web application version only"
+
+#: ../../source/man1/environ.rst
+msgid "メモリ"
+msgstr "Memory"
+
+#: ../../source/man1/environ.rst
+msgid "PCのメモリは4GB以上を推奨。"
+msgstr "4GB or more of PC memory is recommended."
+
+#: ../../source/man1/environ.rst
+msgid "※アプリ内で使用量を 256MB～4GB の範囲で調整が可能です"
+msgstr "You can adjust the usage within the app within the range of 256MB to 4GB."
+
+#: ../../source/man1/environ.rst
+msgid "※開発PCは8GBで開発しております"
+msgstr "Developed on a PC with 8GB memory"
+
+#: ../../source/man1/environ.rst
+msgid "ストレージ"
+msgstr "Storage"
+
+#: ../../source/man1/environ.rst:25
+msgid "あればあるほどよい [3]_"
+msgstr "The more the better. [3]_"
+
+#: ../../source/man1/environ.rst
+msgid "グラフィック性能"
+msgstr "Graphics performance"
+
+#: ../../source/man1/environ.rst
+msgid "次のPCにて確認"
+msgstr "Checked with the following PC"
+
+#: ../../source/man1/environ.rst
+msgid "※GTX 1060 ～ RTX3060 Ti 搭載PC"
+msgstr "PC with GTX 1060 to RTX3060 Ti"
+
+#: ../../source/man1/environ.rst
+msgid "※最後のIntel CPUモデルのMacBook Air ～ M1 MacBook Air"
+msgstr "Last Intel CPU model MacBook Air to M1 MacBook Air"
+
+#: ../../source/man1/environ.rst
+msgid "※ASUS UX21A notebook PC"
+msgstr "ASUS UX21A notebook PC"
+
+#: ../../source/man1/environ.rst
+msgid "外部へのアクセス"
+msgstr "Access to the outside"
+
+#: ../../source/man1/environ.rst
+msgid "Google、jsdelivr、unpkg"
+msgstr "Google, jsdelivr, unpkg"
+
+#: ../../source/man1/environ.rst
+msgid "※スタイルシート・javascriptライブラリ目的"
+msgstr "Purpose of using style sheets and javascript libraries"
+
+#: ../../source/man1/environ.rst
+msgid "※上記以外への外部へのアクセスは行っていません。"
+msgstr "We do not have access to the outside other than the above."
+
+#: ../../source/man1/environ.rst
+msgid "※ユーザーデータを外部へ送信する機能は一切持っていません。"
+msgstr "We do not have any function to send user data to the outside."
+
+#: ../../source/man1/environ.rst
+msgid "端末(PC)へのアクセス"
+msgstr "Access to terminal (PC)"
+
+#: ../../source/man1/environ.rst
+msgid "＜開く＞"
+msgstr "<Open>"
+
+#: ../../source/man1/environ.rst
+msgid "・VRMなど3Dオブジェクトファイル、画像ファイル、音楽ファイル"
+msgstr "* 3D object files such as VRM, image files, music files"
+
+#: ../../source/man1/environ.rst
+msgid "・動画ファイル"
+msgstr "* Movie files"
+
+#: ../../source/man1/environ.rst
+msgid "・.vvmposeファイル、.vvmmotファイル、.vvmprojファイル"
+msgstr "* .vvmpose file, .vvmmot file, .vvmproj file"
+
+#: ../../source/man1/environ.rst
+msgid "＜保存する＞"
+msgstr "<Save>"
+
+#: ../../source/man1/environ.rst
+msgid "・スクリーンショット"
+msgstr "* Screenshot"
+
+#: ../../source/man1/environ.rst:51
+msgid "ChromeOSではPC版を使うことはできません。"
+msgstr "You can't use the PC version on ChromeOS."
+
+#: ../../source/man1/environ.rst:52
+msgid "FirefoxはPWAの独立したウィンドウ化を行なえません。"
+msgstr "Firefox cannot do independent windowing of PWAs."
+
+#: ../../source/man1/environ.rst:53
+msgid "ポーズファイルやプロジェクトファイルなど一部のファイルはアプリ内部のストレージに保存されますが、PC内部にすべて保存されています。外部には保存されません。"
+msgstr "Some files such as pose files and project files are saved in the app's internal storage, but they are all saved inside the PC. It is not saved externally."
+
+#: ../../source/man1/environ.rst:56
+msgid "Android, iOSはUnityのWebGLの仕様に従い、サポート外とさせていただきます。(実際はアクセスすれば利用できますが操作が困難です)"
+msgstr "Android and iOS are not supported according to Unity's WebGL specifications. (Actually, you can use it if you access it, but it is difficult to operate)"
+
+#: ../../source/man1/environ.rst:57
+msgid "通信量はあくまでも目安です。PWA対応のため通信はアプリの読み込み・アップデート時にしか原則として行わないようにしています。"
+msgstr "The traffic volume is only a guideline. In principle, communication is only performed when loading or updating the application because it is PWA compatible."
+
+#: ../../source/man1/environ.rst:58
+msgid "利用にあたりUnity本体や追加のライブラリ等は不要です。"
+msgstr "Unity itself and additional libraries are not required for use."
+
+#: ../../source/man1/environ.rst:59
+msgid "PWA（Progressive Wab App）対応のため、インストールしてブラウザから独立して利用可能です。"
+msgstr "Since it supports PWA (Progressive Wab App), it can be installed and used independently from the browser."
+
+#: ../../source/man1/environ.rst:60
+msgid "Windows, macOS、Linuxは単独で動作するPC版も用意します。"
+msgstr "Windows, macOS, and Linux also have PC versions that run independently."
+
+#: ../../source/man1/environ.rst:61
+msgid "マウスジェスチャーのあるブラウザ・拡張機能は誤操作の可能性があるので事前にオフにするか後述のキー操作をする必要があります。"
+msgstr "Browsers/extensions with mouse gestures may result in incorrect operation. It is necessary to turn it off in advance or perform the key operation described later."
+
+#: ../../source/man1/environ.rst:62
+msgid "初回以後、むやみにリロードはしないでください。アップデートは用意できましたらアプリ上で通知いたします。"
+msgstr "After the first time, do not reload more than necessary. When an update is ready, we will notify you on the app."

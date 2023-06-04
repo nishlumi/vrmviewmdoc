@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 23:37+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_obj.rst:6
+msgid "OtherObject"
+msgstr "OtherObject"
+
+#: ../../source/man2/operation_obj.rst:9
+msgid ""
+"OtherObjectは基本的にはVRoid/VRM以外の一般的な3Dモデルを扱います。OtherObjectを始め、VRoid/VRM以外はIK"
+"マーカーは1つのオブジェクトにつき1個のみです。"
+msgstr ""
+"OtherObject basically handles general 3D models other than VRoid/VRM. There is only one IK marker per "
+"object except for VRoid/VRM, including OtherObject."
+
+#: ../../source/man2/operation_obj.rst:12
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man2/operation_obj.rst:17
+msgid ""
+"表示サイズはその3Dオブジェクトの実際のサイズに沿うので、VRoid/VRMや他のオブジェクトと大きく違う可能性が"
+"あります。その場合は「共通」タブの「倍率」プロパティで変更してください。"
+msgstr ""
+"The display size follows the actual size of the 3D object, so it may differ greatly from VRoid/VRM and "
+"other objects. In that case, please change it in the \"Magnification\" property of the \"Common\" tab."
+
+#: ../../source/man2/operation_obj.rst:19
+msgid ""
+"IKマーカーはその **オブジェクトの原点** に付きます。Blenderなどで出力時に実際のオブジェクトと原点がズレ"
+"ていると本アプリ上でもIKマーカーと実際のオブジェクトがズレます。意図したズレでない場合は出力元のアプリ"
+"側で適切に修正してください。"
+msgstr ""
+"The IK marker will be attached to the **object origin**. If the actual object and the origin are "
+"misaligned when outputting with Blender, etc., the IK marker and the actual object will also be "
+"misaligned in this application. If the misalignment is not what you intended, correct it appropriately "
+"on the output source app side."
+
+#: ../../source/man2/operation_obj.rst
+msgid "※FBXなど、アニメーションデータを持つ3Dオブジェクトは本アプリでも再生可能です。"
+msgstr "3D objects with animation data such as FBX can be played with this application."
+
+#: ../../source/man2/operation_obj.rst
+msgid "※ただし、利用ライブラリの仕様によりアニメーションの再生や選択に制限がかかる場合があります。"
+msgstr ""
+"However, animation playback and selection may be restricted depending on the specifications of the "
+"library used."
+
+#: ../../source/man2/operation_obj.rst:32
+msgid "アニメーション再生"
+msgstr "Play animation"
+
+#: ../../source/man2/operation_obj.rst:34
+msgid ""
+"3Dオブジェクトのアニメーションは本アプリによるアニメーションプロジェクトの中でも再生をコントロールでき"
+"ます。"
+msgstr ""
+"Animation of 3D objects can be controlled to play even in the animation project by this application."
+
+#: ../../source/man2/operation_obj.rst:38
+msgid "preview"
+msgstr "preview"
+
+#: ../../source/man2/operation_obj.rst:39
+msgid "anireg"
+msgstr "anireg"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "プレビュー再生"
+msgstr "preview playback"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "アニメーション登録用"
+msgstr "for animation registration"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "|preview|"
+msgstr "|preview|"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "|anireg|"
+msgstr "|anireg|"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "即座に再生されます。こちらの操作はキーフレームには登録されません。"
+msgstr "It will play instantly. This operation is not registered in the keyframe."
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "「再生」や「停止」を選択後にキーフレームに登録します。"
+msgstr "Register the keyframe after selecting \"Play\" or \"Stop\"."
+
+#: ../../source/man2/operation_obj.rst:47
+msgid "再生するアニメーション名を選択します。"
+msgstr "Select the animation name to play."
+
+#: ../../source/man2/operation_obj.rst:48
+msgid "必要に応じて再生モード・アニメーション速度などを調整します。"
+msgstr "Adjust the playback mode, animation speed, etc. as necessary."
+
+#: ../../source/man2/operation_obj.rst:49
+msgid "再生して確認します。"
+msgstr "Play and check."
+
+#: ../../source/man2/operation_obj.rst:50
+msgid "よければアニメーションの状態（登録用）で再生状態を選び、キーフレームの登録をします。"
+msgstr ""
+"If you like, select the playback state in the animation state (for registration) and register the "
+"keyframe."
+
+#: ../../source/man2/operation_obj.rst:53
+msgid ""
+"※キーフレームに3Dオブジェクトのアニメーションデータが展開・表示されるわけではなく、あくまで再生・一時停"
+"止・停止・シークという状態がキーフレームに登録されるのみです。"
+msgstr ""
+"The animation data of the 3D object is not expanded or displayed in the keyframe, and only the states "
+"of play, pause, stop, and seek are registered in the keyframe."
+
+#: ../../source/man2/operation_obj.rst:56
+msgid ""
+"再生や停止ではなく、再生位置変更でシーク位置を変えることだけをキーフレームに登録していっても、そのオブ"
+"ジェクトのアニメーション再生を自由に行なえます。"
+msgstr ""
+"You can freely play the animation of the object even if you register only the seek position by "
+"changing the playback position in the key frame instead of playing or stopping."
+
+#: ../../source/man2/operation_obj.rst:73
+msgid "テクスチャ"
+msgstr "Texture"
+
+#: ../../source/man2/operation_obj.rst:75
+msgid ""
+"3Dオブジェクトがテクスチャを複数保持している場合、テクスチャを選んで細かく設定変更することができます。"
+"VRMのほうの設定と全く同じです。"
+msgstr ""
+"If the 3D object has multiple textures, you can select the texture and change the settings in detail. "
+"It's exactly the same as the VRM setting."
+
+#: ../../source/man2/operation_obj.rst:77
+msgid "詳しくは :doc:`operation_texture` を御覧ください。"
+msgstr "See :doc:`operation_texture` for details."

@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 18:18+0900\n"
+"PO-Revision-Date: 2023-06-03 19:19+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/aboutuse.rst:3
+msgid "利用の前提条件"
+msgstr "Prerequisites for Use"
+
+#: ../../source/man1/aboutuse.rst:6
+msgid ""
+"本アプリは無料で利用できます。ウェブアプリにしばしばある **ユーザー登録は不要** です。私自身、無料・すぐ使える！などとと謳っておきな"
+"がら利用のためにいちいちユーザー登録が必要だったりするウェブアプリが嫌いなため、本アプリではスマホアプリやPCソフトのように、アクセス"
+"したら本当にすぐ利用できることを目指しました。（マーケティング等のためには必要なので仕方ないのでしょうが）"
+msgstr ""
+"This application is free of charge. No **user registration required**, which is often the case with web apps. I myself dislike web "
+"apps that claim to be free and ready to use, but require user registration to use! I myself dislike web apps that claim to be free "
+"and ready to use, but require user registration for every single use, so I aimed for this app to be really ready to use as soon as "
+"you access it, just like a smartphone app or PC software. (I guess it's necessary for marketing etc., so it can't be helped.)"
+
+#: ../../source/man1/aboutuse.rst:8
+msgid ""
+"※ウェブアプリ版は動作するサーバ次第で動作遅延がありえます。また当然ですがインターネット接続が必要です。通信のない環境で安定して使いた"
+"い方は後述のPC版のご利用をお勧めします。"
+msgstr ""
+"The web-app version may have delays depending on the server on which it runs. Also, of course, an Internet connection is required. "
+"If you want to use it in a stable environment without communication, we recommend you to use the PC version described below."
+
+#: ../../source/man1/aboutuse.rst:10
+msgid ""
+"※本アプリを公開・リンクしているウェブサイト「VRM鎮守府ポータル」はアクセス人数把握のため、Googleアナリティクスを利用しております。ご"
+"了承ください。"
+msgstr ""
+"The website \"VRM Township Portal\" to which this application is published and linked uses Google Analytics to determine the number "
+"of people accessing the site. Please be aware of this."
+
+#: ../../source/man1/aboutuse.rst:12
+msgid ""
+"本アプリ自体にはユーザー情報をサーバ上で管理したり外部サービスにアクセスしてデータをやり取りする機能を一切持っていません。そのため利"
+"用者を直接的に把握できないので、もしお使いいただける方は各SNSで使ってるアピールをしていただけると作者は非常に喜びます。"
+msgstr ""
+"This application itself does not have any function to manage user information on the server or access external services to exchange "
+"data. Therefore, we are not able to directly grasp the number of users, so if you use this application, we would be very happy if "
+"you could appeal that you are using it on each social networking service."
+
+#: ../../source/man1/aboutuse.rst:17
+msgid "制限事項"
+msgstr "Restrictions"
+
+#: ../../source/man1/aboutuse.rst:19
+msgid ""
+"後述の説明をよく読んだ上でご利用ください。ベースとなるUnityのビルドがWebGL方式のため、各OSネイティブなアプリよりもメモリやグラフィッ"
+"ク性能 [1]_ に左右されます。あまりに長尺で3Dオブジェクトをふんだんに使ったアニメーション制作には耐えられません。"
+msgstr ""
+"Please read the following instructions carefully before use. Because the base Unity build is based on the WebGL method, it is more "
+"dependent on memory and graphics performance [1]_ than native OS applications. It cannot withstand the production of animations that "
+"are too long and use a lot of 3D objects."
+
+#: ../../source/man1/aboutuse.rst:21
+msgid "もっと高画質＆美麗写真を！"
+msgstr "More high quality & beautiful photos!"
+
+#: ../../source/man1/aboutuse.rst:22
+msgid "もっと長尺で汎用的なアニメーションを！"
+msgstr "More lengthy and generic animations!"
+
+#: ../../source/man1/aboutuse.rst:24
+msgid ""
+"これらの場合、各OSネイティブ版を公開されている他アプリ様を使っていただくのがオススメです。 お詳しい方々はUnityエディタやBlender等を最"
+"終的に使っていただくのがベストでしょう。"
+msgstr ""
+"In these cases, we recommend using other applications that have native versions for each OS. For those who are more familiar with "
+"the OS, it is best to use the Unity editor, Blender, etc. for the final version."
+
+#: ../../source/man1/aboutuse.rst:27
+msgid "特にシェーダー関連は大きく制限がかかります。ご了承ください。"
+msgstr "In particular, shader-related items are greatly restricted. note that."
+
+#: ../../source/man1/aboutuse.rst:31
+msgid "免責事項"
+msgstr "Disclaimer"
+
+#: ../../source/man1/aboutuse.rst:33
+msgid "本ソフトウェアはフリーソフトです。どなたでもご自由にお使いいただくことができます。"
+msgstr "This software is free software. Anyone can use it freely."
+
+#: ../../source/man1/aboutuse.rst:35
+msgid ""
+"利用者が本ソフトウェアを使用して生じたいかなる問題に対して、開発陣・開発を支援する者は一切の責任を負わないものとします。自己責任でご"
+"利用ください。"
+msgstr ""
+"The development team and those who support development shall not be held responsible for any problems caused by the use of this "
+"software by the user. Please use at your own risk."
+
+#: ../../source/man1/aboutuse.rst:37
+msgid ""
+"また、本ソフトウェアで使用するVRM(VRoid)、3Dオブジェクトファイル、画像、音楽ファイルは利用者自身のものあるいは作成者から許可を得た"
+"ファイルのみを使用してください。著作権には十分注意を払ってください。"
+msgstr ""
+"In addition, please use only the VRM (VRoid), 3D object files, images, and music files used in this software that are your own or "
+"have permission from the creator. Please pay attention to copyright."
+
+#: ../../source/man1/aboutuse.rst:39
+msgid "本ソフトウェアから生成されたファイルは利用者自身の物です。加工や公開に開発陣の許可は必要ありません。"
+msgstr "Files generated from this software are your own. You don't need the developer's permission to process or publish."

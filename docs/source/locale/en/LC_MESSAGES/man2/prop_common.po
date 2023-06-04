@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 11:38+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_common.rst:5
+msgid "共通"
+msgstr "Common"
+
+#: ../../source/man2/prop_common.rst:7
+msgid "目次"
+msgstr "Table of Contents"
+
+#: ../../source/man2/prop_common.rst:15
+msgid "共通（3Dモデル）"
+msgstr "Common (3D model)"
+
+#: ../../source/man2/prop_common.rst:17
+msgid "3Dモデルに共通して使用可能な変形のプロパティです。"
+msgstr "This is a transformation property that can be used in common for 3D models."
+
+#: ../../source/man2/prop_common.rst
+msgid "位置"
+msgstr "position"
+
+#: ../../source/man2/prop_common.rst:25
+msgid "X座標、Y座標、Z座標をそれぞれ設定します。"
+msgstr "Set the X, Y, and Z coordinates respectively."
+
+#: ../../source/man2/prop_common.rst
+msgid "回転"
+msgstr "rotation"
+
+#: ../../source/man2/prop_common.rst:27
+msgid "X座標、Y座標、Z座標をそれぞれ設定します。 ``360度回転を考慮`` をONにするとその回転角度になる際に可能な限り一回転しようとします。"
+msgstr "Set the X, Y, and Z coordinates respectively. When ``Consider 360 degree rotation`` is turned on, it tries to rotate as much as possible when the rotation angle is reached."
+
+#: ../../source/man2/prop_common.rst
+msgid "倍率"
+msgstr "Scale"
+
+#: ../../source/man2/prop_common.rst:29
+msgid "全座標合わせた倍率を設定します。 ``比率を固定`` をONにするとX/Y/Z座標を固定して1つのみの入力で済ませることができます。"
+msgstr "Set the magnification for all coordinates. If you turn on ``Fix ratio``, you can fix the X/Y/Z coordinates and only need one input."
+
+#: ../../source/man2/prop_common.rst:32
+msgid "倍率は、Stageの場合はX/Z座標のみです。それ以外の3Dモデル・オブジェクトはX/Y/Z座標です。"
+msgstr "Scale is only X/Z coordinates for Stage. Other 3D model objects are X/Y/Z coordinates."
+
+#: ../../source/man2/prop_common.rst:37
+msgid "ジャンプ（共通）"
+msgstr "Jump (common)"
+
+#: ../../source/man2/prop_common.rst
+msgid "回数"
+msgstr "number of times"
+
+#: ../../source/man2/prop_common.rst:39
+msgid "ジャンプする回数を指定します。"
+msgstr "Specifies the number of times to jump."
+
+#: ../../source/man2/prop_common.rst
+msgid "強さ"
+msgstr "strength"
+
+#: ../../source/man2/prop_common.rst:41
+msgid "強さ（現在のY軸にプラスされる分）を設定します。"
+msgstr "Sets the strength (the amount added to the current Y-axis)."
+
+#: ../../source/man2/prop_common.rst:44
+msgid "アニメーションプロジェクトにて、キーフレームの間隔があまりに短いと一瞬すぎてジャンプしていないように見えることがあります。"
+msgstr "In an animation project, if the keyframe interval is too short, it can appear to jump too quickly."
+
+#: ../../source/man2/prop_common.rst:51
+msgid "直線的な揺れ（共通）"
+msgstr "Linear sway (common)"
+
+#: ../../source/man2/prop_common.rst:53
+msgid "3Dモデルに共通して使用可能な直線的な揺れのアニメーション効果の設定です。"
+msgstr "This is a setting for the linear shaking animation effect that can be used commonly for 3D models."
+
+#: ../../source/man2/prop_common.rst
+msgid "On"
+msgstr "On"
+
+#: ../../source/man2/prop_common.rst:62
+msgid "有効にします。"
+msgstr "Enable."
+
+#: ../../source/man2/prop_common.rst
+msgid "Position, Rotation, Scale"
+msgstr "Position, Rotation, Scale"
+
+#: ../../source/man2/prop_common.rst:64
+msgid "揺れの種類です。"
+msgstr "Type of shaking."
+
+#: ../../source/man2/prop_common.rst
+msgid "X, Y, Z"
+msgstr "X, Y, Z"
+
+#: ../../source/man2/prop_common.rst:66
+msgid "揺れる方向を指定します。"
+msgstr "Specifies the swing direction."
+
+#: ../../source/man2/prop_common.rst
+msgid "振動量"
+msgstr "Vibration amount"
+
+#: ../../source/man2/prop_common.rst:68
+msgid "揺れる回数を指定します。"
+msgstr "Specifies the number of shakes."
+
+#: ../../source/man2/prop_common.rst
+msgid "弾性"
+msgstr "Elasticity"
+
+#: ../../source/man2/prop_common.rst:70
+msgid "揺れた際の跳ね返りの範囲の上限を指定します。"
+msgstr "Specifies the upper limit of the bounce range when shaken."
+
+#: ../../source/man2/prop_common.rst:77
+msgid "ランダムな揺れ（共通）"
+msgstr "Random shaking (common)"
+
+#: ../../source/man2/prop_common.rst:79
+msgid "3Dモデルに共通して使用可能なランダムな揺れのアニメーション効果の設定です。"
+msgstr "This is a random shaking animation effect setting that can be used commonly for 3D models."
+
+#: ../../source/man2/prop_common.rst:87
+msgid "有効にします"
+msgstr "Enable."
+
+#: ../../source/man2/prop_common.rst:89
+msgid "揺れの種類です"
+msgstr "type of shaking"
+
+#: ../../source/man2/prop_common.rst:91
+msgid "揺れる強さを指定します"
+msgstr "Specifies the strength of shaking"
+
+#: ../../source/man2/prop_common.rst:93
+msgid "揺れる回数を指定します"
+msgstr "specify the number of swings"
+
+#: ../../source/man2/prop_common.rst
+msgid "ランダム性"
+msgstr "Randomness"
+
+#: ../../source/man2/prop_common.rst:95
+msgid "揺れのランダム具合を指定します"
+msgstr "Specifies the randomness of shaking"
+
+#: ../../source/man2/prop_common.rst
+msgid "フェードアウト"
+msgstr "Fade out"
+
+#: ../../source/man2/prop_common.rst:97
+msgid "揺れが終わるときに弱まっていくようにします。（オフの場合はピタっと終わります）"
+msgstr "Allow it to taper off when the shaking ends. (If it is off, it will end quickly.)"
+
+#: ../../source/man2/prop_common.rst
+msgid "ジャンプ・直線的な揺れ・ランダムな揺れは後述のアニメーションにおいて、連続したフレームでは正常に動作しません。（利用しているライブラリの仕様のため）"
+msgstr "Jumps, linear shakes, and random shakes do not work properly in consecutive frames in the animation described later. (due to the specifications of the library used)"
+
+#: ../../source/man2/prop_common.rst
+msgid "どうしても連続して使いたい場合、必ずそれらの動きをしない操作のフレームを間に挿入してください。"
+msgstr "If you really want to use them continuously, be sure to insert a frame of those non-moving operations in between."
+
+#: ../../source/man2/prop_common.rst:110
+msgid "共通（2Dモデル）"
+msgstr "Common (2D model)"
+
+#: ../../source/man2/prop_common.rst:112
+msgid "2Dモデルに共通して使用可能な変形のプロパティです。"
+msgstr "This is a transformation property that can be used in common for 2D models."
+
+#: ../../source/man2/prop_common.rst:120
+msgid "X座標、Y座標をそれぞれ **パーセント値** で設定します。そのため、画面サイズが変わると位置が若干ずれる可能性があります。"
+msgstr "Set the X and Y coordinates as **percentages**. Therefore, if the screen size changes, the position may shift slightly."
+
+#: ../../source/man2/prop_common.rst:122
+msgid "Z座標のみの回転の角度を設定します。"
+msgstr "Sets the angle of rotation for the Z coordinate only."
+
+#: ../../source/man2/prop_common.rst
+msgid "サイズ"
+msgstr "Size"
+
+#: ../../source/man2/prop_common.rst:124
+msgid "直接の描画領域としてX座標、Y座標をそれぞれ設定します。"
+msgstr "Set the X and Y coordinates as the direct drawing area."
+
+#: ../../source/man2/prop_common.rst:126
+msgid "X座標、Y座標の倍率をそれぞれ設定します。サイズとは異なり、こちらは拡大縮小が伴います。"
+msgstr "Set the scale of X coordinate and Y coordinate respectively. Unlike size, this one scales."

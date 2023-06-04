@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 12:06+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_text.rst:5
+msgid "Text"
+msgstr "Text"
+
+#: ../../source/man2/prop_text.rst:14
+msgid "WebGL画面に表示する2Dのテキストを設定します。"
+msgstr "Set the 2D text to be displayed on the WebGL screen."
+
+#: ../../source/man2/prop_text.rst
+msgid "テキスト"
+msgstr "Text"
+
+#: ../../source/man2/prop_text.rst:19
+msgid "表示する文字列を入力します。"
+msgstr "Enter the string to display."
+
+#: ../../source/man2/prop_text.rst
+msgid "アンカー位置"
+msgstr "Anchor position"
+
+#: ../../source/man2/prop_text.rst:21
+msgid "移動や文字列描画の際の基準となる角を指定します。"
+msgstr "Specifies the reference corner for movement and character string drawing."
+
+#: ../../source/man2/prop_text.rst
+msgid "フォントサイズ"
+msgstr "Font size"
+
+#: ../../source/man2/prop_text.rst:23
+msgid "文字列のフォントサイズを指定します。"
+msgstr "Specifies the font size of the string."
+
+#: ../../source/man2/prop_text.rst
+msgid "色"
+msgstr "Color"
+
+#: ../../source/man2/prop_text.rst:25
+msgid "文字列の色を変更します。"
+msgstr "Change the color of the string."
+
+#: ../../source/man2/prop_text.rst
+msgid "装飾"
+msgstr "Decoration"
+
+#: ../../source/man2/prop_text.rst:27
+msgid "文字列の装飾（太字・イタリック体・両方）を指定します。"
+msgstr "Specifies the character string decoration (bold, italic, or both)."

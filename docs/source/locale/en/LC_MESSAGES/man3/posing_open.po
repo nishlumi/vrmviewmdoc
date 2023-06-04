@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 12:40+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man3/posing_open.rst:3
+msgid "VRoid/VRMのポーズを再現する"
+msgstr "Open VRoid/VRM poses"
+
+#: ../../source/man3/posing_open.rst:6
+msgid "保存したポーズをどのVRoid/VRMにでも即座に反映させることができます。"
+msgstr "The saved pose can be instantly reflected in any VRoid/VRM."
+
+#: ../../source/man3/posing_open.rst:8
+msgid "「3Dモデル」タブの「ポーズ一覧」をクリックします。"
+msgstr "Click “Pose list” on the “3D model” tab."
+
+#: ../../source/man3/posing_open.rst:15
+msgid "ポーズ一覧のウィンドウが表示されるので目的のポーズを選び、「ポーズを適用」をクリックします。"
+msgstr "A window with a list of poses will be displayed. Select the desired pose and click ``Apply Pose`` ."
+
+#: ../../source/man3/posing_open.rst:23
+msgid ""
+"※保存時のモデルのキャラクターをサンプルアバターとして表記しています。また、参考情報として身長も表記しています。"
+msgstr ""
+"The model character at the time of saving is written as a sample avatar. In addition, the height is also indicated "
+"as reference information."
+
+#: ../../source/man3/posing_open.rst:26
+msgid "ポーズが反映されたのを確認します。"
+msgstr "Confirm that the pose has been reflected."
+
+#: ../../source/man3/posing_open.rst:33
+msgid ""
+"身長や体格が異なる他のキャラクターにも同じポーズを反映できます。（ただし、元のキャラクターから極端に差がある場合はず"
+"れることがあります）"
+msgstr ""
+"The same pose can be applied to other characters with different heights and builds. (However, if there is an "
+"extreme difference from the original character, it may deviate.)"
+
+#: ../../source/man3/posing_open.rst:36
+msgid ""
+"ポーズの保存時は実際にはVRoid/VRM自体の位置データも保存しています。その位置データも復元するには「アプリの設定」の"
+"「Model」タブの「ポーズのオープン時にグローバル座標をも適用する」にチェックを入れてください。"
+msgstr ""
+"When saving a pose, the position data of the VRoid/VRM itself is also saved. To restore that position data, please "
+"check \"Also apply global coordinates when opening a pose\" in the \"Model\" tab of \"App Settings\"."
+
+#: ../../source/man3/posing_open.rst:44
+msgid ""
+"違うキャラクターであっても全く同じ位置に復元されます。複数キャラクターを読み込んでいる場合には位置が重複するので必要"
+"に応じてオプションをオフにしてください。"
+msgstr ""
+"Even if it is a different character, it will be restored to the exact same position. If you load multiple "
+"characters, the positions will be duplicated, so please turn off the option if necessary."
+
+#: ../../source/man3/posing_open.rst:45
+msgid ""
+"極端に体勢が崩れるポーズの場合は **1回の適用では反映しきれない** ことがあります（特にLowerLeg）。その場合はもう一度"
+"適用することでポーズが完全に再現されるようになります。"
+msgstr ""
+"In the case of poses that are extremely unbalanced, **it may not be reflected in a single application** (especially "
+"LowerLeg). In that case, apply it again and the pose will be perfectly reproduced."
+
+#: ../../source/man3/posing_open.rst:48
+msgid ""
+"ポーズを再現するもう一つの手順として、 PC内に保存した .vvmposeファイルをWebGL画面にドラッグアンドドロップする方法も"
+"可能です。"
+msgstr ""
+"Another way to reproduce the pose is to drag and drop the .vvmpose file saved on your PC onto the WebGL screen."
+
+#: ../../source/man3/posing_open.rst:50
+msgid ""
+"こちらの方法の場合、ポーズ一覧に登録していなくてもかまいません。 対象は **VRMに限りますが** エクスプローラー等からド"
+"ラッグしてくるだけでいつでもすぐにポーズを再現できます。"
+msgstr ""
+"In the case of this method, it does not matter if it is not registered in the pose list. The target is limited to "
+"**VRM**, but you can immediately reproduce the pose by simply dragging it from Explorer etc."
+
+#: ../../source/man3/posing_open.rst:55
+msgid "ポーズを検索する"
+msgstr "Search pose"
+
+#: ../../source/man3/posing_open.rst:57
+msgid "本アプリの他の一覧部分と同様に、インクリメンタルサーチができます。"
+msgstr "Incremental search is possible in the same way as other lists in this application."
+
+#: ../../source/man3/posing_open.rst:67
+msgid "ディスクからポーズファイルを読み込む"
+msgstr "Load pose file from disk"
+
+#: ../../source/man3/posing_open.rst:70
+msgid ""
+"PCのディスクに保存したポーズファイルをアプリに読み込ませることができます。ポーズ一覧のアップロードボタンを押してくだ"
+"さい。"
+msgstr ""
+"You can load the pose file saved on your PC's disk into the app. Please push the upload button of the pose list."
+
+#: ../../source/man3/posing_open.rst:77
+msgid "対象のファイルは **.vvmpose** または **.json** です。"
+msgstr "The target file is **.vvmpose** or **.json**."
+
+#: ../../source/man3/posing_open.rst:78
+msgid ""
+"本アプリ独自拡張子の「**.vvmpose**」はあくまで判別のしやすさのためだけのものですが、 .jsonのままだと他と混同するおそ"
+"れがあるので間違えないように気をつけてください。"
+msgstr "The extension \"**.vvmpose**\" unique to this application is only for ease of identification. Please attach."
+
+#: ../../source/man3/posing_open.rst:80
+msgid "読み込み終わると一覧に表示されるようになります。（サムネイルはなくても問題ありません）"
+msgstr "When it finishes loading, it will be displayed in the list. (It doesn't matter if there is no thumbnail)"
+
+#: ../../source/man3/posing_open.rst
+msgid "※データ中に必要な項目がないと読み込み時にエラーとなります。"
+msgstr "If the data does not contain the necessary items, an error will occur when reading."
+
+#: ../../source/man3/posing_open.rst
+msgid "※正しくないデータを読み込んだ場合の動作は保証致しません。"
+msgstr "Operation is not guaranteed if incorrect data is read."

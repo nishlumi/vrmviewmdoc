@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 20:43+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/menu_model.rst:5
+msgid "モデルタブ"
+msgstr "Model tab"
+
+#: ../../source/man1/menu_model.rst:12
+msgid "3Dモデルに関する機能のボタンがあります。"
+msgstr "There are buttons for functions related to 3D models."
+
+#: ../../source/man1/menu_model.rst:15
+msgid "**Add内（上の行4つ、下の行3つ）**"
+msgstr "**In Add (4 rows above, 3 rows below)**"
+
+#: ../../source/man1/menu_model.rst
+msgid "テキスト"
+msgstr "Text"
+
+#: ../../source/man1/menu_model.rst:18
+msgid "WebGL画面にテキストを追加します。"
+msgstr "Add text to the WebGL screen."
+
+#: ../../source/man1/menu_model.rst
+msgid "カメラ"
+msgstr "Camera"
+
+#: ../../source/man1/menu_model.rst:20
+msgid "WebGL画面にカメラを追加します。これはサブカメラとなります。"
+msgstr "Add a camera to your WebGL screen. This will be the sub camera."
+
+#: ../../source/man1/menu_model.rst
+msgid "スポットライト"
+msgstr "Spotlight"
+
+#: ../../source/man1/menu_model.rst:22
+msgid "WebGL画面にスポットライトを追加します。"
+msgstr "Add a spotlight to your WebGL screen."
+
+#: ../../source/man1/menu_model.rst
+msgid "基本の図形"
+msgstr "Basic shapes"
+
+#: ../../source/man1/menu_model.rst:24
+msgid "球体や平面、四角形などまっさらなオブジェクトを追加します。"
+msgstr "Add blank objects such as spheres, planes, and rectangles."
+
+#: ../../source/man1/menu_model.rst
+msgid "UI画像"
+msgstr "Image in UI"
+
+#: ../../source/man1/menu_model.rst:26
+msgid "WebGL画面に画像を2Dとして追加します。これは3Dオブジェクトではありません。"
+msgstr "Add image as 2D to WebGL screen. This is not a 3D object."
+
+#: ../../source/man1/menu_model.rst
+msgid "エフェクト"
+msgstr "Effect"
+
+#: ../../source/man1/menu_model.rst:28
+msgid "WebGL画面にエフェクトを追加します。"
+msgstr "Add effects to your WebGL screen."
+
+#: ../../source/man1/menu_model.rst
+msgid "ポイントライト"
+msgstr "Point light"
+
+#: ../../source/man1/menu_model.rst:30
+msgid "WebGL画面に一定範囲の空間を照らすライトを追加します。"
+msgstr "Adds a light that illuminates a certain area of space on the WebGL screen."
+
+#: ../../source/man1/menu_model.rst:32
+msgid "**Load 内**"
+msgstr "**In Load**"
+
+#: ../../source/man1/menu_model.rst
+msgid "VRM"
+msgstr "VRM"
+
+#: ../../source/man1/menu_model.rst:35
+msgid "VRoid(VRM)を読み込んで読み込みます。"
+msgstr "Load the VRoid (VRM) and load it."
+
+#: ../../source/man1/menu_model.rst
+msgid "オブジェクト"
+msgstr "Object"
+
+#: ../../source/man1/menu_model.rst:37
+msgid "FBXやOBJなどを開いて読み込みます。"
+msgstr "Open and load FBX, OBJ, etc."
+
+#: ../../source/man1/menu_model.rst
+msgid "Image"
+msgstr "Image"
+
+#: ../../source/man1/menu_model.rst:39
+msgid "画像を3Dオブジェクトとして読み込みます。読み込んだ後はFBXやObjと同様に操作できます。"
+msgstr "Load the image as a 3D object. After loading, it can be operated in the same way as FBX or Obj."
+
+#: ../../source/man1/menu_model.rst
+msgid "詳細情報"
+msgstr "Detailed information"
+
+#: ../../source/man1/menu_model.rst:41
+msgid "選択したVRMの情報を表示します。VRM以外では機能しません。"
+msgstr "Displays information for the selected VRM. Doesn't work outside VRM."
+
+#: ../../source/man1/menu_model.rst:44
+msgid "**Pose 内**"
+msgstr "**In Pose**"
+
+#: ../../source/man1/menu_model.rst
+msgid "ポーズ保存"
+msgstr "save pose"
+
+#: ../../source/man1/menu_model.rst:47
+msgid "VRMのみ、現在選択中のVRMの現在のポーズをポーズファイルに保存します。"
+msgstr "For VRM only, saves the current pose of the currently selected VRM to a pose file."
+
+#: ../../source/man1/menu_model.rst
+msgid "ポーズ一覧"
+msgstr "Pose list"
+
+#: ../../source/man1/menu_model.rst:49
+msgid "保存したポーズのサムネイル付き一覧を表示します。"
+msgstr "Displays a list of saved poses with thumbnails."
+
+#: ../../source/man1/menu_model.rst:51
+msgid "**Reset operation 内**"
+msgstr "**In the Reset operation**"
+
+#: ../../source/man1/menu_model.rst
+msgid "位置をリセット"
+msgstr "reset position"
+
+#: ../../source/man1/menu_model.rst:54
+msgid "選択した3Dオブジェクトの位置を初期位置にリセットします。"
+msgstr "Resets the position of the selected 3D object to its initial position."
+
+#: ../../source/man1/menu_model.rst
+msgid "回転をリセット"
+msgstr "reset rotation"
+
+#: ../../source/man1/menu_model.rst:56
+msgid "選択した3Dオブジェクトの回転を初期角度にリセットします。"
+msgstr "Resets the rotation of the selected 3D object to its initial angle."
+
+#: ../../source/man1/menu_model.rst
+msgid "モデルを削除"
+msgstr "delete model"
+
+#: ../../source/man1/menu_model.rst:58
+msgid "選択した3Dオブジェクトをアプリから削除します。"
+msgstr "Delete the selected 3D object from the app."
+
+#: ../../source/man1/menu_model.rst
+msgid "全ボーンをリセット"
+msgstr "reset all bones"
+
+#: ../../source/man1/menu_model.rst:60
+msgid "選択したVRMの全身のボーンとIKの位置・回転をすべてリセットします。（Tポーズに戻ります）"
+msgstr "Resets all bones and IK positions and rotations of the whole body of the selected VRM. (return to T pose)"
+
+#: ../../source/man1/menu_model.rst:62
+msgid "**その他**"
+msgstr "**others**"
+
+#: ../../source/man1/menu_model.rst
+msgid "MediaPipe"
+msgstr "MediaPipe"
+
+#: ../../source/man1/menu_model.rst:65
+msgid "AIによるポーズトラッキング機能を使用します。"
+msgstr "Use the pose tracking function by AI."

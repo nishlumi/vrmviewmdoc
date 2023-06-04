@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 11:48+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_light.rst:5
+msgid "Light"
+msgstr "Light"
+
+#: ../../source/man2/prop_light.rst
+msgid "レンダーモード"
+msgstr "Render mode"
+
+#: ../../source/man2/prop_light.rst:16
+msgid "該当のライトオブジェクトを優先して表示するか否かです。「自動」が1つ以上あるとUnityの仕様上、光が干渉して正しく表示されないので、適切に「重要」を一つは使ってください。"
+msgstr "Whether to display the corresponding light object with priority. If there is more than one \"Automatic\", the light will interfere with Unity's specifications and it will not be displayed correctly, so please use one \"Important\" appropriately."
+
+#: ../../source/man2/prop_light.rst
+msgid "強さ"
+msgstr "strength"
+
+#: ../../source/man2/prop_light.rst:18
+msgid "光の強さです。"
+msgstr "It is the intensity of light."
+
+#: ../../source/man2/prop_light.rst
+msgid "範囲"
+msgstr "Range"
+
+#: ../../source/man2/prop_light.rst:20
+msgid "光が届く範囲を指定します。スポットライト時は距離となります。"
+msgstr "Specify the range where the light reaches. When using a spotlight, it will be the distance."
+
+#: ../../source/man2/prop_light.rst
+msgid "色"
+msgstr "Color"
+
+#: ../../source/man2/prop_light.rst:22
+msgid "光の色です。"
+msgstr "It is the color of the light."
+
+#: ../../source/man2/prop_light.rst
+msgid "照射面の角度（スポットライト時）"
+msgstr "Irradiation surface angle (for spotlight)"
+
+#: ../../source/man2/prop_light.rst:24
+msgid "スポットライトのみ有効です。照射の角度を切り替えます。これは光が照らす範囲を示します。実際の効果は下図のとおりです。"
+msgstr "Only spotlight is valid. Switch the illumination angle. This indicates the extent to which the light shines. The actual effect is shown below."
+
+#: ../../source/man2/prop_light.rst:26
+msgid "sho16"
+msgstr "sho16"
+
+#: ../../source/man2/prop_light.rst:27
+msgid "sho56"
+msgstr "sho56"
+
+#: ../../source/man2/prop_light.rst:32
+msgid "照射面の角度＝16度"
+msgstr "Irradiation surface angle = 16 degrees"
+
+#: ../../source/man2/prop_light.rst:33
+msgid "照射面の角度＝56度"
+msgstr "Irradiation surface angle = 56 degrees"
+
+#: ../../source/man2/prop_light.rst:34
+msgid "|sho16|"
+msgstr "|sho16|"
+
+#: ../../source/man2/prop_light.rst:35
+msgid "|sho56|"
+msgstr "|sho56|"
+
+#: ../../source/man2/prop_light.rst
+msgid "フレアタイプ"
+msgstr "flare type"
+
+#: ../../source/man2/prop_light.rst:39
+msgid "光のフレアの種類を ``なし`` ``50mmZoom`` ``FlareSmall`` ``Sun`` から選びます。"
+msgstr "Select the type of light flare from following: ``None``, ``50mmZoom``, ``FlareSmall``,  ``Sun`` "
+
+#: ../../source/man2/prop_light.rst
+msgid "フレアカラー"
+msgstr "flare color"
+
+#: ../../source/man2/prop_light.rst:41
+msgid "フレアの色を指定します。"
+msgstr "Specifies the flare color."
+
+#: ../../source/man2/prop_light.rst
+msgid "フレアの明るさ"
+msgstr "flare brightness"
+
+#: ../../source/man2/prop_light.rst:43
+msgid "フレアの明るさを指定します。"
+msgstr "Specifies the brightness of the flare."
+
+#: ../../source/man2/prop_light.rst
+msgid "フレアフェードスピード"
+msgstr "flare fade speed"
+
+#: ../../source/man2/prop_light.rst:45
+msgid "フレアが出現・消滅するスピードを指定します。"
+msgstr "Specifies the speed at which flares appear and disappear."

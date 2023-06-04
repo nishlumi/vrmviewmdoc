@@ -8,6 +8,7 @@ sphinxcontrib-pandoc-markdown==1.6.8
 sphinxcontrib-seqdiag==3.0.0
 sphinxjp.themecore==0.2.0
 sphinxjp.themes.trstyle==0.1.1
+sphinx-intl==2.1.0
 blockdiag==3.0.0
 seqdiag==3.0.0
 Pillow==9.1.0

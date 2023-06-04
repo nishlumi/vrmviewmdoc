@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:19+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_objlist.rst:5
+msgid "オブジェクト一覧"
+msgstr "Object list"
+
+#: ../../source/man1/screen_objlist.rst:10
+msgid ""
+"WebGL画面の左にある一覧です。読み込んだ各オブジェクトがここにまとまって表示さ"
+"れます。"
+msgstr ""
+"This is the list on the left side of the WebGL screen. Each loaded object is "
+"grouped here."
+
+#: ../../source/man1/screen_objlist.rst:13
+msgid "**上部：**"
+msgstr "**Top:**"
+
+#: ../../source/man1/screen_objlist.rst
+msgid "矢印ボタン"
+msgstr "arrow button"
+
+#: ../../source/man1/screen_objlist.rst:16
+msgid "押すとオブジェクト一覧を折りたたんで細くすることができます。"
+msgstr "Press to collapse the object list and make it thinner."
+
+#: ../../source/man1/screen_objlist.rst
+msgid "コンボボックス"
+msgstr "combo box"
+
+#: ../../source/man1/screen_objlist.rst:18
+msgid ""
+"オブジェクトの種類を選択します。下の一覧がその種類のオブジェクトのみ表示されま"
+"す。"
+msgstr "Select an object type. The list below shows only objects of that type."
+
+#: ../../source/man1/screen_objlist.rst:21
+msgid "**下部：**"
+msgstr "**Bottom:**"
+
+#: ../../source/man1/screen_objlist.rst
+msgid "一覧"
+msgstr "List"
+
+#: ../../source/man1/screen_objlist.rst:24
+msgid "オブジェクト一覧です。ここに表示されるのは次の種類です。"
+msgstr "Object list. The following types are displayed here:"
+
+#: ../../source/man1/screen_objlist.rst:26
+msgid ""
+"``VRM``、 ``他3Dオブジェクト``、 ``カメラ``、 ``エフェクト``、 ``ライト``、 ``"
+"画像``、 ``テキスト``、 ``UI画像``、 ``ステージ``"
+msgstr ""
+"``VRM``, ``other 3D object``, ``camera``, ``effect``, ``light``, ``image``, "
+"``text``, ``UI image`` , ``stage``"
+
+#: ../../source/man1/screen_objlist.rst:30
+msgid "システムエフェクト、オーディオはここには表示されません。"
+msgstr "System effects, audio are not shown here."
+
+#: ../../source/man1/screen_objlist.rst:31
+msgid ""
+"選択したオブジェクトが割り当てられているロールのタイムラインも自動的に選択され"
+"ます。"
+msgstr ""
+"The timelines of roles to which the selected object is assigned are also "
+"automatically selected."
+
+#: ../../source/man1/screen_objlist.rst:32
+msgid ""
+"名称が長い場合、末尾は省略されます。その代わりマウスカーソルを当てるとフル名称"
+"がツールチップとして表示されます。"
+msgstr ""
+"Long names are truncated. Instead, the full name is displayed as a tooltip "
+"when hovered over with the mouse cursor."
+
+#: ../../source/man1/screen_objlist.rst:37
+msgid "**右クリックメニュー**"
+msgstr "**Right click menu**"
+
+#: ../../source/man1/screen_objlist.rst:40
+msgid ""
+"オブジェクト一覧で右クリックするとそのオブジェクトに対する個別の操作を行えま"
+"す。"
+msgstr ""
+"Right-clicking in the object list allows you to perform individual operations "
+"on that object."
+
+#: ../../source/man1/screen_objlist.rst
+msgid "名前変更"
+msgstr "rename"
+
+#: ../../source/man1/screen_objlist.rst:48
+msgid "オブジェクトの表示名を変更します。"
+msgstr "Change the display name of an object."
+
+#: ../../source/man1/screen_objlist.rst
+msgid "情報"
+msgstr "Information"
+
+#: ../../source/man1/screen_objlist.rst:50
+msgid "VRoid/VRMのみ情報画面を表示します。"
+msgstr "Displays the information screen only for VRoid/VRM."
+
+#: ../../source/man1/screen_objlist.rst
+msgid "カメラをフォーカスする"
+msgstr "focus the camera"
+
+#: ../../source/man1/screen_objlist.rst:52
+msgid "このオブジェクトが画面の中心に映るようメインカメラを移動します。"
+msgstr "Move the main camera so that this object is centered on the screen."
+
+#: ../../source/man1/screen_objlist.rst
+msgid "ポーズを現在のフレームに登録する"
+msgstr "Register pose to current frame"
+
+#: ../../source/man1/screen_objlist.rst:54
+msgid ""
+"アニメーションプロジェクトで使用します。現在のポーズを現在のキーフレームに登録"
+"します。"
+msgstr ""
+"Use in animation projects. Registers the current pose to the current keyframe."
+
+#: ../../source/man1/screen_objlist.rst
+msgid "全ボーンをリセット"
+msgstr "reset all bones"
+
+#: ../../source/man1/screen_objlist.rst:56
+msgid "ポーズをリセットしてTポーズ（デフォルト）に戻します。"
+msgstr "Reset pose back to T pose (default)."
+
+#: ../../source/man1/screen_objlist.rst
+msgid "モーションファイルを読み込む"
+msgstr "Load motion file"
+
+#: ../../source/man1/screen_objlist.rst:58
+msgid ""
+"プロジェクト設定の ``モーションファイルを読み込む`` と同じです。現在選択中のオ"
+"ブジェクトに対してモーションファイルを読み込んで適用します。"
+msgstr ""
+"It is the same as ``Load motion file`` in the project settings. Load and "
+"apply a motion file to the currently selected object."
+
+#: ../../source/man1/screen_objlist.rst
+msgid "モデルを削除"
+msgstr "delete model"
+
+#: ../../source/man1/screen_objlist.rst:60
+msgid "オブジェクトをアプリから削除します。"
+msgstr "Remove the object from the app."
+
+#: ../../source/man1/screen_objlist.rst
+msgid "このモデルとロールを両方削除する"
+msgstr "Delete both this object and roll"
+
+#: ../../source/man1/screen_objlist.rst:62
+msgid "オブジェクトとそれに紐づくロール（役割）をアプリから削除します。"
+msgstr "Delete an object and its associated role from the app."

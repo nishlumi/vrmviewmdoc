@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 19:27+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/feature.rst:3
+msgid "特徴"
+msgstr "Feature"
+
+#: ../../source/man1/feature.rst:8
+msgid "できること"
+msgstr "Available features"
+
+#: ../../source/man1/feature.rst:27
+msgid "本アプリで主にできることは次のとおりです。"
+msgstr "The main things you can do with this app are:"
+
+#: ../../source/man1/feature.rst:11
+msgid "VRMファイルの読み込み（VRMの身長の情報表示にも対応）"
+msgstr "To load VRM files (also supports VRM height information display)"
+
+#: ../../source/man1/feature.rst:12
+msgid "VRMのボーン操作（着実に簡単操作を体感していただくため、今のところIKによる操作のみ）"
+msgstr "VRM bone operation (For now, only IK operation is possible in order to experience a steady and easy operation)"
+
+#: ../../source/man1/feature.rst:13
+msgid "FBX・Obj・STLなど3Dモデルファイルの読み込み・変形 [1]_"
+msgstr "Loading and transforming 3D model files such as FBX, Obj, and STL [1]_"
+
+#: ../../source/man1/feature.rst:14
+msgid "jpg・png・gifなど2D画像の読み込み・変形"
+msgstr "Loading and transforming 2D images such as jpg, png, and gif"
+
+#: ../../source/man1/feature.rst:15
+msgid "カメラ・ライト・エフェクト・ポストプロセッシング（画面効果のこと）を使用可能（Unityの機能）"
+msgstr "Camera, light, effects, post-processing (screen effects) available (Unity feature)"
+
+#: ../../source/man1/feature.rst:16
+msgid "オーディオ対応（MP3、wav） [2]_"
+msgstr "Audio support (MP3, wav) [2]_"
+
+#: ../../source/man1/feature.rst:17
+msgid "VRMと他のオブジェクトを連動して動かせる"
+msgstr "VRM and other objects can be linked and moved"
+
+#: ../../source/man1/feature.rst:18
+msgid "VRMのみ、ポーズをポーズファイルに保存・読み込み可能"
+msgstr "Only VRM poses can be saved/loaded to files"
+
+#: ../../source/man1/feature.rst:19
+msgid "アニメーション作成可能（簡単なタイムライン・キーフレーム方式採用）"
+msgstr "Animation can be created (using a simple timeline and keyframe method)"
+
+#: ../../source/man1/feature.rst:20
+msgid "アニメーションをプロジェクトファイルとして保存・読み込み可能"
+msgstr "Animation can be created (using a simple timeline and keyframe method)"
+
+#: ../../source/man1/feature.rst:21
+msgid "WebGL部分の画面サイズを自由に変更可能"
+msgstr "The screen size of the WebGL part can be changed freely"
+
+#: ../../source/man1/feature.rst:22
+msgid "現在の画面をスクリーンショットとして保存可能"
+msgstr "Save current screen as screenshot"
+
+#: ../../source/man1/feature.rst:23
+msgid "現在の画面を動画撮影・保存可能（もちろんアニメーションの保存も可能）"
+msgstr "You can shoot and save the current screen as a video (of course, you can also save the animation)"
+
+#: ../../source/man1/feature.rst:24
+msgid "多言語対応（日本語、英語、エスペラント語、他は今後追加予定）"
+msgstr "Supports multiple languages (Japanese, English, Esperanto, others to be added in the future)"
+
+#: ../../source/man1/feature.rst:25
+msgid "GoogleのMediaPipeによりカメラ映像からポーズをAIで自動検出して再現可能 [3]_"
+msgstr "Google's MediaPipe can automatically detect and reproduce poses from camera images with AI [3]_"
+
+#: ../../source/man1/feature.rst:26
+msgid "Web ビデオテキストトラックフォーマット (WebVTT)による字幕編集に対応（ver 1.2.0より）"
+msgstr "Web video text track format (WebVTT) subtitle editing supported (from ver 1.2.0)"
+
+#: ../../source/man1/feature.rst:29
+msgid "TriLib2で対応可能なフォーマットすべて（https://ricardoreis.net/trilib-2/）"
+msgstr "All formats supported by TriLib2 (https://ricardoreis.net/trilib-2/)"
+
+#: ../../source/man1/feature.rst:31
+msgid "UnityのWebGLで対応していないオーディオ効果もあります。"
+msgstr "Some audio effects are not supported by WebGL in Unity."
+
+#: ../../source/man1/feature.rst:33
+msgid "実験機能のため、完全な再現とはならない可能性もあります。"
+msgstr "Because it is an experimental feature, it may not be a perfect reproduction."
+
+#: ../../source/man1/feature.rst:40
+msgid "できないこと"
+msgstr "Not available features"
+
+#: ../../source/man1/feature.rst:50
+msgid "本アプリで現在のバージョン（2.0.0）でできないことは次のとおりです。"
+msgstr "What this app can't do in the current version (2.0.0) is as follows."
+
+#: ../../source/man1/feature.rst:43
+msgid "Unityの仕様上、各OSネイティブ、コンシューマ機並の描画（WebGL環境はそれらより描画性能がかなり落ちます）"
+msgstr "Due to Unity's specifications, each OS's native drawing is comparable to that of consumer machines (WebGL environment's drawing performance is considerably lower than those)"
+
+#: ../../source/man1/feature.rst:44
+msgid "3Dオブジェクトの不透明度（UnityのWebGLの仕様により表現できません。2Dオブジェクトはできます）"
+msgstr "3D object opacity (unable to express due to Unity's WebGL specification, 2D objects can)"
+
+#: ../../source/man1/feature.rst:45
+msgid "VRMの各ボーンを直接回転させてのポージング（いわゆるFK。できることの2番目と同じ意味）"
+msgstr "Posing by directly rotating each bone of VRM (so-called FK)"
+
+#: ../../source/man1/feature.rst:46
+msgid "UnityやMMD・MMMのアニメーションファイル・モーションファイルなどの読み込み（fbxに含まれるアニメーションデータは読み込み可能です）"
+msgstr "Loading Unity, MMD/MMM animation files, motion files, etc. (animation data included in fbx can be loaded)"
+
+#: ../../source/man1/feature.rst:47
+msgid "VRoidHubからVRoidを読み込むこと（VRoidSDKはC#だけのため、HTMLからはセキュリティ的に無理）"
+msgstr "Loading VRoid from VRoidHub (VRoidSDK is only C#, so it is impossible from HTML for security reasons)"
+
+#: ../../source/man1/feature.rst:48
+msgid "VRMを編集・加工して保存すること（本アプリの目的ではないため非対応）"
+msgstr "Editing, processing and saving VRM (not supported because it is not the purpose of this application)"
+
+#: ../../source/man1/feature.rst:49
+msgid "その他ネット上のVRM、FBX、Objなどを直接読み込むこと（ウェブアプリのため制限があります）"
+msgstr "Direct reading of VRM, FBX, Obj, etc. on the net (there are restrictions as it is a web application)"
+
+#: ../../source/man1/feature.rst:50
+msgid "ogg（Ogg Vorbis）音声ファイルの読み込み（UnityのWebGLがそもそもoggのストリーミングに未対応）"
+msgstr "Loadng ogg (Ogg Vorbis) audio files (Unity's WebGL does not support ogg streaming in the first place)"
+
+#: ../../source/man1/feature.rst:53
+msgid "※今後、利用しているアセットやライブラリ等がバージョンアップしたら本アプリでも利用可能になるかもしれません。ご了承ください。"
+msgstr "In the future, if the assets and libraries used are upgraded, it may be possible to use this application as well. note that."

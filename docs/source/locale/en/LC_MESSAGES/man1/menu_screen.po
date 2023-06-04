@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 20:48+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/menu_screen.rst:5
+msgid "画面タブ"
+msgstr "Screen tab"
+
+#: ../../source/man1/menu_screen.rst:12
+msgid "画面に関する機能のボタンがあります。"
+msgstr "There are buttons for screen-related functions."
+
+#: ../../source/man1/menu_screen.rst:15
+msgid "**Screen size内**"
+msgstr "**In the screen size**"
+
+#: ../../source/man1/menu_screen.rst
+msgid "画面サイズ"
+msgstr "Screen size"
+
+#: ../../source/man1/menu_screen.rst:18
+msgid "WebGL画面の幅と高さを自由に指定します。"
+msgstr "Specify the width and height of the WebGL screen freely."
+
+#: ../../source/man1/menu_screen.rst
+msgid "適用"
+msgstr "Apply"
+
+#: ../../source/man1/menu_screen.rst:20
+msgid "入力したサイズを反映します。"
+msgstr "Reflects the size you entered."
+
+#: ../../source/man1/menu_screen.rst
+msgid "元のサイズ"
+msgstr "original size"
+
+#: ../../source/man1/menu_screen.rst:22
+msgid "現在のアプリのサイズに合わせてWebGL画面のサイズを戻します。"
+msgstr "Resize the WebGL screen back to match the current app size."
+
+#: ../../source/man1/menu_screen.rst
+msgid "カメラをリセット"
+msgstr "reset camera"
+
+#: ../../source/man1/menu_screen.rst:24
+msgid "メインカメラの位置をデフォルトに戻します。（ショートカット：Rキー）"
+msgstr "Restore the default position of the main camera. (Shortcut: R key)"
+
+#: ../../source/man1/menu_screen.rst
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../../source/man1/menu_screen.rst:26
+msgid "ナビゲーションの小ウィンドウを表示します。"
+msgstr "Displays a small navigation window."
+
+#: ../../source/man1/menu_screen.rst:28
+msgid "**Screenshot 内**"
+msgstr "**In Screenshot**"
+
+#: ../../source/man1/menu_screen.rst
+msgid "キャプチャ"
+msgstr "capture"
+
+#: ../../source/man1/menu_screen.rst:31
+msgid "現在のWebGLの画面をスクリーンショットを撮って保存します。"
+msgstr "Take a screenshot of the current WebGL screen and save it."
+
+#: ../../source/man1/menu_screen.rst
+msgid "一覧"
+msgstr "List"
+
+#: ../../source/man1/menu_screen.rst:33
+msgid "撮ったスクリーンショットを表示・管理するウィンドウを表示します。"
+msgstr "Displays a window for displaying and managing screenshots taken."
+
+#: ../../source/man1/menu_screen.rst
+msgid "背景を透過"
+msgstr "transparent background"
+
+#: ../../source/man1/menu_screen.rst:35
+msgid "スクリーンショット時、WebGL画面の背景部分を透過にします。"
+msgstr "Makes the background part of the WebGL screen transparent when taking screenshots."
+
+#: ../../source/man1/menu_screen.rst:38
+msgid "**Record movie 内**"
+msgstr "**In Record movie**"
+
+#: ../../source/man1/menu_screen.rst
+msgid "録画"
+msgstr "recording"
+
+#: ../../source/man1/menu_screen.rst:41
+msgid "WebGL画面を録画開始します。停止するまで操作・アニメーションした内容がすべて記録されます。"
+msgstr "Start recording the WebGL screen. All operations and animations are recorded until you stop."
+
+#: ../../source/man1/menu_screen.rst
+msgid "停止"
+msgstr "Stop"
+
+#: ../../source/man1/menu_screen.rst:43
+msgid "録画を停止します。"
+msgstr "Stop recording."
+
+#: ../../source/man1/menu_screen.rst
+msgid "ビデオをダウンロード"
+msgstr "download video"
+
+#: ../../source/man1/menu_screen.rst:45
+msgid "録画した内容をダウンロードします。形式はwebm形式です。"
+msgstr "Download the recorded content. The format is webm format."
+
+#: ../../source/man1/menu_screen.rst
+msgid "音声を有効・ミュート"
+msgstr "Enable/mute audio"
+
+#: ../../source/man1/menu_screen.rst:47
+msgid "録画する映像の音声をミュートまたは再び有効化します。"
+msgstr "Mute or re-enable audio for recorded video."
+
+#: ../../source/man1/menu_screen.rst
+msgid "Video player"
+msgstr "Video player"
+
+#: ../../source/man1/menu_screen.rst:49
+msgid "内蔵のビデオプレイヤーを別ウィンドウで開きます。"
+msgstr "Opens the built-in video player in a separate window."
+
+#: ../../source/man1/menu_screen.rst:52
+msgid "**Options 内**"
+msgstr "**In Options**"
+
+#: ../../source/man1/menu_screen.rst
+msgid "360度回転"
+msgstr "360 degree rotation"
+
+#: ../../source/man1/menu_screen.rst:55
+msgid "現在選択中のオブジェクトを中心に360度カメラを回転させます。"
+msgstr "Rotate the camera 360 degrees around the currently selected object."
+
+#: ../../source/man1/menu_screen.rst
+msgid "回転速度"
+msgstr "Rotational speed"
+
+#: ../../source/man1/menu_screen.rst:57
+msgid "回転の速度を調整します。"
+msgstr "Adjust the speed of rotation."
+
+#: ../../source/man1/menu_screen.rst
+msgid "アンチエイリアス"
+msgstr "antialiasing"
+
+#: ../../source/man1/menu_screen.rst:59
+msgid "WebGL画面にアンチエイリアスを適用します。"
+msgstr "Applies anti-aliasing to WebGL screens."
+
+#: ../../source/man1/menu_screen.rst
+msgid "IKマーカーを表示する"
+msgstr "Show IK MarkersShow IK Markers"
+
+#: ../../source/man1/menu_screen.rst:61
+msgid "各オブジェクトを操作する際のIKマーカーの表示を切り替えます。"
+msgstr "Toggles the display of IK markers when manipulating each object."
+
+#: ../../source/man1/menu_screen.rst
+msgid "IKマーカーのサイズ"
+msgstr "IK marker size"
+
+#: ../../source/man1/menu_screen.rst:63
+msgid "IKマーカーの大きさを変更します。（0.01～0.2）"
+msgstr "Change the size of the IK marker. (0.01 to 0.2)"

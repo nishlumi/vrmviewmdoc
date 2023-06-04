@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 23:54+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_stage.rst:5
+msgid "Stage"
+msgstr "Stage"
+
+#: ../../source/man2/operation_stage.rst:8
+msgid "Stageは床や空、照明などの環境を扱います。"
+msgstr "Stage handles the environment such as the floor, sky, and lighting."
+
+#: ../../source/man2/operation_stage.rst:11
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man2/operation_stage.rst:14
+msgid "舞台"
+msgstr "Stage"
+
+#: ../../source/man2/operation_stage.rst:16
+msgid "舞台はコンボボックスから選択します。"
+msgstr "Select the stage from the combo box."
+
+#: ../../source/man2/operation_stage.rst:23
+msgid "※床を「SeaNight」、空の色を変更した例"
+msgstr "Example of changing the floor to \"SeaNight\" and the color of the sky"
+
+#: ../../source/man2/operation_stage.rst:35
+msgid "※建築物や木などはOtherObjectを使って表現してください。"
+msgstr "Please use OtherObjects to represent buildings and trees."
+
+#: ../../source/man2/operation_stage.rst:38
+msgid ""
+"建物や庭などを作るには、「SweetHome 3D」というアプリケーションがオススメです。このソフトの詳しい使い方は検索"
+"してください。"
+msgstr ""
+"To create buildings, gardens, etc., we recommend an application called \"SweetHome 3D\". Please search for "
+"details on how to use this software."
+
+#: ../../source/man2/operation_stage.rst:40
+msgid "http://www.sweethome3d.com/"
+msgstr "http://www.sweethome3d.com/"
+
+#: ../../source/man2/operation_stage.rst:42
+msgid "このソフトの活用のポイントは、Obj形式で3Dモデルをエクスポートできる点です。"
+msgstr "The point of using this software is that you can export 3D models in Obj format."
+
+#: ../../source/man2/operation_stage.rst:44
+msgid ""
+"SweetHome3D製の3Dモデル(obj形式)を本アプリで読み込む場合、生成された以下のファイルを一つのzipファイルに圧縮し"
+"て使ってください。"
+msgstr ""
+"When reading a 3D model (obj format) made by SweetHome3D with this application, compress the generated files "
+"below into a single zip file and use it."
+
+#: ../../source/man2/operation_stage.rst:46
+msgid "objファイル"
+msgstr "obj file"
+
+#: ../../source/man2/operation_stage.rst:47
+msgid "mtlファイル"
+msgstr "mtl file"
+
+#: ../../source/man2/operation_stage.rst:48
+msgid "その他jpg、pngファイル"
+msgstr "Other jpg / png files"
+
+#: ../../source/man2/operation_stage.rst
+msgid "なお、本アプリのIKマーカーはSweetHome3Dでいうと0mの位置に相当する箇所に付きます。"
+msgstr ""
+"In addition, the IK marker of this application is attached to the position equivalent to 0m in SweetHome3D."
+
+#: ../../source/man2/operation_stage.rst
+msgid "それから、スケールはかなり大きくなりますので、 1～3%に変更して使うことをお勧めします。"
+msgstr "Also, the scale is quite large, so we recommend changing it to 1-3%."
+
+#: ../../source/man2/operation_stage.rst:56
+msgid "水面の舞台"
+msgstr "water stage"
+
+#: ../../source/man2/operation_stage.rst:58
+msgid ""
+"BasicSeaLevel、DaytimeWaterStage、NighttimeWaterStageの3種類は海面・水面となる舞台です。それぞれ演出効果が若"
+"干異なります。"
+msgstr ""
+"BasicSeaLevel, DaytimeWaterStage, and NighttimeWaterStage are stages that are on the surface of the sea or "
+"water. Each has a slightly different effect."
+
+#: ../../source/man2/operation_stage.rst:60
+msgid ""
+"DaytimeWaterStage、NighttimeWaterStageの2種類はBasicSeaLevelや水面オブジェクトとは別のシェーダー・形状です。"
+msgstr ""
+"DaytimeWaterStage and NighttimeWaterStage are different shaders and shapes from BasicSeaLevel and water "
+"surface objects."
+
+#: ../../source/man2/operation_stage.rst:66
+msgid ""
+"OtherObjectの基本の図形にある ``水面`` を使うと地面の舞台を使いながら、部分的に水面を演出することができます。"
+msgstr ""
+"By using the ``water surface`` in the basic shape of OtherObject, you can create a partial water surface "
+"while using the ground stage."
+
+#: ../../source/man2/operation_stage.rst:70
+msgid "UserStage"
+msgstr "UserStage"
+
+#: ../../source/man2/operation_stage.rst:72
+msgid "UserStageは自分で好きなテクスチャを貼り付けて表現できる舞台の種類です。"
+msgstr "UserStage is a type of stage where you can express yourself by pasting your favorite textures."
+
+#: ../../source/man2/operation_stage.rst:74
+msgid "コンボボックスから ``UserStage`` を選択します。"
+msgstr "Select ``UserStage`` from the combo box."
+
+#: ../../source/man2/operation_stage.rst:75
+msgid "プロパティが表示されるので、好みで設定します。"
+msgstr "The properties are displayed, so set them as you like."
+
+#: ../../source/man2/operation_stage.rst
+msgid "メインのテクスチャ"
+msgstr "Main texture"
+
+#: ../../source/man2/operation_stage.rst:78
+msgid "別途テクスチャファイルを事前に読み込んでおき、その素材名を選択します。"
+msgstr "Separately load the texture file in advance and select the material name."
+
+#: ../../source/man2/operation_stage.rst
+msgid "法線マップテクスチャ"
+msgstr "normal map texture"
+
+#: ../../source/man2/operation_stage.rst:80
+msgid "法線マップのファイルを別途テクスチャファイルとして事前に読み込んでおき、その素材名を選択します"
+msgstr "Load the normal map file in advance as a separate texture file and select the material name."
+
+#: ../../source/man2/operation_stage.rst
+msgid "色"
+msgstr "Color"
+
+#: ../../source/man2/operation_stage.rst:82
+msgid "テクスチャのベースの色"
+msgstr "texture base color"
+
+#: ../../source/man2/operation_stage.rst
+msgid "ブレンドモード"
+msgstr "blend mode"
+
+#: ../../source/man2/operation_stage.rst:84
+msgid "シェーダのMode"
+msgstr "Shader Mode"
+
+#: ../../source/man2/operation_stage.rst
+msgid "メタリック"
+msgstr "metallic"
+
+#: ../../source/man2/operation_stage.rst:86
+msgid "シェーダのMetallic"
+msgstr "Metallic in shader"
+
+#: ../../source/man2/operation_stage.rst
+msgid "光沢"
+msgstr "Glossiness"
+
+#: ../../source/man2/operation_stage.rst:88
+msgid "シェーダのGlossiness"
+msgstr "Glossiness in shader"
+
+#: ../../source/man2/operation_stage.rst
+msgid "発光色"
+msgstr "Emitting color"
+
+#: ../../source/man2/operation_stage.rst:90
+msgid "シェーダのEmission Color"
+msgstr "Emission Color in shader"
+
+#: ../../source/man2/operation_stage.rst:93
+msgid "VRMやOtherObjectと異なり、シェーダー自体を切り替えることはできません。"
+msgstr "Unlike VRMs and OtherObjects, shaders themselves cannot be switched."
+
+#: ../../source/man2/operation_stage.rst:101
+msgid "照明（ディレクショナルライト）"
+msgstr "Lighting (directional light)"
+
+#: ../../source/man2/operation_stage.rst:103
+msgid ""
+"照明（Directional light）はWebGL上では赤い電灯のような図形で表します。これを操作ハンドルで回転することで光の"
+"照射の角度を指定できます。（移動は反映されません。あくまで操作ハンドルを扱いやすくするためだけの効果です）"
+msgstr ""
+"Lighting (Directional light) is represented by a figure like a red electric light on WebGL. You can specify "
+"the angle of light irradiation by rotating this with the operation handle. (Movement is not reflected. It is "
+"an effect only to make the operation handle easier to handle.)"
+
+#: ../../source/man2/operation_stage.rst:110
+msgid "空が通常の空かつ ``sky daytime`` の場合、太陽の位置としても使われます。"
+msgstr "Also used as sun position if sky is normal sky and ``sky daytime``."
+
+#: ../../source/man2/operation_stage.rst:114
+msgid "※Stageの照明はLightオブジェクトのように削除はできません。"
+msgstr "Stage lights cannot be deleted like Light objects."
+
+#: ../../source/man2/operation_stage.rst:118
+msgid "**オブジェクトの影**"
+msgstr "**Object Shadows**"
+
+#: ../../source/man2/operation_stage.rst:120
+msgid "本アプリでの影の濃さはStageのプロパティで設定できます。この設定は全オブジェクトに共通です。"
+msgstr ""
+"The darkness of shadows in this application can be set in the Stage properties. This setting is common to "
+"all objects."
+
+#: ../../source/man2/operation_stage.rst:127
+msgid ""
+"また、Lightオブジェクトの使い方により、他のオブジェクトに当たって表示される影の強さ・濃さが変わってきます。"
+msgstr ""
+"Also, depending on how the Light object is used, the strength and density of shadows that appear when "
+"hitting other objects will change."
+
+#: ../../source/man2/operation_stage.rst:132
+msgid "ハロー"
+msgstr "Halo"
+
+#: ../../source/man2/operation_stage.rst:134
+msgid ""
+"Lightオブジェクトにはハロー（円光）を表示させることができます。ただしUnityの仕様上、個別のライトに対してハ"
+"ローコンポーネントを動的に細かく制御することができません。"
+msgstr ""
+"A light object can display a halo. However, due to Unity's specifications, it is not possible to dynamically "
+"fine-tune halo components for individual lights."
+
+#: ../../source/man2/operation_stage.rst:135
+msgid "本アプリではシステム的なライトである ``照明`` にて、全体に対するハローを制御させることができます。"
+msgstr ""
+"In this application, you can control the halo for the whole with ``lighting``, which is a system light."
+
+#: ../../source/man2/operation_stage.rst:137
+msgid "具体的には次の手順を踏むことにより、ハローを細かく制御できます。"
+msgstr "Specifically, you can finely control the halo by following these steps:"
+
+#: ../../source/man2/operation_stage.rst:139
+msgid "Stageの ``照明`` にて、ハローの基本値を指定します。"
+msgstr "Specify the base value of the halo in the Stage's ``Lighting``."
+
+#: ../../source/man2/operation_stage.rst:140
+msgid "各Lightオブジェクトの色や強さ・範囲を指定します。"
+msgstr "Specify the color, strength and range of each light object."
+
+#: ../../source/man2/operation_stage.rst:141
+msgid "各Lightオブジェクトのハローの効果が変化します。"
+msgstr "Each light object's halo effect changes."
+
+#: ../../source/man2/operation_stage.rst:148
+msgid ""
+"この通り、光の周りにモヤが表示されるようになります。明確に個々のLightオブジェクトのハローのON/OFFは切り替えら"
+"れませんが、ハローの基本値とLightオブジェクト側の範囲の指定により調整はできます。"
+msgstr ""
+"As you can see, haze will be displayed around the light. You cannot clearly switch the halo ON/OFF of "
+"individual Light objects, but you can adjust it by specifying the halo's basic value and the range on the "
+"Light object side."
+
+#: ../../source/man2/operation_stage.rst:154
+msgid "風"
+msgstr "Wind"
+
+#: ../../source/man2/operation_stage.rst:156
+msgid ""
+"風を吹かせることでVRMに含まれるボーンが自然と揺れる演出をすることができます。風は「風の強さ」ｘ「風の揺らぎ具"
+"合」で計算しています。"
+msgstr ""
+"By blowing the wind, you can make the bones included in the VRM naturally sway. The wind is calculated by "
+"multiplying the strength of the wind by the fluctuation of the wind."
+
+#: ../../source/man2/operation_stage.rst:159
+msgid "※風の揺らぎ具合は実際には次の範囲でランダムです。"
+msgstr "The fluctuation of the wind is actually random within the following range."
+
+#: ../../source/man2/operation_stage.rst:161
+msgid "最小：風の揺らぎ具合 * -1"
+msgstr "Minimum: Wind fluctuation * -1"
+
+#: ../../source/man2/operation_stage.rst:162
+msgid "最大：風の揺らぎ具合"
+msgstr "Maximum: How the wind fluctuates"
+
+#: ../../source/man2/operation_stage.rst:169
+msgid ""
+"そして「風の吹くタイミング」で指定した最小値、最大値の範囲でランダムな間隔で吹かせることができます。ここを適"
+"切に指定することにより、自然な風を演出することができます。"
+msgstr ""
+"Then, you can make it blow at random intervals within the range of the minimum and maximum values specified "
+"in \"Wind Blowing Timing\". By specifying this appropriately, you can produce a natural wind."
+
+#: ../../source/man2/operation_stage.rst:173
+msgid ""
+"風の設定ではVRMのボーンの重力設定を直接操作しています。VRM側で重力設定をする場合、風は使わないでください。操"
+"作が競合してしまいます。"
+msgstr ""
+"The wind settings directly manipulate the gravity settings of the bones in the VRM. Do not use wind when "
+"setting gravity on the VRM side. Operations conflict."
+
+#: ../../source/man2/operation_stage.rst:176
+msgid ""
+"VRM1.xのSpringBoneの仕様変更により、本機能も挙動が若干変わりました。今後とも引き続き調整しますのでご了承下さ"
+"い。"
+msgstr ""
+"Due to the specification change of SpringBone in VRM1.x, the behavior of this function has changed slightly. "
+"Please note that we will continue to make adjustments in the future."
+
+#: ../../source/man2/operation_stage.rst:185
+msgid "空"
+msgstr "Sky"
+
+#: ../../source/man2/operation_stage.rst:188
+msgid ""
+"空は通常の空と単色の２モードあります。デフォルトは単色です。「単色」のときは空の色しか設定できませんが、「通"
+"常の空」にすると設定を細かく行うことができます。"
+msgstr ""
+"The sky has two modes: normal sky and monochromatic. The default is solid color. When set to \"Single "
+"color\", only the color of the sky can be set, but when set to \"Normal sky\", detailed settings can be made."
+
+#: ../../source/man2/operation_stage.rst:196
+msgid "skydaytime"
+msgstr "skydaytime"
+
+#: ../../source/man2/operation_stage.rst:197
+msgid "skynight"
+msgstr "skynight"
+
+#: ../../source/man2/operation_stage.rst:1
+msgid "sky daytimeの場合（昼間の空）"
+msgstr "For sky daytime (daytime sky)"
+
+#: ../../source/man2/operation_stage.rst:1
+msgid "sky night blue/sky night purpleの場合（夜の空）"
+msgstr "For sky night blue/sky night purple (night sky)"
+
+#: ../../source/man2/operation_stage.rst:1
+msgid "|skydaytime|"
+msgstr "|skydaytime|"
+
+#: ../../source/man2/operation_stage.rst:1
+msgid "|skynight|"
+msgstr "|skynight|"
+
+#: ../../source/man2/operation_stage.rst:206
+msgid "各設定についてはUnityの公式リファレンスを参照してください。"
+msgstr "Please refer to Unity's official reference for each setting."
+
+#: ../../source/man2/operation_stage.rst:207
+msgid "sky daytimeの場合、太陽が存在します。太陽の位置は照明の回転の角度により変化します。"
+msgstr ""
+"For sky daytime, the sun is present. The position of the sun changes with the angle of rotation of the "
+"illumination."
+
+#: ../../source/man2/operation_stage.rst:210
+msgid ""
+"アンチエイリアスを有効にしていると、``sky night~`` の2つはキャプチャ時に不要な線が交じることがあります。これ"
+"はWebGLの仕様です。ご了承下さい。"
+msgstr ""
+"When anti-aliasing is enabled, two lines in ``sky night`` may be mixed when captured. This is the WebGL "
+"specification. please note that."

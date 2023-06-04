@@ -1,0 +1,663 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 13:22+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man4/animation_loadsave.rst:5
+msgid "アニメーションの読み込みと保存"
+msgstr "Loading and saving animations"
+
+#: ../../source/man4/animation_loadsave.rst:10
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man4/animation_loadsave.rst:17
+msgid "モーションファイルに保存する"
+msgstr "Save to motion file"
+
+#: ../../source/man4/animation_loadsave.rst:22
+msgid "本アプリ独自形式 .vvmmot"
+msgstr "This application's original format .vvmmot"
+
+#: ../../source/man4/animation_loadsave.rst:24
+msgid ""
+"一ロールだけのモーションデータをファイルに保存することができます。すべてのロールに対して出力することができます。"
+msgstr "You can save motion data for only one roll to a file. You can print for all roles."
+
+#: ../../source/man4/animation_loadsave.rst:26 ../../source/man4/animation_loadsave.rst:76
+#: ../../source/man4/animation_loadsave.rst:115
+msgid "リボンバーの ``アニメーション`` タブの ``設定`` をクリックします。"
+msgstr "Click ``Settings`` on the ``Animation`` tab of the ribbon bar."
+
+#: ../../source/man4/animation_loadsave.rst:28 ../../source/man4/animation_loadsave.rst:78
+#: ../../source/man4/animation_loadsave.rst:117
+msgid "``役割の管理`` タブを開きます。"
+msgstr "Open the ``Manage Roles`` tab."
+
+#: ../../source/man4/animation_loadsave.rst:30 ../../source/man4/animation_loadsave.rst:80
+msgid "保存したいロールの行を選択します。"
+msgstr "Select the row of the role you want to save."
+
+#: ../../source/man4/animation_loadsave.rst:32
+msgid "ツールバーの ``モーションをファイルに保存する`` をクリックします。"
+msgstr "Click ``Save Motion to File`` on the toolbar."
+
+#: ../../source/man4/animation_loadsave.rst:39 ../../source/man4/animation_loadsave.rst:91
+msgid "ファイル名を入力し、 ``OK`` ボタンを押します。"
+msgstr "Enter the file name and press the ``OK`` button."
+
+#: ../../source/man4/animation_loadsave.rst
+msgid "保存形式"
+msgstr "Save format"
+
+#: ../../source/man4/animation_loadsave.rst:42
+msgid "**.vvmmot**"
+msgstr "**.vvmmot**"
+
+#: ../../source/man4/animation_loadsave.rst:44
+msgid ""
+"独自の拡張子ですが実際はただのJSON形式のファイルです。.jsonに拡張子を変更しても読み込むことはできます。正しくない"
+"データを読み込んだ場合の動作は保証致しません。"
+msgstr ""
+"Although it has its own extension, it is actually just a JSON format file. You can read it even if you change the "
+"extension to .json. Operation is not guaranteed if incorrect data is read."
+
+#: ../../source/man4/animation_loadsave.rst:49
+msgid "**モーションを作るVRMの体格に注意**"
+msgstr "**Pay attention to the physique of the VRM that creates the motion**"
+
+#: ../../source/man4/animation_loadsave.rst:51
+msgid ""
+"VRMでモーションデータを作る際、途中で身長や体格の異なるVRMに差し替えて作ると接地や各部位にズレが生じてしまいます。必"
+"ず同じVRMのままモーションの作成を完成させてください。"
+msgstr ""
+"When creating motion data with VRM, if you replace it with a VRM with a different height or physique in the middle, "
+"there will be a gap in the ground and each part. Be sure to complete the motion creation with the same VRM."
+
+#: ../../source/man4/animation_loadsave.rst:57
+msgid "例："
+msgstr "Example:"
+
+#: ../../source/man4/animation_loadsave.rst:54
+msgid "160cmのVRMでモーションを途中まで作り、一旦ファイルに保存する"
+msgstr "Create the motion halfway with a 160cm VRM and save it in a file"
+
+#: ../../source/man4/animation_loadsave.rst:55
+msgid "別の日に155cmのVRMにvvmmotファイルを読み込み、モーションの続きを作成する"
+msgstr "Load the vvmmot file into a 155cm VRM on another day and create the continuation of the motion"
+
+#: ../../source/man4/animation_loadsave.rst:56
+msgid "また別の日に140cmのVRMにvvmmotファイルを読み込み、モーションを再生する"
+msgstr "On another day, load the vvmmot file into a 140cm VRM and play the motion"
+
+#: ../../source/man4/animation_loadsave.rst:58
+msgid "この場合、3の140cmのVRMはモーション中に全身が浮き沈みしたり予期せぬ動きを起こします。"
+msgstr "In this case, 3's 140cm VRM causes the whole body to float and move unexpectedly during motion."
+
+#: ../../source/man4/animation_loadsave.rst:61
+msgid ""
+"モーションを読み込んだ後、再びモーションファイルとして保存する場合は **必ず** 各キーフレームを一度は登録してくださ"
+"い。"
+msgstr ""
+"After loading the motion, if you want to save it as a motion file again, **must** register each keyframe once."
+
+#: ../../source/man4/animation_loadsave.rst:63
+msgid ""
+"モーションを読み込んだ直後は、タイムライン（ロール）の中には今現在のVRMの身長情報と、モーションの中にある参考情報と"
+"しての別VRMの身長情報が混ざった状態です。"
+msgstr ""
+"Immediately after loading the motion, the current VRM's height information and the height information of another "
+"VRM as reference information in the motion are mixed in the timeline (roll)."
+
+#: ../../source/man4/animation_loadsave.rst
+msgid "改めてキーフレームに登録することで、今現在のVRMの身長・体格としてモーションが登録されていきます。"
+msgstr ""
+"By registering the keyframe again, the motion will be registered as the current height and physique of the VRM."
+
+#: ../../source/man4/animation_loadsave.rst
+msgid ""
+"（登録する際、ポーズなどを動かす必要はありません。フレーム番号を選択してVRMなどオブジェクトがそのモーションを再現し"
+"たらすぐに 登録ボタンを押して構いません）"
+msgstr ""
+"(When registering, it is not necessary to move the pose etc. You can press the register button as soon as the frame "
+"number is selected and the object such as VRM reproduces the motion)"
+
+#: ../../source/man4/animation_loadsave.rst:68
+msgid "これは、上記の「モーションを作るVRMの体格に注意」の問題と同じ意味となります。"
+msgstr ""
+"This has the same meaning as the above problem \"Pay attention to the physique of the VRM that creates the motion\"."
+
+#: ../../source/man4/animation_loadsave.rst:74
+msgid "Unityなど汎用形式"
+msgstr "General format such as Unity"
+
+#: ../../source/man4/animation_loadsave.rst:82
+msgid "ツールバーの ``汎用的なモーションファイルでエクスポートする`` をクリックします。"
+msgstr "Click ``Export as a generic motion file`` on the toolbar."
+
+#: ../../source/man4/animation_loadsave.rst:84
+msgid "目的の形式のメニューをクリックします。"
+msgstr "Click the desired format menu."
+
+#: ../../source/man4/animation_loadsave.rst:94
+msgid "**.anim**"
+msgstr "**.anim**"
+
+#: ../../source/man4/animation_loadsave.rst:97
+msgid ".animファイルは Unityでそのまま読み込み可能な AnimationClipファイルです。"
+msgstr "An .anim file is an AnimationClip file that can be read as-is in Unity."
+
+#: ../../source/man4/animation_loadsave.rst:100
+msgid ""
+"本アプリ ``ver 2.0.0`` 時点では HumanoidのAnimatorのモーションのみに対応しています。.bvhは試験運用中のため動作保証は"
+"まだできません。ご了承下さい。"
+msgstr ""
+"As of ``ver 2.0.0`` of this application, only motions of Humanoid's Animator are supported. .bvh is still under "
+"test operation, so it is not guaranteed to work. please note that."
+
+#: ../../source/man4/animation_loadsave.rst:102
+msgid ".animファイルを本アプリで再び読み込むことはできません。"
+msgstr "The .anim file cannot be read again by this application."
+
+#: ../../source/man4/animation_loadsave.rst:111
+msgid "モーションファイルを読み込む"
+msgstr "load motion file"
+
+#: ../../source/man4/animation_loadsave.rst:113
+msgid ""
+"モーションファイル ``.vvmmot`` を読み込み、アニメーションプロジェクト中の特定のロール（タイムライン）に反映させるこ"
+"とができます。"
+msgstr "A motion file ``.vvmmot`` can be read and reflected in a specific role (timeline) in an animation project."
+
+#: ../../source/man4/animation_loadsave.rst:119
+msgid "読み込ませたいロールの行を選択します。"
+msgstr "Select the row of the role you want to load."
+
+#: ../../source/man4/animation_loadsave.rst:121
+msgid "ツールバーの ``モーションファイルを読み込み`` をクリックします。"
+msgstr "Click ``Load Motion File`` on the toolbar."
+
+#: ../../source/man4/animation_loadsave.rst:128
+msgid "対象のファイルを選択すると自動的に読み込まれます。"
+msgstr "Select the target file and it will be loaded automatically."
+
+#: ../../source/man4/animation_loadsave.rst:130
+msgid "**別方法**"
+msgstr "**Alternative method**"
+
+#: ../../source/man4/animation_loadsave.rst:132
+msgid "モーションを適用したいロールに割り当てられているキャストを選択します。"
+msgstr "Select the cast assigned to the role you want to apply the motion to."
+
+#: ../../source/man4/animation_loadsave.rst:133
+msgid "エクスプローラ等から ``.vvmmot`` ファイルをWebGL画面にドラッグアンドドロップします。"
+msgstr "Drag and drop the ``.vvmmot`` file from Explorer etc. to the WebGL screen."
+
+#: ../../source/man4/animation_loadsave.rst:136
+msgid "ロールの種類が同じである必要があります。"
+msgstr "Role types must be the same."
+
+#: ../../source/man4/animation_loadsave.rst:137
+msgid "すでにモーションデータが存在する場合は上書きされますのでご注意ください（全部削除してから新規登録の扱い）。"
+msgstr ""
+"Please note that if motion data already exists, it will be overwritten (handle new registration after deleting all)."
+
+#: ../../source/man4/animation_loadsave.rst:138
+msgid ""
+"現在のプロジェクトの最大フレーム数より多い場合、その最大フレーム数までにカットされます。事前にある程度フレーム数を拡"
+"張しておくことをオススメします。"
+msgstr ""
+"If the number of frames is more than the maximum number of frames in the current project, it will be cut to the "
+"maximum number of frames. It is recommended to expand the number of frames to some extent in advance."
+
+#: ../../source/man4/animation_loadsave.rst:139
+msgid "ドラッグアンドドロップする場合、 ``.vvmmot`` の拡張子のみ有効です。（ ``.json`` では開けません）"
+msgstr "When dragging and dropping, only ``.vvmmot`` extension is valid. (Cannot be opened with ``.json``)"
+
+#: ../../source/man4/animation_loadsave.rst:140
+msgid ""
+"ドラッグアンドドロップする場合、現在選択中のキャストが何らかのロールに割り当てられている必要があります。（プロジェク"
+"トの設定画面から行う場合はロールに直接適用されるため、キャストが割り当てられていなくても問題ありません）"
+msgstr ""
+"When dragging and dropping, the currently selected cast must be assigned to some role. (If you do it from the "
+"project settings screen, it will be applied directly to the role, so there is no problem even if the cast is not "
+"assigned.)"
+
+#: ../../source/man4/animation_loadsave.rst:143
+msgid ""
+"モーションにかかる各フレームの時間(duration)はタイムラインごとに（さらにはフレームごとに）独立しているため、既存のプ"
+"ロジェクトに読み込ませても他のタイムラインに影響はありません。"
+msgstr ""
+"The time (duration) of each frame that motion takes is independent for each timeline (and even for each frame), so "
+"loading it into an existing project will not affect other timelines."
+
+#: ../../source/man4/animation_loadsave.rst:152
+msgid "アニメーションプロジェクトファイルを保存する"
+msgstr "Save animation project file"
+
+#: ../../source/man4/animation_loadsave.rst:154
+msgid "一通りアニメーションプロジェクトを作成したらファイルとして保存することができます。"
+msgstr "Once you have created an animation project, you can save it as a file."
+
+#: ../../source/man4/animation_loadsave.rst
+msgid "保存される内容"
+msgstr "Saved content"
+
+#: ../../source/man4/animation_loadsave.rst:158 ../../source/man4/animation_loadsave.rst:231
+msgid "タイムライン（すべてのキーフレーム含む）"
+msgstr "Timeline (including all keyframes)"
+
+#: ../../source/man4/animation_loadsave.rst:159 ../../source/man4/animation_loadsave.rst:232
+msgid "全ロールの情報"
+msgstr "Information on all roles"
+
+#: ../../source/man4/animation_loadsave.rst:160 ../../source/man4/animation_loadsave.rst:233
+msgid "その他アニメーションプロジェクト上の設定"
+msgstr "Other settings on the animation project"
+
+#: ../../source/man4/animation_loadsave.rst:161
+msgid "プロジェクト内の素材（実際のファイル含む）"
+msgstr "Materials in the project (including actual files)"
+
+#: ../../source/man4/animation_loadsave.rst:163
+msgid "リボンバーの ``アニメーション`` タブから ``保存`` をクリックします。"
+msgstr "Click ``Save`` from the ``Animation`` tab of the ribbon bar."
+
+#: ../../source/man4/animation_loadsave.rst:170
+msgid "``保存`` あるいは ``名前を付けて保存`` をクリックします。"
+msgstr "Click ``Save`` or ``Save As``."
+
+#: ../../source/man4/animation_loadsave.rst:176
+msgid "各OS版の場合、 ``端末`` のメニューがあり、PCに直接保存することができます。"
+msgstr "Each OS version has a ``Terminal`` menu that allows you to save directly to your PC."
+
+#: ../../source/man4/animation_loadsave.rst:178
+msgid "``名前をつけて保存`` の場合、入力ダイアログ上で名前を入力します。"
+msgstr "For ``Save As``, enter a name in the input dialog."
+
+#: ../../source/man4/animation_loadsave.rst:180
+msgid "アニメーションプロジェクトがアプリ内部の専用ストレージまたはPCに保存されます。"
+msgstr "The animation project will be saved in the dedicated storage inside the app or on your PC."
+
+#: ../../source/man4/animation_loadsave.rst:183
+msgid "**保存** の場合、すでにプロジェクトが存在すると確認メッセージが表示されます。"
+msgstr "In the case of **Save**, a confirmation message will be displayed if the project already exists."
+
+#: ../../source/man4/animation_loadsave.rst:184
+msgid "保存後は右上に通知メッセージが表示されます。"
+msgstr "After saving, a notification message will be displayed on the upper right."
+
+#: ../../source/man4/animation_loadsave.rst:191
+msgid "**.vvmproj**"
+msgstr "**.vvmproj**"
+
+#: ../../source/man4/animation_loadsave.rst:193
+msgid "※独自の拡張子ですが実際はただのJSON形式のファイルです。"
+msgstr "Although it is a unique extension, it is actually just a JSON format file."
+
+#: ../../source/man4/animation_loadsave.rst:196
+msgid "projopen"
+msgstr "projopen"
+
+#: ../../source/man4/animation_loadsave.rst:199
+msgid ""
+"|projopen| PCや端末にダウンロードする場合は ``開く`` で内部ストレージダイアログを表示した後、ツールバーのこのボタン"
+"をクリックしてください。"
+msgstr ""
+"|projopen| To download to a PC or terminal, click ``Open`` to display the internal storage dialog, then click this "
+"button on the toolbar."
+
+#: ../../source/man4/animation_loadsave.rst:213
+msgid "アニメーションプロジェクトを開く"
+msgstr "Open animation project"
+
+#: ../../source/man4/animation_loadsave.rst:215
+msgid "保存したプロジェクトファイルを読み込むことが出来ます。"
+msgstr "You can read the saved project file."
+
+#: ../../source/man4/animation_loadsave.rst:217 ../../source/man4/animation_loadsave.rst:310
+msgid "リボンバーの ``アニメーション`` タブから ``開く`` をクリックします。"
+msgstr "Click ``Open`` from the ``Animation`` tab of the ribbon bar."
+
+#: ../../source/man4/animation_loadsave.rst:219
+msgid ""
+"``ファイルから`` の場合はOSのファイルダイアログが、``内部ストレージから`` はアプリ内で内部ストレージダイアログが開き"
+"ます。"
+msgstr ""
+"``From File`` opens the OS file dialog, and ``From Internal Storage`` opens the internal storage dialog within the "
+"app."
+
+#: ../../source/man4/animation_loadsave.rst:222
+msgid "一覧上部の検索ボックスでプロジェクトを絞り込むことができます。"
+msgstr "You can filter projects using the search box at the top of the list."
+
+#: ../../source/man4/animation_loadsave.rst:227
+msgid "対象のプロジェクトを選んだら ``OK`` ボタンを押します。"
+msgstr "After selecting the target project, press the ``OK`` button."
+
+#: ../../source/man4/animation_loadsave.rst:235
+msgid "復元される内容"
+msgstr "What is restored"
+
+#: ../../source/man4/animation_loadsave.rst:234
+msgid "プロジェクト内の素材（実際の素材ファイル含む）"
+msgstr "Timeline (including all keyframes)"
+
+#: ../../source/man4/animation_loadsave.rst:235
+msgid "キャストの実体（実際のオブジェクトファイル）"
+msgstr "Information on all roles"
+
+#: ../../source/man4/animation_loadsave.rst:237
+msgid "ウェブアプリ版と各OS版の違い"
+msgstr "Differences between the web application version and each OS version"
+
+#: ../../source/man4/animation_loadsave.rst:239
+msgid ""
+"プロジェクトファイルを開く際の実際の挙動がウェブアプリ版と各OS版では異なります。プロジェクトで使用したVRMや3Dモデル"
+"ファイルがある場合、次のように読み込まれます。"
+msgstr ""
+"The actual behavior when opening a project file differs between the web application version and each OS version. If "
+"there is a VRM or 3D model file used in the project, it will be loaded as follows."
+
+#: ../../source/man4/animation_loadsave.rst:242
+msgid "ウェブアプリ版"
+msgstr "Web app version"
+
+#: ../../source/man4/animation_loadsave.rst:242
+msgid ""
+"アプリ内（ブラウザが端末内に用意した特別な場所）に保存されたファイルを読み込みます（本アプリのサーバには保存されませ"
+"ん）。"
+msgstr ""
+"Reads files saved in the app (a special location prepared by the browser in the terminal) (not saved on the server "
+"of this app)."
+
+#: ../../source/man4/animation_loadsave.rst:245
+msgid "各OS版"
+msgstr "PC version"
+
+#: ../../source/man4/animation_loadsave.rst:245
+msgid ""
+"アプリ内にはファイルパスやファイル種類などのメタ情報のみ保存されます。そのメタ情報を参照して実際の端末内にあるVRMや"
+"3Dモデルファイルを開き読み込みます。"
+msgstr ""
+"Only meta information such as file path and file type is stored in the app. Refer to the meta information and open "
+"and read the VRM and 3D model files in the actual terminal."
+
+#: ../../source/man4/animation_loadsave.rst:247
+msgid ""
+"プロジェクトファイル内には各キャストのファイルパスを示す ``path`` というプロパティがありますが、そこは実際のファイル"
+"パスではありません。そこにファイルパスを直接編集してもそのキャストの対象のファイルは読み込まれません。"
+msgstr ""
+"In the project file, there is a property called ``path`` that indicates the file path of each cast, but it is not "
+"the actual file path. Even if you edit the file path directly there, the file targeted for that cast will not be "
+"loaded."
+
+#: ../../source/man4/animation_loadsave.rst:249
+msgid ""
+"これはHTMLやjavascriptを使う関係上、 **セキュリティ対策として、一度開いたことのあるファイルしか自動的に読み込ませな"
+"い** という制限をかけているためです。ご了承下さい。"
+msgstr ""
+"This is due to the fact that HTML and javascript are used, and **as a security measure, only files that have been "
+"opened once are allowed to be read automatically**. please note that."
+
+#: ../../source/man4/animation_loadsave.rst:251
+msgid "実際のオブジェクトの復元"
+msgstr "restore the actual object"
+
+#: ../../source/man4/animation_loadsave.rst:253
+msgid "各ロールに割り当てられていたキャスト（オブジェクト）も可能な限り自動的に開いて復元されます。"
+msgstr "The casts (objects) assigned to each role are also automatically opened and restored as much as possible."
+
+#: ../../source/man4/animation_loadsave.rst
+msgid "ただし次の条件に合致するオブジェクトのみです。"
+msgstr "However, only objects that meet the following conditions."
+
+#: ../../source/man4/animation_loadsave.rst
+msgid ""
+"合致しないオブジェクトは読み込まれず、該当のロールにはどのキャストも割り当てられません。アニメーションを再生してもそ"
+"のロールは動かないので、「 :ref:`settingcast2role` 」の操作をする必要があります。"
+msgstr ""
+"Objects that do not match will not be loaded and no cast will be assigned to the corresponding role. Playing the "
+"animation does not move the role, so you need to operate \" :ref:`settingcast2role` \"."
+
+#: ../../source/man4/animation_loadsave.rst:258
+msgid "基本の図形(OtherObject), Camera, Light, Effect, Text"
+msgstr "Basic shapes (OtherObject), Camera, Light, Effect, Text"
+
+#: ../../source/man4/animation_loadsave.rst:259
+msgid "アプリの履歴に保存されているオブジェクトファイル（VRM, OtherObject, Image, UImage）"
+msgstr "Object files (VRM, OtherObject, Image, UImage) stored in the app history"
+
+#: ../../source/man4/animation_loadsave.rst:260
+msgid "設定で指定されたサイズ以下のオブジェクトファイル"
+msgstr "Object files that are less than or equal to the size specified in the settings"
+
+#: ../../source/man4/animation_loadsave.rst:263
+msgid ""
+"VRMとそれ以外のオブジェクトについては、ロールに割り当てる基準となる項目が異なります。それぞれ合致した場合は自動的に"
+"割り当てが完了し、アプリ上ですぐに操作可能になります。"
+msgstr ""
+"For VRM and other objects, the criteria for assigning roles are different. If they match each other, the assignment "
+"will be completed automatically and you will be able to operate it immediately on the app."
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "種類"
+msgstr "Object type"
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "基準"
+msgstr "Criteria"
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "VRM"
+msgstr "VRM"
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "VRMのタイトル"
+msgstr "TItle of VRM"
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "OtherObject"
+msgstr "OtherObject"
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "ファイル名"
+msgstr "File name"
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "Image"
+msgstr "Image"
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "UImage"
+msgstr "UImage"
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "上記以外"
+msgstr "Others"
+
+#: ../../source/man4/animation_loadsave.rst:1
+msgid "種類に応じて自動的に"
+msgstr "automatically depending on type"
+
+#: ../../source/man4/animation_loadsave.rst:276
+msgid "※ここではAudioは含みません。"
+msgstr "Audio is not included here."
+
+#: ../../source/man4/animation_loadsave.rst:279
+msgid "これまでに開いていたプロジェクトの内容はリセットされます。"
+msgstr "The contents of previously opened projects are reset."
+
+#: ../../source/man4/animation_loadsave.rst:281
+msgid ""
+"設定 ``プロジェクトを開いた時、このサイズを超えるファイルを自動的に読み込まない。`` を有効なサイズにしている場合、ア"
+"ニメーションプロジェクトを開く際にサイズを超えた各オブジェクトは読み込みをスキップします。この場合、後から該当するオ"
+"ブジェクトのファイルを開いてください。ロールとキャストの復元については上記の通りです。"
+msgstr ""
+"Settings ``Do not load files larger than this size automatically when the project is opened.`` If is a valid size, "
+"each oversized object will skip loading when opening an animation project. In this case, open the corresponding "
+"object file later. Restoring rolls and casts is described above."
+
+#: ../../source/man4/animation_loadsave.rst:288
+msgid "プロジェクトを新規作成する"
+msgstr "Create a new project"
+
+#: ../../source/man4/animation_loadsave.rst:291
+msgid ""
+"プロジェクトを新規作成します。アプリ起動時は必要ありません。すでに開いているプロジェクトを一からやり直したい場合など"
+"に利用します。"
+msgstr ""
+"Create a new project. It is not necessary when starting the application. Use this when you want to start over an "
+"already open project."
+
+#: ../../source/man4/animation_loadsave.rst:293
+msgid "リボンバーの ``アニメーション`` タブから ``新規作成`` をクリックします。"
+msgstr "Click ``New`` from the ``Animation`` tab of the ribbon bar."
+
+#: ../../source/man4/animation_loadsave.rst:299
+msgid "新規作成で行われること"
+msgstr "What New Creation Does"
+
+#: ../../source/man4/animation_loadsave.rst:297
+msgid "アニメーションプロジェクトをすべて削除（SystemEffect、BGM、SE、Stageを除く）"
+msgstr "Removed all animation projects (except SystemEffect, BGM, SE, Stage)"
+
+#: ../../source/man4/animation_loadsave.rst:298
+msgid "読み込み済みのすべてのVRoid/VRM、各オブジェクトの削除"
+msgstr "Delete all loaded VRoid/VRM, each object"
+
+#: ../../source/man4/animation_loadsave.rst:306
+msgid "プロジェクトファイルを管理する"
+msgstr "Manage project files"
+
+#: ../../source/man4/animation_loadsave.rst:308
+msgid "保存したプロジェクトファイルを内部ストレージダイアログで管理できます。"
+msgstr "You can manage saved project files in the internal storage dialog."
+
+#: ../../source/man4/animation_loadsave.rst:318
+msgid "内部ストレージダイアログが開かれます。"
+msgstr "The Internal Storage dialog will open."
+
+#: ../../source/man4/animation_loadsave.rst:323
+msgid "ファイルから開く"
+msgstr "open from file"
+
+#: ../../source/man4/animation_loadsave.rst:325 ../../source/man4/animation_loadsave.rst:352
+msgid "ツールバー上のこのボタンをクリックします。"
+msgstr "Click this button on the toolbar."
+
+#: ../../source/man4/animation_loadsave.rst:333
+msgid "対象の拡張子 .vvmproj または .json のファイルを選択して開きます。"
+msgstr "Select and open the file with the desired extension .vvmproj or .json."
+
+#: ../../source/man4/animation_loadsave.rst:335
+msgid "※正しくないデータを読み込んだ場合の動作は保証致しません。"
+msgstr "Operation is not guaranteed if incorrect data is read."
+
+#: ../../source/man4/animation_loadsave.rst:340
+msgid "名前を変更する"
+msgstr "Rename"
+
+#: ../../source/man4/animation_loadsave.rst:342
+msgid "ツールバー上のこのボタンをクリックし、新しい名前を入力します。"
+msgstr "Click this button on the toolbar and enter a new name."
+
+#: ../../source/man4/animation_loadsave.rst:350
+msgid "内部ストレージから削除する"
+msgstr "Delete from internal storage"
+
+#: ../../source/man4/animation_loadsave.rst:360
+msgid "プロジェクトに紐づいた素材も全てアプリ内から削除されます。"
+msgstr "All materials linked to the project will also be deleted from within the app."
+
+#: ../../source/man4/animation_loadsave.rst:369
+msgid "プロジェクトファイルをバックアップする"
+msgstr "Back up your project files"
+
+#: ../../source/man4/animation_loadsave.rst:371
+msgid "現在開いているプロジェクトを、定期的にバックアップすることができます。"
+msgstr "You can periodically back up the currently open project."
+
+#: ../../source/man4/animation_loadsave.rst:373
+msgid "アプリの設定を開きます。"
+msgstr "Open the app settings."
+
+#: ../../source/man4/animation_loadsave.rst:374
+msgid "アプリケーションタブにある ``プロジェクトをバックアップする`` にチェックを入れます。"
+msgstr "Check ``Back up project`` in the Application tab."
+
+#: ../../source/man4/animation_loadsave.rst:375
+msgid "バックアップの間隔に、どのくらいの頻度でバックアップを自動的にするか目的の分を指定します。"
+msgstr "In Backup Interval, specify how often you want backups to occur automatically, in minutes."
+
+#: ../../source/man4/animation_loadsave.rst:380
+msgid "内部ストレージダイアログを開くと、 ``%BACKUP%`` の名称で保存されています。"
+msgstr "Open the internal storage dialog and it will be saved as ``%BACKUP%``."
+
+#: ../../source/man4/animation_loadsave.rst:387
+msgid "バックアップの作動するきっかけ"
+msgstr "What triggered the backup"
+
+#: ../../source/man4/animation_loadsave.rst:389
+msgid "バックアップは次の操作をすると動作の対象となり、指定の間隔で作動します。"
+msgstr "Backups are subject to action when you:"
+
+#: ../../source/man4/animation_loadsave.rst:391
+msgid "フレームの最大数を変更した"
+msgstr "Changed maximum number of frames"
+
+#: ../../source/man4/animation_loadsave.rst:392
+msgid "キーフレームを登録・削除した"
+msgstr "Registered/deleted keyframes"
+
+#: ../../source/man4/animation_loadsave.rst:393
+msgid "キーフレームをクリップボードから貼り付けた"
+msgstr "Pasted keyframes from the clipboard"
+
+#: ../../source/man4/animation_loadsave.rst:394
+msgid "タイムラインの内容をクリアした"
+msgstr "Cleared the contents of the timeline"
+
+#: ../../source/man4/animation_loadsave.rst:395
+msgid "ロールおよびタイムラインを削除した"
+msgstr "Removed roles and timelines"
+
+#: ../../source/man4/animation_loadsave.rst:397
+msgid ""
+"逆をいえば、キーフレームに登録さえしなければ古いバックアップを上書きせずに新しい操作を行い続けることができます。"
+msgstr ""
+"Conversely, as long as you don't register a keyframe, you can continue to do new operations without overwriting the "
+"old backup."
+
+#: ../../source/man4/animation_loadsave.rst:400
+msgid ""
+"予期せぬ事態が起きてアプリが終了したり継続不可能になった場合、 ``%BACKUP%.vvmproj`` を開けば以前の状態からすぐ再開で"
+"きるようになります。"
+msgstr ""
+"If an unexpected situation occurs and the app terminates or becomes uncontinuable, opening ``%BACKUP%.vvmproj`` "
+"will allow you to immediately resume from the previous state."
+
+#: ../../source/man4/animation_loadsave.rst:403
+msgid ""
+"バックアップされたプロジェクトファイルを開いた後、改めて保存する際はファイル名を変更してください。 ``%BACKUP%`` が"
+"入ったファイル名では保存できません。"
+msgstr ""
+"After opening the backed up project file, change the file name when saving again. File names containing "
+"``%BACKUP%`` cannot be saved."

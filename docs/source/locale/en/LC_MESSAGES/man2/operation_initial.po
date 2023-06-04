@@ -1,0 +1,494 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 23:17+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_initial.rst:3
+msgid "オブジェクト操作の基本"
+msgstr "Basics of object manipulation"
+
+#: ../../source/man2/operation_initial.rst:6
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man2/operation_initial.rst:11
+msgid "オブジェクトを開く"
+msgstr "Open an Object"
+
+#: ../../source/man2/operation_initial.rst:13
+msgid "リボンバーのホームタブあるいは3Dモデルタブから各ボタンを押してください。"
+msgstr "Please press each button from the home tab or 3D model tab of the ribbon bar."
+
+#: ../../source/man2/operation_initial.rst:16
+msgid "ribbon_home"
+msgstr "ribbon_home"
+
+#: ../../source/man2/operation_initial.rst:17
+msgid "ribbon_model"
+msgstr "ribbon_model"
+
+#: ../../source/man2/operation_initial.rst:20
+msgid "ホームタブ"
+msgstr "Home tab"
+
+#: ../../source/man2/operation_initial.rst:20
+msgid "3Dモデルタブ"
+msgstr "Model tab"
+
+#: ../../source/man2/operation_initial.rst:22
+msgid "|ribbon_home|"
+msgstr "|ribbon_home|"
+
+#: ../../source/man2/operation_initial.rst:22
+msgid "|ribbon_model|"
+msgstr "|ribbon_model|"
+
+#: ../../source/man2/operation_initial.rst:26
+msgid "VRMの場合"
+msgstr "For VRMs"
+
+#: ../../source/man2/operation_initial.rst:26
+msgid ""
+"読み込み後、利用条件確認画面（VRM情報画面）が表示されます。そこで許可をしないと本当には読み込まれません。"
+msgstr ""
+"After loading, the terms of use confirmation screen (VRM information screen) will be displayed. If you "
+"don't give permission there, it won't really load."
+
+#: ../../source/man2/operation_initial.rst:40
+msgid "OtherObjectの場合"
+msgstr "For OtherObject"
+
+#: ../../source/man2/operation_initial.rst:29
+msgid ""
+"一般的なFbxやobjなどを開く際、そのままをファイルダイアログで指定しても開くことができますが、テクスチャなど"
+"必要なファイルが複数存在することがあります。"
+msgstr ""
+"When opening general Fbx, obj, etc., it can be opened by specifying it as it is in the file dialog, but "
+"there may be multiple necessary files such as textures."
+
+#: ../../source/man2/operation_initial.rst:31
+msgid "本アプリでは利用ライブラリの効果により、たとえばzipファイルのままでも読み込むことが可能です。"
+msgstr ""
+"In this application, due to the effect of the library used, it is possible to read, for example, a zip "
+"file as it is."
+
+#: ../../source/man2/operation_initial.rst:33
+msgid "例： .obj、.mtl、.png等をまとめて1つのzipファイルにする"
+msgstr "Example: Combine .obj, .mtl, .png, etc. into one zip file"
+
+#: ../../source/man2/operation_initial.rst:36
+msgid ""
+"そうして作成したzipファイルを本アプリで読み込むことで正常にテクスチャ等がついた状態で読み込むことができま"
+"す。"
+msgstr ""
+"By reading the zip file created in this way with this application, you can read it with the texture etc. "
+"attached normally."
+
+#: ../../source/man2/operation_initial.rst:39
+msgid "3Dモデルファイルであらかじめ適切にテクスチャの設定がされている必要があります。"
+msgstr "The 3D model file must have the appropriate texture settings in advance."
+
+#: ../../source/man2/operation_initial.rst:44
+msgid "それ以外"
+msgstr "other than that"
+
+#: ../../source/man2/operation_initial.rst:43
+msgid "読み込み後、すぐに表示されます。"
+msgstr "It will appear immediately after loading."
+
+#: ../../source/man2/operation_initial.rst
+msgid ""
+"※エクスプローラーやファイラーから目的のVRMファイルをWebGL画面へとドラッグアンドドロップして開くこともできま"
+"す。"
+msgstr ""
+"You can also drag and drop the desired VRM file from Explorer or Filer to the WebGL screen to open it."
+
+#: ../../source/man2/operation_initial.rst
+msgid "※設定「開いたファイルを履歴に保存する」により、一度開いた各オブジェクトは履歴が残るようになります。"
+msgstr "By setting \"Save opened files in history\", history will be kept for each object once opened."
+
+#: ../../source/man2/operation_initial.rst:55
+msgid "シンプルな形のオブジェクト"
+msgstr "simple shaped objects"
+
+#: ../../source/man2/operation_initial.rst:57
+msgid "OtherObject扱いになる、基本的な形のオブジェクトを追加することができます。"
+msgstr "You can add a basic shape object that will be treated as OtherObject."
+
+#: ../../source/man2/operation_initial.rst:60
+msgid "リボンバーの3Dモデルタブから「基本の図形」をクリックします。"
+msgstr "Click \"Basic Shapes\" from the 3D Model tab of the ribbon bar."
+
+#: ../../source/man2/operation_initial.rst:67
+msgid "※基本の図形は次の種類を開くことができます。"
+msgstr "The following types of basic figures can be opened."
+
+#: ../../source/man2/operation_initial.rst:73
+msgid "特殊な水面オブジェクト"
+msgstr "special surface object"
+
+#: ../../source/man2/operation_initial.rst:75
+msgid "水面オブジェクトは常に波がアニメーションして動き続ける特殊なオブジェクトです。"
+msgstr "A water surface object is a special object that keeps moving with animated waves."
+
+#: ../../source/man2/operation_initial.rst:82
+msgid ""
+"テクスチャのプロパティも非常に多いですが、その分細かく設定すれば水面・海面だけでなく他の用途でも表現できる"
+"でしょう。うまく活用してください。"
+msgstr ""
+"There are a lot of texture properties, but if you set them in detail, you can express not only water and "
+"sea surfaces but also other uses. Please make good use of it."
+
+#: ../../source/man2/operation_initial.rst:91
+msgid "履歴から開く"
+msgstr "Open from history"
+
+#: ../../source/man2/operation_initial.rst:93
+msgid ""
+"VRM・OtherObject、画像（UI画像含む）は一度開くとアプリ内に履歴が保存されます。次回起動時にはわざわざダイア"
+"ログをたどったりドラッグしなくても、アプリ内で履歴から開くことができます。"
+msgstr ""
+"Once you open VRM/OtherObject and images (including UI images), the history is saved in the app. You can "
+"open it from the history in the app without having to follow the dialog or drag it the next time you "
+"launch it."
+
+#: ../../source/man2/operation_initial.rst:95
+msgid "リボンバーの「ホーム」タブにあるHistoryをクリックし、対象のオブジェクトの種類を選びます。"
+msgstr "Click History on the Home tab of the ribbon bar and select the target object type."
+
+#: ../../source/man2/operation_initial.rst:100
+msgid "内部ストレージダイアログが開くので対象のオブジェクトを選び、開きます。"
+msgstr "The internal storage dialog opens, so select the target object and open it."
+
+#: ../../source/man2/operation_initial.rst:103
+msgid "履歴から開く際は一覧上部の検索ボックスに入力すると、対象のファイルを絞り込むことができます。"
+msgstr ""
+"When opening from the history, you can narrow down the target file by entering it in the search box at the "
+"top of the list."
+
+#: ../../source/man2/operation_initial.rst:111
+msgid "履歴を削除する"
+msgstr "Delete history"
+
+#: ../../source/man2/operation_initial.rst:113
+msgid "貯まりすぎた履歴を削除できます。"
+msgstr "You can delete the accumulated history."
+
+#: ../../source/man2/operation_initial.rst:115
+msgid "histdelbtn"
+msgstr "histdelbtn"
+
+#: ../../source/man2/operation_initial.rst:117
+msgid "**個別に削除する**"
+msgstr "**delete individually**"
+
+#: ../../source/man2/operation_initial.rst:119
+msgid "削除したいオブジェクトにチェックを入れます。"
+msgstr "Check the objects you want to delete."
+
+#: ../../source/man2/operation_initial.rst:120
+msgid "内部ストレージダイアログの上部にある |histdelbtn| をクリックします。"
+msgstr "Click |histdelbtn| at the top of the Internal Storage dialog."
+
+#: ../../source/man2/operation_initial.rst:124
+msgid "**すべて削除する**"
+msgstr "**Remove All**"
+
+#: ../../source/man2/operation_initial.rst:126
+msgid "リボンバーのホームタブにある ``設定`` を押します。"
+msgstr "Press ``Settings`` on the Home tab of the ribbon bar."
+
+#: ../../source/man2/operation_initial.rst:127
+msgid "ファイルタブにある ``Clear`` を押してください。"
+msgstr "Press ``Clear`` on the files tab."
+
+#: ../../source/man2/operation_initial.rst:136
+msgid "オブジェクトの選択"
+msgstr "Object selection"
+
+#: ../../source/man2/operation_initial.rst:138
+msgid ""
+"全ての3Dオブジェクトは操作可能な状態になるとIKマーカーが表示されます。操作可能な状態にするには、オブジェク"
+"ト一覧で選択してください。（TextとUImageは選択してもIKマーカーは表示されません）"
+msgstr ""
+"All 3D objects display IK markers when they are ready to be manipulated. To make it operational, select it "
+"in the object list. (Selecting Text and UImage does not display IK markers)"
+
+#: ../../source/man2/operation_initial.rst:146
+msgid ""
+"※該当のオブジェクトが操作可能になるとIKマーカーがこのように表示されます。（それ以外のオブジェクトのIKマー"
+"カーは非表示になります。"
+msgstr ""
+"When the corresponding object becomes operable, the IK marker will be displayed like this. (IK markers for "
+"other objects are hidden.)"
+
+#: ../../source/man2/operation_initial.rst:150
+msgid ""
+"VRoid/VRMに装着中のオブジェクトは選択してもIKマーカーは表示されません。再び操作可能にするには装着を解除して"
+"ください。"
+msgstr ""
+"Even if you select an object attached to VRoid/VRM, the IK marker will not be displayed. Unequip it to "
+"make it operable again."
+
+#: ../../source/man2/operation_initial.rst:157
+msgid "オブジェクトの削除"
+msgstr "Delete object"
+
+#: ../../source/man2/operation_initial.rst:159
+msgid "オブジェクトを削除するには、オブジェクト一覧で右クリックして「オブジェクトを削除」をクリックします。"
+msgstr "To delete an object, right-click in the object list and click Delete Object."
+
+#: ../../source/man2/operation_initial.rst:167
+msgid ""
+"この方法ではアニメーションプロジェクトのタイムライン（ロール）を削除することはできません。オブジェクトとタ"
+"イムライン（ロール）両方を削除する場合は :doc:`../man4/animation_proper` を参照してください。"
+msgstr ""
+"Animation project timelines (rolls) cannot be deleted this way. See :doc:`../man4/animation_proper` to "
+"delete both objects and timelines (roles)."
+
+#: ../../source/man2/operation_initial.rst:175
+msgid "オブジェクトの名前変更"
+msgstr "Object rename"
+
+#: ../../source/man2/operation_initial.rst:177
+msgid ""
+"オブジェクトの名前を変更することができます。これは後述のタイムライン（ロール）の名称とは別で、オブジェクト"
+"自体の名前・タイトルのことです。"
+msgstr ""
+"Objects can be renamed. This is different from the name of the timeline (role) described later, and is the "
+"name/title of the object itself."
+
+#: ../../source/man2/operation_initial.rst:179
+msgid "オブジェクト一覧で対象を右クリックし、「名前変更」をクリックします。"
+msgstr "Right-click the target in the object list and click Rename."
+
+#: ../../source/man2/operation_initial.rst:180
+msgid "入力ダイアログで入力し、OKボタンを押して決定します。"
+msgstr "Enter in the input dialog and press the OK button to confirm."
+
+#: ../../source/man2/operation_initial.rst:187
+msgid "カメラをフォーカスする"
+msgstr "focus the camera"
+
+#: ../../source/man2/operation_initial.rst:189
+msgid "対象のオブジェクトがなるべくメインカメラに収まるようカメラの位置・回転を調整します。"
+msgstr ""
+"Adjust the position and rotation of the camera so that the target object fits in the main camera as much "
+"as possible."
+
+#: ../../source/man2/operation_initial.rst:191
+msgid "オブジェクト一覧で対象を右クリックし、「カメラをフォーカスする」をクリックします。"
+msgstr "Right-click the object in the object list and click \"Focus Camera\"."
+
+#: ../../source/man2/operation_initial.rst:197
+msgid "このオブジェクトとロールを両方削除する"
+msgstr "Delete both this object and role"
+
+#: ../../source/man2/operation_initial.rst:199
+msgid "オブジェクトの削除とは異なり、オブジェクト自体とロール（タイムライン）の両方を削除します。"
+msgstr "Unlike deleting an object, it deletes both the object itself and the role (timeline)."
+
+#: ../../source/man2/operation_initial.rst:201
+msgid ""
+"キーフレームを登録したタイムライン（ロール）を消したくないなど、よほど特別な理由がない限りは ``このオブジェ"
+"クトとロールを両方削除する`` で削除することをオススメします。"
+msgstr ""
+"Unless you have a very special reason, such as not wanting to delete the timeline (role) that registered "
+"the keyframe, we recommend deleting it with ``Delete both this object and role``."
+
+#: ../../source/man2/operation_initial.rst:203
+msgid "オブジェクト一覧で対象を右クリックし、「このオブジェクトとロールを両方削除する」をクリックします。"
+msgstr "Right-click the target in the object list and click \"Delete both this object and the role\"."
+
+#: ../../source/man2/operation_initial.rst:213
+msgid "オブジェクトの移動と回転・倍率変更"
+msgstr "Move, rotate and scale objects"
+
+#: ../../source/man2/operation_initial.rst:215
+msgid "全てのオブジェクトは共通プロパティが使用可能です。ここでは 移動・回転・倍率を行うことができます。"
+msgstr "Common properties are available for all objects. Here you can move, rotate and scale."
+
+#: ../../source/man2/operation_initial.rst:217
+msgid "prop3d"
+msgstr "prop3d"
+
+#: ../../source/man2/operation_initial.rst:218
+msgid "prop2d"
+msgstr "prop2d"
+
+#: ../../source/man2/operation_initial.rst:1 ../../source/man2/operation_initial.rst:233
+msgid "3Dオブジェクト"
+msgstr "3D object"
+
+#: ../../source/man2/operation_initial.rst:1 ../../source/man2/operation_initial.rst:279
+msgid "2Dオブジェクト"
+msgstr "2D object"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "|prop3d|"
+msgstr "|prop3d|"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "|prop2d|"
+msgstr "|prop2d|"
+
+#: ../../source/man2/operation_initial.rst:235
+msgid ""
+"3DオブジェクトはそれぞれX, Y, Z 軸で操作をします。ここでの移動・回転はオブジェクト自体となります。(VRMは体"
+"の各部位のIKは対象外です)"
+msgstr ""
+"3D objects operate on the X, Y and Z axes respectively. The movement and rotation here will be the object "
+"itself. (VRM does not cover IK of each part of the body)"
+
+#: ../../source/man2/operation_initial.rst:237
+msgid "同様の操作方法として、IKマーカーをクリックして表示される操作ハンドルもあります。"
+msgstr ""
+"As a similar operation method, there is also an operation handle displayed by clicking the IK marker."
+
+#: ../../source/man2/operation_initial.rst:239
+msgid "キーボード操作にも対応しています。詳しい操作方法は :doc:`../man5/special_operation` をご覧ください。"
+msgstr ""
+"It also supports keyboard operation. See :doc:`../man5/special_operation` for detailed operation "
+"instructions."
+
+#: ../../source/man2/operation_initial.rst:242
+msgid ""
+"キーボード操作できるオブジェクトの種類は3Dオブジェクトのみです。 ``Text`` と ``UImage`` はキーボード操作 **"
+"対象外** です。"
+msgstr ""
+"Only 3D objects can be operated with the keyboard. ``Text`` and ``UImage`` are **not keyboard accessible**."
+
+#: ../../source/man2/operation_initial.rst:264
+msgid "360度回転を考慮"
+msgstr "Consider 360 degree rotation"
+
+#: ../../source/man2/operation_initial.rst:249
+msgid ""
+"``360度回転を考慮`` をONにするとその回転角度になる際に可能な限り一回転しようとします。たとえば、Y軸を次のよ"
+"うにするとします。"
+msgstr ""
+"When ``Consider 360 degree rotation`` is turned on, it tries to rotate as much as possible when the "
+"rotation angle is reached. For example, if you want your Y-axis to be:"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "frame"
+msgstr "frame"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "Y軸の回転角度"
+msgstr "Y-axis rotation angle"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "1"
+msgstr "1"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "0"
+msgstr "0"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "10"
+msgstr "10"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "359"
+msgstr "359"
+
+#: ../../source/man2/operation_initial.rst:259
+msgid ""
+"このオプションをOFFにしてキーフレーム登録した場合、0度から時計回り・反時計回りを考慮して角度を即座に切り替"
+"えるのみです。ONの場合、2～9フレームの間は例えば 10..30..50..185..200.. というように一回転しようと試みま"
+"す。"
+msgstr ""
+"If you set this option to OFF and register a keyframe, you can only switch the angle immediately "
+"considering clockwise/counterclockwise rotation from 0 degrees. If it is ON, it will try to make one "
+"rotation, eg 10..30..50..185..200.. between frames 2-9."
+
+#: ../../source/man2/operation_initial.rst:261
+msgid ""
+"ただし、本アプリの回転の内部仕様上、 0から360度は回転できません。一旦359度まで回転し、その後359から360度に"
+"回転するよう次のフレームでキーフレーム登録してください。その際、 ``360度回転を考慮`` をOFFにして登録する必"
+"要があります。"
+msgstr ""
+"However, due to the internal rotation specifications of this application, it cannot be rotated from 0 to "
+"360 degrees. Rotate to 359 degrees once, then register a keyframe on the next frame to rotate from 359 to "
+"360 degrees. At that time, it is necessary to turn off ``Consider 360 degree rotation`` ."
+
+#: ../../source/man2/operation_initial.rst:264
+msgid ""
+"このオプションはモーションデータとしては保持されません。あくまでもキーフレーム登録時のオプションです。オブ"
+"ジェクトの選択を切り替えたりするとこのトグルはOFFに戻ります。"
+msgstr ""
+"This option is not saved as motion data. This is an option only when registering a keyframe. Toggling "
+"object selection will return this toggle to OFF."
+
+#: ../../source/man2/operation_initial.rst:269
+msgid "比率を固定"
+msgstr "fixed ratio"
+
+#: ../../source/man2/operation_initial.rst:269
+msgid ""
+"倍率もX, Y, Zを指定しますが、比率を固定することもできます。 ``比率を固定`` をONにすると入力欄が1つになりま"
+"す。この状態で入力すると現在の比率を保ったまま大きさを変更することができます。"
+msgstr ""
+"You can also specify the X, Y, and Z magnification, but you can also fix the ratio. If you turn on ``Fix "
+"ratio``, there will be only one input field. If you enter in this state, you can change the size while "
+"maintaining the current ratio."
+
+#: ../../source/man2/operation_initial.rst:276
+msgid "ジャンプ・揺れ"
+msgstr "jumping/swaying"
+
+#: ../../source/man2/operation_initial.rst:272
+msgid "オブジェクト自体の位置・回転にかかわるオプションとして、ジャンプと揺れの機能があります。"
+msgstr ""
+"There are jump and shake functions as options related to the position and rotation of the object itself."
+
+#: ../../source/man2/operation_initial.rst:274
+msgid "ジャンプは回数が ``1以上`` の場合に機能します。"
+msgstr "Jumping works if the count is ``1 or more``."
+
+#: ../../source/man2/operation_initial.rst:276
+msgid "直線的な揺れとランダムな揺れはそれぞれが ``On`` の場合のみ機能します。"
+msgstr "Linear and random shakes only work when each is ``On``."
+
+#: ../../source/man2/operation_initial.rst:281
+msgid "2Dオブジェクトは Unityエディタとは異なり、わかりやすさを考慮して入力欄を制限しています。"
+msgstr "Unlike the Unity editor, 2D objects have limited input fields for clarity."
+
+#: ../../source/man2/operation_initial.rst:283
+msgid "位置はX, Y、回転はZ軸のみです。"
+msgstr "Position is X, Y, rotation is Z axis only."
+
+#: ../../source/man2/operation_initial.rst:286
+msgid "サイズ"
+msgstr "Size"
+
+#: ../../source/man2/operation_initial.rst:286
+msgid "3Dオブジェクトと異なり、描画される領域の大きさを示します。"
+msgstr "Unlike 3D objects, it indicates the size of the area to be drawn."
+
+#: ../../source/man2/operation_initial.rst:288
+msgid "倍率"
+msgstr "Scale"
+
+#: ../../source/man2/operation_initial.rst:289
+msgid "3Dオブジェクトと同様の意味の大きさです。"
+msgstr "It has the same size of meaning as a 3D object."

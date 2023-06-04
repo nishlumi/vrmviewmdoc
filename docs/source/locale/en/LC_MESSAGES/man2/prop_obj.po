@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 11:53+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_obj.rst:5
+msgid "OtherObject"
+msgstr "OtherObject"
+
+#: ../../source/man2/prop_obj.rst:9
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man2/prop_obj.rst:14
+msgid "テクスチャ"
+msgstr "Texture"
+
+#: ../../source/man2/prop_obj.rst:21
+msgid ""
+"OtherObjectに関する設定のうち、テクスチャに関するプロパティです。オブジェクトにテクスチャが複数存在した場合はコンボ"
+"ボックスから選ぶことができます。検出できるテクスチャの数はFBXやOBJなどによって異なります。"
+msgstr ""
+"Among the settings related to OtherObject, this is a property related to texture. If the object has multiple "
+"textures, you can select from the combo box. The number of textures that can be detected depends on FBX, OBJ, etc."
+
+#: ../../source/man2/prop_obj.rst
+msgid "マテリアル名"
+msgstr "Material name"
+
+#: ../../source/man2/prop_obj.rst:25
+msgid "現在選択中のテクスチャが保持しているマテリアルの名称です。"
+msgstr "The name of the material held by the currently selected texture."
+
+#: ../../source/man2/prop_obj.rst
+msgid "シェーダー"
+msgstr "Shader"
+
+#: ../../source/man2/prop_obj.rst:27
+msgid ""
+"Unity標準のStandard、VRM標準のVRM/MToon、StandardAssetのWater（FX/Water4）のいずれかにシェーダーを切り替えます。"
+msgstr "Switch the shader to Unity's Standard, VRM's VRM/MToon, or StandardAsset's Water (FX/Water4)."
+
+#: ../../source/man2/prop_obj.rst:29
+msgid "以下のシェーダーの設定を変更できます。詳しくはUnityのヘルプ等でご確認ください。"
+msgstr "You can change the settings of the following shaders. For details, please refer to Unity Help."
+
+#: ../../source/man2/prop_obj.rst
+msgid "Standard"
+msgstr "Standard"
+
+#: ../../source/man2/prop_obj.rst:32
+msgid "色、ブレンドモード、メタリック、光沢、発光色（Emission Color）、テクスチャ"
+msgstr "Color, Blend Mode, Metallic, Glossy, Emission Color, Texture"
+
+#: ../../source/man2/prop_obj.rst
+msgid "VRM/MToon"
+msgstr "VRM/MToon"
+
+#: ../../source/man2/prop_obj.rst:34
+msgid ""
+"色、ブレンドモード、カリングモード メタリック、光沢、発光色（Emission Color）、シェードの色（Shade Color） Shading "
+"Toony、 Rim Color、Rim fresnel power SrcBlend、DstBlend、テクスチャ"
+msgstr ""
+"Colors, Blending Modes, Culling Modes, Metallic, Glossy, Emission Color, Shade Color, Shading Toony, Rim Color, Rim "
+"fresnel power, SrcBlend, DstBlend, Texture"
+
+#: ../../source/man2/prop_obj.rst
+msgid "Water"
+msgstr "Water"
+
+#: ../../source/man2/prop_obj.rst:39
+msgid "フレネルスケール、反射色、鏡面色、波の振れ幅、波の周波数、波の急勾配、波の速度、波方向AB、波方向CD"
+msgstr ""
+"Fresnel scale, reflection color, specular color, wave amplitude, wave frequency, wave steepness, wave velocity, wave "
+"direction AB, wave direction CD"
+
+#: ../../source/man2/prop_obj.rst:42
+msgid "VRMのほうのテクスチャのプロパティと内容・設定方法いずれも全く同じです。"
+msgstr "The VRM texture properties, contents, and setting methods are exactly the same."
+
+#: ../../source/man2/prop_obj.rst:49
+msgid "アニメーション"
+msgstr "Animation"
+
+#: ../../source/man2/prop_obj.rst:56
+msgid "アニメーションが設定されたFBXの場合、プレビュー再生やアニメーションプロジェクト用に登録できます。"
+msgstr "In the case of FBX with animation set, it can be registered for preview playback and animation projects."
+
+#: ../../source/man2/prop_obj.rst
+msgid "アニメーション名"
+msgstr "Animation name"
+
+#: ../../source/man2/prop_obj.rst:60
+msgid "アニメーションが複数セットされている場合、ここで選びます。"
+msgstr "If multiple animations are set, select them here."
+
+#: ../../source/man2/prop_obj.rst
+msgid "プレビュー再生・停止"
+msgstr "Preview play/stop"
+
+#: ../../source/man2/prop_obj.rst:62
+msgid "アニメーションが設定されている場合、再生・停止します。ここでの再生はあくまでプレビューです。"
+msgstr "If animation is set, it will play/stop. Playback here is just a preview."
+
+#: ../../source/man2/prop_obj.rst
+msgid "再生モード"
+msgstr "Playback mode"
+
+#: ../../source/man2/prop_obj.rst:64
+msgid "アニメーションの再生モードを ``Default`` ``Loop`` ``PingPong`` のいずれかから選びます。"
+msgstr "Select the animation play mode from ``Default``, ``Loop``, and ``PingPong``."
+
+#: ../../source/man2/prop_obj.rst
+msgid "Default"
+msgstr "Default"
+
+#: ../../source/man2/prop_obj.rst:67
+msgid "通常の再生です。一度しか再生されません。"
+msgstr "Normal playback. It is played only once."
+
+#: ../../source/man2/prop_obj.rst
+msgid "Loop"
+msgstr "Loop"
+
+#: ../../source/man2/prop_obj.rst:69
+msgid "ループさせます。"
+msgstr "let it loop."
+
+#: ../../source/man2/prop_obj.rst
+msgid "PingPong"
+msgstr "PingPong"
+
+#: ../../source/man2/prop_obj.rst:71
+msgid "ループさせますが、おもちゃのヨーヨーのようにアニメーションの内容を巻き戻っていきます。"
+msgstr "Loop, but rewind the content of the animation like a toy yo-yo."
+
+#: ../../source/man2/prop_obj.rst
+msgid "シーク位置"
+msgstr "Seek position"
+
+#: ../../source/man2/prop_obj.rst:73
+msgid "アニメーションの再生位置を切り替えます。アニメーションプロジェクトに反映されます。"
+msgstr "Switch animation playback position. It will be reflected in your animation project."
+
+#: ../../source/man2/prop_obj.rst
+msgid "アニメーション速度"
+msgstr "Animation speed"
+
+#: ../../source/man2/prop_obj.rst:75
+msgid "アニメーションの再生速度を調整します。"
+msgstr "Adjust the playback speed of the animation."
+
+#: ../../source/man2/prop_obj.rst
+msgid "アニメーションの状態（登録用）"
+msgstr "Animation state (for registration)"
+
+#: ../../source/man2/prop_obj.rst:77
+msgid "アニメーションプロジェクトに再生状態を登録します。コンボボックスから次のいずれかを選びます。"
+msgstr "Register the playback state in the animation project. Select one of the following from the combo box:"
+
+#: ../../source/man2/prop_obj.rst:83
+msgid "設定"
+msgstr "Setting"
+
+#: ../../source/man2/prop_obj.rst:84
+msgid "説明"
+msgstr "Explanation"
+
+#: ../../source/man2/prop_obj.rst:85
+msgid "再生"
+msgstr "Play"
+
+#: ../../source/man2/prop_obj.rst:86
+msgid ""
+"オブジェクトのアニメーションを再生または一時停止します。（該当のフレームになった場合、必ずいずれかの操作が行われま"
+"す）"
+msgstr ""
+"Play or pause object animation. (When it reaches the corresponding frame, one of the operations is always performed)"
+
+#: ../../source/man2/prop_obj.rst:87
+msgid "再生中"
+msgstr "playing"
+
+#: ../../source/man2/prop_obj.rst:88
+msgid "オブジェクトのアニメーションを再生中とし、再生状態を継続します。（つまり何も変更しません）"
+msgstr "Marks the object's animation as playing and continues playing. (i.e. don't change anything)"
+
+#: ../../source/man2/prop_obj.rst:89
+msgid "停止"
+msgstr "Stop"
+
+#: ../../source/man2/prop_obj.rst:90
+msgid "オブジェクトのアニメーションを停止します。（該当のフレームになった場合、必ず停止操作が行われます）"
+msgstr "Stop animating an object. (When the corresponding frame is reached, the stop operation is always performed.)"
+
+#: ../../source/man2/prop_obj.rst:94
+msgid "※他のプロパティでも同じ用語で使われます。その場合はそこでも同じ効果です。"
+msgstr "The same term is used for other properties. If so, the same effect there."

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 23:28+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_light.rst:7
+msgid "Light"
+msgstr "Light"
+
+#: ../../source/man2/operation_light.rst:10
+msgid "Lightはその名の通り、3D空間におけるライティングを扱います。本アプリではUnityのライトのうち、スポットライト・ポイントライトを3Dオブジェクトとして操作できます。ディレクショナルライトはメインのライトとして扱うためこの分類では扱いません。"
+msgstr "Light, as the name suggests, deals with lighting in 3D space. In this application, spotlights and point lights can be operated as 3D objects among Unity lights. Directional lights are treated as main lights and are not included in this category."
+
+#: ../../source/man2/operation_light.rst:20
+msgid "スポットライト"
+msgstr "Spotlight"
+
+#: ../../source/man2/operation_light.rst:20
+msgid "特定の箇所に光を当てるタイプです。先述のプロパティで示すと、範囲で光が届く距離を、照射面の角度で光で照らされる面を拡大縮小します。"
+msgstr "It is a type that illuminates a specific area. As indicated by the aforementioned properties, the range scales the distance the light reaches, and the illuminated surface angle scales the surface illuminated by the light."
+
+#: ../../source/man2/operation_light.rst:23
+msgid "ポイントライト"
+msgstr "Point light"
+
+#: ../../source/man2/operation_light.rst:23
+msgid "特定の領域を光で照らすタイプです。先述のプロパティで示すと、範囲で光が届く距離と面積を拡大縮小します。"
+msgstr "A type that illuminates a specific area with light. Scaling the distance and area covered by the light in the range, as indicated by the properties mentioned above."
+
+#: ../../source/man2/operation_light.rst:26
+msgid "基本的によく使う機能はUnityエディタそのまま使用することができます。後述のアニメーション機能においてもすべてキーフレーム方式での登録に対応しています。"
+msgstr "Basic frequently used functions can be used as they are in the Unity editor. All the animation functions described later also support registration using the keyframe method."
+
+#: ../../source/man2/operation_light.rst:30
+msgid "※Unityの仕様上、複数のライトが存在すると正しく表示されない場合があります。その場合はレンダーモードを1つ以上は「**重要**」に切り替えて使ってください。"
+msgstr "Due to Unity specifications, it may not be displayed correctly if there are multiple lights. In that case, please switch one or more render modes to \"**Important**\"."
+
+#: ../../source/man2/operation_light.rst:32
+msgid "※あまり多くの数を「重要」にすると動作速度に影響が出る場合がありますのでご注意ください。制限はご利用端末のCPUやグラフィックカードなどの性能に依存します。"
+msgstr "Please note that setting too many numbers to \"Important\" may affect the operating speed. The limit depends on the performance of your device's CPU, graphics card, etc."

@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 12:42+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man3/posing_save.rst:3
+msgid "VRoid/VRMのポーズを保存する"
+msgstr "Save VRoid/VRM pose"
+
+#: ../../source/man3/posing_save.rst:6
+msgid ""
+"VRoid/VRMのみ、全身のIKマーカーを動かした状態をアプリ内に保存しておくことができます。これはアニメー"
+"ションではなく、単一のポーズごとです。"
+msgstr ""
+"Only for VRoid/VRM, you can save the state of moving the IK markers of the whole body in the app. "
+"This is per single pose, not an animation."
+
+#: ../../source/man3/posing_save.rst:8
+msgid "VRoid/VRMにポーズを取らせます。"
+msgstr "Make the VRoid/VRM pose."
+
+#: ../../source/man3/posing_save.rst:15
+msgid "「3Dモデル」タブの「ポーズ保存」をクリックします。"
+msgstr "Click “Save Pose” on the “3D Model” tab."
+
+#: ../../source/man3/posing_save.rst:22
+msgid "``端末`` あるいは ``内部ストレージ`` を選びます。"
+msgstr "Select ``Device`` or ``Internal Storage``."
+
+#: ../../source/man3/posing_save.rst:24
+msgid "ポーズ名を入力してください。"
+msgstr "Enter the pose name."
+
+#: ../../source/man3/posing_save.rst:31
+msgid "即座にポーズが保存されます。"
+msgstr "The pose is saved immediately."
+
+#: ../../source/man3/posing_save.rst:35
+msgid "**サムネイルを保存する・しない**"
+msgstr "** Save/Do not save thumbnails **"
+
+#: ../../source/man3/posing_save.rst:37
+msgid ""
+"ポーズファイルはサムネイルに対応しています。実際の動作にはまったく影響しませんが、一覧で見やすくなり"
+"ます。保存しないようにするには、設定画面で ``ポーズの保存時にサムネイルも保存する`` のチェックを外し"
+"てください。"
+msgstr ""
+"Pose files support thumbnails. It doesn't affect the actual behavior at all, but it makes it easier "
+"to see in the list. To avoid saving, uncheck ``Save thumbnails when saving poses`` in the settings "
+"screen."
+
+#: ../../source/man3/posing_save.rst:44
+msgid ""
+"※なおセキュリティ対策のため、端末に保存する場合は必ずカットされます。ポーズファイルを端末から読み込ん"
+"だ場合もサムネイルの情報はカットされます。"
+msgstr ""
+"For security purposes, it will always be cut when saving to a terminal. The thumbnail information is "
+"also cut when the pose file is read from the terminal."
+
+#: ../../source/man3/posing_save.rst:47
+msgid "ポーズの保存時にはキーフレームの登録をしておく必要はありません。"
+msgstr "There is no need to register keyframes when saving poses."
+
+#: ../../source/man3/posing_save.rst:49
+msgid "※保存したポーズデータは？"
+msgstr "What is the saved pose data?"
+
+#: ../../source/man3/posing_save.rst:51
+msgid ""
+"内部ストレージの場合、アプリ内（使用中のブラウザの中）に保存されます。ローカルディスクのフォルダとは"
+"違うアプリごとの専用の領域のような場所なので、他のアプリからは見えないようになっています。"
+msgstr ""
+"In the case of internal storage, it is saved within the app (in the browser you are using). Since it "
+"is a place like a dedicated area for each application that is different from the folder on the local "
+"disk, it is not visible from other applications."
+
+#: ../../source/man3/posing_save.rst:53
+msgid "端末の場合はそのままPCのフォルダに保存されます。"
+msgstr "In the case of a terminal, it will be saved in a folder on the PC as it is."
+
+#: ../../source/man3/posing_save.rst:57
+msgid "ディスクに保存する"
+msgstr "save to disk"
+
+#: ../../source/man3/posing_save.rst:59
+msgid ""
+"内部ストレージに保存した後も端末に保存し直すことができます。そういう場合はダウンロードボタンを押して"
+"ください。"
+msgstr ""
+"After saving to the internal storage, you can save it back to your device. In that case, please "
+"press the download button."
+
+#: ../../source/man3/posing_save.rst
+msgid "保存形式"
+msgstr "Save format"
+
+#: ../../source/man3/posing_save.rst:67
+msgid "**.vvmpose**"
+msgstr "**.vvmpose**"
+
+#: ../../source/man3/posing_save.rst:70
+msgid "中身はJSON形式です。識別しやすくするため独自の拡張子でダウンロードされます。"
+msgstr ""
+"The content is in JSON format. It is downloaded with a unique extension for easy identification."

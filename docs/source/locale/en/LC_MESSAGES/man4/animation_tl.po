@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 14:22+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man4/animation_tl.rst:9
+msgid "タイムラインの表示に関するいくつか"
+msgstr "A few things about timeline display"
+
+#: ../../source/man4/animation_tl.rst:11
+msgid "タイムラインのツールバーについて説明していきます。"
+msgstr "We will explain the timeline toolbar."
+
+#: ../../source/man4/animation_tl.rst:24
+msgid "tlprev"
+msgstr "tlprev"
+
+#: ../../source/man4/animation_tl.rst:25
+msgid "tlnext"
+msgstr "tlnext"
+
+#: ../../source/man4/animation_tl.rst:26
+msgid "tlout"
+msgstr "tlout"
+
+#: ../../source/man4/animation_tl.rst:27
+msgid "tlin"
+msgstr "tlin"
+
+#: ../../source/man4/animation_tl.rst:28
+msgid "tlplay"
+msgstr "tlplay"
+
+#: ../../source/man4/animation_tl.rst:29
+msgid "tlload"
+msgstr "tlload"
+
+#: ../../source/man4/animation_tl.rst:30
+msgid "tlseek"
+msgstr "tlseek"
+
+#: ../../source/man4/animation_tl.rst:31
+msgid "tlvisi"
+msgstr "tlvisi"
+
+#: ../../source/man4/animation_tl.rst:32
+msgid "tlinsf"
+msgstr "tlinsf"
+
+#: ../../source/man4/animation_tl.rst:33
+msgid "tldelf"
+msgstr "tldelf"
+
+#: ../../source/man4/animation_tl.rst:38
+msgid "|tlprev| **タイムラインを一つ前へ戻る**"
+msgstr "|tlprev| **Go back one timeline**"
+
+#: ../../source/man4/animation_tl.rst:38
+msgid ""
+"現在選択中のタイムライン中で、現在の位置より前に一番近い登録済みキーフレームに戻します。（何も登録されていないフ"
+"レームはスキップします）"
+msgstr ""
+"In the currently selected timeline, return to the closest registered keyframe before the current position. (Skip "
+"frames with nothing registered)"
+
+#: ../../source/man4/animation_tl.rst:41
+msgid "|tlnext| **タイムラインを一つ先へ進める**"
+msgstr "|tlnext| **Move forward in timeline**"
+
+#: ../../source/man4/animation_tl.rst:41
+msgid ""
+"現在選択中のタイムライン中で、現在の位置より後に一番近い登録済みキーフレームに進めます。（何も登録されていないフ"
+"レームはスキップします）"
+msgstr ""
+"In the currently selected timeline, advance to the nearest registered keyframe after the current position. (Skip "
+"frames with nothing registered)"
+
+#: ../../source/man4/animation_tl.rst:44
+msgid "|tlout| **タイムラインの表示を縮小する**"
+msgstr "|tlout| **Shrink timeline view**"
+
+#: ../../source/man4/animation_tl.rst:44
+msgid "タイムラインの表示をコンパクトにします。"
+msgstr "Make the timeline display compact."
+
+#: ../../source/man4/animation_tl.rst:47
+msgid "|tlin| **タイムラインの表示を拡大する**"
+msgstr "|tlin| **Expand timeline view**"
+
+#: ../../source/man4/animation_tl.rst:47
+msgid "タイムラインの表示を通常のサイズにします。これが標準サイズです。"
+msgstr "Resize the timeline display to normal size. This is the standard size."
+
+#: ../../source/man4/animation_tl.rst:55
+msgid "|tlplay| **最初から再生、再生/一時停止、停止**"
+msgstr "|tlplay| **play from beginning, play/pause, stop**"
+
+#: ../../source/man4/animation_tl.rst:55
+msgid "リボンバーのアニメーションタブにあるボタンを同様の機能です。"
+msgstr "It has the same function as the button on the animation tab of the ribbon bar."
+
+#: ../../source/man4/animation_tl.rst:60
+msgid "|tlload| **このフレームを読み込む**"
+msgstr "|tlload| **load this frame**"
+
+#: ../../source/man4/animation_tl.rst
+msgid ""
+"現在選択中のフレーム位置に該当する全タイムライン（ロール）のキーフレームの内容を即座に読み込み、ポーズやプロパ"
+"ティを復元します。通常はフレーム位置を選択すると自動的に復元されますが、それを手動で呼び出すボタンです。"
+msgstr ""
+"Immediately read the contents of the keyframes of all timelines (rolls) corresponding to the currently selected "
+"frame position, and restore poses and properties. Selecting a frame position normally restores it automatically, "
+"but this button manually calls it."
+
+#: ../../source/man4/animation_tl.rst
+msgid "※設定の ``フレームを選択する時、プレビューする`` がオフの場合に主に使用します。"
+msgstr "Mainly used when ``Preview when selecting a frame`` in the settings is off."
+
+#: ../../source/man4/animation_tl.rst:63
+msgid "|tlinsf| **現在位置に空のフレームを挿入**"
+msgstr "|tlinsf| **Insert an empty frame at the current position**"
+
+#: ../../source/man4/animation_tl.rst:63
+msgid ""
+"現在選択しているフレーム番号の位置のタイムラインすべてに空のフレームを挿入します。これによりこのフレーム番号以降"
+"のキーフレームはすべて1つずつ右にズレます。"
+msgstr ""
+"Inserts an empty frame into all timelines at the position of the currently selected frame number. This shifts "
+"all keyframes after this frame number to the right by one."
+
+#: ../../source/man4/animation_tl.rst:68
+msgid "|tldelf| **現在のフレーム位置を削除**"
+msgstr "|tldelf| **delete current frame position**"
+
+#: ../../source/man4/animation_tl.rst
+msgid ""
+"すべてのタイムラインの現在選択しているフレーム位置を削除します。これは単なるキーフレームの削除ではなくフレーム位"
+"置の削除を伴うため、このフレーム以降のキーフレームはすべて一つずつ左にズレます。"
+msgstr ""
+"Deletes the currently selected frame position of all timelines. Since this involves deleting a frame position, "
+"not just deleting a keyframe, all keyframes after this frame will be shifted one by one to the left."
+
+#: ../../source/man4/animation_tl.rst
+msgid "また、現在位置にキーフレームが存在した場合はそのキーフレーム共々削除されますのでご注意ください。"
+msgstr "Also, please note that if there is a keyframe at the current position, it will be deleted together."
+
+#: ../../source/man4/animation_tl.rst:73
+msgid "|tlseek| **シークバー**"
+msgstr "|tlseek| **Seek Bar**"
+
+#: ../../source/man4/animation_tl.rst:71
+msgid ""
+"タイムラインのうちフレーム位置を好きな位置に移動します。フレーム数が増減してもこのシークバーのサイズは変わりませ"
+"ん。"
+msgstr ""
+"Move the frame position to any position on the timeline. The size of this seek bar does not change even if the "
+"number of frames increases or decreases."
+
+#: ../../source/man4/animation_tl.rst
+msgid ""
+"※設定の ``フレームを選択する時、プレビューする`` がオンの場合、ゆっくり動かすとアニメーションをコマ送りしてプレ"
+"ビュー再生することができます。（一部のプロパティはプレビューされません）"
+msgstr ""
+"If ``Preview when selecting a frame`` in the settings is on, you can preview the animation frame by frame by "
+"moving it slowly. (some properties are not previewed)"
+
+#: ../../source/man4/animation_tl.rst:76
+msgid "HTMLとWebGLの連動の仕様上、あまり素早く動かすとプレビューが追いつかないことがあります。"
+msgstr ""
+"Due to the interlocking specifications of HTML and WebGL, the preview may not keep up if you move it too quickly."
+
+#: ../../source/man4/animation_tl.rst:83
+msgid "|tlvisi| **タイムラインのキャスト（オブジェクト）の表示・非表示を切り替える**"
+msgstr "|tlvisi| **Show/hide timeline cast (object)**"
+
+#: ../../source/man4/animation_tl.rst:82
+msgid ""
+"選択中のタイムラインのキャストを非表示にすることができます。非表示にしてもIKマーカーは引き続き表示されます。（別"
+"キャストを選択すればIKマーカーすら表示されません）"
+msgstr ""
+"You can hide the cast of the selected timeline. IK markers will still be visible when hidden. (If you select "
+"another cast, even the IK marker will not be displayed)"

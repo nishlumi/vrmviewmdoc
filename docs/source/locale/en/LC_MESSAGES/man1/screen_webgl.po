@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:39+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_webgl.rst:5
+msgid "WebGL画面"
+msgstr "WebGL screen"
+
+#: ../../source/man1/screen_webgl.rst
+msgid "右上"
+msgstr "upper right"
+
+#: ../../source/man1/screen_webgl.rst:14
+msgid "上"
+msgstr "Up"
+
+#: ../../source/man1/screen_webgl.rst:14
+msgid "メインカメラの表示をX軸・Y軸・Z軸の向きの変更"
+msgstr ""
+"Change the orientation of the main camera display on the X-"
+"axis, Y-axis, and Z-axis"
+
+#: ../../source/man1/screen_webgl.rst:15
+msgid "中"
+msgstr "Middle"
+
+#: ../../source/man1/screen_webgl.rst
+msgid ""
+"現在のキーボード操作のモード（C - カメラ、O - オブジェクト）"
+msgstr ""
+"Current keyboard interaction mode (C - Camera, O - Object)"
+
+#: ../../source/man1/screen_webgl.rst
+msgid ""
+"オブジェクトの操作時のグローバル・ローカル基準（G - グローバル、"
+"L - ローカル）"
+msgstr ""
+"Global/local basis when working with objects (G - global, L - "
+"local)"
+
+#: ../../source/man1/screen_webgl.rst:17
+msgid "下"
+msgstr "bottom"
+
+#: ../../source/man1/screen_webgl.rst:17
+msgid "カメラ前の中心点と選択中のオブジェクトとの距離"
+msgstr ""
+"Distance between the center point in front of the camera and "
+"the selected object"
+
+#: ../../source/man1/screen_webgl.rst
+msgid "全体"
+msgstr "whole"
+
+#: ../../source/man1/screen_webgl.rst:21
+msgid ""
+"VRMやその他オブジェクトが表示される画面。これがメインカメラの映"
+"像。"
+msgstr ""
+"A screen on which VRMs and other objects are displayed. This is "
+"the image of the main camera."
+
+#: ../../source/man1/screen_webgl.rst:26
+msgid "**※操作方法**"
+msgstr "**Method of operation**"
+
+#: ../../source/man1/screen_webgl.rst
+msgid "回転"
+msgstr "rotation"
+
+#: ../../source/man1/screen_webgl.rst:30
+msgid ""
+"マウスの右クリックあるいはCtrlキーを押しながら上下左右に移動"
+msgstr ""
+"Move up/down/left/right while right-clicking the mouse or "
+"holding down the Ctrl key"
+
+#: ../../source/man1/screen_webgl.rst
+msgid "前進"
+msgstr "Forward"
+
+#: ../../source/man1/screen_webgl.rst:32
+msgid "マウスのホイールを動かす。前進あるいは後退となる。"
+msgstr "Move the mouse wheel. Forward or backward."
+
+#: ../../source/man1/screen_webgl.rst
+msgid "移動"
+msgstr "move"
+
+#: ../../source/man1/screen_webgl.rst:34
+msgid ""
+"マウスの中クリックあるいはSPACEキーを押しながら上下左右に移動"
+msgstr ""
+"Move up, down, left, or right while holding down the middle "
+"mouse button or the SPACE key"
+
+#: ../../source/man1/screen_webgl.rst:37
+msgid ""
+"マウスジェスチャーのあるブラウザですと操作が競合して正常に動作し"
+"ない恐れがあります。マウスジェスチャー機能をオフにしていただく"
+"か、キーボード操作、あるいは後述のv-padをご利用ください。各OS版"
+"は影響ありません。"
+msgstr ""
+"Browsers with mouse gestures may conflict with operations and "
+"may not work properly. Please turn off the mouse gesture "
+"function, use the keyboard operation, or use the v-pad "
+"described later. Each OS version is not affected."
+
+#: ../../source/man1/screen_webgl.rst:40
+msgid ""
+"キーボードによる詳しい操作方法は :doc:`../man5/"
+"special_operation` をご覧ください。"
+msgstr ""
+"See :doc:`../man5/special_operation` for detailed keyboard "
+"operation."

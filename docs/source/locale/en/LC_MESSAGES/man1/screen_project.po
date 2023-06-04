@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:26+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_project.rst:5
+msgid "プロジェクトの設定画面"
+msgstr "Project setting screen"
+
+#: ../../source/man1/screen_project.rst:7
+msgid "アニメーションにて、各オブジェクトの役割名を設定したり、読み込んだ役割に各オブジェクトを割り当てる画面です。（アニメーションについては後述）"
+msgstr "This screen is used to set the role name of each object in the animation and to assign each object to the loaded role. (Animation will be discussed later)"
+
+#: ../../source/man1/screen_project.rst:11
+msgid "プロジェクト情報"
+msgstr "Project information"
+
+#: ../../source/man1/screen_project.rst:13
+msgid "プロジェクトファイルの概要などをメモしておくタブです。"
+msgstr "This is a tab where you can make a note of the outline of the project file."
+
+#: ../../source/man1/screen_project.rst
+msgid "名前"
+msgstr "Name"
+
+#: ../../source/man1/screen_project.rst:21
+msgid "アニメーションプロジェクトの名称"
+msgstr "Animation project name"
+
+#: ../../source/man1/screen_project.rst
+msgid "説明"
+msgstr "Description"
+
+#: ../../source/man1/screen_project.rst:23
+msgid "アニメーションプロジェクトの詳細説明"
+msgstr "Detailed description of the animation project"
+
+#: ../../source/man1/screen_project.rst
+msgid "URL"
+msgstr "URL"
+
+#: ../../source/man1/screen_project.rst:25
+msgid "明記したいURL"
+msgstr "URL you want to specify"
+
+#: ../../source/man1/screen_project.rst
+msgid "ライセンス"
+msgstr "license"
+
+#: ../../source/man1/screen_project.rst:27
+msgid "アニメーションプロジェクトのライセンス条項（必要であれば）"
+msgstr "Animation project license terms (if needed)"
+
+#: ../../source/man1/screen_project.rst
+msgid "FPS"
+msgstr "FPS"
+
+#: ../../source/man1/screen_project.rst:29
+msgid "アニメーションのFPSを設定します。"
+msgstr "Sets the animation FPS."
+
+#: ../../source/man1/screen_project.rst:33
+msgid "役割の管理"
+msgstr "Role management"
+
+#: ../../source/man1/screen_project.rst:35
+msgid "アニメーションプロジェクト内のロール（役割・タイムライン）とそれに割り当てるキャスト（オブジェクト）を選択して管理するタブです。"
+msgstr "This tab is used to select and manage roles (roles/timelines) within an animation project and casts (objects) assigned to them."
+
+#: ../../source/man1/screen_project.rst
+msgid "役割"
+msgstr "Role"
+
+#: ../../source/man1/screen_project.rst:44
+msgid "オブジェクトの役割（アニメーションプロジェクト内における識別のための名称）を入力"
+msgstr "Enter the role of the object (name for identification within the animation project)"
+
+#: ../../source/man1/screen_project.rst
+msgid "種類"
+msgstr "Kind"
+
+#: ../../source/man1/screen_project.rst:46
+msgid "役割の種類"
+msgstr "role type"
+
+#: ../../source/man1/screen_project.rst
+msgid "キャスト"
+msgstr "cast"
+
+#: ../../source/man1/screen_project.rst:48
+msgid "役割に割り当てるオブジェクトを選択"
+msgstr "Select objects to assign to role"
+
+#: ../../source/man1/screen_project.rst:53
+msgid "素材"
+msgstr "material"
+
+#: ../../source/man1/screen_project.rst:55
+msgid "アプリ中のテクスチャなどの素材を管理するタブです。"
+msgstr "This tab manages materials such as textures in the app."
+
+#: ../../source/man1/screen_project.rst
+msgid "素材の種類"
+msgstr "Material type"
+
+#: ../../source/man1/screen_project.rst:63
+msgid "Textureなどから選択"
+msgstr "Select from Texture etc."
+
+#: ../../source/man1/screen_project.rst
+msgid "素材の場所"
+msgstr "material location"
+
+#: ../../source/man1/screen_project.rst:65
+msgid "アプリ内またはプロジェクト内かどうかを切り替える"
+msgstr "Switch between in-app or in-project"
+
+#: ../../source/man1/screen_project.rst
+msgid "``App`` - アプリ内"
+msgstr "``App`` - in the app"
+
+#: ../../source/man1/screen_project.rst
+msgid "``Project`` - 現在のアニメーションプロジェクト内"
+msgstr "``Project`` - in the current animation project"
+
+#: ../../source/man1/screen_project.rst
+msgid "追加"
+msgstr "Add"
+
+#: ../../source/man1/screen_project.rst:71
+msgid "素材の追加をする"
+msgstr "add material"
+
+#: ../../source/man1/screen_project.rst
+msgid "削除"
+msgstr "Remove"
+
+#: ../../source/man1/screen_project.rst:74
+msgid "一覧で選択した素材を削除する"
+msgstr "Delete the material selected in the list"
+
+#: ../../source/man1/screen_project.rst
+msgid "一覧"
+msgstr "List"
+
+#: ../../source/man1/screen_project.rst:77
+msgid "素材のプレビュー、素材名、素材の種類、ファイル名"
+msgstr "Material preview, material name, material type, file name"
+
+#: ../../source/man1/screen_project.rst:80
+msgid "一覧で画像が読み込まれていない行は次のようになります。"
+msgstr "Rows with no images loaded in the list look like this:"
+
+#: ../../source/man1/screen_project.rst:85
+msgid "``No Preview`` ボタンを押すと画像を読み込みます。"
+msgstr "Press the ``No Preview`` button to load the image."
+
+#: ../../source/man1/screen_project.rst:89
+msgid "素材の追加"
+msgstr "Add material"
+
+#: ../../source/man1/screen_project.rst:91
+msgid "素材の追加をする専用のポップアップウィンドウです。"
+msgstr "This is a dedicated pop-up window for adding materials."
+
+#: ../../source/man1/screen_project.rst
+msgid "素材のラベル"
+msgstr "material label"
+
+#: ../../source/man1/screen_project.rst:99
+msgid "アプリ中でテクスチャを参照するために使用する名称を指定"
+msgstr "Specifies the name used to refer to the texture in the application"
+
+#: ../../source/man1/screen_project.rst
+msgid "素材ファイルボタン"
+msgstr "material file button"
+
+#: ../../source/man1/screen_project.rst:102
+msgid "端末からテクスチャにしたい画像ファイルなどを選択"
+msgstr "Select the image file etc. you want to use as a texture from the terminal"

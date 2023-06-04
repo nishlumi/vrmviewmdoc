@@ -19,11 +19,11 @@
 .. |homecap| image:: img/photograph_1.png
 .. |screencap| image:: img/photograph_2.png
 
-============= ============
-ホームタブ      画面タブ
-------------- ------------
-|homecap|       |screencap|
-============= ============
+.. csv-table::
+    :header-rows: 1
+
+    ホームタブ   ,   画面タブ
+    |homecap|   ,   |screencap|
 
 3. 撮影したスクリーンショットを閲覧する場合は「一覧」をクリックします。
 

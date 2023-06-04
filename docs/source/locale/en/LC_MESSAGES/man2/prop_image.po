@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 11:42+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_image.rst:5
+msgid "Image"
+msgstr "Image"
+
+#: ../../source/man2/prop_image.rst:14
+msgid "3Dオブジェクトとして読み込んだ画像や写真を設定します。"
+msgstr "Set images and photos loaded as 3D objects."
+
+#: ../../source/man2/prop_image.rst
+msgid "色"
+msgstr "Color"
+
+#: ../../source/man2/prop_image.rst:18
+msgid "画像（テクスチャ）のベースの色を変更します。"
+msgstr "Change the base color of the image (texture)."
+
+#: ../../source/man2/prop_image.rst:21
+msgid "**テクスチャタブ**"
+msgstr "**Texture Tab**"
+
+#: ../../source/man2/prop_image.rst:23
+msgid "OtherObjectと同様です。"
+msgstr "Similar to OtherObject."

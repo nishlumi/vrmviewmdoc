@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 20:32+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/menu_animation.rst:5
+msgid "アニメーションタブ"
+msgstr "Animation tab"
+
+#: ../../source/man1/menu_animation.rst:12
+msgid "アニメーションに関する機能のボタンがあります。"
+msgstr "This tab has buttons for functions related to animation."
+
+#: ../../source/man1/menu_animation.rst:15
+msgid "**Project 内**"
+msgstr "**In Project**"
+
+#: ../../source/man1/menu_animation.rst
+msgid "新規作成"
+msgstr "Create New"
+
+#: ../../source/man1/menu_animation.rst:18
+msgid "アニメーションプロジェクトを新規作成します。"
+msgstr "Create a new animation project."
+
+#: ../../source/man1/menu_animation.rst
+msgid "開く"
+msgstr "Open"
+
+#: ../../source/man1/menu_animation.rst:20
+msgid "既存のアニメーションプロジェクトファイルを開きます。"
+msgstr "Open an existing animation project file."
+
+#: ../../source/man1/menu_animation.rst
+msgid "保存"
+msgstr "Save"
+
+#: ../../source/man1/menu_animation.rst:22
+msgid "現在のアニメーションプロジェクトをファイルに保存します。"
+msgstr "Save the current animation project to a file."
+
+#: ../../source/man1/menu_animation.rst
+msgid "設定"
+msgstr "Config"
+
+#: ../../source/man1/menu_animation.rst:24
+msgid "アニメーションプロジェクトの設定画面を開きます。"
+msgstr "Open the animation project settings screen."
+
+#: ../../source/man1/menu_animation.rst:27
+msgid "※保存は名前をつけて保存、上書き保存ができます。"
+msgstr "You can save with a name and save or overwrite."
+
+#: ../../source/man1/menu_animation.rst:30
+msgid "**Play operation 内**"
+msgstr "**In the Play operation**"
+
+#: ../../source/man1/menu_animation.rst
+msgid "最初から再生"
+msgstr "play from beginning"
+
+#: ../../source/man1/menu_animation.rst:33
+msgid "１フレーム目からアニメーションを再生します。"
+msgstr "Play the animation from the 1st frame."
+
+#: ../../source/man1/menu_animation.rst
+msgid "途中から再生・一時停止"
+msgstr "Play/pause from the middle"
+
+#: ../../source/man1/menu_animation.rst:35
+msgid "アニメーションを再生、あるいは一時停止します。"
+msgstr "Play or pause animation."
+
+#: ../../source/man1/menu_animation.rst
+msgid "停止"
+msgstr "Stop"
+
+#: ../../source/man1/menu_animation.rst:37
+msgid "アニメーションを完全に停止します。"
+msgstr "Stop the animation completely."
+
+#: ../../source/man1/menu_animation.rst
+msgid "ループ"
+msgstr "Loop"
+
+#: ../../source/man1/menu_animation.rst:39
+msgid "ループ再生をオン・オフ切り替えます。"
+msgstr "Toggles loop playback on/off."
+
+#: ../../source/man1/menu_animation.rst
+msgid "デフォルトの間隔"
+msgstr "default interval"
+
+#: ../../source/man1/menu_animation.rst:41
+msgid ""
+"現在のアニメーションプロジェクトにおいて、1フレーム間の秒数を指定します。"
+"デフォルトでは ``FPS / 6000.0`` の計算結果がセットされます。"
+msgstr ""
+"Specifies the number of seconds between frames in the current animation "
+"project. By default, the calculation result of ``FPS / 6000.0`` is set."
+
+#: ../../source/man1/menu_animation.rst:45
+msgid "**Frame operation 内**"
+msgstr "**In Frame operation**"
+
+#: ../../source/man1/menu_animation.rst
+msgid "現在"
+msgstr "the current"
+
+#: ../../source/man1/menu_animation.rst:48
+msgid ""
+"現在選択中のフレームNoです。変更するとその位置に移動し、ポーズを適用しま"
+"す。"
+msgstr ""
+"This is the currently selected frame number. If you change it, it will "
+"move to that position and apply the pose."
+
+#: ../../source/man1/menu_animation.rst
+msgid "最大"
+msgstr "maximum"
+
+#: ../../source/man1/menu_animation.rst:50
+msgid ""
+"フレームの最大数を変更します。減らすとその位置のキーは削除されるのでご注"
+"意ください。"
+msgstr ""
+"Change the maximum number of frames. Note that if you decrease it, the "
+"key at that position will be deleted."
+
+#: ../../source/man1/menu_animation.rst
+msgid "適用"
+msgstr "Apply"
+
+#: ../../source/man1/menu_animation.rst:52
+msgid "変更した最大フレーム数を実際に適用します。"
+msgstr "Actually apply the modified maximum number of frames."
+
+#: ../../source/man1/menu_animation.rst:55
+msgid "**Key operation 内**"
+msgstr "**In Key operation**"
+
+#: ../../source/man1/menu_animation.rst
+msgid "キーフレームを登録..."
+msgstr "Register keyframe..."
+
+#: ../../source/man1/menu_animation.rst:58
+msgid ""
+"**ver 2.1.0以降** キーフレームの登録ウィンドウを表示します。 表示される"
+"ウィンドウはリボンバーのタブ内ならどこで右クリックしても表示されます。"
+msgstr ""
+"**ver 2.1.0 or later** Displays the keyframe registration window. The "
+"window that appears can be opened by right-clicking anywhere within a "
+"tab on the ribbon bar."
+
+#: ../../source/man1/menu_animation.rst
+msgid "切り取り・コピー・貼付け"
+msgstr "Cut/Copy/Paste"
+
+#: ../../source/man1/menu_animation.rst:64
+msgid "現在のオブジェクトのキーフレームを各種操作します。"
+msgstr "Manipulate keyframes of the current object."
+
+#: ../../source/man1/menu_animation.rst
+msgid "キーフレームを削除..."
+msgstr "Delete Keyframe..."
+
+#: ../../source/man1/menu_animation.rst:66
+msgid ""
+"現在の選択中のタイムラインのキーフレームを削除します。選択中の3Dオブジェ"
+"クトではありませんので注意してください。"
+msgstr ""
+"Deletes keyframes on the currently selected timeline. Please note that "
+"it is not the selected 3D object."
+
+#: ../../source/man1/menu_animation.rst
+msgid "削除できる内容"
+msgstr "Contents that can be deleted"
+
+#: ../../source/man1/menu_animation.rst:69
+msgid "キーフレーム自体"
+msgstr "the keyframe itself"
+
+#: ../../source/man1/menu_animation.rst:70
+msgid "プロパティのみ"
+msgstr "properties only"
+
+#: ../../source/man1/menu_animation.rst
+msgid ""
+"プロパティだけを削除することで、そのキーフレームは移動や回転などの共通プ"
+"ロパティの内容だけになります。"
+msgstr ""
+"By deleting only the properties, the keyframes will only contain common "
+"properties such as translation and rotation."
+
+#: ../../source/man1/menu_animation.rst
+msgid ""
+"なお、プロパティのみ削除した場合はまだキーフレーム自体は削除されず残った"
+"状態です。タイムラインから完全に削除するには ``キーフレームを削除`` の方"
+"を選んでください。"
+msgstr ""
+"In addition, when only the property is deleted, the keyframe itself is "
+"not deleted yet. Choose ``Remove keyframe`` to completely remove it from "
+"the timeline."

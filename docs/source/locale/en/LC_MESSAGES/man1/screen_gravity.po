@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 20:52+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_gravity.rst:5
+msgid "重力設定"
+msgstr "gravity settings"
+
+#: ../../source/man1/screen_gravity.rst:10
+msgid "VRoid/VRMの場合に使う機能です。本アプリで用いるモデルのボーンにかかる重力を手動で調整できます。本ウィンドウはドラッグ可能です。"
+msgstr "This function is used for VRoid/VRM. You can manually adjust the gravity applied to the bones of the model used in this application. This window is draggable."
+
+#: ../../source/man1/screen_gravity.rst:12
+msgid "**上部：**"
+msgstr "**Top:**"
+
+#: ../../source/man1/screen_gravity.rst
+msgid "重力設定を適用"
+msgstr "Apply Gravity Settings"
+
+#: ../../source/man1/screen_gravity.rst:15
+msgid "下部のスプレッドシートで指定した値で重力を適用。"
+msgstr "Apply gravity with the values specified in the spreadsheet below."
+
+#: ../../source/man1/screen_gravity.rst
+msgid "再読み込み"
+msgstr "Reload"
+
+#: ../../source/man1/screen_gravity.rst:17
+msgid "現在の重力の情報を再読み込みする。"
+msgstr "Reload the current gravity information."
+
+#: ../../source/man1/screen_gravity.rst:20
+msgid "**下部：**"
+msgstr "**Bottom:**"
+
+#: ../../source/man1/screen_gravity.rst
+msgid "スプレッドシート"
+msgstr "Spreadsheet"
+
+#: ../../source/man1/screen_gravity.rst:23
+msgid "存在するボーンごとの重力の強さ（Power）、方向（Direction X, Y, Z）を小数点含めて入力。"
+msgstr "存在するボーンごとの重力の強さ（Power）、方向（Direction X, Y, Z）を小数点含めて入力。"

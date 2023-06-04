@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-04 13:29+0900\n"
+"PO-Revision-Date: 2023-06-04 13:30+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man4/animation_play.rst:4
+#: ../../source/man4/animation_play.rst:9
+msgid "アニメーションの再生と停止"
+msgstr "Play and stop animation"
+
+#: ../../source/man4/animation_play.rst:11
+msgid ""
+"アニメーションを再生したり一時停止する手順です。リボンバーのアニメーショ"
+"ンタブのこれらのボタンを使います。"
+msgstr ""
+"This is the procedure for playing and pausing the animation. Use these "
+"buttons on the Animation tab of the Ribbon bar."
+
+#: ../../source/man4/animation_play.rst:18
+msgid "最初から再生する場合はこのボタンで行います。"
+msgstr "Use this button to play from the beginning."
+
+#: ../../source/man4/animation_play.rst:25
+msgid "normalplay"
+msgstr "normalplay"
+
+#: ../../source/man4/animation_play.rst:27
+msgid "|normalplay| 途中から再生するはこちらのボタンを押します。"
+msgstr "|normalplay| Press this button to play from the middle."
+
+#: ../../source/man4/animation_play.rst:29
+msgid "一時停止する場合はこのボタンを押します。"
+msgstr "|normalplay| Press this button to play from the middle."
+
+#: ../../source/man4/animation_play.rst:34
+msgid ""
+"※一時停止ボタンは再生状態により、途中から再生ボタンとアイコンが切り替わり"
+"ます。"
+msgstr ""
+"Depending on the playback status of the pause button, the playback "
+"button and icon will switch from the middle."
+
+#: ../../source/man4/animation_play.rst:37
+msgid "停止する場合はこのボタンを押します。"
+msgstr "Press this button to stop."
+
+#: ../../source/man4/animation_play.rst:45
+msgid "tlbarplay"
+msgstr "tlbarplay"
+
+#: ../../source/man4/animation_play.rst:48
+msgid "タイムラインの上部のバーからも同じ操作を行えます。 |tlbarplay|"
+msgstr ""
+"The same operation can be performed from the bar at the top of the "
+"timeline. |tlbarplay|"
+
+#: ../../source/man4/animation_play.rst:59
+msgid "アニメーションをループ再生する"
+msgstr "Loop animation"
+
+#: ../../source/man4/animation_play.rst:62
+msgid ""
+"アニメーションを停止する手順です。リボンバーのアニメーションタブのこのボ"
+"タンを使います。"
+msgstr ""
+"This is the procedure to stop the animation. Use this button on the "
+"Animation tab of the Ribbon bar."
+
+#: ../../source/man4/animation_play.rst:64
+msgid "アニメーションをループ再生するにはこれにチェックを入れます。"
+msgstr "Check this to loop the animation."
+
+#: ../../source/man4/animation_play.rst:71
+msgid "その後、最初から再生ボタンあるいは途中から再生ボタンを押します。"
+msgstr ""
+"After that, press the play button from the beginning or the play button "
+"from the middle."
+
+#: ../../source/man4/animation_play.rst:74
+msgid ""
+"※再生中にチェックをオンオフ切り替えてもすぐには反映されません。停止して最"
+"初から再生することでそのループの設定が正しく反映されます。"
+msgstr ""
+"Switching the check on/off during playback will not be reflected "
+"immediately. By stopping and playing from the beginning, the loop "
+"settings will be reflected correctly."

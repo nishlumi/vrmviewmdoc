@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 15:37+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man5/special_operation.rst:3
+msgid "キーボードショートカット"
+msgstr "Keyboard shortcut"
+
+#: ../../source/man5/special_operation.rst:6
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man5/special_operation.rst:11
+msgid "キーボードでの操作"
+msgstr "Operation with the keyboard"
+
+#: ../../source/man5/special_operation.rst:13
+msgid "本アプリでのキーボード操作をまとめます。"
+msgstr "The keyboard operation in this application is summarized."
+
+#: ../../source/man5/special_operation.rst:16
+msgid "**メインカメラの操作**"
+msgstr "**Main camera operation**"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "キー"
+msgstr "Key"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "操作"
+msgstr "Operation"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "W"
+msgstr "W"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "ズームイン（前進）"
+msgstr "zoom in (forward)"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "S"
+msgstr "S"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "ズームアウト（後退）"
+msgstr "zoom out (backward)"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "A"
+msgstr "A"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "左移動"
+msgstr "move left"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "D"
+msgstr "D"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "右移動"
+msgstr "move right"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Shift + W"
+msgstr "Shift + W"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "上へ回転"
+msgstr "Rotate Up"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Shift + S"
+msgstr "Shift + S"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "下へ回転"
+msgstr "Rotate down"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Shift + A"
+msgstr "Shift + A"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "左へ回転"
+msgstr "Rotate left"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Shift + D"
+msgstr "Shift + D"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "右へ回転"
+msgstr "Rotate right"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "F"
+msgstr "F"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "上に移動"
+msgstr "Mmove up"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "V"
+msgstr "V"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "下に移動"
+msgstr "Mmove down"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Q"
+msgstr "Q"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "カメラのZ軸による回転を元に戻す"
+msgstr "undo the rotation by the Z axis of the camera"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "M"
+msgstr "M"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "カメラ←→現在オブジェクト操作の切り替え"
+msgstr "Switch Camera and Current object"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "R"
+msgstr "R"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "カメラと中心点のリセット"
+msgstr "Reset camera and center point"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "I"
+msgstr "I"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "カメラと中心点の距離を離す"
+msgstr "Separate the distance between the camera and the center point"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "O"
+msgstr "O"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "カメラと中心点の距離を近づける"
+msgstr "Close the distance between the camera and the center point"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "マウスの左クリックと一緒に押したままマウスを動かして回転"
+msgstr "Move the mouse while holding down Ctrl and left mouse click to rotate"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "SPACE"
+msgstr "SPACE"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "マウスの左クリックと一緒に押したままマウスを動かして移動"
+msgstr "move the mouse while holding it down with the left click of the mouse"
+
+#: ../../source/man5/special_operation.rst:40
+msgid "※キーボード操作時（WASDのみ）のカメラのスピードは設定 ``キー操作時のカメラの移動速度`` で変更することができます。"
+msgstr "You can change the speed of the camera during keyboard operation (WASD only) in the setting ``Movement speed of the camera during key operation``."
+
+#: ../../source/man5/special_operation.rst:42
+msgid "**現在オブジェクトの操作**"
+msgstr "**Manipulating Current Objects**"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "前進"
+msgstr "Forward"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "後退"
+msgstr "Backward"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "前方へ回転"
+msgstr "rotate forward"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "後方へ回転"
+msgstr "rotate backward"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "左を向く"
+msgstr "turn left"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "右を向く"
+msgstr "turn right"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Shift + F"
+msgstr "Shift + F"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "左方へ回転"
+msgstr "rotate left"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Shift + V"
+msgstr "Shift + V"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "右方へ回転"
+msgstr "rotate right"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "IKの回転を0に戻す"
+msgstr "Return the rotation of  IK to 0"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "G"
+msgstr "G"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "グローバル・ローカル切り替え（ **キー操作による移動・回転に対して** ）"
+msgstr "global/local switching (**For movement/rotation by key operation**)"
+
+#: ../../source/man5/special_operation.rst:63
+msgid "**オブジェクトのIKマーカーの操作**"
+msgstr "**Working with object IK markers**"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "押しながらIKマーカーをクリックして複数選択"
+msgstr "Ctrl + click IK markers to select multiple"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "X"
+msgstr "X"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "グローバル座標・ローカル座標の切り替え（ **IKマーカーに対して** ）"
+msgstr "Switch  global and local coordinates (**for IK markers**)"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "T"
+msgstr "T"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "IKマーカーを初期状態に戻す（移動・回転両方）"
+msgstr "Restore IK markers to their initial state (both movement and rotation)"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Shift + Z"
+msgstr "Shift + Z"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "IKの移動・回転をもとに戻す"
+msgstr "undo movement/rotation of IK"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Shift + Y"
+msgstr "Shift + Y"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "IKの移動・回転をやり直す"
+msgstr "redo movement/rotation of IK"

@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 15:30+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man5/photograph.rst:3
+msgid "スクリーンショット"
+msgstr "Screenshot"
+
+#: ../../source/man5/photograph.rst:5
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man5/photograph.rst:10
+msgid "撮る"
+msgstr "Take a screenshot"
+
+#: ../../source/man5/photograph.rst:13
+msgid "現在のWebGL画面の状態をスクリーンショットとして撮影し、保存することができます。"
+msgstr "You can take a screenshot of the current WebGL screen state and save it."
+
+#: ../../source/man5/photograph.rst:15
+msgid "リボンバーのホームタブあるいは画面タブを開きます。"
+msgstr "Open the Home or Display tab of the Ribbon bar."
+
+#: ../../source/man5/photograph.rst:17
+msgid "それぞれのタブにある「キャプチャ」をクリックします。"
+msgstr "Click “Capture” on each tab."
+
+#: ../../source/man5/photograph.rst:19
+msgid "homecap"
+msgstr "homecap"
+
+#: ../../source/man5/photograph.rst:20
+msgid "screencap"
+msgstr "screencap"
+
+#: ../../source/man5/photograph.rst:23
+msgid "ホームタブ"
+msgstr "Home tab"
+
+#: ../../source/man5/photograph.rst:23
+msgid "画面タブ"
+msgstr "Screen tab"
+
+#: ../../source/man5/photograph.rst:25
+msgid "|homecap|"
+msgstr "|homecap|"
+
+#: ../../source/man5/photograph.rst:25
+msgid "|screencap|"
+msgstr "|screencap|"
+
+#: ../../source/man5/photograph.rst:28
+msgid "撮影したスクリーンショットを閲覧する場合は「一覧」をクリックします。"
+msgstr "To view the screenshots you have taken, click \"List\"."
+
+#: ../../source/man5/photograph.rst:30
+msgid "※別ウィンドウでスクリーンショット一覧が表示されます。"
+msgstr "Screenshots will be displayed in a separate window."
+
+#: ../../source/man5/photograph.rst
+msgid "※ホームタブにはよく使うと思われる「キャプチャ」ボタンのみ置かれています。"
+msgstr "Only the \"capture\" button, which is thought to be used frequently, is placed on the home tab."
+
+#: ../../source/man5/photograph.rst
+msgid "※背景オプションで「**透明にする**」にチェックを入れると空と地面を透明にして撮影することができます。"
+msgstr "You can shoot with the sky and ground transparent by checking \"**Make transparent**\" in the background options."
+
+#: ../../source/man5/photograph.rst
+msgid "※IKマーカーは設定変更しなくても自動的にカットされます。"
+msgstr "IK markers are automatically cut without changing settings."
+
+#: ../../source/man5/photograph.rst:44
+msgid "見る"
+msgstr "look"
+
+#: ../../source/man5/photograph.rst:46
+msgid "撮影したスクリーンショットはアプリ内に保存されます。別ウィンドウですべて閲覧したり必要に応じて保存することができます。"
+msgstr "The screenshots you take are saved in the app. All can be viewed in a separate window and saved as needed."
+
+#: ../../source/man5/photograph.rst:49
+msgid "リボンバーの画面タブにある「一覧」をクリックして開きます。"
+msgstr "Click “List” on the screen tab of the ribbon bar to open it."
+
+#: ../../source/man5/photograph.rst
+msgid "できること"
+msgstr "What you can do"
+
+#: ../../source/man5/photograph.rst:57
+msgid "時系列で表示"
+msgstr "display in chronological order"
+
+#: ../../source/man5/photograph.rst:58
+msgid "最新の状態に更新（メイン画面で撮影しても別ウィンドウにはすぐに反映されないため）"
+msgstr "Update to the latest state (because shooting on the main screen is not immediately reflected in another window)"
+
+#: ../../source/man5/photograph.rst:59
+msgid "削除"
+msgstr "Remove"
+
+#: ../../source/man5/photograph.rst:60
+msgid "ローカルディスクに保存"
+msgstr "Save to local disk"
+
+#: ../../source/man5/photograph.rst:69
+msgid "Cameraオブジェクトが1つ以上存在する場合、いずれかでプレビューをするとその映像がスクリーンショットの対象になります。すべてをプレビュー停止すると、メインカメラからの映像に戻ります。"
+msgstr "If there is more than one Camera object, previewing with one of them will make that image the target of the screenshot. When you stop previewing everything, it will return to the image from the main camera."
+
+#: ../../source/man5/photograph.rst:71
+msgid "ビューポートやレンダーテクスチャ中のプレビューも反映されてしまうため、必要に応じて設定の「スクリーンショットをHTMLの機能で撮影する」をONにしてください。そうするとWebGL画面に写った(Cameraオブジェクトのビューポートやレンダーテクスチャ含め)そのままがスクリーンショットになります。"
+msgstr "Since the preview in the viewport and render texture is also reflected, please turn on \"Take screenshots with HTML function\" in the settings as necessary. Then, the screen shot will be taken as it is (including the camera object viewport and render texture) on the WebGL screen."
+
+#: ../../source/man5/photograph.rst:79
+msgid "探す"
+msgstr "Search"
+
+#: ../../source/man5/photograph.rst:81
+msgid "撮影したスクリーンショットは日付順に管理されており、カレンダーから特定の日付だけを探すことが可能です。"
+msgstr "The screenshots taken are managed in date order, and it is possible to search for specific dates from the calendar."
+
+#: ../../source/man5/photograph.rst:88
+msgid "スクリーンショットがある日付は日にちの色が濃くなっていてクリックできるようになっています。"
+msgstr "Dates with screenshots are darkened and clickable."
+
+#: ../../source/man5/photograph.rst:90
+msgid "色が濃くなっている日にちをクリックします。"
+msgstr "Click the darkened date."
+
+#: ../../source/man5/photograph.rst:91
+msgid "スクリーンショット一覧の表示内容が更新され、選択した日にちのスクリーンショットが並びます。"
+msgstr "The displayed contents of the screenshot list are updated, and the screenshots for the selected date are displayed."
+
+#: ../../source/man5/photograph.rst:96
+msgid "保存する"
+msgstr "Save"
+
+#: ../../source/man5/photograph.rst:98
+msgid "dwnbtn"
+msgstr "dwnbtn"
+
+#: ../../source/man5/photograph.rst:100
+msgid "保存したいスクリーンショットを選択します。"
+msgstr "Select the screenshot you want to save."
+
+#: ../../source/man5/photograph.rst:101
+msgid "ツールバー上のこのボタン |dwnbtn| を押します。"
+msgstr "Press this button |dwnbtn| on the toolbar."
+
+#: ../../source/man5/photograph.rst:104
+msgid "※ブラウザからの利用の場合、右クリックでも画像をクリップボードにコピーしたりその他機能を利用可能です。"
+msgstr "When using from a browser, you can also copy the image to the clipboard and use other functions by right-clicking."

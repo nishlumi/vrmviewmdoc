@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 20:54+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_ikmarker.rst:5
+msgid "IKマーカーの位置変更"
+msgstr "Repositioning of IK markers"
+
+#: ../../source/man1/screen_ikmarker.rst:10
+msgid "VRoid/VRMの場合に使う機能です。本アプリで用いるモデルの体パーツの位置と回転を直接指定できます。別ウィンドウが開きます。アプリとは別ウィンドウです。"
+msgstr "This function is used for VRoid/VRM. You can directly specify the position and rotation of the body parts of the model used in this application. A new window will open. It is a separate window from the app."
+
+#: ../../source/man1/screen_ikmarker.rst:13
+msgid "**上部：**"
+msgstr "**Top:**"
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "ポーズを適用"
+msgstr "Apply Pose"
+
+#: ../../source/man1/screen_ikmarker.rst:16
+msgid "下部のスプレッドシートで指定した値でポーズを適用。"
+msgstr "Apply a pose with the values specified in the spreadsheet below."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "再読み込み"
+msgstr "Reload"
+
+#: ../../source/man1/screen_ikmarker.rst:18
+msgid "現在のポーズの情報を再読み込みする。"
+msgstr "Reload the current pose information."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "ポーズを反転する"
+msgstr "flip pose"
+
+#: ../../source/man1/screen_ikmarker.rst:20
+msgid "現在のポーズの値を左右逆転する"
+msgstr "Flip the values of the current pose left to right"
+
+#: ../../source/man1/screen_ikmarker.rst:23
+msgid "**下部：**"
+msgstr "**Bottom:**"
+
+#: ../../source/man1/screen_ikmarker.rst:27
+msgid "スプレッドシート:"
+msgstr "Spreadsheet:"
+
+#: ../../source/man1/screen_ikmarker.rst:26
+msgid "体の部位ごとのPosition（位置）・Rotation（回転）を数値で指定する。"
+msgstr "Specify the Position and Rotation values for each part of the body."
+
+#: ../../source/man1/screen_ikmarker.rst:30
+msgid "このウィンドウを表示している最中もVRoid/VRMを直接移動・回転できますが、仕様によりすぐにこのウィンドウのスプレッドシートには反映されません。再読み込みボタンを押すことで位置・回転の情報がすぐに取得できます。"
+msgstr "You can directly move and rotate the VRoid/VRM while this window is displayed. However, due to specifications, it is not immediately reflected in the spreadsheet in this window. By pressing the reload button, you can get the position and rotation information immediately."
+
+#: ../../source/man1/screen_ikmarker.rst:31
+msgid "オブジェクトの選択を変えた時、タイムラインのキーフレームの選択を変更した時には自動的に再読み込みされます。"
+msgstr "It is automatically reloaded when you change the object selection, or when you change the timeline keyframe selection."
+
+#: ../../source/man1/screen_ikmarker.rst:32
+msgid "VRM以外を選択した場合はスプレッドシートは使用できなくなります。"
+msgstr "If you choose anything other than VRM, the spreadsheet will not be available."

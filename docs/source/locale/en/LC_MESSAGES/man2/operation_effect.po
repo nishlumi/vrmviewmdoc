@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 22:53+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_effect.rst:5
+msgid "Effect"
+msgstr "Effect"
+
+#: ../../source/man2/operation_effect.rst:8
+msgid ""
+"Effectはアニメーションする画面効果をオブジェクトとして追加したり、他のオブジェクトに対して影響を与える効果を設定することがで"
+"きます。"
+msgstr "Effect allows you to add animated screen effects as objects and set effects that affect other objects."
+
+#: ../../source/man2/operation_effect.rst:10
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man2/operation_effect.rst:19
+msgid ""
+"IKマーカーは他と区別するためにカプセル状になっています。IKマーカーの位置を基準として特殊効果を表示します。同時に表示させる数"
+"に制限はありません（ただし動作は重くなる可能性があります）。また、効果音があるエフェクトは同時に音が鳴ります。"
+msgstr ""
+"IK markers are encapsulated to distinguish them from others. Displays special effects relative to the position of the IK "
+"marker. There is no limit to the number that can be displayed at the same time (but the operation may be slow). Also, "
+"effects with sound effects will sound at the same time."
+
+#: ../../source/man2/operation_effect.rst:21
+msgid "アニメーションプロジェクトではエフェクトのアニメーションの「再生」「停止」などの状態をキーフレームに登録します。"
+msgstr "In an animation project, the states such as \"play\" and \"stop\" of the effect animation are registered in keyframes."
+
+#: ../../source/man2/operation_effect.rst:24
+msgid "ジャンルを選択します。"
+msgstr "Select a genre."
+
+#: ../../source/man2/operation_effect.rst:25
+msgid "ジャンルに含まれるエフェクト名を選択します。"
+msgstr "Select an effect name within the genre."
+
+#: ../../source/man2/operation_effect.rst:26
+msgid "プレビュー再生を押してエフェクトを確認してください。"
+msgstr "Press preview play to see the effect."
+
+#: ../../source/man2/operation_effect.rst:29
+msgid "preview"
+msgstr "preview"
+
+#: ../../source/man2/operation_effect.rst:30
+msgid "anireg"
+msgstr "anireg"
+
+#: ../../source/man2/operation_effect.rst:1
+msgid "プレビュー再生"
+msgstr "preview playback"
+
+#: ../../source/man2/operation_effect.rst:1
+msgid "アニメーション登録用"
+msgstr "for animation registration"
+
+#: ../../source/man2/operation_effect.rst:1
+msgid "|preview|"
+msgstr "|preview|"
+
+#: ../../source/man2/operation_effect.rst:1
+msgid "|anireg|"
+msgstr "|anireg|"
+
+#: ../../source/man2/operation_effect.rst:1
+msgid "即座に再生されます。こちらの操作はキーフレームには登録されません。"
+msgstr "It will play instantly. This operation is not registered in the keyframe."
+
+#: ../../source/man2/operation_effect.rst:1
+msgid "「再生」や「停止」を選択後にキーフレームに登録します。"
+msgstr "Register the keyframe after selecting \"Play\" or \"Stop\"."
+
+#: ../../source/man2/operation_effect.rst:40
+msgid "エフェクトの再生が終わっていないうちは再び再生を行うことはできません。"
+msgstr "You cannot play it again until the effect has finished playing."
+
+#: ../../source/man2/operation_effect.rst:47
+msgid "VRMとの衝突プロパティ"
+msgstr "Collision properties with VRM"
+
+#: ../../source/man2/operation_effect.rst:49
+msgid "VRMの髪などボーンがある部位に対して衝突させて反動で動かすことのできる効果です。"
+msgstr "It is an effect that can be moved with recoil by colliding with parts with bones such as hair of VRM."
+
+#: ../../source/man2/operation_effect.rst:56
+msgid "衝突機能を使用にチェックを入れると衝突の範囲が半透明な球体で描写されます。これはプレビューの意味合いです。"
+msgstr ""
+"If you check Use Collision Function, the range of collision will be drawn as a translucent sphere. This is for preview "
+"purposes."
+
+#: ../../source/man2/operation_effect.rst:58
+msgid "衝突範囲の大きさで範囲を変更できます。それに合わせてプレビューの球体も変化します。"
+msgstr "You can change the range with the size of the collision range. The preview sphere changes accordingly."
+
+#: ../../source/man2/operation_effect.rst:60
+msgid "norange"
+msgstr "norange"
+
+#: ../../source/man2/operation_effect.rst:61
+msgid "isrange"
+msgstr "isrange"
+
+#: ../../source/man2/operation_effect.rst:64
+msgid "|norange|"
+msgstr "|norange|"
+
+#: ../../source/man2/operation_effect.rst:64
+msgid "|isrange|"
+msgstr "|isrange|"
+
+#: ../../source/man2/operation_effect.rst:67
+msgid "collidertarget"
+msgstr "collidertarget"
+
+#: ../../source/man2/operation_effect.rst:68
+msgid "colliderdecide"
+msgstr "colliderdecide"
+
+#: ../../source/man2/operation_effect.rst:69
+msgid "colliderdelete"
+msgstr "colliderdelete"
+
+#: ../../source/man2/operation_effect.rst
+msgid "|collidertarget|"
+msgstr "|collidertarget|"
+
+#: ../../source/man2/operation_effect.rst
+msgid "衝突させたいVRMを選びます。"
+msgstr "Select the VRM you want to collide with."
+
+#: ../../source/man2/operation_effect.rst
+msgid "|colliderdecide|"
+msgstr "|colliderdecide|"
+
+#: ../../source/man2/operation_effect.rst
+msgid "選んだVRMに登録します。一つのEffectに複数のVRMを登録可能です。"
+msgstr "Register with the selected VRM. Multiple VRMs can be registered to one Effect."
+
+#: ../../source/man2/operation_effect.rst
+msgid "|colliderdelete|"
+msgstr "|colliderdelete|"
+
+#: ../../source/man2/operation_effect.rst
+msgid "設定を削除したい場合は対象のVRMの右端のボタンで削除します。"
+msgstr "If you want to delete the setting, delete it with the rightmost button of the target VRM."
+
+#: ../../source/man2/operation_effect.rst:87
+msgid "VRM 1.0の仕様による機能の変更"
+msgstr "Changes in functionality according to the VRM 1.0 specification"
+
+#: ../../source/man2/operation_effect.rst:89
+msgid "VRM 1.0では髪の毛や胸などのSpringBone周りの仕様が大幅に変更になりました。"
+msgstr "In VRM 1.0, the specifications around SpringBone such as hair and chest have changed significantly."
+
+#: ../../source/man2/operation_effect.rst:91
+msgid ""
+"UniVRM 0.xでは何もしなくても常時コライダーとの衝突が有効だったようで、本アプリにおいてもこのEffectオブジェクトをVRMに衝突させ"
+"たら適切な衝突の激しさでSpringBoneが動きました。"
+msgstr ""
+"In UniVRM 0.x, it seems that collision with colliders was always effective without doing anything, and in this application, "
+"when this Effect object collided with VRM, SpringBone moved with appropriate collision intensity."
+
+#: ../../source/man2/operation_effect.rst:93
+msgid ""
+"しかしVRM 1.0では、最初から設定されている身体の部位以外によってSpringBoneを動かすには、特殊な設定が必要になりました。その結"
+"果、SpringBoneの動きは 0.x の頃とまったく同じではなくなります。"
+msgstr ""
+"However, in VRM 1.0, special settings are required to move SpringBone by body parts other than those set from the beginning. "
+"As a result, SpringBone's behavior isn't quite the same as it was in his 0.x days."
+
+#: ../../source/man2/operation_effect.rst:96
+msgid "**VRMとの衝突プロパティを有効にするのは必要最低限にしてください**"
+msgstr "Enabling the VRM Collision property **should be the bare minimum** ."
+
+#: ../../source/man2/operation_effect.rst:98
+msgid ""
+"本プロパティを有効にし、対象のVRMを設定してから身体のボーンを動かすとわかりますが、本プロパティがオフのときよりも髪の毛や胸な"
+"どのSpringBoneの動きが **非常に緩やか** または **動きが極小** になります。"
+msgstr ""
+"If you enable this property, set the target VRM, and then move the bones of the body, you can see that the movement of the "
+"SpringBone, such as the hair and chest, is **very slow** or * compared to when this property is off. *Minimum movement**."
+
+#: ../../source/man2/operation_effect.rst:100
+msgid ""
+"本来なら機敏に揺れなければいけないのが不自然な動きになるため、Effectオブジェクトの本プロパティによって明示的に特定のVRMの"
+"SpringBoneを動かしたい以外では、 **オフにしておくことをオススメ** します。"
+msgstr ""
+"Normally, it would be unnatural to have to shake quickly, so unless you want to explicitly move the SpringBone of a specific "
+"VRM with this property of the Effect object, **recommend to turn it off**. increase."
+
+#: ../../source/man2/operation_effect.rst:102
+msgid "VRM 1.0の仕様が変わった際にはまた機能を調整する予定です。"
+msgstr "We plan to adjust the function again when the specification of VRM 1.0 changes."

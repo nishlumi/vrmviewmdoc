@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 20:50+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/menu_syseffect.rst:5
+msgid "システムエフェクトタブ"
+msgstr "System effect tab"
+
+#: ../../source/man1/menu_syseffect.rst:7
+msgid "syseff1"
+msgstr "syseff1"
+
+#: ../../source/man1/menu_syseffect.rst:8
+msgid "syseff2"
+msgstr "syseff2"
+
+#: ../../source/man1/menu_syseffect.rst:1
+msgid "|syseff1|"
+msgstr "|syseff1|"
+
+#: ../../source/man1/menu_syseffect.rst:1
+msgid "|syseff2|"
+msgstr "|syseff2|"
+
+#: ../../source/man1/menu_syseffect.rst:17
+msgid "システムエフェクト（画面の効果）に関する機能のボタンがあります。"
+msgstr ""
+"There are buttons for functions related to system effects (screen "
+"effects)."
+
+#: ../../source/man1/menu_syseffect.rst:19
+msgid ""
+"システムエフェクトとは、Unityの用語でいうところのPost-processingです。"
+"UnityのPost-processingのすべてが使えるわけではありません。"
+msgstr ""
+"System effects are post-processing in Unity terms. Not all of Unity's "
+"Post-processing can be used."
+
+#: ../../source/man1/menu_syseffect.rst
+msgid "ページ番号"
+msgstr "page number"
+
+#: ../../source/man1/menu_syseffect.rst:22
+msgid "各エフェクトが1ページに付き3～4個表示されます。"
+msgstr "3 to 4 of each effect are displayed per page."
+
+#: ../../source/man1/menu_syseffect.rst
+msgid "On"
+msgstr "On"
+
+#: ../../source/man1/menu_syseffect.rst:25
+msgid ""
+"各エフェクトを有効・無効切り替えます。使用可能なエフェクトは次のとおり"
+"です。"
+msgstr "Enables/disables each effect. The available effects are:"
+
+#: ../../source/man1/menu_syseffect.rst:32
+msgid ""
+"``ver 2.1.0`` より他のオブジェクトと同様に右クリックして表示されるキー"
+"フレームの登録ウィンドウから行えるようにもなりました。 **ただし、シス"
+"テムエフェクトタブを開いている間はシステムエフェクトしか登録できませ"
+"ん。**"
+msgstr ""
+"Starting with ``ver 2.1.0``, you can also use the keyframe "
+"registration window displayed by right-clicking on other objects. "
+"However, **only system effects can be registered** while the System "
+"Effects tab is open."
+
+#: ../../source/man1/menu_syseffect.rst:35
+msgid ""
+"基本的にはタブ内にある ``キーフレーム登録`` ボタンからするほうがわかり"
+"やすく便利ですが、うまく使い分けてください。"
+msgstr ""
+"Basically, it is easier to understand and more convenient to use the "
+"``Register keyframe`` button in the tab, but please use it properly."

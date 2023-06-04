@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-04 11:28+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/prop_audio.rst:5
+msgid "Audio"
+msgstr "Audio"
+
+#: ../../source/man2/prop_audio.rst:11
+msgid "Audioのプロパティです。これはリボンバーのオーディオタブにあります。"
+msgstr "Audio properties. You can find this in the Audio tab of the Ribbon bar."
+
+#: ../../source/man2/prop_audio.rst:17
+msgid "操作するオーディオの種類を切り替えます。"
+msgstr "Switches the type of audio to operate."
+
+#: ../../source/man2/prop_audio.rst:29
+msgid "使用したいオーディオファイルを読み込みます。 読み込んだオーディオを削除します。"
+msgstr "Load the audio file you want to use. Removes imported audio."
+
+#: ../../source/man2/prop_audio.rst:43
+msgid "読み込んだオーディオを操作する対象にします。"
+msgstr "Targets the loaded audio for manipulation."
+
+#: ../../source/man2/prop_audio.rst:56
+msgid "キーフレーム登録用にオーディオの状態を選択します。"
+msgstr "Select the audio state for keyframe registration."
+
+#: ../../source/man2/prop_audio.rst:68
+msgid "プレビュー用に再生・停止・シークします。"
+msgstr "Play/pause/seek for preview."
+
+#: ../../source/man2/prop_audio.rst:71
+msgid "SEの場合はシークできません。"
+msgstr "SE cannot seek."
+
+#: ../../source/man2/prop_audio.rst:82
+msgid "ループ再生を切り替えます。"
+msgstr "Toggles loop playback."
+
+#: ../../source/man2/prop_audio.rst:93
+msgid "音量を変更します。"
+msgstr "Change the volume."
+
+#: ../../source/man2/prop_audio.rst:104
+msgid "オーディオのピッチを変更します。"
+msgstr "Change the pitch of audio."

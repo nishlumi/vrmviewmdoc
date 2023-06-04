@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 22:43+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man2/operation_camera.rst:5
+msgid "Camera"
+msgstr "Camera"
+
+#: ../../source/man2/operation_camera.rst:8
+msgid ""
+"カメラオブジェクトはシステム上最初から見えている映像であるメインカメラとは別に、サブカメラとして追加できま"
+"す。 IKマーカーは他と判別しやすくするために実際のカメラ風です。"
+msgstr ""
+"A camera object can be added as a sub camera separately from the main camera, which is the video that is "
+"visible from the beginning of the system. The IK markers look like real cameras to make them easier to "
+"distinguish."
+
+#: ../../source/man2/operation_camera.rst:11
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man2/operation_camera.rst:17
+msgid "カメラの表示の優先度を表す深度は次のようになっています。"
+msgstr "Depth, which represents the camera's display priority, is as follows."
+
+#: ../../source/man2/operation_camera.rst:1
+msgid "システムのメインカメラ"
+msgstr "System main camera"
+
+#: ../../source/man2/operation_camera.rst:1
+msgid "10"
+msgstr "10"
+
+#: ../../source/man2/operation_camera.rst:1
+msgid "カメラオブジェクト"
+msgstr "Camera object"
+
+#: ../../source/man2/operation_camera.rst:1
+msgid "11～n"
+msgstr "11 ~ n"
+
+#: ../../source/man2/operation_camera.rst:27
+msgid ""
+"カメラオブジェクトはシステムのメインカメラより必ず上に描画されるようになっています。カメラの追加数に制限はあ"
+"りません。（ビューポートやレンダーテクスチャを使わない限り一度に映すことのできるカメラは一つです）"
+msgstr ""
+"The camera object is always drawn above the system's main camera. There is no limit to the number of "
+"additional cameras. (Only one camera can be projected at a time unless a viewport or render texture is used.)"
+
+#: ../../source/man2/operation_camera.rst:30
+msgid ""
+"プレビューするとそのカメラの映像に切り替わります。あくまでプレビューとしての意味合いなのでメインカメラから見"
+"たIKマーカーはそのまま表示されます。"
+msgstr ""
+"When previewing, it switches to the image of that camera. Since it is only meant as a preview, the IK "
+"markers seen from the main camera are displayed as they are."
+
+#: ../../source/man2/operation_camera.rst:32
+msgid ""
+"後述のアニメーションプロジェクトにてカメラオブジェクトからの映像に切り替えるには、すぐ上のコンボボックス「カ"
+"メラの状態（登録用）」で目的のキーフレーム時に切り替えて登録してください。"
+msgstr ""
+"To switch to the image from the camera object in the animation project described later, switch and register "
+"at the desired keyframe in the combo box \"Camera state (for registration)\" immediately above."
+
+#: ../../source/man2/operation_camera.rst:35
+msgid ""
+"※キーフレームのプレビュー時（キーフレームを選択した時）にはその状態の動作が反映されるので確認できます。（その"
+"時にプレビューボタンを押して映像をオフにしても、キーフレームへの登録には変更ありません）"
+msgstr ""
+"When previewing a keyframe (when a keyframe is selected), the state of the action is reflected so you can "
+"check it. (Even if you turn off the video by pressing the preview button at that time, the registration to "
+"the keyframe will not change.)"
+
+#: ../../source/man2/operation_camera.rst:41
+msgid "レンダーテクスチャ"
+msgstr "Render texture"
+
+#: ../../source/man2/operation_camera.rst:43
+msgid "カメラオブジェクトの映像を別のオブジェクトを通じて映したい場合に使います。"
+msgstr "It is used when you want to project the image of the camera object through another object."
+
+#: ../../source/man2/operation_camera.rst:44
+msgid ""
+"レンダーテクスチャを ``ON`` にして有効にしたら、投影したいOtherObjectのプロパティで設定を継続してください。"
+msgstr ""
+"After enabling the render texture by ``ON``, continue setting the properties of the OtherObject you want to "
+"project."
+
+#: ../../source/man2/operation_camera.rst:45
+msgid "※プレビューも合わせて有効にしてください。"
+msgstr "Please enable preview as well."
+
+#: ../../source/man2/operation_camera.rst:48
+msgid "Cameraオブジェクトにて、レンダーテクスチャX, Yに目的のサイズを入力します。"
+msgstr "In the Camera object, enter the desired size for Render Texture X, Y."
+
+#: ../../source/man2/operation_camera.rst:49
+msgid "すぐそばのチェックボックスをONにします。"
+msgstr "Turn on the check box next to it."
+
+#: ../../source/man2/operation_camera.rst:50
+msgid "レンダーテクスチャの ``適用`` ボタンをクリックします。"
+msgstr "Click the ``Apply`` button for the Render Texture."
+
+#: ../../source/man2/operation_camera.rst:51
+msgid "プレビューの再生ボタンをクリックします。"
+msgstr "Click the play preview button."
+
+#: ../../source/man2/operation_camera.rst:54
+msgid ""
+"通常ですとプレビュー再生をするとWebGL画面が切り替わりますが、レンダーテクスチャをONにすると画面はそのままで"
+"す。"
+msgstr ""
+"Normally, the WebGL screen will switch when you preview playback, but if you turn on the render texture, the "
+"screen will remain the same."
+
+#: ../../source/man2/operation_camera.rst:57
+msgid "**OtherObject側**"
+msgstr "**OtherObject side**"
+
+#: ../../source/man2/operation_camera.rst:59
+msgid "OtherObjectではテクスチャの設定を開きます。"
+msgstr "OtherObject opens texture settings."
+
+#: ../../source/man2/operation_camera.rst:65
+msgid "メインのテクスチャで ``カメラから`` を選択し、対象のカメラオブジェクトを選択します。"
+msgstr "Select ``From Camera`` on the main texture and select the target camera object."
+
+#: ../../source/man2/operation_camera.rst:71
+msgid ""
+"※平面オブジェクト ``Quad`` と球オブジェクト ``Sphere`` に投影した例。同じカメラオブジェクトを指定すれば同時に"
+"複数のオブジェクトに投影することができます。"
+msgstr ""
+"An example of projecting onto a plane object ``Quad`` and a spherical object ``Sphere``. If you specify the "
+"same camera object, you can project to multiple objects at the same time."
+
+#: ../../source/man2/operation_camera.rst:79
+msgid "レンダーテクスチャはマシンパワーを比較的使います。多用にはご注意ください。"
+msgstr "Render textures use relatively machine power. Please be careful not to overuse."

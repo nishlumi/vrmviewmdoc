@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:10+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_main.rst:5
+msgid "メイン画面"
+msgstr "Main screen"
+
+#: ../../source/man1/screen_main.rst
+msgid "A リボンバー（タブ）"
+msgstr "A Ribbon bar (tab)"
+
+#: ../../source/man1/screen_main.rst:13
+msgid "アプリの各機能を呼び出すメニュー。"
+msgstr "A menu that calls each function of the app."
+
+#: ../../source/man1/screen_main.rst
+msgid "B オブジェクト一覧"
+msgstr "B Object list"
+
+#: ../../source/man1/screen_main.rst:15
+msgid "読み込んだVRMやFBX、各オブジェクトの一覧。"
+msgstr "A list of loaded VRMs, FBXs, and objects."
+
+#: ../../source/man1/screen_main.rst
+msgid "C WebGL"
+msgstr "C WebGL"
+
+#: ../../source/man1/screen_main.rst:17
+msgid "VRMなどが実際に表示される画面。WebGLという形式。サイズの変更可能。"
+msgstr "The screen where VRM etc. is actually displayed. A format called WebGL. Resizable."
+
+#: ../../source/man1/screen_main.rst
+msgid "D プロパティ一覧"
+msgstr "D Property list"
+
+#: ../../source/man1/screen_main.rst:19
+msgid "選択したVRMや各オブジェクトの細かいプロパティ変更の一覧。"
+msgstr "A list of selected VRMs and detailed property changes for each object."
+
+#: ../../source/man1/screen_main.rst
+msgid "E タイムライン"
+msgstr "E Timeline"
+
+#: ../../source/man1/screen_main.rst:21
+msgid "アニメーション用のタイムライン。登録したキーフレームがここに表示される。"
+msgstr "animation timeline. Registered keyframes are displayed here."
+
+#: ../../source/man1/screen_main.rst:24
+msgid "WebGL画面には、設定によりメインカメラの中心点が表示されます。"
+msgstr "The WebGL screen displays the center point of the main camera depending on the settings."
+
+#: ../../source/man1/screen_main.rst:25
+msgid "B、Dはそれぞれの右端のボタンで最小化することができます。（その分CのWebGLが拡大縮小します）"
+msgstr "B and D can be minimized with their rightmost buttons. (WebGL in C scales accordingly)"
+
+#: ../../source/man1/screen_main.rst:29
+msgid "アプリのウィンドウとサブウィンドウ"
+msgstr "App windows and sub windows"
+
+#: ../../source/man1/screen_main.rst:31
+msgid "本アプリではこのメイン画面を示すウィンドウと、後述のいくつかのサブウィンドウで構成されています。"
+msgstr "This application consists of a window showing this main screen and several sub-windows described later."
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ウィンドウ名"
+msgstr "window name"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ウィンドウの種類(ウェブアプリ版)"
+msgstr "Window type (web application version)"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ウィンドウの種類(各OS版)"
+msgstr "Window type (each OS version)"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "メインウィンドウ"
+msgstr "main window"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ブラウザタブまたは別ウィンドウ"
+msgstr "browser tab or separate window"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "別ウィンドウ"
+msgstr "other window"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "スクリーンショット"
+msgstr "Screenshot"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ポーズ一覧"
+msgstr "Pose list"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "IKマーカーの一括変更"
+msgstr "Batch change of IK position"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "重力設定"
+msgstr "gravity settings"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "アプリ内ウィンドウ"
+msgstr "In-app window"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ポーズトラッキング"
+msgstr "pose tracking"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ビデオプレイヤー"
+msgstr "Video player"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "キーフレームの設定"
+msgstr "Setting keyframes"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "内部ストレージダイアログ"
+msgstr "Internal storage dialog"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ナビゲーション"
+msgstr "Nnavigation"
+
+#: ../../source/man1/screen_main.rst:48
+msgid "別ウィンドウの場合、メインウィンドウ（またはタブ）を閉じるとその時開いているサブウィンドウらも全て閉じます。"
+msgstr "In the case of another window, closing the main window (or tab) will also close all the sub-windows that are open at that time."

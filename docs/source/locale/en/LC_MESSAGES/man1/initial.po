@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 19:33+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/initial.rst:3
+msgid "はじめに"
+msgstr "Introduction"
+
+#: ../../source/man1/initial.rst:5
+msgid ""
+"本アプリはMMDのように **VRoid(VRM)でアニメーションを手軽に作って遊べる** を目指したアプリです。本アプリ"
+"を使えば、主に次のことを簡単に行えるようになります。"
+msgstr ""
+"This application was developed with the aim of making it easy to create and play animations with VRoid "
+"(VRM) like MMD. With this app, you can easily do the following things."
+
+#: ../../source/man1/initial.rst:7
+msgid "VRMに好きなポーズを撮らせてスクリーンショットを撮れる"
+msgstr "You can take a screenshot by letting VRM take your favorite pose"
+
+#: ../../source/man1/initial.rst:8
+msgid "MMDやUnityエディタ、Blender等を使わずにVRMを一から動かしてアニメーションを作成できる"
+msgstr ""
+"Animation can be created by moving VRM from scratch without using MMD, Unity editor, Blender, etc."
+
+#: ../../source/man1/initial.rst:10
+msgid ""
+"本格的な3Dアニメーションアプリを目指したわけではないのでプロユースのような本格的な用途には向きません。そ"
+"して本アプリで作ったアニメーションは（今のところ）本アプリでしか再生できません [1]_ が、Unityのエディタ"
+"上で直接作るより遥かに手軽にできるはずです。それからウェブアプリになっているため、ウェブブラウザでどこで"
+"も使えるのが特徴です。（技術的な面で制限がかかる機能もあります）"
+msgstr ""
+"We did not aim for a full-fledged 3D animation application, so it is not suitable for professional use. "
+"And animations made with this application can only be played with this application (for now). [1]_ "
+"However, it should be much easier than creating directly on the Unity editor. Also, since it is a web "
+"application, it can be used anywhere with a web browser. (Some features have technical limitations.)"
+
+#: ../../source/man1/initial.rst:12
+msgid "ver 2.0より ``.anim`` 形式でのエクスポートに試験的に対応はじめました。"
+msgstr "From ver 2.0, we started to support exporting in ``.anim`` format on a trial basis."
+
+#: ../../source/man1/initial.rst:16
+msgid "VRoid(VRM)とは？"
+msgstr "What is VRoid (VRM)?"
+
+#: ../../source/man1/initial.rst:19
+msgid ""
+"VRアプリケーションや3Dゲーム等で使われる、規格として統一された使いやすい新しい3Dモデル、それが"
+"VRoid(VRM）です。 VRMは3Dモデル規格・アニメーションツール界隈として世間に大きく貢献した、かの有名なMMDよ"
+"りも仕様が整った形で 広く公開されており、汎用的に使いやすいのが特徴です。そして積極的に開発・運用が続け"
+"られていてサポート面でもバッチリです。"
+msgstr ""
+"VRoid (VRM) is a new, easy-to-use 3D model standardized for use in VR applications and 3D games. VRM is "
+"widely open to the public with better specifications than the famous MMD, which contributed greatly to "
+"the world as a 3D model standard and animation tool, and is easy to use for general purposes. And the "
+"development and operation are actively continued, and the support side is also perfect."
+
+#: ../../source/man1/initial.rst:23
+msgid ""
+"対応アプリ数もMMDモデルに匹敵しているようで、今やAndroid/iOS等のスマートフォンアプリ、PCやVR機器のアプリ"
+"ケーションなど 多彩に活躍の場を展開しています。"
+msgstr ""
+"It seems that the number of compatible apps is comparable to the MMD model, and now it is developing a "
+"variety of fields such as smartphone apps such as Android / iOS, PC and VR device applications."
+
+#: ../../source/man1/initial.rst:26
+msgid ""
+"もともとVRアプリのアバターを想定して作られたそうですが、VRM単体で3Dアニメーションさせることも可能です。 "
+"Unityというゲーム作成環境ならば個人レベルでも、Unityのアニメーション機能でもってVRMの手足を動かして ポー"
+"ジング・アニメーションさせることができます。"
+msgstr ""
+"It seems that it was originally created assuming the avatar of the VR application, but it is also "
+"possible to 3D animation with VRM alone. With the game creation environment called Unity, even at an "
+"individual level, you can use Unity's animation function to move VRM limbs and pose and animate him."
+
+#: ../../source/man1/initial.rst:30
+msgid ""
+"ただ、Unity導入・VRM読み込みライブラリの導入そしてUnityのアニメーション機能の取り扱いはなかなかに困難で"
+"す。 アニメーションを制作しやすくするVeryAnimationなどのアセットを使わなければ（使ってもなお）敷居が高い"
+"でしょう。"
+msgstr ""
+"However, it is quite difficult to introduce Unity, introduce a VRM loading library, and handle Unity's "
+"animation function. If you don't use assets such as VeryAnimation that make it easier to create "
+"animation (even if you do), the threshold will be high."
+
+#: ../../source/man1/initial.rst:33
+msgid ""
+"そういう現状を踏まえるとVRMにはソフトウェアとしてのMMDに匹敵するソフトウェアがまだまだ少ないのが一番のデ"
+"メリットと 個人的には考えています。(あったとしてもUnityやその他アニメーションツールなど、大げさなツール"
+"でモーションを作らなければいけなかったりするのがまた面倒だったり・・・)"
+msgstr ""
+"Based on the current situation, I personally think that the biggest disadvantage of VRM is that there "
+"are still few software that can match MMD as software. (Even if there is, it is troublesome to have to "
+"create motion with exaggerated tools such as Unity and other animation tools...)"
+
+#: ../../source/man1/initial.rst:36
+msgid ""
+"そこで本アプリでは、作者の私自身がUnityでVeryAnimationなどのアニメーション作成支援アセットを色々試して断"
+"念し、 だったら自分が使いやすいVRM操作ライブラリ・アニメーション作成アプリを作って世間に貢献しようと思い"
+"立ったのがスタートでした。"
+msgstr ""
+"So, for this application, I tried various animation creation support assets such as VeryAnimation in "
+"Unity and gave up, so I decided to contribute to the world by creating an easy-to-use VRM operation "
+"library and animation creation application. was the start."
+
+#: ../../source/man1/initial.rst:41
+msgid ""
+"本マニュアルで表示しているVRMや写真のキャラクターおよびゲーム作品と本アプリ自体にはなんの関係もありませ"
+"ん。当方が二次創作のもと自前で作成してサンプルのため使用しているだけです。ご了承ください。"
+msgstr ""
+"There is no relationship between the VRM, the characters in the photos, and the game works displayed in "
+"this manual and this application itself. We are only using it as a sample by creating it on our own "
+"under the secondary creation. note that."

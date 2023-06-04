@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:06+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_keyframereg.rst:6
+msgid "キーフレームの登録ウィンドウ"
+msgstr "Keyframe registration window"
+
+#: ../../source/man1/screen_keyframereg.rst:8
+msgid "keyframe1"
+msgstr "keyframe1"
+
+#: ../../source/man1/screen_keyframereg.rst:9
+msgid "keyframe2"
+msgstr "keyframe2"
+
+#: ../../source/man1/screen_keyframereg.rst:11
+msgid ""
+"リボンバーの任意の位置で右クリック（macOSの場合はControlキー押しなが"
+"らクリックまたは2点タップ）するか、アニメーションタブの ``キーフレー"
+"ムを登録`` ボタンを押すと表示されます。ここでキーフレームに登録したい"
+"プロパティやボーンを選択できます。"
+msgstr ""
+"Right-click (Control-click or double-tap for macOS) anywhere on the "
+"ribbon bar or press the ``Register Keyframe`` button on the "
+"Animation tab to display it. Here you can select properties and "
+"bones that you want to register in keyframes."
+
+#: ../../source/man1/screen_keyframereg.rst:13
+msgid ""
+"この中の ``キーフレームを登録`` ボタンを押すと実際に登録されます。"
+msgstr ""
+"When you press the ``Register keyframe`` button in this, it is "
+"actually registered."
+
+#: ../../source/man1/screen_keyframereg.rst:1
+msgid "VRM"
+msgstr "VRM"
+
+#: ../../source/man1/screen_keyframereg.rst:1
+msgid "VRM以外"
+msgstr "Non-VRM"
+
+#: ../../source/man1/screen_keyframereg.rst:1
+msgid "|keyframe1|"
+msgstr "|keyframe1|"
+
+#: ../../source/man1/screen_keyframereg.rst:1
+msgid "|keyframe2|"
+msgstr "|keyframe2|"
+
+#: ../../source/man1/screen_keyframereg.rst
+msgid "キーフレームを登録"
+msgstr "Register keyframe"
+
+#: ../../source/man1/screen_keyframereg.rst:21
+msgid ""
+"現在選択中のオブジェクトの状態を現在のキーフレームに登録します。同じ"
+"キーフレーム位置でもう一度登録すると上書きします。"
+msgstr ""
+"Registers the state of the currently selected object to the current "
+"keyframe. If you register again at the same keyframe position, it "
+"will be overwritten."
+
+#: ../../source/man1/screen_keyframereg.rst
+msgid "右上のツールバー"
+msgstr "upper right toolbar"
+
+#: ../../source/man1/screen_keyframereg.rst:24
+msgid "将来のバージョンで使用します。 まだ使いません。"
+msgstr "For use in future versions. I don't use it yet."
+
+#: ../../source/man1/screen_keyframereg.rst:26
+msgid ""
+"左から全ボーンを選択解除、全ボーンを選択、IKParentを選択、上半身を選"
+"択、下半身を選択"
+msgstr ""
+"Deselect all bones from the left, select all bones, select IKParent, "
+"select upper body, select lower body"
+
+#: ../../source/man1/screen_keyframereg.rst
+msgid "登録する内容"
+msgstr "Contents to register"
+
+#: ../../source/man1/screen_keyframereg.rst:30
+msgid ""
+"キーフレームに登録する内容を移動・移動以外・プロパティから選びます。"
+msgstr ""
+"Select the content to be registered in the keyframe from move, other "
+"than move, or property."
+
+#: ../../source/man1/screen_keyframereg.rst
+msgid "登録するボーン"
+msgstr "Bone to register"
+
+#: ../../source/man1/screen_keyframereg.rst:33
+msgid ""
+"キーフレームに登録するボーン(IKマーカー)を確認できます。これはVRMとそ"
+"れ以外で数が異なります。"
+msgstr ""
+"You can check the bones (IK markers) registered in the keyframe. "
+"This number differs between VRM and non-VRM."

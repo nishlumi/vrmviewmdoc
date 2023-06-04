@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:02+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_keyframe.rst:5
+msgid "キーフレームの設定"
+msgstr "Setting keyframes"
+
+#: ../../source/man1/screen_keyframe.rst:7
+msgid "keyframe1"
+msgstr "keyframe1"
+
+#: ../../source/man1/screen_keyframe.rst:8
+msgid "keyframe2"
+msgstr "keyframe2"
+
+#: ../../source/man1/screen_keyframe.rst:9
+msgid "keyframe3"
+msgstr "keyframe3"
+
+#: ../../source/man1/screen_keyframe.rst:11
+msgid "タイムライン中のキーフレームに関連する設定ウィンドウです。本ウィンドウは別ウィンドウです。"
+msgstr "A settings window related to keyframes in the timeline. This window is another window."
+
+#: ../../source/man1/screen_keyframe.rst:13
+msgid "登録済みキーフレームをダブルクリックすると開きます。"
+msgstr "Double-click a registered keyframe to open it."
+
+#: ../../source/man1/screen_keyframe.rst:1
+msgid "|keyframe1|"
+msgstr "|keyframe1|"
+
+#: ../../source/man1/screen_keyframe.rst:1
+msgid "|keyframe2|"
+msgstr "|keyframe2|"
+
+#: ../../source/man1/screen_keyframe.rst:1
+msgid "|keyframe3|"
+msgstr "|keyframe3|"
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "ロール名"
+msgstr "role name"
+
+#: ../../source/man1/screen_keyframe.rst:24
+msgid "現在編集中のタイムラインのロールの名称を表示しています。"
+msgstr "Displays the name of the role of the timeline currently being edited."
+
+#: ../../source/man1/screen_keyframe.rst:36
+msgid "対象のフレーム"
+msgstr "対象のフレーム"
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "開始フレーム、終了フレーム"
+msgstr "start frame / end frame"
+
+#: ../../source/man1/screen_keyframe.rst:28
+msgid "現在編集中のキーフレームの番号を表示しています。タイムラインから選択したときは両方に同じフレーム番号がセットされますが、ここを任意の範囲に変えることができます。"
+msgstr "Displays the number of the keyframe currently being edited. When selected from the timeline, the same frame number is set for both, but you can change it to any range."
+
+#: ../../source/man1/screen_keyframe.rst:30
+msgid "たとえば開始フレーム＝10、終了フレーム15とした場合、10～15の範囲にある登録済みキーフレームが操作の対象となります。"
+msgstr "For example, if the start frame is set to 10 and the end frame is set to 15, the registered keyframes within the range of 10 to 15 will be the target of the operation."
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "移動先フレーム"
+msgstr "Destination frame"
+
+#: ../../source/man1/screen_keyframe.rst:33
+msgid "ここを変更するとそのフレーム位置にキーフレームの設定が移動します。ここは移動後の開始フレームに相当します。"
+msgstr "If you change this, the keyframe setting will move to that frame position. This corresponds to the start frame after moving."
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "移動ボタン"
+msgstr "move button"
+
+#: ../../source/man1/screen_keyframe.rst:36
+msgid "フレーム位置の移動を確定します。すでにキーフレームが登録されているフレーム位置を入力した場合、ボタンは押せなくなります。"
+msgstr "Confirms the movement of the frame position. If you enter a frame position that already has a keyframe registered, the button cannot be pressed."
+
+#: ../../source/man1/screen_keyframe.rst:40
+msgid "イージングタブ"
+msgstr "easing tab"
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "イージング"
+msgstr "easing"
+
+#: ../../source/man1/screen_keyframe.rst:40
+msgid "編集中のキーフレームに至るまでのイージングを選択します。"
+msgstr "Select the easing up to the keyframe you are editing."
+
+#: ../../source/man1/screen_keyframe.rst:53
+msgid "間隔(duration)タブ"
+msgstr "duration tab"
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "間隔"
+msgstr "Duration"
+
+#: ../../source/man1/screen_keyframe.rst:44
+msgid "一つ前の登録済みキーフレームから編集中のキーフレームに至るまでの間隔（秒）を手動で指定します。基本的に自動で計算されますが、あえて変更したい場合にはここで変更できます。"
+msgstr "Manually specify the interval (seconds) from the previous registered keyframe to the keyframe being edited. Basically it is calculated automatically, but if you dare to change it, you can change it here."
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "間隔をリセット"
+msgstr "Reset duration"
+
+#: ../../source/man1/screen_keyframe.rst:47
+msgid "編集中のキーフレームに至るまでの間隔（秒）を自動計算された値に戻します。"
+msgstr "Resets the interval (in seconds) before the keyframe being edited to the automatically calculated value."
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "次のタイムラインの間隔をコピーする"
+msgstr "Copy duration of the following timeline:"
+
+#: ../../source/man1/screen_keyframe.rst:51
+msgid "コピー元のタイムライン（役割）を選択し、そのタイムラインに登録されたキーフレームの開始と終了を指定することで、その範囲の間隔(duration)の合計値をコピーすることができます。"
+msgstr "By selecting the source timeline (role) and specifying the start and end of the keyframes registered on that timeline, you can copy the total duration value of that range."
+
+#: ../../source/man1/screen_keyframe.rst:53
+msgid "**※コピーした後に反映するには、さらに間隔(duration)の入力ボックスを操作する必要があります。**"
+msgstr "In order to reflect after copying, it is necessary to **manipulate** the input box of the interval (duration)."
+
+#: ../../source/man1/screen_keyframe.rst:59
+msgid "位置,回転タブ"
+msgstr "position, rotation tab"
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "位置X, Y, Z"
+msgstr "Position X, Y, Z"
+
+#: ../../source/man1/screen_keyframe.rst:57
+msgid "それぞれの座標です。"
+msgstr "coordinates of each."
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "回転X, Y, Z"
+msgstr "Rotation X, Y, Z"
+
+#: ../../source/man1/screen_keyframe.rst:60
+msgid "それぞれの軸の回転角度です。プロパティ一覧の同項目と異なり、ここでは -180～+180度までとなります。"
+msgstr "The rotation angle of each axis. Unlike the same item in the property list, here it is from -180 to +180 degrees."

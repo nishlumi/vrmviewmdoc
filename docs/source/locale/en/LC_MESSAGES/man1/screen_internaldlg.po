@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:04+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_internaldlg.rst:5
+msgid "内部ストレージダイアログ"
+msgstr "Internal storage dialog"
+
+#: ../../source/man1/screen_internaldlg.rst:13
+msgid "アプリ内部に保存したアニメーションプロジェクトや一度開いたことのあるファイルを開くための画面です。"
+msgstr "This screen is for opening animation projects saved in the app or files that have been opened before."
+
+#: ../../source/man1/screen_internaldlg.rst:17
+msgid "**ツールバー：**"
+msgstr "**Toolbar:**"
+
+#: ../../source/man1/screen_internaldlg.rst
+msgid "再読み込み"
+msgstr "Reload"
+
+#: ../../source/man1/screen_internaldlg.rst:20
+msgid "一覧を再読み込みします。"
+msgstr "Reload the list."
+
+#: ../../source/man1/screen_internaldlg.rst
+msgid "削除"
+msgstr "Remove"
+
+#: ../../source/man1/screen_internaldlg.rst:22
+msgid "選択したファイルを（アプリ内部から）削除します。"
+msgstr "Delete the selected file (from within the app)."
+
+#: ../../source/man1/screen_internaldlg.rst
+msgid "ファイルの種類名"
+msgstr "File type name"
+
+#: ../../source/man1/screen_internaldlg.rst:24
+msgid "現在表示しているファイルの種類名です。"
+msgstr "The name of the currently displayed file type."
+
+#: ../../source/man1/screen_internaldlg.rst:27
+msgid "※以下はアニメーションプロジェクトのみです。"
+msgstr "The following are animation projects only."
+
+#: ../../source/man1/screen_internaldlg.rst
+msgid "名前を変更"
+msgstr "rename"
+
+#: ../../source/man1/screen_internaldlg.rst:30
+msgid "選択したプロジェクトファイルの名前を変更します。"
+msgstr "Rename the selected project file."
+
+#: ../../source/man1/screen_internaldlg.rst
+msgid "ダウンロード"
+msgstr "download"
+
+#: ../../source/man1/screen_internaldlg.rst:32
+msgid "選択したアニメーションプロジェクトをダウンロードして保存します。"
+msgstr "Download and save the selected animation project."
+
+#: ../../source/man1/screen_internaldlg.rst
+msgid "ファイルから開く"
+msgstr "open from file"
+
+#: ../../source/man1/screen_internaldlg.rst:34
+msgid "アニメーションプロジェクトファイルを端末から開きます。"
+msgstr "Open the animation project file from your terminal."
+
+#: ../../source/man1/screen_internaldlg.rst
+msgid "検索ボックス"
+msgstr "search box"
+
+#: ../../source/man1/screen_internaldlg.rst:37
+msgid "各ファイルをインクリメンタルサーチする入力欄です。"
+msgstr "Input field for incremental search of each file."
+
+#: ../../source/man1/screen_internaldlg.rst
+msgid "一覧"
+msgstr "List"
+
+#: ../../source/man1/screen_internaldlg.rst:40
+msgid "ファイル名、サイズ、作成日付、更新日付を表示する一覧です。"
+msgstr "A list that displays the file name, size, creation date, and update date."

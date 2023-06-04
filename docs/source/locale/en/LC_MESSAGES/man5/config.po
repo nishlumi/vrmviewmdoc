@@ -1,0 +1,624 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-04 14:37+0900\n"
+"PO-Revision-Date: 2023-06-04 14:51+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man5/config.rst:3
+msgid "設定"
+msgstr "Setting"
+
+#: ../../source/man5/config.rst:5
+msgid "目次"
+msgstr "table of contents:"
+
+#: ../../source/man5/config.rst:10
+msgid "アプリを設定する"
+msgstr "Configure the app"
+
+#: ../../source/man5/config.rst:12
+msgid "設定画面からアプリの挙動を細かく設定できます。"
+msgstr "You can fine-tune the behavior of the app from the settings screen."
+
+#: ../../source/man5/config.rst:14
+msgid "リボンバーのホームタブにある設定ボタンをクリックします。"
+msgstr "Click the Settings button on the Home tab of the Ribbon bar."
+
+#: ../../source/man5/config.rst:21
+msgid "設定画面が開きます。"
+msgstr "The setting screen opens."
+
+#: ../../source/man5/config.rst:29
+msgid "アプリの設定"
+msgstr "App settings"
+
+#: ../../source/man5/config.rst:35
+msgid "アプリケーションタブ"
+msgstr "Application tab"
+
+#: ../../source/man5/config.rst:37
+msgid "アプリケーションタブ内の設定項目です。"
+msgstr "This is a setting item in the application tab."
+
+#: ../../source/man5/config.rst:44
+msgid "メモリの使用率（倍率）"
+msgstr "Memory usage (multiplier)"
+
+#: ../../source/man5/config.rst
+msgid "WebGL画面に費やすメモリ量を調整します。256MB～2048MBの間で設定できます。使用端末のメモリを超えることはできません。"
+msgstr "Adjust the amount of memory used for the WebGL screen. It can be set between 256MB and 2048MB. You cannot exceed the memory of your device."
+
+#: ../../source/man5/config.rst
+msgid "これを大きくすることで巨大な3Dオブジェクトを読み込めるようになります。"
+msgstr "By increasing this, you will be able to read huge 3D objects."
+
+#: ../../source/man5/config.rst:44
+msgid "増やしすぎると逆に端末全体の動作に影響する可能性があります。ほどほどに調整してください。"
+msgstr "If you increase it too much, it may adversely affect the operation of the entire terminal. Please adjust accordingly."
+
+#: ../../source/man5/config.rst:53
+msgid "マウスホイールの速度"
+msgstr "Mmouse wheel speed"
+
+#: ../../source/man5/config.rst:53
+msgid "WebGL画面でズームイン・ズームアウトする速度を調整します。1～5倍の間で調整できます。"
+msgstr "Adjust the speed of zooming in and out on the WebGL screen. It can be adjusted between 1 and 5 times."
+
+#: ../../source/man5/config.rst:56
+msgid "キー操作時のカメラの移動速度"
+msgstr "Camera movement speed during key operation"
+
+#: ../../source/man5/config.rst:56
+msgid "WebGL画面でキーボードのキーによる操作をした場合のカメラの移動の速度を0.01～0.25の間で調整できます。"
+msgstr "You can adjust the camera movement speed between 0.01 and 0.25 when operating with keyboard keys on the WebGL screen."
+
+#: ../../source/man5/config.rst:59
+msgid "キー操作時のカメラの回転速度"
+msgstr "Camera rotation speed during key operation"
+
+#: ../../source/man5/config.rst:59
+msgid "WebGL画面でキーボードのキーによる操作をした場合のカメラの回転の速度を0.01～2.0の間で調整できます。"
+msgstr "You can adjust the camera rotation speed between 0.01 and 2.0 when you operate the keyboard keys on the WebGL screen."
+
+#: ../../source/man5/config.rst:62
+msgid "オブジェクトを選択した時にカメラの中心点をフォーカスする"
+msgstr "Focus the camera's center point when an object is selected"
+
+#: ../../source/man5/config.rst:62
+msgid ""
+"3Dオブジェクトを選択したときに、そのオブジェクトをメインカメラの中心に画面内におさめるよう自動的に移動させます。ただし常に正面かつ若干俯瞰して向くためそれが煩"
+"わしい場合はオフにしてください。"
+msgstr ""
+"When a 3D object is selected, it is automatically moved to the center of the main camera within the screen. However, since it always faces the front and "
+"slightly overhead view, please turn it off if it is annoying."
+
+#: ../../source/man5/config.rst:65
+msgid "カメラと中心点の間の距離"
+msgstr "Distance between camera and center point"
+
+#: ../../source/man5/config.rst:65
+msgid ""
+"通常、カメラは自身ではなくオブジェクトの周りを回転移動します。本アプリでは対象は常に特定のオブジェクトではなく、 **一定の距離の空間** が基準です。その一定の距"
+"離とメインカメラの距離を指定します。"
+msgstr ""
+"Normally the camera rotates around the object instead of itself. In this app, the target is not always a specific object, but a **space at a certain "
+"distance**. Specify that constant distance and the distance of the main camera."
+
+#: ../../source/man5/config.rst:68
+msgid "メインカメラの中心点を表示する"
+msgstr "Display the center point of the main camera"
+
+#: ../../source/man5/config.rst:68
+msgid ""
+"メインカメラの中心点の表示をします（薄暗い四角形の表示がそれです）。上記 ``カメラと中心点の間の距離`` の設定により遠近の具合で中心点のサイズは変化します。操作"
+"するオブジェクトやアニメーションプロジェクトには一切影響しません。"
+msgstr ""
+"Displays the center point of the main camera (it's the dim square display). The size of the center point changes depending on the perspective, depending on "
+"the ``distance between the camera and the center point`` above. It does not affect the objects you manipulate or the animation project in any way."
+
+#: ../../source/man5/config.rst:72
+msgid "スクリーンショットをHTMLの機能で撮影する"
+msgstr "Take screenshots with HTML"
+
+#: ../../source/man5/config.rst
+msgid ""
+"スクリーンショットをHTML/Javascript側の機能で撮影することで、若干質は下がりますがカメラを複数使う映像が正常に反映されるなど安定します。メインカメラおよび"
+"Cameraオブジェクトを完全に切り替えて使う分にはどちらを使っても差はありません。必要に応じて切り替えてください。"
+msgstr ""
+"By taking screenshots using the HTML/Javascript function, the quality will be slightly lower, but it will be stable, such as the images using multiple "
+"cameras will be reflected normally. There is no difference between the main camera and the camera object as long as you use them by switching completely. "
+"Please switch if necessary."
+
+#: ../../source/man5/config.rst
+msgid "Cameraオブジェクトのビューポートやレンダーテクスチャ中のプレビューを含めて画面そのままを撮りたい場合はONにしてください。"
+msgstr "Turn this ON if you want to capture the screen as it is, including the viewport of the Camera object and the preview in the render texture."
+
+#: ../../source/man5/config.rst:75
+msgid "ダークテーマを使用する"
+msgstr "Use dark theme"
+
+#: ../../source/man5/config.rst:75
+msgid "アプリの見た目をダークテーマに変更します。"
+msgstr "Changes the appearance of the app to a dark theme."
+
+#: ../../source/man5/config.rst:82
+msgid "ファイルタブ"
+msgstr "File tab"
+
+#: ../../source/man5/config.rst:84
+msgid "ファイルタブ内の設定項目です。"
+msgstr "This is a setting item in the File tab."
+
+#: ../../source/man5/config.rst:87
+msgid "開いたファイルを履歴に保存する"
+msgstr "Save opened files in history"
+
+#: ../../source/man5/config.rst:87
+msgid "一度開いたVRM、OtherObject、Image、UImageを、アプリ内に履歴として保存します。"
+msgstr "The VRMs, OtherObjects, Images, and UImages that have been opened once are saved as history in the app."
+
+#: ../../source/man5/config.rst:90
+msgid "履歴から開いた場合、VRMの確認画面を省略する"
+msgstr "Skip VRM confirmation screen when opened from history"
+
+#: ../../source/man5/config.rst:90
+msgid "一度開いたVRMについては、利用条件の確認画面を表示することなく読み込ませるようにします。あとから「詳細情報」ボタンで表示することはできます。"
+msgstr ""
+"For VRMs that have been opened once, we will allow them to load without displaying the confirmation screen for the terms of use. You can display it later by "
+"clicking the \"Details\" button."
+
+#: ../../source/man5/config.rst:93
+msgid "Clear"
+msgstr "Clear"
+
+#: ../../source/man5/config.rst:93
+msgid "一度開いたファイルの履歴をすべて削除します。"
+msgstr "Deletes all history of files once opened."
+
+#: ../../source/man5/config.rst:97
+msgid "プロジェクトを開いた時、このサイズを超えるファイルを自動的に読み込まない。"
+msgstr "Do not load files larger than this size automatically when opening a project."
+
+#: ../../source/man5/config.rst:96
+msgid ""
+"アニメーションプロジェクトを開く時、ここで指定したMBのサイズを超えるオブジェクトファイルが含まれている場合はそれを読み飛ばします。 読み飛ばされたオブジェクト"
+"は別途手動で読み込んでロールに割り当てる必要があります。"
+msgstr ""
+"When opening an animation project, if it contains an object file that exceeds the MB size specified here, it will be skipped. The skipped objects must be "
+"manually read and assigned to roles."
+
+#: ../../source/man5/config.rst:100
+msgid "プロジェクトをバックアップする"
+msgstr "Back up your project"
+
+#: ../../source/man5/config.rst:100
+msgid ""
+"現在作成中のアニメーションプロジェクトを自動的にバックアップします。通常の保存と同じく、キーフレームに登録していないIKマーカーの位置・回転は保存されないので、"
+"こまめにキーフレームに登録しておいてください。"
+msgstr ""
+"The animation project currently being created is automatically backed up. As with normal saving, the positions and rotations of IK markers that are not "
+"registered in keyframes will not be saved, so please register them in keyframes frequently."
+
+#: ../../source/man5/config.rst:103
+msgid "バックアップの間隔"
+msgstr "backup interval"
+
+#: ../../source/man5/config.rst:103
+msgid "バックアップする間隔を指定します。1～10分の間で指定できます。"
+msgstr "Specify the backup interval. You can specify from 1 to 10 minutes."
+
+#: ../../source/man5/config.rst:111
+msgid "モデルタブ"
+msgstr "Model tab"
+
+#: ../../source/man5/config.rst:113
+msgid "モデルタブ内の設定項目です。主にオブジェクト自体の動きに関する設定です。"
+msgstr "This is a setting item in the model tab. These are mainly settings related to the movement of the object itself."
+
+#: ../../source/man5/config.rst:117
+msgid "ポーズの保存時にサムネイルも保存する"
+msgstr "Save thumbnails when saving poses"
+
+#: ../../source/man5/config.rst:117
+msgid "ポーズを保存する際にそのポーズのスクリーンショットを合わせて保存します。保存しなくてもポーズ・ポーズファイル自体に影響はありません。"
+msgstr "When saving a pose, save a screenshot of that pose as well. There is no effect on the pose/pose file itself even if it is not saved."
+
+#: ../../source/man5/config.rst:121
+msgid "ポーズのオープン時にグローバル座標をも適用する"
+msgstr "Also apply global coordinates when opening poses"
+
+#: ../../source/man5/config.rst
+msgid "選択したVRMにポーズファイルを適用する際に、ポーズが保持しているグローバル座標をも適用します。"
+msgstr "When applying the pose file to the selected VRM, also apply the global coordinates held by the pose."
+
+#: ../../source/man5/config.rst
+msgid "これを有効にすると、複数のVRMにポーズを適用したときに位置が重複してしまうことになります。必要に応じてオン・オフを切り替えて使用してください。"
+msgstr "If this is enabled, the positions will be duplicated when applying poses to multiple VRMs. Please use it by switching on / off as necessary."
+
+#: ../../source/man5/config.rst:125
+msgid "足首の回転を自動で行う"
+msgstr "Automatic ankle rotation"
+
+#: ../../source/man5/config.rst
+msgid ""
+"IKのLowerLegを動かしたときに、Legを自動的に回転させます。人体に完全にフィットしているわけではないためLowerLegの動かした範囲によっては回転角度は追随しきれない"
+"場合があります。"
+msgstr ""
+"Automatically rotate the leg when moving the lower leg of IK. Since it does not fit the human body perfectly, the rotation angle may not be able to follow "
+"depending on the range in which the Lower Leg is moved."
+
+#: ../../source/man5/config.rst
+msgid "アニメーションの再生時は自動的にオフになります。"
+msgstr "Automatically turns off when playing animation."
+
+#: ../../source/man5/config.rst:127
+msgid "ashi_on"
+msgstr "ashi_on"
+
+#: ../../source/man5/config.rst:128
+msgid "ashi_off"
+msgstr "ashi_off"
+
+#: ../../source/man5/config.rst:131
+msgid "※どちらもLowerLegをy軸・z軸に後方へ移動のみさせた例"
+msgstr "Both are examples in which LowerLeg is only moved backward on the y-axis and z-axis"
+
+#: ../../source/man5/config.rst:1
+msgid "設定がオンの場合"
+msgstr "if setting is on"
+
+#: ../../source/man5/config.rst:1
+msgid "設定がオフの場合"
+msgstr "if setting is off"
+
+#: ../../source/man5/config.rst:1
+msgid "|ashi_on|"
+msgstr "|ashi_on|"
+
+#: ../../source/man5/config.rst:1
+msgid "|ashi_off|"
+msgstr "|ashi_off|"
+
+#: ../../source/man5/config.rst:138
+msgid "このように足首から下部分が自然な回転を伴うようになります。しかし意図しない回転が伴うことになるため、足首を動かした後に手動で回転を戻す必要があります。"
+msgstr ""
+"In this way, the lower part from the ankle comes to accompany the natural rotation. However, this would involve unintentional rotation, so it would be "
+"necessary to manually unrotate the ankle after moving it."
+
+#: ../../source/man5/config.rst:144
+msgid "VRMの体に自然な稼働制御を適用する"
+msgstr "Apply natural running controls to VRM bodies"
+
+#: ../../source/man5/config.rst
+msgid "VRMのひじ（LowerArm）、足（LowerLeg）、足首（Leg）の回転可能範囲を人体の可動域に合わせます。"
+msgstr "Match the rotatable range of the VRM's elbow (LowerArm), foot (LowerLeg), and ankle (Leg) to the range of motion of the human body."
+
+#: ../../source/man5/config.rst
+msgid ""
+"これをオンにするとVRMは確かに自然な可動域にはなりますが、その制限を逃れようとして対象部位に追随する他のIKの位置・回転が予期せぬ動作になることがあります。"
+msgstr ""
+"When this is turned on, the VRM will certainly have a natural range of motion, but the position and rotation of other IKs that follow the target part in an "
+"attempt to escape that restriction may result in unexpected behavior."
+
+#: ../../source/man5/config.rst
+msgid "必要に応じてオフにすることをおすすめします。"
+msgstr "It is recommended to turn it off if necessary."
+
+#: ../../source/man5/config.rst:158
+msgid "ボーンの連動"
+msgstr "Linking bones"
+
+#: ../../source/man5/config.rst:147
+msgid "いずれの場合もアニメーションの再生時は自動的にオフになります。"
+msgstr "Automatically turns off when playing animation."
+
+#: ../../source/man5/config.rst
+msgid "Chest & LowerArm & Head"
+msgstr "Chest / LowerArm / Head"
+
+#: ../../source/man5/config.rst:150
+msgid "``Chest`` の動きに合わせて左右の ``LowerArm`` そして ``Head`` も追随させます。ただしX軸・Z軸のみです。"
+msgstr "As the ``Chest`` moves, the left and right ``LowerArms`` and ``Head`` will also follow. However, it is only for the X-axis and Z-axis."
+
+#: ../../source/man5/config.rst
+msgid "Aim & Chest"
+msgstr "Aim / Chest"
+
+#: ../../source/man5/config.rst:152
+msgid "``Aim`` の動きに合わせて ``Chest`` も追随させます。ただしX軸・Z軸のみです。"
+msgstr "Make the ``Chest`` follow the movement of the ``Aim``. However, it is only for the X-axis and Z-axis."
+
+#: ../../source/man5/config.rst
+msgid "Pelvis & LowerLeg"
+msgstr "Pelvis / LowerLeg"
+
+#: ../../source/man5/config.rst:154
+msgid "``Pelvis`` の動きに合わせて左右の ``LowerLeg`` を上下前後に動かします。"
+msgstr "Move the left and right ``LowerLegs`` up and down and back and forth according to the movement of the ``Pelvis``."
+
+#: ../../source/man5/config.rst
+msgid "Hand & LowerArm"
+msgstr "Hand / LowerArm"
+
+#: ../../source/man5/config.rst:156
+msgid "``Hand`` の動きに合わせて左右の ``LowerArm`` を追随して動かします。ただしX軸・Z軸のみです。"
+msgstr "Move the left and right ``LowerArms`` according to the movement of the ``Hand``. However, it is only for the X-axis and Z-axis."
+
+#: ../../source/man5/config.rst
+msgid "Leg & LowerLeg"
+msgstr "Leg / LowerLeg"
+
+#: ../../source/man5/config.rst:158
+msgid ""
+"``Leg`` の動きに合わせて左右の ``LowerLeg`` を追随して動かします。これによりひざ付近の動きが制限がかかる場合がありますので必要に応じてオフにしてください。"
+msgstr ""
+"Move the left and right ``LowerLeg`` according to the movement of the ``Leg``. This may restrict movement around the knees, so turn it off if necessary."
+
+#: ../../source/man5/config.rst:165
+msgid "アニメーションタブ"
+msgstr "Animation tab"
+
+#: ../../source/man5/config.rst:167
+msgid "アニメーションタブ内の設定項目です。主にアニメーションに関する設定です。"
+msgstr "This is a setting item in the animation tab. These are mainly settings related to animation."
+
+#: ../../source/man5/config.rst:171
+msgid "フレーム数の初期値"
+msgstr "Initial number of frames"
+
+#: ../../source/man5/config.rst:171
+msgid "アニメーションプロジェクトのデフォルトのフレーム数を 60～300 の範囲で指定します。これはあくまでも初期値であり、後から拡張する制限には当たりません。"
+msgstr ""
+"Specify the default number of frames for the animation project in the range of 60 to 300. This is only an initial value and does not apply to the limit that "
+"will be extended later."
+
+#: ../../source/man5/config.rst:174
+msgid "再生終了後、最初のフレームに戻す"
+msgstr "Return to first frame after playback ends"
+
+#: ../../source/man5/config.rst:174
+msgid "アニメーションを再生しそれが終了した後にフレーム位置を1番目に戻します。"
+msgstr "Play the animation and return the frame position to the first after it finishes."
+
+#: ../../source/man5/config.rst:177
+msgid "戻すタイミング(ミリ秒)"
+msgstr "Return timing (ms)"
+
+#: ../../source/man5/config.rst:177
+msgid "フレーム位置を1番目に戻すタイミングを0～2秒の間で調整します。0は遅延なく即座に1フレーム目に戻します。"
+msgstr "Adjust the timing to return the frame position to the first from 0 to 2 seconds. 0 immediately returns to the first frame without delay."
+
+#: ../../source/man5/config.rst:180
+msgid "フレームを選択する時、プレビューする"
+msgstr "Preview when selecting a frame"
+
+#: ../../source/man5/config.rst:180
+msgid ""
+"フレームを選択したら各オブジェクトが登録されたキーフレーム通りにポーズを復元するようにします。これがオフの場合、現在編集中のフレームおよびアニメーションの再生"
+"時にしかポーズを確認できなくなります。"
+msgstr ""
+"After selecting the frame, restore the pose according to the registered keyframe for each object. If this is off, you will only be able to see the pose at "
+"the frame you are currently editing and when playing the animation."
+
+#: ../../source/man5/config.rst:183
+msgid "※タイムラインのツールバーにある「:doc:`このフレームを読み込む <../man4/animation_tl>` 」を使用して随時ポーズやプロパティを復元してください。"
+msgstr "Restore poses and properties at any time using \":doc:`load this frame <../man4/animation_tl>`\" on the toolbar of the timeline."
+
+#: ../../source/man5/config.rst:186
+msgid "現在選択中のロールのみプレビューする"
+msgstr "Preview only the currently selected role"
+
+#: ../../source/man5/config.rst:186
+msgid ""
+"これがオンの場合、現在選択中のタイムライン（ロール・オブジェクト）のみそのキーフレーム時のポーズを再現します。オフの場合はすべてのタイムラインを対象にします。"
+msgstr "When this is on, only the currently selected timeline (roll object) reproduces the pose at that keyframe. When off, all timelines are targeted."
+
+#: ../../source/man5/config.rst:189
+msgid "再生中はIKマーカーの表示をオフにする"
+msgstr "Turn off the display of IK markers during playback"
+
+#: ../../source/man5/config.rst:189
+msgid "これがオンの場合、アニメーションの再生開始時にIKマーカーが自動的にオフになります。再生が終了するとIKマーカーの表示が戻ります。"
+msgstr "When this is on, the IK markers will automatically turn off when the animation starts playing. When playback ends, the IK marker display returns."
+
+#: ../../source/man5/config.rst:194
+msgid "プレビュー時に登録キーフレームの位置を超えたら最後のキーフレームを復元する"
+msgstr "Restore the last keyframe when the position of the registration keyframe is exceeded during preview"
+
+#: ../../source/man5/config.rst:192
+msgid ""
+"図を交えて説明すると、 ``1`` と ``15`` の位置にキーフレームが登録されていたとします。 この設定がオンのときに ``16`` 以降のフレーム番号を選択すると、 ``15`` の"
+"位置のキーフレームの内容を復元します。 オフの場合は最後に選択したキーフレームの内容のままとなります。（例えば ``7`` を選択していて急に ``19`` を選択した場合は"
+"7の内容のままということです）"
+msgstr ""
+"To explain with a diagram, let's say that keyframes are registered at positions ``1`` and ``15``.If you select a frame number after ``16`` when this setting "
+"is on, the contents of the keyframe at position ``15`` will be restored.When turned off, the contents of the last selected keyframe will remain. (For "
+"example, if you select ``7`` and then suddenly select ``19``, the contents of 7 remain as they are.)"
+
+#: ../../source/man5/config.rst:202
+msgid "録画時に音声も保存する"
+msgstr "Save audio when recording"
+
+#: ../../source/man5/config.rst:202
+msgid ""
+"録画時にBGMやSEが録音されるようにします。この設定を切り替えたときはアプリを再起動させてください。ウェブアプリ版はブラウザによってマイクの使用確認メッセージが"
+"表示されます。"
+msgstr ""
+"BGM and SE will be recorded when recording. Please restart the app after changing this setting. The web application version will display a microphone use "
+"confirmation message depending on the browser."
+
+#: ../../source/man5/config.rst:209
+msgid ""
+"ウェブアプリ版の場合（なおかつPWAによる別ウィンドウ化した場合）、右上のマイクのアイコンから、マイクの許可を後から切り替えることができます。ただし、本アプリで"
+"の設定が有効なのにブラウザのここの設定でブロックをしてしまうと正常に動かなくなります。必ず本アプリの設定と2つ合わせて設定を切り替えてください。"
+msgstr ""
+"In the case of the web app version (and when using a separate PWA window), you can switch the microphone permission later from the microphone icon in the "
+"upper right. However, even if the setting in this application is valid, if you block it with the browser setting here, it will not work properly. Be sure to "
+"switch the settings together with the settings of this application."
+
+#: ../../source/man5/config.rst:216
+msgid "なお、 管理ボタンを押すとブラウザの設定ページに遷移し、使用するマイクのデバイスを切り替えたりできます。"
+msgstr "By pressing the management button, you can transition to the browser settings page and switch the microphone device to use."
+
+#: ../../source/man5/config.rst:219
+msgid "PC版の場合は各OSのサウンドの設定に従ってください。"
+msgstr "For the PC version, follow the sound settings of each OS."
+
+#: ../../source/man5/config.rst:230
+msgid "素材の管理"
+msgstr "Material management"
+
+#: ../../source/man5/config.rst:232
+msgid "本アプリ全体で使用できるよう、テクスチャファイルなどを管理できます。"
+msgstr "You can manage texture files, etc. so that they can be used throughout this application."
+
+#: ../../source/man5/config.rst:235
+msgid "リボンバーの ``アニメーション`` タブ → ``設定`` ボタンを押します。"
+msgstr "Click the ``Animation`` tab on the ribbon bar, then the ``Settings`` button."
+
+#: ../../source/man5/config.rst:236
+msgid "``素材`` タブを開きます。"
+msgstr "Open the ``Materials`` tab."
+
+#: ../../source/man5/config.rst:244
+msgid "素材の追加"
+msgstr "Add material"
+
+#: ../../source/man5/config.rst:249
+msgid "``素材の種類`` から目的の素材の種類を選びます。"
+msgstr "Select the desired material type from ``Material Type``."
+
+#: ../../source/man5/config.rst:250
+msgid "``素材の場所`` で追加先の場所を ``App`` または ``Project`` から選びます。"
+msgstr "Select ``App`` or ``Project`` as the ``location of resources``."
+
+#: ../../source/man5/config.rst:251
+msgid "``追加`` ボタンを押します。"
+msgstr "Press the ``Add`` button."
+
+#: ../../source/man5/config.rst:252
+msgid "素材の追加のポップアップウィンドウが表示されます。"
+msgstr "An Add Material pop-up window will appear."
+
+#: ../../source/man5/config.rst:253
+msgid "``素材ファイル`` をクリックして端末からファイルを選びます。"
+msgstr "Click ``material file`` to select a file from the terminal."
+
+#: ../../source/man5/config.rst:254
+msgid "``素材のラベル`` で自分が管理しやすい名称を入力します。"
+msgstr "In ``Material Label``, enter a name that you can easily manage."
+
+#: ../../source/man5/config.rst:255
+msgid "OKボタンを押して素材をアプリに追加します。"
+msgstr "Press the OK button to add the material to the app."
+
+#: ../../source/man5/config.rst:257
+msgid "※追加後、一覧にプレビュー付きで表示されるようになります。"
+msgstr "After adding, it will be displayed with a preview in the list."
+
+#: ../../source/man5/config.rst
+msgid ""
+"アプリ内またはアニメーションプロジェクト内の素材ファイルは本アプリの専用ストレージに保存されます。PC上でそれらのファイルの場所が変わっても影響ありません。"
+msgstr ""
+"The material files in the app or animation project are saved in the dedicated storage of this app. It doesn't matter if the location of those files changes "
+"on your PC."
+
+#: ../../source/man5/config.rst
+msgid "例えば画像ファイル自体に変更がある場合、それは反映されませんので素材を一旦削除し、再度追加する必要があります。"
+msgstr "For example, if there is a change in the image file itself, it will not be reflected, so it is necessary to delete the material once and add it again."
+
+#: ../../source/man5/config.rst:263
+msgid "追加後の素材の使い道"
+msgstr "how to use the material after adding"
+
+#: ../../source/man5/config.rst:265
+msgid ""
+"OtherObjectのテクスチャ、Stageの ``UserStage`` のテクスチャなどで使用することができます。それぞれのプロパティにおいて、使いたい素材名を指定してください。"
+msgstr "Can be used with OtherObject textures, Stage ``UserStage`` textures, etc. Specify the name of the material you want to use in each property."
+
+#: ../../source/man5/config.rst:266
+msgid "別の素材名を選ぶと参照が解除されます。"
+msgstr "Selecting another material name will cancel the reference."
+
+#: ../../source/man5/config.rst:267
+msgid ""
+"一つのテクスチャを複数のオブジェクトにセットすることもできますが、全体で共有しているため素材を削除などすると対象のすべてのオブジェクトに変更が影響します。"
+msgstr ""
+"You can set one texture to multiple objects, but since it is shared by all objects, if you delete the material, etc., the change will affect all the target "
+"objects."
+
+#: ../../source/man5/config.rst:268
+msgid ""
+"各オブジェクトでは素材名で参照されるため、実際のテクスチャなどのファイルが何であるかは考慮されません。プロジェクトファイルを配布して別のユーザーに使ってもらう"
+"などの場合、テクスチャファイルを想定通りに使ってもらえるよう注意してもらってください。"
+msgstr ""
+"Each object is referenced by its material name, so it doesn't matter what the actual textures or other files are. If you distribute the project file and let "
+"other users use it, please make sure that the texture files are used as intended."
+
+#: ../../source/man5/config.rst:271
+msgid "素材の更新"
+msgstr "Material update"
+
+#: ../../source/man5/config.rst:273
+msgid "一度追加した素材はラベル名の更新、または画像の再読み込みが行なえます。"
+msgstr "Once added, you can update the label name or reload the image."
+
+#: ../../source/man5/config.rst:281
+msgid "ラベル名の更新"
+msgstr "Update label name"
+
+#: ../../source/man5/config.rst:281
+msgid "各行の素材名のセルをクリックすると入力ダイアログが表示されます。そこに新しい名称を入力します。"
+msgstr "Click the material name cell in each row to display the input dialog. Enter the new name there."
+
+#: ../../source/man5/config.rst:284
+msgid "画像の再読み込み"
+msgstr "Reload an image"
+
+#: ../../source/man5/config.rst:284
+msgid ""
+"プロジェクト内の素材の場合に使います。ファイルから読み込んだ（インポートした）プロジェクトが素材を保有している場合、どの素材も実体となるファイルは読み込まれて"
+"いません。想定される画像などのファイルを再度指定して読み込む必要があります。"
+msgstr ""
+"Used for materials within a project. If the project loaded (imported) from the file contains materials, the file that becomes the substance of any material "
+"is not loaded. You need to specify the file again, such as the expected image, and load it."
+
+#: ../../source/man5/config.rst:287
+msgid "素材の削除"
+msgstr "Delete material"
+
+#: ../../source/man5/config.rst:289
+msgid "一覧から削除したい素材にチェックを入れて選択します。"
+msgstr "Select the material you want to delete from the list by checking it."
+
+#: ../../source/man5/config.rst:290
+msgid "削除ボタンを押します。"
+msgstr "Press the Delete button."
+
+#: ../../source/man5/config.rst:293
+msgid ""
+"どこかでその素材を一つでも参照している場合は削除できません。そのオブジェクトで参照を解除（別の素材を選択・あるいは ``--`` で選択を取り消す）してどこからも参照"
+"がされなくなったのを確認してから再度お試しください。"
+msgstr ""
+"If even one of the materials is referenced somewhere, it cannot be deleted. Cancel the reference (select another material or cancel the selection with ``--"
+"``) with that object and check that it is no longer referenced from anywhere and try again."
+
+#: ../../source/man5/config.rst:294
+msgid "実際の素材ファイルがアプリ内の専用ストレージからも削除されます。"
+msgstr "The actual material files will also be deleted from the dedicated storage within the app."

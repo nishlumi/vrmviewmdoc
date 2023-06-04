@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 21:36+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/screen_vrminfo.rst:6
+msgid "VRM情報画面"
+msgstr "VRM information screen"
+
+#: ../../source/man1/screen_vrminfo.rst:13
+msgid "読み込むVRMの利用条件などの各種情報を表示する画面です。初回読み込み時は「利用条件確認画面」となり、OKボタンを押すことでVRMを正式に読み込むことができます。（Cancelボタンを押すと読み込みを中断）"
+msgstr "This screen displays various information such as the usage conditions of the VRM to be loaded. When loading for the first time, the \"Conditions of Use Confirmation Screen\" will appear, and you can officially load the VRM by pressing the OK button. (Press the Cancel button to abort reading)"
+
+#: ../../source/man1/screen_vrminfo.rst:16
+msgid "※身長はあくまで計算上のもので厳密な値ではありません。"
+msgstr "Height is for calculation purposes only and is not a precise value."
+
+#: ../../source/man1/screen_vrminfo.rst:17
+msgid "※利用条件の許可・不許可は絵文字で表現しています。"
+msgstr "Permission and non-permission of terms of use are expressed with pictograms."
+
+#: ../../source/man1/screen_vrminfo.rst:19
+msgid "sub1"
+msgstr "sub1"
+
+#: ../../source/man1/screen_vrminfo.rst:20
+msgid "sub2"
+msgstr "sub2"
+
+#: ../../source/man1/screen_vrminfo.rst:22
+msgid "|sub1| 許可する"
+msgstr "|sub1| allow"
+
+#: ../../source/man1/screen_vrminfo.rst:24
+msgid "|sub2| 許可しない"
+msgstr "|sub2| not allowed"
+
+#: ../../source/man1/screen_vrminfo.rst:27
+msgid "※この画面は初回読み込み以外でもいつでも確認のため表示できます。"
+msgstr "This screen can be displayed at any time for confirmation, even if it is not the first time loading."

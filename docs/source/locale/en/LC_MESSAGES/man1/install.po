@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"PO-Revision-Date: 2023-06-03 19:52+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../source/man1/install.rst:3
+msgid "導入方法"
+msgstr "How to install"
+
+#: ../../source/man1/install.rst:6
+msgid "違い"
+msgstr "Difference"
+
+#: ../../source/man1/install.rst:8
+msgid "ウェブアプリ版とPC版の違いは次のとおりです。"
+msgstr "The differences between the web app version and the PC version are as follows."
+
+#: ../../source/man1/install.rst:1
+msgid "項目"
+msgstr "Item"
+
+#: ../../source/man1/install.rst:1 ../../source/man1/install.rst:26
+msgid "ウェブアプリ版"
+msgstr "Web app version"
+
+#: ../../source/man1/install.rst:1
+msgid "PC版"
+msgstr "PC version"
+
+#: ../../source/man1/install.rst:1 ../../source/man1/install.rst:39 ../../source/man1/install.rst:131
+msgid "インストール"
+msgstr "Install"
+
+#: ../../source/man1/install.rst:1
+msgid "任意(PWAの仕様にしたがって)"
+msgstr "Optional (according to PWA specs)"
+
+#: ../../source/man1/install.rst:1
+msgid "各OSの方法に従って"
+msgstr "Follow the method of each OS"
+
+#: ../../source/man1/install.rst:1
+msgid "インターネット接続"
+msgstr "Internet connection"
+
+#: ../../source/man1/install.rst:1
+msgid "必須"
+msgstr "Required"
+
+#: ../../source/man1/install.rst:1
+msgid "不要"
+msgstr "Not required"
+
+#: ../../source/man1/install.rst:1
+msgid "動作速度"
+msgstr "Operating speed"
+
+#: ../../source/man1/install.rst:1
+msgid "普通"
+msgstr "Generally"
+
+#: ../../source/man1/install.rst:1
+msgid "若干速い"
+msgstr "Slightly faster"
+
+#: ../../source/man1/install.rst:1
+msgid "異常時の動作"
+msgstr "Operation when an error occurs"
+
+#: ../../source/man1/install.rst:1
+msgid "エラー時に動作継続"
+msgstr "Continue operation on error"
+
+#: ../../source/man1/install.rst:1
+msgid "OSによってはエラー時アプリごと落ちる可能性あり"
+msgstr "The application may crash when an error occurs depending on the OS"
+
+#: ../../source/man1/install.rst:1
+msgid "メモリ使用率"
+msgstr "Mmemory usage"
+
+#: ../../source/man1/install.rst:1
+msgid "高"
+msgstr "High"
+
+#: ../../source/man1/install.rst:1
+msgid "低～中"
+msgstr "low ~ medium"
+
+#: ../../source/man1/install.rst:1
+msgid "キー操作"
+msgstr "Key operation"
+
+#: ../../source/man1/install.rst:1
+msgid "ブラウザによって干渉あり"
+msgstr "Interference by browser"
+
+#: ../../source/man1/install.rst:1
+msgid "干渉なし"
+msgstr "no interference"
+
+#: ../../source/man1/install.rst:1
+msgid "ファイルの操作"
+msgstr "File manipulation"
+
+#: ../../source/man1/install.rst:1
+msgid "ブラウザに大きく依存"
+msgstr "Very browser dependent"
+
+#: ../../source/man1/install.rst:1
+msgid "各OS別に対応・安定"
+msgstr "Support and stability for each OS"
+
+#: ../../source/man1/install.rst:1
+msgid "描画性能"
+msgstr "Drawing performance"
+
+#: ../../source/man1/install.rst:1
+msgid "WebGLなので低い"
+msgstr "Low because of WebGL"
+
+#: ../../source/man1/install.rst:1
+msgid "アップデート"
+msgstr "Update"
+
+#: ../../source/man1/install.rst:1
+msgid "自動"
+msgstr "Automatically"
+
+#: ../../source/man1/install.rst:1
+msgid "再インストールが必要"
+msgstr "Nneed to reinstall"
+
+#: ../../source/man1/install.rst:29
+msgid "URL"
+msgstr "URL"
+
+#: ../../source/man1/install.rst:31
+msgid "https://vrmviewmeister.azurewebsites.net"
+msgstr "https://vrmviewmeister.azurewebsites.net"
+
+#: ../../source/man1/install.rst:41
+msgid ""
+"アクセスするとブラウザのURLバーの右端にこのようなアイコンが表示されます。左端のアイコンをクリックしてインストールを進めて"
+"ください。"
+msgstr ""
+"When you access it, such an icon will be displayed at the right end of the URL bar of the browser. Click the leftmost "
+"icon to proceed with the installation."
+
+#: ../../source/man1/install.rst:47
+msgid "Edgeの場合は「・・・」→「アプリ」からもインストールを行えます。"
+msgstr "For Edge, you can also install from \"...\" to \"Apps\"."
+
+#: ../../source/man1/install.rst:52
+msgid "logo"
+msgstr "logo"
+
+#: ../../source/man1/install.rst:55
+msgid ""
+"|logo|　インストールが完了するとWindowsやmacOS、Linuxのメニュー一覧にこのように専用のアイコン付きで表示されるようになりま"
+"す。"
+msgstr ""
+"|logo| When the installation is complete, it will be displayed with a dedicated icon like this in the menu list of "
+"Windows, macOS, and Linux."
+
+#: ../../source/man1/install.rst:60
+msgid "※ブラウザでウェブサイトを開くだけなのにインストールとは？"
+msgstr "What is installation even if you just open the website in the browser?"
+
+#: ../../source/man1/install.rst
+msgid ""
+"ブラウザで開くだけなのにインストール？と思われる方もいらっしゃるかと思います。本アプリはPWA（Progressive Wab App）とい"
+"う、ウェブサイトをPCのネイティブアプリのようにブラウザから分離して使うことのできる技術を採用しています。"
+msgstr ""
+"Installed just by opening it in a browser? I think there are some people who think so. This app uses a technology called "
+"PWA (Progressive Wab App). This allows you to use websites like native apps on your PC, separate from your browser."
+
+#: ../../source/man1/install.rst
+msgid "インストールすることで本アプリもChromeやEdgeから完全に切り離され、ブラウザを起動していなくても使うことができます。"
+msgstr ""
+"By installing this application, it will be completely separated from Chrome and Edge, and you can use it even if the "
+"browser is not running."
+
+#: ../../source/man1/install.rst
+msgid ""
+"本アプリはUnityの機能を使っているため環境によっては重くなります。インストールしておくことで、普通にウェブサイト閲覧に使い"
+"たいChromeやEdgeなどまで重くなることを防ぐことができます。ぜひインストールしてご利用ください。"
+msgstr ""
+"Since this application uses the functions of Unity, depending on the environment, it will be heavy. By installing it, "
+"you can prevent Chrome, Edge, etc. that you normally use for browsing websites from becoming heavy. Please install it "
+"and use it."
+
+#: ../../source/man1/install.rst:67
+msgid ""
+"ウェブアプリ版は再読み込みしても使用したメモリを完全には開放しません。本アプリを完全に閉じることでメモリを開放します。長"
+"時間の利用にはご注意ください。"
+msgstr ""
+"The web app version does not completely release the used memory even if it is reloaded. Free the memory by closing this "
+"application completely. Please be careful when using it for a long time."
+
+#: ../../source/man1/install.rst:70
+msgid "アプリのアップデート"
+msgstr "App update"
+
+#: ../../source/man1/install.rst:72
+msgid "ウェブアプリ版は更新は自動で行われます。更新があると次のようなメッセージが画面右上に表示されます。"
+msgstr ""
+"The web app version updates automatically. When there is an update, the following message will be displayed on the upper "
+"right of the screen."
+
+#: ../../source/man1/install.rst:76
+msgid "この後、再読み込みするとアプリが最新の状態に更新されます。"
+msgstr "After this, a reload will refresh the app."
+
+#: ../../source/man1/install.rst:84 ../../source/man1/install.rst:210
+msgid "アンインストール"
+msgstr "Uninstall"
+
+#: ../../source/man1/install.rst:86
+msgid ""
+"アンインストールすることで本アプリをブラウザから削除することができます。合わせて本アプリが使用していたデータも削除できま"
+"す。 　ここではChromeとEdgeを例に説明いたします。"
+msgstr ""
+"You can remove this application from your browser by uninstalling it. You can also delete the data used by this "
+"application. Here, we will use Chrome and Edge as examples."
+
+#: ../../source/man1/install.rst:90
+msgid "Chromeの場合"
+msgstr "For Chrome"
+
+#: ../../source/man1/install.rst:92
+msgid "uninst01"
+msgstr "uninst01"
+
+#: ../../source/man1/install.rst:94
+msgid "|uninst01| 　ブックマークバーにある「アプリ」をクリックします。"
+msgstr "|uninst01| Click on 'Apps' in the bookmarks bar."
+
+#: ../../source/man1/install.rst:100
+msgid "本アプリを探し、右クリックして「Chromeから削除」をクリックします。"
+msgstr "Find this app, right-click it, and click Remove from Chrome."
+
+#: ../../source/man1/install.rst:102
+msgid "下図のメッセージが表示されるので、必要に応じてチェックボックスにチェックを入れて「削除」ボタンを押してください。"
+msgstr "The following message will be displayed. Check the check box as necessary and press the \"Delete\" button."
+
+#: ../../source/man1/install.rst:109
+msgid "Edgeの場合"
+msgstr "For Edge"
+
+#: ../../source/man1/install.rst:111
+msgid "uninst04"
+msgstr "uninst04"
+
+#: ../../source/man1/install.rst:113
+msgid "|uninst04| 「・・・」→「アプリ」から「アプリの管理」をクリックします。"
+msgstr "|uninst04| Click \"...\" to \"Apps\" and then \"Manage apps\"."
+
+#: ../../source/man1/install.rst:115
+msgid "本アプリを探し、右端の「×」ボタンをクリックします。"
+msgstr "Find this app and click the \"x\" button on the far right."
+
+#: ../../source/man1/install.rst:119
+msgid ""
+"Chromeと同様にメッセージが表示されるので必要に応じてチェックボックスにチェックを入れて「削除」ボタンを押してください。"
+msgstr ""
+"A message will be displayed in the same way as Chrome, so check the checkbox if necessary and press the \"Delete\" "
+"button."
+
+#: ../../source/man1/install.rst:127
+msgid "PC版（各OS版）"
+msgstr "PC version (each OS version)"
+
+#: ../../source/man1/install.rst:133
+msgid "PC版（各OS版）は普通のPCアプリのため、各OSのインストール・アップデート方法に従って使います。"
+msgstr ""
+"Since the PC version (each OS version) is a normal PC application, use it according to the installation and update "
+"method of each OS."
+
+#: ../../source/man1/install.rst:136
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../source/man1/install.rst:138
+msgid "Windowsの手順です。"
+msgstr "This is a Windows procedure."
+
+#: ../../source/man1/install.rst:140
+msgid "7zファイルをダウンロードしたら、適当な場所で解凍してください。"
+msgstr "After downloading the zip file, unzip it in a suitable location."
+
+#: ../../source/man1/install.rst:144
+msgid "中にある ``vrmviewmeister.exe`` をダブルクリックして起動してください。"
+msgstr "Double-click ``vrmviewmeister.exe`` inside to start it."
+
+#: ../../source/man1/install.rst:148
+msgid "このように起動します。"
+msgstr "Start like this."
+
+#: ../../source/man1/install.rst:155
+msgid "macOS"
+msgstr "macOS"
+
+#: ../../source/man1/install.rst:183
+msgid "ダウンロードした ``vrmviewmeister-[バージョン番号].dmg`` をダブルクリックします。"
+msgstr "Double-click the downloaded ``vrmviewmeister-[version number].dmg``."
+
+#: ../../source/man1/install.rst:184
+msgid "中にある ``vrmviewmeister`` をアプリケーションフォルダにドラッグしてください。"
+msgstr "Drag the ``vrmviewmeister`` inside to your Applications folder."
+
+#: ../../source/man1/install.rst:185
+msgid "検索またはメニュー等から起動してください。"
+msgstr "Please start from search or menu."
+
+#: ../../source/man1/install.rst:193
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../source/man1/install.rst:195
+msgid "LinuxはAppImage形式に対応したディストリビューションでご利用ください。"
+msgstr "For Linux, please use a distribution that supports the AppImage format."
+
+#: ../../source/man1/install.rst:197
+msgid "ダウンロードした ``vrmviewmeister-[バージョン番号].AppImage`` をダブルクリックして起動してください。"
+msgstr "Double-click the downloaded ``vrmviewmeister-[version number].AppImage`` to start it."
+
+#: ../../source/man1/install.rst:202
+msgid ""
+"仮想環境のLinuxではUnityや各ライブラリの仕様により、VRMやFBXなどを端末から読み込むことができません。必ず実機でご確認くだ"
+"さい。"
+msgstr ""
+"Due to the specifications of Unity and each library, VRM, FBX, etc. cannot be read from the terminal in Linux in a "
+"virtual environment. Please be sure to check with the actual machine."
+
+#: ../../source/man1/install.rst:212
+msgid "レジストリは使用していません。アンインストール時はフォルダごと削除してください。"
+msgstr "I am not using the registry. Please delete the entire folder when uninstalling."
+
+#: ../../source/man1/install.rst:214
+msgid "また、個人データは下記のフォルダにありますので合わせて削除してください。"
+msgstr "In addition, personal data is stored in the following folders, so please delete them together."
+
+#: ../../source/man1/install.rst:234
+msgid "言語の切り替え"
+msgstr "Switch language"
+
+#: ../../source/man1/install.rst:236
+msgid "言語の切り替えはリボンバーの ``ホーム`` タブから行えます。"
+msgstr "You can switch languages from the ``Home`` tab of the ribbon bar."
+
+#: ../../source/man1/install.rst:240
+msgid "切り替えたい言語を選びます。一部UIを除いて即座に言語が切り替わります。"
+msgstr "Select the language you want to switch to. The language is switched immediately except for some UI."
