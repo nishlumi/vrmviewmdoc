@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-04 13:05+0900\n"
+"POT-Creation-Date: 2023-09-18 22:04+0900\n"
+"PO-Revision-Date: 2023-09-18 22:09+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -53,7 +53,7 @@ msgstr "Animation data included in FBX can be played."
 msgid "後述の録画をすると一般的に再生可能な形式で保存することができます。"
 msgstr "If you record later, you can save it in a generally playable format."
 
-#: ../../source/man4/about.rst:29
+#: ../../source/man4/about.rst:36
 msgid "本アプリで使われるアニメーションに関するファイル形式"
 msgstr "File format for animation used in this application"
 
@@ -96,3 +96,15 @@ msgstr ".vvmpose"
 #: ../../source/man4/about.rst:1
 msgid "ポーズデータ（アニメーションでいうと１フレームのみの情報）、VRM専用。"
 msgstr "Pose data (information for only one frame in animation), VRM only."
+
+#: ../../source/man4/about.rst:33
+msgid "ver 2.2.0でIKシステムの変更を行いました。"
+msgstr "The IK system has been changed in ver 2.2.0."
+
+#: ../../source/man4/about.rst:35
+msgid "今までのポーズ・モーションファイルではAimとChestのポーズ・モーションの変更が必要です。"
+msgstr "In the previous pose/motion files, it is necessary to change the pose/motion of Aim and Chest."
+
+#: ../../source/man4/about.rst:37
+msgid "IKについて詳しくは :ref:`inputikasmarker` を御覧ください。"
+msgstr "For more information about IK, see :ref:`inputikasmarker`."

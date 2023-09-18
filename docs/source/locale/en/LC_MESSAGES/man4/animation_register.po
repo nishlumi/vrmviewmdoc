@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-04 13:53+0900\n"
-"PO-Revision-Date: 2023-06-04 14:27+0900\n"
+"POT-Creation-Date: 2023-09-18 22:04+0900\n"
+"PO-Revision-Date: 2023-09-18 22:08+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -536,7 +536,7 @@ msgstr "Change the registered keyframe position"
 msgid "登録済みキーフレームのフレーム位置を移動させることができます。"
 msgstr "You can move the frame position of the registered keyframe."
 
-#: ../../source/man4/animation_register.rst:297 ../../source/man4/animation_register.rst:356 ../../source/man4/animation_register.rst:400
+#: ../../source/man4/animation_register.rst:297 ../../source/man4/animation_register.rst:356 ../../source/man4/animation_register.rst:402
 msgid "キーフレームを登録します。"
 msgstr "Register a keyframe."
 
@@ -544,7 +544,7 @@ msgstr "Register a keyframe."
 msgid "登録したキーフレーム部分をダブルクリックします。"
 msgstr "Double-click the registered keyframe part."
 
-#: ../../source/man4/animation_register.rst:304 ../../source/man4/animation_register.rst:363 ../../source/man4/animation_register.rst:407
+#: ../../source/man4/animation_register.rst:304 ../../source/man4/animation_register.rst:363 ../../source/man4/animation_register.rst:409
 msgid "このときのキーフレームは、フレーム番号が正しく選択されていることを確認してください。"
 msgstr "Make sure that the frame number is correctly selected for the keyframe at this time."
 
@@ -618,7 +618,7 @@ msgstr ""
 "things move, such as how long it takes to change to a certain keyframe, and how fast it moves. Changing this will change the animation from a "
 "monotonous impression to a lively one."
 
-#: ../../source/man4/animation_register.rst:358 ../../source/man4/animation_register.rst:402
+#: ../../source/man4/animation_register.rst:358 ../../source/man4/animation_register.rst:404
 msgid "登録したキーフレーム部分をダブルクリックしてキーフレームウィンドウを開きます。"
 msgstr "Double-click the registered keyframe part to open the keyframe window."
 
@@ -638,11 +638,15 @@ msgstr "For easing, refer to the following site."
 msgid "`イージング関数チートシート <https://easings.net/ja>`_"
 msgstr "`Easing Function Cheat Sheet <https://easings.net/en>`_"
 
-#: ../../source/man4/animation_register.rst:392
+#: ../../source/man4/animation_register.rst:385
+msgid "VRMViewMeister ver 2.2.0より、連続して同じイージングを指定した範囲はそのイージングに沿ってアニメーションするようになりました。"
+msgstr "From VRMViewMeister ver 2.2.0, the range where the same easing is continuously specified will be animated according to that easing."
+
+#: ../../source/man4/animation_register.rst:394
 msgid "キーフレームの間隔を設定する"
 msgstr "Set keyframe intervals"
 
-#: ../../source/man4/animation_register.rst:394
+#: ../../source/man4/animation_register.rst:396
 msgid ""
 "キーフレームを登録した後に設定可能です。該当のキーフレームに至るまでの時間を設定します。基本的に自動で計算されますが、手動で指定することもでき"
 "ます。"
@@ -650,18 +654,18 @@ msgstr ""
 "It can be set after registering the keyframe. Sets the time to reach the corresponding keyframe. Basically it is calculated automatically, but "
 "you can also specify it manually."
 
-#: ../../source/man4/animation_register.rst:410
+#: ../../source/man4/animation_register.rst:412
 msgid "間隔(duration) の欄を秒数で指定します。"
 msgstr "Specify the number of seconds in the Duration field."
 
-#: ../../source/man4/animation_register.rst:417
+#: ../../source/man4/animation_register.rst:419
 msgid ""
 "これにより、実際のフレーム番号に従ってキーフレームを登録していかなくても **タイムライン（ロール）ごとに自由なタイミングで** モーションを作るこ"
 "とができます。"
 msgstr ""
 "With this, you can create motion at any time for each timeline (roll) without registering keyframes according to the actual frame numbers."
 
-#: ../../source/man4/animation_register.rst:420
+#: ../../source/man4/animation_register.rst:422
 msgid ""
 "ただし自分で間隔(duration)をきちんと管理しないと各タイムラインごとのモーションのタイミングを図りづらくなり混乱するおそれがあります。ご注意くだ"
 "さい。"
@@ -669,39 +673,39 @@ msgstr ""
 "However, if you do not properly manage the duration yourself, it may be difficult to determine the motion timing for each timeline and cause "
 "confusion. please note."
 
-#: ../../source/man4/animation_register.rst:423
+#: ../../source/man4/animation_register.rst:425
 msgid "開始フレーム・終了フレームを指定すると、一度に複数のキーフレームの間隔を設定変更できます。"
 msgstr "By specifying the start frame and end frame, you can change the settings for multiple keyframe intervals at once."
 
-#: ../../source/man4/animation_register.rst:433
+#: ../../source/man4/animation_register.rst:435
 msgid "他のアバターのタイムラインから間隔をコピーする"
 msgstr "Copy intervals from another avatar's timeline"
 
-#: ../../source/man4/animation_register.rst:436
+#: ../../source/man4/animation_register.rst:438
 msgid "他のタイムラインの特定の範囲のキーフレームから、間隔を合計したものを簡単に取得することができます。"
 msgstr "You can easily obtain the total interval from a specific range of keyframes on other timelines."
 
-#: ../../source/man4/animation_register.rst:442
+#: ../../source/man4/animation_register.rst:444
 msgid "コピーしたいタイムライン（のロール名）を選択します。"
 msgstr "Select the timeline (role name) you want to copy."
 
-#: ../../source/man4/animation_register.rst:443
+#: ../../source/man4/animation_register.rst:445
 msgid "``開始`` と ``終了`` のフレーム番号を入力します。"
 msgstr "Enter the ``start`` and ``end`` frame numbers."
 
-#: ../../source/man4/animation_register.rst:444
+#: ../../source/man4/animation_register.rst:446
 msgid "コピーボタンを押すと、指定の範囲の間隔の合計値が間隔(duration)の入力ボックスに反映されます。"
 msgstr "When you press the copy button, the total value of the interval in the specified range will be reflected in the duration input box."
 
-#: ../../source/man4/animation_register.rst:445
+#: ../../source/man4/animation_register.rst:447
 msgid "本当に適用してもよい場合は間隔(duration)の入力ボックスで端数を消すなどの **キー操作をします。すると変更が確定** します。"
 msgstr "If you really want to apply it, use the ** key to erase fractions in the duration input box. The changes will be confirmed** ."
 
-#: ../../source/man4/animation_register.rst:448
+#: ../../source/man4/animation_register.rst:450
 msgid "コピーボタンを押すと間隔の合計値が入力ボックスにセットされます。"
 msgstr "When you press the copy button, the total value of the interval is set in the input box."
 
-#: ../../source/man4/animation_register.rst:450
+#: ../../source/man4/animation_register.rst:452
 msgid ""
 "その入力を **キャンセルしたい** 場合は入力ボックスで **キー操作をせず、タイムラインの選択を切り替えるなどして** ください。そうすることで変更が"
 "キャンセルされ、別のタイムラインやアバターの編集に移ることができます。"
@@ -709,11 +713,11 @@ msgstr ""
 "If you want to **cancel** the input, please do not press **keys in the input box and switch the selection of the timeline**. Doing so cancels "
 "the changes and allows you to move on to another timeline or avatar editing."
 
-#: ../../source/man4/animation_register.rst:457
+#: ../../source/man4/animation_register.rst:459
 msgid "位置や回転を変更する"
 msgstr "Change position or rotation"
 
-#: ../../source/man4/animation_register.rst:459
+#: ../../source/man4/animation_register.rst:461
 msgid ""
 "キーフレームを登録した後に設定可能です。選択中のアバターがVRM、OtherObject、カメラ、ライト、エフェクトの場合にそのオブジェクト自体の位置や回転"
 "を調整する事ができます。"
@@ -721,11 +725,11 @@ msgstr ""
 "It can be set after registering the keyframe. If the selected avatar is VRM, OtherObject, Camera, Light, or Effect, you can adjust the "
 "position and rotation of the object itself."
 
-#: ../../source/man4/animation_register.rst:461
+#: ../../source/man4/animation_register.rst:463
 msgid "位置または回転のX, Y, Z軸の入力欄に入力します。"
 msgstr "Fill in the input fields for the X, Y and Z axes of position or rotation."
 
-#: ../../source/man4/animation_register.rst:462
+#: ../../source/man4/animation_register.rst:464
 msgid "初期設定では相対位置・相対の角度で対象となるキーフレームに変更を適用します。"
 msgstr "By default, changes are applied to target keyframes with relative position and relative angle."
 
@@ -733,7 +737,7 @@ msgstr "By default, changes are applied to target keyframes with relative positi
 msgid "位置"
 msgstr "Position"
 
-#: ../../source/man4/animation_register.rst:467
+#: ../../source/man4/animation_register.rst:469
 msgid "オブジェクトを現在の位置からプラス・マイナスして移動させます。0の場合は変更しません。"
 msgstr "Moves the object plus or minus from its current position. If 0, do not change."
 
@@ -741,11 +745,11 @@ msgstr "Moves the object plus or minus from its current position. If 0, do not c
 msgid "回転"
 msgstr "Rotation"
 
-#: ../../source/man4/animation_register.rst:468
+#: ../../source/man4/animation_register.rst:470
 msgid "オブジェクトを現在の角度からプラス・マイナスして回転させます。指定可能な値は-180～+180度の範囲です。0の場合は変更しません。"
 msgstr "Rotate the object plus or minus from the current angle. Possible values are in the range -180 to +180 degrees. If 0, do not change."
 
-#: ../../source/man4/animation_register.rst:471
+#: ../../source/man4/animation_register.rst:473
 msgid ""
 "``絶対指定`` にチェックを入れると絶対指定ができます。 しかし既存のキーフレーム内の位置・回転を容易に上書きできてしまうため、複数のキーフレーム"
 "を対象とする際は注意して使って下さい。"
@@ -753,209 +757,189 @@ msgstr ""
 "If you check ``absolute specification``, you can specify absolute.However, it can easily overwrite the position and rotation in existing "
 "keyframes, so be careful when targeting multiple keyframes."
 
-#: ../../source/man4/animation_register.rst:475
+#: ../../source/man4/animation_register.rst:477
 msgid "開始フレーム・終了フレームを指定すると、一度に複数のキーフレーム内のオブジェクトの位置・回転を変更できます。"
 msgstr "By specifying the start frame and end frame, you can change the position and rotation of objects in multiple keyframes at once."
 
-#: ../../source/man4/animation_register.rst:485
+#: ../../source/man4/animation_register.rst:487
 msgid "現在位置に空のフレームを挿入する"
 msgstr "Insert an empty frame at the current position"
 
-#: ../../source/man4/animation_register.rst:487
+#: ../../source/man4/animation_register.rst:489
 msgid "現在選択中のフレーム番号に空のフレームを挿入し、右のすべてのフレームを1つずつずらします。"
 msgstr "Inserts an empty frame at the currently selected frame number and shifts all frames to the right by one."
 
-#: ../../source/man4/animation_register.rst:492 ../../source/man4/animation_register.rst:506
+#: ../../source/man4/animation_register.rst:494 ../../source/man4/animation_register.rst:508
 msgid "このアイコンのボタンを押します。"
 msgstr "Press the button for this icon."
 
-#: ../../source/man4/animation_register.rst:493
+#: ../../source/man4/animation_register.rst:495
 msgid "すると現在選択中のフレーム位置含めて右すべてのフレームが1つ右にずれ、最大フレーム数が1つ増えます。"
 msgstr ""
 "Then, all frames to the right, including the currently selected frame position, will shift to the right by one, and the maximum number of "
 "frames will increase by one."
 
-#: ../../source/man4/animation_register.rst:499
+#: ../../source/man4/animation_register.rst:501
 msgid "現在のフレーム位置を削除"
 msgstr "Delete current frame position"
 
-#: ../../source/man4/animation_register.rst:501
+#: ../../source/man4/animation_register.rst:503
 msgid "現在選択中のフレーム位置を削除します。"
 msgstr "Deletes the currently selected frame position."
 
-#: ../../source/man4/animation_register.rst:507
+#: ../../source/man4/animation_register.rst:509
 msgid "現在選択中のフレーム位置が削除され、右すべてのフレームが1つ左にずれ、最大フレーム数が1つ減ります。"
 msgstr ""
 "The currently selected frame position is deleted, all right frames are shifted left by one, and the maximum number of frames is reduced by one."
 
-#: ../../source/man4/animation_register.rst:510
+#: ../../source/man4/animation_register.rst:512
 msgid "対象のフレーム位置の各タイムラインにキーフレームが登録済みの場合、それらのキーフレームも削除されます。"
 msgstr "If keyframes have been registered on each timeline at the target frame position, those keyframes will also be deleted."
 
-#: ../../source/man4/animation_register.rst:521
+#: ../../source/man4/animation_register.rst:523
 msgid "キーフレームを切り取り・コピー・貼り付けする"
 msgstr "Cut/copy/paste keyframes"
 
-#: ../../source/man4/animation_register.rst:523
+#: ../../source/man4/animation_register.rst:525
 msgid "登録済みのキーフレームはコピーしたり切り取って貼り付けて移動などを行えます。"
 msgstr "You can copy, cut, paste, and move registered keyframes."
 
-#: ../../source/man4/animation_register.rst:528
+#: ../../source/man4/animation_register.rst:530
 msgid "リボンバーの ``アニメーション`` タブのこれらのボタンを押します。"
 msgstr "Press these buttons on the ``Animation`` tab of the ribbon bar."
 
-#: ../../source/man4/animation_register.rst:530
+#: ../../source/man4/animation_register.rst:532
 msgid "**コピーして貼り付ける**"
 msgstr "**Copy and Paste**"
 
-#: ../../source/man4/animation_register.rst:532
+#: ../../source/man4/animation_register.rst:534
 msgid "コピーボタンを押します。"
 msgstr "Press the Copy button."
 
-#: ../../source/man4/animation_register.rst:533 ../../source/man4/animation_register.rst:540
+#: ../../source/man4/animation_register.rst:535 ../../source/man4/animation_register.rst:542
 msgid "任意のフレーム番号を選択し、貼り付けボタンを押します。"
 msgstr "Select any frame number and press the Paste button."
 
-#: ../../source/man4/animation_register.rst:537
+#: ../../source/man4/animation_register.rst:539
 msgid "**切り取って貼り付ける**"
 msgstr "**Cut and Paste**"
 
-#: ../../source/man4/animation_register.rst:539
+#: ../../source/man4/animation_register.rst:541
 msgid "切り取りボタンを押します。"
 msgstr "Press the cut button."
 
-#: ../../source/man4/animation_register.rst:544
+#: ../../source/man4/animation_register.rst:546
 msgid "いずれの場合も、すでにキーフレームが登録済みのフレームに貼り付けた場合は内容が上書きされます。"
 msgstr "In either case, if pasted to a frame that already has a keyframe registered, the contents will be overwritten."
 
-#: ../../source/man4/animation_register.rst:547
+#: ../../source/man4/animation_register.rst:549
 msgid "貼り付け先のタイムライン（ロール）は同じである必要があります。"
 msgstr "The destination timeline (role) must be the same."
 
-#: ../../source/man4/animation_register.rst:549
+#: ../../source/man4/animation_register.rst:551
 msgid "※オブジェクトの種類が同じであってもロールが異なると貼り付けはできません。"
 msgstr "Even if the object type is the same, it cannot be pasted if the roles are different."
 
-#: ../../source/man4/animation_register.rst:553
+#: ../../source/man4/animation_register.rst:555
 msgid "子キー機能"
 msgstr "Child key function"
 
-#: ../../source/man4/animation_register.rst:555
-msgid ""
-"``ver 2.1.0`` から追加しました。子キーとは、一つのキーフレームに複数のモーションのキーフレームを登録する機能です。これにより少ないキーフレーム"
-"でもVRMなどのオブジェクトの動きがさらになめらかになります。"
-msgstr ""
-"Added from ``ver 2.1.0``. Child key is a function to register multiple motion keyframes to one keyframe. This makes the movement of objects "
-"such as VRMs smoother even with fewer keyframes."
-
 #: ../../source/man4/animation_register.rst:557
-msgid "子キーはタイムラインパネルのツールバーから操作できます。"
-msgstr "Child keys can be operated from the timeline panel toolbar."
-
-#: ../../source/man4/animation_register.rst:566
-msgid "子キーはIKマーカーの移動のみ記憶されます。回転などは1キーフレームの1つのIKマーカーにつき1つのみです。"
-msgstr "Only movement of IK markers is memorized for child keys. There is only one rotation etc. per IK marker per keyframe."
-
-#: ../../source/man4/animation_register.rst:568
-msgid "**キーの流れ**"
-msgstr "**Key Flow**"
-
-#: ../../source/man4/animation_register.rst
-msgid "flowchart"
-msgstr "flowchart"
-
-#: ../../source/man4/animation_register.rst:576
-msgid "childkey1"
-msgstr "childkey1"
-
-#: ../../source/man4/animation_register.rst:577
-msgid "childkey2"
-msgstr "childkey2"
-
-#: ../../source/man4/animation_register.rst:578
-msgid "childkey3"
-msgstr "childkey3"
-
-#: ../../source/man4/animation_register.rst:581
-msgid "子キーを登録する"
-msgstr "Register child key"
-
-#: ../../source/man4/animation_register.rst:583
-msgid "選択中のオブジェクトに通常通りにポーズを取らせます。"
-msgstr "Pose the selected object as normal."
-
-#: ../../source/man4/animation_register.rst:584
-msgid "タイムラインパネルのツールバーの入力ボックス |childkey2| の値を **-1** にします。"
-msgstr "Set the value of the input box |childkey2| in the Timeline panel toolbar to **-1** ."
-
-#: ../../source/man4/animation_register.rst:585
-msgid "子キーの登録には |childkey1| を押します。"
-msgstr "Press |childkey1| to register a child key."
-
-#: ../../source/man4/animation_register.rst:588
 msgid ""
-"登録した子キーは修正はできますが通常のキーフレームのように後で入れ替えることはできません。子キー同士を入れ替えたい場合は一旦削除して登録する必"
-"要があります。"
+"``ver 2.2.0`` で廃止しました。全てのモーションはイージングを連続して設定することで滑らかにモーションするようになりました。本来の目的を達成でき"
+"たので子キー機能は廃止しました。"
 msgstr ""
-"Registered child keys can be modified, but they cannot be replaced later like normal keyframes. If you want to replace the child keys, you "
-"need to delete them once and register them."
+"Deprecated in ``ver 2.2.0``. All motions now move smoothly by setting easing continuously. The child key function has been abolished as the "
+"original purpose has been achieved."
 
-#: ../../source/man4/animation_register.rst:593
-msgid "子キーを修正する"
-msgstr "Modify child key"
+#~ msgid ""
+#~ "``ver 2.1.0`` から追加しました。子キーとは、一つのキーフレームに複数のモーションのキーフレームを登録する機能です。これにより少ないキーフレー"
+#~ "ムでもVRMなどのオブジェクトの動きがさらになめらかになります。"
+#~ msgstr ""
+#~ "Added from ``ver 2.1.0``. Child key is a function to register multiple motion keyframes to one keyframe. This makes the movement of objects "
+#~ "such as VRMs smoother even with fewer keyframes."
 
-#: ../../source/man4/animation_register.rst:595
-msgid "一度登録した子キーを編集できます。"
-msgstr "You can edit a child key that has been registered once."
+#~ msgid "子キーはタイムラインパネルのツールバーから操作できます。"
+#~ msgstr "Child keys can be operated from the timeline panel toolbar."
 
-#: ../../source/man4/animation_register.rst:597 ../../source/man4/animation_register.rst:612
-msgid "対象のオブジェクト・対象のキーフレームを選択します。"
-msgstr "Select the target object and target keyframe."
+#~ msgid "子キーはIKマーカーの移動のみ記憶されます。回転などは1キーフレームの1つのIKマーカーにつき1つのみです。"
+#~ msgstr "Only movement of IK markers is memorized for child keys. There is only one rotation etc. per IK marker per keyframe."
 
-#: ../../source/man4/animation_register.rst:598
-msgid "タイムラインパネルのツールバーの入力ボックス |childkey2| から修正したい子キーのインデックスを選択します。"
-msgstr "Select the index of the child key you want to modify from the input box |childkey2| on the timeline panel toolbar."
+#~ msgid "**キーの流れ**"
+#~ msgstr "**Key Flow**"
 
-#: ../../source/man4/animation_register.rst:599
-msgid "ポーズを修正したら |childkey1| を押します。"
-msgstr "Press |childkey1| after correcting the pose."
+#~ msgid "flowchart"
+#~ msgstr "flowchart"
 
-#: ../../source/man4/animation_register.rst:602
-msgid "子キーの入力ボックスは次のようになっています。"
-msgstr "The input box for the child key looks like this:"
+#~ msgid "childkey1"
+#~ msgstr "childkey1"
 
-#: ../../source/man4/animation_register.rst
-msgid "-1"
-msgstr "-1"
+#~ msgid "childkey2"
+#~ msgstr "childkey2"
 
-#: ../../source/man4/animation_register.rst:604
-msgid "キーフレームの子キー全体を選択・復元する。子キー追加の場合はこれを選ぶ。"
-msgstr "Select/restore the entire child key of the keyframe. Select this if you want to add a child key."
+#~ msgid "childkey3"
+#~ msgstr "childkey3"
 
-#: ../../source/man4/animation_register.rst
-msgid "0～n"
-msgstr "0 ~ n"
+#~ msgid "子キーを登録する"
+#~ msgstr "Register child key"
 
-#: ../../source/man4/animation_register.rst:605
-msgid "指定した子キーのポーズを選択・復元する。修正や削除時にはこれらを選ぶ。"
-msgstr "Select/restore the pose of the specified child key. Select these when modifying or deleting."
+#~ msgid "選択中のオブジェクトに通常通りにポーズを取らせます。"
+#~ msgstr "Pose the selected object as normal."
 
-#: ../../source/man4/animation_register.rst:608
-msgid "子キーを削除する"
-msgstr "Delete child key"
+#~ msgid "タイムラインパネルのツールバーの入力ボックス |childkey2| の値を **-1** にします。"
+#~ msgstr "Set the value of the input box |childkey2| in the Timeline panel toolbar to **-1** ."
 
-#: ../../source/man4/animation_register.rst:610
-msgid "指定した子キーを削除します。キーフレーム自体はまだ削除されません。"
-msgstr "Deletes the specified child key. The keyframes themselves are not yet deleted."
+#~ msgid "子キーの登録には |childkey1| を押します。"
+#~ msgstr "Press |childkey1| to register a child key."
 
-#: ../../source/man4/animation_register.rst:613
-msgid "タイムラインパネルのツールバーの入力ボックス |childkey2| から削除したい子キーのインデックスを選択します。"
-msgstr "Select the index of the child key you want to delete from the input box |childkey2| on the timeline panel toolbar."
+#~ msgid ""
+#~ "登録した子キーは修正はできますが通常のキーフレームのように後で入れ替えることはできません。子キー同士を入れ替えたい場合は一旦削除して登録する"
+#~ "必要があります。"
+#~ msgstr ""
+#~ "Registered child keys can be modified, but they cannot be replaced later like normal keyframes. If you want to replace the child keys, you "
+#~ "need to delete them once and register them."
 
-#: ../../source/man4/animation_register.rst:614
-msgid "ポーズを修正したら |childkey3| を押します。"
-msgstr "Press |childkey3| after correcting the pose."
+#~ msgid "子キーを修正する"
+#~ msgstr "Modify child key"
 
-#: ../../source/man4/animation_register.rst:617
-msgid "入力ボックスで **-1** を選んでも削除はできません。"
-msgstr "You cannot delete even if you select **-1** in the input box."
+#~ msgid "一度登録した子キーを編集できます。"
+#~ msgstr "You can edit a child key that has been registered once."
+
+#~ msgid "対象のオブジェクト・対象のキーフレームを選択します。"
+#~ msgstr "Select the target object and target keyframe."
+
+#~ msgid "タイムラインパネルのツールバーの入力ボックス |childkey2| から修正したい子キーのインデックスを選択します。"
+#~ msgstr "Select the index of the child key you want to modify from the input box |childkey2| on the timeline panel toolbar."
+
+#~ msgid "ポーズを修正したら |childkey1| を押します。"
+#~ msgstr "Press |childkey1| after correcting the pose."
+
+#~ msgid "子キーの入力ボックスは次のようになっています。"
+#~ msgstr "The input box for the child key looks like this:"
+
+#~ msgid "-1"
+#~ msgstr "-1"
+
+#~ msgid "キーフレームの子キー全体を選択・復元する。子キー追加の場合はこれを選ぶ。"
+#~ msgstr "Select/restore the entire child key of the keyframe. Select this if you want to add a child key."
+
+#~ msgid "0～n"
+#~ msgstr "0 ~ n"
+
+#~ msgid "指定した子キーのポーズを選択・復元する。修正や削除時にはこれらを選ぶ。"
+#~ msgstr "Select/restore the pose of the specified child key. Select these when modifying or deleting."
+
+#~ msgid "子キーを削除する"
+#~ msgstr "Delete child key"
+
+#~ msgid "指定した子キーを削除します。キーフレーム自体はまだ削除されません。"
+#~ msgstr "Deletes the specified child key. The keyframes themselves are not yet deleted."
+
+#~ msgid "タイムラインパネルのツールバーの入力ボックス |childkey2| から削除したい子キーのインデックスを選択します。"
+#~ msgstr "Select the index of the child key you want to delete from the input box |childkey2| on the timeline panel toolbar."
+
+#~ msgid "ポーズを修正したら |childkey3| を押します。"
+#~ msgstr "Press |childkey3| after correcting the pose."
+
+#~ msgid "入力ボックスで **-1** を選んでも削除はできません。"
+#~ msgstr "You cannot delete even if you select **-1** in the input box."

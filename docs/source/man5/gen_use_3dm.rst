@@ -67,9 +67,8 @@ VRMを動かす色んな方法
 
         詳しくは :ref:`inputikasmarker` をご覧ください。
 
-        .. image:: ../img/operation_vrm_6.png
+        .. image:: ../img/operation_vrm_6.jpg
             :align: center
-            :width: 400
 
         |
 
