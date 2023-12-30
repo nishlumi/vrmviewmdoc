@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-29 16:24+0900\n"
-"PO-Revision-Date: 2023-12-29 16:26+0900\n"
+"POT-Creation-Date: 2023-12-30 18:13+0900\n"
+"PO-Revision-Date: 2023-12-30 18:14+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -185,8 +185,8 @@ msgid "共有する"
 msgstr "Share"
 
 #: ../../source/man5/photograph.rst:110
-msgid "ver 2.3.0より、画像の共有に対応しました。"
-msgstr "From ver 2.3.0, image sharing is supported."
+msgid "ver 2.3.0より、画像の共有に対応しました。ブラウザから利用する場合のみ使用できます。"
+msgstr "From ver 2.3.0, image sharing is supported. It can only be used from a browser."
 
 #: ../../source/man5/photograph.rst:112
 msgid "shrbtn"

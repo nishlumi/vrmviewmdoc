@@ -6,19 +6,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: VRMViewMeister\n"
+"Project-Id-Version:  VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
+"POT-Creation-Date: 2023-12-30 18:13+0900\n"
 "PO-Revision-Date: 2023-06-03 20:48+0900\n"
 "Last-Translator: \n"
-"Language-Team: en <LL@li.org>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
 
 #: ../../source/man1/menu_screen.rst:5
 msgid "画面タブ"
@@ -98,7 +97,9 @@ msgstr "transparent background"
 
 #: ../../source/man1/menu_screen.rst:35
 msgid "スクリーンショット時、WebGL画面の背景部分を透過にします。"
-msgstr "Makes the background part of the WebGL screen transparent when taking screenshots."
+msgstr ""
+"Makes the background part of the WebGL screen transparent when taking "
+"screenshots."
 
 #: ../../source/man1/menu_screen.rst:38
 msgid "**Record movie 内**"
@@ -110,7 +111,9 @@ msgstr "recording"
 
 #: ../../source/man1/menu_screen.rst:41
 msgid "WebGL画面を録画開始します。停止するまで操作・アニメーションした内容がすべて記録されます。"
-msgstr "Start recording the WebGL screen. All operations and animations are recorded until you stop."
+msgstr ""
+"Start recording the WebGL screen. All operations and animations are "
+"recorded until you stop."
 
 #: ../../source/man1/menu_screen.rst
 msgid "停止"
@@ -177,7 +180,8 @@ msgid "IKマーカーを表示する"
 msgstr "Show IK MarkersShow IK Markers"
 
 #: ../../source/man1/menu_screen.rst:61
-msgid "各オブジェクトを操作する際のIKマーカーの表示を切り替えます。"
+#, fuzzy
+msgid "各オブジェクトを操作する際のIKマーカーの表示を切り替えます。VR/AR空間でのIKマーカーの表示とは連動していません。"
 msgstr "Toggles the display of IK markers when manipulating each object."
 
 #: ../../source/man1/menu_screen.rst
@@ -187,3 +191,4 @@ msgstr "IK marker size"
 #: ../../source/man1/menu_screen.rst:63
 msgid "IKマーカーの大きさを変更します。（0.01～0.2）"
 msgstr "Change the size of the IK marker. (0.01 to 0.2)"
+

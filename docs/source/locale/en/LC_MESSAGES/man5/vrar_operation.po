@@ -7,38 +7,34 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: VRMViewMeister\n"
+"Project-Id-Version:  VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-30 09:53+0900\n"
+"POT-Creation-Date: 2023-12-30 18:13+0900\n"
 "PO-Revision-Date: 2023-12-30 09:55+0900\n"
 "Last-Translator: \n"
-"Language-Team: en <LL@li.org>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man5/vrar_operation.rst:3
 msgid "VR/AR上の操作方法"
 msgstr "How to operate on VR/AR"
 
 #: ../../source/man5/vrar_operation.rst:5
-msgid ""
-"VR機器のコントローラはもちろんですが、Meta Quest 3 ではハンドトラッキングにフル対"
-"応しています。"
+msgid "VR機器のコントローラはもちろんですが、Meta Quest 3 ではハンドトラッキングにフル対応しています。"
 msgstr ""
-"In addition to controllers for VR devices, Meta Quest 3 fully supports hand "
-"tracking."
+"In addition to controllers for VR devices, Meta Quest 3 fully supports "
+"hand tracking."
 
 #: ../../source/man5/vrar_operation.rst:7
-msgid ""
-"ただし、コントローラとハンドトラッキングではデフォルトでできることが違います。"
+msgid "ただし、コントローラとハンドトラッキングではデフォルトでできることが違います。"
 msgstr ""
-"However, what you can do by default with controllers and hand tracking is "
-"different."
+"However, what you can do by default with controllers and hand tracking is"
+" different."
 
 #: ../../source/man5/vrar_operation.rst:10
 msgid "目次"
@@ -53,9 +49,7 @@ msgid "掴む:"
 msgstr "grab:"
 
 #: ../../source/man5/vrar_operation.rst:20
-msgid ""
-"オブジェクトを掴んで動かします。現実のもののように移動・回転を行うことができま"
-"す。"
+msgid "オブジェクトを掴んで動かします。現実のもののように移動・回転を行うことができます。"
 msgstr "Grab an object and move it. You can move and rotate it like a real thing."
 
 #: ../../source/man5/vrar_operation.rst
@@ -76,19 +70,19 @@ msgstr "Pinch the object you want to manipulate with your thumb and index finger
 
 #: ../../source/man5/vrar_operation.rst:28
 msgid ""
-"Meta Quest 3のハンドトラッキングの場合、手のひらを自分に向けるとシステム的な操作"
-"が発動する可能性があります。なるべく手のひらをオブジェクトに向けた状態で行ってく"
-"ださい。"
+"Meta Quest "
+"3のハンドトラッキングの場合、手のひらを自分に向けるとシステム的な操作が発動する可能性があります。なるべく手のひらをオブジェクトに向けた状態で行ってください。"
 msgstr ""
-"In the case of Meta Quest 3's hand tracking, if you turn your palm towards "
-"yourself, a systematic operation may be activated. Try to do this with your palm "
-"facing the object as much as possible."
+"In the case of Meta Quest 3's hand tracking, if you turn your palm "
+"towards yourself, a systematic operation may be activated. Try to do this"
+" with your palm facing the object as much as possible."
 
 #: ../../source/man5/vrar_operation.rst:30
 msgid "掴んで動かせるのは次のとおりです。"
 msgstr "Here's what you can grab and move:"
 
-#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:32
+#: ../../source/man5/vrar_operation.rst:1
+#: ../../source/man5/vrar_operation.rst:32
 msgid "VRMの各部位のIKマーカー"
 msgstr "IK markers for each part of VRM"
 
@@ -109,13 +103,11 @@ msgid "メインカメラ移動:"
 msgstr "Main camera movement:"
 
 #: ../../source/man5/vrar_operation.rst:38
-msgid ""
-"VR/AR空間の視点となっているメインカメラを動かします。通常画面のメインカメラとは視"
-"点の高さ・位置が若干ずれることがあります。"
+msgid "VR/AR空間の視点となっているメインカメラを動かします。通常画面のメインカメラとは視点の高さ・位置が若干ずれることがあります。"
 msgstr ""
-"Move the main camera, which is the viewpoint of the VR/AR space. The height and "
-"position of the viewpoint may differ slightly from the main camera on the normal "
-"screen."
+"Move the main camera, which is the viewpoint of the VR/AR space. The "
+"height and position of the viewpoint may differ slightly from the main "
+"camera on the normal screen."
 
 #: ../../source/man5/vrar_operation.rst
 msgid "前後左右の移動"
@@ -133,15 +125,18 @@ msgstr "Move up and down"
 msgid "右スティックを前・後ろに倒す"
 msgstr "Move the right stick forward/backward"
 
-#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:44
-#: ../../source/man5/vrar_operation.rst:58 ../../source/man5/vrar_operation.rst:132
+#: ../../source/man5/vrar_operation.rst:1
+#: ../../source/man5/vrar_operation.rst:44
+#: ../../source/man5/vrar_operation.rst:58
+#: ../../source/man5/vrar_operation.rst:132
 msgid "右手の仮想コントローラ"
 msgstr "right hand virtual controller"
 
 #: ../../source/man5/vrar_operation.rst:46
 msgid "操作対象を ``メインカメラ`` 、 操作モードを ``移動`` にしてください。"
 msgstr ""
-"Set the operation target to ``main camera`` and the operation mode to ``move`` ."
+"Set the operation target to ``main camera`` and the operation mode to "
+"``move`` ."
 
 #: ../../source/man5/vrar_operation.rst:60
 msgid "メインカメラ回転:"
@@ -168,12 +163,10 @@ msgid "右スティックを右へ倒す"
 msgstr "Move the right stick to the right"
 
 #: ../../source/man5/vrar_operation.rst:55
-msgid ""
-"VR機器のコントローラを使用する場合は上記以外の回転は混乱する可能性があるためでき"
-"ません。"
+msgid "VR機器のコントローラを使用する場合は上記以外の回転は混乱する可能性があるためできません。"
 msgstr ""
-"When using a VR device controller, rotations other than those listed above are "
-"not possible as it may cause confusion."
+"When using a VR device controller, rotations other than those listed "
+"above are not possible as it may cause confusion."
 
 #: ../../source/man5/vrar_operation.rst:60
 msgid "操作対象を ``メインカメラ`` 、 操作モードを ``回転`` にしてください。"
@@ -182,12 +175,10 @@ msgstr ""
 "``rotation`` ."
 
 #: ../../source/man5/vrar_operation.rst:63
-msgid ""
-"VRM全体を掴んで動かすことはできません。VRM全体を動かすには後述の仮想コントローラ"
-"で操作する必要があります。"
+msgid "VRM全体を掴んで動かすことはできません。VRM全体を動かすには後述の仮想コントローラで操作する必要があります。"
 msgstr ""
-"You cannot grab the entire VRM and move it. To move the entire VRM, you need to "
-"operate it using the virtual controller described below."
+"You cannot grab the entire VRM and move it. To move the entire VRM, you "
+"need to operate it using the virtual controller described below."
 
 #: ../../source/man5/vrar_operation.rst:64
 msgid "VR/AR空間では全てのIKマーカーが同時に表示されるようになっています。"
@@ -196,30 +187,27 @@ msgstr "All IK markers are displayed simultaneously in VR/AR space."
 #: ../../source/man5/vrar_operation.rst:65
 msgid "VR/ARの仕様上、IKマーカーは透過表示されないためオブジェクトに隠れます。"
 msgstr ""
-"Due to VR/AR specifications, IK markers are not displayed transparently and are "
-"hidden behind objects."
+"Due to VR/AR specifications, IK markers are not displayed transparently "
+"and are hidden behind objects."
 
-#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:73
+#: ../../source/man5/vrar_operation.rst:1
+#: ../../source/man5/vrar_operation.rst:73
 #: ../../source/man5/vrar_operation.rst:96
 msgid "仮想コントローラ"
 msgstr "virtual controller"
 
 #: ../../source/man5/vrar_operation.rst:75
-msgid ""
-"基本の操作だけではできないことが多いため、VR/AR空間で特定の機能を実行できる仮想コ"
-"ントローラを用意しました。"
+msgid "基本の操作だけではできないことが多いため、VR/AR空間で特定の機能を実行できる仮想コントローラを用意しました。"
 msgstr ""
-"Since there are many things that cannot be done with just basic operations, we "
-"have prepared a virtual controller that can perform specific functions in VR/AR "
-"space."
+"Since there are many things that cannot be done with just basic "
+"operations, we have prepared a virtual controller that can perform "
+"specific functions in VR/AR space."
 
 #: ../../source/man5/vrar_operation.rst:77
-msgid ""
-"これらは仮想の手の斜め下付近に表示されます。VR機器のコントローラ使用時・ハンドト"
-"ラッキング時いずれも使用可能です。"
+msgid "これらは仮想の手の斜め下付近に表示されます。VR機器のコントローラ使用時・ハンドトラッキング時いずれも使用可能です。"
 msgstr ""
-"These are displayed diagonally below the virtual hand. It can be used both when "
-"using a VR device controller and when tracking hands."
+"These are displayed diagonally below the virtual hand. It can be used "
+"both when using a VR device controller and when tracking hands."
 
 #: ../../source/man5/vrar_operation.rst:79
 msgid "vrarctrl_on"
@@ -258,17 +246,14 @@ msgid "**仮想コントローラ**"
 msgstr "**Virtual Controller**"
 
 #: ../../source/man5/vrar_operation.rst:92
-msgid ""
-"デフォルトでは邪魔にならないように非表示になっています。 **黄色のCubeに仮想の手の"
-"指先で触れる** と仮想コントローラが表示されます。"
+msgid "デフォルトでは邪魔にならないように非表示になっています。 **黄色のCubeに仮想の手の指先で触れる** と仮想コントローラが表示されます。"
 msgstr ""
-"By default it is hidden to avoid distractions. **Touch the yellow Cube with the "
-"fingertips of your virtual hand** and a virtual controller will appear."
+"By default it is hidden to avoid distractions. **Touch the yellow Cube "
+"with the fingertips of your virtual hand** and a virtual controller will "
+"appear."
 
 #: ../../source/man5/vrar_operation.rst:94
-msgid ""
-"すべてのボタンは指先が当たり判定になっており、指先とボタンを重ねるとボタンが沈み"
-"込みます。"
+msgid "すべてのボタンは指先が当たり判定になっており、指先とボタンを重ねるとボタンが沈み込みます。"
 msgstr ""
 "All buttons are hit-detected by your fingertip, and if you overlap your "
 "fingertip with the button, the button will sink."
@@ -330,46 +315,41 @@ msgid "一番上の表示"
 msgstr "string displayed at the top"
 
 #: ../../source/man5/vrar_operation.rst:1
-msgid ""
-"VR/AR空間で現在選択中の3Dオブジェクトの名称です。通常画面のオブジェクトの選択とは"
-"異なります。"
+msgid "VR/AR空間で現在選択中の3Dオブジェクトの名称です。通常画面のオブジェクトの選択とは異なります。"
 msgstr ""
-"This is the name of the 3D object currently selected in VR/AR space. This is "
-"different from selecting objects on the normal screen."
+"This is the name of the 3D object currently selected in VR/AR space. This"
+" is different from selecting objects on the normal screen."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|leftctrl01|"
 msgstr "|leftctrl01|"
 
 #: ../../source/man5/vrar_operation.rst:1
-msgid ""
-"一つ前の3Dオブジェクトを選択します。途中に2Dオブジェクトがある場合は読み飛ばしま"
-"す。"
+msgid "一つ前の3Dオブジェクトを選択します。途中に2Dオブジェクトがある場合は読み飛ばします。"
 msgstr ""
-"Select the previous 3D object. If there is a 2D object in the middle, it will be "
-"skipped."
+"Select the previous 3D object. If there is a 2D object in the middle, it "
+"will be skipped."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|leftctrl02|"
 msgstr "|leftctrl02|"
 
 #: ../../source/man5/vrar_operation.rst:1
-msgid ""
-"次の3Dオブジェクトを選択します。途中に2Dオブジェクトがある場合は読み飛ばします。"
+msgid "次の3Dオブジェクトを選択します。途中に2Dオブジェクトがある場合は読み飛ばします。"
 msgstr ""
-"Select the next 3D object. If there is a 2D object in the middle, it will be "
-"skipped."
+"Select the next 3D object. If there is a 2D object in the middle, it will"
+" be skipped."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|leftctrl03|"
 msgstr "|leftctrl03|"
 
 #: ../../source/man5/vrar_operation.rst:1
-msgid ""
-"IKマーカーの表示を切り替えます。表示がオフになっていても掴んで操作できます。"
+#, fuzzy
+msgid "IKマーカーの表示を切り替えます。表示がオフになっていても掴んで操作できます。通常画面のIKマーカーのON/OFFとは連動していません。"
 msgstr ""
-"Switch the display of IK markers. You can grab and operate it even when the "
-"display is off."
+"Switch the display of IK markers. You can grab and operate it even when "
+"the display is off."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "中央の行の左の表示"
@@ -384,23 +364,20 @@ msgid "|leftctrl04|"
 msgstr "|leftctrl04|"
 
 #: ../../source/man5/vrar_operation.rst:1
-msgid ""
-"一つ前のキーフレームへ戻します。タイムラインパネルのキーフレーム操作とほぼ同じで"
-"す。"
+msgid "一つ前のキーフレームへ戻します。タイムラインパネルのキーフレーム操作とほぼ同じです。"
 msgstr ""
-"Return to the previous keyframe. This is almost the same as keyframe operations "
-"in the timeline panel."
+"Return to the previous keyframe. This is almost the same as keyframe "
+"operations in the timeline panel."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|leftctrl05|"
 msgstr "|leftctrl05|"
 
 #: ../../source/man5/vrar_operation.rst:1
-msgid ""
-"次のキーフレームへ戻します。タイムラインパネルのキーフレーム操作とほぼ同じです。"
+msgid "次のキーフレームへ戻します。タイムラインパネルのキーフレーム操作とほぼ同じです。"
 msgstr ""
-"Return to next keyframe. This is almost the same as keyframe operations in the "
-"timeline panel."
+"Return to next keyframe. This is almost the same as keyframe operations "
+"in the timeline panel."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|leftctrl06|"
@@ -408,13 +385,12 @@ msgstr "|leftctrl06|"
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid ""
-"現在選択中の3Dオブジェクトのポーズを、現在選択中のキーフレームに登録します。ここ"
-"でいう **選択中** とは、あくまでもVR/AR空間上でのみ有効です。通常画面での選択とは"
-"異なります。"
+"現在選択中の3Dオブジェクトのポーズを、現在選択中のキーフレームに登録します。ここでいう **選択中** "
+"とは、あくまでもVR/AR空間上でのみ有効です。通常画面での選択とは異なります。"
 msgstr ""
-"Registers the pose of the currently selected 3D object to the currently selected "
-"keyframe. **Selected** here is only valid in VR/AR space. This is different from "
-"the selection on the normal screen."
+"Registers the pose of the currently selected 3D object to the currently "
+"selected keyframe. **Selected** here is only valid in VR/AR space. This "
+"is different from the selection on the normal screen."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|leftctrl07|"
@@ -497,12 +473,10 @@ msgid "|rightctrl05|"
 msgstr "|rightctrl05|"
 
 #: ../../source/man5/vrar_operation.rst:1
-msgid ""
-"操作対象を ``現在選択中の3Dオブジェクト`` にします。VRM全体を動かすにはこれに切り"
-"替える必要があります。"
+msgid "操作対象を ``現在選択中の3Dオブジェクト`` にします。VRM全体を動かすにはこれに切り替える必要があります。"
 msgstr ""
-"Sets the operation target to the ``currently selected 3D object``. You need to "
-"switch to this to run the entire VRM."
+"Sets the operation target to the ``currently selected 3D object``. You "
+"need to switch to this to run the entire VRM."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|rightctrl06|"
@@ -528,11 +502,13 @@ msgstr "For operations other than those listed above, return to the normal scree
 msgid "操作のまとめ"
 msgstr "Summary of operations"
 
-#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:182
+#: ../../source/man5/vrar_operation.rst:1
+#: ../../source/man5/vrar_operation.rst:182
 msgid "Meta Quest 3"
 msgstr "Meta Quest 3"
 
-#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:185
+#: ../../source/man5/vrar_operation.rst:1
+#: ../../source/man5/vrar_operation.rst:185
 msgid "PICO4"
 msgstr "PICO4"
 
@@ -585,23 +561,20 @@ msgid "VRM以外の移動・回転"
 msgstr "Moving/rotating other than VRM"
 
 #: ../../source/man5/vrar_operation.rst:160
-msgid ""
-"本アプリのメインカメラとVR機器のカメラ（視点）にズレが生じた場合、各VR機器を操作"
-"して視点を中央に戻してください。"
+msgid "本アプリのメインカメラとVR機器のカメラ（視点）にズレが生じた場合、各VR機器を操作して視点を中央に戻してください。"
 msgstr ""
-"If there is a misalignment between the main camera of this app and the camera "
-"(viewpoint) of the VR device, please operate each VR device to return the "
-"viewpoint to the center."
+"If there is a misalignment between the main camera of this app and the "
+"camera (viewpoint) of the VR device, please operate each VR device to "
+"return the viewpoint to the center."
 
 #: ../../source/man5/vrar_operation.rst:163
 msgid ""
-"PICO4のブラウザアプリでは、コントローラのBとYはブラウザの ``戻る`` に機能が割り当"
-"てられていると思われます。そのため、誤って押した場合は確認メッセージをよく見て操"
-"作してください。"
+"PICO4のブラウザアプリでは、コントローラのBとYはブラウザの ``戻る`` "
+"に機能が割り当てられていると思われます。そのため、誤って押した場合は確認メッセージをよく見て操作してください。"
 msgstr ""
-"In the PICO4 browser app, controllers B and Y seem to have the function assigned "
-"to the browser's ``back`` button. Therefore, if you press it by mistake, "
-"carefully read the confirmation message before proceeding."
+"In the PICO4 browser app, controllers B and Y seem to have the function "
+"assigned to the browser's ``back`` button. Therefore, if you press it by "
+"mistake, carefully read the confirmation message before proceeding."
 
 #: ../../source/man5/vrar_operation.rst:169
 msgid "便利な操作機能"
@@ -609,48 +582,41 @@ msgstr "Convenient operation functions"
 
 #: ../../source/man5/vrar_operation.rst:171
 msgid ""
-"VR機器だとマウスに相当するのがコントローラです。ただしマウスと異なり細かい作業に"
-"向きません。本アプリではマウスが使えない環境でもある程度操作できるように、 ``V-"
-"pad`` という機能を用意しています。"
+"VR機器だとマウスに相当するのがコントローラです。ただしマウスと異なり細かい作業に向きません。本アプリではマウスが使えない環境でもある程度操作できるように、"
+" ``V-pad`` という機能を用意しています。"
 msgstr ""
-"In VR equipment, the controller is equivalent to the mouse. However, unlike a "
-"mouse, it is not suitable for detailed work. This app provides a function called "
-"``V-pad`` so that you can operate it to some extent even in environments where "
-"you cannot use a mouse."
+"In VR equipment, the controller is equivalent to the mouse. However, "
+"unlike a mouse, it is not suitable for detailed work. This app provides a"
+" function called ``V-pad`` so that you can operate it to some extent even"
+" in environments where you cannot use a mouse."
 
 #: ../../source/man5/vrar_operation.rst:173
 msgid "VR機器でもそれを使えば、通常画面を操作できます。"
 msgstr "You can also use it on VR devices to operate the regular screen."
 
 #: ../../source/man5/vrar_operation.rst:178
-msgid ""
-"このV-padはそれぞれの四角の中をスワイプすることによってメインカメラを移動したり回"
-"転できます。VR機器では、製品によって若干操作感が変わります。"
+msgid "このV-padはそれぞれの四角の中をスワイプすることによってメインカメラを移動したり回転できます。VR機器では、製品によって若干操作感が変わります。"
 msgstr ""
-"This V-pad allows you to move and rotate the main camera by swiping inside each "
-"square. The operating feel of VR devices varies slightly depending on the "
-"product."
+"This V-pad allows you to move and rotate the main camera by swiping "
+"inside each square. The operating feel of VR devices varies slightly "
+"depending on the product."
 
 #: ../../source/man5/vrar_operation.rst:181
 #: ../../source/man5/vrar_operation.rst:185
-msgid ""
-"トリガーを押しながらV-pad内の四角の中をコントローラを動かすことで操作できます。"
+msgid "トリガーを押しながらV-pad内の四角の中をコントローラを動かすことで操作できます。"
 msgstr ""
-"You can operate by holding down the trigger and moving the controller inside the "
-"square inside the V-pad."
+"You can operate by holding down the trigger and moving the controller "
+"inside the square inside the V-pad."
 
 #: ../../source/man5/vrar_operation.rst:182
-msgid ""
-"メインカメラの回転は両方のコントローラのトリガーを押しながらWebGL画面にフォーカス"
-"を当てると操作できます。"
+msgid "メインカメラの回転は両方のコントローラのトリガーを押しながらWebGL画面にフォーカスを当てると操作できます。"
 msgstr ""
-"You can rotate the main camera by holding the triggers on both controllers and "
-"focusing on the WebGL screen."
+"You can rotate the main camera by holding the triggers on both "
+"controllers and focusing on the WebGL screen."
 
 #: ../../source/man5/vrar_operation.rst:186
-msgid ""
-"V-pad内の四角の中をスティックで動かすだけで操作できます。 ``一番お勧め`` の操作方"
-"法です。"
+msgid "V-pad内の四角の中をスティックで動かすだけで操作できます。 ``一番お勧め`` の操作方法です。"
 msgstr ""
-"You can operate it by simply moving the stick within the squares on the V-pad. "
-"This is the ``most recommended`` method of operation."
+"You can operate it by simply moving the stick within the squares on the "
+"V-pad. This is the ``most recommended`` method of operation."
+
