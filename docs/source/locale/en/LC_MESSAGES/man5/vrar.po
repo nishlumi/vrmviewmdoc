@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-26 11:46+0900\n"
+"PO-Revision-Date: 2023-12-28 00:31+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: ../../source/man5/vrar.rst:3
+msgid "VRとAR"
+msgstr "VR and AR"
+
+#: ../../source/man5/vrar.rst:6
+msgid ""
+"ver 2.3.0より、Meta QuestやPICOなどのVR機器に対応"
+"しました。VRMや各オブジェクトをVR/AR空間で間近に"
+"見て楽しんだり、その空間のままポージングやモー"
+"ション作成を行えます。"
+msgstr ""
+"From ver 2.3.0, it is compatible with VR devices "
+"such as Meta Quest and PICO. You can enjoy "
+"seeing VRM and various objects up close in VR/AR "
+"space, and create poses and motions in that "
+"space."
+
+#: ../../source/man5/vrar.rst:9
+msgid ""
+"ver 2.3.0時点で確認済みなのは **Meta Quest 3** "
+"と **PICO4** です。なお、どちらの機種もブラウザの"
+"判定上はAndroid です。UnityのWebGLビルドは公式に"
+"はモバイルはサポート外のため、一応VR機器での使用"
+"は試験導入ということにします。"
+msgstr ""
+"As of ver 2.3.0, **Meta Quest 3** and **PICO4** "
+"are confirmed. Please note that both models are "
+"determined by the browser to be Android. Unity's "
+"WebGL build is not officially supported on "
+"mobile, so we will be using it on VR devices as "
+"a trial implementation."
+
+#: ../../source/man5/vrar.rst:11
+msgid ""
+"万が一動かない場合もあることをご了承ください。"
+msgstr ""
+"Please note that there may be cases where it "
+"does not work."

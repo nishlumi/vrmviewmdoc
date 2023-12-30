@@ -6,9 +6,9 @@
 
 
 :OS:
-  Windows, macOS, Linux, ChromeOS [1]_  
+  Windows, macOS, Linux, ChromeOS [1]_  , Android(VR機器含む)
 :対応ブラウザ:
-  | Edge, Chrome, Opera, Vivaldi, Firefox [2]_ 
+  | Edge, Chrome, Opera, Vivaldi, Firefox [2]_ , VR機器のブラウザ
 :通信量:
   | 初回起動・・・約20～25MB
   | Stage変更・Effect使用・・・約30MB（初使用時のみ）
@@ -17,24 +17,28 @@
   | ※ウェブアプリ版のみ
 
 :メモリ:
-  | PCのメモリは4GB以上を推奨。
-  | ※アプリ内で使用量を 256MB～4GB の範囲で調整が可能です
-  | ※開発PCは8GBで開発しております 
+  PCのメモリは4GB以上を推奨。
+  
+  * アプリ内で使用量を 256MB～4GB の範囲で調整が可能です
+  * 開発PCは8GBで開発しております 
 
 :ストレージ:
   あればあるほどよい [3]_
 
 :グラフィック性能:
-  | 次のPCにて確認
-  | ※GTX 1060 ～ RTX3060 Ti 搭載PC
-  | ※最後のIntel CPUモデルのMacBook Air ～ M1 MacBook Air
-  | ※ASUS UX21A notebook PC
+  次のPCにて確認
 
+  * GTX 1060 ～ RTX3060 Ti 搭載PC
+  * 最後のIntel CPUモデルのMacBook Air ～ M1 MacBook Air
+  * SUS UX21A notebook PC
+  * Meta Quest 3, PICO4
+  
 :外部へのアクセス:
-  | Google、jsdelivr、unpkg
-  | ※スタイルシート・javascriptライブラリ目的
-  | ※上記以外への外部へのアクセスは行っていません。
-  | ※ユーザーデータを外部へ送信する機能は一切持っていません。
+  Google、jsdelivr、unpkg
+
+  * スタイルシート・javascriptライブラリ目的
+  * 上記以外への外部へのアクセスは行っていません。
+  * ユーザーデータを外部へ送信する機能は一切持っていません。
 
 :端末(PC)へのアクセス:
   | ＜開く＞

@@ -1,0 +1,375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-29 12:52+0900\n"
+"PO-Revision-Date: 2023-12-29 12:58+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: ../../source/man5/gen_use_cloud.rst:3
+msgid "クラウドストレージへの対応"
+msgstr "Support for cloud storage"
+
+#: ../../source/man5/gen_use_cloud.rst:10
+msgid "目次"
+msgstr "Contents"
+
+#: ../../source/man5/gen_use_cloud.rst:12
+msgid "ver 2.3.0より、Googleドライブに対応しました。拡張機能として実装しているので、必ずしも使う必要はありません。"
+msgstr "From ver 2.3.0, it supports Google Drive. Since it is implemented as an extension, it is not necessary to use it."
+
+#: ../../source/man5/gen_use_cloud.rst:14
+msgid "合わせて :ref:`config_fileloader` を参照してください。"
+msgstr "See also :ref:`config_fileloader` ."
+
+#: ../../source/man5/gen_use_cloud.rst:17
+msgid "対応するファイルと機能"
+msgstr "Supported files and features"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "ファイル"
+msgstr "files"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "Googleドライブから開く"
+msgstr "Open from Google Drive"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "Googleドライブに保存する"
+msgstr "Save to Google Drive"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "ポーズファイル"
+msgstr "Pose file"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "対応"
+msgstr "Support"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "モーションファイル"
+msgstr "Motion file"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "プロジェクトファイル"
+msgstr "Project file"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "VRM"
+msgstr "VRM"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "なし"
+msgstr "None"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "3Dモデル"
+msgstr "3D model"
+
+#: ../../source/man5/gen_use_cloud.rst:1
+msgid "画像"
+msgstr "Image"
+
+#: ../../source/man5/gen_use_cloud.rst:29
+msgid ""
+"設定画面の ``ファイルローダ`` タブでURLを入力してチェックを入れて有効化すると、リボンバーの VRM やOtherObject、Imageなどのボタンのサブメニュー"
+"にGoogleドライブの項目が表示されます。"
+msgstr ""
+"If you enter the URL in the ``File Loader`` tab on the settings screen and check it to enable it, Google Drive items will be displayed in the "
+"submenu of buttons such as VRM, OtherObject, and Image on the ribbon bar."
+
+#: ../../source/man5/gen_use_cloud.rst:31
+msgid "ポーズ・モーション一覧では読み込み場所のコンボボックスでGoogle Driveを選択できるようになります。"
+msgstr "In the pose/motion list, you will be able to select Google Drive in the load location combo box."
+
+#: ../../source/man5/gen_use_cloud.rst:34
+msgid "基本事項"
+msgstr "Basics"
+
+#: ../../source/man5/gen_use_cloud.rst:42
+msgid "接続方法"
+msgstr "Connection method"
+
+#: ../../source/man5/gen_use_cloud.rst:37
+msgid "GoogleAppsScriptをウェブアプリ化し、発行したウェブアプリのURLを本アプリに設定してください。"
+msgstr "Please convert GoogleAppsScript into a web application and set the URL of the published web application to this application."
+
+#: ../../source/man5/gen_use_cloud.rst:39
+msgid ""
+"本アプリからユーザーのGoogleにログインすることはありません。権限の許可を求めることもしません。本アプリはそれがGoogleAppsScriptによるものなのか"
+"も判断していません。"
+msgstr ""
+"This app does not log in to your Google account. It does not ask for permission. This application does not determine whether it is caused by "
+"Google AppsScript."
+
+#: ../../source/man5/gen_use_cloud.rst:41
+msgid "あくまでインプットとアウトプットが合っているかどうかです。"
+msgstr "It's all about whether the input and output match."
+
+#: ../../source/man5/gen_use_cloud.rst:48
+msgid "メリット"
+msgstr "merit"
+
+#: ../../source/man5/gen_use_cloud.rst:45
+msgid "アプリ側がAPIキー、OAuth2.0情報を流出するリスクを回避できる。"
+msgstr "The risk of the app side leaking API keys and OAuth2.0 information can be avoided."
+
+#: ../../source/man5/gen_use_cloud.rst:46
+msgid "ユーザー側が不必要なPC・端末のブラウザにまでGoogleログインする不安・リスクを回避できる。"
+msgstr "Users can avoid the anxiety and risk of logging in to Google on unnecessary PC/device browsers."
+
+#: ../../source/man5/gen_use_cloud.rst:47
+msgid "ユーザーはいつでも本アプリとGoogleドライブとの接続を解除できる（再度設定する際も再ログインの手間なし）"
+msgstr "Users can disconnect the app from Google Drive at any time (no need to log in again when setting up again)"
+
+#: ../../source/man5/gen_use_cloud.rst:48
+msgid "APIの制限はアプリ全体ではなく、各ユーザーごとになるので制限を独り占めできる。"
+msgstr "API limits are not for the entire app, but for each user, so you can keep the limits to yourself."
+
+#: ../../source/man5/gen_use_cloud.rst:52
+msgid "デメリット"
+msgstr "Demerit"
+
+#: ../../source/man5/gen_use_cloud.rst:51
+msgid "ユーザー側でGoogleAppsScriptの作成・ウェブアプリとしての公開などいくつか準備していただく必要がある。"
+msgstr "The user needs to make some preparations, such as creating GoogleAppsScript and publishing it as a web application."
+
+#: ../../source/man5/gen_use_cloud.rst:52
+msgid "Googleドライブのスクリプトという扱いなので、通常のGoogle APIよりも制限があり、速度も遅い。"
+msgstr "Since it is treated as a Google Drive script, it is more limited and slower than the regular Google API."
+
+#: ../../source/man5/gen_use_cloud.rst:54
+msgid ""
+"特にVR機器だと、ブラウザからGoogleにログインするのが面倒ということもありえます（二段階認証があると特に）。本アプリで導入した接続方法であれば、"
+"改めてGoogleにログインする必要がなく、ウェブアプリのURLとAPIKEYさえ自分で覚えておけばどこでも使用可能です。"
+msgstr ""
+"Especially with VR devices, logging into Google from a browser can be a hassle (especially if you have two-factor authentication). With the "
+"connection method introduced in this app, there is no need to log in to Google again, and you can use it anywhere as long as you remember the "
+"web app URL and APIKEY yourself."
+
+#: ../../source/man5/gen_use_cloud.rst:56
+msgid "Googleへのログイン履歴をきれいに保つことにも繋がるでしょう。"
+msgstr "This will also help you keep your Google login history clean."
+
+#: ../../source/man5/gen_use_cloud.rst:65
+msgid "スクリプトの準備"
+msgstr "Preparing the script"
+
+#: ../../source/man5/gen_use_cloud.rst:67
+msgid "スクリプトは下記の開発者のGoogleドライブのフォルダに置いてあります。 **(Googleにログインしている必要があります)**"
+msgstr "The script is located in the developer's Google Drive folder below. **(You must be logged in to Google)**"
+
+#: ../../source/man5/gen_use_cloud.rst:86
+msgid "スクリプトプロジェクト(GoogleAppsScript)"
+msgstr "Script project (GoogleAppsScript)"
+
+#: ../../source/man5/gen_use_cloud.rst
+msgid "share/extensions/vrmviewmeister-gdrive-extension"
+msgstr "share/extensions/vrmviewmeister-gdrive-extension"
+
+#: ../../source/man5/gen_use_cloud.rst:71
+msgid "https://drive.google.com/drive/folders/1QkWCH0GfKHIQLgbT5Ir-U-mBEKAE3AJy?usp=drive_link"
+msgstr "https://drive.google.com/drive/folders/1QkWCH0GfKHIQLgbT5Ir-U-mBEKAE3AJy?usp=drive_link"
+
+#: ../../source/man5/gen_use_cloud.rst:73
+msgid "これを自分のドライブにコピーするのが一番簡単です。コピーした後はどのフォルダに移動しても問題ありません。"
+msgstr "The easiest way is to copy this to your own drive. After copying, it doesn't matter which folder you move it to."
+
+#: ../../source/man5/gen_use_cloud.rst:76
+msgid "上記サンプルプロジェクト内のスクリプトを直接実行しないでください。ユーザーのGoogleへのアクセス権限の許可を求めてしまいます。"
+msgstr "Please do not run the script in the above sample project directly. It will ask the user for permission to access Google."
+
+#: ../../source/man5/gen_use_cloud.rst:78
+msgid "必ず自分のGoogleドライブにコピーしたスクリプトプロジェクトを使ってください。"
+msgstr "Be sure to use the script project you copied to your Google Drive."
+
+#: ../../source/man5/gen_use_cloud.rst:81
+msgid "インストール手順は下記を参考にしてください。"
+msgstr "Please refer to the link below for installation instructions."
+
+#: ../../source/man5/gen_use_cloud.rst
+msgid "Googleスライドによるインストール方法 - Googleスライド"
+msgstr "Installation instructions by Google Slides - Google Slides"
+
+#: ../../source/man5/gen_use_cloud.rst:84
+msgid ""
+"https://docs.google.com/presentation/d/e/2PACX-1vQP2RstLGn82dh_FOqBfbPPBGvx9o-YQXc-3ol8Gk4_IseKrzsgs0hgAt0h4uYX2kA71ENrnI-XXbBf/pub?"
+"start=false&loop=false&delayms=3000&slide=id.p"
+msgstr ""
+"https://docs.google.com/presentation/d/e/2PACX-1vQP2RstLGn82dh_FOqBfbPPBGvx9o-YQXc-3ol8Gk4_IseKrzsgs0hgAt0h4uYX2kA71ENrnI-XXbBf/pub?"
+"start=false&loop=false&delayms=3000&slide=id.p"
+
+#: ../../source/man5/gen_use_cloud.rst
+msgid "インストール方法 - Github"
+msgstr "How to Install - Github"
+
+#: ../../source/man5/gen_use_cloud.rst:86 ../../source/man5/gen_use_cloud.rst:118
+msgid "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst"
+msgstr "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst"
+
+#: ../../source/man5/gen_use_cloud.rst:94
+msgid "Github"
+msgstr "Github"
+
+#: ../../source/man5/gen_use_cloud.rst:91
+msgid "下記リポジトリでもソースを公開していますので、何をしているか参考にしてください。"
+msgstr "The source is also published in the repository below, so please refer to it to see what we are doing."
+
+#: ../../source/man5/gen_use_cloud.rst
+msgid "vrmviewmeister-gdrive-extension - Github"
+msgstr "vrmviewmeister-gdrive-extension - Github"
+
+#: ../../source/man5/gen_use_cloud.rst:94
+msgid "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/"
+msgstr "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/"
+
+#: ../../source/man5/gen_use_cloud.rst:107 ../../source/man5/gen_use_cloud.rst:125
+msgid "やるべきこと"
+msgstr "what to do"
+
+#: ../../source/man5/gen_use_cloud.rst:99
+msgid "GoogleAppsScriptでウェブアプリを作成する"
+msgstr "Create a web app with GoogleAppsScript"
+
+#: ../../source/man5/gen_use_cloud.rst:100
+msgid "本アプリで使用する前にスクリプトプロジェクトのテスト関数を実行し、Googleに自分のドライブへのアクセス権限を許可する"
+msgstr "Run the script project's test function and allow Google access to your drive before using it in this app."
+
+#: ../../source/man5/gen_use_cloud.rst:101
+msgid "自分でAPIKEYを決める"
+msgstr "Decide your own APIKEY"
+
+#: ../../source/man5/gen_use_cloud.rst:102
+msgid "デプロイして、ウェブアプリのURLをコピーする"
+msgstr "Deploy and copy the web app URL"
+
+#: ../../source/man5/gen_use_cloud.rst:105
+msgid "一般的にGoogle APIを使うウェブサービスだと2の操作が、そのサービスからGoogleにログインを求められる操作に相当します。"
+msgstr ""
+"Generally, for web services that use Google APIs, the operation in step 2 corresponds to the operation that requires the service to log in to "
+"Google."
+
+#: ../../source/man5/gen_use_cloud.rst:107
+msgid "本アプリにおいては事前にスクリプトプロジェクト内で自分で行っていただくので、本アプリを使う上でGoogleへログインする手間は不要です。"
+msgstr "In this app, you do it yourself in the script project in advance, so there is no need to log in to Google to use this app."
+
+#: ../../source/man5/gen_use_cloud.rst:113
+msgid "スクリプトのアップデート"
+msgstr "Update script"
+
+#: ../../source/man5/gen_use_cloud.rst:115
+msgid "今後上記スクリプトプロジェクトを更新することがあります。その場合は次のページの手順を実施してください。"
+msgstr "The above script project may be updated in the future. In that case, please follow the steps on the next page."
+
+#: ../../source/man5/gen_use_cloud.rst:121
+msgid "更新後のスクリプトを自分のスクリプトプロジェクトにまるごと貼り付ける"
+msgstr "Paste the entire updated script into your script project"
+
+#: ../../source/man5/gen_use_cloud.rst:122
+msgid "再びデプロイして、ウェブアプリのURLを新規に発行する"
+msgstr "Deploy again and issue a new web app URL"
+
+#: ../../source/man5/gen_use_cloud.rst:123
+msgid "VRMViewMeisterに再発行後のURLを設定する"
+msgstr "Set the reissued URL in VRMViewMeister"
+
+#: ../../source/man5/gen_use_cloud.rst:124
+msgid "過去にデプロイした古いウェブアプリのURLをアーカイブして停止する。（任意）"
+msgstr "Archive and stop the URLs of old web apps deployed in the past. (Optional)"
+
+#: ../../source/man5/gen_use_cloud.rst:128
+msgid "使用方法"
+msgstr "How to use"
+
+#: ../../source/man5/gen_use_cloud.rst:158
+msgid "リボンバー"
+msgstr "Ribbon bar"
+
+#: ../../source/man5/gen_use_cloud.rst:143
+msgid "ホームタブ:"
+msgstr "Home tab:"
+
+#: ../../source/man5/gen_use_cloud.rst:132
+msgid "VRM, オブジェクト, プロジェクトの開くメニューで次の機能を使えます。"
+msgstr "The following functions are available in the VRM, Object, and Project Open menus"
+
+#: ../../source/man5/gen_use_cloud.rst:138 ../../source/man5/gen_use_cloud.rst:148
+msgid "``Googleドライブから直接指定``"
+msgstr "``Open directly from Google Drive``"
+
+#: ../../source/man5/gen_use_cloud.rst:135
+msgid "GoogleドライブのファイルIDを直接指定して開きます。"
+msgstr "Open by directly specifying the Google Drive file ID."
+
+#: ../../source/man5/gen_use_cloud.rst:138
+msgid "該当のファイルを一般公開あるいは自分のGoogleユーザーに共有されている必要があります。"
+msgstr "The file must be publicly available or shared with your Google users."
+
+#: ../../source/man5/gen_use_cloud.rst:141 ../../source/man5/gen_use_cloud.rst:149 ../../source/man5/gen_use_cloud.rst:156
+msgid "``Googleドライブから選択``"
+msgstr "``Select from Google Drive``"
+
+#: ../../source/man5/gen_use_cloud.rst:141
+msgid "Googleドライブからそれぞれのファイルタイプで抽出して一覧を表示します。内部ストレージダイアログが開きます。"
+msgstr "Extract each file type from Google Drive and display a list. The Internal Storage dialog opens."
+
+#: ../../source/man5/gen_use_cloud.rst:143 ../../source/man5/gen_use_cloud.rst:158
+msgid "プロジェクトの保存メニューでGoogleドライブへの保存を行うことが出来ます。"
+msgstr "You can save to Google Drive using the project save menu."
+
+#: ../../source/man5/gen_use_cloud.rst:151
+msgid "3Dモデルタブ:"
+msgstr "3D model tab:"
+
+#: ../../source/man5/gen_use_cloud.rst:146
+msgid "VRM, オブジェクト, 画像で上記の機能を使えます。"
+msgstr "You can use the above functions with VRM, objects, and images."
+
+#: ../../source/man5/gen_use_cloud.rst:151
+msgid "Pose/Motionの保存メニューでGoogleドライブへの保存を行うことが出来ます。"
+msgstr "You can save to Google Drive using the Pose/Motion save menu."
+
+#: ../../source/man5/gen_use_cloud.rst:158
+msgid "アニメーションタブ:"
+msgstr "Animation tab:"
+
+#: ../../source/man5/gen_use_cloud.rst:154
+msgid "プロジェクトの開くメニューで次の機能を使えます。"
+msgstr "The following functions are available in the project's Open menu:"
+
+#: ../../source/man5/gen_use_cloud.rst:162
+msgid "ポーズ・モーション一覧"
+msgstr "Pose/motion list"
+
+#: ../../source/man5/gen_use_cloud.rst:162
+msgid "読み込み場所:"
+msgstr "Load location:"
+
+#: ../../source/man5/gen_use_cloud.rst:162
+msgid "``Google Drive`` を選択可能になります。"
+msgstr "You will be able to select ``Google Drive`` ."
+
+#~ msgid ""
+#~ "`share/extensions/vrmviewmeister-gdrive-extension <https://drive.google.com/drive/folders/1QkWCH0GfKHIQLgbT5Ir-U-mBEKAE3AJy?"
+#~ "usp=drive_link>`__"
+#~ msgstr ""
+#~ "`share/extensions/vrmviewmeister-gdrive-extension <https://drive.google.com/drive/folders/1QkWCH0GfKHIQLgbT5Ir-U-mBEKAE3AJy?"
+#~ "usp=drive_link>`__"
+
+#~ msgid "`vrmviewmeister-gdrive-extension - Github <https://github.com/nishlumi/vrmviewmeister-gdrive-extension/>`_"
+#~ msgstr "`vrmviewmeister-gdrive-extension - Github <https://github.com/nishlumi/vrmviewmeister-gdrive-extension/>`_"

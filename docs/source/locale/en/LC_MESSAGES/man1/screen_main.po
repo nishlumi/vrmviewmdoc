@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 21:10+0900\n"
+"POT-Creation-Date: 2023-12-26 11:46+0900\n"
+"PO-Revision-Date: 2023-12-26 12:27+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man1/screen_main.rst:5
 msgid "メイン画面"
@@ -46,7 +46,9 @@ msgstr "C WebGL"
 
 #: ../../source/man1/screen_main.rst:17
 msgid "VRMなどが実際に表示される画面。WebGLという形式。サイズの変更可能。"
-msgstr "The screen where VRM etc. is actually displayed. A format called WebGL. Resizable."
+msgstr ""
+"The screen where VRM etc. is actually displayed. A format called WebGL. "
+"Resizable."
 
 #: ../../source/man1/screen_main.rst
 msgid "D プロパティ一覧"
@@ -61,24 +63,35 @@ msgid "E タイムライン"
 msgstr "E Timeline"
 
 #: ../../source/man1/screen_main.rst:21
-msgid "アニメーション用のタイムライン。登録したキーフレームがここに表示される。"
+msgid ""
+"アニメーション用のタイムライン。登録したキーフレームがここに表示される。"
 msgstr "animation timeline. Registered keyframes are displayed here."
 
 #: ../../source/man1/screen_main.rst:24
 msgid "WebGL画面には、設定によりメインカメラの中心点が表示されます。"
-msgstr "The WebGL screen displays the center point of the main camera depending on the settings."
+msgstr ""
+"The WebGL screen displays the center point of the main camera depending on "
+"the settings."
 
 #: ../../source/man1/screen_main.rst:25
-msgid "B、Dはそれぞれの右端のボタンで最小化することができます。（その分CのWebGLが拡大縮小します）"
-msgstr "B and D can be minimized with their rightmost buttons. (WebGL in C scales accordingly)"
+msgid ""
+"B、Dはそれぞれの右端のボタンで最小化することができます。（その分CのWebGLが拡"
+"大縮小します）"
+msgstr ""
+"B and D can be minimized with their rightmost buttons. (WebGL in C scales "
+"accordingly)"
 
 #: ../../source/man1/screen_main.rst:29
 msgid "アプリのウィンドウとサブウィンドウ"
 msgstr "App windows and sub windows"
 
 #: ../../source/man1/screen_main.rst:31
-msgid "本アプリではこのメイン画面を示すウィンドウと、後述のいくつかのサブウィンドウで構成されています。"
-msgstr "This application consists of a window showing this main screen and several sub-windows described later."
+msgid ""
+"本アプリではこのメイン画面を示すウィンドウと、後述のいくつかのサブウィンドウ"
+"で構成されています。"
+msgstr ""
+"This application consists of a window showing this main screen and several "
+"sub-windows described later."
 
 #: ../../source/man1/screen_main.rst:1
 msgid "ウィンドウ名"
@@ -137,6 +150,10 @@ msgid "キーフレームの設定"
 msgstr "Setting keyframes"
 
 #: ../../source/man1/screen_main.rst:1
+msgid "別ウィンドウまたはアプリ内ウィンドウ"
+msgstr "In-app window"
+
+#: ../../source/man1/screen_main.rst:1
 msgid "内部ストレージダイアログ"
 msgstr "Internal storage dialog"
 
@@ -145,5 +162,9 @@ msgid "ナビゲーション"
 msgstr "Nnavigation"
 
 #: ../../source/man1/screen_main.rst:48
-msgid "別ウィンドウの場合、メインウィンドウ（またはタブ）を閉じるとその時開いているサブウィンドウらも全て閉じます。"
-msgstr "In the case of another window, closing the main window (or tab) will also close all the sub-windows that are open at that time."
+msgid ""
+"別ウィンドウの場合、メインウィンドウ（またはタブ）を閉じるとその時開いている"
+"サブウィンドウらも全て閉じます。"
+msgstr ""
+"In the case of another window, closing the main window (or tab) will also "
+"close all the sub-windows that are open at that time."

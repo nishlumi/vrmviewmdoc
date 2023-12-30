@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 19:19+0900\n"
+"POT-Creation-Date: 2023-12-26 11:46+0900\n"
+"PO-Revision-Date: 2023-12-26 12:24+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man1/environ.rst:5
 msgid "動作環境"
@@ -29,16 +29,16 @@ msgid "OS"
 msgstr "OS"
 
 #: ../../source/man1/environ.rst:9
-msgid "Windows, macOS, Linux, ChromeOS [1]_"
-msgstr "Windows, macOS, Linux, ChromeOS [1]_"
+msgid "Windows, macOS, Linux, ChromeOS [1]_  , Android(VR機器含む)"
+msgstr "Windows, macOS, Linux, ChromeOS [1]_, Android(including VR devices)"
 
 #: ../../source/man1/environ.rst
 msgid "対応ブラウザ"
 msgstr "Supported browser"
 
 #: ../../source/man1/environ.rst
-msgid "Edge, Chrome, Opera, Vivaldi, Firefox [2]_"
-msgstr "Edge, Chrome, Opera, Vivaldi, Firefox [2]_"
+msgid "Edge, Chrome, Opera, Vivaldi, Firefox [2]_ , VR機器のブラウザ"
+msgstr "Edge, Chrome, Opera, Vivaldi, Firefox [2]_ , Browser of VR devices"
 
 #: ../../source/man1/environ.rst
 msgid "通信量"
@@ -68,23 +68,23 @@ msgstr "Web application version only"
 msgid "メモリ"
 msgstr "Memory"
 
-#: ../../source/man1/environ.rst
+#: ../../source/man1/environ.rst:20
 msgid "PCのメモリは4GB以上を推奨。"
 msgstr "4GB or more of PC memory is recommended."
 
-#: ../../source/man1/environ.rst
-msgid "※アプリ内で使用量を 256MB～4GB の範囲で調整が可能です"
-msgstr "You can adjust the usage within the app within the range of 256MB to 4GB."
+#: ../../source/man1/environ.rst:22
+msgid "アプリ内で使用量を 256MB～4GB の範囲で調整が可能です"
+msgstr "You can adjust the usage within the app within the range of 256MB to 4GB"
 
-#: ../../source/man1/environ.rst
-msgid "※開発PCは8GBで開発しております"
+#: ../../source/man1/environ.rst:23
+msgid "開発PCは8GBで開発しております"
 msgstr "Developed on a PC with 8GB memory"
 
 #: ../../source/man1/environ.rst
 msgid "ストレージ"
 msgstr "Storage"
 
-#: ../../source/man1/environ.rst:25
+#: ../../source/man1/environ.rst:26
 msgid "あればあるほどよい [3]_"
 msgstr "The more the better. [3]_"
 
@@ -92,40 +92,46 @@ msgstr "The more the better. [3]_"
 msgid "グラフィック性能"
 msgstr "Graphics performance"
 
-#: ../../source/man1/environ.rst
+#: ../../source/man1/environ.rst:29
 msgid "次のPCにて確認"
 msgstr "Checked with the following PC"
 
-#: ../../source/man1/environ.rst
-msgid "※GTX 1060 ～ RTX3060 Ti 搭載PC"
+#: ../../source/man1/environ.rst:31
+msgid "GTX 1060 ～ RTX3060 Ti 搭載PC"
 msgstr "PC with GTX 1060 to RTX3060 Ti"
 
-#: ../../source/man1/environ.rst
-msgid "※最後のIntel CPUモデルのMacBook Air ～ M1 MacBook Air"
+#: ../../source/man1/environ.rst:32
+msgid "最後のIntel CPUモデルのMacBook Air ～ M1 MacBook Air"
 msgstr "Last Intel CPU model MacBook Air to M1 MacBook Air"
 
-#: ../../source/man1/environ.rst
-msgid "※ASUS UX21A notebook PC"
-msgstr "ASUS UX21A notebook PC"
+#: ../../source/man1/environ.rst:33
+msgid "SUS UX21A notebook PC"
+msgstr "SUS UX21A notebook PC"
+
+#: ../../source/man1/environ.rst:34
+msgid "Meta Quest 3, PICO4"
+msgstr "Meta Quest 3, PICO4"
 
 #: ../../source/man1/environ.rst
 msgid "外部へのアクセス"
 msgstr "Access to the outside"
 
-#: ../../source/man1/environ.rst
+#: ../../source/man1/environ.rst:37
 msgid "Google、jsdelivr、unpkg"
 msgstr "Google, jsdelivr, unpkg"
 
-#: ../../source/man1/environ.rst
-msgid "※スタイルシート・javascriptライブラリ目的"
+#: ../../source/man1/environ.rst:39
+msgid "スタイルシート・javascriptライブラリ目的"
 msgstr "Purpose of using style sheets and javascript libraries"
 
-#: ../../source/man1/environ.rst
-msgid "※上記以外への外部へのアクセスは行っていません。"
+#: ../../source/man1/environ.rst:40
+#, fuzzy
+msgid "上記以外への外部へのアクセスは行っていません。"
 msgstr "We do not have access to the outside other than the above."
 
-#: ../../source/man1/environ.rst
-msgid "※ユーザーデータを外部へ送信する機能は一切持っていません。"
+#: ../../source/man1/environ.rst:41
+#, fuzzy
+msgid "ユーザーデータを外部へ送信する機能は一切持っていません。"
 msgstr "We do not have any function to send user data to the outside."
 
 #: ../../source/man1/environ.rst
@@ -156,42 +162,69 @@ msgstr "<Save>"
 msgid "・スクリーンショット"
 msgstr "* Screenshot"
 
-#: ../../source/man1/environ.rst:51
+#: ../../source/man1/environ.rst:55
 msgid "ChromeOSではPC版を使うことはできません。"
 msgstr "You can't use the PC version on ChromeOS."
 
-#: ../../source/man1/environ.rst:52
+#: ../../source/man1/environ.rst:56
 msgid "FirefoxはPWAの独立したウィンドウ化を行なえません。"
 msgstr "Firefox cannot do independent windowing of PWAs."
 
-#: ../../source/man1/environ.rst:53
-msgid "ポーズファイルやプロジェクトファイルなど一部のファイルはアプリ内部のストレージに保存されますが、PC内部にすべて保存されています。外部には保存されません。"
-msgstr "Some files such as pose files and project files are saved in the app's internal storage, but they are all saved inside the PC. It is not saved externally."
-
-#: ../../source/man1/environ.rst:56
-msgid "Android, iOSはUnityのWebGLの仕様に従い、サポート外とさせていただきます。(実際はアクセスすれば利用できますが操作が困難です)"
-msgstr "Android and iOS are not supported according to Unity's WebGL specifications. (Actually, you can use it if you access it, but it is difficult to operate)"
-
 #: ../../source/man1/environ.rst:57
-msgid "通信量はあくまでも目安です。PWA対応のため通信はアプリの読み込み・アップデート時にしか原則として行わないようにしています。"
-msgstr "The traffic volume is only a guideline. In principle, communication is only performed when loading or updating the application because it is PWA compatible."
+msgid ""
+"ポーズファイルやプロジェクトファイルなど一部のファイルはアプリ内部のストレージに保"
+"存されますが、PC内部にすべて保存されています。外部には保存されません。"
+msgstr ""
+"Some files such as pose files and project files are saved in the app's internal "
+"storage, but they are all saved inside the PC. It is not saved externally."
 
-#: ../../source/man1/environ.rst:58
+#: ../../source/man1/environ.rst:60
+msgid ""
+"Android, iOSはUnityのWebGLの仕様に従い、サポート外とさせていただきます。(実際はア"
+"クセスすれば利用できますが操作が困難です)"
+msgstr ""
+"Android and iOS are not supported according to Unity's WebGL specifications. "
+"(Actually, you can use it if you access it, but it is difficult to operate)"
+
+#: ../../source/man1/environ.rst:61
+msgid ""
+"通信量はあくまでも目安です。PWA対応のため通信はアプリの読み込み・アップデート時に"
+"しか原則として行わないようにしています。"
+msgstr ""
+"The traffic volume is only a guideline. In principle, communication is only "
+"performed when loading or updating the application because it is PWA compatible."
+
+#: ../../source/man1/environ.rst:62
 msgid "利用にあたりUnity本体や追加のライブラリ等は不要です。"
 msgstr "Unity itself and additional libraries are not required for use."
 
-#: ../../source/man1/environ.rst:59
-msgid "PWA（Progressive Wab App）対応のため、インストールしてブラウザから独立して利用可能です。"
-msgstr "Since it supports PWA (Progressive Wab App), it can be installed and used independently from the browser."
+#: ../../source/man1/environ.rst:63
+msgid ""
+"PWA（Progressive Wab App）対応のため、インストールしてブラウザから独立して利用可能"
+"です。"
+msgstr ""
+"Since it supports PWA (Progressive Wab App), it can be installed and used "
+"independently from the browser."
 
-#: ../../source/man1/environ.rst:60
+#: ../../source/man1/environ.rst:64
 msgid "Windows, macOS、Linuxは単独で動作するPC版も用意します。"
 msgstr "Windows, macOS, and Linux also have PC versions that run independently."
 
-#: ../../source/man1/environ.rst:61
-msgid "マウスジェスチャーのあるブラウザ・拡張機能は誤操作の可能性があるので事前にオフにするか後述のキー操作をする必要があります。"
-msgstr "Browsers/extensions with mouse gestures may result in incorrect operation. It is necessary to turn it off in advance or perform the key operation described later."
+#: ../../source/man1/environ.rst:65
+msgid ""
+"マウスジェスチャーのあるブラウザ・拡張機能は誤操作の可能性があるので事前にオフにす"
+"るか後述のキー操作をする必要があります。"
+msgstr ""
+"Browsers/extensions with mouse gestures may result in incorrect operation. It is "
+"necessary to turn it off in advance or perform the key operation described later."
 
-#: ../../source/man1/environ.rst:62
-msgid "初回以後、むやみにリロードはしないでください。アップデートは用意できましたらアプリ上で通知いたします。"
-msgstr "After the first time, do not reload more than necessary. When an update is ready, we will notify you on the app."
+#: ../../source/man1/environ.rst:66
+msgid ""
+"初回以後、むやみにリロードはしないでください。アップデートは用意できましたらアプリ"
+"上で通知いたします。"
+msgstr ""
+"After the first time, do not reload more than necessary. When an update is ready, "
+"we will notify you on the app."
+
+#~ msgid "※ASUS UX21A notebook PC"
+#~ msgstr "ASUS UX21A notebook PC"

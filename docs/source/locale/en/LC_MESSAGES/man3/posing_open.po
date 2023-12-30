@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-04 12:40+0900\n"
+"POT-Creation-Date: 2023-12-28 00:06+0900\n"
+"PO-Revision-Date: 2023-12-28 00:17+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,113 +18,306 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
-#: ../../source/man3/posing_open.rst:3
-msgid "VRoid/VRMのポーズを再現する"
-msgstr "Open VRoid/VRM poses"
+#: ../../source/man3/posing_open.rst:3 ../../source/man3/posing_open.rst:9
+msgid "ポーズ・モーションを開く"
+msgstr "Open pose/motion"
 
 #: ../../source/man3/posing_open.rst:6
+msgid "目次"
+msgstr "Contents"
+
+#: ../../source/man3/posing_open.rst:1 ../../source/man3/posing_open.rst:15
+msgid "ポーズ"
+msgstr "Pose"
+
+#: ../../source/man3/posing_open.rst:17
 msgid "保存したポーズをどのVRoid/VRMにでも即座に反映させることができます。"
 msgstr "The saved pose can be instantly reflected in any VRoid/VRM."
 
-#: ../../source/man3/posing_open.rst:8
+#: ../../source/man3/posing_open.rst:19 ../../source/man3/posing_open.rst:83
 msgid "「3Dモデル」タブの「ポーズ一覧」をクリックします。"
 msgstr "Click “Pose list” on the “3D model” tab."
 
-#: ../../source/man3/posing_open.rst:15
-msgid "ポーズ一覧のウィンドウが表示されるので目的のポーズを選び、「ポーズを適用」をクリックします。"
-msgstr "A window with a list of poses will be displayed. Select the desired pose and click ``Apply Pose`` ."
-
-#: ../../source/man3/posing_open.rst:23
-msgid ""
-"※保存時のモデルのキャラクターをサンプルアバターとして表記しています。また、参考情報として身長も表記しています。"
-msgstr ""
-"The model character at the time of saving is written as a sample avatar. In addition, the height is also indicated "
-"as reference information."
-
 #: ../../source/man3/posing_open.rst:26
+msgid "ポーズ一覧のウィンドウが表示されるので右端の「Pose」タブをクリックします。"
+msgstr "A pose list window will be displayed, so click the \"Pose\" tab on the far right."
+
+#: ../../source/man3/posing_open.rst:32
+msgid "目的のポーズを選び、「適用」をクリックします。"
+msgstr "Select the desired pose and click \"Apply\"."
+
+#: ../../source/man3/posing_open.rst:40
+msgid "※保存時のモデルのキャラクターをサンプルアバターとして表記しています。また、参考情報として身長も表記しています。"
+msgstr ""
+"The model character at the time of saving is written as a sample avatar. In addition, the height is also indicated as "
+"reference information."
+
+#: ../../source/man3/posing_open.rst:43
 msgid "ポーズが反映されたのを確認します。"
 msgstr "Confirm that the pose has been reflected."
 
-#: ../../source/man3/posing_open.rst:33
+#: ../../source/man3/posing_open.rst:50
 msgid ""
-"身長や体格が異なる他のキャラクターにも同じポーズを反映できます。（ただし、元のキャラクターから極端に差がある場合はず"
-"れることがあります）"
+"身長や体格が異なる他のキャラクターにも同じポーズを反映できます。（ただし、元のキャラクターから極端に差がある場合はずれること"
+"があります）"
 msgstr ""
-"The same pose can be applied to other characters with different heights and builds. (However, if there is an "
-"extreme difference from the original character, it may deviate.)"
+"The same pose can be applied to other characters with different heights and builds. (However, if there is an extreme "
+"difference from the original character, it may deviate.)"
 
-#: ../../source/man3/posing_open.rst:36
+#: ../../source/man3/posing_open.rst:53
 msgid ""
-"ポーズの保存時は実際にはVRoid/VRM自体の位置データも保存しています。その位置データも復元するには「アプリの設定」の"
-"「Model」タブの「ポーズのオープン時にグローバル座標をも適用する」にチェックを入れてください。"
+"ポーズの保存時は実際にはVRoid/VRM自体の位置データも保存しています。その位置データも復元するには「アプリの設定」の「Model」タ"
+"ブの「ポーズのオープン時にグローバル座標をも適用する」にチェックを入れてください。"
 msgstr ""
-"When saving a pose, the position data of the VRoid/VRM itself is also saved. To restore that position data, please "
-"check \"Also apply global coordinates when opening a pose\" in the \"Model\" tab of \"App Settings\"."
+"When saving a pose, the position data of the VRoid/VRM itself is also saved. To restore that position data, please check "
+"\"Also apply global coordinates when opening a pose\" in the \"Model\" tab of \"App Settings\"."
 
-#: ../../source/man3/posing_open.rst:44
+#: ../../source/man3/posing_open.rst:61
 msgid ""
-"違うキャラクターであっても全く同じ位置に復元されます。複数キャラクターを読み込んでいる場合には位置が重複するので必要"
-"に応じてオプションをオフにしてください。"
+"違うVRMであっても全く同じ位置に復元されます。複数のVRMを読み込んでいる場合には位置が重複するので必要に応じてオプションをオフ"
+"にしてください。"
 msgstr ""
-"Even if it is a different character, it will be restored to the exact same position. If you load multiple "
-"characters, the positions will be duplicated, so please turn off the option if necessary."
+"Even if it is a different VRM, it will be restored to the exact same location. If you are loading multiple VRMs, the "
+"positions will overlap, so please turn off the option as necessary."
 
-#: ../../source/man3/posing_open.rst:45
+#: ../../source/man3/posing_open.rst:62
 msgid ""
-"極端に体勢が崩れるポーズの場合は **1回の適用では反映しきれない** ことがあります（特にLowerLeg）。その場合はもう一度"
-"適用することでポーズが完全に再現されるようになります。"
+"極端に体勢が崩れるポーズの場合は **1回の適用では反映しきれない** ことがあります（特にLowerLeg）。その場合はもう一度適用する"
+"ことでポーズが完全に再現されるようになります。"
 msgstr ""
 "In the case of poses that are extremely unbalanced, **it may not be reflected in a single application** (especially "
 "LowerLeg). In that case, apply it again and the pose will be perfectly reproduced."
 
-#: ../../source/man3/posing_open.rst:48
+#: ../../source/man3/posing_open.rst:71
+msgid "モーションを開く"
+msgstr "open motion"
+
+#: ../../source/man3/posing_open.rst:73
 msgid ""
-"ポーズを再現するもう一つの手順として、 PC内に保存した .vvmposeファイルをWebGL画面にドラッグアンドドロップする方法も"
-"可能です。"
+"ver 2.3.0より、モーションを開く機能をこのウィンドウに統合しました。あらたに内部ストレージ・Googleドライブ・アプリのサンプル"
+"の保管に対応しました。"
 msgstr ""
-"Another way to reproduce the pose is to drag and drop the .vvmpose file saved on your PC onto the WebGL screen."
+"From ver 2.3.0, the function to open motion has been integrated into this window. Added support for internal storage, "
+"Google Drive, and application sample storage."
 
-#: ../../source/man3/posing_open.rst:50
+#: ../../source/man3/posing_open.rst:75
+msgid "モーションはVRMだけでなく、他のオブジェクトに対しても適用することができます。"
+msgstr "Motion can be applied not only to VRM but also to other objects."
+
+#: ../../source/man3/posing_open.rst:78
+msgid "モーションを適用するタイムラインを選択します。"
+msgstr "Select the timeline to which you want to apply the motion."
+
+#: ../../source/man3/posing_open.rst:81
 msgid ""
-"こちらの方法の場合、ポーズ一覧に登録していなくてもかまいません。 対象は **VRMに限りますが** エクスプローラー等からド"
-"ラッグしてくるだけでいつでもすぐにポーズを再現できます。"
+"オブジェクト一覧ではなく、タイムラインを選択してください。そうすればSystemEffectや各Audioにも正しくモーションを適用すること"
+"ができます。"
 msgstr ""
-"In the case of this method, it does not matter if it is not registered in the pose list. The target is limited to "
-"**VRM**, but you can immediately reproduce the pose by simply dragging it from Explorer etc."
+"Please select the timeline, not the object list. By doing so, you can apply motion correctly to SystemEffect and each audio."
 
-#: ../../source/man3/posing_open.rst:55
-msgid "ポーズを検索する"
-msgstr "Search pose"
+#: ../../source/man3/posing_open.rst:89
+msgid "ポーズ一覧のウィンドウが表示されるので右端の「Motion」タブをクリックします。"
+msgstr "A pose list window will be displayed, so click the \"Motion\" tab on the far right."
 
-#: ../../source/man3/posing_open.rst:57
+#: ../../source/man3/posing_open.rst:94
+msgid "目的のモーションを選び、「適用」をクリックします。"
+msgstr "Select the desired motion and click \"Apply\"."
+
+#: ../../source/man3/posing_open.rst:102
+msgid "モーションもドラッグアンドドロップに対応しています。"
+msgstr "Motion also supports drag and drop."
+
+#: ../../source/man3/posing_open.rst:105
+msgid ""
+"``オブジェクトの種類`` が選択中のタイムラインのオブジェクト（キャスト）の種類と異なる場合はモーションを適用することはできま"
+"せん。"
+msgstr "If the ``object type`` is different from the selected timeline object (cast) type, motion cannot be applied."
+
+#: ../../source/man3/posing_open.rst:108
+msgid "ポーズとモーションの別の読み込み方法"
+msgstr "Alternative ways to import poses and motions"
+
+#: ../../source/man3/posing_open.rst:110
+msgid ""
+"ポーズやモーションを読み込むもう一つの手順として、 PC内に保存した ``.vvmpose`` または ``.vvmmot`` ファイルをWebGL画面にド"
+"ラッグアンドドロップする方法も可能です。"
+msgstr ""
+"Another way to load poses and motions is to drag and drop a ``.vvmpose`` or ``.vvmmot`` file saved on your PC onto the "
+"WebGL screen."
+
+#: ../../source/man3/posing_open.rst:112
+msgid ""
+"こちらの方法の場合、ポーズ一覧に登録していなくてもかまいません。 ポーズファイルの場合 **VRMに限りますが** エクスプローラー等"
+"からドラッグしてくるだけでいつでもすぐにポーズを再現できます。"
+msgstr ""
+"If you use this method, you do not need to register it in the pose list. In the case of a pose file **VRM only** You can "
+"immediately reproduce the pose at any time by simply dragging it from Explorer, etc."
+
+#: ../../source/man3/posing_open.rst:114
+msgid "**モーションの場合**"
+msgstr "**For motion**"
+
+#: ../../source/man3/posing_open.rst:116
+msgid "モーションを適用したいタイムライン（ロール）を選択します。"
+msgstr "Select the timeline (roll) to which you want to apply the motion."
+
+#: ../../source/man3/posing_open.rst:117
+msgid "エクスプローラ等から ``.vvmmot`` ファイルをWebGL画面にドラッグアンドドロップします。"
+msgstr "Drag and drop the ``.vvmmot`` file from Explorer etc. onto the WebGL screen."
+
+#: ../../source/man3/posing_open.rst:120
+msgid "タイムライン（ロール）の種類が同じである必要があります。"
+msgstr "The timeline (role) types must be the same."
+
+#: ../../source/man3/posing_open.rst:121
+msgid "すでにモーションデータが存在する場合は上書きされますのでご注意ください（全部削除してから新規登録の扱い）。"
+msgstr "Please note that if motion data already exists, it will be overwritten (delete all before registering new data)."
+
+#: ../../source/man3/posing_open.rst:122
+msgid ""
+"現在のプロジェクトの最大フレーム数より多い場合、その最大フレーム数までにカットされます。事前にある程度フレーム数を拡張してお"
+"くことをオススメします。"
+msgstr ""
+"If the number of frames is greater than the maximum number of frames in the current project, it will be cut to that maximum "
+"number of frames. We recommend expanding the number of frames to some extent in advance."
+
+#: ../../source/man3/posing_open.rst:123
+msgid "ドラッグアンドドロップする場合、 ``.vvmmot`` の拡張子のみ有効です。（ ``.json`` では開けません）"
+msgstr "When dragging and dropping, only the ``.vvmmot`` extension is valid. (Cannot be opened with ``.json``)"
+
+#: ../../source/man3/posing_open.rst:124
+msgid ""
+"ドラッグアンドドロップする場合、現在選択中のキャストが何らかのタイムライン（ロール）に割り当てられている必要があります。（プ"
+"ロジェクトの設定画面から行う場合はロールに直接適用されるため、キャストが割り当てられていなくても問題ありません）"
+msgstr ""
+"When dragging and dropping, the currently selected cast must be assigned to some timeline (role). (If you do this from the "
+"project settings screen, it will be applied directly to the role, so there is no problem even if no cast is assigned.)"
+
+#: ../../source/man3/posing_open.rst:127
+msgid ""
+"モーションにかかる各フレームの時間(duration)はタイムラインごとに（さらにはフレームごとに）独立しているため、既存のプロジェク"
+"トに読み込ませても他のタイムラインに影響はありません。"
+msgstr ""
+"The duration of each frame of motion is independent for each timeline (and even for each frame), so importing it into an "
+"existing project will not affect other timelines."
+
+#: ../../source/man3/posing_open.rst:132
+msgid "その他機能"
+msgstr "Other functions"
+
+#: ../../source/man3/posing_open.rst:139
+msgid "ポーズの読み込み場所を変更する"
+msgstr "Change the pose loading location"
+
+#: ../../source/man3/posing_open.rst:141
+msgid "ver 2.3.0から対応しました。ポーズを保存してある次の場所を自由に切り替えることができます。"
+msgstr "Supported from ver 2.3.0. You can freely switch between the locations where poses are saved."
+
+#: ../../source/man3/posing_open.rst:1
+msgid "名称"
+msgstr "Name"
+
+#: ../../source/man3/posing_open.rst:1
+msgid "説明"
+msgstr "Description"
+
+#: ../../source/man3/posing_open.rst:1
+msgid "Internal Storage"
+msgstr "Internal Storage"
+
+#: ../../source/man3/posing_open.rst:1
+msgid "内部ストレージから読み込みます。デフォルトの状態です。"
+msgstr "Load from internal storage. This is the default state."
+
+#: ../../source/man3/posing_open.rst:1
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: ../../source/man3/posing_open.rst:1
+msgid "Googleドライブから読み込みます。別途Googleドライブの設定が必要です。"
+msgstr "Load from Google Drive. Separate Google Drive settings are required."
+
+#: ../../source/man3/posing_open.rst:1
+msgid "Application"
+msgstr "Application"
+
+#: ../../source/man3/posing_open.rst:1
+msgid "本アプリのサンプルを読み込みます。"
+msgstr "Load the sample of this application."
+
+#: ../../source/man3/posing_open.rst:151
+msgid "ツールバーの中央にあるコンボボックスをクリックし、選択します。"
+msgstr "Click the combo box in the center of the toolbar to make your selection."
+
+#: ../../source/man3/posing_open.rst:152
+msgid ""
+"Google DriveおよびApplicationの場合、読み込みがしばらく発生した後、保存されているポーズが表示されます。Internal Storageの場"
+"合は即座に表示されます。"
+msgstr ""
+"For Google Drive and Application, saved poses will be displayed after loading occurs for a while. Internal Storage is "
+"displayed immediately."
+
+#: ../../source/man3/posing_open.rst:156
+msgid "ポーズ・モーションを検索する"
+msgstr "Search poses/motions"
+
+#: ../../source/man3/posing_open.rst:158
 msgid "本アプリの他の一覧部分と同様に、インクリメンタルサーチができます。"
 msgstr "Incremental search is possible in the same way as other lists in this application."
 
-#: ../../source/man3/posing_open.rst:67
-msgid "ディスクからポーズファイルを読み込む"
-msgstr "Load pose file from disk"
+#: ../../source/man3/posing_open.rst:168
+msgid "ディスクからポーズ・モーションファイルを読み込む"
+msgstr "Load pose/motion files from disk"
 
-#: ../../source/man3/posing_open.rst:70
+#: ../../source/man3/posing_open.rst:171
 msgid ""
-"PCのディスクに保存したポーズファイルをアプリに読み込ませることができます。ポーズ一覧のアップロードボタンを押してくだ"
-"さい。"
+"PCのディスクに保存したポーズやモーションファイルをアプリに読み込ませることができます。ポーズ一覧のアップロードボタンを押して"
+"ください。"
 msgstr ""
-"You can load the pose file saved on your PC's disk into the app. Please push the upload button of the pose list."
+"You can load poses and motion files saved on your PC's disk into the app. Please press the upload button for the pose list."
 
-#: ../../source/man3/posing_open.rst:77
-msgid "対象のファイルは **.vvmpose** または **.json** です。"
+#: ../../source/man3/posing_open.rst:173
+msgid "読み込み場所が ``Internal Storage`` の場合のみ使用可能です。"
+msgstr ""
+
+#: ../../source/man3/posing_open.rst:180
+msgid "対象のファイル"
+msgstr ""
+
+#: ../../source/man3/posing_open.rst:1
+msgid "種類"
+msgstr ""
+
+#: ../../source/man3/posing_open.rst:1
+msgid "拡張子"
+msgstr ""
+
+#: ../../source/man3/posing_open.rst:1
+#, fuzzy
+msgid "**.vvmpose** または **.json**"
 msgstr "The target file is **.vvmpose** or **.json**."
 
-#: ../../source/man3/posing_open.rst:78
+#: ../../source/man3/posing_open.rst:1
+msgid "モーション"
+msgstr ""
+
+#: ../../source/man3/posing_open.rst:1
+#, fuzzy
+msgid "**.vvmmot** または **.json**"
+msgstr "The target file is **.vvmpose** or **.json**."
+
+#: ../../source/man3/posing_open.rst:187
+#, fuzzy
 msgid ""
-"本アプリ独自拡張子の「**.vvmpose**」はあくまで判別のしやすさのためだけのものですが、 .jsonのままだと他と混同するおそ"
-"れがあるので間違えないように気をつけてください。"
+"本アプリ独自拡張子の **.vvmpose** や **.vvmmot** はあくまで判別のしやすさのためだけのものですが、 .jsonのままだと他と混同す"
+"るおそれがあるので間違えないように気をつけてください。"
 msgstr "The extension \"**.vvmpose**\" unique to this application is only for ease of identification. Please attach."
 
-#: ../../source/man3/posing_open.rst:80
-msgid "読み込み終わると一覧に表示されるようになります。（サムネイルはなくても問題ありません）"
+#: ../../source/man3/posing_open.rst:189
+#, fuzzy
+msgid "読み込み終わると一覧に表示されるようになります。（ポーズの場合、サムネイルはなくても問題ありません）"
 msgstr "When it finishes loading, it will be displayed in the list. (It doesn't matter if there is no thumbnail)"
 
 #: ../../source/man3/posing_open.rst
@@ -134,3 +327,6 @@ msgstr "If the data does not contain the necessary items, an error will occur wh
 #: ../../source/man3/posing_open.rst
 msgid "※正しくないデータを読み込んだ場合の動作は保証致しません。"
 msgstr "Operation is not guaranteed if incorrect data is read."
+
+#~ msgid "VRoid/VRMのポーズを再現する"
+#~ msgstr "Open VRoid/VRM poses"

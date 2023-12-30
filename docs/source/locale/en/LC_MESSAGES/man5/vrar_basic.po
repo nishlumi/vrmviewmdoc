@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-30 09:39+0900\n"
+"PO-Revision-Date: 2023-12-30 09:41+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: ../../source/man5/vrar_basic.rst:3
+msgid "VR/ARの基本"
+msgstr "Basics of VR/AR"
+
+#: ../../source/man5/vrar_basic.rst:5
+msgid "目次"
+msgstr "Contents"
+
+#: ../../source/man5/vrar_basic.rst:11
+msgid "確認済みの環境・機能"
+msgstr "Confirmed environments/functions"
+
+#: ../../source/man5/vrar_basic.rst:13
+msgid ""
+"本アプリでのVR/ARは、通常のアプリ画面と切り替えて使用します。常にVR/AR状態ではありませんので、VR機器でも通常画面を使用することもでき"
+"ます。"
+msgstr ""
+"VR/AR in this app is used by switching from the normal app screen. Since it is not always in VR/AR state, you can also use the "
+"normal screen on VR devices."
+
+#: ../../source/man5/vrar_basic.rst:15
+msgid "Meta Questのブラウザ(VR/AR)"
+msgstr "Meta Quest browser (VR/AR)"
+
+#: ../../source/man5/vrar_basic.rst:16
+msgid "PICO のブラウザ(VR/AR)"
+msgstr "PICO browser (VR/AR)"
+
+#: ../../source/man5/vrar_basic.rst:17
+msgid "Quest Linkにて接続したPC上のブラウザ(PWA含む)(VR)"
+msgstr "Browser (including PWA) on a PC connected via Quest Link (VR)"
+
+#: ../../source/man5/vrar_basic.rst:20
+msgid ""
+"Quest Linkの接続は、Air Linkよりも有線接続の方をお勧めします。Air LinkでもVR機器のブラウザより遥かに高速な動作を期待できますが、実際"
+"にモーションを動かすとチラつきが発生します。"
+msgstr ""
+"For Quest Link connection, we recommend a wired connection rather than Air Link. Even with Air Link, you can expect much faster "
+"operation than the browser of a VR device, but flickering will occur when you actually move the motion."
+
+#: ../../source/man5/vrar_basic.rst:21
+msgid ""
+"ブラウザのページの倍率を **80%程度** に縮小すると、通常画面での利用もしやすくなります。（Oculus Linkによる利用では解像度が高いため、"
+"ページの倍率は特に必要ないと思われます）"
+msgstr ""
+"If you reduce the page magnification of your browser to **about 80%**, it will be easier to use on the normal screen. (Since the "
+"resolution is high when using Oculus Link, page magnification is not particularly necessary.)"
+
+#: ../../source/man5/vrar_basic.rst:29
+msgid "制限事項"
+msgstr "Limitations"
+
+#: ../../source/man5/vrar_basic.rst:31
+msgid "Quest Linkにて接続したPC上の各OS版（Electron版）ではVR/AR両方とも利用できません。"
+msgstr "Both VR/AR cannot be used on each OS version (Electron version) on a PC connected via Quest Link."
+
+#: ../../source/man5/vrar_basic.rst:32
+msgid ""
+"本アプリはWebGLビルドのためブラウザが利用できる各端末の性能に大きく依存します。各OSネイティブアプリよりも制限があります。また、通常"
+"画面とVR/AR画面切り替えもある程度負荷があるため、プロジェクト・モーション・ポーズいずれかのファイル形式で **こまめに保存すること** "
+"をお勧めします。"
+msgstr ""
+"Since this application is built with WebGL, it is highly dependent on the performance of each device that can use the browser. Each "
+"OS has more limitations than native apps. Also, switching between the normal screen and the VR/AR screen requires some effort, so "
+"we recommend that you **save frequently** in either project, motion, or pose file format."
+
+#: ../../source/man5/vrar_basic.rst:33
+msgid ""
+"CameraオブジェクトはVR/AR空間では再生できません。OtherObjectのレンダーテクスチャ機能と組み合わせて使えばVR/AR空間でも別のカメラから"
+"の映像を見ることができます。"
+msgstr ""
+"Camera objects cannot be played in VR/AR space. If you use it in combination with OtherObject's render texture function, you can "
+"view images from another camera even in VR/AR space."
+
+#: ../../source/man5/vrar_basic.rst:34
+msgid "SystemEffectはVR/AR空間には反映されません。"
+msgstr "SystemEffect is not reflected in VR/AR space."
+
+#: ../../source/man5/vrar_basic.rst:38
+msgid "別ウィンドウを開く機能について"
+msgstr "About the function to open a separate window"
+
+#: ../../source/man5/vrar_basic.rst:40
+msgid "キーフレーム設定ウィンドウやポーズ・モーションウィンドウなど、別のウィンドウが開く機能はタブに置き換わります。"
+msgstr "Functions that open another window, such as the keyframe setting window and pose/motion window, are replaced with tabs."
+
+#: ../../source/man5/vrar_basic.rst:43
+msgid "Meta Quest3"
+msgstr "Meta Quest3"
+
+#: ../../source/man5/vrar_basic.rst:43
+msgid "タブを別のウィンドウにドラッグして分離できるので、2画面以上で本アプリを使用できるようになるでしょう。"
+msgstr "Since you can separate tabs by dragging them to another window, you will be able to use this app on two or more screens."
+
+#: ../../source/man5/vrar_basic.rst:51
+msgid "PICO4"
+msgstr "PICO4"
+
+#: ../../source/man5/vrar_basic.rst:46
+msgid ""
+"PICO4のブラウザはPWA方式によるウェブアプリのインストールを行うことができます。しかしながらPICO4上でウェブアプリ化した状態で別ウィン"
+"ドウを開く機能を使うと、ウェブアプリの画面そのものがそのウィンドウに置き換わってしまうことを確認しています。"
+msgstr ""
+"The PICO4 browser can install web applications using the PWA method. However, we have confirmed that if you use the function to "
+"open a separate window while converting it into a web application on PICO4, the web application screen itself will be replaced with "
+"that window."
+
+#: ../../source/man5/vrar_basic.rst:48
+msgid "どうやらPICOの仕様と思われます。"
+msgstr "Apparently this is a PICO specification."
+
+#: ../../source/man5/vrar_basic.rst:50
+msgid "PICO4でもブラウザでの使用をお勧めします。"
+msgstr "We recommend using PICO4 in a browser."
+
+#: ../../source/man5/vrar_basic.rst:56
+msgid "VR/AR空間への入り方"
+msgstr "How to enter VR/AR space"
+
+#: ../../source/man5/vrar_basic.rst:58
+msgid "リボンバーのホームタブにある ``VR`` または ``AR`` ボタンをクリックします。"
+msgstr "Click the ``VR`` or ``AR`` button on the Home tab of the ribbon bar."
+
+#: ../../source/man5/vrar_basic.rst:66
+msgid "利用できない環境の場合、それぞれのボタンを押すことは出来ません。"
+msgstr "If the environment is unavailable, you will not be able to press the respective buttons."
+
+#: ../../source/man5/vrar_basic.rst:70
+msgid "撮影"
+msgstr "photograph"
+
+#: ../../source/man5/vrar_basic.rst:72
+msgid "VR機器では標準でスクリーンショット・録画機能が備わっているため、それらを使うことを推奨します。"
+msgstr "VR devices come with screenshot and recording functions as standard, so we recommend using them."
+
+#: ../../source/man5/vrar_basic.rst:74
+msgid "本アプリのスクリーンショット・録画機能も一応利用可能です。"
+msgstr "You can also use the screenshot and recording functions of this app."

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 21:30+0900\n"
+"POT-Creation-Date: 2023-12-26 11:46+0900\n"
+"PO-Revision-Date: 2023-12-28 00:07+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man1/screen_timeline.rst:5
 msgid "タイムライン"
@@ -84,17 +84,15 @@ msgid "登録済みのキーフレームにマウスカーソルを当てると�
 msgstr "If you place the mouse cursor over a registered keyframe, you can check the current settings in a popup."
 
 #: ../../source/man1/screen_timeline.rst
-msgid "E  子キー操作バー"
-msgstr "E child key bar"
+msgid "E  パネル拡大・縮小ボタン"
+msgstr "E Panel enlarge/reduce button"
 
 #: ../../source/man1/screen_timeline.rst:41
-msgid "左から・・・子キー登録、子キー選択ボックス、子キー削除"
-msgstr "From left: child key registration, child key selection box, child key deletion"
-
-#: ../../source/man1/screen_timeline.rst
-msgid "F  パネル拡大・縮小ボタン"
-msgstr "F Panel enlargement/reduction button"
-
-#: ../../source/man1/screen_timeline.rst:44
 msgid "タイムラインのパネルを拡大、縮小（ツールバーのみ）を切り替えます。"
 msgstr "Toggles between expanding and contracting the timeline panel (toolbar only)."
+
+#~ msgid "E  子キー操作バー"
+#~ msgstr "E child key bar"
+
+#~ msgid "左から・・・子キー登録、子キー選択ボックス、子キー削除"
+#~ msgstr "From left: child key registration, child key selection box, child key deletion"

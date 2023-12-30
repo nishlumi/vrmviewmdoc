@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-04 15:30+0900\n"
+"POT-Creation-Date: 2023-12-29 16:24+0900\n"
+"PO-Revision-Date: 2023-12-29 16:26+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man5/photograph.rst:3
 msgid "スクリーンショット"
@@ -52,19 +52,19 @@ msgstr "homecap"
 msgid "screencap"
 msgstr "screencap"
 
-#: ../../source/man5/photograph.rst:23
+#: ../../source/man5/photograph.rst:1
 msgid "ホームタブ"
 msgstr "Home tab"
 
-#: ../../source/man5/photograph.rst:23
+#: ../../source/man5/photograph.rst:1
 msgid "画面タブ"
 msgstr "Screen tab"
 
-#: ../../source/man5/photograph.rst:25
+#: ../../source/man5/photograph.rst:1
 msgid "|homecap|"
 msgstr "|homecap|"
 
-#: ../../source/man5/photograph.rst:25
+#: ../../source/man5/photograph.rst:1
 msgid "|screencap|"
 msgstr "|screencap|"
 
@@ -120,50 +120,86 @@ msgstr "Remove"
 msgid "ローカルディスクに保存"
 msgstr "Save to local disk"
 
-#: ../../source/man5/photograph.rst:69
-msgid "Cameraオブジェクトが1つ以上存在する場合、いずれかでプレビューをするとその映像がスクリーンショットの対象になります。すべてをプレビュー停止すると、メインカメラからの映像に戻ります。"
-msgstr "If there is more than one Camera object, previewing with one of them will make that image the target of the screenshot. When you stop previewing everything, it will return to the image from the main camera."
+#: ../../source/man5/photograph.rst:61
+msgid "共有（ver 2.3.0より）"
+msgstr "Share (from ver 2.3.0)"
 
-#: ../../source/man5/photograph.rst:71
-msgid "ビューポートやレンダーテクスチャ中のプレビューも反映されてしまうため、必要に応じて設定の「スクリーンショットをHTMLの機能で撮影する」をONにしてください。そうするとWebGL画面に写った(Cameraオブジェクトのビューポートやレンダーテクスチャ含め)そのままがスクリーンショットになります。"
-msgstr "Since the preview in the viewport and render texture is also reflected, please turn on \"Take screenshots with HTML function\" in the settings as necessary. Then, the screen shot will be taken as it is (including the camera object viewport and render texture) on the WebGL screen."
+#: ../../source/man5/photograph.rst:70
+msgid ""
+"Cameraオブジェクトが1つ以上存在する場合、いずれかでプレビューをするとその映像がスクリーンショットの対象になります。すべてをプレビュー停止すると、メインカ"
+"メラからの映像に戻ります。"
+msgstr ""
+"If there is more than one Camera object, previewing with one of them will make that image the target of the screenshot. When you stop previewing "
+"everything, it will return to the image from the main camera."
 
-#: ../../source/man5/photograph.rst:79
+#: ../../source/man5/photograph.rst:72
+msgid ""
+"ビューポートやレンダーテクスチャ中のプレビューも反映されてしまうため、必要に応じて設定の「スクリーンショットをHTMLの機能で撮影する」をONにしてください。そ"
+"うするとWebGL画面に写った(Cameraオブジェクトのビューポートやレンダーテクスチャ含め)そのままがスクリーンショットになります。"
+msgstr ""
+"Since the preview in the viewport and render texture is also reflected, please turn on \"Take screenshots with HTML function\" in the settings as "
+"necessary. Then, the screen shot will be taken as it is (including the camera object viewport and render texture) on the WebGL screen."
+
+#: ../../source/man5/photograph.rst:80
 msgid "探す"
 msgstr "Search"
 
-#: ../../source/man5/photograph.rst:81
+#: ../../source/man5/photograph.rst:82
 msgid "撮影したスクリーンショットは日付順に管理されており、カレンダーから特定の日付だけを探すことが可能です。"
 msgstr "The screenshots taken are managed in date order, and it is possible to search for specific dates from the calendar."
 
-#: ../../source/man5/photograph.rst:88
+#: ../../source/man5/photograph.rst:89
 msgid "スクリーンショットがある日付は日にちの色が濃くなっていてクリックできるようになっています。"
 msgstr "Dates with screenshots are darkened and clickable."
 
-#: ../../source/man5/photograph.rst:90
+#: ../../source/man5/photograph.rst:91
 msgid "色が濃くなっている日にちをクリックします。"
 msgstr "Click the darkened date."
 
-#: ../../source/man5/photograph.rst:91
+#: ../../source/man5/photograph.rst:92
 msgid "スクリーンショット一覧の表示内容が更新され、選択した日にちのスクリーンショットが並びます。"
 msgstr "The displayed contents of the screenshot list are updated, and the screenshots for the selected date are displayed."
 
-#: ../../source/man5/photograph.rst:96
+#: ../../source/man5/photograph.rst:97
 msgid "保存する"
 msgstr "Save"
 
-#: ../../source/man5/photograph.rst:98
+#: ../../source/man5/photograph.rst:99
 msgid "dwnbtn"
 msgstr "dwnbtn"
 
-#: ../../source/man5/photograph.rst:100
+#: ../../source/man5/photograph.rst:101
 msgid "保存したいスクリーンショットを選択します。"
 msgstr "Select the screenshot you want to save."
 
-#: ../../source/man5/photograph.rst:101
+#: ../../source/man5/photograph.rst:102
 msgid "ツールバー上のこのボタン |dwnbtn| を押します。"
 msgstr "Press this button |dwnbtn| on the toolbar."
 
-#: ../../source/man5/photograph.rst:104
+#: ../../source/man5/photograph.rst:105
 msgid "※ブラウザからの利用の場合、右クリックでも画像をクリップボードにコピーしたりその他機能を利用可能です。"
 msgstr "When using from a browser, you can also copy the image to the clipboard and use other functions by right-clicking."
+
+#: ../../source/man5/photograph.rst:108
+msgid "共有する"
+msgstr "Share"
+
+#: ../../source/man5/photograph.rst:110
+msgid "ver 2.3.0より、画像の共有に対応しました。"
+msgstr "From ver 2.3.0, image sharing is supported."
+
+#: ../../source/man5/photograph.rst:112
+msgid "shrbtn"
+msgstr "shrbtn"
+
+#: ../../source/man5/photograph.rst:114
+msgid "共有したいスクリーンショットを選択します。"
+msgstr "Select the screenshot you want to share."
+
+#: ../../source/man5/photograph.rst:115
+msgid "ツールバー上の |shrbtn| 共有ボタンを押します。"
+msgstr "Press the |shrbtn| share button on the toolbar."
+
+#: ../../source/man5/photograph.rst:116
+msgid "各OSごとに共有機能のウィンドウが表示されるので、送りたい先のアプリを選択します。"
+msgstr "A sharing function window will be displayed for each OS, so select the app you want to send."

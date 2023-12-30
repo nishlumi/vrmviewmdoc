@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 20:38+0900\n"
+"POT-Creation-Date: 2023-12-26 12:22+0900\n"
+"PO-Revision-Date: 2023-12-26 12:23+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man1/menu_home.rst:5
 msgid "ホームタブ"
@@ -28,7 +28,7 @@ msgstr "Home tab"
 msgid "ホームにはよく使う機能のボタンを集めてあります。"
 msgstr "The home screen has buttons for frequently used functions."
 
-#: ../../source/man1/menu_home.rst:34
+#: ../../source/man1/menu_home.rst:37
 msgid "Application"
 msgstr "Application"
 
@@ -48,47 +48,57 @@ msgstr "Clear cache"
 msgid "ファイルの開いた履歴や一時ファイルを一括で削除します。"
 msgstr "Deletes file open history and temporary files all at once."
 
-#: ../../source/man1/menu_home.rst:28
+#: ../../source/man1/menu_home.rst:29
 msgid "WebGLの動作を整理する"
 msgstr "Organize the operation of WebGL"
 
-#: ../../source/man1/menu_home.rst:28
-msgid "HTMLのUIを操作したときにWebGL内が動かなくなったときに動作をチェックして不要なキャッシュをクリアします。"
-msgstr "Check the behavior and clear unnecessary caches when WebGL gets stuck when you operate the HTML UI."
+#: ../../source/man1/menu_home.rst:30
+msgid ""
+"HTMLのUIを操作したときにWebGL内が動かなくなったときに動作をチェックして"
+"不要なキャッシュをクリアします。"
+msgstr ""
+"Check the behavior and clear unnecessary caches when WebGL gets stuck "
+"when you operate the HTML UI."
 
-#: ../../source/man1/menu_home.rst:29
+#: ../../source/man1/menu_home.rst:31
 msgid "アプリのキャッシュをクリアする"
 msgstr "Clear the app cache"
 
-#: ../../source/man1/menu_home.rst:29
+#: ../../source/man1/menu_home.rst:32
 msgid "アプリ内で一時的に保持するだけのデータをまとめて削除します。"
 msgstr "Delete all the data that is only temporarily stored in the app."
 
-#: ../../source/man1/menu_home.rst:30
+#: ../../source/man1/menu_home.rst:33
 msgid "アプリの設定を削除する"
 msgstr "Delete app settings"
 
-#: ../../source/man1/menu_home.rst:30
-msgid "アプリの設定で示される設定内容をすべて削除してデフォルトの状態に戻します。"
-msgstr "Deletes all the settings shown in the app settings and restores them to their default state."
+#: ../../source/man1/menu_home.rst:34
+msgid ""
+"アプリの設定で示される設定内容をすべて削除してデフォルトの状態に戻しま"
+"す。"
+msgstr ""
+"Deletes all the settings shown in the app settings and restores them to "
+"their default state."
 
 #: ../../source/man1/menu_home.rst
 msgid "言語選択"
 msgstr "Language selection"
 
-#: ../../source/man1/menu_home.rst:34
+#: ../../source/man1/menu_home.rst:37
 msgid "本アプリのUI言語を切り替えます。一部UIは次回起動後に反映されます。"
-msgstr "Switch the UI language of this application. Some UI will be reflected after the next startup."
+msgstr ""
+"Switch the UI language of this application. Some UI will be reflected "
+"after the next startup."
 
 #: ../../source/man1/menu_home.rst
 msgid "詳細情報"
 msgstr "Detailed information"
 
-#: ../../source/man1/menu_home.rst:37
+#: ../../source/man1/menu_home.rst:40
 msgid "選択したVRMの情報を表示します。"
 msgstr "Displays information for the selected VRM."
 
-#: ../../source/man1/menu_home.rst:43
+#: ../../source/man1/menu_home.rst:46
 msgid "Load"
 msgstr "Load"
 
@@ -96,7 +106,7 @@ msgstr "Load"
 msgid "VRM"
 msgstr "VRM"
 
-#: ../../source/man1/menu_home.rst:41
+#: ../../source/man1/menu_home.rst:44
 msgid "VRMを開いて読み込みます。"
 msgstr "Open and load VRM."
 
@@ -104,11 +114,11 @@ msgstr "Open and load VRM."
 msgid "オブジェクト"
 msgstr "Object"
 
-#: ../../source/man1/menu_home.rst:43
+#: ../../source/man1/menu_home.rst:46
 msgid "FBXやOBJなどを開いて読み込みます。"
 msgstr "Open and load FBX, OBJ, etc."
 
-#: ../../source/man1/menu_home.rst:49
+#: ../../source/man1/menu_home.rst:52
 msgid "Project"
 msgstr "Project"
 
@@ -116,7 +126,7 @@ msgstr "Project"
 msgid "開く"
 msgstr "Open"
 
-#: ../../source/man1/menu_home.rst:47
+#: ../../source/man1/menu_home.rst:50
 msgid "既存のアニメーションプロジェクトファイルを開きます。"
 msgstr "Open an existing animation project file."
 
@@ -124,23 +134,31 @@ msgstr "Open an existing animation project file."
 msgid "保存"
 msgstr "Save"
 
-#: ../../source/man1/menu_home.rst:49
-msgid "現在のアニメーションプロジェクトをファイルに保存します。このタブでは **上書き保存** と同等です。"
-msgstr "Save the current animation project to a file. Equivalent to **Save** in this tab."
+#: ../../source/man1/menu_home.rst:52
+msgid ""
+"現在のアニメーションプロジェクトをファイルに保存します。このタブでは **"
+"上書き保存** と同等です。"
+msgstr ""
+"Save the current animation project to a file. Equivalent to **Save** in "
+"this tab."
 
 #: ../../source/man1/menu_home.rst
 msgid "履歴"
 msgstr "History"
 
-#: ../../source/man1/menu_home.rst:52
-msgid "一度開いたことの各オブジェクト（VRM、OtherObject、画像）を開くダイアログを表示します。"
-msgstr "Displays a dialog to open each object (VRM, OtherObject, Image) once opened."
+#: ../../source/man1/menu_home.rst:55
+msgid ""
+"一度開いたことの各オブジェクト（VRM、OtherObject、画像）を開くダイアログ"
+"を表示します。"
+msgstr ""
+"Displays a dialog to open each object (VRM, OtherObject, Image) once "
+"opened."
 
 #: ../../source/man1/menu_home.rst
 msgid "キャプチャ"
 msgstr "capture"
 
-#: ../../source/man1/menu_home.rst:55
+#: ../../source/man1/menu_home.rst:58
 msgid "現在のWebGLの画面をスクリーンショットを撮って保存します。"
 msgstr "Take a screenshot of the current WebGL screen and save it."
 
@@ -148,7 +166,7 @@ msgstr "Take a screenshot of the current WebGL screen and save it."
 msgid "設定"
 msgstr "Config"
 
-#: ../../source/man1/menu_home.rst:58
+#: ../../source/man1/menu_home.rst:61
 msgid "本アプリの設定画面を表示します。"
 msgstr "Display the setting screen of this application."
 
@@ -156,6 +174,22 @@ msgstr "Display the setting screen of this application."
 msgid "v-pad"
 msgstr "v-pad"
 
-#: ../../source/man1/menu_home.rst:60
+#: ../../source/man1/menu_home.rst:63
 msgid "メインカメラの操作パッドを表示します。"
 msgstr "Displays the operation pad of the main camera."
+
+#: ../../source/man1/menu_home.rst
+msgid "VR"
+msgstr "VR"
+
+#: ../../source/man1/menu_home.rst:66
+msgid "VR機器でVR空間への表示に切り替えます。"
+msgstr "Switch to display in VR space with VR device."
+
+#: ../../source/man1/menu_home.rst
+msgid "AR"
+msgstr "AR"
+
+#: ../../source/man1/menu_home.rst:69
+msgid "VR機器でAR空間への表示に切り替えます。"
+msgstr "Switch to displaying in AR space with VR equipment."

@@ -74,6 +74,16 @@
 ダークテーマを使用する
     　アプリの見た目をダークテーマに変更します。
 
+キーフレーム登録ダイアログを外部ウィンドウ化する
+    　キーフレームの登録ダイアログはアプリ内ウィンドウまたは外部ウィンドウどちらかで表示可能です。このダイアログを一般的なPCアプリのように、外部ウィンドウで表示させます。
+
+V-pad
+    回転速度
+        V-padで回転を操作する際の速度を調整します。0.01～0.1までで0.01単位です。
+    
+    移動速度
+        V-padで移動を操作する際の速度を調整します。0.1～2までで0.01単位です。
+
 |
 
 .. index:: ファイルタブ（設定）
@@ -218,6 +228,42 @@ VRMの体に自然な稼働制御を適用する
 .. hint::
     PC版の場合は各OSのサウンドの設定に従ってください。
 
+前回指定した間隔とイージングを記憶する（キーフレーム登録ダイアログ）
+    キーフレーム登録ダイアログにて、前回入力した時間の間隔や選択したイージングを記憶させます。
+
+.. index:: 
+    ファイルローダタブ（設定）
+    Google Drive拡張機能
+    GoogleAppsScript
+
+.. _config_fileloader:
+
+ファイルローダタブ
+------------------------
+
+　Googleドライブから読み込んだり保存可能にする拡張機能に関する設定です。この機能を使用するためには、ユーザー側で事前にGoogleアカウントの取得と、GoogleAppsScriptの設定が必要になります。
+
+詳しくは下記を御覧ください。
+
+:vrmviewmeister-gdrive-extension - Github:
+    https://github.com/nishlumi/vrmviewmeister-gdrive-extension
+:インストール方法 - Github:
+    https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst
+:Googleスライドによるインストール方法:
+    https://docs.google.com/presentation/d/e/2PACX-1vQP2RstLGn82dh_FOqBfbPPBGvx9o-YQXc-3ol8Gk4_IseKrzsgs0hgAt0h4uYX2kA71ENrnI-XXbBf/pub?start=false&loop=false&delayms=3000&slide=id.p
+
+Googleドライブの読み込み拡張機能のURL
+    チェックを入れることで読み込み機能を有効化します。
+
+URL
+    別途ユーザー各自に用意してもらうGoogleAppsScriptのウェブアプリのURLを入力する欄です。
+
+APIKEY
+    GoogleAppsScript内でユーザー各自が決めたAPIKEYを入力する欄です。
+
+ユーザーフォルダのID
+    | Project, Motion, Pose, VRM, OtherObject, Imageそれぞれの読み込み場所となるフォルダIDを入力する欄です。これらを指定するとそのフォルダのみから読み込みます。
+    | 指定がない場合はドライブのすべての場所から検索して読み込むため、動作に時間がかかる可能性があります。
 
 .. index:: 
     素材
