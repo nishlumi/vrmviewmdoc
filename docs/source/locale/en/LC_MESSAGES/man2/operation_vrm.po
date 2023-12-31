@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-28 00:06+0900\n"
-"PO-Revision-Date: 2023-12-28 00:09+0900\n"
+"POT-Creation-Date: 2023-12-31 21:44+0900\n"
+"PO-Revision-Date: 2023-12-31 21:45+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -827,15 +827,31 @@ msgstr "Blend shapes are determined for each VRM file, and the number that can b
 msgid "各シェイプキーの横のスライダーを0～100までの間で動かしてください。"
 msgstr "Move the slider next to each shape key between 0 and 100."
 
-#: ../../source/man2/operation_vrm.rst:421
+#: ../../source/man2/operation_vrm.rst:420
+msgid ""
+"ver 2.3.0より、チェックボックスをONにした場合のみキーフレームに登録されるように変更しました。スライダーを動かすと自動的にチェックボックスに"
+"チェックが入るようになっています。"
+msgstr ""
+"From ver 2.3.0, it has been changed so that it is registered as a key frame only when the check box is turned on. When you move the "
+"slider, the checkbox is automatically checked."
+
+#: ../../source/man2/operation_vrm.rst:422
+msgid "もし登録を望まないシェイプの場合はチェックを外せばそのシェイプの値は保存されません。"
+msgstr "If you do not want to register a shape, uncheck it and the value of that shape will not be saved."
+
+#: ../../source/man2/operation_vrm.rst:424
+msgid "これにより、モーションやプロジェクトに保存されるブレンドシェイプも本当に変更したものだけになり、ファイルサイズの削減を実現しました。"
+msgstr "As a result, only the truly modified blendshapes are saved in motions and projects, reducing file size."
+
+#: ../../source/man2/operation_vrm.rst:427
 msgid "Search（検索ボックス）"
 msgstr "Search"
 
-#: ../../source/man2/operation_vrm.rst:421
+#: ../../source/man2/operation_vrm.rst:427
 msgid "ブレンドシェイプ名でインクリメンタルサーチできます。空欄の場合はすべてのブレンドシェイプが表示されます。"
 msgstr "You can incrementally search by blendshape name. If blank, all blendshapes will be displayed."
 
-#: ../../source/man2/operation_vrm.rst:450
+#: ../../source/man2/operation_vrm.rst:456
 msgid "専用のブレンドシェイプと共通のブレンドシェイプ"
 msgstr "Dedicated and common blendshapes"
 
@@ -843,7 +859,7 @@ msgstr "Dedicated and common blendshapes"
 msgid "専用"
 msgstr "Exclusive"
 
-#: ../../source/man2/operation_vrm.rst:426
+#: ../../source/man2/operation_vrm.rst:432
 msgid ""
 "各VRM独自のシェイプです。こちらにあるシェイプを後述のモーションやポーズファイルにして別のVRMに適用しても、再現されない可能性があります。"
 msgstr ""
@@ -854,7 +870,7 @@ msgstr ""
 msgid "共通"
 msgstr "Common"
 
-#: ../../source/man2/operation_vrm.rst:428
+#: ../../source/man2/operation_vrm.rst:434
 msgid ""
 "VRM1.0モデル、VRM0.xからのマイグレーションモデルにかぎらずすべてに共通のシェイプです。こちらにあるシェイプはモーションやポーズファイルに入"
 "れれば他のVRMでも再現されます。"
@@ -862,11 +878,11 @@ msgstr ""
 "It is a shape common to all, regardless of whether it is a VRM1.0 model or a migration model from VRM0.x. The shapes here can be "
 "reproduced in other VRMs by putting them in a motion or pose file."
 
-#: ../../source/man2/operation_vrm.rst:430
+#: ../../source/man2/operation_vrm.rst:436
 msgid "VRM1.x対応により、名称を変更しました。"
 msgstr "The name has been changed to support VRM1.x."
 
-#: ../../source/man2/operation_vrm.rst:432
+#: ../../source/man2/operation_vrm.rst:438
 msgid ""
 "VRM 1.0の仕様により、SkinnedMeshRendererのブレンドシェイプの挙動に影響があり、本アプリでもSkinnedMeshRendererを利用していた ``汎用`` の一部"
 "のシェイプが機能しなくなりました。本アプリでは互換性を維持して使用可能になっていますが、混乱を招きかねないため、次のように名称を変更しまし"
@@ -900,15 +916,15 @@ msgstr "Ver 1.x"
 msgid "汎用"
 msgstr "Generally"
 
-#: ../../source/man2/operation_vrm.rst:442
+#: ../../source/man2/operation_vrm.rst:448
 msgid "``専用`` が **これまでとは逆になって** いますのでご注意ください。"
 msgstr "Note that ``private`` is **reversed** ."
 
-#: ../../source/man2/operation_vrm.rst:445
+#: ../../source/man2/operation_vrm.rst:451
 msgid "もともとのExpressionはすべてのVRMで共通のシェイプが最低限備わっているだけです。"
 msgstr "The original Expression only has the bare minimum of common shapes for all VRMs."
 
-#: ../../source/man2/operation_vrm.rst:446
+#: ../../source/man2/operation_vrm.rst:452
 msgid ""
 "他所様のアプリではExpressionとしての数は少ない可能性がありますが、本来はそちらが標準の状態です。本アプリは互換性重視のため、 **独自の改良で"
 "すべてのブレンドシェイプをExpressionとして使える** ようにしてあります。"
@@ -916,41 +932,41 @@ msgstr ""
 "There is a possibility that the number of Expressions in other apps is small, but that is the standard state. This application emphasizes "
 "**compatibility, so we have made it possible to use all blendshapes as Expressions** with our own improvements."
 
-#: ../../source/man2/operation_vrm.rst:453
+#: ../../source/man2/operation_vrm.rst:459
 msgid "自動まばたき"
 msgstr "Automatic blink"
 
-#: ../../source/man2/operation_vrm.rst:455
+#: ../../source/man2/operation_vrm.rst:461
 msgid "自動まばたきは指定のタイミングでVRMにまばたきをさせ続けます。"
 msgstr "Auto blink keeps VRM blinking at the specified timing."
 
-#: ../../source/man2/operation_vrm.rst:462
+#: ../../source/man2/operation_vrm.rst:468
 msgid "アニメーションのキーフレームとは別に動き続けるため、ブレンドシェイプで目の開閉を一からキーフレームに組み込む必要がありません。"
 msgstr ""
 "It keeps moving independently of the animation keyframes, so you don't have to incorporate the opening and closing of the eyes into the "
 "keyframes from scratch with blendshapes."
 
-#: ../../source/man2/operation_vrm.rst:465
+#: ../../source/man2/operation_vrm.rst:471
 msgid "まばたきの間隔・まぶたを開ける秒数・閉じる秒数・閉じている秒数"
 msgstr "Blink interval, number of seconds the eyelids open, number of seconds closed, number of seconds closed"
 
-#: ../../source/man2/operation_vrm.rst:465
+#: ../../source/man2/operation_vrm.rst:471
 msgid "それぞれを指定することで目の動きだけでも表情を感じさせることができます。"
 msgstr "By specifying each of them, you can feel the expression even with the movement of the eyes."
 
-#: ../../source/man2/operation_vrm.rst:467
+#: ../../source/man2/operation_vrm.rst:473
 msgid "デフォルトではオンです。不要な場合は「自動まばたきを有効」のチェックを外してオフにしてください。"
 msgstr "It is on by default. If you don't need it, uncheck \"Enable automatic blink\" to turn it off."
 
-#: ../../source/man2/operation_vrm.rst:470
+#: ../../source/man2/operation_vrm.rst:476
 msgid "目のブレンドシェイプと競合します。使う際はどちらか一方にすることをオススメします。"
 msgstr "Competes with the eye blendshape. We recommend that you use one or the other."
 
-#: ../../source/man2/operation_vrm.rst:478
+#: ../../source/man2/operation_vrm.rst:484
 msgid "オブジェクトの装着"
 msgstr "wearing an object"
 
-#: ../../source/man2/operation_vrm.rst:480
+#: ../../source/man2/operation_vrm.rst:486
 msgid ""
 "VRoid/VRMの特定の体の部位にFBXやObj・Lightなど別のオブジェクトを紐付け、動きを連動させることができます。右のプロパティの「オブジェクトの装"
 "着」タブを開いてください。"
@@ -958,23 +974,23 @@ msgstr ""
 "You can link different objects such as FBX, Obj, Light, etc. to specific body parts of VRoid/VRM and link their movements. Open the "
 "\"Attach Objects\" tab in the properties on the right."
 
-#: ../../source/man2/operation_vrm.rst:487
+#: ../../source/man2/operation_vrm.rst:493
 msgid "あらかじめ別のオブジェクトを追加しておきます。"
 msgstr "Add another object in advance."
 
-#: ../../source/man2/operation_vrm.rst:495
+#: ../../source/man2/operation_vrm.rst:501
 msgid "※位置や回転は紐付けたい体の部位に合わせて調整しておきます。"
 msgstr "Adjust the position and rotation according to the part of the body you want to tie."
 
-#: ../../source/man2/operation_vrm.rst:497
+#: ../../source/man2/operation_vrm.rst:503
 msgid "VRoid/VRMを選択し、対象の体の部位を選択し、追加ボタンをクリックします。"
 msgstr "Select VRoid/VRM, select the target body part, and click the Add button."
 
-#: ../../source/man2/operation_vrm.rst:503
+#: ../../source/man2/operation_vrm.rst:509
 msgid "紐付けたいオブジェクトを選択し、「OK」ボタンを押します。"
 msgstr "Select the object you want to link and press the \"OK\" button."
 
-#: ../../source/man2/operation_vrm.rst:510
+#: ../../source/man2/operation_vrm.rst:516
 msgid "装着可能なオブジェクトは次のとおりです。"
 msgstr "Wearable objects are:"
 
@@ -1002,15 +1018,15 @@ msgstr "Camera"
 msgid "Effect"
 msgstr "Effect"
 
-#: ../../source/man2/operation_vrm.rst:524
+#: ../../source/man2/operation_vrm.rst:530
 msgid "装着したオブジェクトの情報が表示されるようになります。"
 msgstr "Information about the attached object will be displayed."
 
-#: ../../source/man2/operation_vrm.rst:529
+#: ../../source/man2/operation_vrm.rst:535
 msgid "以後、体の部位に合わせて装着したオブジェクトも連動して動くようになります。"
 msgstr "After that, the object attached to the part of the body will also move in conjunction with it."
 
-#: ../../source/man2/operation_vrm.rst:530
+#: ../../source/man2/operation_vrm.rst:536
 msgid "右端の削除ボタンで装着を解除できます。"
 msgstr "You can remove it with the delete button on the far right."
 
@@ -1030,7 +1046,7 @@ msgstr ""
 msgid "各種プロパティは装着前に設定しておくようにしてください。"
 msgstr "Be sure to set various properties before mounting."
 
-#: ../../source/man2/operation_vrm.rst:538
+#: ../../source/man2/operation_vrm.rst:544
 msgid "アニメーションプロジェクトでのオブジェクトの装着について"
 msgstr "About wearing objects in animation projects"
 
@@ -1046,11 +1062,11 @@ msgstr ""
 msgid "次の順序でキーフレームに登録するとよいでしょう。"
 msgstr "It is a good idea to register to the keyframes in the following order."
 
-#: ../../source/man2/operation_vrm.rst:544
+#: ../../source/man2/operation_vrm.rst:550
 msgid "例:"
 msgstr "Example:"
 
-#: ../../source/man2/operation_vrm.rst:544
+#: ../../source/man2/operation_vrm.rst:550
 msgid "VRMの右手に剣の3Dオブジェクトを装着する"
 msgstr "Equip a 3D sword object on the VRM's right hand"
 
@@ -1094,11 +1110,11 @@ msgstr "**Release** the sword attached to the right hand"
 msgid "このときの位置・回転のままキーフレームに登録"
 msgstr "Register the position and rotation at this time to the key frame"
 
-#: ../../source/man2/operation_vrm.rst:556
+#: ../../source/man2/operation_vrm.rst:562
 msgid "2～10フレームの間はその他オブジェクトのプロパティを変更することはできません。"
 msgstr "Other object properties cannot be changed between 2 and 10 frames."
 
-#: ../../source/man2/operation_vrm.rst:557
+#: ../../source/man2/operation_vrm.rst:563
 msgid ""
 "アニメーションにおけるポイントは、開始時点と終了時点で装着の状態が同じ状態になっていることです。例えば1フレーム目で装着なし、10フレーム目で"
 "装着ありのまま、フレーム操作をしたり再び再生ボタンを押すと、オブジェクトの位置が次第にズレていくことがあります。"
@@ -1107,11 +1123,11 @@ msgstr ""
 "attachments and the 10th frame is with attachments, if you operate the frame or press the play button again, the position of the object "
 "may gradually shift."
 
-#: ../../source/man2/operation_vrm.rst:562
+#: ../../source/man2/operation_vrm.rst:568
 msgid "重力の設定"
 msgstr "gravity settings"
 
-#: ../../source/man2/operation_vrm.rst:564
+#: ../../source/man2/operation_vrm.rst:570
 msgid ""
 "VRoid/VRMが持つボーンには重力の設定が標準で備わっています。ボーンは通常はゲームやモーションなどの演出時にUnity標準の衝突判定の機能によって"
 "自動的に動きます。"
@@ -1119,40 +1135,40 @@ msgstr ""
 "The bones of VRoid/VRM have gravity settings as standard. Bones usually move automatically by Unity's standard collision detection "
 "function during game and motion production."
 
-#: ../../source/man2/operation_vrm.rst:566
+#: ../../source/man2/operation_vrm.rst:572
 msgid "本アプリでもVRoid/VRMが動いた時に髪の毛がなびいたりしますが、それを手動で細かく調整することができます。"
 msgstr "Even with this app, hair flutters when the VRoid/VRM moves, but you can make fine adjustments manually."
 
-#: ../../source/man2/operation_vrm.rst:568
+#: ../../source/man2/operation_vrm.rst:574
 msgid "本アプリのみの効果となりますが、例えばスカートがめくれすぎる現象をこの重力の設定によって修正することができます。"
 msgstr ""
 "Although this is an effect only for this application, for example, you can correct the phenomenon that the skirt is turned up too much by "
 "setting this gravity."
 
-#: ../../source/man2/operation_vrm.rst:573
+#: ../../source/man2/operation_vrm.rst:579
 msgid "後述のStageの風の効果と設定が競合します。風を使用する場合はこの機能を使わないでください。"
 msgstr "Conflicts with the stage wind effects and settings described below. Do not use this feature when using wind."
 
-#: ../../source/man2/operation_vrm.rst:580
+#: ../../source/man2/operation_vrm.rst:586
 msgid "操作中のVRMが持つボーンの重力設定の情報がスプレッドシート上に羅列されます。ここで表示されるボーンは次のものです。"
 msgstr ""
 "Information on the gravity settings of bones owned by the VRM being operated is listed on the spreadsheet. The bones displayed here are:"
 
-#: ../../source/man2/operation_vrm.rst:582
+#: ../../source/man2/operation_vrm.rst:588
 msgid "VRM自体が持つ（VRoidStudioでの作成中にすでに保持している）ボーン"
 msgstr "Bones that the VRM itself has (already held during creation in VRoidStudio)"
 
-#: ../../source/man2/operation_vrm.rst:583
+#: ../../source/man2/operation_vrm.rst:589
 msgid "Unityエディタや拙作VRMOneEditorなどのツールでVRMに後付けした3Dモデルが保持しているボーン"
 msgstr "Bones held by 3D models retrofitted to VRM with tools such as the Unity editor and my work VRMOneEditor"
 
-#: ../../source/man2/operation_vrm.rst:585
+#: ../../source/man2/operation_vrm.rst:591
 msgid "なお、一度UniVRMにて変換を経ているはずなので、ボーンの情報としては ``VRMSpringBone`` コンポーネントに依存しています。"
 msgstr ""
 "In addition, since it should have gone through conversion with UniVRM once, it depends on the ``VRMSpringBone`` component for bone "
 "information."
 
-#: ../../source/man2/operation_vrm.rst:587
+#: ../../source/man2/operation_vrm.rst:593
 msgid "何がどのボーンに実際に位置するのかはVRoidStudioやUnity上であらかじめ確認しておいてください。変更可能なセルは次のセルです。"
 msgstr "Please check in advance on VRoidStudio or Unity which bones are actually located. The cells that can be changed are:"
 
@@ -1172,26 +1188,26 @@ msgstr "**Direction X / Y / Z**"
 msgid "そのボーンにかかる重力の方向の強さ(-1 ～ 1)"
 msgstr "Directional strength of gravity on that bone (-1 to 1)"
 
-#: ../../source/man2/operation_vrm.rst:595
+#: ../../source/man2/operation_vrm.rst:601
 msgid "各Directionの -1 は負の向きです。例えばY軸なら下に向かうようになります。(1 だと上に向かいます)"
 msgstr "-1 for each Direction is the negative direction. For example, the Y axis will be downward. (1 means up)"
 
-#: ../../source/man2/operation_vrm.rst:596
+#: ../../source/man2/operation_vrm.rst:602
 msgid "重力によるボーンのなびき具合は　``Power * Direction`` で反映されます。"
 msgstr "``Power * Direction`` reflects how the bones flutter due to gravity."
 
-#: ../../source/man2/operation_vrm.rst:597
+#: ../../source/man2/operation_vrm.rst:603
 msgid "最新の情報を読み直すにはツールバーの読み込みボタンを押してください。"
 msgstr "To reload the latest information, press the load button on the toolbar."
 
-#: ../../source/man2/operation_vrm.rst:601
+#: ../../source/man2/operation_vrm.rst:607
 msgid "テクスチャ"
 msgstr "Texture"
 
-#: ../../source/man2/operation_vrm.rst:603
+#: ../../source/man2/operation_vrm.rst:609
 msgid "VRMが保持しているテクスチャを細かく設定変更することができます。なお、OtherObjectのほうの設定と使用方法は全く同じです。"
 msgstr "You can change the settings of textures held by VRM in detail. The setting and usage of OtherObject are exactly the same."
 
-#: ../../source/man2/operation_vrm.rst:605
+#: ../../source/man2/operation_vrm.rst:611
 msgid "詳しくは :doc:`operation_texture` を御覧ください。"
 msgstr "See :doc:`operation_texture` for details."
