@@ -66,7 +66,7 @@
 =============================
 
 :シェーダー:
-    ``Standard`` ,  ``VRM/MToon`` , ``VRM10/MToon10`` , ``Water``, ``Sketch``, ``PostSketch``, ``Comic``, ``Ice`` のいずれかを選択します。
+    ``Standard`` ,  ``VRM/MToon`` , ``VRM10/MToon10`` , ``Water``, ``Sketch``, ``PostSketch``, ``Comic``, ``Ice`` , ``Pixelize`` , ``Cutout`` のいずれかを選択します。
 
 .. caution::
    * テクスチャの変更はこのアプリの使用中のみで実際には変更されません。
@@ -159,6 +159,13 @@ Water
 :波の揺れ幅、波の周波数、波の急勾配、波の速度、波方向AB、波方向CD:
     波の頻度や大きさなどを変化させます。
 
+.. image:: ../img/prop_obj_4g.jpg
+    :align: center
+
+水面以外の目的でこのシェーダーを適用するとオブジェクトがゆらゆら揺れ動くように描画されます。
+
+|
+
 
 Sketch、PostSketch
 -------------------------
@@ -172,6 +179,19 @@ Sketch、PostSketch
 :マルチブライトネス:
 :影の明るさ:
     Sketchのみです。
+
+
+.. |img_ske| image:: ../img/prop_obj_4f.jpg
+.. |img_pske| image:: ../img/prop_obj_4e.jpg
+
+.. csv-table::
+    :header-rows: 1
+
+    Sketch , PostSketch
+    |img_ske| , |img_pske|
+    適用したオブジェクト自体がスケッチ風に描画されます。, 適用したオブジェクトを通して他のオブジェクトがスケッチ風に描画されます。
+
+|
 
 .. admonition:: 配布・購入先
 
@@ -192,6 +212,11 @@ Comic
     線や影の色を変えます。
 :トーンのしきい値:
     トーンの範囲を変えます。
+
+.. image:: ../img/prop_obj_4d.jpg
+    :align: center
+
+|
 
 .. admonition:: 配布先
 
@@ -215,11 +240,19 @@ Ice
 :ねじれ:
     氷に反射したものの形のねじれ具合を変えます。
 
+.. image:: ../img/prop_obj_4b.jpg
+    :align: center
+
+|
+
 .. admonition:: 配布先
 
     Xin Games様
     
     https://booth.pm/ja/items/2138863
+
+.. caution::
+    このシェーダーはAR空間では正しく表示されないことがあります。
 
 |
 
@@ -230,4 +263,27 @@ PixelizeTexture
 
 :ピクセルサイズ:
     ピクセル化するテクスチャのサイズです。これを大きくすればするほどモザイク的になります。
+
+.. image:: ../img/prop_obj_4c.jpg
+    :align: center
+
+|
+
+Cutout
+---------------------
+
+このシェーダーを適用したオブジェクトは透明になります。そしてこのオブジェクトに重なったり背後にある別のオブジェクトは、このオブジェクトの形でくり抜かれたように表示されます。
+
+:色:
+    実際には設定しても意味がありません。
+
+
+.. image:: ../img/prop_obj_4.jpg
+    :align: center
+
+|
+
+.. hint::
+    このシェーダーはVR/ARでも効果があります。
+
 
