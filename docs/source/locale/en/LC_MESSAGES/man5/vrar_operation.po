@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-30 18:13+0900\n"
-"PO-Revision-Date: 2023-12-30 18:17+0900\n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:54+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -134,7 +134,7 @@ msgid "右スティックを前・後ろに倒す"
 msgstr "Move the right stick forward/backward"
 
 #: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:44
-#: ../../source/man5/vrar_operation.rst:58 ../../source/man5/vrar_operation.rst:132
+#: ../../source/man5/vrar_operation.rst:58 ../../source/man5/vrar_operation.rst:134
 msgid "右手の仮想コントローラ"
 msgstr "right hand virtual controller"
 
@@ -183,11 +183,13 @@ msgstr ""
 
 #: ../../source/man5/vrar_operation.rst:63
 msgid ""
-"VRM全体を掴んで動かすことはできません。VRM全体を動かすには後述の仮想コントローラ"
-"で操作する必要があります。"
+"VRM全体を掴んで動かすには、 ``IK、全身`` のプロパティから、 ``移動モード`` をONに"
+"してください。すると他のIKマーカー同様に掴んで動かすことができます。後述の仮想コ"
+"ントローラでも操作することが可能です。"
 msgstr ""
-"You cannot grab the entire VRM and move it. To move the entire VRM, you need to "
-"operate it using the virtual controller described below."
+"To grab and move the entire VRM, turn on ``Move Mode`` from the ``IK, Whole "
+"Body`` property. You can then grab and move it like any other IK marker. It can "
+"also be operated using the virtual controller described later."
 
 #: ../../source/man5/vrar_operation.rst:64
 msgid "VR/AR空間では全てのIKマーカーが同時に表示されるようになっています。"
@@ -462,6 +464,14 @@ msgstr "rightctrl06"
 msgid "rightctrl07"
 msgstr "rightctrl07"
 
+#: ../../source/man5/vrar_operation.rst:131
+msgid "rightctrl08"
+msgstr "rightctrl08"
+
+#: ../../source/man5/vrar_operation.rst:132
+msgid "rightctrl09"
+msgstr "rightctrl09"
+
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|rightctrl01|"
 msgstr "|rightctrl01|"
@@ -499,12 +509,8 @@ msgid "|rightctrl05|"
 msgstr "|rightctrl05|"
 
 #: ../../source/man5/vrar_operation.rst:1
-msgid ""
-"操作対象を ``現在選択中の3Dオブジェクト`` にします。VRM全体を動かすにはこれに切り"
-"替える必要があります。"
-msgstr ""
-"Sets the operation target to the ``currently selected 3D object``. You need to "
-"switch to this to run the entire VRM."
+msgid "操作対象を ``現在選択中の3Dオブジェクト`` にします。"
+msgstr "Sets the operation target to the ``currently selected 3D object``."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|rightctrl06|"
@@ -522,19 +528,35 @@ msgstr "|rightctrl07|"
 msgid "操作モードを ``回転`` にします。"
 msgstr "Set the operation mode to ``rotate`` ."
 
-#: ../../source/man5/vrar_operation.rst:143
+#: ../../source/man5/vrar_operation.rst:1
+msgid "|rightctrl08|"
+msgstr "|rightctrl08|"
+
+#: ../../source/man5/vrar_operation.rst:1
+msgid "現在選択中のオブジェクトの位置をリセットします。"
+msgstr "Resets the position of the currently selected object."
+
+#: ../../source/man5/vrar_operation.rst:1
+msgid "|rightctrl09|"
+msgstr "|rightctrl09|"
+
+#: ../../source/man5/vrar_operation.rst:1
+msgid "現在選択中のオブジェクトの回転をリセットします。"
+msgstr "Resets the rotation of the currently selected object."
+
+#: ../../source/man5/vrar_operation.rst:147
 msgid "上記以外の操作は通常画面に戻って行ってください。"
 msgstr "For operations other than those listed above, return to the normal screen."
 
-#: ../../source/man5/vrar_operation.rst:146
+#: ../../source/man5/vrar_operation.rst:150
 msgid "操作のまとめ"
 msgstr "Summary of operations"
 
-#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:182
+#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:186
 msgid "Meta Quest 3"
 msgstr "Meta Quest 3"
 
-#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:185
+#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:190
 msgid "PICO4"
 msgstr "PICO4"
 
@@ -586,7 +608,7 @@ msgstr "Moving/rotating VRM"
 msgid "VRM以外の移動・回転"
 msgstr "Moving/rotating other than VRM"
 
-#: ../../source/man5/vrar_operation.rst:160
+#: ../../source/man5/vrar_operation.rst:164
 msgid ""
 "本アプリのメインカメラとVR機器のカメラ（視点）にズレが生じた場合、各VR機器を操作"
 "して視点を中央に戻してください。"
@@ -595,7 +617,7 @@ msgstr ""
 "(viewpoint) of the VR device, please operate each VR device to return the "
 "viewpoint to the center."
 
-#: ../../source/man5/vrar_operation.rst:163
+#: ../../source/man5/vrar_operation.rst:167
 msgid ""
 "PICO4のブラウザアプリでは、コントローラのBとYはブラウザの ``戻る`` に機能が割り当"
 "てられていると思われます。そのため、誤って押した場合は確認メッセージをよく見て操"
@@ -605,11 +627,11 @@ msgstr ""
 "to the browser's ``back`` button. Therefore, if you press it by mistake, "
 "carefully read the confirmation message before proceeding."
 
-#: ../../source/man5/vrar_operation.rst:169
+#: ../../source/man5/vrar_operation.rst:173
 msgid "便利な操作機能"
 msgstr "Convenient operation functions"
 
-#: ../../source/man5/vrar_operation.rst:171
+#: ../../source/man5/vrar_operation.rst:175
 msgid ""
 "VR機器だとマウスに相当するのがコントローラです。ただしマウスと異なり細かい作業に"
 "向きません。本アプリではマウスが使えない環境でもある程度操作できるように、 ``V-"
@@ -620,11 +642,11 @@ msgstr ""
 "``V-pad`` so that you can operate it to some extent even in environments where "
 "you cannot use a mouse."
 
-#: ../../source/man5/vrar_operation.rst:173
+#: ../../source/man5/vrar_operation.rst:177
 msgid "VR機器でもそれを使えば、通常画面を操作できます。"
 msgstr "You can also use it on VR devices to operate the regular screen."
 
-#: ../../source/man5/vrar_operation.rst:178
+#: ../../source/man5/vrar_operation.rst:182
 msgid ""
 "このV-padはそれぞれの四角の中をスワイプすることによってメインカメラを移動したり回"
 "転できます。VR機器では、製品によって若干操作感が変わります。"
@@ -633,15 +655,15 @@ msgstr ""
 "square. The operating feel of VR devices varies slightly depending on the "
 "product."
 
-#: ../../source/man5/vrar_operation.rst:181
 #: ../../source/man5/vrar_operation.rst:185
+#: ../../source/man5/vrar_operation.rst:189
 msgid ""
 "トリガーを押しながらV-pad内の四角の中をコントローラを動かすことで操作できます。"
 msgstr ""
 "You can operate by holding down the trigger and moving the controller inside the "
 "square inside the V-pad."
 
-#: ../../source/man5/vrar_operation.rst:182
+#: ../../source/man5/vrar_operation.rst:186
 msgid ""
 "メインカメラの回転は両方のコントローラのトリガーを押しながらWebGL画面にフォーカス"
 "を当てると操作できます。"
@@ -649,10 +671,25 @@ msgstr ""
 "You can rotate the main camera by holding the triggers on both controllers and "
 "focusing on the WebGL screen."
 
-#: ../../source/man5/vrar_operation.rst:186
+#: ../../source/man5/vrar_operation.rst:190
 msgid ""
 "V-pad内の四角の中をスティックで動かすだけで操作できます。 ``一番お勧め`` の操作方"
 "法です。"
 msgstr ""
 "You can operate it by simply moving the stick within the squares on the V-pad. "
 "This is the ``most recommended`` method of operation."
+
+#: ../../source/man5/vrar_operation.rst:193
+msgid ""
+"反応速度が良すぎる場合があります。その場合は設定の ``アプリケーション`` から、V-"
+"padの移動速度と回転速度を調整してください。"
+msgstr ""
+"The reaction rate may be too fast. In that case, please adjust the movement "
+"speed and rotation speed of the V-pad from ``Application`` in the settings."
+
+#~ msgid ""
+#~ "VRM全体を掴んで動かすことはできません。VRM全体を動かすには後述の仮想コントロー"
+#~ "ラで操作する必要があります。"
+#~ msgstr ""
+#~ "You cannot grab the entire VRM and move it. To move the entire VRM, you need "
+#~ "to operate it using the virtual controller described below."

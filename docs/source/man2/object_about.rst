@@ -9,33 +9,22 @@
 | 　本アプリで扱えるオブジェクトは次のように定義しています。
 
 
-.. list-table::
+.. csv-table::
     :header-rows: 1
 
-    * - 種類
-      - 説明
-    * - VRM
-      - 本アプリでメインの3Dモデルオブジェクトです。
-    * - OtherObject
-      - FBX、Obj、STXなどのその他の3Dオブジェクトです。 [1]_
-    * - Light
-      - Unity標準機能によるライトオブジェクトです。
-    * - Camera
-      - Unity標準機能によるカメラオブジェクトです。
-    * - Effect
-      - Unity標準機能によるエフェクトオブジェクトです。
-    * - Image
-      - jpgやpngなどの2D画像を3Dオブジェクトとして読み込みます。扱いはOtherObjectと同等です。
-    * - Text
-      - 3Dオブジェクトではありません。WebGL画面に主にセリフ表示やユーザーインターフェース目的で表示するテキストオブジェクトです。
-    * - UImage(UI画像)
-      - Textと同様で、主にユーザーインターフェース目的で使用する2D画像です。
-    * - SystemEffect
-      - 画面効果です。
-    * - Audio
-      - BGMやSEとして使うオーディオオブジェクトです。
-    * - Stage
-      - 地面や空、風などの地形・舞台を扱います。
+    種類, 説明
+    VRM, 本アプリでメインの3Dモデルオブジェクトです。
+    OtherObject, FBX、Obj、STXなどのその他の3Dオブジェクトです。 [1]_
+    Light, Unity標準機能によるライトオブジェクトです。
+    Camera, Unity標準機能によるカメラオブジェクトです。
+    Effect, Unity標準機能によるエフェクトオブジェクトです。
+    Image, jpgやpngなどの2D画像を3Dオブジェクトとして読み込みます。扱いはOtherObjectと同等です。
+    Text, 3Dオブジェクトではありません。WebGL画面に主にセリフ表示やユーザーインターフェース目的で表示するテキストオブジェクトです。
+    UImage(UI画像), Textと同様で、主にユーザーインターフェース目的で使用する2D画像です。
+    SystemEffect, 画面効果です。
+    Audio, BGMやSEとして使うオーディオオブジェクトです。
+    Stage, 地面や空、風などの地形・舞台を扱います。
+    Text3D, 3Dオブジェクトとしてのテキストです。ver 2.4.0 より導入しました。扱いはOtherObjectと同等です。
 
 .. [1] TriLib2で対応可能なフォーマットすべて（https://ricardoreis.net/trilib-2/）
 

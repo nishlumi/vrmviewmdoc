@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-29 12:52+0900\n"
-"PO-Revision-Date: 2023-12-29 12:58+0900\n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:50+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -191,8 +191,12 @@ msgid "これを自分のドライブにコピーするのが一番簡単です�
 msgstr "The easiest way is to copy this to your own drive. After copying, it doesn't matter which folder you move it to."
 
 #: ../../source/man5/gen_use_cloud.rst:76
-msgid "上記サンプルプロジェクト内のスクリプトを直接実行しないでください。ユーザーのGoogleへのアクセス権限の許可を求めてしまいます。"
-msgstr "Please do not run the script in the above sample project directly. It will ask the user for permission to access Google."
+msgid ""
+"上記サンプルプロジェクト内のスクリプトを直接実行しないでください。開発者のユーザー権限のまま、ユーザーのGoogleへのアクセス権限の許可を求めてし"
+"まいます。"
+msgstr ""
+"Please do not run the script in the above sample project directly. The developer's user privileges remain, but the user is asked for "
+"permission to access Google."
 
 #: ../../source/man5/gen_use_cloud.rst:78
 msgid "必ず自分のGoogleドライブにコピーしたスクリプトプロジェクトを使ってください。"
@@ -202,9 +206,9 @@ msgstr "Be sure to use the script project you copied to your Google Drive."
 msgid "インストール手順は下記を参考にしてください。"
 msgstr "Please refer to the link below for installation instructions."
 
-#: ../../source/man5/gen_use_cloud.rst
-msgid "Googleスライドによるインストール方法 - Googleスライド"
-msgstr "Installation instructions by Google Slides - Google Slides"
+#: ../../source/man5/gen_use_cloud.rst:83
+msgid "Googleスライドによるインストール方法 - Googleスライド:"
+msgstr "How to install using Google Slides - Google Slides:"
 
 #: ../../source/man5/gen_use_cloud.rst:84
 msgid ""
@@ -214,9 +218,9 @@ msgstr ""
 "https://docs.google.com/presentation/d/e/2PACX-1vQP2RstLGn82dh_FOqBfbPPBGvx9o-YQXc-3ol8Gk4_IseKrzsgs0hgAt0h4uYX2kA71ENrnI-XXbBf/pub?"
 "start=false&loop=false&delayms=3000&slide=id.p"
 
-#: ../../source/man5/gen_use_cloud.rst
-msgid "インストール方法 - Github"
-msgstr "How to Install - Github"
+#: ../../source/man5/gen_use_cloud.rst:86
+msgid "インストール方法 - Github:"
+msgstr "Installation method - Github:"
 
 #: ../../source/man5/gen_use_cloud.rst:86 ../../source/man5/gen_use_cloud.rst:118
 msgid "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst"
@@ -230,9 +234,9 @@ msgstr "Github"
 msgid "下記リポジトリでもソースを公開していますので、何をしているか参考にしてください。"
 msgstr "The source is also published in the repository below, so please refer to it to see what we are doing."
 
-#: ../../source/man5/gen_use_cloud.rst
-msgid "vrmviewmeister-gdrive-extension - Github"
-msgstr "vrmviewmeister-gdrive-extension - Github"
+#: ../../source/man5/gen_use_cloud.rst:94
+msgid "vrmviewmeister-gdrive-extension - Github:"
+msgstr "vrmviewmeister-gdrive-extension - Github:"
 
 #: ../../source/man5/gen_use_cloud.rst:94
 msgid "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/"
@@ -259,10 +263,9 @@ msgid "デプロイして、ウェブアプリのURLをコピーする"
 msgstr "Deploy and copy the web app URL"
 
 #: ../../source/man5/gen_use_cloud.rst:105
-msgid "一般的にGoogle APIを使うウェブサービスだと2の操作が、そのサービスからGoogleにログインを求められる操作に相当します。"
+msgid "一般的にGoogle APIを使うウェブサービスだと ``2の操作`` が、そのサービスからGoogleにログインを求められる操作に相当します。"
 msgstr ""
-"Generally, for web services that use Google APIs, the operation in step 2 corresponds to the operation that requires the service to log in to "
-"Google."
+"Generally, for web services that use Google APIs, ``operation 2`` corresponds to the operation that requires the service to log in to Google."
 
 #: ../../source/man5/gen_use_cloud.rst:107
 msgid "本アプリにおいては事前にスクリプトプロジェクト内で自分で行っていただくので、本アプリを使う上でGoogleへログインする手間は不要です。"
@@ -275,6 +278,10 @@ msgstr "Update script"
 #: ../../source/man5/gen_use_cloud.rst:115
 msgid "今後上記スクリプトプロジェクトを更新することがあります。その場合は次のページの手順を実施してください。"
 msgstr "The above script project may be updated in the future. In that case, please follow the steps on the next page."
+
+#: ../../source/man5/gen_use_cloud.rst
+msgid "インストール方法 - Github"
+msgstr "How to Install - Github"
 
 #: ../../source/man5/gen_use_cloud.rst:121
 msgid "更新後のスクリプトを自分のスクリプトプロジェクトにまるごと貼り付ける"
@@ -352,17 +359,53 @@ msgstr "Animation tab:"
 msgid "プロジェクトの開くメニューで次の機能を使えます。"
 msgstr "The following functions are available in the project's Open menu:"
 
-#: ../../source/man5/gen_use_cloud.rst:162
+#: ../../source/man5/gen_use_cloud.rst:163
 msgid "ポーズ・モーション一覧"
 msgstr "Pose/motion list"
 
-#: ../../source/man5/gen_use_cloud.rst:162
+#: ../../source/man5/gen_use_cloud.rst:163
 msgid "読み込み場所:"
 msgstr "Load location:"
 
 #: ../../source/man5/gen_use_cloud.rst:162
 msgid "``Google Drive`` を選択可能になります。"
 msgstr "You will be able to select ``Google Drive`` ."
+
+#: ../../source/man5/gen_use_cloud.rst:166
+msgid "ユーザーフォルダ"
+msgstr "User folder"
+
+#: ../../source/man5/gen_use_cloud.rst:168
+msgid "設定画面のファイルローダータブには ``ユーザーフォルダのID`` という入力欄があります。"
+msgstr "On the file loader tab of the settings screen, there is an input field called ``User Folder ID``."
+
+#: ../../source/man5/gen_use_cloud.rst:173
+msgid ""
+"これは各ファイルを置いているフォルダを限定する設定です。デフォルトではユーザーのGoogleドライブの全てのフォルダから各ファイルを探そうとします。"
+"そのため **スクリプトの実行が長くなる可能性** があります。"
+msgstr ""
+"This is a setting that limits the folders in which each file is placed. By default, it will try to find each file in all folders in the "
+"user's Google Drive. Therefore, **script execution may take longer**."
+
+#: ../../source/man5/gen_use_cloud.rst:175
+msgid ""
+"ここでGoogleドライブのフォルダのIDまたは名前を指定することで、そのフォルダからのみファイルを検索するようになります。実行も時間がかからなくな"
+"り、スクリプトの実行の制限にも影響しなくて済みます。ぜひ指定することをお勧めします。"
+msgstr ""
+"By specifying the ID or name of a folder in Google Drive here, files will be searched only from that folder. It also takes less time to run "
+"and does not affect script execution limits. We recommend that you specify it."
+
+#: ../../source/man5/gen_use_cloud.rst:178
+msgid "デフォルトではフォルダIDのみ受け付けます。"
+msgstr "By default only folder IDs are accepted."
+
+#: ../../source/man5/gen_use_cloud.rst:180
+msgid "``名前指定`` のトグルスイッチをONにすると、そのファイル種類のみフォルダ名でGoogleドライブを限定できます。"
+msgstr "If you turn on the ``Name specification`` toggle switch, you can limit Google Drive to only that file type by folder name."
+
+#: ../../source/man5/gen_use_cloud.rst:182
+msgid "フォルダIDが長くてコピーや入力が面倒という場合には名前を指定するようにすることをお勧めします。"
+msgstr "If the folder ID is long and you find it troublesome to copy or input, we recommend that you specify a name."
 
 #~ msgid ""
 #~ "`share/extensions/vrmviewmeister-gdrive-extension <https://drive.google.com/drive/folders/1QkWCH0GfKHIQLgbT5Ir-U-mBEKAE3AJy?"

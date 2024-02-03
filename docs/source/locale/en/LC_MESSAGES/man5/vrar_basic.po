@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-30 09:39+0900\n"
-"PO-Revision-Date: 2023-12-30 09:41+0900\n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:53+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -159,3 +159,73 @@ msgstr "VR devices come with screenshot and recording functions as standard, so 
 #: ../../source/man5/vrar_basic.rst:74
 msgid "本アプリのスクリーンショット・録画機能も一応利用可能です。"
 msgstr "You can also use the screenshot and recording functions of this app."
+
+#: ../../source/man5/vrar_basic.rst:82
+msgid "現実に合わせてオブジェクトを配置する"
+msgstr "Arrange objects according to reality"
+
+#: ../../source/man5/vrar_basic.rst:84
+msgid ""
+"現実の壁や物に合わせて3Dモデルを見えなくしたり、奥行きを演出したい場合があるかもしれません。本アプリならどんなVRデバイスでも簡単に実"
+"現できます。"
+msgstr ""
+"There may be times when you want to make a 3D model invisible or create depth by matching it to a real wall or object. With this "
+"app, you can easily realize it with any VR device."
+
+#: ../../source/man5/vrar_basic.rst:87
+msgid "MetaQuest3などの標準の設定にある、現実を認識しているかのような効果を簡単に付けられます。"
+msgstr ""
+"You can easily add effects that make it seem as if you are aware of reality, which is found in standard settings such as MetaQuest3."
+
+#: ../../source/man5/vrar_basic.rst:89
+msgid "そのような時は、 ``基本の図形`` と :ref:`shader_cutout` シェーダーを使いましょう。"
+msgstr "In such cases, use ``basic shapes`` and the :ref:`shader_cutout` shader."
+
+#: ../../source/man5/vrar_basic.rst:91
+msgid "OtherObjectとして基本の図形を配置します。"
+msgstr "Place the basic shape as OtherObject."
+
+#: ../../source/man5/vrar_basic.rst:92
+msgid "必要に応じて大きさや回転させます。"
+msgstr "Size and rotate as needed."
+
+#: ../../source/man5/vrar_basic.rst:93
+msgid "テクスチャのプロパティでシェーダーを ``Cutout`` にします。"
+msgstr "Set the shader to ``Cutout`` in the texture properties."
+
+#: ../../source/man5/vrar_basic.rst:94
+msgid "AR空間で想定通りに現実の壁や物に隠れる状態になったかを確認します。"
+msgstr "Check whether you can hide behind real walls and objects in the AR space as expected."
+
+#: ../../source/man5/vrar_basic.rst:97
+msgid "ポイントとしては、現実の壁や物に合わせて基本の図形の形を選び、うまく配置することです。"
+msgstr "The key is to choose a basic shape that matches the actual wall or object and place it well."
+
+#: ../../source/man5/vrar_basic.rst:98
+msgid "CutoutシェーダーにしてからOtherObjectを動かそうとしても透明なため動かすのが困難になります。"
+msgstr ""
+"Even if you try to move OtherObject after making it a Cutout shader, it will be difficult to move it because it is transparent."
+
+#: ../../source/man5/vrar_basic.rst:102
+msgid "物理効果を使ってみる"
+msgstr "Try using physical effects"
+
+#: ../../source/man5/vrar_basic.rst:104
+msgid ""
+"ver 2.4.0より、OtherObjectやEffectなどのオブジェクトには ``物理効果`` のプロパティを用意しました。これを使えば、VR/AR空間でポーズ・"
+"モーションだけでなく新たな遊びを体験できるでしょう。"
+msgstr ""
+"From ver 2.4.0, objects such as OtherObject and Effect have a ``physical effect`` property. By using this, you will be able to "
+"experience not only poses and motions but also new play in VR/AR space."
+
+#: ../../source/man5/vrar_basic.rst:106
+msgid ""
+"UnityでVR/ARアプリを新たに作るのにはいろんな準備が必要になりますが、本アプリであればプロパティからこれらの設定を変更するだけで、自由"
+"自在にオブジェクトを活用することができます。"
+msgstr ""
+"Creating a new VR/AR app with Unity requires a lot of preparation, but with this app, you can use objects freely by simply changing "
+"these settings from the properties."
+
+#: ../../source/man5/vrar_basic.rst:112
+msgid "各プロパティについては :ref:`rigid_property` をご覧ください。"
+msgstr "See :ref:`rigid_property` for each property."

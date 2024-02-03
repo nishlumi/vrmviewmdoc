@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-04 11:38+0900\n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:29+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man2/prop_common.rst:5
 msgid "共通"
@@ -49,20 +49,30 @@ msgid "回転"
 msgstr "rotation"
 
 #: ../../source/man2/prop_common.rst:27
-msgid "X座標、Y座標、Z座標をそれぞれ設定します。 ``360度回転を考慮`` をONにするとその回転角度になる際に可能な限り一回転しようとします。"
-msgstr "Set the X, Y, and Z coordinates respectively. When ``Consider 360 degree rotation`` is turned on, it tries to rotate as much as possible when the rotation angle is reached."
+msgid ""
+"X座標、Y座標、Z座標をそれぞれ設定します。 ``360度回転を考慮`` をONにするとその回転角度に"
+"なる際に可能な限り一回転しようとします。"
+msgstr ""
+"Set the X, Y, and Z coordinates respectively. When ``Consider 360 degree rotation`` is "
+"turned on, it tries to rotate as much as possible when the rotation angle is reached."
 
 #: ../../source/man2/prop_common.rst
 msgid "倍率"
 msgstr "Scale"
 
 #: ../../source/man2/prop_common.rst:29
-msgid "全座標合わせた倍率を設定します。 ``比率を固定`` をONにするとX/Y/Z座標を固定して1つのみの入力で済ませることができます。"
-msgstr "Set the magnification for all coordinates. If you turn on ``Fix ratio``, you can fix the X/Y/Z coordinates and only need one input."
+msgid ""
+"全座標合わせた倍率を設定します。 ``比率を固定`` をONにするとX/Y/Z座標を固定して1つのみの"
+"入力で済ませることができます。"
+msgstr ""
+"Set the magnification for all coordinates. If you turn on ``Fix ratio``, you can fix "
+"the X/Y/Z coordinates and only need one input."
 
 #: ../../source/man2/prop_common.rst:32
-msgid "倍率は、Stageの場合はX/Z座標のみです。それ以外の3Dモデル・オブジェクトはX/Y/Z座標です。"
-msgstr "Scale is only X/Z coordinates for Stage. Other 3D model objects are X/Y/Z coordinates."
+msgid ""
+"倍率は、Stageの場合はX/Z座標のみです。それ以外の3Dモデル・オブジェクトはX/Y/Z座標です。"
+msgstr ""
+"Scale is only X/Z coordinates for Stage. Other 3D model objects are X/Y/Z coordinates."
 
 #: ../../source/man2/prop_common.rst:37
 msgid "ジャンプ（共通）"
@@ -85,8 +95,12 @@ msgid "強さ（現在のY軸にプラスされる分）を設定します。"
 msgstr "Sets the strength (the amount added to the current Y-axis)."
 
 #: ../../source/man2/prop_common.rst:44
-msgid "アニメーションプロジェクトにて、キーフレームの間隔があまりに短いと一瞬すぎてジャンプしていないように見えることがあります。"
-msgstr "In an animation project, if the keyframe interval is too short, it can appear to jump too quickly."
+msgid ""
+"アニメーションプロジェクトにて、キーフレームの間隔があまりに短いと一瞬すぎてジャンプして"
+"いないように見えることがあります。"
+msgstr ""
+"In an animation project, if the keyframe interval is too short, it can appear to jump "
+"too quickly."
 
 #: ../../source/man2/prop_common.rst:51
 msgid "直線的な揺れ（共通）"
@@ -94,7 +108,9 @@ msgstr "Linear sway (common)"
 
 #: ../../source/man2/prop_common.rst:53
 msgid "3Dモデルに共通して使用可能な直線的な揺れのアニメーション効果の設定です。"
-msgstr "This is a setting for the linear shaking animation effect that can be used commonly for 3D models."
+msgstr ""
+"This is a setting for the linear shaking animation effect that can be used commonly for "
+"3D models."
 
 #: ../../source/man2/prop_common.rst
 msgid "On"
@@ -142,7 +158,9 @@ msgstr "Random shaking (common)"
 
 #: ../../source/man2/prop_common.rst:79
 msgid "3Dモデルに共通して使用可能なランダムな揺れのアニメーション効果の設定です。"
-msgstr "This is a random shaking animation effect setting that can be used commonly for 3D models."
+msgstr ""
+"This is a random shaking animation effect setting that can be used commonly for 3D "
+"models."
 
 #: ../../source/man2/prop_common.rst:87
 msgid "有効にします"
@@ -177,26 +195,192 @@ msgid "揺れが終わるときに弱まっていくようにします。（オ�
 msgstr "Allow it to taper off when the shaking ends. (If it is off, it will end quickly.)"
 
 #: ../../source/man2/prop_common.rst
-msgid "ジャンプ・直線的な揺れ・ランダムな揺れは後述のアニメーションにおいて、連続したフレームでは正常に動作しません。（利用しているライブラリの仕様のため）"
-msgstr "Jumps, linear shakes, and random shakes do not work properly in consecutive frames in the animation described later. (due to the specifications of the library used)"
+msgid ""
+"ジャンプ・直線的な揺れ・ランダムな揺れは後述のアニメーションにおいて、連続したフレームで"
+"は正常に動作しません。（利用しているライブラリの仕様のため）"
+msgstr ""
+"Jumps, linear shakes, and random shakes do not work properly in consecutive frames in "
+"the animation described later. (due to the specifications of the library used)"
 
 #: ../../source/man2/prop_common.rst
-msgid "どうしても連続して使いたい場合、必ずそれらの動きをしない操作のフレームを間に挿入してください。"
-msgstr "If you really want to use them continuously, be sure to insert a frame of those non-moving operations in between."
+msgid ""
+"どうしても連続して使いたい場合、必ずそれらの動きをしない操作のフレームを間に挿入してくだ"
+"さい。"
+msgstr ""
+"If you really want to use them continuously, be sure to insert a frame of those non-"
+"moving operations in between."
 
-#: ../../source/man2/prop_common.rst:110
+#: ../../source/man2/prop_common.rst:114
+msgid "物理効果（共通）"
+msgstr "Physical effects (common)"
+
+#: ../../source/man2/prop_common.rst:116
+msgid ""
+"ver 2.4.0より導入しました。3Dオブジェクトに衝突や重力の物理効果を付与します。 **特に効果"
+"があるのはVR/AR空間です。**"
+msgstr ""
+"Introduced from ver 2.4.0, it adds collision and gravity physics effects to 3D objects. "
+"** Especially effective in VR/AR space. **"
+
+#: ../../source/man2/prop_common.rst
+msgid "対象のオブジェクトの種類"
+msgstr "Target object type"
+
+#: ../../source/man2/prop_common.rst:118
+msgid "OtherObject, Camera, Light, Effect, Text3D"
+msgstr "OtherObject, Camera, Light, Effect, Text3D"
+
+#: ../../source/man2/prop_common.rst
+msgid "衝突検知"
+msgstr "Use Collision"
+
+#: ../../source/man2/prop_common.rst:123
+msgid "オブジェクトが他のオブジェクトに接触したときに反応するようにします。"
+msgstr "Allows objects to react when they come into contact with other objects."
+
+#: ../../source/man2/prop_common.rst
+msgid "重力を使う"
+msgstr "Use Gravity"
+
+#: ../../source/man2/prop_common.rst:125
+msgid ""
+"オブジェクトが重力を付与します。IKマーカーは動きませんがオブジェクト自体は重力に沿って動"
+"くようになります。"
+msgstr ""
+"The object is given gravity; the IK markers do not move, but the object itself moves "
+"along with gravity."
+
+#: ../../source/man2/prop_common.rst
+msgid "抗力"
+msgstr "Drag"
+
+#: ../../source/man2/prop_common.rst:127
+msgid "オブジェクトが動いたときに減速する力です。高いほどすぐ止まるようになります。"
+msgstr ""
+"It is the force that causes an object to slow down when it moves. The higher the value, "
+"the sooner the object will stop."
+
+#: ../../source/man2/prop_common.rst
+msgid "回転抗力"
+msgstr "Angular drag"
+
+#: ../../source/man2/prop_common.rst:129
+msgid "オブジェクトが回転したときに減速する力です。高いほどすぐ止まるようになります。"
+msgstr ""
+"It is the force that causes the object to slow down when it rotates. The higher the "
+"value, the sooner the object will stop."
+
+#: ../../source/man2/prop_common.rst:132
+msgid ""
+"VRMは形状が複雑なため、このプロパティは利用できません。ただし、抗力と回転抗力については"
+"IKマーカーごとにそれぞれ設定が可能です。"
+msgstr ""
+"Due to the complex geometry of VRM, this property is not available. However, drag and "
+"rotational drag can be set for each IK marker respectively."
+
+#: ../../source/man2/prop_common.rst:134
+msgid "移動・回転への影響"
+msgstr "Effect on translation/rotation"
+
+#: ../../source/man2/prop_common.rst:136
+msgid "通常の画面とVR/AR画面では物理効果による影響が異なります。"
+msgstr "Physical effects have different effects on normal screens and VR/AR screens."
+
+#: ../../source/man2/prop_common.rst:139
+msgid "オブジェクト"
+msgstr "Object"
+
+#: ../../source/man2/prop_common.rst:139
+msgid "物理効果の範囲"
+msgstr "Physical effect range"
+
+#: ../../source/man2/prop_common.rst:141
+msgid "VRM"
+msgstr "VRM"
+
+#: ../../source/man2/prop_common.rst:141
+msgid "体の各部位のIKマーカー"
+msgstr "IK markers for each part of the body"
+
+#: ../../source/man2/prop_common.rst:142
+msgid "OtherObject"
+msgstr "OtherObject"
+
+#: ../../source/man2/prop_common.rst:142
+msgid "オブジェクト、IKマーカー"
+msgstr "objects, IK markers"
+
+#: ../../source/man2/prop_common.rst:143
+msgid "Camera"
+msgstr "Camera"
+
+#: ../../source/man2/prop_common.rst:143 ../../source/man2/prop_common.rst:144
+#: ../../source/man2/prop_common.rst:145
+msgid "IKマーカー"
+msgstr "IK marker"
+
+#: ../../source/man2/prop_common.rst:144
+msgid "Light"
+msgstr "Light"
+
+#: ../../source/man2/prop_common.rst:145
+msgid "Effect"
+msgstr "Effect"
+
+#: ../../source/man2/prop_common.rst:146
+msgid "Text3D"
+msgstr "Text3D"
+
+#: ../../source/man2/prop_common.rst:146
+msgid "オブジェクト（文字）、IKマーカー"
+msgstr "Object (text), IK marker"
+
+#: ../../source/man2/prop_common.rst:153
+msgid "OtherObjectとText3D"
+msgstr "OtherObject and Text3D"
+
+#: ../../source/man2/prop_common.rst:150
+msgid ""
+"これらは通常画面だとIKマーカーを動かした後にオブジェクト本体がズレて動くようになります。"
+"しかしながらIKマーカーを再び動かせばIKマーカーの位置に戻ろうとします。"
+msgstr ""
+"On the normal screen, the object body will shift and move after moving the IK marker. "
+"However, if you move the IK marker again, it will try to return to the IK marker "
+"position."
+
+#: ../../source/man2/prop_common.rst:152
+msgid ""
+"VR/AR空間ではこれらオブジェクト自体を掴んで動かせます。形状の関係でOtherObjectはIKマー"
+"カーを触ることは難しいでしょう。"
+msgstr ""
+"In VR/AR space, you can grab and move these objects themselves. Due to the shape of "
+"OtherObject, it will be difficult to touch the IK marker."
+
+#: ../../source/man2/prop_common.rst:154
+msgid ""
+"Text3Dはその形状のためオブジェクト本体とIKマーカーの両方を直接掴めるので、面白い使い方を"
+"考えてみるとよいでしょう。"
+msgstr ""
+"Because of Text3D's shape, you can directly grab both the object itself and the IK "
+"markers, so it's a good idea to think of interesting ways to use it."
+
+#: ../../source/man2/prop_common.rst:162
 msgid "共通（2Dモデル）"
 msgstr "Common (2D model)"
 
-#: ../../source/man2/prop_common.rst:112
+#: ../../source/man2/prop_common.rst:164
 msgid "2Dモデルに共通して使用可能な変形のプロパティです。"
 msgstr "This is a transformation property that can be used in common for 2D models."
 
-#: ../../source/man2/prop_common.rst:120
-msgid "X座標、Y座標をそれぞれ **パーセント値** で設定します。そのため、画面サイズが変わると位置が若干ずれる可能性があります。"
-msgstr "Set the X and Y coordinates as **percentages**. Therefore, if the screen size changes, the position may shift slightly."
+#: ../../source/man2/prop_common.rst:172
+msgid ""
+"X座標、Y座標をそれぞれ **パーセント値** で設定します。そのため、画面サイズが変わると位置"
+"が若干ずれる可能性があります。"
+msgstr ""
+"Set the X and Y coordinates as **percentages**. Therefore, if the screen size changes, "
+"the position may shift slightly."
 
-#: ../../source/man2/prop_common.rst:122
+#: ../../source/man2/prop_common.rst:174
 msgid "Z座標のみの回転の角度を設定します。"
 msgstr "Sets the angle of rotation for the Z coordinate only."
 
@@ -204,10 +388,13 @@ msgstr "Sets the angle of rotation for the Z coordinate only."
 msgid "サイズ"
 msgstr "Size"
 
-#: ../../source/man2/prop_common.rst:124
+#: ../../source/man2/prop_common.rst:176
 msgid "直接の描画領域としてX座標、Y座標をそれぞれ設定します。"
 msgstr "Set the X and Y coordinates as the direct drawing area."
 
-#: ../../source/man2/prop_common.rst:126
-msgid "X座標、Y座標の倍率をそれぞれ設定します。サイズとは異なり、こちらは拡大縮小が伴います。"
-msgstr "Set the scale of X coordinate and Y coordinate respectively. Unlike size, this one scales."
+#: ../../source/man2/prop_common.rst:178
+msgid ""
+"X座標、Y座標の倍率をそれぞれ設定します。サイズとは異なり、こちらは拡大縮小が伴います。"
+msgstr ""
+"Set the scale of X coordinate and Y coordinate respectively. Unlike size, this one "
+"scales."

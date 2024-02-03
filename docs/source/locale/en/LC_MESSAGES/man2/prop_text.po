@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-04 12:06+0900\n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:24+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,21 +18,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
-#: ../../source/man2/prop_text.rst:5
-msgid "Text"
-msgstr "Text"
+#: ../../source/man2/prop_text.rst:7
+msgid "Text / Text3D"
+msgstr "Text / Text3D"
 
-#: ../../source/man2/prop_text.rst:14
-msgid "WebGL画面に表示する2Dのテキストを設定します。"
-msgstr "Set the 2D text to be displayed on the WebGL screen."
+#: ../../source/man2/prop_text.rst:9
+msgid "text1"
+msgstr "text1"
+
+#: ../../source/man2/prop_text.rst:10
+msgid "text2"
+msgstr "text2"
+
+#: ../../source/man2/prop_text.rst:1
+msgid "|text1|"
+msgstr "|text1|"
+
+#: ../../source/man2/prop_text.rst:1
+msgid "|text2|"
+msgstr "|text2|"
+
+#: ../../source/man2/prop_text.rst:19
+msgid "ver 2.4.0より、3Dとしてのテキストにも対応しました。WebGL画面に表示する3D/2Dのテキストを設定します。"
+msgstr "From ver 2.4.0, text as 3D is also supported. 3D/2D text to be displayed on the WebGL screen is set."
+
+#: ../../source/man2/prop_text.rst:21
+msgid "どちらもプロパティの内容は同じです。"
+msgstr "The property contents are the same in both cases."
 
 #: ../../source/man2/prop_text.rst
 msgid "テキスト"
 msgstr "Text"
 
-#: ../../source/man2/prop_text.rst:19
+#: ../../source/man2/prop_text.rst:25
 msgid "表示する文字列を入力します。"
 msgstr "Enter the string to display."
 
@@ -40,7 +60,7 @@ msgstr "Enter the string to display."
 msgid "アンカー位置"
 msgstr "Anchor position"
 
-#: ../../source/man2/prop_text.rst:21
+#: ../../source/man2/prop_text.rst:27
 msgid "移動や文字列描画の際の基準となる角を指定します。"
 msgstr "Specifies the reference corner for movement and character string drawing."
 
@@ -48,22 +68,156 @@ msgstr "Specifies the reference corner for movement and character string drawing
 msgid "フォントサイズ"
 msgstr "Font size"
 
-#: ../../source/man2/prop_text.rst:23
+#: ../../source/man2/prop_text.rst:29
 msgid "文字列のフォントサイズを指定します。"
 msgstr "Specifies the font size of the string."
-
-#: ../../source/man2/prop_text.rst
-msgid "色"
-msgstr "Color"
-
-#: ../../source/man2/prop_text.rst:25
-msgid "文字列の色を変更します。"
-msgstr "Change the color of the string."
 
 #: ../../source/man2/prop_text.rst
 msgid "装飾"
 msgstr "Decoration"
 
-#: ../../source/man2/prop_text.rst:27
-msgid "文字列の装飾（太字・イタリック体・両方）を指定します。"
-msgstr "Specifies the character string decoration (bold, italic, or both)."
+#: ../../source/man2/prop_text.rst:31
+msgid "文字列の装飾を指定します。"
+msgstr "Specifies string decoration."
+
+#: ../../source/man2/prop_text.rst:34
+msgid "左のチェックボックス"
+msgstr "Check box on the left"
+
+#: ../../source/man2/prop_text.rst:34
+msgid "太字, イタリック, アンダーライン, 取り消し線"
+msgstr "Bold, italic, underline, strikeout"
+
+#: ../../source/man2/prop_text.rst:39
+msgid "右のラジオボックス"
+msgstr "Right radio box"
+
+#: ../../source/man2/prop_text.rst:37
+msgid "なにもしない, 大文字, 小文字"
+msgstr "Nothing, Capitalization, Lowercase"
+
+#: ../../source/man2/prop_text.rst:39
+msgid "※こちらはいずれか1つしか選択できません。"
+msgstr "* Only one of these can be selected."
+
+#: ../../source/man2/prop_text.rst
+msgid "テキストのオーバーフロー"
+msgstr "Text overflow"
+
+#: ../../source/man2/prop_text.rst:42
+msgid "テキスト領域から文字が溢れた場合の挙動を設定します。次のいずれかを選択してください。"
+msgstr "Sets the behavior when characters overflow from the text area. Select one of the following"
+
+#: ../../source/man2/prop_text.rst:44
+msgid "溢れさせる"
+msgstr "Overflow"
+
+#: ../../source/man2/prop_text.rst:45
+msgid "省略記号付き"
+msgstr "Ellipsis"
+
+#: ../../source/man2/prop_text.rst:46
+msgid "マスキング"
+msgstr "Masking"
+
+#: ../../source/man2/prop_text.rst:47
+msgid "切り捨てる"
+msgstr "Truncate"
+
+#: ../../source/man2/prop_text.rst:48
+msgid "長方形をスクロール"
+msgstr "Scroll rectangle"
+
+#: ../../source/man2/prop_text.rst:49
+msgid "ページ"
+msgstr "Page"
+
+#: ../../source/man2/prop_text.rst:50
+msgid "リンク"
+msgstr "Linked"
+
+#: ../../source/man2/prop_text.rst
+msgid "色"
+msgstr "Color"
+
+#: ../../source/man2/prop_text.rst:53
+msgid "文字列の色を変更します。 ``単色`` か ``グラデーション`` を切り替えてください。"
+msgstr "Change the color of the string. Toggle between ``single color`` or ``gradient``."
+
+#: ../../source/man2/prop_text.rst:56
+msgid "単色"
+msgstr "Color"
+
+#: ../../source/man2/prop_text.rst:56
+msgid "テキストの色が全てこの色になります。"
+msgstr "All text will be in this color."
+
+#: ../../source/man2/prop_text.rst:68
+msgid "グラデーション"
+msgstr "gradient"
+
+#: ../../source/man2/prop_text.rst:59
+msgid "テキスト全体をそれぞれの角ごとに設定します。"
+msgstr "Set the entire text, corner by corner."
+
+#: ../../source/man2/prop_text.rst:1
+msgid "TopLeft"
+msgstr "TopLeft"
+
+#: ../../source/man2/prop_text.rst:1
+msgid "左上"
+msgstr "Top left"
+
+#: ../../source/man2/prop_text.rst:1
+msgid "TopRight"
+msgstr "TopRight"
+
+#: ../../source/man2/prop_text.rst:1
+msgid "右上"
+msgstr "Top right"
+
+#: ../../source/man2/prop_text.rst:1
+msgid "BottomLeft"
+msgstr "BottomLeft"
+
+#: ../../source/man2/prop_text.rst:1
+msgid "左下"
+msgstr "Bottom left"
+
+#: ../../source/man2/prop_text.rst:1
+msgid "BottomRight"
+msgstr "BottomRight"
+
+#: ../../source/man2/prop_text.rst:1
+msgid "右下"
+msgstr "Bottom right"
+
+#: ../../source/man2/prop_text.rst
+msgid "テキスト領域"
+msgstr "Text area"
+
+#: ../../source/man2/prop_text.rst:71
+msgid "テキストの描画範囲を設定します。これは物理効果の ``衝突検知`` 時の当たり判定としても使われます。"
+msgstr "Sets the range within which the text will be drawn. This is also used as the hit detection for the ``collision detection`` physics effect."
+
+#: ../../source/man2/prop_text.rst
+msgid "アウトライン"
+msgstr "Outline"
+
+#: ../../source/man2/prop_text.rst:74
+msgid "スライダーを動かしてアウトラインの幅を設定します。"
+msgstr "Move the slider to set the outline width."
+
+#: ../../source/man2/prop_text.rst
+msgid "アウトライン（色）"
+msgstr "Outline (Color)"
+
+#: ../../source/man2/prop_text.rst:77
+msgid "アウトラインの色を設定します。"
+msgstr "Sets the outline color."
+
+#~ msgid "WebGL画面に表示する2Dのテキストを設定します。"
+#~ msgstr "Set the 2D text to be displayed on the WebGL screen."
+
+#~ msgid "文字列の装飾（太字・イタリック体・両方）を指定します。"
+#~ msgstr "Specifies the character string decoration (bold, italic, or both)."

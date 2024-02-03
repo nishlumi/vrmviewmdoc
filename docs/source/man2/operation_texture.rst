@@ -269,6 +269,9 @@ PixelizeTexture
 
 |
 
+
+.. _shader_cutout:
+
 Cutout
 ---------------------
 

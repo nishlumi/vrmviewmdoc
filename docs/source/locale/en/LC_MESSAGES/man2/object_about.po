@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 23:16+0900\n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:19+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,120 +18,150 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man2/object_about.rst:5
 msgid "扱えるオブジェクト"
 msgstr "Usable object"
 
 #: ../../source/man2/object_about.rst:8
-msgid "ここからは各オブジェクトのプロパティやWebGL画面で実際にVRMや他のオブジェクトを操作する方法について詳しく説明していきます。"
-msgstr "From here, we will explain in detail the properties of each object and how to actually operate VRM and other objects on the WebGL screen."
+msgid ""
+"ここからは各オブジェクトのプロパティやWebGL画面で実際にVRMや他のオブジェクトを"
+"操作する方法について詳しく説明していきます。"
+msgstr ""
+"From here, we will explain in detail the properties of each object and how to "
+"actually operate VRM and other objects on the WebGL screen."
 
 #: ../../source/man2/object_about.rst:9
 msgid "本アプリで扱えるオブジェクトは次のように定義しています。"
 msgstr "The objects that can be used in this application are defined as follows."
 
-#: ../../source/man2/object_about.rst:15
+#: ../../source/man2/object_about.rst:1
 msgid "種類"
 msgstr "Object type"
 
-#: ../../source/man2/object_about.rst:16
+#: ../../source/man2/object_about.rst:1
 msgid "説明"
 msgstr "Description"
 
-#: ../../source/man2/object_about.rst:17
+#: ../../source/man2/object_about.rst:1
 msgid "VRM"
 msgstr "VRM"
 
-#: ../../source/man2/object_about.rst:18
+#: ../../source/man2/object_about.rst:1
 msgid "本アプリでメインの3Dモデルオブジェクトです。"
 msgstr "This is the main 3D model object in this application."
 
-#: ../../source/man2/object_about.rst:19
+#: ../../source/man2/object_about.rst:1
 msgid "OtherObject"
 msgstr "OtherObject"
 
-#: ../../source/man2/object_about.rst:20
+#: ../../source/man2/object_about.rst:1
 msgid "FBX、Obj、STXなどのその他の3Dオブジェクトです。 [1]_"
 msgstr "Other 3D objects such as FBX, Obj, STX. [1]_"
 
-#: ../../source/man2/object_about.rst:21
+#: ../../source/man2/object_about.rst:1
 msgid "Light"
 msgstr "Light"
 
-#: ../../source/man2/object_about.rst:22
+#: ../../source/man2/object_about.rst:1
 msgid "Unity標準機能によるライトオブジェクトです。"
 msgstr "It is a light object by Unity standard function."
 
-#: ../../source/man2/object_about.rst:23
+#: ../../source/man2/object_about.rst:1
 msgid "Camera"
 msgstr "Camera"
 
-#: ../../source/man2/object_about.rst:24
+#: ../../source/man2/object_about.rst:1
 msgid "Unity標準機能によるカメラオブジェクトです。"
 msgstr "Camera object by Unity standard function."
 
-#: ../../source/man2/object_about.rst:25
+#: ../../source/man2/object_about.rst:1
 msgid "Effect"
 msgstr "Effect"
 
-#: ../../source/man2/object_about.rst:26
+#: ../../source/man2/object_about.rst:1
 msgid "Unity標準機能によるエフェクトオブジェクトです。"
 msgstr "Effect object by Unity standard function."
 
-#: ../../source/man2/object_about.rst:27
+#: ../../source/man2/object_about.rst:1
 msgid "Image"
 msgstr "Image"
 
-#: ../../source/man2/object_about.rst:28
-msgid "jpgやpngなどの2D画像を3Dオブジェクトとして読み込みます。扱いはOtherObjectと同等です。"
-msgstr "Load 2D images such as jpg and png as 3D objects. The handling is equivalent to OtherObject."
+#: ../../source/man2/object_about.rst:1
+msgid ""
+"jpgやpngなどの2D画像を3Dオブジェクトとして読み込みます。扱いはOtherObjectと同等"
+"です。"
+msgstr ""
+"Load 2D images such as jpg and png as 3D objects. The handling is equivalent "
+"to OtherObject."
 
-#: ../../source/man2/object_about.rst:29
+#: ../../source/man2/object_about.rst:1
 msgid "Text"
 msgstr "Text"
 
-#: ../../source/man2/object_about.rst:30
-msgid "3Dオブジェクトではありません。WebGL画面に主にセリフ表示やユーザーインターフェース目的で表示するテキストオブジェクトです。"
-msgstr "It's not a 3D object. It is a text object that is displayed on the WebGL screen mainly for dialog display and user interface purposes."
+#: ../../source/man2/object_about.rst:1
+msgid ""
+"3Dオブジェクトではありません。WebGL画面に主にセリフ表示やユーザーインターフェー"
+"ス目的で表示するテキストオブジェクトです。"
+msgstr ""
+"It's not a 3D object. It is a text object that is displayed on the WebGL "
+"screen mainly for dialog display and user interface purposes."
 
-#: ../../source/man2/object_about.rst:31
+#: ../../source/man2/object_about.rst:1
 msgid "UImage(UI画像)"
 msgstr "UImage"
 
-#: ../../source/man2/object_about.rst:32
+#: ../../source/man2/object_about.rst:1
 msgid "Textと同様で、主にユーザーインターフェース目的で使用する2D画像です。"
-msgstr "Similar to Text, it is a 2D image used primarily for user interface purposes."
+msgstr ""
+"Similar to Text, it is a 2D image used primarily for user interface purposes."
 
-#: ../../source/man2/object_about.rst:33
+#: ../../source/man2/object_about.rst:1
 msgid "SystemEffect"
 msgstr "SystemEffect"
 
-#: ../../source/man2/object_about.rst:34
+#: ../../source/man2/object_about.rst:1
 msgid "画面効果です。"
 msgstr "screen effect."
 
-#: ../../source/man2/object_about.rst:35
+#: ../../source/man2/object_about.rst:1
 msgid "Audio"
 msgstr "Audio"
 
-#: ../../source/man2/object_about.rst:36
+#: ../../source/man2/object_about.rst:1
 msgid "BGMやSEとして使うオーディオオブジェクトです。"
 msgstr "An audio object used as BGM or SE."
 
-#: ../../source/man2/object_about.rst:37
+#: ../../source/man2/object_about.rst:1
 msgid "Stage"
 msgstr "Stage"
 
-#: ../../source/man2/object_about.rst:38
+#: ../../source/man2/object_about.rst:1
 msgid "地面や空、風などの地形・舞台を扱います。"
 msgstr "Terrain and stage such as ground, sky, and wind are handled."
 
-#: ../../source/man2/object_about.rst:40
-msgid "TriLib2で対応可能なフォーマットすべて（https://ricardoreis.net/trilib-2/）"
+#: ../../source/man2/object_about.rst:1
+msgid "Text3D"
+msgstr "Text3D"
+
+#: ../../source/man2/object_about.rst:1
+msgid ""
+"3Dオブジェクトとしてのテキストです。ver 2.4.0 より導入しました。扱いは"
+"OtherObjectと同等です。"
+msgstr ""
+"Text as a 3D object, implemented since ver 2.4.0. It is handled in the same "
+"way as OtherObject."
+
+#: ../../source/man2/object_about.rst:29
+msgid ""
+"TriLib2で対応可能なフォーマットすべて（https://ricardoreis.net/trilib-2/）"
 msgstr "All formats supported by TriLib2 (https://ricardoreis.net/trilib-2/)"
 
-#: ../../source/man2/object_about.rst:43
-msgid "※TextとUImageは3Dオブジェクトとして扱うことはできませんが、移動・回転は可能です。"
-msgstr "Text and UImage cannot be treated as 3D objects, but they can be moved and rotated."
+#: ../../source/man2/object_about.rst:32
+msgid ""
+"※TextとUImageは3Dオブジェクトとして扱うことはできませんが、移動・回転は可能で"
+"す。"
+msgstr ""
+"Text and UImage cannot be treated as 3D objects, but they can be moved and "
+"rotated."

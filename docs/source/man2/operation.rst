@@ -16,6 +16,7 @@
     operation_image
     operation_effect
     operation_text
+    operation_text3d
     operation_uimage
     operation_audio
     operation_syseff

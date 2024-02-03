@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-29 10:41+0900\n"
-"PO-Revision-Date: 2023-12-29 10:43+0900\n"
+"POT-Creation-Date: 2024-02-03 18:15+0900\n"
+"PO-Revision-Date: 2024-02-03 19:07+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -28,11 +28,78 @@ msgstr "Save pose/motion"
 msgid "目次"
 msgstr "Contents"
 
-#: ../../source/man3/posing_save.rst:12
+#: ../../source/man3/posing_save.rst:11
+msgid "ポーズとモーションの保存はリボンバーから行なえます。"
+msgstr "You can save poses and motions from the ribbon bar."
+
+#: ../../source/man3/posing_save.rst:13
+msgid "リボンバー > 3Dモデルタブ > Pose/Motion > 保存"
+msgstr "Ribbon bar > 3D Model tab > Pose/Motion > Save"
+
+#: ../../source/man3/posing_save.rst:15
+msgid "posemenu"
+msgstr "posemenu"
+
+#: ../../source/man3/posing_save.rst:17
+msgid "メニューは次のように構成されています。"
+msgstr "The menu is structured as follows."
+
+#: ../../source/man3/posing_save.rst:23
+msgid "|posemenu|"
+msgstr "|posemenu|"
+
+#: ../../source/man3/posing_save.rst:21
+msgid "保存の種類"
+msgstr "Type of saving"
+
+#: ../../source/man3/posing_save.rst:1 ../../source/man3/posing_save.rst:21
+msgid "ポーズ"
+msgstr "Pose"
+
+#: ../../source/man3/posing_save.rst:1 ../../source/man3/posing_save.rst:21
+msgid "モーション"
+msgstr "Motion"
+
+#: ../../source/man3/posing_save.rst:23
+msgid "端末"
+msgstr "device storage"
+
+#: ../../source/man3/posing_save.rst:23 ../../source/man3/posing_save.rst:25
+#: ../../source/man3/posing_save.rst:27 ../../source/man3/posing_save.rst:29
+#: ../../source/man3/posing_save.rst:31 ../../source/man3/posing_save.rst:33
+msgid "o"
+msgstr "o"
+
+#: ../../source/man3/posing_save.rst:25
+msgid "内蔵ストレージ"
+msgstr "Internal storage"
+
+#: ../../source/man3/posing_save.rst:27
+msgid "Googleドライブ"
+msgstr "Google Drive"
+
+#: ../../source/man3/posing_save.rst:29
+msgid ".bvh"
+msgstr ".bvh"
+
+#: ../../source/man3/posing_save.rst:29 ../../source/man3/posing_save.rst:31
+#: ../../source/man3/posing_save.rst:33
+msgid "x"
+msgstr "x"
+
+#: ../../source/man3/posing_save.rst:31
+msgid ".anim"
+msgstr ".anim"
+
+#: ../../source/man3/posing_save.rst:33
+msgid ".vrma"
+msgstr ".vrma"
+
+#: ../../source/man3/posing_save.rst:39
 msgid "ポーズを保存する"
 msgstr "save pose"
 
-#: ../../source/man3/posing_save.rst:14
+#: ../../source/man3/posing_save.rst:41
 msgid ""
 "ポーズはVRoid/VRMのみ、全身のIKマーカーを動かした状態を保存しておくことができます。これはアニメーショ"
 "ンではなく、単一のポーズごとです。"
@@ -40,31 +107,31 @@ msgstr ""
 "For VRoid/VRM only, the pose can save the state in which the IK markers of the whole body are moved. "
 "This is per single pose, not animation."
 
-#: ../../source/man3/posing_save.rst:17
+#: ../../source/man3/posing_save.rst:44
 msgid "VRoid/VRMにポーズを取らせます。"
 msgstr "Make the VRoid/VRM pose."
 
-#: ../../source/man3/posing_save.rst:24
+#: ../../source/man3/posing_save.rst:51
 msgid "「3Dモデル」タブの **Pose/Motion** から「保存」をクリックします。"
 msgstr "Click \"Save\" from **Pose/Motion** on the \"3D Model\" tab."
 
-#: ../../source/man3/posing_save.rst:31
-msgid "``端末`` , ``内部ストレージ`` , ``Google Drive`` のいずれかを選びます。"
-msgstr "Select ``Local disk``, ``Internal Storage``, or ``Google Drive``."
+#: ../../source/man3/posing_save.rst:58
+msgid "ポーズメニューのうち、 ``端末`` , ``内部ストレージ`` , ``Google Drive`` のいずれかを選びます。"
+msgstr "From the pause menu, select ``Terminal`` , ``Internal Storage`` , or ``Google Drive`` ."
 
-#: ../../source/man3/posing_save.rst:33
+#: ../../source/man3/posing_save.rst:60
 msgid "ポーズ名を入力してください。"
 msgstr "Enter the pose name."
 
-#: ../../source/man3/posing_save.rst:40
+#: ../../source/man3/posing_save.rst:67
 msgid "ポーズが保存されます。"
 msgstr "The pose will be saved."
 
-#: ../../source/man3/posing_save.rst:44
+#: ../../source/man3/posing_save.rst:71
 msgid "**サムネイルを保存する・しない**"
-msgstr "** Save/Do not save thumbnails **"
+msgstr "**Save/Do not save thumbnails**"
 
-#: ../../source/man3/posing_save.rst:46
+#: ../../source/man3/posing_save.rst:73
 msgid ""
 "ポーズファイルはサムネイルに対応しています。実際の動作にはまったく影響しませんが、一覧で見やすくなり"
 "ます。保存しないようにするには、設定画面で ``ポーズの保存時にサムネイルも保存する`` のチェックを外し"
@@ -74,21 +141,21 @@ msgstr ""
 "to see in the list. To avoid saving, uncheck ``Save thumbnails when saving poses`` in the settings "
 "screen."
 
-#: ../../source/man3/posing_save.rst:53
+#: ../../source/man3/posing_save.rst:80
 msgid "特に問題ないと思われるので、端末に保存する場合でもサムネイルがデータ中に含まれます。"
 msgstr ""
 "There doesn't seem to be any problem, so the thumbnail will be included in the data even if you save "
 "it to your device."
 
-#: ../../source/man3/posing_save.rst:57
+#: ../../source/man3/posing_save.rst:84
 msgid "ポーズの保存時にはキーフレームの登録をしておく必要はありません。"
 msgstr "There is no need to register keyframes when saving poses."
 
-#: ../../source/man3/posing_save.rst:63
+#: ../../source/man3/posing_save.rst:90
 msgid "保存したデータは？"
 msgstr "What data was saved?"
 
-#: ../../source/man3/posing_save.rst:60
+#: ../../source/man3/posing_save.rst:87
 msgid ""
 "内部ストレージの場合、アプリ内（使用中のブラウザの中）に保存されます。ローカルディスクのフォルダとは"
 "違うアプリごとの専用の領域のような場所なので、他のアプリからは見えないようになっています。"
@@ -97,34 +164,34 @@ msgstr ""
 "is a place like a dedicated area for each application that is different from the folder on the local "
 "disk, it is not visible from other applications."
 
-#: ../../source/man3/posing_save.rst:62
+#: ../../source/man3/posing_save.rst:89
 msgid "端末の場合はそのままPCのフォルダに保存されます。"
 msgstr "If you are using a device, the file will be saved in a folder on your PC."
 
-#: ../../source/man3/posing_save.rst:64
+#: ../../source/man3/posing_save.rst:91
 msgid "Google Driveの場合はGoogleドライブ内に保存されます。"
 msgstr "In the case of Google Drive, it will be saved within Google Drive."
 
-#: ../../source/man3/posing_save.rst:67
+#: ../../source/man3/posing_save.rst:94
 msgid ""
 "Google Driveの場合、別途ユーザー側で事前にGoogleアカウントの取得・GoogleAppsScriptの設定が必要です。"
 msgstr ""
 "In the case of Google Drive, the user must separately obtain a Google account and set up Google "
 "AppsScript in advance."
 
-#: ../../source/man3/posing_save.rst:74
+#: ../../source/man3/posing_save.rst:101
 msgid "モーションを保存する"
 msgstr "save motion"
 
-#: ../../source/man3/posing_save.rst:76
+#: ../../source/man3/posing_save.rst:103
 msgid "モーションの場合はすべてのタイムライン（ロール）の種類を保存できます。"
 msgstr "For motion, all timeline (roll) types can be saved."
 
-#: ../../source/man3/posing_save.rst:78
+#: ../../source/man3/posing_save.rst:105
 msgid "モーションを保存したいタイムライン（ロール）をタイムラインの一覧で選択します。"
 msgstr "Select the timeline (roll) in which you want to save the motion from the timeline list."
 
-#: ../../source/man3/posing_save.rst:79
+#: ../../source/man3/posing_save.rst:106
 msgid ""
 "この後はポーズの手順とほぼ同一です。 「保存」ボタンを押したあとのメニューでは「モーション保存」以下の"
 "メニューから選んでください。"
@@ -132,15 +199,15 @@ msgstr ""
 "After this, the procedure is almost the same as the pose. In the menu after pressing the \"Save\" "
 "button, select from the menu under \"Save Motion\"."
 
-#: ../../source/man3/posing_save.rst:81
+#: ../../source/man3/posing_save.rst:108
 msgid "モーションの場合サムネイルは存在しません。"
 msgstr "There are no thumbnails for motion."
 
-#: ../../source/man3/posing_save.rst:87
+#: ../../source/man3/posing_save.rst:114
 msgid "**モーションを作るVRMの体格に注意**"
 msgstr "**Pay attention to the physique of the VRM that creates the motion**"
 
-#: ../../source/man3/posing_save.rst:89
+#: ../../source/man3/posing_save.rst:116
 msgid ""
 "VRMでモーションデータを作る際、途中で身長や体格の異なるVRMに差し替えて作ると接地や各部位にズレが生じ"
 "てしまいます。必ず同じVRMのままモーションの作成を完成させてください。"
@@ -149,29 +216,29 @@ msgstr ""
 "in the middle, there will be a difference in ground contact and each part. Be sure to complete the "
 "motion creation using the same VRM."
 
-#: ../../source/man3/posing_save.rst:95
+#: ../../source/man3/posing_save.rst:122
 msgid "例："
 msgstr "Example:"
 
-#: ../../source/man3/posing_save.rst:92
+#: ../../source/man3/posing_save.rst:119
 msgid "160cmのVRMでモーションを途中まで作り、一旦ファイルに保存する"
 msgstr "Create a motion halfway with a 160cm VRM and save it as a file."
 
-#: ../../source/man3/posing_save.rst:93
+#: ../../source/man3/posing_save.rst:120
 msgid "別の日に155cmのVRMにvvmmotファイルを読み込み、モーションの続きを作成する"
 msgstr "Load the vvmmot file into a 155cm VRM on another day and create a continuation of the motion."
 
-#: ../../source/man3/posing_save.rst:94
+#: ../../source/man3/posing_save.rst:121
 msgid "また別の日に140cmのVRMにvvmmotファイルを読み込み、モーションを再生する"
 msgstr "On another day, load the vvmmot file into a 140cm VRM and play the motion."
 
-#: ../../source/man3/posing_save.rst:96
+#: ../../source/man3/posing_save.rst:123
 msgid "この場合、3の140cmのVRMはモーション中に全身が浮き沈みしたり予期せぬ動きを起こします。"
 msgstr ""
 "In this case, the 140cm VRM of 3 causes the whole body to rise and fall during the motion, causing "
 "unexpected movements."
 
-#: ../../source/man3/posing_save.rst:99
+#: ../../source/man3/posing_save.rst:126
 msgid ""
 "モーションを読み込んだ後、再びモーションファイルとして保存する場合は **必ず** 各キーフレームを一度は"
 "登録してください。"
@@ -179,7 +246,7 @@ msgstr ""
 "After loading a motion, if you want to save it as a motion file again, be sure to register each "
 "keyframe once."
 
-#: ../../source/man3/posing_save.rst:101
+#: ../../source/man3/posing_save.rst:128
 msgid ""
 "モーションを読み込んだ直後は、タイムライン（ロール）の中には今現在のVRMの身長情報と、モーションの中に"
 "ある参考情報としての別VRMの身長情報が混ざった状態です。"
@@ -202,37 +269,37 @@ msgstr ""
 "(When registering, there is no need to move the pose etc. You can press the register button as soon "
 "as you select a frame number and the object such as VRM reproduces that motion.)"
 
-#: ../../source/man3/posing_save.rst:106
+#: ../../source/man3/posing_save.rst:133
 msgid "これは、上記の「モーションを作るVRMの体格に注意」の問題と同じ意味となります。"
 msgstr ""
 "This has the same meaning as the problem of \"Be careful of the physique of the VRM that creates the "
 "motion\" above."
 
-#: ../../source/man3/posing_save.rst:111
+#: ../../source/man3/posing_save.rst:138
 msgid "その他機能"
 msgstr "Other functions"
 
-#: ../../source/man3/posing_save.rst:115
+#: ../../source/man3/posing_save.rst:143
 msgid "ディスクに保存する"
 msgstr "save to disk"
 
-#: ../../source/man3/posing_save.rst:117
+#: ../../source/man3/posing_save.rst:145
 msgid "内部ストレージやGoogle Driveに保存した後も端末に保存し直すことができます。"
 msgstr "Even after saving to internal storage or Google Drive, you can save it back to your device."
 
-#: ../../source/man3/posing_save.rst:119 ../../source/man3/posing_save.rst:158
+#: ../../source/man3/posing_save.rst:147
 msgid "「3Dモデル」タブの「ポーズ一覧」をクリックします。"
 msgstr "Click \"Pose List\" on the \"3D Model\" tab."
 
-#: ../../source/man3/posing_save.rst:126
+#: ../../source/man3/posing_save.rst:154
 msgid "ツールバー右にある PoseまたはMotionを選択します。"
 msgstr "Select Pose or Motion on the right side of the toolbar."
 
-#: ../../source/man3/posing_save.rst:127
+#: ../../source/man3/posing_save.rst:155
 msgid "ダウンロードしたいポーズまたはモーションを選択します。"
 msgstr "Select the pose or motion you want to download."
 
-#: ../../source/man3/posing_save.rst:128
+#: ../../source/man3/posing_save.rst:156
 msgid "ツールバーにある「ダウンロード」ボタンをクリックします。"
 msgstr "Click the Download button on the toolbar."
 
@@ -249,70 +316,89 @@ msgid "拡張子"
 msgstr "Extension"
 
 #: ../../source/man3/posing_save.rst:1
-msgid "ポーズ"
-msgstr "Pose"
-
-#: ../../source/man3/posing_save.rst:1
 msgid "**.vvmpose**"
 msgstr "**.vvmpose**"
-
-#: ../../source/man3/posing_save.rst:1
-msgid "モーション"
-msgstr "Motion"
 
 #: ../../source/man3/posing_save.rst:1
 msgid "**.vvmmot**"
 msgstr "**.vvmmot**"
 
-#: ../../source/man3/posing_save.rst:146
+#: ../../source/man3/posing_save.rst:174
 msgid "中身はJSON形式です。識別しやすくするため独自の拡張子でダウンロードされます。"
 msgstr ""
 "The content is in JSON format. It is downloaded with a unique extension for easy identification."
 
-#: ../../source/man3/posing_save.rst:153
+#: ../../source/man3/posing_save.rst:183
 msgid "Unityなど汎用形式でモーション保存する"
 msgstr "Save the motion in a general format such as Unity"
 
-#: ../../source/man3/posing_save.rst:155
+#: ../../source/man3/posing_save.rst:185
 msgid "VRMのみですが、汎用的なアニメーション形式での保存も可能です。"
 msgstr ""
 "Although only VRM is available, it is also possible to save in a general-purpose animation format."
 
-#: ../../source/man3/posing_save.rst:164
-msgid "ポーズ一覧のウィンドウが表示されるので右端の「Motion」タブをクリックします。"
-msgstr "A pose list window will be displayed, so click the \"Motion\" tab on the far right."
+#: ../../source/man3/posing_save.rst:187
+msgid "汎用形式のモーションが登録されるタイミング"
+msgstr "Timing when general-purpose motion is registered"
 
-#: ../../source/man3/posing_save.rst:169
-msgid "ツールバーの ``汎用的なモーションファイルでエクスポートする`` をクリックします。"
-msgstr "Click ``Export as generic motion file`` on the toolbar."
+#: ../../source/man3/posing_save.rst:189
+msgid "キーフレームを登録した時"
+msgstr "When registering a key frame"
 
-#: ../../source/man3/posing_save.rst:171
-msgid "目的の形式のメニューをクリックします。"
-msgstr "Click the menu for the format you want."
+#: ../../source/man3/posing_save.rst:190
+msgid "タイムラインで登録済みのキーフレームを選択した時"
+msgstr "When a registered keyframe is selected on the timeline"
 
-#: ../../source/man3/posing_save.rst:178
+#: ../../source/man3/posing_save.rst:192
+msgid ""
+"モーションメニューのうち汎用形式の中から、 ``.bvh`` , ``.anim`` , ``.vrma`` のいずれかを選びます。"
+msgstr "Select one of the general motion menu formats: ``.bvh``, ``.anim``, or ``.vrma``."
+
+#: ../../source/man3/posing_save.rst:194
 msgid "ファイル名を入力し、 ``OK`` ボタンを押します。"
 msgstr "Enter the file name and press the ``OK`` button."
 
-#: ../../source/man3/posing_save.rst:181
+#: ../../source/man3/posing_save.rst:197
 msgid "**.anim**"
 msgstr "**.anim**"
 
-#: ../../source/man3/posing_save.rst:184
+#: ../../source/man3/posing_save.rst:198
+msgid "**.vrma**"
+msgstr "**.vrma**"
+
+#: ../../source/man3/posing_save.rst:201
 msgid ".animファイルは Unityでそのまま読み込み可能な AnimationClipファイルです。"
 msgstr ".anim files are AnimationClip files that can be read directly by Unity."
 
-#: ../../source/man3/posing_save.rst:187
-msgid ""
-"本アプリ ``ver 2.3.0`` 時点では HumanoidのAnimatorのモーションのみに対応しています。.bvhは試験運用中"
-"のため動作保証はまだできません。ご了承下さい。"
-msgstr ""
-"As of this application ``ver 2.3.0``, it only supports Humanoid Animator motion. Since .bvh is in "
-"experimental operation, operation cannot be guaranteed yet. please note that."
+#: ../../source/man3/posing_save.rst:202
+msgid ".vrmaファイルはUniVRMで新しく定義されたVRM専用のモーションフォーマットです。"
+msgstr ".vrma file is a newly defined motion format exclusively for VRM in UniVRM."
 
-#: ../../source/man3/posing_save.rst:189
-msgid ".animファイルを本アプリで再び読み込むことはできません。"
-msgstr "The .anim file cannot be load again by this application."
+#: ../../source/man3/posing_save.rst:205
+msgid ""
+"既存のプロジェクトやモーションを読み込んだ時は、 **必ず登録済みキーフレームを一つずつ選択して** VRMを"
+"実際に動かしてください。そうしないと汎用形式のデータが保存されません。"
+msgstr ""
+"When loading an existing project or motion, **be sure to select the registered keyframes one by "
+"one** to actually move the VRM. Otherwise, data in a generic format will not be saved."
+
+#: ../../source/man3/posing_save.rst:206
+msgid "本アプリ ``ver 2.4.0`` 時点では.bvhは実装が困難なため、選択できません。"
+msgstr ""
+"As of ``ver 2.4.0`` of this application, .bvh cannot be selected because it is difficult to "
+"implement."
+
+#: ../../source/man3/posing_save.rst:207
+msgid ""
+".animと.vrmaは試験運用中のため動作保証できません。特定のボーンの回転が崩れる可能性があります。ご了承"
+"ください。"
+msgstr ""
+".anim and .vrma are in experimental operation and cannot be guaranteed to work. The rotation of "
+"certain bones may be broken. note that."
+
+#: ../../source/man3/posing_save.rst:208
+msgid ".animファイルと.vrmaファイルを本アプリで再び読み込むことはできません。"
+msgstr ".anim files and .vrma files cannot be reloaded by this app."
 
 #~ msgid ""
 #~ "※なおセキュリティ対策のため、端末に保存する場合は必ずカットされます。ポーズファイルを端末から読み"
@@ -320,3 +406,19 @@ msgstr "The .anim file cannot be load again by this application."
 #~ msgstr ""
 #~ "For security purposes, it will always be cut when saving to a terminal. The thumbnail information "
 #~ "is also cut when the pose file is read from the terminal."
+
+#~ msgid "ポーズ一覧のウィンドウが表示されるので右端の「Motion」タブをクリックします。"
+#~ msgstr "A pose list window will be displayed, so click the \"Motion\" tab on the far right."
+
+#~ msgid "ツールバーの ``汎用的なモーションファイルでエクスポートする`` をクリックします。"
+#~ msgstr "Click ``Export as generic motion file`` on the toolbar."
+
+#~ msgid "目的の形式のメニューをクリックします。"
+#~ msgstr "Click the menu for the format you want."
+
+#~ msgid ""
+#~ "本アプリ ``ver 2.3.0`` 時点では HumanoidのAnimatorのモーションのみに対応しています。.bvhは試験運用"
+#~ "中のため動作保証はまだできません。ご了承下さい。"
+#~ msgstr ""
+#~ "As of this application ``ver 2.3.0``, it only supports Humanoid Animator motion. Since .bvh is in "
+#~ "experimental operation, operation cannot be guaranteed yet. please note that."

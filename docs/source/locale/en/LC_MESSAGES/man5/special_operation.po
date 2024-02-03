@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-04 15:37+0900\n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:42+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man5/special_operation.rst:3
 msgid "キーボードショートカット"
@@ -36,9 +36,9 @@ msgstr "Operation with the keyboard"
 msgid "本アプリでのキーボード操作をまとめます。"
 msgstr "The keyboard operation in this application is summarized."
 
-#: ../../source/man5/special_operation.rst:16
-msgid "**メインカメラの操作**"
-msgstr "**Main camera operation**"
+#: ../../source/man5/special_operation.rst:17
+msgid "メインカメラの操作"
+msgstr "Main camera operation"
 
 #: ../../source/man5/special_operation.rst:1
 msgid "キー"
@@ -141,8 +141,8 @@ msgid "M"
 msgstr "M"
 
 #: ../../source/man5/special_operation.rst:1
-msgid "カメラ←→現在オブジェクト操作の切り替え"
-msgstr "Switch Camera and Current object"
+msgid "メインカメラ(C)←→現在オブジェクト(O)操作の切り替え"
+msgstr "Main camera (C)←→Current object (O) switching operation"
 
 #: ../../source/man5/special_operation.rst:1
 msgid "R"
@@ -184,13 +184,17 @@ msgstr "SPACE"
 msgid "マウスの左クリックと一緒に押したままマウスを動かして移動"
 msgstr "move the mouse while holding it down with the left click of the mouse"
 
-#: ../../source/man5/special_operation.rst:40
-msgid "※キーボード操作時（WASDのみ）のカメラのスピードは設定 ``キー操作時のカメラの移動速度`` で変更することができます。"
-msgstr "You can change the speed of the camera during keyboard operation (WASD only) in the setting ``Movement speed of the camera during key operation``."
+#: ../../source/man5/special_operation.rst:41
+msgid ""
+"※キーボード操作時（WASDのみ）のカメラのスピードは設定 ``キー操作時のカメラの"
+"移動速度`` で変更することができます。"
+msgstr ""
+"You can change the speed of the camera during keyboard operation (WASD only) "
+"in the setting ``Movement speed of the camera during key operation``."
 
-#: ../../source/man5/special_operation.rst:42
-msgid "**現在オブジェクトの操作**"
-msgstr "**Manipulating Current Objects**"
+#: ../../source/man5/special_operation.rst:44
+msgid "現在オブジェクトの操作"
+msgstr "Manipulating the current object"
 
 #: ../../source/man5/special_operation.rst:1
 msgid "前進"
@@ -241,12 +245,14 @@ msgid "G"
 msgstr "G"
 
 #: ../../source/man5/special_operation.rst:1
-msgid "グローバル・ローカル切り替え（ **キー操作による移動・回転に対して** ）"
-msgstr "global/local switching (**For movement/rotation by key operation**)"
+msgid ""
+"グローバル(G)・ローカル(L)切り替え（ **キー操作による移動・回転に対して** ）"
+msgstr ""
+"Global (G)/local (L) switching ( **for movement/rotation by key operation** )"
 
-#: ../../source/man5/special_operation.rst:63
-msgid "**オブジェクトのIKマーカーの操作**"
-msgstr "**Working with object IK markers**"
+#: ../../source/man5/special_operation.rst:66
+msgid "オブジェクトのIKマーカーの操作"
+msgstr "Manipulating IK markers on objects"
 
 #: ../../source/man5/special_operation.rst:1
 msgid "押しながらIKマーカーをクリックして複数選択"

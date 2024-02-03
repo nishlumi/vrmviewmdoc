@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:34+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: ../../source/man2/operation_text3d.rst:3
+msgid "Text3D"
+msgstr "Text3D"
+
+#: ../../source/man2/operation_text3d.rst:6
+msgid "Text3Dは3Dオブジェクトです。Textと異なり、3D空間で使うことができます。もちろん本アプリのモーションに対応しています。"
+msgstr "Text3D is a 3D object. Unlike Text, it can be used in 3D space. Of course, it corresponds to the motion of this application."
+
+#: ../../source/man2/operation_text3d.rst:14
+msgid "3Dオブジェクトなので扱いはOtherObjectやImageなどと同等に操作ができます。"
+msgstr "Since it is a 3D object, it can be manipulated in the same way as OtherObject or Image."
+
+#: ../../source/man2/operation_text3d.rst:16
+msgid "大きさ"
+msgstr "Size"
+
+#: ../../source/man2/operation_text3d.rst:18
+msgid "Text3Dでは大きさをフォントサイズと共通プロパティの倍率(%)でも変えることができますが、その意味は全く異なります。"
+msgstr "In Text3D, the size can be changed using the font size and the common property magnification (%), but the meaning is completely different."
+
+#: ../../source/man2/operation_text3d.rst
+msgid "フォントサイズ"
+msgstr "Font size"
+
+#: ../../source/man2/operation_text3d.rst:20
+msgid "テキストオブジェクト自体の大きさを変更します。"
+msgstr "Change the size of the text object itself."
+
+#: ../../source/man2/operation_text3d.rst
+msgid "倍率"
+msgstr "Scale"
+
+#: ../../source/man2/operation_text3d.rst:22
+msgid "テキストの表示の大きさを変更します。X軸・Y軸別々に指定すれば、さらに見た目を変えることができます。"
+msgstr "Change the display size of text. You can further change the appearance by specifying the X and Y axes separately."
+
+#: ../../source/man2/operation_text3d.rst:24
+msgid "テキスト自体の大きさは変わらないので、あまりに倍率が大きいと荒く表示される可能性があります。"
+msgstr "The size of the text itself does not change, so if the magnification is too high, it may appear rough."

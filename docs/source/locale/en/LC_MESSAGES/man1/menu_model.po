@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-26 12:26+0900\n"
-"PO-Revision-Date: 2023-12-26 12:26+0900\n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:17+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -97,6 +97,8 @@ msgid ""
 "それぞれ、 ``ファイルから`` , ``Googleドライブから直接指定`` , ``Googleドライブか"
 "ら選択`` のメニューを使用可能です。"
 msgstr ""
+"You can use the ``From File`` , ``Direct from Google Drive`` , or ``Select from "
+"Google Drive`` menus, respectively."
 
 #: ../../source/man1/menu_model.rst
 msgid "VRM"
@@ -146,19 +148,36 @@ msgstr "Save"
 msgid "ポーズ保存とモーション保存のメニューを表示します。"
 msgstr "Displays the pose save and motion save menu."
 
-#: ../../source/man1/menu_model.rst:51
-msgid "``端末`` , ``内部ストレージ`` , ``Google Drive`` いずれかに保存できます。"
-msgstr "You can save it to ``device``, ``internal storage``, or ``Google Drive``."
+#: ../../source/man1/menu_model.rst:54
+msgid ""
+"ポーズあるいはモーションのメニューをクリックすると、さらにサブメニューが表示され"
+"ます。"
+msgstr "Clicking on the Pause or Motion menu will bring up additional submenus."
 
-#: ../../source/man1/menu_model.rst:53
-#, fuzzy
+#: ../../source/man1/menu_model.rst:56
+msgid ""
+"``端末`` , ``内部ストレージ`` , ``Google Drive`` いずれかに保存できます。モーショ"
+"ンの場合、さらに次のフォーマットにエクスポートが可能です。"
+msgstr ""
+"It can be saved to ``terminal`` , ``internal storage`` , or ``Google Drive``. "
+"For motions, you can additionally export to the following formats"
+
+#: ../../source/man1/menu_model.rst:58
+msgid ".anim"
+msgstr ".anim"
+
+#: ../../source/man1/menu_model.rst:59
+msgid ".vrma"
+msgstr ".vrma"
+
+#: ../../source/man1/menu_model.rst:61
 msgid ""
 "ポーズはVRMのみです。現在選択中のVRMの現在のポーズをポーズファイルに保存します。"
 msgstr ""
-"For VRM only, saves the current pose of the currently selected VRM to a pose "
-"file."
+"Pose is for VRM only. Saves the current pose of the currently selected VRM to a "
+"pose file."
 
-#: ../../source/man1/menu_model.rst:55
+#: ../../source/man1/menu_model.rst:63
 msgid "モーションは現在選択中のタイムラインのモーションを保存します。"
 msgstr "Motion saves the motion of the currently selected timeline."
 
@@ -166,12 +185,11 @@ msgstr "Motion saves the motion of the currently selected timeline."
 msgid "一覧"
 msgstr "List"
 
-#: ../../source/man1/menu_model.rst:58
-#, fuzzy
+#: ../../source/man1/menu_model.rst:66
 msgid "保存したポーズ・モーションの一覧を表示します。"
-msgstr "Displays a list of saved poses with thumbnails."
+msgstr "Displays a list of saved poses and motions."
 
-#: ../../source/man1/menu_model.rst:60
+#: ../../source/man1/menu_model.rst:68
 msgid "**Reset operation 内**"
 msgstr "**In the Reset operation**"
 
@@ -179,7 +197,7 @@ msgstr "**In the Reset operation**"
 msgid "位置をリセット"
 msgstr "reset position"
 
-#: ../../source/man1/menu_model.rst:63
+#: ../../source/man1/menu_model.rst:71
 msgid "選択した3Dオブジェクトの位置を初期位置にリセットします。"
 msgstr "Resets the position of the selected 3D object to its initial position."
 
@@ -187,7 +205,7 @@ msgstr "Resets the position of the selected 3D object to its initial position."
 msgid "回転をリセット"
 msgstr "reset rotation"
 
-#: ../../source/man1/menu_model.rst:65
+#: ../../source/man1/menu_model.rst:73
 msgid "選択した3Dオブジェクトの回転を初期角度にリセットします。"
 msgstr "Resets the rotation of the selected 3D object to its initial angle."
 
@@ -195,7 +213,7 @@ msgstr "Resets the rotation of the selected 3D object to its initial angle."
 msgid "モデルを削除"
 msgstr "delete model"
 
-#: ../../source/man1/menu_model.rst:67
+#: ../../source/man1/menu_model.rst:75
 msgid "選択した3Dオブジェクトをアプリから削除します。"
 msgstr "Delete the selected 3D object from the app."
 
@@ -203,7 +221,7 @@ msgstr "Delete the selected 3D object from the app."
 msgid "全ボーンをリセット"
 msgstr "reset all bones"
 
-#: ../../source/man1/menu_model.rst:69
+#: ../../source/man1/menu_model.rst:77
 msgid ""
 "選択したVRMの全身のボーンとIKの位置・回転をすべてリセットします。（Tポーズに戻り"
 "ます）"
@@ -211,7 +229,7 @@ msgstr ""
 "Resets all bones and IK positions and rotations of the whole body of the "
 "selected VRM. (return to T pose)"
 
-#: ../../source/man1/menu_model.rst:71
+#: ../../source/man1/menu_model.rst:79
 msgid "**その他**"
 msgstr "**others**"
 
@@ -219,7 +237,7 @@ msgstr "**others**"
 msgid "MediaPipe"
 msgstr "MediaPipe"
 
-#: ../../source/man1/menu_model.rst:74
+#: ../../source/man1/menu_model.rst:82
 msgid "AIによるポーズトラッキング機能を使用します。"
 msgstr "Use the pose tracking function by AI."
 

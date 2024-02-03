@@ -73,16 +73,16 @@ Googleへのログイン履歴をきれいに保つことにも繋がるでし�
     これを自分のドライブにコピーするのが一番簡単です。コピーした後はどのフォルダに移動しても問題ありません。
 
     .. warning::
-        上記サンプルプロジェクト内のスクリプトを直接実行しないでください。ユーザーのGoogleへのアクセス権限の許可を求めてしまいます。
+        上記サンプルプロジェクト内のスクリプトを直接実行しないでください。開発者のユーザー権限のまま、ユーザーのGoogleへのアクセス権限の許可を求めてしまいます。
 
         必ず自分のGoogleドライブにコピーしたスクリプトプロジェクトを使ってください。
 
 
     インストール手順は下記を参考にしてください。
 
-    :Googleスライドによるインストール方法 - Googleスライド:
+    Googleスライドによるインストール方法 - Googleスライド:
         https://docs.google.com/presentation/d/e/2PACX-1vQP2RstLGn82dh_FOqBfbPPBGvx9o-YQXc-3ol8Gk4_IseKrzsgs0hgAt0h4uYX2kA71ENrnI-XXbBf/pub?start=false&loop=false&delayms=3000&slide=id.p
-    :インストール方法 - Github:
+    インストール方法 - Github:
         https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst
 
 |
@@ -90,7 +90,7 @@ Googleへのログイン履歴をきれいに保つことにも繋がるでし�
 Github
     下記リポジトリでもソースを公開していますので、何をしているか参考にしてください。
 
-    :vrmviewmeister-gdrive-extension - Github:
+    vrmviewmeister-gdrive-extension - Github:
         https://github.com/nishlumi/vrmviewmeister-gdrive-extension/
 
 |
@@ -102,7 +102,7 @@ Github
     4. デプロイして、ウェブアプリのURLをコピーする
 
     .. hint::
-        一般的にGoogle APIを使うウェブサービスだと2の操作が、そのサービスからGoogleにログインを求められる操作に相当します。
+        一般的にGoogle APIを使うウェブサービスだと ``2の操作`` が、そのサービスからGoogleにログインを求められる操作に相当します。
 
         本アプリにおいては事前にスクリプトプロジェクト内で自分で行っていただくので、本アプリを使う上でGoogleへログインする手間は不要です。
 
@@ -160,4 +160,24 @@ Github
 ポーズ・モーション一覧
     読み込み場所:
         ``Google Drive`` を選択可能になります。
+
+
+ユーザーフォルダ
+===========================
+
+設定画面のファイルローダータブには ``ユーザーフォルダのID`` という入力欄があります。
+
+.. image:: img/gen_use_cloud_01.png
+    :align: center
+
+　これは各ファイルを置いているフォルダを限定する設定です。デフォルトではユーザーのGoogleドライブの全てのフォルダから各ファイルを探そうとします。そのため **スクリプトの実行が長くなる可能性** があります。
+
+　ここでGoogleドライブのフォルダのIDまたは名前を指定することで、そのフォルダからのみファイルを検索するようになります。実行も時間がかからなくなり、スクリプトの実行の制限にも影響しなくて済みます。ぜひ指定することをお勧めします。
+
+.. hint::
+    デフォルトではフォルダIDのみ受け付けます。
+
+    ``名前指定`` のトグルスイッチをONにすると、そのファイル種類のみフォルダ名でGoogleドライブを限定できます。
+    
+    フォルダIDが長くてコピーや入力が面倒という場合には名前を指定するようにすることをお勧めします。
 

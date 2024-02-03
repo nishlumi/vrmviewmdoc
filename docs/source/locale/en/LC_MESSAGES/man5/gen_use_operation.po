@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-04 15:24+0900\n"
+"POT-Creation-Date: 2024-02-03 18:14+0900\n"
+"PO-Revision-Date: 2024-02-03 18:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man5/gen_use_operation.rst:3
 msgid "アプリの操作"
@@ -238,27 +238,23 @@ msgstr ""
 msgid "すると中心点がメインカメラに向かって近づいたり離れたりします。"
 msgstr "Then the center point will move closer or further away from the main camera."
 
-#: ../../source/man5/gen_use_operation.rst:146
-msgid "**中心点とオブジェクトの距離**"
-msgstr "**Distance between center point and object**"
-
-#: ../../source/man5/gen_use_operation.rst:148
-msgid "中心点と現在選択中のオブジェクトの距離は右上に表示されます。"
-msgstr "The distance between the center point and the currently selected object is displayed in the upper right."
-
-#: ../../source/man5/gen_use_operation.rst:150
-msgid "sub2"
-msgstr "sub2"
-
-#: ../../source/man5/gen_use_operation.rst:151
-msgid "sub3"
-msgstr "sub3"
-
-#: ../../source/man5/gen_use_operation.rst:-1
+#: ../../source/man5/gen_use_operation.rst:-1 ../../source/man5/gen_use_operation.rst:147
 msgid "中心点とオブジェクトの距離"
 msgstr "Distance between center point and object"
 
-#: ../../source/man5/gen_use_operation.rst:159
+#: ../../source/man5/gen_use_operation.rst:149
+msgid "中心点と現在選択中のオブジェクトの距離は右上に表示されます。"
+msgstr "The distance between the center point and the currently selected object is displayed in the upper right."
+
+#: ../../source/man5/gen_use_operation.rst:151
+msgid "sub2"
+msgstr "sub2"
+
+#: ../../source/man5/gen_use_operation.rst:152
+msgid "sub3"
+msgstr "sub3"
+
+#: ../../source/man5/gen_use_operation.rst:160
 msgid ""
 "あくまで目安です。IとOキーを押していると **数値が減っていくのと増える境目** があります。そこが中心点と現在選択中のオブジェクトが重"
 "なっている点です。そこでカメラを回転すれば比較的きれいにオブジェクトの周囲を回転することができます。"
@@ -267,15 +263,15 @@ msgstr ""
 "is the point where the center point and the currently selected object overlap. If you rotate the camera there, you can rotate "
 "around the object relatively cleanly."
 
-#: ../../source/man5/gen_use_operation.rst:162
+#: ../../source/man5/gen_use_operation.rst:163
 msgid "v-padにあるボタン |sub2| |sub3| でも同じ操作を行えます。 :doc:`../man1/screen_vpad`"
 msgstr "The same operation can be performed with the buttons |sub2| |sub3| on the v-pad. :doc:`../man1/screen_vpad`"
 
-#: ../../source/man5/gen_use_operation.rst:164
-msgid "**移動・回転しすぎて中心点が吹っ飛んだら**"
-msgstr "**If you move or rotate too much and the center point is blown away**"
-
 #: ../../source/man5/gen_use_operation.rst:166
+msgid "移動・回転しすぎて中心点が吹っ飛んだら"
+msgstr "If you move or rotate too much and the center point is blown away"
+
+#: ../../source/man5/gen_use_operation.rst:168
 msgid ""
 "移動や回転、WebGL画面の右上の軸の変更をすると中心点がずれることがあります。そういうときはキーボード操作がカメラモードのときに ``R"
 "キー`` を押してください。するとメインカメラと中心点が初期位置にリセットされます。"
@@ -283,31 +279,63 @@ msgstr ""
 "If you move, rotate, or change the axis on the upper right of the WebGL screen, the center point may shift. In that case, press "
 "the ``R key`` when the keyboard is in camera mode. Then the main camera and center point will be reset to the initial position."
 
-#: ../../source/man5/gen_use_operation.rst:169
+#: ../../source/man5/gen_use_operation.rst:171
 msgid "リボンバーの画面タブの ``カメラをリセット`` ボタンでも同様です。"
 msgstr "he same is true for the ``Reset Camera`` button on the Screen tab of the ribbon bar."
 
-#: ../../source/man5/gen_use_operation.rst:171
+#: ../../source/man5/gen_use_operation.rst:173
 msgid "調整しづらいZ軸をリセットするには ``Q`` キーを押してください。"
 msgstr "Press the ``Q`` key to reset the hard-to-adjust Z axis."
 
-#: ../../source/man5/gen_use_operation.rst:181
+#: ../../source/man5/gen_use_operation.rst:182
+msgid "オブジェクトの周りを360度回転する"
+msgstr "Rotate 360 degrees around an object"
+
+#: ../../source/man5/gen_use_operation.rst:184
+msgid "いわゆるターンテーブル風にカメラを使います。選択中のオブジェクトの周りを回り続けます。"
+msgstr "The camera is used like a turntable. Continues to circle around the selected object."
+
+#: ../../source/man5/gen_use_operation.rst:186
+msgid "リボンバーの画面タブにある Options領域に注目します。"
+msgstr "Notice the Options area in the Screen tab of the ribbon bar."
+
+#: ../../source/man5/gen_use_operation.rst:187
+msgid "``回転速度`` に好きな値を入力します。デフォルトは15です。"
+msgstr "Enter the desired value for ``Rotation Speed``. Default is 15."
+
+#: ../../source/man5/gen_use_operation.rst:188
+msgid "リボンバーの画面タブにある ``360度回転`` にチェックを入れます。"
+msgstr "Check ``360 degree rotation`` on the screen tab of the ribbon bar."
+
+#: ../../source/man5/gen_use_operation.rst:189
+msgid "チェックを外すまでずっと回り続けます。"
+msgstr "It will continue to rotate until it is unchecked."
+
+#: ../../source/man5/gen_use_operation.rst:192
+msgid "この状態でスクリーンショットを撮ったり、画面録画をすることもできます。"
+msgstr "You can also take screenshots or record the screen in this state."
+
+#: ../../source/man5/gen_use_operation.rst:195
+msgid "VR/ARに切り替えている間は回転が止まります。"
+msgstr "Rotation will stop while switching to VR/AR."
+
+#: ../../source/man5/gen_use_operation.rst:204
 msgid "オブジェクトとキーボード操作"
 msgstr "Objects and keyboard operations"
 
-#: ../../source/man5/gen_use_operation.rst:183
+#: ../../source/man5/gen_use_operation.rst:206
 msgid "キーボード操作の詳しい説明は :doc:`../man5/special_operation` をご覧ください。"
 msgstr "For a detailed explanation of keyboard operations, please see :doc:`../man5/special_operation` ."
 
-#: ../../source/man5/gen_use_operation.rst:196
+#: ../../source/man5/gen_use_operation.rst:219
 msgid "操作の基準"
 msgstr "Standard of operation"
 
-#: ../../source/man5/gen_use_operation.rst:186
+#: ../../source/man5/gen_use_operation.rst:209
 msgid "本アプリでは **グローバル座標** を基準としています。"
 msgstr "This app is based on **global coordinates** ."
 
-#: ../../source/man5/gen_use_operation.rst:189
+#: ../../source/man5/gen_use_operation.rst:212
 msgid "キーボード操作にてグローバル←→ローカル座標を切り替えて操作することができます。"
 msgstr "You can operate by switching global and local coordinates by keyboard operation."
 
@@ -327,23 +355,23 @@ msgstr "``G key``"
 msgid "キーボード操作で移動・回転することに対するグローバル・ローカル切り替え"
 msgstr "global/local switching for keyboard movement/rotation"
 
-#: ../../source/man5/gen_use_operation.rst:196
+#: ../../source/man5/gen_use_operation.rst:219
 msgid "ただし、UI上の入力欄に表示されるのはグローバル座標です。"
 msgstr "However, what is displayed in the input field on the UI is the global coordinates."
 
-#: ../../source/man5/gen_use_operation.rst:198
+#: ../../source/man5/gen_use_operation.rst:221
 msgid "objmark_CO"
 msgstr "objmark_CO"
 
-#: ../../source/man5/gen_use_operation.rst:199
+#: ../../source/man5/gen_use_operation.rst:222
 msgid "objmark_GL"
 msgstr "objmark_GL"
 
-#: ../../source/man5/gen_use_operation.rst:227
+#: ../../source/man5/gen_use_operation.rst:250
 msgid "現在の操作の状態"
 msgstr "the state of the current operation"
 
-#: ../../source/man5/gen_use_operation.rst:202
+#: ../../source/man5/gen_use_operation.rst:225
 msgid "現在のオブジェクトや画面に対する操作基準は右上に表示されます。"
 msgstr "The operating criteria for the current object or screen are displayed in the upper right."
 
@@ -403,35 +431,35 @@ msgstr "M key"
 msgid "Gキー"
 msgstr "G key"
 
-#: ../../source/man5/gen_use_operation.rst:218
+#: ../../source/man5/gen_use_operation.rst:241
 msgid "左のアルファベット"
 msgstr "left alphabet"
 
-#: ../../source/man5/gen_use_operation.rst:216
+#: ../../source/man5/gen_use_operation.rst:239
 msgid "キーボードでの操作モードを示します。 ``Mキー`` を押すことで C - Oが入れ替わります。"
 msgstr "Indicates the operation mode with the keyboard. Pressing the ``M key`` will switch C - O."
 
-#: ../../source/man5/gen_use_operation.rst:218
+#: ../../source/man5/gen_use_operation.rst:241
 msgid "**C** のときはメインカメラの操作、 **O** のときは選択中のオブジェクトの操作となります。"
 msgstr "**C** operates the main camera, and **O** operates the selected object."
 
-#: ../../source/man5/gen_use_operation.rst:227
+#: ../../source/man5/gen_use_operation.rst:250
 msgid "右のアルファベット"
 msgstr "right alphabet"
 
-#: ../../source/man5/gen_use_operation.rst:221
+#: ../../source/man5/gen_use_operation.rst:244
 msgid "オブジェクトの操作の時の座標を示します。 ``Gキー`` を押すことで G - L が入れ替わります。"
 msgstr "Indicates the coordinates at which the object is manipulated. Pressing the ``G key`` will switch G - L."
 
-#: ../../source/man5/gen_use_operation.rst:223
+#: ../../source/man5/gen_use_operation.rst:246
 msgid "**G** のときはグローバル座標で移動や回転し、 **L** の時はローカル座標での移動・回転となります。"
 msgstr "**G** moves and rotates in global coordinates, and **L** moves and rotates in local coordinates."
 
-#: ../../source/man5/gen_use_operation.rst:226
+#: ../../source/man5/gen_use_operation.rst:249
 msgid "``Xキー`` のグローバル・ローカルの切り替えは反映されません。混同にご注意ください。"
 msgstr "Global/local switching of the ``X key`` is not reflected. Please be careful of confusion."
 
-#: ../../source/man5/gen_use_operation.rst:230
+#: ../../source/man5/gen_use_operation.rst:253
 msgid ""
 "操作モードを ``O`` オブジェクトにしておくと、マウスとキーボードの両方でオブジェクトを移動や回転させることができ、効率アップするで"
 "しょう。"
@@ -439,11 +467,11 @@ msgstr ""
 "Setting the manipulation mode to ``O`` object will allow you to move and rotate the object with both mouse and keyboard, which "
 "will be more efficient."
 
-#: ../../source/man5/gen_use_operation.rst:235
+#: ../../source/man5/gen_use_operation.rst:258
 msgid "マウスやタッチの操作をさらに活用する"
 msgstr "Get more out of your mouse and touch interactions"
 
-#: ../../source/man5/gen_use_operation.rst:237
+#: ../../source/man5/gen_use_operation.rst:260
 msgid ""
 "本アプリはWebGL画面をマウスやタッチ操作で動かしますが、使い方や環境によってはCtrlキーやSPACEキーなど、キーボード操作を交える必要が"
 "あります。キーボードをすぐに使えない環境などで全てマウス操作をできるのが、v-padというウィンドウです。"
@@ -452,7 +480,7 @@ msgstr ""
 "necessary to use keyboard operations such as the Ctrl key and SPACE key. A window called v-pad allows all mouse operations in an "
 "environment where the keyboard cannot be used immediately."
 
-#: ../../source/man5/gen_use_operation.rst:239
+#: ../../source/man5/gen_use_operation.rst:262
 msgid ""
 "このウィンドウを使うことにより、メインカメラの移動・回転・ズームインズームアウトをマウスやタッチの環境に悩むことなく共通して使うこ"
 "とができるようになります。"
@@ -460,22 +488,25 @@ msgstr ""
 "By using this window, you will be able to use the movement, rotation, zoom in and zoom out of the main camera in common without "
 "worrying about the mouse or touch environment."
 
-#: ../../source/man5/gen_use_operation.rst:246
+#: ../../source/man5/gen_use_operation.rst:269
 msgid "ウィンドウの見た目と使い方は :doc:`../man1/screen_vpad` をご覧ください。"
 msgstr "See :doc:`../man1/screen_vpad` for how windows look and how to use them."
 
-#: ../../source/man5/gen_use_operation.rst:250
+#: ../../source/man5/gen_use_operation.rst:273
 msgid "いろんな操作例"
 msgstr "Various operation examples"
 
-#: ../../source/man5/gen_use_operation.rst:249
+#: ../../source/man5/gen_use_operation.rst:272
 msgid "メインカメラ、回転はマウス＋メインカメラの移動は WASD FV で"
 msgstr "Main camera, rotate with mouse + move main camera with WASD FV"
 
-#: ../../source/man5/gen_use_operation.rst:250
+#: ../../source/man5/gen_use_operation.rst:273
 msgid "メインカメラの操作全般を v-pad で、細かい調整をマウスで"
 msgstr "General operation of main camera with v-pad, fine adjustment with mouse"
 
-#: ../../source/man5/gen_use_operation.rst:252
+#: ../../source/man5/gen_use_operation.rst:275
 msgid "自分に適した操作方法を見つけてみてください。"
 msgstr "Try to find the operation method that suits you."
+
+#~ msgid "**中心点とオブジェクトの距離**"
+#~ msgstr "**Distance between center point and object**"
