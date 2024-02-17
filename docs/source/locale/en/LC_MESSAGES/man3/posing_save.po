@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-03 18:15+0900\n"
-"PO-Revision-Date: 2024-02-03 19:07+0900\n"
+"POT-Creation-Date: 2024-02-15 21:39+0900\n"
+"PO-Revision-Date: 2024-02-15 21:54+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -276,8 +276,8 @@ msgstr ""
 "motion\" above."
 
 #: ../../source/man3/posing_save.rst:138
-msgid "その他機能"
-msgstr "Other functions"
+msgid "様々な形式で保存する"
+msgstr "Save in various formats"
 
 #: ../../source/man3/posing_save.rst:143
 msgid "ディスクに保存する"
@@ -328,53 +328,45 @@ msgid "中身はJSON形式です。識別しやすくするため独自の拡張
 msgstr ""
 "The content is in JSON format. It is downloaded with a unique extension for easy identification."
 
-#: ../../source/man3/posing_save.rst:183
+#: ../../source/man3/posing_save.rst:182
 msgid "Unityなど汎用形式でモーション保存する"
 msgstr "Save the motion in a general format such as Unity"
 
-#: ../../source/man3/posing_save.rst:185
+#: ../../source/man3/posing_save.rst:184
 msgid "VRMのみですが、汎用的なアニメーション形式での保存も可能です。"
 msgstr ""
 "Although only VRM is available, it is also possible to save in a general-purpose animation format."
 
-#: ../../source/man3/posing_save.rst:187
+#: ../../source/man3/posing_save.rst:186
 msgid "汎用形式のモーションが登録されるタイミング"
 msgstr "Timing when general-purpose motion is registered"
 
-#: ../../source/man3/posing_save.rst:189
+#: ../../source/man3/posing_save.rst:188
 msgid "キーフレームを登録した時"
 msgstr "When registering a key frame"
 
-#: ../../source/man3/posing_save.rst:190
+#: ../../source/man3/posing_save.rst:189
 msgid "タイムラインで登録済みのキーフレームを選択した時"
 msgstr "When a registered keyframe is selected on the timeline"
 
-#: ../../source/man3/posing_save.rst:192
+#: ../../source/man3/posing_save.rst:191
 msgid ""
 "モーションメニューのうち汎用形式の中から、 ``.bvh`` , ``.anim`` , ``.vrma`` のいずれかを選びます。"
 msgstr "Select one of the general motion menu formats: ``.bvh``, ``.anim``, or ``.vrma``."
 
-#: ../../source/man3/posing_save.rst:194
+#: ../../source/man3/posing_save.rst:193 ../../source/man3/posing_save.rst:224
 msgid "ファイル名を入力し、 ``OK`` ボタンを押します。"
 msgstr "Enter the file name and press the ``OK`` button."
 
-#: ../../source/man3/posing_save.rst:197
+#: ../../source/man3/posing_save.rst:196
 msgid "**.anim**"
 msgstr "**.anim**"
 
-#: ../../source/man3/posing_save.rst:198
-msgid "**.vrma**"
-msgstr "**.vrma**"
-
-#: ../../source/man3/posing_save.rst:201
+#: ../../source/man3/posing_save.rst:199
 msgid ".animファイルは Unityでそのまま読み込み可能な AnimationClipファイルです。"
 msgstr ".anim files are AnimationClip files that can be read directly by Unity."
 
-#: ../../source/man3/posing_save.rst:202
-msgid ".vrmaファイルはUniVRMで新しく定義されたVRM専用のモーションフォーマットです。"
-msgstr ".vrma file is a newly defined motion format exclusively for VRM in UniVRM."
-
-#: ../../source/man3/posing_save.rst:205
+#: ../../source/man3/posing_save.rst:202 ../../source/man3/posing_save.rst:233
 msgid ""
 "既存のプロジェクトやモーションを読み込んだ時は、 **必ず登録済みキーフレームを一つずつ選択して** VRMを"
 "実際に動かしてください。そうしないと汎用形式のデータが保存されません。"
@@ -382,23 +374,67 @@ msgstr ""
 "When loading an existing project or motion, **be sure to select the registered keyframes one by "
 "one** to actually move the VRM. Otherwise, data in a generic format will not be saved."
 
-#: ../../source/man3/posing_save.rst:206
+#: ../../source/man3/posing_save.rst:203
 msgid "本アプリ ``ver 2.4.0`` 時点では.bvhは実装が困難なため、選択できません。"
 msgstr ""
 "As of ``ver 2.4.0`` of this application, .bvh cannot be selected because it is difficult to "
 "implement."
 
-#: ../../source/man3/posing_save.rst:207
+#: ../../source/man3/posing_save.rst:204
 msgid ""
-".animと.vrmaは試験運用中のため動作保証できません。特定のボーンの回転が崩れる可能性があります。ご了承"
-"ください。"
+".animとは試験運用中のため動作保証できません。特定のボーンの回転が崩れる可能性があります。ご了承くださ"
+"い。"
 msgstr ""
-".anim and .vrma are in experimental operation and cannot be guaranteed to work. The rotation of "
+".anim is currently in experimental operation, so we cannot guarantee its operation. The rotation of "
 "certain bones may be broken. note that."
 
-#: ../../source/man3/posing_save.rst:208
-msgid ".animファイルと.vrmaファイルを本アプリで再び読み込むことはできません。"
-msgstr ".anim files and .vrma files cannot be reloaded by this app."
+#: ../../source/man3/posing_save.rst:205
+msgid ".animファイルを本アプリで再び読み込むことはできません。"
+msgstr ".anim files cannot be reloaded by this app."
+
+#: ../../source/man3/posing_save.rst:213
+msgid "VRMAnimation形式でエクスポートする"
+msgstr "Export in VRMAnimation format"
+
+#: ../../source/man3/posing_save.rst:215
+msgid ".vrmaファイルはUniVRMで新しく定義されたVRM専用のモーションフォーマットです。"
+msgstr ".vrma file is a newly defined motion format exclusively for VRM in UniVRM."
+
+#: ../../source/man3/posing_save.rst:217
+msgid "詳しくは下記をご覧ください。"
+msgstr "See below for details."
+
+#: ../../source/man3/posing_save.rst:219
+msgid ""
+"`VRMC_vrm_animation - GitHub <https://github.com/vrm-c/vrm-specification/blob/master/specification/"
+"VRMC_vrm_animation-1.0/README.ja.md>`_"
+msgstr ""
+"`VRMC_vrm_animation - GitHub <https://github.com/vrm-c/vrm-specification/blob/master/specification/"
+"VRMC_vrm_animation-1.0/README.ja.md>`_"
+
+#: ../../source/man3/posing_save.rst:222
+msgid "モーションメニューのうち汎用形式の中から、 ``.vrma`` を選びます。"
+msgstr "Select ``.vrma`` from the general formats in the motion menu."
+
+#: ../../source/man3/posing_save.rst:227
+msgid "**.vrma**"
+msgstr "**.vrma**"
+
+#: ../../source/man3/posing_save.rst:230
+msgid ""
+"ver 2.5.0より、.vrmaファイルを読み込んで再生することができるようになりました。 OtherObjectのアニメー"
+"ションの再生と使い方は同じです。"
+msgstr ""
+"From ver 2.5.0, it is now possible to read and play .vrma files. Playing and using the animation of "
+"OtherObject is the same."
+
+#: ../../source/man3/posing_save.rst:234
+msgid ""
+".animと同様、.vrmaは試験運用中のため動作保証できません。特定のボーンの回転が崩れる可能性があります。"
+"ご了承ください。"
+msgstr ""
+"Like .anim, .vrma is in experimental operation and cannot be guaranteed to work. The rotation of "
+"certain bones may be broken. note that."
 
 #~ msgid ""
 #~ "※なおセキュリティ対策のため、端末に保存する場合は必ずカットされます。ポーズファイルを端末から読み"
@@ -422,3 +458,6 @@ msgstr ".anim files and .vrma files cannot be reloaded by this app."
 #~ msgstr ""
 #~ "As of this application ``ver 2.3.0``, it only supports Humanoid Animator motion. Since .bvh is in "
 #~ "experimental operation, operation cannot be guaranteed yet. please note that."
+
+#~ msgid "その他機能"
+#~ msgstr "Other functions"

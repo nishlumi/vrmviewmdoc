@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-26 11:46+0900\n"
-"PO-Revision-Date: 2023-12-28 00:07+0900\n"
+"POT-Creation-Date: 2024-02-15 21:39+0900\n"
+"PO-Revision-Date: 2024-02-15 21:48+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -116,19 +116,27 @@ msgstr ""
 "Confirms the movement of the frame position. If you enter a frame position that already has a "
 "keyframe registered, the button cannot be pressed."
 
+#: ../../source/man1/screen_keyframe.rst:43
+msgid "全般タブ"
+msgstr "General tab"
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "メモ"
+msgstr "Memo"
+
 #: ../../source/man1/screen_keyframe.rst:40
-msgid "イージングタブ"
-msgstr "easing tab"
+msgid "編集中のキーフレームにメモを記入します。実際の動きには影響しません。"
+msgstr "Write a memo on the keyframe being edited. It does not affect actual movement."
 
 #: ../../source/man1/screen_keyframe.rst
 msgid "イージング"
 msgstr "easing"
 
-#: ../../source/man1/screen_keyframe.rst:40
+#: ../../source/man1/screen_keyframe.rst:43
 msgid "編集中のキーフレームに至るまでのイージングを選択します。"
 msgstr "Select the easing up to the keyframe you are editing."
 
-#: ../../source/man1/screen_keyframe.rst:53
+#: ../../source/man1/screen_keyframe.rst:56
 msgid "間隔(duration)タブ"
 msgstr "duration tab"
 
@@ -136,7 +144,7 @@ msgstr "duration tab"
 msgid "間隔"
 msgstr "Duration"
 
-#: ../../source/man1/screen_keyframe.rst:44
+#: ../../source/man1/screen_keyframe.rst:47
 msgid ""
 "一つ前の登録済みキーフレームから編集中のキーフレームに至るまでの間隔（秒）を手動で指定します。基"
 "本的に自動で計算されますが、あえて変更したい場合にはここで変更できます。"
@@ -149,7 +157,7 @@ msgstr ""
 msgid "間隔をリセット"
 msgstr "Reset duration"
 
-#: ../../source/man1/screen_keyframe.rst:47
+#: ../../source/man1/screen_keyframe.rst:50
 msgid "編集中のキーフレームに至るまでの間隔（秒）を自動計算された値に戻します。"
 msgstr ""
 "Resets the interval (in seconds) before the keyframe being edited to the automatically "
@@ -159,7 +167,7 @@ msgstr ""
 msgid "次のタイムラインの間隔をコピーする"
 msgstr "Copy duration of the following timeline:"
 
-#: ../../source/man1/screen_keyframe.rst:51
+#: ../../source/man1/screen_keyframe.rst:54
 msgid ""
 "コピー元のタイムライン（役割）を選択し、そのタイムラインに登録されたキーフレームの開始と終了を指"
 "定することで、その範囲の間隔(duration)の合計値をコピーすることができます。"
@@ -167,14 +175,14 @@ msgstr ""
 "By selecting the source timeline (role) and specifying the start and end of the keyframes "
 "registered on that timeline, you can copy the total duration value of that range."
 
-#: ../../source/man1/screen_keyframe.rst:53
+#: ../../source/man1/screen_keyframe.rst:56
 msgid ""
 "**※コピーした後に反映するには、さらに間隔(duration)の入力ボックスを操作する必要があります。**"
 msgstr ""
 "In order to reflect after copying, it is necessary to **manipulate** the input box of the "
 "interval (duration)."
 
-#: ../../source/man1/screen_keyframe.rst:59
+#: ../../source/man1/screen_keyframe.rst:67
 msgid "位置,回転タブ"
 msgstr "position, rotation tab"
 
@@ -182,7 +190,7 @@ msgstr "position, rotation tab"
 msgid "位置X, Y, Z"
 msgstr "Position X, Y, Z"
 
-#: ../../source/man1/screen_keyframe.rst:57
+#: ../../source/man1/screen_keyframe.rst:60
 msgid "それぞれの座標です。"
 msgstr "coordinates of each."
 
@@ -190,10 +198,27 @@ msgstr "coordinates of each."
 msgid "回転X, Y, Z"
 msgstr "Rotation X, Y, Z"
 
-#: ../../source/man1/screen_keyframe.rst:60
+#: ../../source/man1/screen_keyframe.rst:63
 msgid ""
 "それぞれの軸の回転角度です。プロパティ一覧の同項目と異なり、ここでは -180～+180度までとなりま"
 "す。"
 msgstr ""
 "The rotation angle of each axis. Unlike the same item in the property list, here it is from "
 "-180 to +180 degrees."
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "絶対指定"
+msgstr "absolute designation"
+
+#: ../../source/man1/screen_keyframe.rst:66
+msgid "チェックを入れた場合、それぞれの値が絶対値になります。"
+msgstr "If checked, each value will be an absolute value."
+
+#: ../../source/man1/screen_keyframe.rst:68
+msgid "チェックが入っていない場合は現在位置・回転にそれぞれの値が加算・減算されます。"
+msgstr ""
+"If not checked, the respective values will be added or subtracted from the current position and "
+"rotation."
+
+#~ msgid "イージングタブ"
+#~ msgstr "easing tab"

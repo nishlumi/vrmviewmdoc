@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 21:39+0900\n"
+"POT-Creation-Date: 2024-02-16 16:43+0900\n"
+"PO-Revision-Date: 2024-02-16 16:44+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man1/screen_vpad.rst:6
 msgid "v-pad（メインカメラの操作パッド）"
@@ -39,11 +39,19 @@ msgstr ""
 "I want to operate with one hand without using the keyboard! I want to use it on my tablet PC! You can also use "
 "it in such cases."
 
+#: ../../source/man1/screen_vpad.rst:15
+msgid ""
+"VRデバイスでもコントローラやハンドトラッキングにより使うことができます。WebGL画面を操作するのに細かい調整ができ"
+"ます。 合わせて :ref:`vpad_for_vrar` を参照してください。"
+msgstr ""
+"It can also be used on VR devices with controllers and hand tracking. You can make detailed adjustments to "
+"operate the WebGL screen. Also see :ref:`vpad_for_vrar` ."
+
 #: ../../source/man1/screen_vpad.rst
 msgid "回転"
 msgstr "rotation"
 
-#: ../../source/man1/screen_vpad.rst:16
+#: ../../source/man1/screen_vpad.rst:19
 msgid "マウスの右クリックしながら上下左右動かすことに相当。"
 msgstr "Equivalent to moving the mouse up, down, left, or right while right-clicking."
 
@@ -51,7 +59,7 @@ msgstr "Equivalent to moving the mouse up, down, left, or right while right-clic
 msgid "前進"
 msgstr "Forward"
 
-#: ../../source/man1/screen_vpad.rst:18
+#: ../../source/man1/screen_vpad.rst:21
 msgid "マウスのホイールを動かすことに相当。"
 msgstr "Equivalent to moving the mouse wheel."
 
@@ -59,19 +67,19 @@ msgstr "Equivalent to moving the mouse wheel."
 msgid "移動"
 msgstr "move"
 
-#: ../../source/man1/screen_vpad.rst:20
+#: ../../source/man1/screen_vpad.rst:23
 msgid "マウスの中クリックしながら上下左右動かすことに相当。"
 msgstr "Equivalent to moving the mouse up, down, left, or right while clicking the middle mouse button."
 
-#: ../../source/man1/screen_vpad.rst:23
+#: ../../source/man1/screen_vpad.rst:26
 msgid "sub1"
 msgstr "sub1"
 
-#: ../../source/man1/screen_vpad.rst:24
+#: ../../source/man1/screen_vpad.rst:27
 msgid "sub2"
 msgstr "sub2"
 
-#: ../../source/man1/screen_vpad.rst:25
+#: ../../source/man1/screen_vpad.rst:28
 msgid "sub3"
 msgstr "sub3"
 
@@ -79,11 +87,11 @@ msgstr "sub3"
 msgid "|sub1| カメラのZ軸をリセット"
 msgstr "|sub1| Reset camera Z axis"
 
-#: ../../source/man1/screen_vpad.rst:28
+#: ../../source/man1/screen_vpad.rst:31
 msgid "キーボード操作の ``Q`` キーと同じです。メインカメラのZ軸の回転を初期化します。"
 msgstr "Equivalent to the keyboard ``Q`` key. Initialize the Z-axis rotation of the main camera."
 
-#: ../../source/man1/screen_vpad.rst:32
+#: ../../source/man1/screen_vpad.rst:35
 msgid "カメラをリセット:"
 msgstr "Reset camera:"
 
@@ -99,7 +107,7 @@ msgstr "This is the same as the button on the screen tab of the ribbon bar."
 msgid "|sub2| カメラと中心点の距離を近づける"
 msgstr "|sub2| Close the distance between the camera and the center point"
 
-#: ../../source/man1/screen_vpad.rst:35
+#: ../../source/man1/screen_vpad.rst:38
 msgid "キーボード操作の ``I`` キーと同じです。 メインカメラと中心点を近づけます。0距離になったら遠ざかります。"
 msgstr ""
 "Equivalent to the ``I`` key on a keyboard. Bring the main camera closer to the center point. When it reaches 0 "
@@ -109,17 +117,29 @@ msgstr ""
 msgid "|sub3| カメラと中心点の距離を離す"
 msgstr "|sub3| Increase the distance between the camera and the center point"
 
-#: ../../source/man1/screen_vpad.rst:38
+#: ../../source/man1/screen_vpad.rst:41
 msgid "キーボード操作の ``O`` キーと同じです。メインカメラと中心点を遠ざけます。0距離になったら近づきます。"
 msgstr ""
 "Equivalent to the keyboard ``O`` key. Move the main camera away from the center point. It approaches when it "
 "reaches 0 distance."
 
-#: ../../source/man1/screen_vpad.rst:42
+#: ../../source/man1/screen_vpad.rst:43
+msgid "移動と回転のスピードについて"
+msgstr "About the speed of movement and rotation"
+
+#: ../../source/man1/screen_vpad.rst:45
+msgid ""
+"アプリケーションの設定の ``アプリケーション`` タブにあるV-padの ``移動速度`` 、 ``回転速度`` でスピードを調整す"
+"ることができます。"
+msgstr ""
+"You can adjust the speed using the V-pad's ``Movement Speed`` and ``Rotation Speed`` in the ``Application`` "
+"tab of the application settings."
+
+#: ../../source/man1/screen_vpad.rst:48
 msgid "前進のパネルは上下のスワイプ（ドラッグ）のみ可能です。"
 msgstr "The forward panel can only be swiped up and down (drag)."
 
-#: ../../source/man1/screen_vpad.rst:43
+#: ../../source/man1/screen_vpad.rst:49
 msgid ""
 "WebGL画面は画面サイズをアップすることができますが、その分マウス操作がしづらくなる恐れがあります。そういう場合に"
 "このv-padを使うと細かく表示を調整できるため便利です。"

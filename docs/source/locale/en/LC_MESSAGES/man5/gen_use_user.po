@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 16:43+0900\n"
+"PO-Revision-Date: 2024-02-16 16:49+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: ../../source/man5/gen_use_user.rst:3
+msgid "ユーザーフロー"
+msgstr "User flow"
+
+#: ../../source/man5/gen_use_user.rst:5
+msgid ""
+"ここでは本アプリを使うにあたり、まず何をどうすればよいのかそのとっかかりを紹介"
+"していきます。"
+msgstr ""
+"Here, we will introduce you to the beginning of what to do and how to use "
+"this app."
+
+#: ../../source/man5/gen_use_user.rst:7
+msgid "本アプリを使うステップは3段階あると仮定します。"
+msgstr "It is assumed that there are three steps to use this app."
+
+#: ../../source/man5/gen_use_user.rst
+msgid "First"
+msgstr "First"
+
+#: ../../source/man5/gen_use_user.rst:81
+msgid "VRMや3Dモデル・その他オブジェクトを開く。準備のステップ。"
+msgstr "Open VRM, 3D models, and other objects. Preparation steps."
+
+#: ../../source/man5/gen_use_user.rst
+msgid "Second"
+msgstr "Second"
+
+#: ../../source/man5/gen_use_user.rst:82
+msgid "各オブジェクトのプロパティを変更する。確認や作り込むステップ"
+msgstr "Change properties of each object. Steps to check and create"
+
+#: ../../source/man5/gen_use_user.rst
+msgid "Next"
+msgstr "Next"
+
+#: ../../source/man5/gen_use_user.rst:83
+msgid ""
+"アニメーション再生したりVR/AR空間で見る・スクリーンショットを撮るなどの実行の"
+"ステップ。"
+msgstr ""
+"Execution steps such as playing animation, viewing in VR/AR space, and taking "
+"screenshots."
+
+#: ../../source/man5/gen_use_user.rst:85
+msgid "**Second** と **Next** を繰り返していくことになると思います。"
+msgstr "I think you will have to repeat **Second** and **Next**."
+
+#: ../../source/man5/gen_use_user.rst:87
+msgid "細かい操作説明は文章のマニュアルよりも動画のほうがよいでしょう。"
+msgstr ""
+"For detailed operating instructions, a video is better than a written manual."
+
+#: ../../source/man5/gen_use_user.rst:89
+msgid ""
+"私のYouTubeチャンネルとウェブサイトにて、動画式のマニュアルを公開しています。"
+"順次増やしていく予定です。こまめにアクセスしてみてください。"
+msgstr ""
+"I publish video-style manuals on my YouTube channel and website. We plan to "
+"increase the number gradually. Please try to access it frequently."
+
+#: ../../source/man5/gen_use_user.rst
+msgid "YouTubeチャンネル"
+msgstr "YouTube channel"
+
+#: ../../source/man5/gen_use_user.rst:91
+msgid "`VRM鎮守府ポータル動画版 <https://www.youtube.com/@vroid2502>`_"
+msgstr "`VRM Base Portal Video Version <https://www.youtube.com/@vroid2502>`_"
+
+#: ../../source/man5/gen_use_user.rst
+msgid "ウェブサイト"
+msgstr "Web site"
+
+#: ../../source/man5/gen_use_user.rst:92
+msgid ""
+"`VRMViewmeister Video Manual - VRM鎮守府ポータル <https://sites.google.com/"
+"view/lumis-vroidbase/pubcontents/vvmdoc-onevid>`_"
+msgstr ""
+"`VRMViewmeister Video Manual - VRM Base Portal <https://sites.google.com/view/"
+"lumis-vroidbase/pubcontents/vvmdoc-onevid>`_"

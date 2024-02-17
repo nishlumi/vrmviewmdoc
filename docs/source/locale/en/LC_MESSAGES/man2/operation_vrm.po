@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-03 18:14+0900\n"
-"PO-Revision-Date: 2024-02-03 18:32+0900\n"
+"POT-Creation-Date: 2024-02-16 16:43+0900\n"
+"PO-Revision-Date: 2024-02-16 16:57+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -1341,6 +1341,206 @@ msgstr "You can change the settings of textures held by VRM in detail. The setti
 #: ../../source/man2/operation_vrm.rst:635
 msgid "詳しくは :doc:`operation_texture` を御覧ください。"
 msgstr "See :doc:`operation_texture` for details."
+
+#: ../../source/man2/operation_vrm.rst:641
+msgid "VRMAnimationの再生"
+msgstr "Play the VRMAnimation"
+
+#: ../../source/man2/operation_vrm.rst:643
+msgid "OtherObjectのアニメーションと同様に、VRMAnimationも本アプリによるアニメーションプロジェクトの中で再生をコントロールできます。"
+msgstr "Similar to OtherObject's animation, VRMAnimation can also be controlled to play within an animation project using this app."
+
+#: ../../source/man2/operation_vrm.rst:645
+msgid "preview"
+msgstr "preview"
+
+#: ../../source/man2/operation_vrm.rst:646
+msgid "anireg"
+msgstr "anireg"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "プレビュー再生"
+msgstr "Preview playback"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "アニメーション登録用"
+msgstr "For animation registration"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "|preview|"
+msgstr "|preview|"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "|anireg|"
+msgstr "|anireg|"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "即座に再生されます。こちらの操作はキーフレームには登録されません。"
+msgstr "It will play instantly. This operation is not registered in the keyframe."
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "「再生」や「停止」を選択後にキーフレームに登録します。"
+msgstr "Register the keyframe after selecting \"Play\" or \"Stop\"."
+
+#: ../../source/man2/operation_vrm.rst:654
+msgid "一番上の入力ボックスをクリックしてVRMAnimationのファイルを選択して開きます。"
+msgstr "Click on the input box at the top to select and open the VRMAnimation file."
+
+#: ../../source/man2/operation_vrm.rst:655
+msgid "再生するアニメーション名を選択します。"
+msgstr "Select the animation name to play."
+
+#: ../../source/man2/operation_vrm.rst:656
+msgid "必要に応じて再生モード・アニメーション速度などを調整します。"
+msgstr "Adjust the playback mode, animation speed, etc. as necessary."
+
+#: ../../source/man2/operation_vrm.rst:657
+msgid "再生して確認します。"
+msgstr "Play and check."
+
+#: ../../source/man2/operation_vrm.rst:658
+msgid "よければアニメーションの状態（登録用）で再生状態を選び、キーフレームの登録をします。"
+msgstr "If you like, select the playback state in the animation state (for registration) and register the keyframe."
+
+#: ../../source/man2/operation_vrm.rst:668
+msgid "コントロールの配置について:"
+msgstr "About the placement of controls:"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "ファイル選択ボックス"
+msgstr "file selection box"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "モーション有効トグルスイッチ"
+msgstr "Toggle switch to enable motion"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "モーション選択ボックス"
+msgstr "motion selection box"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "再生"
+msgstr "Play"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "停止"
+msgstr "Stop"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "再生モード選択ボックス"
+msgstr "Play mode selection box"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "シーク位置スライダー"
+msgstr "seek position slider"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "スピードスライダー"
+msgstr "speed slider"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "アニメーションの状態"
+msgstr "Animation state (for registration)"
+
+#: ../../source/man2/operation_vrm.rst:671
+msgid "VRMAnimationを閉じる:"
+msgstr "Close VRMAnimation:"
+
+#: ../../source/man2/operation_vrm.rst:671
+msgid ""
+"ファイル選択ボックスの右端の X ボタンを押すと、開いているVRMAnimationを完全に閉じることができます。閉じた後は再び .vrmaファイルを読み込むま"
+"では、キーフレームに登録していてもVRMAnimationを再生することはできません。"
+msgstr ""
+"You can close an open VRMAnimation completely by pressing the X button on the far right of the file selection box. After closing, "
+"VRMAnimation cannot be played even if it is registered as a keyframe until the .vrma file is loaded again."
+
+#: ../../source/man2/operation_vrm.rst:677
+msgid "IK操作について:"
+msgstr "About IK operations:"
+
+#: ../../source/man2/operation_vrm.rst:674
+msgid "VRMAnimationが有効の間は、IKマーカーで操作することはできません。"
+msgstr "You cannot manipulate IK markers while VRMAnimation is enabled."
+
+#: ../../source/man2/operation_vrm.rst:676
+msgid "VRMAnimationを一時的に無効にするには、 **モーション有効トグルスイッチ** をOFFに切り替えてください。"
+msgstr "To temporarily disable VRMAnimation, switch the **Toggle switch to enable motion** to OFF."
+
+#: ../../source/man2/operation_vrm.rst:680
+msgid "VRMAnimation内に複数のモーションが存在する場合、選択してください。"
+msgstr "If there are multiple motions in VRMAnimation, please select them."
+
+#: ../../source/man2/operation_vrm.rst:681
+msgid ""
+"キーフレームに3Dオブジェクトのアニメーションデータが展開・表示されるわけではなく、あくまで再生・一時停止・停止・シークという状態がキーフ"
+"レームに登録されるのみです。"
+msgstr ""
+"The animation data of the 3D object is not expanded or displayed in the key frame, but only the states of play, pause, stop, and seek are "
+"registered in the key frame."
+
+#: ../../source/man2/operation_vrm.rst:686
+msgid ""
+"再生や停止ではなく、再生位置変更でシーク位置を変えることだけをキーフレームに登録していっても、そのオブジェクトのアニメーション再生を自由に"
+"行なえます。"
+msgstr ""
+"Even if you register only changing the seek position by changing the playback position as a keyframe instead of playing or stopping, you "
+"can freely play the animation of that object."
+
+#: ../../source/man2/operation_vrm.rst:688
+msgid "モーションのシーク位置を変更するには、次の操作を行ってください。"
+msgstr "To change the motion seek position, do the following:"
+
+#: ../../source/man2/operation_vrm.rst:690
+msgid "シーク位置スライダーを動かす"
+msgstr "Move the seek position slider"
+
+#: ../../source/man2/operation_vrm.rst:691
+msgid "アニメーションの状態 を ``再生位置変更`` にする"
+msgstr "Set the animation state to ``To seek``"
+
+#: ../../source/man2/operation_vrm.rst:692
+msgid "キーフレームに登録する"
+msgstr "Register to keyframe"
+
+#: ../../source/man2/operation_vrm.rst:704
+msgid "例："
+msgstr "Example:"
+
+#: ../../source/man2/operation_vrm.rst:696
+msgid "あるVRMAnimationをVRM Aに読み込んだ"
+msgstr "Loaded a VRMAnimation into VRM A"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "フレーム番号"
+msgstr "Frame number"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "アニメーションの状態（登録用）"
+msgstr "Animation state (for registration)"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "シーク位置"
+msgstr "Seek position"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "再生位置変更"
+msgstr "Change playback position"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "0.855秒"
+msgstr "0.855 seconds"
+
+#: ../../source/man2/operation_vrm.rst:1
+msgid "0.124秒"
+msgstr "0.124 seconds"
+
+#: ../../source/man2/operation_vrm.rst:704
+msgid "間隔(duration)は1秒。"
+msgstr "Duration is 1 second."
+
+#: ../../source/man2/operation_vrm.rst:705
+msgid "このVRM Aは逆再生のようにアニメーションする。"
+msgstr "This VRM A animates as if playing in reverse."
 
 #~ msgid "対応していない操作をしてもその部位に動きはありません。"
 #~ msgstr "Even if you perform an operation that is not supported, there is no movement in that part."

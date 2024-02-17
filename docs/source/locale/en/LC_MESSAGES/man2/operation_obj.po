@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 23:37+0900\n"
+"POT-Creation-Date: 2024-02-16 16:43+0900\n"
+"PO-Revision-Date: 2024-02-16 16:57+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man2/operation_obj.rst:6
 msgid "OtherObject"
@@ -142,11 +142,75 @@ msgstr ""
 "You can freely play the animation of the object even if you register only the seek position by "
 "changing the playback position in the key frame instead of playing or stopping."
 
-#: ../../source/man2/operation_obj.rst:73
+#: ../../source/man2/operation_obj.rst:58
+msgid "モーションのシーク位置を変更するには、次の操作を行ってください。"
+msgstr "To change the motion seek position, do the following:"
+
+#: ../../source/man2/operation_obj.rst:60
+msgid "シーク位置スライダーを動かす"
+msgstr "Move the seek position slider"
+
+#: ../../source/man2/operation_obj.rst:61
+msgid "アニメーションの状態 を ``再生位置変更`` にする"
+msgstr "Set the animation state to ``To seek``"
+
+#: ../../source/man2/operation_obj.rst:62
+msgid "キーフレームに登録する"
+msgstr "Register to keyframe"
+
+#: ../../source/man2/operation_obj.rst:74
+msgid "例:"
+msgstr "Example:"
+
+#: ../../source/man2/operation_obj.rst:66
+msgid "あるアニメーションを持つFBXをOtherObjectにした"
+msgstr "FBX with animation was made OtherObject"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "フレーム番号"
+msgstr "Frame number"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "アニメーションの状態（登録用）"
+msgstr "Animation state (for registration)"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "シーク位置"
+msgstr "Seek position"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "1"
+msgstr "1"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "再生位置変更"
+msgstr "Change playback position"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "0.855秒"
+msgstr "0.855 seconds"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "2"
+msgstr "2"
+
+#: ../../source/man2/operation_obj.rst:1
+msgid "0.124秒"
+msgstr "0.124 seconds"
+
+#: ../../source/man2/operation_obj.rst:74
+msgid "間隔(duration)は1秒。"
+msgstr "Duration is 1 second."
+
+#: ../../source/man2/operation_obj.rst:75
+msgid "このFBXは逆再生のようにアニメーションする。"
+msgstr "This FBX animates like reverse playback."
+
+#: ../../source/man2/operation_obj.rst:82
 msgid "テクスチャ"
 msgstr "Texture"
 
-#: ../../source/man2/operation_obj.rst:75
+#: ../../source/man2/operation_obj.rst:84
 msgid ""
 "3Dオブジェクトがテクスチャを複数保持している場合、テクスチャを選んで細かく設定変更することができます。"
 "VRMのほうの設定と全く同じです。"
@@ -154,6 +218,6 @@ msgstr ""
 "If the 3D object has multiple textures, you can select the texture and change the settings in detail. "
 "It's exactly the same as the VRM setting."
 
-#: ../../source/man2/operation_obj.rst:77
+#: ../../source/man2/operation_obj.rst:86
 msgid "詳しくは :doc:`operation_texture` を御覧ください。"
 msgstr "See :doc:`operation_texture` for details."

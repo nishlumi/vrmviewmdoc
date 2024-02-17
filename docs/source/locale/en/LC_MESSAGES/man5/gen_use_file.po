@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-04 15:11+0900\n"
+"POT-Creation-Date: 2024-02-16 16:43+0900\n"
+"PO-Revision-Date: 2024-02-16 16:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,37 +18,106 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man5/gen_use_file.rst:3
 msgid "ファイルの操作"
 msgstr "File manipulation"
 
-#: ../../source/man5/gen_use_file.rst:7
+#: ../../source/man5/gen_use_file.rst:6
 msgid "目次"
 msgstr "table of contents:"
 
-#: ../../source/man5/gen_use_file.rst:10
+#: ../../source/man5/gen_use_file.rst:9
+msgid "オブジェクトファイル"
+msgstr "Object file"
+
+#: ../../source/man5/gen_use_file.rst:11
+msgid "本アプリでポーズやモーションをさせるオブジェクトです。"
+msgstr ""
+
+#: ../../source/man5/gen_use_file.rst:13
+msgid "次のとおりです。WebGL画面にドラッグアンドドロップにも対応しています。"
+msgstr "are as follows: It also supports drag and drop on the WebGL screen."
+
+#: ../../source/man5/gen_use_file.rst:15
+msgid "Vroid/VRM(.vrm)"
+msgstr "Vroid/VRM(.vrm)"
+
+#: ../../source/man5/gen_use_file.rst:16
+msgid "その他3Dオブジェクト(.obj, .fbx, .zip, .gltf ,.glb, .ply, .stl, .3mf)"
+msgstr "Other 3D objects(.obj, .fbx, .zip, .gltf ,.glb, .ply, .stl, .3mf)"
+
+#: ../../source/man5/gen_use_file.rst:17
+msgid "画像(.png, .jpg, .gif)"
+msgstr "Images(.png, .jpg, .gif)"
+
+#: ../../source/man5/gen_use_file.rst:18
+msgid "音楽・音声ファイル(.mp3, .wav)"
+msgstr "Music/audio files (.mp3, .wav)"
+
+#: ../../source/man5/gen_use_file.rst:21
+msgid "音楽・音声ファイルはドラッグアンドドロップに対応していません。"
+msgstr "Music and audio files do not support drag and drop."
+
+#: ../../source/man5/gen_use_file.rst:30
+msgid "オブジェクトファイルを再び開く"
+msgstr "Reopen object file"
+
+#: ../../source/man5/gen_use_file.rst:24
+msgid ""
+"本アプリはウェブアプリである関係上、PCやスマートフォンなどのデバイスのストレージを直接参照することが"
+"できません。"
+msgstr ""
+"Since this application is a web application, it cannot directly refer to the storage of devices such "
+"as PCs and smartphones."
+
+#: ../../source/man5/gen_use_file.rst:26
+msgid ""
+"そのため、一度開いたオブジェクトファイルを履歴に保存する設定をしておく必要があります。（これがデフォ"
+"ルトです）"
+msgstr ""
+"Therefore, it is necessary to make settings to save object files that have been opened in the "
+"history. (this is the default)"
+
+#: ../../source/man5/gen_use_file.rst:28
+msgid ""
+"履歴に保存しておくことにより、プロジェクトファイルと同時にオブジェクトファイルも開くことができます。"
+msgstr ""
+"By saving it in the history, you can open the object file at the same time as the project file."
+
+#: ../../source/man5/gen_use_file.rst:30
+msgid "履歴の保存容量は使用するブラウザのIndexedDBの制限に従います。"
+msgstr "History storage capacity is subject to the IndexedDB limit of the browser used."
+
+#: ../../source/man5/gen_use_file.rst:33
+msgid ""
+"各OS版はデバイスのストレージを直接参照可能です。この場合、履歴に保存されるのはファイルパスだけです。"
+msgstr ""
+"Each OS version can directly reference the device's storage. In this case, only the file path is "
+"saved in the history."
+
+#: ../../source/man5/gen_use_file.rst:36
 msgid "本アプリで読み書きできるファイルの扱い"
 msgstr "Handling of files that can be read and written by this application"
 
-#: ../../source/man5/gen_use_file.rst:12
+#: ../../source/man5/gen_use_file.rst:38
 msgid "本アプリで作成され、また読み込むことができるファイルの注意点を説明します。"
 msgstr "I will explain the precautions for files that can be created and read by this application."
 
-#: ../../source/man5/gen_use_file.rst:15
+#: ../../source/man5/gen_use_file.rst:41
 msgid "これらのファイルは自由に配布可能です。"
 msgstr "These files are freely distributable."
 
-#: ../../source/man5/gen_use_file.rst:17
+#: ../../source/man5/gen_use_file.rst:43
 msgid "WebGL画面にドラッグアンドドロップして読み込み可能です。"
 msgstr "It can be read by dragging and dropping it on the WebGL screen."
 
-#: ../../source/man5/gen_use_file.rst:20
+#: ../../source/man5/gen_use_file.rst:46
 msgid "プロジェクトファイル"
 msgstr "Project file"
 
-#: ../../source/man5/gen_use_file.rst:22
+#: ../../source/man5/gen_use_file.rst:48
 msgid "他の説明は :ref:`saveproject` や :ref:`openproject` をご覧ください。"
 msgstr "See :ref:`saveproject` and :ref:`openproject` for other explanations."
 
@@ -56,11 +125,11 @@ msgstr "See :ref:`saveproject` and :ref:`openproject` for other explanations."
 msgid "拡張子"
 msgstr "Extension"
 
-#: ../../source/man5/gen_use_file.rst:24
+#: ../../source/man5/gen_use_file.rst:50
 msgid "``.vvmproj``"
 msgstr "``.vvmproj``"
 
-#: ../../source/man5/gen_use_file.rst:35
+#: ../../source/man5/gen_use_file.rst:61
 msgid "使用可能なストレージとタイミング"
 msgstr "Available storage and timing"
 
@@ -92,7 +161,7 @@ msgstr "first time"
 msgid "読み込み/書き込み"
 msgstr "read/write"
 
-#: ../../source/man5/gen_use_file.rst:1
+#: ../../source/man5/gen_use_file.rst:1 ../../source/man5/gen_use_file.rst:119
 msgid "読み込み"
 msgstr "reading"
 
@@ -108,19 +177,23 @@ msgstr "write (as download only)"
 msgid "各OS版"
 msgstr "PC version"
 
-#: ../../source/man5/gen_use_file.rst:51
+#: ../../source/man5/gen_use_file.rst:77
 msgid "プロジェクトファイルに関連するデータ"
 msgstr "Data related to project files"
 
-#: ../../source/man5/gen_use_file.rst:44
+#: ../../source/man5/gen_use_file.rst:70
 msgid "キャスト（VRMなどオブジェクト）"
 msgstr "Cast (object such as VRM)"
 
-#: ../../source/man5/gen_use_file.rst:39
-msgid "タイムライン（ロール）に割り当てているオブジェクトの名称や形状・その他特別な情報があればそれらを保持します。"
-msgstr "If there is a name, shape, and other special information of the object assigned to the timeline (role), it will be retained."
+#: ../../source/man5/gen_use_file.rst:65
+msgid ""
+"タイムライン（ロール）に割り当てているオブジェクトの名称や形状・その他特別な情報があればそれらを保持"
+"します。"
+msgstr ""
+"If there is a name, shape, and other special information of the object assigned to the timeline "
+"(role), it will be retained."
 
-#: ../../source/man5/gen_use_file.rst:41
+#: ../../source/man5/gen_use_file.rst:67
 msgid "プロジェクトファイルを開く際のオブジェクトの実際の情報は次の通りです。"
 msgstr "The actual information of the object when opening the project file is:"
 
@@ -128,98 +201,179 @@ msgstr "The actual information of the object when opening the project file is:"
 msgid "ウェブアプリ版"
 msgstr "Web app version"
 
-#: ../../source/man5/gen_use_file.rst:43
+#: ../../source/man5/gen_use_file.rst:69
 msgid "ファイルオブジェクト自体アプリ内に保存"
 msgstr "The file object itself is stored in the application"
 
-#: ../../source/man5/gen_use_file.rst:44
+#: ../../source/man5/gen_use_file.rst:70
 msgid "ファイルパスやサイズ・種類のみアプリ内に保存"
 msgstr "Only the file path, size and type are saved in the app"
 
-#: ../../source/man5/gen_use_file.rst:48
+#: ../../source/man5/gen_use_file.rst:74
 msgid "モーションデータ"
 msgstr "Motion data"
 
 #: ../../source/man5/gen_use_file.rst
-msgid "タイムライン（ロール）が対象です。キーフレームに登録した当時のオブジェクトの大きさ・形状を参考情報として保持します。"
-msgstr "The timeline (role) is the target. Retains the size and shape of the object at the time it was registered in the keyframe as reference information."
+msgid ""
+"タイムライン（ロール）が対象です。キーフレームに登録した当時のオブジェクトの大きさ・形状を参考情報と"
+"して保持します。"
+msgstr ""
+"The timeline (role) is the target. Retains the size and shape of the object at the time it was "
+"registered in the keyframe as reference information."
 
 #: ../../source/man5/gen_use_file.rst
 msgid "タイムライン（ロール）とキャストの割当方法は :ref:`settingcast2role` をご覧ください。"
 msgstr "See :ref:`settingcast2role` for how to assign timelines (roles) and casts."
 
-#: ../../source/man5/gen_use_file.rst:51
+#: ../../source/man5/gen_use_file.rst:77
 msgid "プロジェクト自体の情報"
 msgstr "Information about the project itself"
 
-#: ../../source/man5/gen_use_file.rst:51
+#: ../../source/man5/gen_use_file.rst:77
 msgid "特に使いませんがプロジェクト名や説明文を保持可能です。"
-msgstr "Although it is not particularly used, it is possible to retain the project name and description."
+msgstr ""
+"Although it is not particularly used, it is possible to retain the project name and description."
 
-#: ../../source/man5/gen_use_file.rst:54
+#: ../../source/man5/gen_use_file.rst:80
 msgid "モーションファイル"
 msgstr "Motion file"
 
-#: ../../source/man5/gen_use_file.rst:56
+#: ../../source/man5/gen_use_file.rst:82
 msgid "詳しい説明は :ref:`savemotionfile` や :ref:`openmotionfile` をご覧ください。"
 msgstr "See :ref:`savemotionfile` and :ref:`openmotionfile` for a detailed explanation."
 
-#: ../../source/man5/gen_use_file.rst:58
+#: ../../source/man5/gen_use_file.rst:85
 msgid "``.vvmmot``"
 msgstr "``.vvmmot``"
 
-#: ../../source/man5/gen_use_file.rst:60
-msgid "単一のタイムライン（ロール）のモーションデータ。キーフレームに登録した当時のオブジェクトの大きさ・形状を参考情報として保持します。"
-msgstr "Motion data for a single timeline (roll). Retains the size and shape of the object at the time it was registered in the keyframe as reference information."
+#: ../../source/man5/gen_use_file.rst:87
+msgid ""
+"単一のタイムライン（ロール）のモーションデータ。キーフレームに登録した当時のオブジェクトの大きさ・形"
+"状を参考情報として保持します。"
+msgstr ""
+"Motion data for a single timeline (roll). Retains the size and shape of the object at the time it "
+"was registered in the keyframe as reference information."
 
-#: ../../source/man5/gen_use_file.rst:62
-msgid "オブジェクト種類が一致していれば実際のキャスト（オブジェクト）には依存しません。VRMの場合、身長差は自動的に計算して再現されます。"
-msgstr "If the object type matches, it does not depend on the actual cast (object). For VRM, the height difference is automatically calculated and reproduced."
+#: ../../source/man5/gen_use_file.rst:89
+msgid ""
+"オブジェクト種類が一致していれば実際のキャスト（オブジェクト）には依存しません。VRMの場合、身長差は自"
+"動的に計算して再現されます。"
+msgstr ""
+"If the object type matches, it does not depend on the actual cast (object). For VRM, the height "
+"difference is automatically calculated and reproduced."
 
-#: ../../source/man5/gen_use_file.rst:66
+#: ../../source/man5/gen_use_file.rst:91
+msgid "本アプリ独自のモーションフォーマットで、すべての情報が保持されます。"
+msgstr "All information is retained in this app's unique motion format."
+
+#: ../../source/man5/gen_use_file.rst:94
+msgid "``.fbx``"
+msgstr "``.fbx``"
+
+#: ../../source/man5/gen_use_file.rst:96
+msgid ""
+"3Dモデルですが内部にアニメーションを保持することができるフォーマットです。本アプリでは "
+"``OtherObject`` という分類で読み込まれます。対象のアニメーションを再生するには、OtherObjectのプロパ"
+"ティ内で選択してください。"
+msgstr ""
+"Although it is a 3D model, it is a format that can retain animation inside. In this application, it "
+"is loaded under the category ``OtherObject``. To play the target animation, select it in the "
+"properties of OtherObject."
+
+#: ../../source/man5/gen_use_file.rst:98 ../../source/man5/gen_use_file.rst:119
+msgid "再生やシーク・スピード変更もそのUIの中で行います。"
+msgstr "Playback, seek speed changes are also performed within the UI."
+
+#: ../../source/man5/gen_use_file.rst:101
+msgid "``.anim``"
+msgstr "``.anim``"
+
+#: ../../source/man5/gen_use_file.rst:103
+msgid ""
+"UnityのAnimationClipです。モーションに含まれるボーンの構造の関係上、後述のVRMAnimationなどと同じ動き"
+"にはならない可能性があります。"
+msgstr ""
+"This is Unity's AnimationClip. Due to the structure of the bones included in the motion, the motion "
+"may not be the same as VRMAnimation, etc. described below."
+
+#: ../../source/man5/gen_use_file.rst:105
+msgid "出力のみ対応しています。"
+msgstr "Only output is supported."
+
+#: ../../source/man5/gen_use_file.rst:108
+msgid "``.vrma``"
+msgstr "``.vrma``"
+
+#: ../../source/man5/gen_use_file.rst:110
+msgid ""
+"VRMAnimationです。 .vrmaファイルはUniVRMで新しく定義されたVRM専用のモーションフォーマットです。詳しく"
+"は下記をご覧ください。"
+msgstr ""
+"This is VRMAnimation. .vrma file is a newly defined motion format exclusively for VRM in UniVRM. See "
+"below for details."
+
+#: ../../source/man5/gen_use_file.rst:112
+msgid ""
+"`VRMC_vrm_animation - GitHub <https://github.com/vrm-c/vrm-specification/blob/master/specification/"
+"VRMC_vrm_animation-1.0/README.ja.md>`_"
+msgstr ""
+"`VRMC_vrm_animation - GitHub <https://github.com/vrm-c/vrm-specification/blob/master/specification/"
+"VRMC_vrm_animation-1.0/README.ja.md>`_"
+
+#: ../../source/man5/gen_use_file.rst:114
+msgid "VRMAnimationは読み込み・出力両方とも対応しています。"
+msgstr "VRMAnimation supports both loading and output."
+
+#: ../../source/man5/gen_use_file.rst:117
+msgid "VRMのアニメーションプロパティで指定してください。"
+msgstr "Please specify in the animation property of VRM."
+
+#: ../../source/man5/gen_use_file.rst:126
+msgid "出力"
+msgstr "Output"
+
+#: ../../source/man5/gen_use_file.rst:122
+msgid "リボンバーのモデルタブにて操作します。"
+msgstr "Operate on the model tab of the ribbon bar."
+
+#: ../../source/man5/gen_use_file.rst:129
 msgid "ポーズファイル"
 msgstr "Pose file"
 
-#: ../../source/man5/gen_use_file.rst:68
+#: ../../source/man5/gen_use_file.rst:131
 msgid "詳しい説明は :doc:`../man3/posing_save` や :doc:`../man3/posing_open` をご覧ください。"
 msgstr "See :doc:`../man3/posing_save` and :doc:`../man3/posing_open` for a detailed explanation."
 
-#: ../../source/man5/gen_use_file.rst:70
+#: ../../source/man5/gen_use_file.rst:133
 msgid "``.vvmpose``"
 msgstr "``.vvmpose``"
 
-#: ../../source/man5/gen_use_file.rst:72
-msgid "VRMのみ使用可能。単位のタイムライン（ロール）の取得時のポーズデータ。キーフレームに登録している必要なく取得し保存可能です。取得当時のオブジェクトの大きさ・形状を参考情報として保持します。"
-msgstr "Only VRM can be used. Pose data when acquiring the timeline (roll) of the unit. It can be acquired and saved without the need to register it in a keyframe. The size and shape of the object at the time of acquisition are retained as reference information."
+#: ../../source/man5/gen_use_file.rst:135
+msgid ""
+"VRMのみ使用可能。単位のタイムライン（ロール）の取得時のポーズデータ。キーフレームに登録している必要な"
+"く取得し保存可能です。取得当時のオブジェクトの大きさ・形状を参考情報として保持します。"
+msgstr ""
+"Only VRM can be used. Pose data when acquiring the timeline (roll) of the unit. It can be acquired "
+"and saved without the need to register it in a keyframe. The size and shape of the object at the "
+"time of acquisition are retained as reference information."
 
-#: ../../source/man5/gen_use_file.rst:74
+#: ../../source/man5/gen_use_file.rst:137
 msgid "実際のキャスト（オブジェクト）には依存しません。身長差は自動的に計算して再現されます。"
-msgstr "It does not depend on the actual cast (object). The height difference is automatically calculated and reproduced."
+msgstr ""
+"It does not depend on the actual cast (object). The height difference is automatically calculated "
+"and reproduced."
 
-#: ../../source/man5/gen_use_file.rst:78
-msgid "オブジェクトファイル"
-msgstr "Object file"
+#: ../../source/man5/gen_use_file.rst:139
+msgid ""
+"本アプリ独自のモーションフォーマットで、すべての情報が保持されます。実際は1フレームだけのモーション"
+"データです。"
+msgstr ""
+"All information is retained in this app's unique motion format. Actually, it is only one frame of "
+"motion data."
 
-#: ../../source/man5/gen_use_file.rst:80
-msgid "本アプリで読み込めるオブジェクトファイルは VRM を始め、各種3Dモデル、画像、音楽・音声ファイルです。"
-msgstr "The object files that can be read by this application are his VRM, various 3D models, images, music and audio files."
-
-#: ../../source/man5/gen_use_file.rst:82
-msgid "次のとおりです。WebGL画面にドラッグアンドドロップにも対応しています。"
-msgstr "are as follows: It also supports drag and drop on the WebGL screen."
-
-#: ../../source/man5/gen_use_file.rst:84
-msgid "Vroid/VRM(.vrm)"
-msgstr "Vroid/VRM(.vrm)"
-
-#: ../../source/man5/gen_use_file.rst:85
-msgid "その他3Dオブジェクト(.obj, .fbx, .zip, .gltf ,.glb, .ply, .stl, .3mf)"
-msgstr "Other 3D objects(.obj, .fbx, .zip, .gltf ,.glb, .ply, .stl, .3mf)"
-
-#: ../../source/man5/gen_use_file.rst:86
-msgid "画像(.png, .jpg, .gif)"
-msgstr "Images(.png, .jpg, .gif)"
-
-#: ../../source/man5/gen_use_file.rst:89
-msgid "音楽・音声ファイルはドラッグアンドドロップに対応していません。"
-msgstr "Music and audio files do not support drag and drop."
+#~ msgid ""
+#~ "本アプリで読み込めるオブジェクトファイルは VRM を始め、各種3Dモデル、画像、音楽・音声ファイルで"
+#~ "す。"
+#~ msgstr ""
+#~ "The object files that can be read by this application are his VRM, various 3D models, images, "
+#~ "music and audio files."

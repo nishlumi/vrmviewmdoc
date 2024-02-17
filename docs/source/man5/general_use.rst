@@ -12,14 +12,14 @@ VRMViewMeister機能逆引きマニュアル
 
 
 .. toctree::
-   :maxdepth: 3
-   :caption: 目次:
+    :maxdepth: 3
+    :caption: 目次:
+
+    gen_use_user
+    gen_use_operation
+    gen_use_file
+    gen_use_3dm
+    gen_use_cloud
 
 
-   gen_use_operation
-   gen_use_file
-   gen_use_3dm
-   gen_use_cloud
-
-
- 
+    

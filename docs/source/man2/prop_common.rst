@@ -106,7 +106,7 @@
 
 
 
-.. index:: 物理効果（共通）
+.. index:: 物理効果（共通プロパティ）
 
 .. _rigid_property:
 

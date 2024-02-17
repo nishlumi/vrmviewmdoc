@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-03 18:14+0900\n"
-"PO-Revision-Date: 2024-02-03 18:50+0900\n"
+"POT-Creation-Date: 2024-02-16 16:43+0900\n"
+"PO-Revision-Date: 2024-02-16 16:53+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -222,7 +222,7 @@ msgstr ""
 msgid "インストール方法 - Github:"
 msgstr "Installation method - Github:"
 
-#: ../../source/man5/gen_use_cloud.rst:86 ../../source/man5/gen_use_cloud.rst:118
+#: ../../source/man5/gen_use_cloud.rst:86 ../../source/man5/gen_use_cloud.rst:128
 msgid "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst"
 msgstr "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst"
 
@@ -242,7 +242,7 @@ msgstr "vrmviewmeister-gdrive-extension - Github:"
 msgid "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/"
 msgstr "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/"
 
-#: ../../source/man5/gen_use_cloud.rst:107 ../../source/man5/gen_use_cloud.rst:125
+#: ../../source/man5/gen_use_cloud.rst:107 ../../source/man5/gen_use_cloud.rst:135
 msgid "やるべきこと"
 msgstr "what to do"
 
@@ -271,11 +271,35 @@ msgstr ""
 msgid "本アプリにおいては事前にスクリプトプロジェクト内で自分で行っていただくので、本アプリを使う上でGoogleへログインする手間は不要です。"
 msgstr "In this app, you do it yourself in the script project in advance, so there is no need to log in to Google to use this app."
 
+#: ../../source/man5/gen_use_cloud.rst:110
+msgid "複数人で同じGoogleドライブを使ってアニメーション作成を進めることにも活用できます。例えば、次のようなことも可能になるでしょう。"
+msgstr "It can also be used by multiple people to create animations using the same Google Drive. For example, it would be possible to:"
+
+#: ../../source/man5/gen_use_cloud.rst:112
+msgid "共同で使うGoogleアカウントを用意する"
+msgstr "Prepare a Google account for joint use"
+
 #: ../../source/man5/gen_use_cloud.rst:113
+msgid "そのアカウントのGoogleドライブで上記スクリプトを設定する"
+msgstr "Set up the above script in Google Drive for that account"
+
+#: ../../source/man5/gen_use_cloud.rst:114
+msgid "チームメンバーのPCやVRデバイスにそのスクリプトのURLを入力する"
+msgstr "Enter the script URL on a team member's PC or VR device"
+
+#: ../../source/man5/gen_use_cloud.rst:115
+msgid "チームで同じドライブを使ってプロジェクトを保存したり、共有したいVRMや3Dモデルをドライブから読み込む。"
+msgstr "Your team can use the same drive to save projects and load shared VRMs and 3D models from the drive."
+
+#: ../../source/man5/gen_use_cloud.rst:117
+msgid "ただし、チームメンバー以外にはそのURLを使わせないように注意してください。"
+msgstr "However, please be careful not to allow anyone other than team members to use that URL."
+
+#: ../../source/man5/gen_use_cloud.rst:123
 msgid "スクリプトのアップデート"
 msgstr "Update script"
 
-#: ../../source/man5/gen_use_cloud.rst:115
+#: ../../source/man5/gen_use_cloud.rst:125
 msgid "今後上記スクリプトプロジェクトを更新することがあります。その場合は次のページの手順を実施してください。"
 msgstr "The above script project may be updated in the future. In that case, please follow the steps on the next page."
 
@@ -283,103 +307,103 @@ msgstr "The above script project may be updated in the future. In that case, ple
 msgid "インストール方法 - Github"
 msgstr "How to Install - Github"
 
-#: ../../source/man5/gen_use_cloud.rst:121
+#: ../../source/man5/gen_use_cloud.rst:131
 msgid "更新後のスクリプトを自分のスクリプトプロジェクトにまるごと貼り付ける"
 msgstr "Paste the entire updated script into your script project"
 
-#: ../../source/man5/gen_use_cloud.rst:122
+#: ../../source/man5/gen_use_cloud.rst:132
 msgid "再びデプロイして、ウェブアプリのURLを新規に発行する"
 msgstr "Deploy again and issue a new web app URL"
 
-#: ../../source/man5/gen_use_cloud.rst:123
+#: ../../source/man5/gen_use_cloud.rst:133
 msgid "VRMViewMeisterに再発行後のURLを設定する"
 msgstr "Set the reissued URL in VRMViewMeister"
 
-#: ../../source/man5/gen_use_cloud.rst:124
+#: ../../source/man5/gen_use_cloud.rst:134
 msgid "過去にデプロイした古いウェブアプリのURLをアーカイブして停止する。（任意）"
 msgstr "Archive and stop the URLs of old web apps deployed in the past. (Optional)"
 
-#: ../../source/man5/gen_use_cloud.rst:128
+#: ../../source/man5/gen_use_cloud.rst:138
 msgid "使用方法"
 msgstr "How to use"
 
-#: ../../source/man5/gen_use_cloud.rst:158
+#: ../../source/man5/gen_use_cloud.rst:168
 msgid "リボンバー"
 msgstr "Ribbon bar"
 
-#: ../../source/man5/gen_use_cloud.rst:143
+#: ../../source/man5/gen_use_cloud.rst:153
 msgid "ホームタブ:"
 msgstr "Home tab:"
 
-#: ../../source/man5/gen_use_cloud.rst:132
+#: ../../source/man5/gen_use_cloud.rst:142
 msgid "VRM, オブジェクト, プロジェクトの開くメニューで次の機能を使えます。"
 msgstr "The following functions are available in the VRM, Object, and Project Open menus"
 
-#: ../../source/man5/gen_use_cloud.rst:138 ../../source/man5/gen_use_cloud.rst:148
+#: ../../source/man5/gen_use_cloud.rst:148 ../../source/man5/gen_use_cloud.rst:158
 msgid "``Googleドライブから直接指定``"
 msgstr "``Open directly from Google Drive``"
 
-#: ../../source/man5/gen_use_cloud.rst:135
+#: ../../source/man5/gen_use_cloud.rst:145
 msgid "GoogleドライブのファイルIDを直接指定して開きます。"
 msgstr "Open by directly specifying the Google Drive file ID."
 
-#: ../../source/man5/gen_use_cloud.rst:138
+#: ../../source/man5/gen_use_cloud.rst:148
 msgid "該当のファイルを一般公開あるいは自分のGoogleユーザーに共有されている必要があります。"
 msgstr "The file must be publicly available or shared with your Google users."
 
-#: ../../source/man5/gen_use_cloud.rst:141 ../../source/man5/gen_use_cloud.rst:149 ../../source/man5/gen_use_cloud.rst:156
+#: ../../source/man5/gen_use_cloud.rst:151 ../../source/man5/gen_use_cloud.rst:159 ../../source/man5/gen_use_cloud.rst:166
 msgid "``Googleドライブから選択``"
 msgstr "``Select from Google Drive``"
 
-#: ../../source/man5/gen_use_cloud.rst:141
+#: ../../source/man5/gen_use_cloud.rst:151
 msgid "Googleドライブからそれぞれのファイルタイプで抽出して一覧を表示します。内部ストレージダイアログが開きます。"
 msgstr "Extract each file type from Google Drive and display a list. The Internal Storage dialog opens."
 
-#: ../../source/man5/gen_use_cloud.rst:143 ../../source/man5/gen_use_cloud.rst:158
+#: ../../source/man5/gen_use_cloud.rst:153 ../../source/man5/gen_use_cloud.rst:168
 msgid "プロジェクトの保存メニューでGoogleドライブへの保存を行うことが出来ます。"
 msgstr "You can save to Google Drive using the project save menu."
 
-#: ../../source/man5/gen_use_cloud.rst:151
+#: ../../source/man5/gen_use_cloud.rst:161
 msgid "3Dモデルタブ:"
 msgstr "3D model tab:"
 
-#: ../../source/man5/gen_use_cloud.rst:146
+#: ../../source/man5/gen_use_cloud.rst:156
 msgid "VRM, オブジェクト, 画像で上記の機能を使えます。"
 msgstr "You can use the above functions with VRM, objects, and images."
 
-#: ../../source/man5/gen_use_cloud.rst:151
+#: ../../source/man5/gen_use_cloud.rst:161
 msgid "Pose/Motionの保存メニューでGoogleドライブへの保存を行うことが出来ます。"
 msgstr "You can save to Google Drive using the Pose/Motion save menu."
 
-#: ../../source/man5/gen_use_cloud.rst:158
+#: ../../source/man5/gen_use_cloud.rst:168
 msgid "アニメーションタブ:"
 msgstr "Animation tab:"
 
-#: ../../source/man5/gen_use_cloud.rst:154
+#: ../../source/man5/gen_use_cloud.rst:164
 msgid "プロジェクトの開くメニューで次の機能を使えます。"
 msgstr "The following functions are available in the project's Open menu:"
 
-#: ../../source/man5/gen_use_cloud.rst:163
+#: ../../source/man5/gen_use_cloud.rst:173
 msgid "ポーズ・モーション一覧"
 msgstr "Pose/motion list"
 
-#: ../../source/man5/gen_use_cloud.rst:163
+#: ../../source/man5/gen_use_cloud.rst:173
 msgid "読み込み場所:"
 msgstr "Load location:"
 
-#: ../../source/man5/gen_use_cloud.rst:162
+#: ../../source/man5/gen_use_cloud.rst:172
 msgid "``Google Drive`` を選択可能になります。"
 msgstr "You will be able to select ``Google Drive`` ."
 
-#: ../../source/man5/gen_use_cloud.rst:166
+#: ../../source/man5/gen_use_cloud.rst:176
 msgid "ユーザーフォルダ"
 msgstr "User folder"
 
-#: ../../source/man5/gen_use_cloud.rst:168
+#: ../../source/man5/gen_use_cloud.rst:178
 msgid "設定画面のファイルローダータブには ``ユーザーフォルダのID`` という入力欄があります。"
 msgstr "On the file loader tab of the settings screen, there is an input field called ``User Folder ID``."
 
-#: ../../source/man5/gen_use_cloud.rst:173
+#: ../../source/man5/gen_use_cloud.rst:183
 msgid ""
 "これは各ファイルを置いているフォルダを限定する設定です。デフォルトではユーザーのGoogleドライブの全てのフォルダから各ファイルを探そうとします。"
 "そのため **スクリプトの実行が長くなる可能性** があります。"
@@ -387,7 +411,7 @@ msgstr ""
 "This is a setting that limits the folders in which each file is placed. By default, it will try to find each file in all folders in the "
 "user's Google Drive. Therefore, **script execution may take longer**."
 
-#: ../../source/man5/gen_use_cloud.rst:175
+#: ../../source/man5/gen_use_cloud.rst:185
 msgid ""
 "ここでGoogleドライブのフォルダのIDまたは名前を指定することで、そのフォルダからのみファイルを検索するようになります。実行も時間がかからなくな"
 "り、スクリプトの実行の制限にも影響しなくて済みます。ぜひ指定することをお勧めします。"
@@ -395,15 +419,15 @@ msgstr ""
 "By specifying the ID or name of a folder in Google Drive here, files will be searched only from that folder. It also takes less time to run "
 "and does not affect script execution limits. We recommend that you specify it."
 
-#: ../../source/man5/gen_use_cloud.rst:178
+#: ../../source/man5/gen_use_cloud.rst:188
 msgid "デフォルトではフォルダIDのみ受け付けます。"
 msgstr "By default only folder IDs are accepted."
 
-#: ../../source/man5/gen_use_cloud.rst:180
+#: ../../source/man5/gen_use_cloud.rst:190
 msgid "``名前指定`` のトグルスイッチをONにすると、そのファイル種類のみフォルダ名でGoogleドライブを限定できます。"
 msgstr "If you turn on the ``Name specification`` toggle switch, you can limit Google Drive to only that file type by folder name."
 
-#: ../../source/man5/gen_use_cloud.rst:182
+#: ../../source/man5/gen_use_cloud.rst:192
 msgid "フォルダIDが長くてコピーや入力が面倒という場合には名前を指定するようにすることをお勧めします。"
 msgstr "If the folder ID is long and you find it troublesome to copy or input, we recommend that you specify a name."
 
