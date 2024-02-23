@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 16:43+0900\n"
-"PO-Revision-Date: 2024-02-16 16:57+0900\n"
+"POT-Creation-Date: 2024-02-22 23:50+0900\n"
+"PO-Revision-Date: 2024-02-22 23:53+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -1092,11 +1092,70 @@ msgstr "It is on by default. If you don't need it, uncheck \"Enable automatic bl
 msgid "目のブレンドシェイプと競合します。使う際はどちらか一方にすることをオススメします。"
 msgstr "Competes with the eye blendshape. We recommend that you use one or the other."
 
-#: ../../source/man2/operation_vrm.rst:508
+#: ../../source/man2/operation_vrm.rst:503
+msgid "口パク"
+msgstr "Lip sync"
+
+#: ../../source/man2/operation_vrm.rst:505
+msgid "VRoid/VRMがあたかもしゃべっているかのように口をずっと動かし続けます。"
+msgstr "VRoid/VRM keeps moving its mouth as if it is talking."
+
+#: ../../source/man2/operation_vrm.rst:507
+msgid "アニメーションのキーフレームとは別に動き続けるため、ブレンドシェイプで口の開閉を一からキーフレームに組み込む必要がありません。"
+msgstr ""
+"Since it continues to move independently of the animation keyframes, there is no need to incorporate the opening and closing of the mouth "
+"into keyframes from scratch using blend shapes."
+
+#: ../../source/man2/operation_vrm.rst
+msgid "口を開ける速度"
+msgstr "Speed to open the mouth"
+
+#: ../../source/man2/operation_vrm.rst:513
+msgid "口が ``aa`` の0.0から0.5に変わる速さを指定します。"
+msgstr "Specifies how quickly the mouth changes from ``aa`` from 0.0 to 0.5."
+
+#: ../../source/man2/operation_vrm.rst
+msgid "口を閉じる速度"
+msgstr "Speed to close the mouth"
+
+#: ../../source/man2/operation_vrm.rst:515
+msgid "口が ``aa`` の0.5から0.0に変わる速さを指定します。"
+msgstr "Specifies how quickly the mouth changes from ``aa`` from 0.5 to 0.0."
+
+#: ../../source/man2/operation_vrm.rst
+msgid "口パクの間隔"
+msgstr "Lip sync interval"
+
+#: ../../source/man2/operation_vrm.rst:517
+msgid "口の開閉が一巡した後、再び動き出すまでの時間を指定します。多ければ多いほど間隔が伸びて口を動かす頻度が減ります。"
+msgstr ""
+"Specify the time it takes to start moving again after the mouth opens and closes once. The more you have, the longer the interval will be "
+"and the less frequently you will have to move your mouth."
+
+#: ../../source/man2/operation_vrm.rst:519
+msgid ""
+"デフォルトではオフです。使い方としては有効にした後、次のフレームで数秒後に無効にしてキャラクターが喋っている演出をするのに適しています。"
+msgstr ""
+"Default is off. It is suitable for use when enabling it and then disabling it a few seconds later in the next frame to create a scene "
+"where the character is speaking."
+
+#: ../../source/man2/operation_vrm.rst:522
+msgid "この機能により ``aa`` が変化している間も、個別に ``aa`` や他のシェイプを動かすことができます。"
+msgstr "This feature allows you to move ``aa`` and other shapes independently while ``aa`` changes."
+
+#: ../../source/man2/operation_vrm.rst:525
+msgid ""
+"この機能はユーザーの喋りに合わせてVRoid/VRMが口を動かすものではありません。あくまでもVRoid/VRMが喋っているように見せかけるための補助的な機"
+"能です。"
+msgstr ""
+"This function does not cause VRoid/VRM to move its mouth according to the user's speech. It is just an auxiliary function to make VRoid/"
+"VRM appear to be talking."
+
+#: ../../source/man2/operation_vrm.rst:533
 msgid "オブジェクトの装着"
 msgstr "wearing an object"
 
-#: ../../source/man2/operation_vrm.rst:510
+#: ../../source/man2/operation_vrm.rst:535
 msgid ""
 "VRoid/VRMの特定の体の部位にFBXやObj・Lightなど別のオブジェクトを紐付け、動きを連動させることができます。右のプロパティの「オブジェクトの装"
 "着」タブを開いてください。"
@@ -1104,23 +1163,23 @@ msgstr ""
 "You can link different objects such as FBX, Obj, Light, etc. to specific body parts of VRoid/VRM and link their movements. Open the "
 "\"Attach Objects\" tab in the properties on the right."
 
-#: ../../source/man2/operation_vrm.rst:517
+#: ../../source/man2/operation_vrm.rst:542
 msgid "あらかじめ別のオブジェクトを追加しておきます。"
 msgstr "Add another object in advance."
 
-#: ../../source/man2/operation_vrm.rst:525
+#: ../../source/man2/operation_vrm.rst:550
 msgid "※位置や回転は紐付けたい体の部位に合わせて調整しておきます。"
 msgstr "Adjust the position and rotation according to the part of the body you want to tie."
 
-#: ../../source/man2/operation_vrm.rst:527
+#: ../../source/man2/operation_vrm.rst:552
 msgid "VRoid/VRMを選択し、対象の体の部位を選択し、追加ボタンをクリックします。"
 msgstr "Select VRoid/VRM, select the target body part, and click the Add button."
 
-#: ../../source/man2/operation_vrm.rst:533
+#: ../../source/man2/operation_vrm.rst:558
 msgid "紐付けたいオブジェクトを選択し、「OK」ボタンを押します。"
 msgstr "Select the object you want to link and press the \"OK\" button."
 
-#: ../../source/man2/operation_vrm.rst:540
+#: ../../source/man2/operation_vrm.rst:565
 msgid "装着可能なオブジェクトは次のとおりです。"
 msgstr "Wearable objects are:"
 
@@ -1148,15 +1207,15 @@ msgstr "Camera"
 msgid "Effect"
 msgstr "Effect"
 
-#: ../../source/man2/operation_vrm.rst:554
+#: ../../source/man2/operation_vrm.rst:579
 msgid "装着したオブジェクトの情報が表示されるようになります。"
 msgstr "Information about the attached object will be displayed."
 
-#: ../../source/man2/operation_vrm.rst:559
+#: ../../source/man2/operation_vrm.rst:584
 msgid "以後、体の部位に合わせて装着したオブジェクトも連動して動くようになります。"
 msgstr "After that, the object attached to the part of the body will also move in conjunction with it."
 
-#: ../../source/man2/operation_vrm.rst:560
+#: ../../source/man2/operation_vrm.rst:585
 msgid "右端の削除ボタンで装着を解除できます。"
 msgstr "You can remove it with the delete button on the far right."
 
@@ -1176,7 +1235,7 @@ msgstr ""
 msgid "各種プロパティは装着前に設定しておくようにしてください。"
 msgstr "Be sure to set various properties before mounting."
 
-#: ../../source/man2/operation_vrm.rst:568
+#: ../../source/man2/operation_vrm.rst:593
 msgid "アニメーションプロジェクトでのオブジェクトの装着について"
 msgstr "About wearing objects in animation projects"
 
@@ -1192,11 +1251,11 @@ msgstr ""
 msgid "次の順序でキーフレームに登録するとよいでしょう。"
 msgstr "It is a good idea to register to the keyframes in the following order."
 
-#: ../../source/man2/operation_vrm.rst:574
+#: ../../source/man2/operation_vrm.rst:599
 msgid "例:"
 msgstr "Example:"
 
-#: ../../source/man2/operation_vrm.rst:574
+#: ../../source/man2/operation_vrm.rst:599
 msgid "VRMの右手に剣の3Dオブジェクトを装着する"
 msgstr "Equip a 3D sword object on the VRM's right hand"
 
@@ -1240,11 +1299,11 @@ msgstr "move the right hand"
 msgid "右手に装着した剣を **解除する**"
 msgstr "**Release** the sword attached to the right hand"
 
-#: ../../source/man2/operation_vrm.rst:586
+#: ../../source/man2/operation_vrm.rst:611
 msgid "2～10フレームの間はその他オブジェクトのプロパティを変更することはできません。"
 msgstr "Other object properties cannot be changed between 2 and 10 frames."
 
-#: ../../source/man2/operation_vrm.rst:587
+#: ../../source/man2/operation_vrm.rst:612
 msgid ""
 "アニメーションにおけるポイントは、開始時点と終了時点で装着の状態が同じ状態になっていることです。例えば1フレーム目で装着なし、10フレーム目で"
 "装着ありのまま、フレーム操作をしたり再び再生ボタンを押すと、オブジェクトの位置が次第にズレていくことがあります。"
@@ -1253,11 +1312,11 @@ msgstr ""
 "attachments and the 10th frame is with attachments, if you operate the frame or press the play button again, the position of the object "
 "may gradually shift."
 
-#: ../../source/man2/operation_vrm.rst:592
+#: ../../source/man2/operation_vrm.rst:617
 msgid "重力の設定"
 msgstr "gravity settings"
 
-#: ../../source/man2/operation_vrm.rst:594
+#: ../../source/man2/operation_vrm.rst:619
 msgid ""
 "VRoid/VRMが持つボーンには重力の設定が標準で備わっています。ボーンは通常はゲームやモーションなどの演出時にUnity標準の衝突判定の機能によって"
 "自動的に動きます。"
@@ -1265,40 +1324,40 @@ msgstr ""
 "The bones of VRoid/VRM have gravity settings as standard. Bones usually move automatically by Unity's standard collision detection "
 "function during game and motion production."
 
-#: ../../source/man2/operation_vrm.rst:596
+#: ../../source/man2/operation_vrm.rst:621
 msgid "本アプリでもVRoid/VRMが動いた時に髪の毛がなびいたりしますが、それを手動で細かく調整することができます。"
 msgstr "Even with this app, hair flutters when the VRoid/VRM moves, but you can make fine adjustments manually."
 
-#: ../../source/man2/operation_vrm.rst:598
+#: ../../source/man2/operation_vrm.rst:623
 msgid "本アプリのみの効果となりますが、例えばスカートがめくれすぎる現象をこの重力の設定によって修正することができます。"
 msgstr ""
 "Although this is an effect only for this application, for example, you can correct the phenomenon that the skirt is turned up too much by "
 "setting this gravity."
 
-#: ../../source/man2/operation_vrm.rst:603
+#: ../../source/man2/operation_vrm.rst:628
 msgid "後述のStageの風の効果と設定が競合します。風を使用する場合はこの機能を使わないでください。"
 msgstr "Conflicts with the stage wind effects and settings described below. Do not use this feature when using wind."
 
-#: ../../source/man2/operation_vrm.rst:610
+#: ../../source/man2/operation_vrm.rst:635
 msgid "操作中のVRMが持つボーンの重力設定の情報がスプレッドシート上に羅列されます。ここで表示されるボーンは次のものです。"
 msgstr ""
 "Information on the gravity settings of bones owned by the VRM being operated is listed on the spreadsheet. The bones displayed here are:"
 
-#: ../../source/man2/operation_vrm.rst:612
+#: ../../source/man2/operation_vrm.rst:637
 msgid "VRM自体が持つ（VRoidStudioでの作成中にすでに保持している）ボーン"
 msgstr "Bones that the VRM itself has (already held during creation in VRoidStudio)"
 
-#: ../../source/man2/operation_vrm.rst:613
+#: ../../source/man2/operation_vrm.rst:638
 msgid "Unityエディタや拙作VRMOneEditorなどのツールでVRMに後付けした3Dモデルが保持しているボーン"
 msgstr "Bones held by 3D models retrofitted to VRM with tools such as the Unity editor and my work VRMOneEditor"
 
-#: ../../source/man2/operation_vrm.rst:615
+#: ../../source/man2/operation_vrm.rst:640
 msgid "なお、一度UniVRMにて変換を経ているはずなので、ボーンの情報としては ``VRMSpringBone`` コンポーネントに依存しています。"
 msgstr ""
 "In addition, since it should have gone through conversion with UniVRM once, it depends on the ``VRMSpringBone`` component for bone "
 "information."
 
-#: ../../source/man2/operation_vrm.rst:617
+#: ../../source/man2/operation_vrm.rst:642
 msgid "何がどのボーンに実際に位置するのかはVRoidStudioやUnity上であらかじめ確認しておいてください。変更可能なセルは次のセルです。"
 msgstr "Please check in advance on VRoidStudio or Unity which bones are actually located. The cells that can be changed are:"
 
@@ -1318,43 +1377,43 @@ msgstr "**Direction X / Y / Z**"
 msgid "そのボーンにかかる重力の方向の強さ(-1 ～ 1)"
 msgstr "Directional strength of gravity on that bone (-1 to 1)"
 
-#: ../../source/man2/operation_vrm.rst:625
+#: ../../source/man2/operation_vrm.rst:650
 msgid "各Directionの -1 は負の向きです。例えばY軸なら下に向かうようになります。(1 だと上に向かいます)"
 msgstr "-1 for each Direction is the negative direction. For example, the Y axis will be downward. (1 means up)"
 
-#: ../../source/man2/operation_vrm.rst:626
+#: ../../source/man2/operation_vrm.rst:651
 msgid "重力によるボーンのなびき具合は　``Power * Direction`` で反映されます。"
 msgstr "``Power * Direction`` reflects how the bones flutter due to gravity."
 
-#: ../../source/man2/operation_vrm.rst:627
+#: ../../source/man2/operation_vrm.rst:652
 msgid "最新の情報を読み直すにはツールバーの読み込みボタンを押してください。"
 msgstr "To reload the latest information, press the load button on the toolbar."
 
-#: ../../source/man2/operation_vrm.rst:631
+#: ../../source/man2/operation_vrm.rst:656
 msgid "テクスチャ"
 msgstr "Texture"
 
-#: ../../source/man2/operation_vrm.rst:633
+#: ../../source/man2/operation_vrm.rst:658
 msgid "VRMが保持しているテクスチャを細かく設定変更することができます。なお、OtherObjectのほうの設定と使用方法は全く同じです。"
 msgstr "You can change the settings of textures held by VRM in detail. The setting and usage of OtherObject are exactly the same."
 
-#: ../../source/man2/operation_vrm.rst:635
+#: ../../source/man2/operation_vrm.rst:660
 msgid "詳しくは :doc:`operation_texture` を御覧ください。"
 msgstr "See :doc:`operation_texture` for details."
 
-#: ../../source/man2/operation_vrm.rst:641
+#: ../../source/man2/operation_vrm.rst:666
 msgid "VRMAnimationの再生"
 msgstr "Play the VRMAnimation"
 
-#: ../../source/man2/operation_vrm.rst:643
+#: ../../source/man2/operation_vrm.rst:668
 msgid "OtherObjectのアニメーションと同様に、VRMAnimationも本アプリによるアニメーションプロジェクトの中で再生をコントロールできます。"
 msgstr "Similar to OtherObject's animation, VRMAnimation can also be controlled to play within an animation project using this app."
 
-#: ../../source/man2/operation_vrm.rst:645
+#: ../../source/man2/operation_vrm.rst:670
 msgid "preview"
 msgstr "preview"
 
-#: ../../source/man2/operation_vrm.rst:646
+#: ../../source/man2/operation_vrm.rst:671
 msgid "anireg"
 msgstr "anireg"
 
@@ -1382,27 +1441,27 @@ msgstr "It will play instantly. This operation is not registered in the keyframe
 msgid "「再生」や「停止」を選択後にキーフレームに登録します。"
 msgstr "Register the keyframe after selecting \"Play\" or \"Stop\"."
 
-#: ../../source/man2/operation_vrm.rst:654
+#: ../../source/man2/operation_vrm.rst:679
 msgid "一番上の入力ボックスをクリックしてVRMAnimationのファイルを選択して開きます。"
 msgstr "Click on the input box at the top to select and open the VRMAnimation file."
 
-#: ../../source/man2/operation_vrm.rst:655
+#: ../../source/man2/operation_vrm.rst:680
 msgid "再生するアニメーション名を選択します。"
 msgstr "Select the animation name to play."
 
-#: ../../source/man2/operation_vrm.rst:656
+#: ../../source/man2/operation_vrm.rst:681
 msgid "必要に応じて再生モード・アニメーション速度などを調整します。"
 msgstr "Adjust the playback mode, animation speed, etc. as necessary."
 
-#: ../../source/man2/operation_vrm.rst:657
+#: ../../source/man2/operation_vrm.rst:682
 msgid "再生して確認します。"
 msgstr "Play and check."
 
-#: ../../source/man2/operation_vrm.rst:658
+#: ../../source/man2/operation_vrm.rst:683
 msgid "よければアニメーションの状態（登録用）で再生状態を選び、キーフレームの登録をします。"
 msgstr "If you like, select the playback state in the animation state (for registration) and register the keyframe."
 
-#: ../../source/man2/operation_vrm.rst:668
+#: ../../source/man2/operation_vrm.rst:693
 msgid "コントロールの配置について:"
 msgstr "About the placement of controls:"
 
@@ -1442,11 +1501,11 @@ msgstr "speed slider"
 msgid "アニメーションの状態"
 msgstr "Animation state (for registration)"
 
-#: ../../source/man2/operation_vrm.rst:671
+#: ../../source/man2/operation_vrm.rst:696
 msgid "VRMAnimationを閉じる:"
 msgstr "Close VRMAnimation:"
 
-#: ../../source/man2/operation_vrm.rst:671
+#: ../../source/man2/operation_vrm.rst:696
 msgid ""
 "ファイル選択ボックスの右端の X ボタンを押すと、開いているVRMAnimationを完全に閉じることができます。閉じた後は再び .vrmaファイルを読み込むま"
 "では、キーフレームに登録していてもVRMAnimationを再生することはできません。"
@@ -1454,23 +1513,23 @@ msgstr ""
 "You can close an open VRMAnimation completely by pressing the X button on the far right of the file selection box. After closing, "
 "VRMAnimation cannot be played even if it is registered as a keyframe until the .vrma file is loaded again."
 
-#: ../../source/man2/operation_vrm.rst:677
+#: ../../source/man2/operation_vrm.rst:702
 msgid "IK操作について:"
 msgstr "About IK operations:"
 
-#: ../../source/man2/operation_vrm.rst:674
+#: ../../source/man2/operation_vrm.rst:699
 msgid "VRMAnimationが有効の間は、IKマーカーで操作することはできません。"
 msgstr "You cannot manipulate IK markers while VRMAnimation is enabled."
 
-#: ../../source/man2/operation_vrm.rst:676
+#: ../../source/man2/operation_vrm.rst:701
 msgid "VRMAnimationを一時的に無効にするには、 **モーション有効トグルスイッチ** をOFFに切り替えてください。"
 msgstr "To temporarily disable VRMAnimation, switch the **Toggle switch to enable motion** to OFF."
 
-#: ../../source/man2/operation_vrm.rst:680
+#: ../../source/man2/operation_vrm.rst:705
 msgid "VRMAnimation内に複数のモーションが存在する場合、選択してください。"
 msgstr "If there are multiple motions in VRMAnimation, please select them."
 
-#: ../../source/man2/operation_vrm.rst:681
+#: ../../source/man2/operation_vrm.rst:706
 msgid ""
 "キーフレームに3Dオブジェクトのアニメーションデータが展開・表示されるわけではなく、あくまで再生・一時停止・停止・シークという状態がキーフ"
 "レームに登録されるのみです。"
@@ -1478,7 +1537,7 @@ msgstr ""
 "The animation data of the 3D object is not expanded or displayed in the key frame, but only the states of play, pause, stop, and seek are "
 "registered in the key frame."
 
-#: ../../source/man2/operation_vrm.rst:686
+#: ../../source/man2/operation_vrm.rst:711
 msgid ""
 "再生や停止ではなく、再生位置変更でシーク位置を変えることだけをキーフレームに登録していっても、そのオブジェクトのアニメーション再生を自由に"
 "行なえます。"
@@ -1486,27 +1545,27 @@ msgstr ""
 "Even if you register only changing the seek position by changing the playback position as a keyframe instead of playing or stopping, you "
 "can freely play the animation of that object."
 
-#: ../../source/man2/operation_vrm.rst:688
+#: ../../source/man2/operation_vrm.rst:713
 msgid "モーションのシーク位置を変更するには、次の操作を行ってください。"
 msgstr "To change the motion seek position, do the following:"
 
-#: ../../source/man2/operation_vrm.rst:690
+#: ../../source/man2/operation_vrm.rst:715
 msgid "シーク位置スライダーを動かす"
 msgstr "Move the seek position slider"
 
-#: ../../source/man2/operation_vrm.rst:691
+#: ../../source/man2/operation_vrm.rst:716
 msgid "アニメーションの状態 を ``再生位置変更`` にする"
 msgstr "Set the animation state to ``To seek``"
 
-#: ../../source/man2/operation_vrm.rst:692
+#: ../../source/man2/operation_vrm.rst:717
 msgid "キーフレームに登録する"
 msgstr "Register to keyframe"
 
-#: ../../source/man2/operation_vrm.rst:704
+#: ../../source/man2/operation_vrm.rst:729
 msgid "例："
 msgstr "Example:"
 
-#: ../../source/man2/operation_vrm.rst:696
+#: ../../source/man2/operation_vrm.rst:721
 msgid "あるVRMAnimationをVRM Aに読み込んだ"
 msgstr "Loaded a VRMAnimation into VRM A"
 
@@ -1534,11 +1593,11 @@ msgstr "0.855 seconds"
 msgid "0.124秒"
 msgstr "0.124 seconds"
 
-#: ../../source/man2/operation_vrm.rst:704
+#: ../../source/man2/operation_vrm.rst:729
 msgid "間隔(duration)は1秒。"
 msgstr "Duration is 1 second."
 
-#: ../../source/man2/operation_vrm.rst:705
+#: ../../source/man2/operation_vrm.rst:730
 msgid "このVRM Aは逆再生のようにアニメーションする。"
 msgstr "This VRM A animates as if playing in reverse."
 

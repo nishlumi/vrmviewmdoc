@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-03 18:14+0900\n"
-"PO-Revision-Date: 2024-02-03 18:19+0900\n"
+"POT-Creation-Date: 2024-02-22 23:50+0900\n"
+"PO-Revision-Date: 2024-02-22 23:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -379,23 +379,65 @@ msgstr "Time when eyelids are closed"
 msgid "この秒数分まぶたを閉じています。"
 msgstr "VRM has closed its eyelids for this few seconds."
 
+#: ../../source/man2/prop_vrm.rst:165
+msgid "口パク"
+msgstr "Lip sync"
+
 #: ../../source/man2/prop_vrm.rst:167
+msgid "VRoid/VRMがあたかもしゃべっているかのように口をずっと動かし続けます。"
+msgstr "VRoid/VRM keeps moving its mouth as if it is talking."
+
+#: ../../source/man2/prop_vrm.rst
+msgid "口パクを有効"
+msgstr "Enable lip sync"
+
+#: ../../source/man2/prop_vrm.rst:173
+msgid "口パクを有効にします。``aa`` が 0.0 ~ 0.5 まで自動的に推移します。"
+msgstr "Enable lip sync. ``aa`` automatically changes from 0.0 to 0.5."
+
+#: ../../source/man2/prop_vrm.rst
+msgid "口パクの間隔"
+msgstr "Lip sync interval"
+
+#: ../../source/man2/prop_vrm.rst:175
+msgid "口が閉じた後、再び開くまでの間隔を指定します。デフォルトは 0.5 です。"
+msgstr "Specifies the interval after which the mouth closes and before it reopens. Default is 0.5."
+
+#: ../../source/man2/prop_vrm.rst
+msgid "口を開ける速度"
+msgstr "Speed to open the mouth"
+
+#: ../../source/man2/prop_vrm.rst:177
+msgid "口を開ける速度を指定します。毎フレームこの数値分増加します。デフォルトは 0.03 です。"
+msgstr ""
+"Specify the speed at which the mouth opens. Increases by this number every frame. Default is 0.03."
+
+#: ../../source/man2/prop_vrm.rst
+msgid "口を閉じる速度"
+msgstr "Speed to close the mouth"
+
+#: ../../source/man2/prop_vrm.rst:179
+msgid "口を閉じる速度を指定します。毎フレームこの数値分減少します。デフォルトは 0.1 です。"
+msgstr ""
+"Specify the speed at which the mouth closes. It decreases by this number every frame. Default is 0.1."
+
+#: ../../source/man2/prop_vrm.rst:188
 msgid "オブジェクトの装着"
 msgstr "wearing an object"
 
-#: ../../source/man2/prop_vrm.rst:169
+#: ../../source/man2/prop_vrm.rst:190
 msgid "VRoid/VRMの各部位の動きに別のオブジェクトを連動させる機能の一覧です。"
 msgstr ""
 "This is a list of functions that link different objects with the movement of each part of the VRoid/"
 "VRM."
 
-#: ../../source/man2/prop_vrm.rst:177
+#: ../../source/man2/prop_vrm.rst:198
 msgid "オブジェクトを体の次の部位に装着させることができます。装着する数に制限はありません。"
 msgstr ""
 "You can attach objects to the following parts of your body. There is no limit to how many you can "
 "wear."
 
-#: ../../source/man2/prop_vrm.rst:180
+#: ../../source/man2/prop_vrm.rst:201
 msgid "装備させたい部位を選択します。"
 msgstr "Select the parts you want to equip."
 
@@ -403,7 +445,7 @@ msgstr "Select the parts you want to equip."
 msgid "装備ボタン"
 msgstr "Equipment button"
 
-#: ../../source/man2/prop_vrm.rst:182
+#: ../../source/man2/prop_vrm.rst:203
 msgid "オブジェクトの装着ダイアログを表示します。"
 msgstr "Shows the attach object dialog."
 
@@ -411,23 +453,23 @@ msgstr "Shows the attach object dialog."
 msgid "現在の装備欄"
 msgstr "Current equipment column"
 
-#: ../../source/man2/prop_vrm.rst:184
+#: ../../source/man2/prop_vrm.rst:205
 msgid "右端の削除ボタンで装備を解除します。"
 msgstr "Unequip it with the delete button on the far right."
 
-#: ../../source/man2/prop_vrm.rst:187
+#: ../../source/man2/prop_vrm.rst:208
 msgid "お尻、左ふともも、右ふともも、左下脚、右下脚、左足、右足"
 msgstr "Hip, left thigh, right thigh, left lower leg, right lower leg, left leg, right leg"
 
-#: ../../source/man2/prop_vrm.rst:188
+#: ../../source/man2/prop_vrm.rst:209
 msgid "脊柱、胸、首、頭"
 msgstr "spine, chest, neck, head"
 
-#: ../../source/man2/prop_vrm.rst:189
+#: ../../source/man2/prop_vrm.rst:210
 msgid "左肩、右肩、左上腕、右上腕"
 msgstr "Left shoulder, right shoulder, left upper arm, right upper arm"
 
-#: ../../source/man2/prop_vrm.rst:190
+#: ../../source/man2/prop_vrm.rst:211
 msgid "左前腕、右前腕、左手、右手、胸上部"
 msgstr "left forearm, right forearm, left hand, right hand, upper chest"
 
@@ -435,7 +477,7 @@ msgstr "left forearm, right forearm, left hand, right hand, upper chest"
 msgid "ID"
 msgstr "ID"
 
-#: ../../source/man2/prop_vrm.rst:198
+#: ../../source/man2/prop_vrm.rst:219
 msgid "オブジェクトのIDです。"
 msgstr "ID of the object."
 
@@ -443,7 +485,7 @@ msgstr "ID of the object."
 msgid "Type"
 msgstr "Type"
 
-#: ../../source/man2/prop_vrm.rst:201
+#: ../../source/man2/prop_vrm.rst:222
 msgid "オブジェクトの種類です。"
 msgstr "The type of object."
 
@@ -451,19 +493,19 @@ msgstr "The type of object."
 msgid "Name"
 msgstr "Name"
 
-#: ../../source/man2/prop_vrm.rst:204
+#: ../../source/man2/prop_vrm.rst:225
 msgid "オブジェクトの名称です。"
 msgstr "The name of the object."
 
-#: ../../source/man2/prop_vrm.rst:215
+#: ../../source/man2/prop_vrm.rst:236
 msgid "装備させたいオブジェクトを選び、「OK」ボタンを押すと装備できます。"
 msgstr "Select the object you want to equip and press the \"OK\" button to equip it."
 
-#: ../../source/man2/prop_vrm.rst:221
+#: ../../source/man2/prop_vrm.rst:242
 msgid "テクスチャ"
 msgstr "Texture"
 
-#: ../../source/man2/prop_vrm.rst:228
+#: ../../source/man2/prop_vrm.rst:249
 msgid ""
 "VRMが保有しているテクスチャに関するプロパティです。テクスチャやマテリアルが複数存在した場合はコンボ"
 "ボックスから選ぶことができます。検出できるテクスチャの数は実際のVRMによって異なります。"
@@ -476,7 +518,7 @@ msgstr ""
 msgid "マテリアル名"
 msgstr "Material name"
 
-#: ../../source/man2/prop_vrm.rst:231
+#: ../../source/man2/prop_vrm.rst:252
 msgid "現在選択中のテクスチャが保持しているマテリアルの名称です。"
 msgstr "The name of the material held by the currently selected texture."
 
@@ -484,13 +526,13 @@ msgstr "The name of the material held by the currently selected texture."
 msgid "シェーダー"
 msgstr "Shader"
 
-#: ../../source/man2/prop_vrm.rst:233
+#: ../../source/man2/prop_vrm.rst:254
 msgid ""
 "Unity標準のStandard、VRM標準のVRM/MToon、StandardAssetのWater（FX/Water4）のいずれかにシェーダーを切り"
 "替えます。"
 msgstr "Switch the shader to Unity's Standard, VRM's VRM/MToon, or StandardAsset's Water (FX/Water4)."
 
-#: ../../source/man2/prop_vrm.rst:235
+#: ../../source/man2/prop_vrm.rst:256
 msgid "以下のシェーダーの設定を変更できます。詳しくはUnityのヘルプ等でご確認ください。"
 msgstr "You can change the settings of the following shaders. For details, please refer to Unity Help."
 
@@ -498,7 +540,7 @@ msgstr "You can change the settings of the following shaders. For details, pleas
 msgid "Standard"
 msgstr "Standard"
 
-#: ../../source/man2/prop_vrm.rst:238
+#: ../../source/man2/prop_vrm.rst:259
 msgid "色、ブレンドモード、メタリック、光沢、発光色（Emission Color）、テクスチャ"
 msgstr "Color, Blend Mode, Metallic, Glossy, Emission Color, Texture"
 
@@ -506,7 +548,7 @@ msgstr "Color, Blend Mode, Metallic, Glossy, Emission Color, Texture"
 msgid "VRM/MToon"
 msgstr "VRM/MToon"
 
-#: ../../source/man2/prop_vrm.rst:240
+#: ../../source/man2/prop_vrm.rst:261
 msgid ""
 "色、ブレンドモード、カリングモード メタリック、光沢、発光色（Emission Color）、シェードの色（Shade "
 "Color） Shading Toony、 Rim Color、Rim fresnel power SrcBlend、DstBlend、テクスチャ"
@@ -518,7 +560,7 @@ msgstr ""
 msgid "Water"
 msgstr "Water"
 
-#: ../../source/man2/prop_vrm.rst:245
+#: ../../source/man2/prop_vrm.rst:266
 msgid ""
 "フレネルスケール、反射色、鏡面色、波の振れ幅、波の周波数、波の急勾配、波の速度、波方向AB、波方向CD"
 msgstr ""
@@ -529,7 +571,7 @@ msgstr ""
 msgid "Sketch"
 msgstr "Sketch"
 
-#: ../../source/man2/prop_vrm.rst:247
+#: ../../source/man2/prop_vrm.rst:268
 msgid "Outline width、Stroke density、Add brightness、Mult brightness、Shadow brightness"
 msgstr "Outline width、Stroke density、Add brightness、Mult brightness、Shadow brightness"
 
@@ -537,7 +579,7 @@ msgstr "Outline width、Stroke density、Add brightness、Mult brightness、Shad
 msgid "PostSketch"
 msgstr "PostSketch"
 
-#: ../../source/man2/prop_vrm.rst:249
+#: ../../source/man2/prop_vrm.rst:270
 msgid "Outline width、Stroke density、Add brightness、Mult brightness"
 msgstr "Outline width、Stroke density、Add brightness、Mult brightness"
 
@@ -545,15 +587,15 @@ msgstr "Outline width、Stroke density、Add brightness、Mult brightness"
 msgid "Comic"
 msgstr "Comic"
 
-#: ../../source/man2/prop_vrm.rst:251
+#: ../../source/man2/prop_vrm.rst:272
 msgid "enableTexTransparent、Line width、色、Tone threshold"
 msgstr "enableTexTransparent, Line width, Color, Tone threshold"
 
-#: ../../source/man2/prop_vrm.rst:254
+#: ../../source/man2/prop_vrm.rst:275
 msgid "後述のOtherObjectのテクスチャの設定と同一です。"
 msgstr "It is the same as setting the texture of OtherObject described later."
 
-#: ../../source/man2/prop_vrm.rst:257
+#: ../../source/man2/prop_vrm.rst:278
 msgid ""
 "VRMには適さないシェーダーもあります。想定と異なる変化する可能性があるので注意して使用してください。"
 msgstr ""
