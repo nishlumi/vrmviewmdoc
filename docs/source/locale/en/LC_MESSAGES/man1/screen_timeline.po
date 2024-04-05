@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-15 21:43+0900\n"
-"PO-Revision-Date: 2024-02-15 21:46+0900\n"
+"POT-Creation-Date: 2024-03-24 22:04+0900\n"
+"PO-Revision-Date: 2024-03-24 22:06+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -28,21 +28,17 @@ msgstr "Timeline"
 msgid "WebGL画面の下にある機能です。アニメーションで使われます。"
 msgstr "It is a function under the WebGL screen. Used in animation."
 
-#: ../../source/man1/screen_timeline.rst:29
+#: ../../source/man1/screen_timeline.rst:16
+msgid "パネル"
+msgstr "Panel"
+
+#: ../../source/man1/screen_timeline.rst:33
 msgid "A ツールバー:"
 msgstr "A Toolbar:"
 
-#: ../../source/man1/screen_timeline.rst:17
+#: ../../source/man1/screen_timeline.rst:19
 msgid "左から順に次のとおりに並んでいます。"
 msgstr "From left to right, they are arranged as follows:"
-
-#: ../../source/man1/screen_timeline.rst:19
-msgid "フレームの現在位置を戻す"
-msgstr "Move the current position of the frame to any location"
-
-#: ../../source/man1/screen_timeline.rst:20
-msgid "進める"
-msgstr "Skip timeline to next"
 
 #: ../../source/man1/screen_timeline.rst:21
 msgid "表示を縮小"
@@ -65,34 +61,46 @@ msgid "停止"
 msgstr "Stop"
 
 #: ../../source/man1/screen_timeline.rst:26
-msgid "フレームを読み込む"
-msgstr "Load this frame"
+msgid "フレームを読み込む [1]_"
+msgstr "Load this frame [1]_"
 
 #: ../../source/man1/screen_timeline.rst:27
 msgid "キーフレーム設定ウィンドウ表示"
 msgstr "Open the current keyframe property"
 
 #: ../../source/man1/screen_timeline.rst:28
+msgid "キーフレームを登録"
+msgstr "Register keyframe"
+
+#: ../../source/man1/screen_timeline.rst:29
+msgid "キーフレームを削除"
+msgstr "Delete keyframe"
+
+#: ../../source/man1/screen_timeline.rst:30
 msgid "現在の位置に空のフレームを挿入"
 msgstr "Insert a blank frame to the current"
 
-#: ../../source/man1/screen_timeline.rst:29
+#: ../../source/man1/screen_timeline.rst:31
 msgid "現在のフレーム位置を削除"
 msgstr "Delete current frame index"
 
-#: ../../source/man1/screen_timeline.rst:32
+#: ../../source/man1/screen_timeline.rst:33
+msgid "アプリの設定の「フレームを選択する時、プレビューする」がオフの場合のみ表示されます"
+msgstr "This will only be displayed if \"Preview when selecting a frame\" in the app settings is off."
+
+#: ../../source/man1/screen_timeline.rst:36
 msgid "B シークバー:"
 msgstr "B Seek bar:"
 
-#: ../../source/man1/screen_timeline.rst:32
+#: ../../source/man1/screen_timeline.rst:36
 msgid "フレームの現在位置を任意の場所に移動します。"
 msgstr "Move the current position of the frame to any location."
 
-#: ../../source/man1/screen_timeline.rst:37
+#: ../../source/man1/screen_timeline.rst:41
 msgid "C オブジェクト・ロール名:"
 msgstr "C object/role name:"
 
-#: ../../source/man1/screen_timeline.rst:35
+#: ../../source/man1/screen_timeline.rst:39
 msgid "タイムラインを識別するために表示されます。"
 msgstr "Displayed to identify the timeline."
 
@@ -100,11 +108,11 @@ msgstr "Displayed to identify the timeline."
 msgid "表示・非表示ボタン・・・オブジェクトをWebGL画面から隠します。"
 msgstr "Show/Hide button ... Hide the object from the WebGL screen."
 
-#: ../../source/man1/screen_timeline.rst:50
+#: ../../source/man1/screen_timeline.rst:54
 msgid "D  タイムライン:"
 msgstr "D  Timeline:"
 
-#: ../../source/man1/screen_timeline.rst:40
+#: ../../source/man1/screen_timeline.rst:44
 msgid ""
 "各オブジェクトごとにキーフレームを表示します。上部の番号を押すことで操作するフレームを切り替えできます。登録したキー"
 "フレームの箇所には赤く塗りつぶされます。 **子キーを登録するとキーフレームの赤いセル部分の数値がその分カウントされま"
@@ -114,11 +122,11 @@ msgstr ""
 "registered keyframes are filled in red. ** Register a child key ** and the number in the red cell part of the key "
 "frame is counted accordingly."
 
-#: ../../source/man1/screen_timeline.rst:42
+#: ../../source/man1/screen_timeline.rst:46
 msgid "ダブルクリックするとキーフレームの設定のウィンドウが開きます。"
 msgstr "Double-click to open the keyframe settings window."
 
-#: ../../source/man1/screen_timeline.rst:44
+#: ../../source/man1/screen_timeline.rst:48
 msgid "登録済みのキーフレームにマウスカーソルを当てると現在の設定がポップアップで確認できます。"
 msgstr "If you place the mouse cursor over a registered keyframe, you can check the current settings in a popup."
 
@@ -126,7 +134,7 @@ msgstr "If you place the mouse cursor over a registered keyframe, you can check 
 msgid "E  パネル拡大・縮小ボタン"
 msgstr "E Panel enlarge/reduce button"
 
-#: ../../source/man1/screen_timeline.rst:53
+#: ../../source/man1/screen_timeline.rst:57
 msgid "タイムラインのパネルを拡大、縮小（ツールバーのみ）を切り替えます。"
 msgstr "Toggles between expanding and contracting the timeline panel (toolbar only)."
 
@@ -143,3 +151,9 @@ msgstr "Toggles between expanding and contracting the timeline panel (toolbar on
 #~ "From the left: Move back/advance the current position of the frame, reduce/enlarge the display, play from the "
 #~ "beginning, play/pause, stop, load the frame, display the keyframe setting window, empty frame at the current "
 #~ "position insert, delete current frame position"
+
+#~ msgid "フレームの現在位置を戻す"
+#~ msgstr "Move the current position of the frame to any location"
+
+#~ msgid "進める"
+#~ msgstr "Skip timeline to next"

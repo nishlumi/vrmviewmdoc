@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 23:50+0900\n"
-"PO-Revision-Date: 2024-02-22 23:53+0900\n"
+"POT-Creation-Date: 2024-03-24 22:04+0900\n"
+"PO-Revision-Date: 2024-04-02 21:07+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -26,11 +26,11 @@ msgstr "VRoid/VRM"
 
 #: ../../source/man2/operation_vrm.rst:6
 msgid ""
-"VRoid/VRMを読み込んでポーズを取らせたり後述のアニメーションを作成して楽しめるのが本アプリのメインの特徴です。VRMファイルの読み込みから実際"
-"の操作まで、一連の操作を説明していきます。"
+"VRoid/VRMを読み込んでポーズを取らせたり後述のアニメーションを作成して楽しめるのが本アプリのメインの特徴です。VRMファイルの読み込みから実際の操作ま"
+"で、一連の操作を説明していきます。"
 msgstr ""
-"The main feature of this app is that you can read and take poses by reading VRoid/VRM, and you can enjoy the animation described below. I "
-"will explain a series of operations from reading VRM files to actual operation."
+"The main feature of this app is that you can read and take poses by reading VRoid/VRM, and you can enjoy the animation described below. I will "
+"explain a series of operations from reading VRM files to actual operation."
 
 #: ../../source/man2/operation_vrm.rst:9
 msgid "本アプリではVRM1.0製のモデルも正常に読み込むことができます。"
@@ -38,11 +38,11 @@ msgstr "In this app, VRM1.0 models can also be read normally."
 
 #: ../../source/man2/operation_vrm.rst:11
 msgid ""
-"ただし、コンストレイントなどVRM1.0で新規実装になった機能などはまだ使用例が世に広まっていないため、確認できていません。今後のアップデートで"
-"動作確認・対応を進めます。"
+"ただし、コンストレイントなどVRM1.0で新規実装になった機能などはまだ使用例が世に広まっていないため、確認できていません。今後のアップデートで動作確認・"
+"対応を進めます。"
 msgstr ""
-"However, the functions that have been newly implemented in VRM1.0, such as constraints, have not yet been confirmed because the usage "
-"examples have not yet spread. We will proceed with confirmation and response in future updates."
+"However, the functions that have been newly implemented in VRM1.0, such as constraints, have not yet been confirmed because the usage examples have "
+"not yet spread. We will proceed with confirmation and response in future updates."
 
 #: ../../source/man2/operation_vrm.rst:14
 msgid "目次"
@@ -54,11 +54,11 @@ msgstr "Check the usage conditions of VRM"
 
 #: ../../source/man2/operation_vrm.rst:22
 msgid ""
-"読み込みが進むとVRoid/VRMの利用条件確認画面が表示されます。自分以外の製作者のVRMファイルを読み込んだ場合、利用条件をよく確認し承諾できれば"
-"「OK」ボタンを押して読み込みを完了させてください。"
+"読み込みが進むとVRoid/VRMの利用条件確認画面が表示されます。自分以外の製作者のVRMファイルを読み込んだ場合、利用条件をよく確認し承諾できれば「OK」ボタ"
+"ンを押して読み込みを完了させてください。"
 msgstr ""
-"As the reading proceeds, the VRoid/VRM usage conditions confirmation screen will be displayed. If you read the VRM file of the creator "
-"other than yourself, check the terms of use and accept the\" OK \"button to complete the loading. please give me. "
+"As the reading proceeds, the VRoid/VRM usage conditions confirmation screen will be displayed. If you read the VRM file of the creator other than "
+"yourself, check the terms of use and accept the\" OK \"button to complete the loading. please give me. "
 
 #: ../../source/man2/operation_vrm.rst:27
 msgid "この後WebGL画面に目的のVRoid/VRMが表示されます。"
@@ -70,18 +70,18 @@ msgstr "If you open VRM from history, you can skip this confirmation screen depe
 
 #: ../../source/man2/operation_vrm.rst:31
 msgid ""
-"VRoidStudio 1.xのモデルと0.xのモデルは関節の形状や初期ポーズなどが異なります。本アプリではその差異をなるべく吸収していますが、VRoidStudio "
-"1.xから出力した直後のモデルは次ページの11, 13のIKの初期表示が若干ずれます（動かし始めれば問題ありません）。"
+"VRoidStudio 1.xのモデルと0.xのモデルは関節の形状や初期ポーズなどが異なります。本アプリではその差異をなるべく吸収していますが、VRoidStudio 1.xから出力"
+"した直後のモデルは次ページの11, 13のIKの初期表示が若干ずれます（動かし始めれば問題ありません）。"
 msgstr ""
-"VRoidStudio 1.x model and 0.x model have different joint shapes and initial poses. This app absorbs the difference as much as possible, "
-"but the initial display of IK in 11 and 13 on the next page will be slightly off in the model immediately after output from VRoidStudio 1."
-"x (there is no problem if you start moving)."
+"VRoidStudio 1.x model and 0.x model have different joint shapes and initial poses. This app absorbs the difference as much as possible, but the "
+"initial display of IK in 11 and 13 on the next page will be slightly off in the model immediately after output from VRoidStudio 1.x (there is no "
+"problem if you start moving)."
 
 #: ../../source/man2/operation_vrm.rst:32
 msgid "VRM 0.xのモデルとVRM1.xのモデルも関節の形状などが異なるため、初期ポーズが若干ずれます。こちらも動かし始めれば問題ありません。"
 msgstr ""
-"VRM 0.x models and VRM 1.x models also have different joint shapes, so the initial poses are slightly different. There is no problem if "
-"you start moving this as well."
+"VRM 0.x models and VRM 1.x models also have different joint shapes, so the initial poses are slightly different. There is no problem if you start "
+"moving this as well."
 
 #: ../../source/man2/operation_vrm.rst:41
 msgid "VRMのIKマーカーの操作"
@@ -89,11 +89,11 @@ msgstr "Working with VRM IK markers"
 
 #: ../../source/man2/operation_vrm.rst:43
 msgid ""
-"読み込んだVRoid/VRMには図のようにIKマーカーと称する半透明の図形がついています。それぞれ次の部位の動きに連動しています。また、部位ごとにIK"
-"マーカーの操作の種類や形が決まっています。"
+"読み込んだVRoid/VRMには図のようにIKマーカーと称する半透明の図形がついています。それぞれ次の部位の動きに連動しています。また、部位ごとにIKマーカーの操"
+"作の種類や形が決まっています。"
 msgstr ""
-"The imported VRoid/VRM has a semi-transparent figure called an IK marker as shown in the figure. Each part is linked to the movement of "
-"the next part. In addition, the type and shape of IK marker operations are determined for each part."
+"The imported VRoid/VRM has a semi-transparent figure called an IK marker as shown in the figure. Each part is linked to the movement of the next "
+"part. In addition, the type and shape of IK marker operations are determined for each part."
 
 #: ../../source/man2/operation_vrm.rst:1
 msgid "No"
@@ -265,8 +265,7 @@ msgstr "Chests now operate the corresponding part of the VRM by **rotating** ins
 
 #: ../../source/man2/operation_vrm.rst:74
 msgid "今までのポーズ・モーションファイルでこれらのIKマーカーを大きく操作していた場合はポーズ・モーションの変更が必要です。ご了承ください。"
-msgstr ""
-"If you have greatly manipulated these IK markers in the previous pose/motion file, you will need to change the pose/motion. note that."
+msgstr "If you have greatly manipulated these IK markers in the previous pose/motion file, you will need to change the pose/motion. note that."
 
 #: ../../source/man2/operation_vrm.rst:77
 msgid "**IKシステムの変更(ver 2.4.0)**"
@@ -299,31 +298,27 @@ msgstr "Since the movement of the Aim's x/z axes has been reversed, please corre
 #: ../../source/man2/operation_vrm.rst:94
 msgid "VR/AR空間ではIKマーカー自体は連動して動きませんが、VRMのボーンの動きとしてはその通りに維持されています。"
 msgstr ""
-"Although the IK markers themselves do not move in conjunction with each other in VR/AR space, the movement of the VRM bones is maintained "
-"as is."
+"Although the IK markers themselves do not move in conjunction with each other in VR/AR space, the movement of the VRM bones is maintained as is."
 
 #: ../../source/man2/operation_vrm.rst:97
 msgid ""
-"対応していない操作をしてもその部位に動きはありません。特に体の中心部である **Head(2), Chest(5), LeftSholuder(7), RightShoulder(10), "
-"Aim(4)** は実際には遠く離れた場所に移動させても操作することができます。体の中に隠れやすい部位なので、操作しやすい位置に動かすとよいでしょ"
-"う。"
+"対応していない操作をしてもその部位に動きはありません。特に体の中心部である **Head(2), Chest(5), LeftSholuder(7), RightShoulder(10), Aim(4)** は実際に"
+"は遠く離れた場所に移動させても操作することができます。体の中に隠れやすい部位なので、操作しやすい位置に動かすとよいでしょう。"
 msgstr ""
-"Even if you perform an operation that is not supported, that part will not move. In particular, the central parts of the body, **Head(2), "
-"Chest(5), LeftShoulder(7), RightShoulder(10), Aim(4)**, can be operated even if they are moved far away. can do. Since it is a part that "
-"is easily hidden inside the body, it is a good idea to move it to a position that is easy to operate."
+"Even if you perform an operation that is not supported, that part will not move. In particular, the central parts of the body, **Head(2), Chest(5), "
+"LeftShoulder(7), RightShoulder(10), Aim(4)**, can be operated even if they are moved far away. can do. Since it is a part that is easily hidden "
+"inside the body, it is a good idea to move it to a position that is easy to operate."
 
 #: ../../source/man2/operation_vrm.rst:98
 msgid ""
-"可能な限り複雑でなく・面倒くさくなく・それでいて自在にポーズの編集をしていただくため、操作可能な部位はこれだけとなっています。そのため、操"
-"作が膨大になる FK (Forward Kinematics) には対応していません。"
+"可能な限り複雑でなく・面倒くさくなく・それでいて自在にポーズの編集をしていただくため、操作可能な部位はこれだけとなっています。そのため、操作が膨大に"
+"なる FK (Forward Kinematics) には対応していません。"
 msgstr ""
-"This is the only part that can be manipulated so that you can edit the pose as freely as possible without being complicated and "
-"troublesome. Therefore, it does not support FK (Forward Kinematics), which requires a huge number of operations."
+"This is the only part that can be manipulated so that you can edit the pose as freely as possible without being complicated and troublesome. "
+"Therefore, it does not support FK (Forward Kinematics), which requires a huge number of operations."
 
 #: ../../source/man2/operation_vrm.rst:99
-msgid ""
-"世間的には厳密な言い方があるかもしれませんが、本アプリでは上記の各ボーン（部位）のこと＝IKマーカー（パーツ）として表記して説明していきま"
-"す。"
+msgid "世間的には厳密な言い方があるかもしれませんが、本アプリでは上記の各ボーン（部位）のこと＝IKマーカー（パーツ）として表記して説明していきます。"
 msgstr "There may be a strict way of saying this in the world, but in this app, each bone (part) above is described as an IK marker (part)."
 
 #: ../../source/man2/operation_vrm.rst:100
@@ -333,8 +328,8 @@ msgstr "13 and 15 are not synonymous with knees. Think of it as the overall dire
 #: ../../source/man2/operation_vrm.rst:101
 msgid "VR/AR対応のため、ver 2.3.0より1,2,5,6のIKマーカーの形を変更しました。（球体だと回転の状態がわかりづらくなるため）"
 msgstr ""
-"In order to support VR/AR, the shapes of IK markers 1, 2, 5, and 6 have been changed from ver 2.3.0. (If it is a sphere, it will be "
-"difficult to understand the state of rotation.)"
+"In order to support VR/AR, the shapes of IK markers 1, 2, 5, and 6 have been changed from ver 2.3.0. (If it is a sphere, it will be difficult to "
+"understand the state of rotation.)"
 
 #: ../../source/man2/operation_vrm.rst:107
 msgid "各IKマーカーの操作"
@@ -351,8 +346,8 @@ msgstr "X, Y, Z axis movement"
 #: ../../source/man2/operation_vrm.rst:116
 msgid "緑＝Y、青＝Z、赤＝X軸として、ドラッグするとその方向にIKマーカーを移動します。その移動量だけ体の該当部位も移動します。"
 msgstr ""
-"With green = Y, blue = Z, and red = X axis, dragging will move the IK marker in that direction. The corresponding part of the body also "
-"moves by the amount of movement."
+"With green = Y, blue = Z, and red = X axis, dragging will move the IK marker in that direction. The corresponding part of the body also moves by the "
+"amount of movement."
 
 #: ../../source/man2/operation_vrm.rst:120
 msgid "中心の平面"
@@ -361,8 +356,7 @@ msgstr "center plane"
 #: ../../source/man2/operation_vrm.rst:119
 msgid "真ん中の同じ色で四角のボックスは、その中をドラッグするとその面が示す軸ともう片方の軸のみで自由に移動させることができます。"
 msgstr ""
-"The square box in the middle with the same color can be moved freely on the axis indicated by the surface and the other axis by dragging "
-"inside it."
+"The square box in the middle with the same color can be moved freely on the axis indicated by the surface and the other axis by dragging inside it."
 
 #: ../../source/man2/operation_vrm.rst:127
 msgid "特殊な操作"
@@ -378,11 +372,11 @@ msgstr "Ctrl-click IK marker"
 
 #: ../../source/man2/operation_vrm.rst:132
 msgid ""
-"IKマーカーを複数選択することができます。複数選択した状態で移動や回転を行うと複数の体の部位を同時に動かすことができます。 なお、操作ハンドル"
-"も当たり判定があるので、カメラをズームするなどしてIKマーカーだけを選択してください。"
+"IKマーカーを複数選択することができます。複数選択した状態で移動や回転を行うと複数の体の部位を同時に動かすことができます。 なお、操作ハンドルも当たり判"
+"定があるので、カメラをズームするなどしてIKマーカーだけを選択してください。"
 msgstr ""
-"Multiple IK markers can be selected. You can move multiple body parts at the same time by moving or rotating with multiple selected. In "
-"addition, since the operation handle also has a collision detection, please select only the IK marker by zooming the camera."
+"Multiple IK markers can be selected. You can move multiple body parts at the same time by moving or rotating with multiple selected. In addition, "
+"since the operation handle also has a collision detection, please select only the IK marker by zooming the camera."
 
 #: ../../source/man2/operation_vrm.rst:137
 msgid "Xキーを押下"
@@ -441,12 +435,10 @@ msgid "選択したVRoid/VRM自体を移動・回転するには、右のプロ�
 msgstr "To move/rotate the selected VRoid/VRM itself, turn on \"Movement mode\" in the \"IK, whole body\" tab of the property on the right."
 
 #: ../../source/man2/operation_vrm.rst:169
-msgid ""
-"すると、VRoid/VRMの足元付近をクリックするとIKマーカー全部が選択状態になります。表示されませんが実際にはここが全体のIKマーカーとなっていま"
-"す。"
+msgid "すると、VRoid/VRMの足元付近をクリックするとIKマーカー全部が選択状態になります。表示されませんが実際にはここが全体のIKマーカーとなっています。"
 msgstr ""
-"Then, when you click near the feet of the VRoid/VRM, all IK markers will be selected. Although it is not displayed, this is actually the "
-"entire IK marker."
+"Then, when you click near the feet of the VRoid/VRM, all IK markers will be selected. Although it is not displayed, this is actually the entire IK "
+"marker."
 
 #: ../../source/man2/operation_vrm.rst:172
 msgid "※足首と全体のIKマーカーが干渉しやすいため、移動しない場合は適時OFFに切り替えてください。"
@@ -459,8 +451,8 @@ msgstr "From ver 2.3.0, this IK marker that moves the entire object is displayed
 #: ../../source/man2/operation_vrm.rst:181
 msgid "この状態で上下左右に移動・回転するとVRoid/VRM自体がそのとおりに動きます。これはプロパティの「共通」タブから数値で設定もできます。"
 msgstr ""
-"If you move or rotate up, down, left, or right in this state, the VRoid/VRM itself will move accordingly. This can also be set numerically "
-"from the \"Common\" tab of the properties."
+"If you move or rotate up, down, left, or right in this state, the VRoid/VRM itself will move accordingly. This can also be set numerically from the "
+"\"Common\" tab of the properties."
 
 #: ../../source/man2/operation_vrm.rst:184
 msgid "VRoid/VRM自体のサイズ"
@@ -468,12 +460,12 @@ msgstr "Size of VRoid/VRM itself"
 
 #: ../../source/man2/operation_vrm.rst:189
 msgid ""
-"共通タブからはVRoid/VRMの全体の大きさも調整できますが、VRoid/VRMは読み込んだ時点のサイズが理想のサイズです。この倍率はあまり極端に変更しな"
-"いことをオススメします。（IKマーカー自体のサイズまでは追随しないためIKマーカーと体の部位の位置がズレます）"
+"共通タブからはVRoid/VRMの全体の大きさも調整できますが、VRoid/VRMは読み込んだ時点のサイズが理想のサイズです。この倍率はあまり極端に変更しないことをオ"
+"ススメします。（IKマーカー自体のサイズまでは追随しないためIKマーカーと体の部位の位置がズレます）"
 msgstr ""
-"You can also adjust the overall size of the VRoid/VRM from the common tab, but the ideal size of the VRoid/VRM is the size at the time of "
-"loading. We recommend that you do not change this ratio too drastically. (Because it does not follow the size of the IK marker itself, the "
-"position of the IK marker and the body part will be misaligned.)"
+"You can also adjust the overall size of the VRoid/VRM from the common tab, but the ideal size of the VRoid/VRM is the size at the time of loading. "
+"We recommend that you do not change this ratio too drastically. (Because it does not follow the size of the IK marker itself, the position of the IK "
+"marker and the body part will be misaligned.)"
 
 #: ../../source/man2/operation_vrm.rst:196
 msgid "全ボーンをTポーズに戻す"
@@ -481,11 +473,11 @@ msgstr "Return all bones to T pose"
 
 #: ../../source/man2/operation_vrm.rst:198
 msgid ""
-"IKマーカーをいじりすぎて求めるポーズに戻せなくなった場合、リボンバーの **3Dモデル** タブの **全ボーンをリセット** を押すとTポーズ（デフォル"
-"トのポーズ）に戻すことが出来ます。"
+"IKマーカーをいじりすぎて求めるポーズに戻せなくなった場合、リボンバーの **3Dモデル** タブの **全ボーンをリセット** を押すとTポーズ（デフォルトのポー"
+"ズ）に戻すことが出来ます。"
 msgstr ""
-"If you mess with the IK markers too much and can't return to the desired pose, you can return to the T pose (default pose) by pressing "
-"**Reset all bones** on the **3D model** tab of the ribbon bar."
+"If you mess with the IK markers too much and can't return to the desired pose, you can return to the T pose (default pose) by pressing **Reset all "
+"bones** on the **3D model** tab of the ribbon bar."
 
 #: ../../source/man2/operation_vrm.rst:205
 msgid "また、全体の位置や回転も **位置をリセット**、**回転をリセット** で戻すことが出来ます。"
@@ -497,11 +489,11 @@ msgstr "Numerical manipulation of IK markers"
 
 #: ../../source/man2/operation_vrm.rst:220
 msgid ""
-"IKマーカーをマウスやタッチで操作するほか、実際の数値で入力して操作することもできます。目的のVRoid/VRMを選択し、右のプロパティの「**IK、全身"
-"**」タブにある「**IK位置の一括変更**」のボタンを押します。"
+"IKマーカーをマウスやタッチで操作するほか、実際の数値で入力して操作することもできます。目的のVRoid/VRMを選択し、右のプロパティの「**IK、全身**」タブに"
+"ある「**IK位置の一括変更**」のボタンを押します。"
 msgstr ""
-"In addition to manipulating IK markers with a mouse or touch, you can also manipulate them by entering actual numbers. Select the desired "
-"VRoid/VRM, and press the \"**IK position batch change**\" button on the \"**IK, whole body**\" tab of the properties on the right."
+"In addition to manipulating IK markers with a mouse or touch, you can also manipulate them by entering actual numbers. Select the desired VRoid/VRM, "
+"and press the \"**IK position batch change**\" button on the \"**IK, whole body**\" tab of the properties on the right."
 
 #: ../../source/man2/operation_vrm.rst:228
 msgid "btnbonetranapply"
@@ -517,11 +509,11 @@ msgstr "btnbonetranmirror"
 
 #: ../../source/man2/operation_vrm.rst:232
 msgid ""
-"専用のダイアログが表示されます。ここでスプレッドシート形式で各IKマーカーの位置や回転を直接指定することができます。目的の箇所を変更し終わっ"
-"たら最後に |btnbonetranapply|  **ポーズを適用** ボタンを押します。"
+"専用のダイアログが表示されます。ここでスプレッドシート形式で各IKマーカーの位置や回転を直接指定することができます。目的の箇所を変更し終わったら最後に "
+"|btnbonetranapply|  **ポーズを適用** ボタンを押します。"
 msgstr ""
-"A special dialog will appear. Here you can directly specify the position and rotation of each IK marker in a spreadsheet format. Finally, "
-"press the |btnbonetranapply| **Apply Pose** button when you have finished changing the desired parts."
+"A special dialog will appear. Here you can directly specify the position and rotation of each IK marker in a spreadsheet format. Finally, press the |"
+"btnbonetranapply| **Apply Pose** button when you have finished changing the desired parts."
 
 #: ../../source/man2/operation_vrm.rst:233
 msgid "すると対象のVRoid/VRMの現在のポーズがそのとおりに変更されます。"
@@ -613,11 +605,11 @@ msgstr "|btnbonetranrel| Refresh"
 
 #: ../../source/man2/operation_vrm.rst:258
 msgid ""
-"現在選択中のVRMのポーズ情報をスプレッドシートに反映します。基本的に選択すれば自動的に反映されますが、アプリの動作状態により情報が古いままに"
-"なることがあります。その場合に使います。"
+"現在選択中のVRMのポーズ情報をスプレッドシートに反映します。基本的に選択すれば自動的に反映されますが、アプリの動作状態により情報が古いままになることが"
+"あります。その場合に使います。"
 msgstr ""
-"Reflects the pose information of the currently selected VRM in the spreadsheet. Basically, if you select it, it will be automatically "
-"reflected, but the information may remain old depending on the operating state of the application. Use it in that case."
+"Reflects the pose information of the currently selected VRM in the spreadsheet. Basically, if you select it, it will be automatically reflected, but "
+"the information may remain old depending on the operating state of the application. Use it in that case."
 
 #: ../../source/man2/operation_vrm.rst:261
 msgid "|btnbonetranmirror| ポーズを反転する"
@@ -625,11 +617,11 @@ msgstr "| btnbonetranmirror | Return poses"
 
 #: ../../source/man2/operation_vrm.rst:261
 msgid ""
-"現在のポーズ情報の左右を入れ替えます。この状態で **ポーズを適用** を押せば現在のポーズが反転する結果となります。このボタンは **IK、全身** "
-"パネルにも存在します。"
+"現在のポーズ情報の左右を入れ替えます。この状態で **ポーズを適用** を押せば現在のポーズが反転する結果となります。このボタンは **IK、全身** パネルにも"
+"存在します。"
 msgstr ""
-"Swaps the left and right of the current pose information. If you press **Apply Pose** in this state, the current pose will be reversed. "
-"This button is also present in the **IK, Whole Body** panel."
+"Swaps the left and right of the current pose information. If you press **Apply Pose** in this state, the current pose will be reversed. This button "
+"is also present in the **IK, Whole Body** panel."
 
 #: ../../source/man2/operation_vrm.rst:264
 msgid "VRM以外を選択している間はツールバー内のボタンは無効化します。"
@@ -638,8 +630,8 @@ msgstr "The buttons in the toolbar will be disabled while selecting anything oth
 #: ../../source/man2/operation_vrm.rst:265
 msgid "ここでの数値は現在のVRM固有の数値です。身長・体格差は反映されないため他のVRMで使い回す場合は手動で算出する必要があります。"
 msgstr ""
-"The number here is the current value of VRM. Since the height and physique difference are not reflected, it is necessary to manually "
-"calculate when reused with other VRM."
+"The number here is the current value of VRM. Since the height and physique difference are not reflected, it is necessary to manually calculate when "
+"reused with other VRM."
 
 #: ../../source/man2/operation_vrm.rst:272
 msgid "可動範囲の制限を調整する"
@@ -648,13 +640,13 @@ msgstr "Adjust the restrictions of the movable range"
 #: ../../source/man2/operation_vrm.rst:275
 msgid "本アプリではVRMは標準でいくつかの可動範囲の制御が適用されます。それらによりVRMが無理なく自然な人体の動きを再現できます。"
 msgstr ""
-"In this app, VRM is standardized as standard, and some of the movable range is applied. VRM can easily reproduce the movement of the "
-"natural human body."
+"In this app, VRM is standardized as standard, and some of the movable range is applied. VRM can easily reproduce the movement of the natural human "
+"body."
 
 #: ../../source/man2/operation_vrm.rst:276
 msgid ""
-"しかしながら本アプリのIKと競合することもあり、それが原因でポーズやアニメーションが再現しきれない仕様も備わってしまっています。人体として多"
-"少不自然でもいいから完全に自由にポージングさせたい場合、これらIKマーカーの制限を外すことができます。"
+"しかしながら本アプリのIKと競合することもあり、それが原因でポーズやアニメーションが再現しきれない仕様も備わってしまっています。人体として多少不自然で"
+"もいいから完全に自由にポージングさせたい場合、これらIKマーカーの制限を外すことができます。"
 msgstr ""
 "However, there are times when we compete with the IK of this application, which has a specification that cannot be reproduced by poses and "
 "animations. You can remove the restrictions on these IK markers."
@@ -665,8 +657,7 @@ msgstr "Lowerleg, the rotation angle of the X -axis of the ankle (Leg), the rota
 
 #: ../../source/man2/operation_vrm.rst:279
 msgid "ひじ、膝から下、足首の回転の範囲が実際の人体に沿って制限がかかります。"
-msgstr ""
-"The range of the rotation of the ankle, below the knees, the range of the ankle rotation is limited according to the actual human body."
+msgstr "The range of the rotation of the ankle, below the knees, the range of the ankle rotation is limited according to the actual human body."
 
 #: ../../source/man2/operation_vrm.rst:280
 msgid "設定画面の「Modelタブ」→「VRMの体に自然な可動制御を適用する」でオン・オフが切り替わります。"
@@ -690,8 +681,7 @@ msgstr "Interlocking between IK markers"
 
 #: ../../source/man2/operation_vrm.rst:291
 msgid "本アプリではVRMのボーンを動かすのにIKマーカーを使いますが、特定の部位のIKマーカーを動かすと別の部位が連動して動くようになっています。"
-msgstr ""
-"In this app, I use an IK marker to run the VRM bone, but when I move the IK marker in a specific part, another part works in conjunction."
+msgstr "In this app, I use an IK marker to run the VRM bone, but when I move the IK marker in a specific part, another part works in conjunction."
 
 #: ../../source/man2/operation_vrm.rst:292
 msgid "基本的にはIKマーカーを操作する時だけの話です。"
@@ -755,8 +745,8 @@ msgstr "It turns off automatically during animation playback, and the position a
 
 #: ../../source/man2/operation_vrm.rst:318
 msgid ""
-"オフにすると連動しなくなって自由になりますが、関節が曲がってはいけない方向に曲がるなどします（アニメーション中では適切にキーフレームに登録"
-"していただければ問題ありません）。"
+"オフにすると連動しなくなって自由になりますが、関節が曲がってはいけない方向に曲がるなどします（アニメーション中では適切にキーフレームに登録していただ"
+"ければ問題ありません）。"
 msgstr "If you turn it off, it will not be linked and you will be free, but the joint will bend in a direction that should not be bent."
 
 #: ../../source/man2/operation_vrm.rst:325
@@ -765,11 +755,11 @@ msgstr "Switch IK markers to different objects"
 
 #: ../../source/man2/operation_vrm.rst:327
 msgid ""
-"VRMは前述の部位に従ってIKマーカーが設定されており、それを動かすとポーズが変わります。体の各部位の動きの目印となるそのIKマーカーに、別のオブ"
-"ジェクトを割り当てることができます。"
+"VRMは前述の部位に従ってIKマーカーが設定されており、それを動かすとポーズが変わります。体の各部位の動きの目印となるそのIKマーカーに、別のオブジェクトを"
+"割り当てることができます。"
 msgstr ""
-"The VRM has IK markers set according to the parts mentioned above, and moving them changes the pose. A different object can be assigned to "
-"that IK marker that marks the movement of each part of the body."
+"The VRM has IK markers set according to the parts mentioned above, and moving them changes the pose. A different object can be assigned to that IK "
+"marker that marks the movement of each part of the body."
 
 #: ../../source/man2/operation_vrm.rst:328
 msgid "これをするとどうなるのかを説明します。"
@@ -845,9 +835,7 @@ msgstr "Operation of hand poses"
 
 #: ../../source/man2/operation_vrm.rst:377
 msgid "手のひらを操作するには右のプロパティから「腕・手」タブを開き、左右の手を好きなポーズを選んでください。"
-msgstr ""
-"To operate the palms, open the \"Arms/Hands\" tab from the properties on the right and select the pose you like for the left and right "
-"hands."
+msgstr "To operate the palms, open the \"Arms/Hands\" tab from the properties on the right and select the pose you like for the left and right hands."
 
 #: ../../source/man2/operation_vrm.rst:382
 msgid "スライダーでポーズの度合いを調整出来ます。手のポーズは今後のアップデートで増やす予定です。"
@@ -924,8 +912,8 @@ msgstr "The red slider adjusts the degree of opening between the fingers with th
 #: ../../source/man2/operation_vrm.rst
 msgid "緑のスライダーは、指の軸を中心として回転します。（実際の人間としてはできませんが、3Dモデルではしばしば必要な回転操作です）"
 msgstr ""
-"The green slider rotates around the finger axis. (It's not possible as a real human, but it's a rotation operation that is often necessary "
-"with 3D models.)"
+"The green slider rotates around the finger axis. (It's not possible as a real human, but it's a rotation operation that is often necessary with 3D "
+"models.)"
 
 #: ../../source/man2/operation_vrm.rst:413
 msgid "|imgfinger3| **親指の付け根**"
@@ -934,8 +922,8 @@ msgstr "|imgfinger3| **Base of thumb**"
 #: ../../source/man2/operation_vrm.rst:413
 msgid "親指の付け根の回転を円形のスライダーで調整できます。左は親指と手のひらの遠近の距離を、右は主に左右の回転を表します。"
 msgstr ""
-"You can adjust the rotation of the base of the thumb with a circular slider. The left represents the perspective distance between the "
-"thumb and the palm, and the right mainly represents left-right rotation."
+"You can adjust the rotation of the base of the thumb with a circular slider. The left represents the perspective distance between the thumb and the "
+"palm, and the right mainly represents left-right rotation."
 
 #: ../../source/man2/operation_vrm.rst:426
 msgid "ブレンドシェイプ"
@@ -943,11 +931,11 @@ msgstr "BlendShape"
 
 #: ../../source/man2/operation_vrm.rst:429
 msgid ""
-"わかりやすく言うとVRoid/VRMの表情等を切り替えることができます。右のプロパティの「ブレンドシェイプ」タブを開き、好きなブレンドシェイプをスラ"
-"イダーで値を入力して調整してください。"
+"わかりやすく言うとVRoid/VRMの表情等を切り替えることができます。右のプロパティの「ブレンドシェイプ」タブを開き、好きなブレンドシェイプをスライダーで値"
+"を入力して調整してください。"
 msgstr ""
-"To put it simply, you can switch the facial expressions of VRoid/VRM. Open the \"Blendshape\" tab of the property on the right, and adjust "
-"the value of your favorite blendshape with the slider."
+"To put it simply, you can switch the facial expressions of VRoid/VRM. Open the \"Blendshape\" tab of the property on the right, and adjust the value "
+"of your favorite blendshape with the slider."
 
 #: ../../source/man2/operation_vrm.rst:440
 msgid "ブレンドシェイプはVRMファイルごとに決まっており、キャラクターによって操作できる数に増減があります。"
@@ -959,11 +947,11 @@ msgstr "Move the slider next to each shape key between 0 and 100."
 
 #: ../../source/man2/operation_vrm.rst:444
 msgid ""
-"ver 2.3.0より、チェックボックスをONにした場合のみキーフレームに登録されるように変更しました。スライダーを動かすと自動的にチェックボックスに"
-"チェックが入るようになっています。"
+"ver 2.3.0より、チェックボックスをONにした場合のみキーフレームに登録されるように変更しました。スライダーを動かすと自動的にチェックボックスにチェックが"
+"入るようになっています。"
 msgstr ""
-"From ver 2.3.0, it has been changed so that it is registered as a key frame only when the check box is turned on. When you move the "
-"slider, the checkbox is automatically checked."
+"From ver 2.3.0, it has been changed so that it is registered as a key frame only when the check box is turned on. When you move the slider, the "
+"checkbox is automatically checked."
 
 #: ../../source/man2/operation_vrm.rst:446
 msgid "もし登録を望まないシェイプの場合はチェックを外せばそのシェイプの値は保存されません。"
@@ -990,11 +978,10 @@ msgid "専用"
 msgstr "Exclusive"
 
 #: ../../source/man2/operation_vrm.rst:456
-msgid ""
-"各VRM独自のシェイプです。こちらにあるシェイプを後述のモーションやポーズファイルにして別のVRMに適用しても、再現されない可能性があります。"
+msgid "各VRM独自のシェイプです。こちらにあるシェイプを後述のモーションやポーズファイルにして別のVRMに適用しても、再現されない可能性があります。"
 msgstr ""
-"Each VRM has its own shape. Even if the shape here is made into a motion or pose file described later and applied to another VRM, it may "
-"not be reproduced."
+"Each VRM has its own shape. Even if the shape here is made into a motion or pose file described later and applied to another VRM, it may not be "
+"reproduced."
 
 #: ../../source/man2/operation_vrm.rst ../../source/man2/operation_vrm.rst:1
 msgid "共通"
@@ -1002,11 +989,11 @@ msgstr "Common"
 
 #: ../../source/man2/operation_vrm.rst:458
 msgid ""
-"VRM1.0モデル、VRM0.xからのマイグレーションモデルにかぎらずすべてに共通のシェイプです。こちらにあるシェイプはモーションやポーズファイルに入"
-"れれば他のVRMでも再現されます。"
+"VRM1.0モデル、VRM0.xからのマイグレーションモデルにかぎらずすべてに共通のシェイプです。こちらにあるシェイプはモーションやポーズファイルに入れれば他の"
+"VRMでも再現されます。"
 msgstr ""
-"It is a shape common to all, regardless of whether it is a VRM1.0 model or a migration model from VRM0.x. The shapes here can be "
-"reproduced in other VRMs by putting them in a motion or pose file."
+"It is a shape common to all, regardless of whether it is a VRM1.0 model or a migration model from VRM0.x. The shapes here can be reproduced in other "
+"VRMs by putting them in a motion or pose file."
 
 #: ../../source/man2/operation_vrm.rst:460
 msgid "VRM1.x対応により、名称を変更しました。"
@@ -1014,13 +1001,12 @@ msgstr "The name has been changed to support VRM1.x."
 
 #: ../../source/man2/operation_vrm.rst:462
 msgid ""
-"VRM 1.0の仕様により、SkinnedMeshRendererのブレンドシェイプの挙動に影響があり、本アプリでもSkinnedMeshRendererを利用していた ``汎用`` の一部"
-"のシェイプが機能しなくなりました。本アプリでは互換性を維持して使用可能になっていますが、混乱を招きかねないため、次のように名称を変更しまし"
-"た。"
+"VRM 1.0の仕様により、SkinnedMeshRendererのブレンドシェイプの挙動に影響があり、本アプリでもSkinnedMeshRendererを利用していた ``汎用`` の一部のシェイプ"
+"が機能しなくなりました。本アプリでは互換性を維持して使用可能になっていますが、混乱を招きかねないため、次のように名称を変更しました。"
 msgstr ""
-"Due to the VRM 1.0 specification, the behavior of SkinnedMeshRenderer's blend shapes has been affected, and some ``general-purpose`` "
-"shapes that used SkinnedMeshRenderer in this application no longer work. This application maintains compatibility and can be used, but "
-"since it may cause confusion, we have changed the name as follows."
+"Due to the VRM 1.0 specification, the behavior of SkinnedMeshRenderer's blend shapes has been affected, and some ``general-purpose`` shapes that "
+"used SkinnedMeshRenderer in this application no longer work. This application maintains compatibility and can be used, but since it may cause "
+"confusion, we have changed the name as follows."
 
 #: ../../source/man2/operation_vrm.rst:1
 msgid "本アプリのバージョン"
@@ -1056,8 +1042,8 @@ msgstr "The original Expression only has the bare minimum of common shapes for a
 
 #: ../../source/man2/operation_vrm.rst:476
 msgid ""
-"他所様のアプリではExpressionとしての数は少ない可能性がありますが、本来はそちらが標準の状態です。本アプリは互換性重視のため、 **独自の改良で"
-"すべてのブレンドシェイプをExpressionとして使える** ようにしてあります。"
+"他所様のアプリではExpressionとしての数は少ない可能性がありますが、本来はそちらが標準の状態です。本アプリは互換性重視のため、 **独自の改良ですべてのブ"
+"レンドシェイプをExpressionとして使える** ようにしてあります。"
 msgstr ""
 "There is a possibility that the number of Expressions in other apps is small, but that is the standard state. This application emphasizes "
 "**compatibility, so we have made it possible to use all blendshapes as Expressions** with our own improvements."
@@ -1073,8 +1059,8 @@ msgstr "Auto blink keeps VRM blinking at the specified timing."
 #: ../../source/man2/operation_vrm.rst:492
 msgid "アニメーションのキーフレームとは別に動き続けるため、ブレンドシェイプで目の開閉を一からキーフレームに組み込む必要がありません。"
 msgstr ""
-"It keeps moving independently of the animation keyframes, so you don't have to incorporate the opening and closing of the eyes into the "
-"keyframes from scratch with blendshapes."
+"It keeps moving independently of the animation keyframes, so you don't have to incorporate the opening and closing of the eyes into the keyframes "
+"from scratch with blendshapes."
 
 #: ../../source/man2/operation_vrm.rst:495
 msgid "まばたきの間隔・まぶたを開ける秒数・閉じる秒数・閉じている秒数"
@@ -1103,8 +1089,8 @@ msgstr "VRoid/VRM keeps moving its mouth as if it is talking."
 #: ../../source/man2/operation_vrm.rst:507
 msgid "アニメーションのキーフレームとは別に動き続けるため、ブレンドシェイプで口の開閉を一からキーフレームに組み込む必要がありません。"
 msgstr ""
-"Since it continues to move independently of the animation keyframes, there is no need to incorporate the opening and closing of the mouth "
-"into keyframes from scratch using blend shapes."
+"Since it continues to move independently of the animation keyframes, there is no need to incorporate the opening and closing of the mouth into "
+"keyframes from scratch using blend shapes."
 
 #: ../../source/man2/operation_vrm.rst
 msgid "口を開ける速度"
@@ -1129,15 +1115,14 @@ msgstr "Lip sync interval"
 #: ../../source/man2/operation_vrm.rst:517
 msgid "口の開閉が一巡した後、再び動き出すまでの時間を指定します。多ければ多いほど間隔が伸びて口を動かす頻度が減ります。"
 msgstr ""
-"Specify the time it takes to start moving again after the mouth opens and closes once. The more you have, the longer the interval will be "
-"and the less frequently you will have to move your mouth."
+"Specify the time it takes to start moving again after the mouth opens and closes once. The more you have, the longer the interval will be and the "
+"less frequently you will have to move your mouth."
 
 #: ../../source/man2/operation_vrm.rst:519
-msgid ""
-"デフォルトではオフです。使い方としては有効にした後、次のフレームで数秒後に無効にしてキャラクターが喋っている演出をするのに適しています。"
+msgid "デフォルトではオフです。使い方としては有効にした後、次のフレームで数秒後に無効にしてキャラクターが喋っている演出をするのに適しています。"
 msgstr ""
-"Default is off. It is suitable for use when enabling it and then disabling it a few seconds later in the next frame to create a scene "
-"where the character is speaking."
+"Default is off. It is suitable for use when enabling it and then disabling it a few seconds later in the next frame to create a scene where the "
+"character is speaking."
 
 #: ../../source/man2/operation_vrm.rst:522
 msgid "この機能により ``aa`` が変化している間も、個別に ``aa`` や他のシェイプを動かすことができます。"
@@ -1145,11 +1130,10 @@ msgstr "This feature allows you to move ``aa`` and other shapes independently wh
 
 #: ../../source/man2/operation_vrm.rst:525
 msgid ""
-"この機能はユーザーの喋りに合わせてVRoid/VRMが口を動かすものではありません。あくまでもVRoid/VRMが喋っているように見せかけるための補助的な機"
-"能です。"
+"この機能はユーザーの喋りに合わせてVRoid/VRMが口を動かすものではありません。あくまでもVRoid/VRMが喋っているように見せかけるための補助的な機能です。"
 msgstr ""
-"This function does not cause VRoid/VRM to move its mouth according to the user's speech. It is just an auxiliary function to make VRoid/"
-"VRM appear to be talking."
+"This function does not cause VRoid/VRM to move its mouth according to the user's speech. It is just an auxiliary function to make VRoid/VRM appear "
+"to be talking."
 
 #: ../../source/man2/operation_vrm.rst:533
 msgid "オブジェクトの装着"
@@ -1157,11 +1141,11 @@ msgstr "wearing an object"
 
 #: ../../source/man2/operation_vrm.rst:535
 msgid ""
-"VRoid/VRMの特定の体の部位にFBXやObj・Lightなど別のオブジェクトを紐付け、動きを連動させることができます。右のプロパティの「オブジェクトの装"
-"着」タブを開いてください。"
+"VRoid/VRMの特定の体の部位にFBXやObj・Lightなど別のオブジェクトを紐付け、動きを連動させることができます。右のプロパティの「オブジェクトの装着」タブを"
+"開いてください。"
 msgstr ""
-"You can link different objects such as FBX, Obj, Light, etc. to specific body parts of VRoid/VRM and link their movements. Open the "
-"\"Attach Objects\" tab in the properties on the right."
+"You can link different objects such as FBX, Obj, Light, etc. to specific body parts of VRoid/VRM and link their movements. Open the \"Attach "
+"Objects\" tab in the properties on the right."
 
 #: ../../source/man2/operation_vrm.rst:542
 msgid "あらかじめ別のオブジェクトを追加しておきます。"
@@ -1225,11 +1209,11 @@ msgstr "Handling of attached objects"
 
 #: ../../source/man2/operation_vrm.rst
 msgid ""
-"VRMが装着したオブジェクトは、アニメーションにおいては位置や回転などの変形操作をキーフレームに登録することはできなくなります。一覧で選択して"
-"もIKマーカーは表示されません。"
+"VRMが装着したオブジェクトは、アニメーションにおいては位置や回転などの変形操作をキーフレームに登録することはできなくなります。一覧で選択してもIKマー"
+"カーは表示されません。"
 msgstr ""
-"Objects equipped with VRM will not be able to register deformation operations such as position and rotation in keyframes during animation. "
-"Even if you select it from the list, the IK marker will not be displayed."
+"Objects equipped with VRM will not be able to register deformation operations such as position and rotation in keyframes during animation. Even if "
+"you select it from the list, the IK marker will not be displayed."
 
 #: ../../source/man2/operation_vrm.rst
 msgid "各種プロパティは装着前に設定しておくようにしてください。"
@@ -1241,11 +1225,11 @@ msgstr "About wearing objects in animation projects"
 
 #: ../../source/man2/operation_vrm.rst
 msgid ""
-"このオブジェクトの装着は仕組みが入り組んでいるため、アニメーションにおいては使用と準備には注意してください。オブジェクトの装着と解除は **目"
-"的とするモーションの開始・終了とは別にする** 必要があります。"
+"このオブジェクトの装着は仕組みが入り組んでいるため、アニメーションにおいては使用と準備には注意してください。オブジェクトの装着と解除は **目的とする"
+"モーションの開始・終了とは別にする** 必要があります。"
 msgstr ""
-"Equipping this object is complex, so be careful with its use and preparation in your animations. Attaching and removing an object must be "
-"**separate from the start/end of the desired motion** ."
+"Equipping this object is complex, so be careful with its use and preparation in your animations. Attaching and removing an object must be **separate "
+"from the start/end of the desired motion** ."
 
 #: ../../source/man2/operation_vrm.rst
 msgid "次の順序でキーフレームに登録するとよいでしょう。"
@@ -1305,12 +1289,11 @@ msgstr "Other object properties cannot be changed between 2 and 10 frames."
 
 #: ../../source/man2/operation_vrm.rst:612
 msgid ""
-"アニメーションにおけるポイントは、開始時点と終了時点で装着の状態が同じ状態になっていることです。例えば1フレーム目で装着なし、10フレーム目で"
-"装着ありのまま、フレーム操作をしたり再び再生ボタンを押すと、オブジェクトの位置が次第にズレていくことがあります。"
+"アニメーションにおけるポイントは、開始時点と終了時点で装着の状態が同じ状態になっていることです。例えば1フレーム目で装着なし、10フレーム目で装着ありの"
+"まま、フレーム操作をしたり再び再生ボタンを押すと、オブジェクトの位置が次第にズレていくことがあります。"
 msgstr ""
-"The point in the animation is that the wearing state is the same at the start and end. For example, if the 1st frame is without "
-"attachments and the 10th frame is with attachments, if you operate the frame or press the play button again, the position of the object "
-"may gradually shift."
+"The point in the animation is that the wearing state is the same at the start and end. For example, if the 1st frame is without attachments and the "
+"10th frame is with attachments, if you operate the frame or press the play button again, the position of the object may gradually shift."
 
 #: ../../source/man2/operation_vrm.rst:617
 msgid "重力の設定"
@@ -1318,11 +1301,11 @@ msgstr "gravity settings"
 
 #: ../../source/man2/operation_vrm.rst:619
 msgid ""
-"VRoid/VRMが持つボーンには重力の設定が標準で備わっています。ボーンは通常はゲームやモーションなどの演出時にUnity標準の衝突判定の機能によって"
-"自動的に動きます。"
+"VRoid/VRMが持つボーンには重力の設定が標準で備わっています。ボーンは通常はゲームやモーションなどの演出時にUnity標準の衝突判定の機能によって自動的に動"
+"きます。"
 msgstr ""
-"The bones of VRoid/VRM have gravity settings as standard. Bones usually move automatically by Unity's standard collision detection "
-"function during game and motion production."
+"The bones of VRoid/VRM have gravity settings as standard. Bones usually move automatically by Unity's standard collision detection function during "
+"game and motion production."
 
 #: ../../source/man2/operation_vrm.rst:621
 msgid "本アプリでもVRoid/VRMが動いた時に髪の毛がなびいたりしますが、それを手動で細かく調整することができます。"
@@ -1331,8 +1314,8 @@ msgstr "Even with this app, hair flutters when the VRoid/VRM moves, but you can 
 #: ../../source/man2/operation_vrm.rst:623
 msgid "本アプリのみの効果となりますが、例えばスカートがめくれすぎる現象をこの重力の設定によって修正することができます。"
 msgstr ""
-"Although this is an effect only for this application, for example, you can correct the phenomenon that the skirt is turned up too much by "
-"setting this gravity."
+"Although this is an effect only for this application, for example, you can correct the phenomenon that the skirt is turned up too much by setting "
+"this gravity."
 
 #: ../../source/man2/operation_vrm.rst:628
 msgid "後述のStageの風の効果と設定が競合します。風を使用する場合はこの機能を使わないでください。"
@@ -1340,8 +1323,7 @@ msgstr "Conflicts with the stage wind effects and settings described below. Do n
 
 #: ../../source/man2/operation_vrm.rst:635
 msgid "操作中のVRMが持つボーンの重力設定の情報がスプレッドシート上に羅列されます。ここで表示されるボーンは次のものです。"
-msgstr ""
-"Information on the gravity settings of bones owned by the VRM being operated is listed on the spreadsheet. The bones displayed here are:"
+msgstr "Information on the gravity settings of bones owned by the VRM being operated is listed on the spreadsheet. The bones displayed here are:"
 
 #: ../../source/man2/operation_vrm.rst:637
 msgid "VRM自体が持つ（VRoidStudioでの作成中にすでに保持している）ボーン"
@@ -1354,8 +1336,7 @@ msgstr "Bones held by 3D models retrofitted to VRM with tools such as the Unity 
 #: ../../source/man2/operation_vrm.rst:640
 msgid "なお、一度UniVRMにて変換を経ているはずなので、ボーンの情報としては ``VRMSpringBone`` コンポーネントに依存しています。"
 msgstr ""
-"In addition, since it should have gone through conversion with UniVRM once, it depends on the ``VRMSpringBone`` component for bone "
-"information."
+"In addition, since it should have gone through conversion with UniVRM once, it depends on the ``VRMSpringBone`` component for bone information."
 
 #: ../../source/man2/operation_vrm.rst:642
 msgid "何がどのボーンに実際に位置するのかはVRoidStudioやUnity上であらかじめ確認しておいてください。変更可能なセルは次のセルです。"
@@ -1401,19 +1382,23 @@ msgstr "You can change the settings of textures held by VRM in detail. The setti
 msgid "詳しくは :doc:`operation_texture` を御覧ください。"
 msgstr "See :doc:`operation_texture` for details."
 
-#: ../../source/man2/operation_vrm.rst:666
+#: ../../source/man2/operation_vrm.rst:668
 msgid "VRMAnimationの再生"
 msgstr "Play the VRMAnimation"
 
-#: ../../source/man2/operation_vrm.rst:668
-msgid "OtherObjectのアニメーションと同様に、VRMAnimationも本アプリによるアニメーションプロジェクトの中で再生をコントロールできます。"
-msgstr "Similar to OtherObject's animation, VRMAnimation can also be controlled to play within an animation project using this app."
-
 #: ../../source/man2/operation_vrm.rst:670
+msgid ""
+"OtherObjectのアニメーションと同様に、VRMAnimationも本アプリによるアニメーションプロジェクトの中で再生をコントロールできます。FBXなどと異なるのは、"
+"VRMAnimationはVRMとは全く別のため、同じモーションを複数のVRMで使い回すこともできるという点です。"
+msgstr ""
+"Similar to OtherObject's animation, VRMAnimation can also be controlled to play within an animation project using this app. The difference from FBX "
+"etc. is that VRMAnimation is completely different from VRM, so the same motion can be reused in multiple VRMs."
+
+#: ../../source/man2/operation_vrm.rst:672
 msgid "preview"
 msgstr "preview"
 
-#: ../../source/man2/operation_vrm.rst:671
+#: ../../source/man2/operation_vrm.rst:673
 msgid "anireg"
 msgstr "anireg"
 
@@ -1441,41 +1426,41 @@ msgstr "It will play instantly. This operation is not registered in the keyframe
 msgid "「再生」や「停止」を選択後にキーフレームに登録します。"
 msgstr "Register the keyframe after selecting \"Play\" or \"Stop\"."
 
-#: ../../source/man2/operation_vrm.rst:679
-msgid "一番上の入力ボックスをクリックしてVRMAnimationのファイルを選択して開きます。"
-msgstr "Click on the input box at the top to select and open the VRMAnimation file."
-
-#: ../../source/man2/operation_vrm.rst:680
-msgid "再生するアニメーション名を選択します。"
-msgstr "Select the animation name to play."
-
 #: ../../source/man2/operation_vrm.rst:681
+msgid "リボンバーの ``3Dモデル`` タブの Pose/Motionの ``開く`` からVRMAnimationを開きます。"
+msgstr "Open VRMAnimation from ``Open`` of Pose/Motion in the ``3D Model`` tab of the ribbon bar."
+
+#: ../../source/man2/operation_vrm.rst:682
+msgid "本プロパティパネルの一番上のコンボボックスからVRMAnimationを選択します。"
+msgstr "Select VRMAnimation from the combo box at the top of this property panel."
+
+#: ../../source/man2/operation_vrm.rst:683
+msgid "再生したいアニメーションクリップを二番目のコンボボックスから選択します。"
+msgstr "Select the animation clip you want to play from the second combo box."
+
+#: ../../source/man2/operation_vrm.rst:684
 msgid "必要に応じて再生モード・アニメーション速度などを調整します。"
 msgstr "Adjust the playback mode, animation speed, etc. as necessary."
 
-#: ../../source/man2/operation_vrm.rst:682
+#: ../../source/man2/operation_vrm.rst:685
 msgid "再生して確認します。"
 msgstr "Play and check."
 
-#: ../../source/man2/operation_vrm.rst:683
+#: ../../source/man2/operation_vrm.rst:686
 msgid "よければアニメーションの状態（登録用）で再生状態を選び、キーフレームの登録をします。"
 msgstr "If you like, select the playback state in the animation state (for registration) and register the keyframe."
 
-#: ../../source/man2/operation_vrm.rst:693
+#: ../../source/man2/operation_vrm.rst:696
 msgid "コントロールの配置について:"
 msgstr "About the placement of controls:"
 
 #: ../../source/man2/operation_vrm.rst:1
-msgid "ファイル選択ボックス"
-msgstr "file selection box"
+msgid "モーションファイル名のコンボボックス"
+msgstr "Combo box for the motion file name "
 
 #: ../../source/man2/operation_vrm.rst:1
-msgid "モーション有効トグルスイッチ"
-msgstr "Toggle switch to enable motion"
-
-#: ../../source/man2/operation_vrm.rst:1
-msgid "モーション選択ボックス"
-msgstr "motion selection box"
+msgid "アニメーションクリップのコンボボックス"
+msgstr "Combo box for an animation clip "
 
 #: ../../source/man2/operation_vrm.rst:1
 msgid "再生"
@@ -1501,71 +1486,91 @@ msgstr "speed slider"
 msgid "アニメーションの状態"
 msgstr "Animation state (for registration)"
 
-#: ../../source/man2/operation_vrm.rst:696
+#: ../../source/man2/operation_vrm.rst:701
+msgid "本アプリとVRMAnimationの回転:"
+msgstr "Rotation of this application and VRMAnimation:."
+
+#: ../../source/man2/operation_vrm.rst:699
+msgid ""
+"本アプリとVRMAnimationのVRM自体の回転の向きはZ方向が異なります。本アプリではVRMは Zのマイナス方向を向くのがデフォルトです。対してVRMAnimationは各アニ"
+"メーションに依存します。"
+msgstr ""
+"The rotation direction of the VRM itself in this application and VRMAnimation is different in the Z direction. In this app, the default is for VRM "
+"to face in the negative direction of his Z. VRMAnimation, on the other hand, depends on each animation."
+
+#: ../../source/man2/operation_vrm.rst:701
+msgid "なるべく向きの差異を吸収するため、本アプリではVRMAnimationを選択した直後だけ、Zの方向を逆転させています。"
+msgstr ""
+"In order to absorb the difference in orientation as much as possible, this application reverses the Z direction only immediately after selecting "
+"VRMAnimation."
+
+#: ../../source/man2/operation_vrm.rst:704
 msgid "VRMAnimationを閉じる:"
 msgstr "Close VRMAnimation:"
 
-#: ../../source/man2/operation_vrm.rst:696
-msgid ""
-"ファイル選択ボックスの右端の X ボタンを押すと、開いているVRMAnimationを完全に閉じることができます。閉じた後は再び .vrmaファイルを読み込むま"
-"では、キーフレームに登録していてもVRMAnimationを再生することはできません。"
-msgstr ""
-"You can close an open VRMAnimation completely by pressing the X button on the far right of the file selection box. After closing, "
-"VRMAnimation cannot be played even if it is registered as a keyframe until the .vrma file is loaded again."
+#: ../../source/man2/operation_vrm.rst:704
+msgid "本当に閉じる場合はプロジェクトの設定画面から対象のファイルを選択して削除してください。"
+msgstr "If you really want to close it, select the target file from the project settings screen and delete it."
 
-#: ../../source/man2/operation_vrm.rst:702
-msgid "IK操作について:"
-msgstr "About IK operations:"
+#: ../../source/man2/operation_vrm.rst:708
+msgid "IK操作について"
+msgstr "About IK operations"
 
-#: ../../source/man2/operation_vrm.rst:699
+#: ../../source/man2/operation_vrm.rst:710
 msgid "VRMAnimationが有効の間は、IKマーカーで操作することはできません。"
 msgstr "You cannot manipulate IK markers while VRMAnimation is enabled."
 
-#: ../../source/man2/operation_vrm.rst:701
-msgid "VRMAnimationを一時的に無効にするには、 **モーション有効トグルスイッチ** をOFFに切り替えてください。"
-msgstr "To temporarily disable VRMAnimation, switch the **Toggle switch to enable motion** to OFF."
+#: ../../source/man2/operation_vrm.rst:712
+msgid ""
+"VRMAnimationを一時的に無効にするには、 モーションファイル名のコンボボックスから ``---`` を選択します。するとVRMAnimationの選択を解除することができま"
+"す。"
+msgstr "To temporarily disable VRMAnimation, select ``---`` from the motion file name combo box. Then you can deselect VRMAnimation."
 
-#: ../../source/man2/operation_vrm.rst:705
+#: ../../source/man2/operation_vrm.rst:714
+msgid "再びIKマーカーを操作してVRMを自由に動かせるようになります。"
+msgstr "You can now move the VRM freely by manipulating the IK marker again."
+
+#: ../../source/man2/operation_vrm.rst:718
 msgid "VRMAnimation内に複数のモーションが存在する場合、選択してください。"
 msgstr "If there are multiple motions in VRMAnimation, please select them."
 
-#: ../../source/man2/operation_vrm.rst:706
+#: ../../source/man2/operation_vrm.rst:719
 msgid ""
-"キーフレームに3Dオブジェクトのアニメーションデータが展開・表示されるわけではなく、あくまで再生・一時停止・停止・シークという状態がキーフ"
-"レームに登録されるのみです。"
+"キーフレームに3Dオブジェクトのアニメーションデータが展開・表示されるわけではなく、あくまで再生・一時停止・停止・シークという状態がキーフレームに登録"
+"されるのみです。"
 msgstr ""
-"The animation data of the 3D object is not expanded or displayed in the key frame, but only the states of play, pause, stop, and seek are "
-"registered in the key frame."
+"The animation data of the 3D object is not expanded or displayed in the key frame, but only the states of play, pause, stop, and seek are registered "
+"in the key frame."
 
-#: ../../source/man2/operation_vrm.rst:711
+#: ../../source/man2/operation_vrm.rst:724
 msgid ""
-"再生や停止ではなく、再生位置変更でシーク位置を変えることだけをキーフレームに登録していっても、そのオブジェクトのアニメーション再生を自由に"
-"行なえます。"
+"再生や停止ではなく、再生位置変更でシーク位置を変えることだけをキーフレームに登録していっても、そのオブジェクトのアニメーション再生を自由に行なえま"
+"す。"
 msgstr ""
-"Even if you register only changing the seek position by changing the playback position as a keyframe instead of playing or stopping, you "
-"can freely play the animation of that object."
+"Even if you register only changing the seek position by changing the playback position as a keyframe instead of playing or stopping, you can freely "
+"play the animation of that object."
 
-#: ../../source/man2/operation_vrm.rst:713
+#: ../../source/man2/operation_vrm.rst:726
 msgid "モーションのシーク位置を変更するには、次の操作を行ってください。"
 msgstr "To change the motion seek position, do the following:"
 
-#: ../../source/man2/operation_vrm.rst:715
+#: ../../source/man2/operation_vrm.rst:728
 msgid "シーク位置スライダーを動かす"
 msgstr "Move the seek position slider"
 
-#: ../../source/man2/operation_vrm.rst:716
+#: ../../source/man2/operation_vrm.rst:729
 msgid "アニメーションの状態 を ``再生位置変更`` にする"
 msgstr "Set the animation state to ``To seek``"
 
-#: ../../source/man2/operation_vrm.rst:717
+#: ../../source/man2/operation_vrm.rst:730
 msgid "キーフレームに登録する"
 msgstr "Register to keyframe"
 
-#: ../../source/man2/operation_vrm.rst:729
+#: ../../source/man2/operation_vrm.rst:742
 msgid "例："
 msgstr "Example:"
 
-#: ../../source/man2/operation_vrm.rst:721
+#: ../../source/man2/operation_vrm.rst:734
 msgid "あるVRMAnimationをVRM Aに読み込んだ"
 msgstr "Loaded a VRMAnimation into VRM A"
 
@@ -1593,13 +1598,35 @@ msgstr "0.855 seconds"
 msgid "0.124秒"
 msgstr "0.124 seconds"
 
-#: ../../source/man2/operation_vrm.rst:729
+#: ../../source/man2/operation_vrm.rst:742
 msgid "間隔(duration)は1秒。"
 msgstr "Duration is 1 second."
 
-#: ../../source/man2/operation_vrm.rst:730
+#: ../../source/man2/operation_vrm.rst:743
 msgid "このVRM Aは逆再生のようにアニメーションする。"
 msgstr "This VRM A animates as if playing in reverse."
 
 #~ msgid "対応していない操作をしてもその部位に動きはありません。"
 #~ msgstr "Even if you perform an operation that is not supported, there is no movement in that part."
+
+#~ msgid "一番上の入力ボックスをクリックしてVRMAnimationのファイルを選択して開きます。"
+#~ msgstr "Click on the input box at the top to select and open the VRMAnimation file."
+
+#~ msgid "再生するアニメーション名を選択します。"
+#~ msgstr "Select the animation name to play."
+
+#~ msgid "ファイル選択ボックス"
+#~ msgstr "file selection box"
+
+#~ msgid "モーション有効トグルスイッチ"
+#~ msgstr "Toggle switch to enable motion"
+
+#~ msgid ""
+#~ "ファイル選択ボックスの右端の X ボタンを押すと、開いているVRMAnimationを完全に閉じることができます。閉じた後は再び .vrmaファイルを読み込むまでは、"
+#~ "キーフレームに登録していてもVRMAnimationを再生することはできません。"
+#~ msgstr ""
+#~ "You can close an open VRMAnimation completely by pressing the X button on the far right of the file selection box. After closing, VRMAnimation "
+#~ "cannot be played even if it is registered as a keyframe until the .vrma file is loaded again."
+
+#~ msgid "VRMAnimationを一時的に無効にするには、 **モーション有効トグルスイッチ** をOFFに切り替えてください。"
+#~ msgstr "To temporarily disable VRMAnimation, switch the **Toggle switch to enable motion** to OFF."

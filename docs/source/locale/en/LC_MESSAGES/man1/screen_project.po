@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-02 19:27+0900\n"
-"PO-Revision-Date: 2023-09-02 21:32+0900\n"
+"POT-Creation-Date: 2024-03-24 22:04+0900\n"
+"PO-Revision-Date: 2024-03-24 22:22+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man1/screen_project.rst:5
 msgid "プロジェクトの設定画面"
@@ -32,11 +32,15 @@ msgstr ""
 "This screen is used to set the role name of each object in the animation and to "
 "assign each object to the loaded role. (Animation will be discussed later)"
 
-#: ../../source/man1/screen_project.rst:11
+#: ../../source/man1/screen_project.rst:9
+msgid "目次"
+msgstr "Contents"
+
+#: ../../source/man1/screen_project.rst:14
 msgid "プロジェクト情報"
 msgstr "Project information"
 
-#: ../../source/man1/screen_project.rst:13
+#: ../../source/man1/screen_project.rst:16
 msgid "プロジェクトファイルの概要などをメモしておくタブです。"
 msgstr ""
 "This is a tab where you can make a note of the outline of the project file."
@@ -45,7 +49,7 @@ msgstr ""
 msgid "名前"
 msgstr "Name"
 
-#: ../../source/man1/screen_project.rst:21
+#: ../../source/man1/screen_project.rst:24
 msgid "アニメーションプロジェクトの名称"
 msgstr "Animation project name"
 
@@ -53,7 +57,7 @@ msgstr "Animation project name"
 msgid "説明"
 msgstr "Description"
 
-#: ../../source/man1/screen_project.rst:23
+#: ../../source/man1/screen_project.rst:26
 msgid "アニメーションプロジェクトの詳細説明"
 msgstr "Detailed description of the animation project"
 
@@ -61,7 +65,7 @@ msgstr "Detailed description of the animation project"
 msgid "URL"
 msgstr "URL"
 
-#: ../../source/man1/screen_project.rst:25
+#: ../../source/man1/screen_project.rst:28
 msgid "明記したいURL"
 msgstr "URL you want to specify"
 
@@ -69,7 +73,7 @@ msgstr "URL you want to specify"
 msgid "ライセンス"
 msgstr "license"
 
-#: ../../source/man1/screen_project.rst:27
+#: ../../source/man1/screen_project.rst:30
 msgid "アニメーションプロジェクトのライセンス条項（必要であれば）"
 msgstr "Animation project license terms (if needed)"
 
@@ -77,7 +81,7 @@ msgstr "Animation project license terms (if needed)"
 msgid "FPS"
 msgstr "FPS"
 
-#: ../../source/man1/screen_project.rst:29
+#: ../../source/man1/screen_project.rst:32
 msgid "アニメーションのFPSを設定します。"
 msgstr "Sets the animation FPS."
 
@@ -85,7 +89,7 @@ msgstr "Sets the animation FPS."
 msgid "デフォルトの間隔"
 msgstr "default duration"
 
-#: ../../source/man1/screen_project.rst:31
+#: ../../source/man1/screen_project.rst:34
 msgid ""
 "現在のアニメーションプロジェクトにおいて、1フレーム間の秒数を指定します。デフォ"
 "ルトでは ``FPS / 6000.0`` の計算結果がセットされます。"
@@ -97,18 +101,99 @@ msgstr ""
 msgid "再計算"
 msgstr "Recalculate"
 
-#: ../../source/man1/screen_project.rst:33
+#: ../../source/man1/screen_project.rst:36
 msgid ""
 "デフォルトの間隔を設定した後に押すことで全てのキーフレームの間隔を再計算します。"
 msgstr ""
 "After setting the default spacing, press to recalculate the spacing of all "
 "keyframes."
 
-#: ../../source/man1/screen_project.rst:37
+#: ../../source/man1/screen_project.rst:41
+msgid "VRMAnimation"
+msgstr "VRMAnimation"
+
+#: ../../source/man1/screen_project.rst:43
+msgid "開いたVRMAnimationを管理できます。"
+msgstr "You can manage opened VRMAnimations."
+
+#: ../../source/man1/screen_project.rst
+msgid "ファイル名"
+msgstr "File name"
+
+#: ../../source/man1/screen_project.rst:51
+msgid "開いているVRMAnimationのファイル名"
+msgstr "File nameof the Opened VRMAnimation"
+
+#: ../../source/man1/screen_project.rst
+msgid "クリップ数"
+msgstr "Clip count"
+
+#: ../../source/man1/screen_project.rst:54
+msgid "VRMAnimationが保持しているアニメーションクリップの数"
+msgstr "Number of animation clips held by VRMAnimation"
+
+#: ../../source/man1/screen_project.rst
+msgid "ファイルパス"
+msgstr "File path"
+
+#: ../../source/man1/screen_project.rst:57
+msgid "VRMAnimationの実際のファイルパス"
+msgstr "VRMAnimation actual file path"
+
+#: ../../source/man1/screen_project.rst
+msgid "ストレージの種類"
+msgstr "Storage type"
+
+#: ../../source/man1/screen_project.rst:60
+msgid "VRMAnimationが保存されている場所。"
+msgstr "Where VRMAnimation is stored."
+
+#: ../../source/man1/screen_project.rst:1
+msgid "名称"
+msgstr "Name"
+
+#: ../../source/man1/screen_project.rst:1
+msgid "実際の場所"
+msgstr "actual location"
+
+#: ../../source/man1/screen_project.rst:1
+msgid "INTERNAL"
+msgstr "INTERNAL"
+
+#: ../../source/man1/screen_project.rst:1
+msgid "内蔵ストレージ"
+msgstr "Internal storage"
+
+#: ../../source/man1/screen_project.rst:1
+msgid "LOCAL"
+msgstr "LOCAL"
+
+#: ../../source/man1/screen_project.rst:1
+msgid "端末（PCやスマートフォン、VRデバイス）"
+msgstr "Terminal (PC, smartphone, VR device)"
+
+#: ../../source/man1/screen_project.rst:1
+msgid "GOOGLEDRIVE"
+msgstr "GOOGLEDRIVE"
+
+#: ../../source/man1/screen_project.rst:1
+msgid "Googleドライブ"
+msgstr "Google Drive"
+
+#: ../../source/man1/screen_project.rst
+msgid "プロジェクトに保存"
+msgstr "save to project"
+
+#: ../../source/man1/screen_project.rst:71
+msgid "チェックを入れたVRMAnimationのパス情報をプロジェクトファイルに保存する。"
+msgstr ""
+"Save the path information of the checked VRMAnimation in the project file."
+
+#: ../../source/man1/screen_project.rst:77
 msgid "役割の管理"
 msgstr "Role management"
 
-#: ../../source/man1/screen_project.rst:39
+#: ../../source/man1/screen_project.rst:79
 msgid ""
 "アニメーションプロジェクト内のロール（役割・タイムライン）とそれに割り当てるキャ"
 "スト（オブジェクト）を選択して管理するタブです。"
@@ -120,7 +205,7 @@ msgstr ""
 msgid "役割"
 msgstr "Role"
 
-#: ../../source/man1/screen_project.rst:48
+#: ../../source/man1/screen_project.rst:88
 msgid ""
 "オブジェクトの役割（アニメーションプロジェクト内における識別のための名称）を入力"
 msgstr ""
@@ -131,7 +216,7 @@ msgstr ""
 msgid "種類"
 msgstr "Kind"
 
-#: ../../source/man1/screen_project.rst:50
+#: ../../source/man1/screen_project.rst:90
 msgid "役割の種類"
 msgstr "role type"
 
@@ -139,15 +224,15 @@ msgstr "role type"
 msgid "キャスト"
 msgstr "cast"
 
-#: ../../source/man1/screen_project.rst:52
+#: ../../source/man1/screen_project.rst:92
 msgid "役割に割り当てるオブジェクトを選択"
 msgstr "Select objects to assign to role"
 
-#: ../../source/man1/screen_project.rst:57
+#: ../../source/man1/screen_project.rst:98
 msgid "素材"
 msgstr "material"
 
-#: ../../source/man1/screen_project.rst:59
+#: ../../source/man1/screen_project.rst:100
 msgid "アプリ中のテクスチャなどの素材を管理するタブです。"
 msgstr "This tab manages materials such as textures in the app."
 
@@ -155,7 +240,7 @@ msgstr "This tab manages materials such as textures in the app."
 msgid "素材の種類"
 msgstr "Material type"
 
-#: ../../source/man1/screen_project.rst:67
+#: ../../source/man1/screen_project.rst:108
 msgid "Textureなどから選択"
 msgstr "Select from Texture etc."
 
@@ -163,7 +248,7 @@ msgstr "Select from Texture etc."
 msgid "素材の場所"
 msgstr "material location"
 
-#: ../../source/man1/screen_project.rst:69
+#: ../../source/man1/screen_project.rst:110
 msgid "アプリ内またはプロジェクト内かどうかを切り替える"
 msgstr "Switch between in-app or in-project"
 
@@ -179,7 +264,7 @@ msgstr "``Project`` - in the current animation project"
 msgid "追加"
 msgstr "Add"
 
-#: ../../source/man1/screen_project.rst:75
+#: ../../source/man1/screen_project.rst:116
 msgid "素材の追加をする"
 msgstr "add material"
 
@@ -187,7 +272,7 @@ msgstr "add material"
 msgid "削除"
 msgstr "Remove"
 
-#: ../../source/man1/screen_project.rst:78
+#: ../../source/man1/screen_project.rst:119
 msgid "一覧で選択した素材を削除する"
 msgstr "Delete the material selected in the list"
 
@@ -195,23 +280,23 @@ msgstr "Delete the material selected in the list"
 msgid "一覧"
 msgstr "List"
 
-#: ../../source/man1/screen_project.rst:81
+#: ../../source/man1/screen_project.rst:122
 msgid "素材のプレビュー、素材名、素材の種類、ファイル名"
 msgstr "Material preview, material name, material type, file name"
 
-#: ../../source/man1/screen_project.rst:84
+#: ../../source/man1/screen_project.rst:125
 msgid "一覧で画像が読み込まれていない行は次のようになります。"
 msgstr "Rows with no images loaded in the list look like this:"
 
-#: ../../source/man1/screen_project.rst:89
+#: ../../source/man1/screen_project.rst:130
 msgid "``No Preview`` ボタンを押すと画像を読み込みます。"
 msgstr "Press the ``No Preview`` button to load the image."
 
-#: ../../source/man1/screen_project.rst:93
+#: ../../source/man1/screen_project.rst:134
 msgid "素材の追加"
 msgstr "Add material"
 
-#: ../../source/man1/screen_project.rst:95
+#: ../../source/man1/screen_project.rst:136
 msgid "素材の追加をする専用のポップアップウィンドウです。"
 msgstr "This is a dedicated pop-up window for adding materials."
 
@@ -219,7 +304,7 @@ msgstr "This is a dedicated pop-up window for adding materials."
 msgid "素材のラベル"
 msgstr "material label"
 
-#: ../../source/man1/screen_project.rst:103
+#: ../../source/man1/screen_project.rst:144
 msgid "アプリ中でテクスチャを参照するために使用する名称を指定"
 msgstr "Specifies the name used to refer to the texture in the application"
 
@@ -227,6 +312,6 @@ msgstr "Specifies the name used to refer to the texture in the application"
 msgid "素材ファイルボタン"
 msgstr "material file button"
 
-#: ../../source/man1/screen_project.rst:106
+#: ../../source/man1/screen_project.rst:147
 msgid "端末からテクスチャにしたい画像ファイルなどを選択"
 msgstr "Select the image file etc. you want to use as a texture from the terminal"

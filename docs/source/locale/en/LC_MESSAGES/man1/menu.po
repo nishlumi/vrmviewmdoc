@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 20:24+0900\n"
+"POT-Creation-Date: 2024-03-24 22:04+0900\n"
+"PO-Revision-Date: 2024-03-24 22:26+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man1/menu.rst:6
 msgid "メニューの構成"
@@ -27,3 +27,55 @@ msgstr "Menu structure"
 #: ../../source/man1/menu.rst:8
 msgid "リボンバー（タブ）にある機能を紹介していきます。"
 msgstr "We will introduce the functions in the ribbon bar (tab)."
+
+#: ../../source/man1/menu.rst:11
+msgid "各タブ"
+msgstr "Each tab"
+
+#: ../../source/man1/menu.rst:27
+msgid "リボンバーの開閉"
+msgstr "Opening and closing the ribbon bar"
+
+#: ../../source/man1/menu.rst:29
+msgid "リボンバーの右端のトグルスイッチをオフにすると、リボンバーをたたむことができます。 ver 2.6.0より対応しました。"
+msgstr "You can collapse the ribbon bar by turning off the toggle switch on the right end of the ribbon bar. Supported from ver 2.6.0."
+
+#: ../../source/man1/menu.rst:34
+msgid "リボンバーを閉じることでWebGL画面が広くなります。"
+msgstr "Closing the ribbon bar will make the WebGL screen wider."
+
+#: ../../source/man1/menu.rst:36
+msgid "ribbonbar_show"
+msgstr "ribbonbar_show"
+
+#: ../../source/man1/menu.rst:37
+msgid "ribbonbar_hidden"
+msgstr "ribbonbar_hidden"
+
+#: ../../source/man1/menu.rst:1
+msgid "開いた状態"
+msgstr "opened state"
+
+#: ../../source/man1/menu.rst:1
+msgid "|ribbonbar_show|"
+msgstr "|ribbonbar_show|"
+
+#: ../../source/man1/menu.rst:1
+msgid "閉じた状態"
+msgstr "closed state"
+
+#: ../../source/man1/menu.rst:1
+msgid "|ribbonbar_hidden|"
+msgstr "|ribbonbar_hidden|"
+
+#: ../../source/man1/menu.rst:44
+msgid "リボンバーを畳んだ状態でタブを開く"
+msgstr "Open tabs with ribbon bar collapsed"
+
+#: ../../source/man1/menu.rst:46
+msgid "リボンバーを畳んだ状態で開くと、リボンバーのタブはWebGL画面やプロパティパネルの上に覆いかぶさるように表示されます。"
+msgstr "When the ribbon bar is collapsed and opened, the ribbon bar tabs will be displayed over the top of the WebGL screen and property panel."
+
+#: ../../source/man1/menu.rst:53
+msgid "この状態でなにかメニューを実行するか、リボンバーのパネル名をクリックすると閉じることができます。"
+msgstr "In this state, you can close it by executing a menu item or clicking the panel name on the ribbon bar."

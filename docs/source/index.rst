@@ -34,6 +34,7 @@ Welcome to VRMViewMeister's documentation!
    man2/operation
    man3/posing
    man4/animation
+   man4/project
 
    man5/special_operation
    man5/photograph

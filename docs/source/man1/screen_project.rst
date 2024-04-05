@@ -6,6 +6,9 @@
 
 　アニメーションにて、各オブジェクトの役割名を設定したり、読み込んだ役割に各オブジェクトを割り当てる画面です。（アニメーションについては後述）
 
+.. contents::
+
+.. _screen_projectdlg:
 
 プロジェクト情報
 =======================
@@ -32,6 +35,43 @@
 :再計算:
     デフォルトの間隔を設定した後に押すことで全てのキーフレームの間隔を再計算します。
 
+.. _screen_vrmadlg:
+
+VRMAnimation
+=========================
+
+開いたVRMAnimationを管理できます。
+
+.. image:: ../img/screen_project7.png
+    :align: center
+
+|
+
+:ファイル名:
+    開いているVRMAnimationのファイル名
+
+:クリップ数:
+    VRMAnimationが保持しているアニメーションクリップの数
+
+:ファイルパス:
+    VRMAnimationの実際のファイルパス
+
+:ストレージの種類:
+    VRMAnimationが保存されている場所。 
+
+    .. csv-table::
+        :header-rows: 1
+
+        名称, 実際の場所
+        INTERNAL, 内蔵ストレージ
+        LOCAL, 端末（PCやスマートフォン、VRデバイス）
+        GOOGLEDRIVE, Googleドライブ
+
+:プロジェクトに保存:
+    チェックを入れたVRMAnimationのパス情報をプロジェクトファイルに保存する。
+
+
+.. _screen_roledlg:
 
 役割の管理
 ==================
@@ -52,6 +92,7 @@
     役割に割り当てるオブジェクトを選択
 
 
+.. _screen_materialdlg:
 
 素材
 ===============

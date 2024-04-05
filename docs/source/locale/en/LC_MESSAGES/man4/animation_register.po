@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-15 21:39+0900\n"
-"PO-Revision-Date: 2024-02-15 21:55+0900\n"
+"POT-Creation-Date: 2024-03-25 00:10+0900\n"
+"PO-Revision-Date: 2024-03-25 00:10+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -90,11 +90,59 @@ msgstr "If a keyframe has been registered"
 msgid "登録済みのキーフレームがある箇所をクリックするとフレーム位置とタイムライン（ロール）の両方を選択します。"
 msgstr "Clicking a point with a registered keyframe selects both the frame position and the timeline (roll)."
 
+#: ../../source/man4/animation_register.rst:74
+msgid "赤いセルにマウスカーソルを当てるとポップアップしてキーフレームの情報を確認できます。"
+msgstr "When you hover your mouse cursor over a red cell, a popup will pop up and you can check the keyframe information."
+
 #: ../../source/man4/animation_register.rst:81
+msgid "上の行から次のように表示しています。"
+msgstr "Starting from the top line, the following is displayed."
+
+#: ../../source/man4/animation_register.rst:1
+msgid "各表示内容"
+msgstr "Each display content"
+
+#: ../../source/man4/animation_register.rst:1
+msgid "[フレーム番号] 現在のキーフレームまでのdurationの合計 / 全キーフレームのdurationの合計: メモ"
+msgstr "[Frame number] Total duration up to the current keyframe / Total duration of all keyframes: Memo"
+
+#: ../../source/man4/animation_register.rst:1
+msgid "間隔(duration): 前キーフレームから現在のキーフレームまでのduration"
+msgstr "Duration: Duration from previous keyframe to current keyframe"
+
+#: ../../source/man4/animation_register.rst:1
+msgid "イージング: 前キーフレームから現在のキーフレームに変化する際のイージングの種類"
+msgstr "Easing: Type of easing when changing from previous keyframe to current keyframe"
+
+#: ../../source/man4/animation_register.rst:1
+msgid "登録する内容/IKMarker: 現在のキャスト(オブジェクト)のうち、モーションとして登録されているIKマーカーおよびプロパティの概要"
+msgstr "Contents to be registered/IKMarker: Summary of IK markers and properties registered as motion among the current cast (object)"
+
+#: ../../source/man4/animation_register.rst:94
+msgid "間隔(duration)のそれぞれの情報"
+msgstr "Information on each interval (duration)"
+
+#: ../../source/man4/animation_register.rst:96
+msgid "ver 2.6.0より表示するようにしました。"
+msgstr "It is now displayed from ver 2.6.0."
+
+#: ../../source/man4/animation_register.rst:98
+msgid ""
+"最初のキーフレームから現在選択中のキーフレームの間隔(duration)の合計を表示しています。これにより、現在選択中のキーフレームが全体の秒数のうち、"
+"どのタイミングで変化するのかを確認できます。"
+msgstr ""
+"Displays the total duration of the currently selected keyframe from the first keyframe. This allows you to check when the currently selected "
+"keyframe changes within the total number of seconds."
+
+#: ../../source/man4/animation_register.rst:100
+msgid "他のオブジェクトのモーションとタイミングを合わせやすくなるでしょう。"
+msgstr "This will make it easier to match the timing with the motion of other objects."
+
+#: ../../source/man4/animation_register.rst:111
 msgid "キーフレームに登録する・更新する"
 msgstr "Registering/updating to a keyframe"
 
-#: ../../source/man4/animation_register.rst:83
+#: ../../source/man4/animation_register.rst:113
 msgid "タイムラインにキーフレームを登録していきます。キーフレームに登録できる内容は次のとおりです。"
 msgstr "We will register keyframes on the timeline. The contents that can be registered in key frames are as follows."
 
@@ -102,23 +150,23 @@ msgstr "We will register keyframes on the timeline. The contents that can be reg
 msgid "登録できる内容"
 msgstr "Contents that can be registered"
 
-#: ../../source/man4/animation_register.rst:86
+#: ../../source/man4/animation_register.rst:116
 msgid "本アプリで実装しているVRoid/VRMの全ての動作"
 msgstr "All operations of VRoid/VRM implemented in this application"
 
-#: ../../source/man4/animation_register.rst:87
+#: ../../source/man4/animation_register.rst:117
 msgid "それ以外のオブジェクトの全動作"
 msgstr "All other object actions"
 
-#: ../../source/man4/animation_register.rst:88
+#: ../../source/man4/animation_register.rst:118
 msgid "システムエフェクトやオーディオの操作"
 msgstr "Manipulate system effects and audio"
 
-#: ../../source/man4/animation_register.rst:89
+#: ../../source/man4/animation_register.rst:119
 msgid "FBXのアニメーション、エフェクトのアニメーション"
 msgstr "FBX animation, effect animation"
 
-#: ../../source/man4/animation_register.rst:92
+#: ../../source/man4/animation_register.rst:122
 msgid ""
 "テクスチャファイルなどの素材の管理はアニメーションに含まれません。各オブジェクトで使われる素材名に該当する各ファイルを事前に読み込んでおいてく"
 "ださい。"
@@ -126,11 +174,11 @@ msgstr ""
 "Material management such as texture files is not included in animation. Please load each file corresponding to the material name used in each "
 "object in advance."
 
-#: ../../source/man4/animation_register.rst:93
+#: ../../source/man4/animation_register.rst:123
 msgid "一般的に用いられるFBXなどの3Dオブジェクトのアニメーションは、本アプリのアニメーションプロジェクトの中で個別に再生することはできます。"
 msgstr "Animations of commonly used 3D objects such as FBX can be played individually in the animation project of this application."
 
-#: ../../source/man4/animation_register.rst:94
+#: ../../source/man4/animation_register.rst:124
 msgid ""
 "``ver 2.1.0`` よりシステムエフェクトとオーディオの登録もキーフレームの登録ウィンドウ内のボタンから行えるようになりました。（リボンバーのそれぞ"
 "れのタブ内にあった登録ボタンは廃止しました）"
@@ -138,11 +186,11 @@ msgstr ""
 "From ``ver 2.1.0``, you can also register system effects and audio from the buttons in the keyframe registration window. (The registration "
 "button in each tab of the ribbon bar has been abolished.)"
 
-#: ../../source/man4/animation_register.rst:98
+#: ../../source/man4/animation_register.rst:128
 msgid "ボーン(IKマーカー)単位でのキーフレーム登録はできない？"
 msgstr "Is it possible to register keyframes for each bone (IK marker)?"
 
-#: ../../source/man4/animation_register.rst:100
+#: ../../source/man4/animation_register.rst:130
 msgid ""
 "※MMDのように特定のボーンだけの登録、ということはできません。必ず全IKパーツを各フレームごとに登録することになります。（つまり、現在のポーズ・状"
 "態をまるごと保存する）"
@@ -150,7 +198,7 @@ msgstr ""
 "It is not possible to register only specific bones like MMD. All IK parts must be registered for each frame. (In other words, save the current "
 "pose/state as a whole)"
 
-#: ../../source/man4/animation_register.rst:102
+#: ../../source/man4/animation_register.rst:132
 msgid ""
 "``ver 2.1.0`` より、これから登録しようとしているボーン(本アプリではIKマーカーと呼称)をUI上で確認できるようにしました。将来的にはMMD/MMMと同様に"
 "ボーン単位でのキーフレームの登録を出来るようにする予定です。"
@@ -158,35 +206,35 @@ msgstr ""
 "From ``ver 2.1.0``, it is now possible to check the bones to be registered (called IK markers in this application) on the UI. In the future, "
 "we plan to make it possible to register keyframes for each bone in the same way as MMD/MMM."
 
-#: ../../source/man4/animation_register.rst:105
+#: ../../source/man4/animation_register.rst:135
 msgid "ポーズを取らせるVRoid/VRMのタイムラインのキーフレームの番号をクリックして選択します。"
 msgstr "Click the keyframe number on the VRoid/VRM timeline to pose."
 
-#: ../../source/man4/animation_register.rst:113
+#: ../../source/man4/animation_register.rst:143
 msgid "※すでにキーフレームに登録がある場合はそのポーズが読み込まれて現在のポーズが上書きされるのでご注意ください。"
 msgstr "Please note that if the keyframe has already been registered, that pose will be read and the current pose will be overwritten."
 
-#: ../../source/man4/animation_register.rst:115
+#: ../../source/man4/animation_register.rst:145
 msgid "VRoid/VRMや各オブジェクトにポーズを取らせます。"
 msgstr "Pose the VRoid/VRM and each object."
 
-#: ../../source/man4/animation_register.rst:123
+#: ../../source/man4/animation_register.rst:153
 msgid "リボンバーの ``アニメーション`` タブにある ``キーフレーム登録`` をクリックします。"
 msgstr "Click ``Register Keyframe`` in the ``Animation`` tab of the ribbon bar."
 
-#: ../../source/man4/animation_register.rst:130
+#: ../../source/man4/animation_register.rst:160
 msgid "``キーフレームの登録ウィンドウ`` が表示されます。"
 msgstr "The ``keyframe registration window`` will appear."
 
-#: ../../source/man4/animation_register.rst:132
+#: ../../source/man4/animation_register.rst:162
 msgid "keyframe1"
 msgstr "keyframe1"
 
-#: ../../source/man4/animation_register.rst:133
+#: ../../source/man4/animation_register.rst:163
 msgid "keyframe2"
 msgstr "keyframe2"
 
-#: ../../source/man4/animation_register.rst:136
+#: ../../source/man4/animation_register.rst:166
 msgid "キーフレームの登録ウィンドウでは、これから登録しようとしている内容とボーンを確認できます。"
 msgstr "In the keyframe registration window, you can see what you are about to register and the bones."
 
@@ -214,15 +262,15 @@ msgstr "All IK markers including IKParent"
 msgid "IKParentのみ"
 msgstr "IKParent only"
 
-#: ../../source/man4/animation_register.rst:146
+#: ../../source/man4/animation_register.rst:176
 msgid "リボンバーの中ならどこで右クリック（macOSの場合はControlキーを押しながらクリックまたは2点タップ）することで表示可能です。"
 msgstr "You can display it by right-clicking anywhere in the ribbon bar (Control-click or double-tap on macOS)."
 
-#: ../../source/man4/animation_register.rst:162
+#: ../../source/man4/animation_register.rst:192
 msgid "登録する内容を決める"
 msgstr "Decide what to register"
 
-#: ../../source/man4/animation_register.rst:152
+#: ../../source/man4/animation_register.rst:182
 msgid "``登録する内容`` では次の内容を選ぶことができます。"
 msgstr "In ``What to register``, you can choose the following contents."
 
@@ -250,11 +298,11 @@ msgstr "Property"
 msgid "現在選択中のオブジェクトの各プロパティを登録します。プロパティ一覧の共通以外のタブのことです。"
 msgstr "Register each property of the currently selected object. A non-common tab in the property list."
 
-#: ../../source/man4/animation_register.rst:160
+#: ../../source/man4/animation_register.rst:190
 msgid "``ver 2.0.3`` までは強制的に3種類全てが登録されました。"
 msgstr "Up to ``ver 2.0.3``, all three types were forcibly registered."
 
-#: ../../source/man4/animation_register.rst:161
+#: ../../source/man4/animation_register.rst:191
 msgid ""
 "``ver 2.1.0`` 以降では、例えば1フレーム目でブレンドシェイプを変更したらその後ずっとそのブレンドシェイプを反映し続けたいという場合に、2フレーム"
 "目以降ではプロパティのチェックを外して登録することで、再びプロパティを変更するキーフレームまでずっとそのままにすることができます。ブレンドシェ"
@@ -264,87 +312,87 @@ msgstr ""
 "can uncheck the property and register it in the second frame and later. , you can leave it all the way to a keyframe that changes the property "
 "again. You can only need to modify the blendshape on frame 1 and then change again."
 
-#: ../../source/man4/animation_register.rst:162
+#: ../../source/man4/animation_register.rst:192
 msgid "システムエフェクトとオーディオではチェックをオンオフしても意味はありません。"
 msgstr "There is no point in turning on or off the check for system effects and audio."
 
-#: ../../source/man4/animation_register.rst:164
+#: ../../source/man4/animation_register.rst:194
 msgid "vvmico_ikparent"
 msgstr "vvmico_ikparent"
 
-#: ../../source/man4/animation_register.rst:165
+#: ../../source/man4/animation_register.rst:195
 msgid "vvmico_head"
 msgstr "vvmico_head"
 
-#: ../../source/man4/animation_register.rst:166
+#: ../../source/man4/animation_register.rst:196
 msgid "vvmico_eye"
 msgstr "vvmico_eye"
 
-#: ../../source/man4/animation_register.rst:167
+#: ../../source/man4/animation_register.rst:197
 msgid "vvmico_lookat"
 msgstr "vvmico_lookat"
 
-#: ../../source/man4/animation_register.rst:168
+#: ../../source/man4/animation_register.rst:198
 msgid "vvmico_chest"
 msgstr "vvmico_chest"
 
-#: ../../source/man4/animation_register.rst:169
+#: ../../source/man4/animation_register.rst:199
 msgid "vvmico_aim"
 msgstr "vvmico_aim"
 
-#: ../../source/man4/animation_register.rst:170
+#: ../../source/man4/animation_register.rst:200
 msgid "vvmico_pelvis"
 msgstr "vvmico_pelvis"
 
-#: ../../source/man4/animation_register.rst:171
+#: ../../source/man4/animation_register.rst:201
 msgid "vvmico_rightsho"
 msgstr "vvmico_rightsho"
 
-#: ../../source/man4/animation_register.rst:172
+#: ../../source/man4/animation_register.rst:202
 msgid "vvmico_rightla"
 msgstr "vvmico_rightla"
 
-#: ../../source/man4/animation_register.rst:173
+#: ../../source/man4/animation_register.rst:203
 msgid "vvmico_righthand"
 msgstr "vvmico_righthand"
 
-#: ../../source/man4/animation_register.rst:174
+#: ../../source/man4/animation_register.rst:204
 msgid "vvmico_leftsho"
 msgstr "vvmico_leftsho"
 
-#: ../../source/man4/animation_register.rst:175
+#: ../../source/man4/animation_register.rst:205
 msgid "vvmico_leftla"
 msgstr "vvmico_leftla"
 
-#: ../../source/man4/animation_register.rst:176
+#: ../../source/man4/animation_register.rst:206
 msgid "vvmico_lefthand"
 msgstr "vvmico_lefthand"
 
-#: ../../source/man4/animation_register.rst:177
+#: ../../source/man4/animation_register.rst:207
 msgid "vvmico_rightll"
 msgstr "vvmico_rightll"
 
-#: ../../source/man4/animation_register.rst:178
+#: ../../source/man4/animation_register.rst:208
 msgid "vvmico_rightft"
 msgstr "vvmico_rightft"
 
-#: ../../source/man4/animation_register.rst:179
+#: ../../source/man4/animation_register.rst:209
 msgid "vvmico_leftll"
 msgstr "vvmico_leftll"
 
-#: ../../source/man4/animation_register.rst:180
+#: ../../source/man4/animation_register.rst:210
 msgid "vvmico_leftft"
 msgstr "vvmico_leftft"
 
-#: ../../source/man4/animation_register.rst:181
+#: ../../source/man4/animation_register.rst:211
 msgid "vvmico_prop"
 msgstr "vvmico_prop"
 
-#: ../../source/man4/animation_register.rst:202
+#: ../../source/man4/animation_register.rst:232
 msgid "登録するIKマーカーを確認する"
 msgstr "Check the IK marker to be registered"
 
-#: ../../source/man4/animation_register.rst:184
+#: ../../source/man4/animation_register.rst:214
 msgid "``登録するボーン`` では実際に登録されるIKマーカーを確認できます。なおVRMとそれ以外のオブジェクトで確認できるIKマーカーの数が異なります。"
 msgstr ""
 "In ``Bones to register``, you can check the IK markers that are actually registered. Note that the number of IK markers that can be checked "
@@ -422,57 +470,57 @@ msgstr "|vvmico_rightll| RightLowerLeg"
 msgid "|vvmico_rightft| RightLeg"
 msgstr "|vvmico_rightft| RightLeg"
 
-#: ../../source/man4/animation_register.rst:199
+#: ../../source/man4/animation_register.rst:229
 msgid "なお、アイコンで部位がわかるようにも表現しています。このアイコンはタイムライン上でのキーフレーム内容のポップアップでも使用されます。"
 msgstr ""
 "In addition, it is also expressed so that the parts can be identified with icons. This icon is also used in the keyframe content popup on the "
 "timeline."
 
-#: ../../source/man4/animation_register.rst:204
+#: ../../source/man4/animation_register.rst:234
 msgid "allregist"
 msgstr "allregist"
 
-#: ../../source/man4/animation_register.rst:205
+#: ../../source/man4/animation_register.rst:235
 msgid "contextregist"
 msgstr "contextregist"
 
-#: ../../source/man4/animation_register.rst:215
+#: ../../source/man4/animation_register.rst:245
 msgid "右クリックから登録する"
 msgstr "Right click to register"
 
-#: ../../source/man4/animation_register.rst:214
+#: ../../source/man4/animation_register.rst:244
 msgid "|contextregist| 　オブジェクト一覧上で右クリックし、 ``ポーズを現在のフレームに登録する`` をクリックしても同じ機能です。"
 msgstr "|contextregist| Right-clicking on the object list and clicking ``Register Pose in Current Frame`` has the same function."
 
-#: ../../source/man4/animation_register.rst:217
+#: ../../source/man4/animation_register.rst:247
 msgid "タイムライン中の対象のキーフレームが塗りつぶされることを確認します。"
 msgstr "Confirm that the target keyframe in the timeline is filled."
 
-#: ../../source/man4/animation_register.rst:225
+#: ../../source/man4/animation_register.rst:255
 msgid "移動や回転などの共通プロパティが登録されたキーフレームは数字が表示されます。"
 msgstr "Numbers are displayed for keyframes with common properties such as movement and rotation."
 
-#: ../../source/man4/animation_register.rst:226
+#: ../../source/man4/animation_register.rst:256
 msgid "後述の子キーが登録されるとその数字が増えます。"
 msgstr "The number increases when a child key described later is registered."
 
-#: ../../source/man4/animation_register.rst:227
+#: ../../source/man4/animation_register.rst:257
 msgid "共通プロパティの登録がないキーフレームには数字は表示されません。"
 msgstr "Numbers are not displayed for keyframes that do not have common properties registered."
 
-#: ../../source/man4/animation_register.rst:229
+#: ../../source/man4/animation_register.rst:259
 msgid "別のキーフレームを選択し、別のポーズを取らせてまた登録します。"
 msgstr "Select another keyframe, give it another pose and register again."
 
-#: ../../source/man4/animation_register.rst:236
+#: ../../source/man4/animation_register.rst:266
 msgid "これを作りたいアニメーションの長さ分繰り返していきます。"
 msgstr "Repeat for the length of the animation you want to create."
 
-#: ../../source/man4/animation_register.rst:240
+#: ../../source/man4/animation_register.rst:270
 msgid "キーフレーム間の補正は？"
 msgstr "What about the compensation between keyframes?"
 
-#: ../../source/man4/animation_register.rst:242
+#: ../../source/man4/animation_register.rst:272
 msgid ""
 "本アプリで使用中のライブラリの効果により、登録済みキーフレーム間のアニメーションの補正は自動的に行われます。（一部補正しきれないモーションもあ"
 "ります）"
@@ -480,7 +528,7 @@ msgstr ""
 "Due to the effects of the library used by this application, the animation between registered keyframes is automatically corrected. (Some "
 "motions cannot be fully corrected)"
 
-#: ../../source/man4/animation_register.rst:244
+#: ../../source/man4/animation_register.rst:274
 msgid ""
 "なにも登録されていないフレーム番号をクリックした際、登録したキーフレーム間だった場合はアニメーションの途中のポーズが再現されます。これは後述の"
 "イージングや間隔により変化します。"
@@ -488,23 +536,23 @@ msgstr ""
 "When you click on a frame number that has nothing registered, if it is between the registered keyframes, the pose in the middle of the "
 "animation will be reproduced. This will change depending on the easing and spacing described later."
 
-#: ../../source/man4/animation_register.rst:252
+#: ../../source/man4/animation_register.rst:282
 msgid "キーフレームを削除する"
 msgstr "Delete keyframe"
 
-#: ../../source/man4/animation_register.rst:254
+#: ../../source/man4/animation_register.rst:284
 msgid "タイムライン中の登録済みキーフレームを削除します。"
 msgstr "The registered keyframes on the timeline are deleted."
 
-#: ../../source/man4/animation_register.rst:256
+#: ../../source/man4/animation_register.rst:286
 msgid "削除したいオブジェクト、そしてキーフレームの番号をクリックして選択します。"
 msgstr "Click to select the object you want to delete and the keyframe number."
 
-#: ../../source/man4/animation_register.rst:263
+#: ../../source/man4/animation_register.rst:293
 msgid "リボンバーの ``アニメーション`` タブにある ``キーフレームを削除`` をクリックします。"
 msgstr "Click ``Remove Keyframe`` in the ``Animation`` tab of the ribbon bar."
 
-#: ../../source/man4/animation_register.rst:270
+#: ../../source/man4/animation_register.rst:300
 msgid "削除する方法を選んでクリックします。"
 msgstr "Select and click the deletion method."
 
@@ -524,47 +572,48 @@ msgstr "Delete only properties"
 msgid "キーフレームの登録内容のうち、``共通以外`` のオブジェクトの各プロパティを削除します。キーフレームは削除されません。"
 msgstr "deletes each property of ``non-common`` objects from the contents registered in the keyframe. Keyframes are not deleted."
 
-#: ../../source/man4/animation_register.rst:279
+#: ../../source/man4/animation_register.rst:309
 msgid "確認メッセージが表示されるので問題なければOKボタンを押します。"
 msgstr "A confirmation message will be displayed. If there is no problem, press the OK button."
 
-#: ../../source/man4/animation_register.rst:293
+#: ../../source/man4/animation_register.rst:323
 msgid "登録したキーフレーム位置を変更する"
 msgstr "Change the registered keyframe position"
 
-#: ../../source/man4/animation_register.rst:295
+#: ../../source/man4/animation_register.rst:325
 msgid "登録済みキーフレームのフレーム位置を移動させることができます。"
 msgstr "You can move the frame position of the registered keyframe."
 
-#: ../../source/man4/animation_register.rst:297 ../../source/man4/animation_register.rst:364 ../../source/man4/animation_register.rst:410
+#: ../../source/man4/animation_register.rst:327 ../../source/man4/animation_register.rst:389 ../../source/man4/animation_register.rst:402
+#: ../../source/man4/animation_register.rst:448
 msgid "キーフレームを登録します。"
 msgstr "Register a keyframe."
 
-#: ../../source/man4/animation_register.rst:299
+#: ../../source/man4/animation_register.rst:329
 msgid "登録したキーフレーム部分をダブルクリックします。"
 msgstr "Double-click the registered keyframe part."
 
-#: ../../source/man4/animation_register.rst:304 ../../source/man4/animation_register.rst:371 ../../source/man4/animation_register.rst:417
+#: ../../source/man4/animation_register.rst:334 ../../source/man4/animation_register.rst:409 ../../source/man4/animation_register.rst:455
 msgid "このときのキーフレームは、フレーム番号が正しく選択されていることを確認してください。"
 msgstr "Make sure that the frame number is correctly selected for the keyframe at this time."
 
-#: ../../source/man4/animation_register.rst:309
+#: ../../source/man4/animation_register.rst:339
 msgid "移動先フレームの入力ボックスに新しい位置の数値を入力し、移動のアイコンのボタンを押します。"
 msgstr "Enter the new position value in the input box of the destination frame and press the button with the move icon."
 
-#: ../../source/man4/animation_register.rst:317
+#: ../../source/man4/animation_register.rst:347
 msgid "変更するとタイムライン上のキーフレームの表示も即座に切り替わります。"
 msgstr "If you change it, the display of keyframes on the timeline will also change immediately."
 
-#: ../../source/man4/animation_register.rst:318
+#: ../../source/man4/animation_register.rst:348
 msgid "変更先のフレーム位置にすでにキーフレームが登録されていた場合はボタンを押すことは出来ません。"
 msgstr "If a keyframe has already been registered at the frame position of the change destination, the button cannot be pressed."
 
-#: ../../source/man4/animation_register.rst:321
+#: ../../source/man4/animation_register.rst:351
 msgid "開始フレームと終了フレームを特定の範囲で指定すると、一度に複数のキーフレームを動かすことができます。"
 msgstr "By specifying the start frame and end frame in a specific range, you can move multiple keyframes at once."
 
-#: ../../source/man4/animation_register.rst:328
+#: ../../source/man4/animation_register.rst:358
 msgid "例"
 msgstr "Example:"
 
@@ -588,11 +637,11 @@ msgstr "Destination frame = 20"
 msgid "移動後＝20, 23, 24"
 msgstr "After moving = 20, 23, 24"
 
-#: ../../source/man4/animation_register.rst:338
+#: ../../source/man4/animation_register.rst:368
 msgid "変更可能なプロパティ"
 msgstr "Modifiable properties"
 
-#: ../../source/man4/animation_register.rst:340
+#: ../../source/man4/animation_register.rst:370
 msgid ""
 "キーフレームの設定ダイアログで変更可能なプロパティは次のとおりです。いずれのプロパティもキーフレームを複数対象にすることで一度に多くの変更を行"
 "うことができます。活用しどころが多いと思います。"
@@ -600,16 +649,16 @@ msgstr ""
 "The properties that can be changed in the keyframe settings dialog are as follows. Any property can be changed many times at once by targeting "
 "multiple keyframes. I think there are many ways to use it."
 
-#: ../../source/man4/animation_register.rst:342
+#: ../../source/man4/animation_register.rst:372
 msgid "なお、登録済みのキーの位置にマウスカーソルを当てると、ポップアップ表示されてその位置の間隔とイージングを確認することができます。"
 msgstr ""
 "If you hover the mouse cursor over the registered key position, a popup will appear and you can check the interval and easing at that position."
 
-#: ../../source/man4/animation_register.rst:352
+#: ../../source/man4/animation_register.rst:382
 msgid "メモを記入する"
 msgstr "write notes"
 
-#: ../../source/man4/animation_register.rst:354
+#: ../../source/man4/animation_register.rst:384
 msgid ""
 "キーフレームを登録した後に設定可能です。実際の動きやプロパティには影響しません。そのキーフレームのときにどういう動きをするのかをメモすることが"
 "できます。"
@@ -617,11 +666,23 @@ msgstr ""
 "This can be set after registering the keyframe. It does not affect actual movement or properties. You can make a note of what movement will "
 "occur at that key frame."
 
-#: ../../source/man4/animation_register.rst:360
+#: ../../source/man4/animation_register.rst:390 ../../source/man4/animation_register.rst:404 ../../source/man4/animation_register.rst:450
+msgid "登録したキーフレーム部分をダブルクリックしてキーフレームウィンドウを開きます。"
+msgstr "Double-click the registered keyframe part to open the keyframe window."
+
+#: ../../source/man4/animation_register.rst:391 ../../source/man4/animation_register.rst:411
+msgid "全般タブを開きます。"
+msgstr "Open the General tab."
+
+#: ../../source/man4/animation_register.rst:392
+msgid "メモの入力ボックスにモーションの内容などを入力します。"
+msgstr "メモの入力ボックスにモーションの内容などを入力します。"
+
+#: ../../source/man4/animation_register.rst:398
 msgid "イージングを設定する"
 msgstr "Set easing"
 
-#: ../../source/man4/animation_register.rst:362
+#: ../../source/man4/animation_register.rst:400
 msgid ""
 "キーフレームを登録した後に設定可能です。アニメーションに慣れていればすでにご存知かもしれませんが、これはあるキーフレームに変化する際の時間のか"
 "かり方やスピードなどの動き方に関わる要素です。これを変更することでアニメーションが単調な印象なものから活き活きとしたものになります。"
@@ -630,35 +691,31 @@ msgstr ""
 "things move, such as how long it takes to change to a certain keyframe, and how fast it moves. Changing this will change the animation from a "
 "monotonous impression to a lively one."
 
-#: ../../source/man4/animation_register.rst:366 ../../source/man4/animation_register.rst:412
-msgid "登録したキーフレーム部分をダブルクリックしてキーフレームウィンドウを開きます。"
-msgstr "Double-click the registered keyframe part to open the keyframe window."
-
-#: ../../source/man4/animation_register.rst:374
+#: ../../source/man4/animation_register.rst:412
 msgid "イージングのコンボボックスから好きなイージングの種類を選びます。"
 msgstr "Select the type of easing you like from the easing combo box."
 
-#: ../../source/man4/animation_register.rst:382
+#: ../../source/man4/animation_register.rst:420
 msgid "開始フレーム・終了フレームを指定すると、一度に複数のキーフレームのイージングを設定変更できます。"
 msgstr "By specifying the start frame and end frame, you can change the easing settings for multiple keyframes at once."
 
-#: ../../source/man4/animation_register.rst:388
+#: ../../source/man4/animation_register.rst:426
 msgid "※イージングについては下記のサイトが参考になります。"
 msgstr "For easing, refer to the following site."
 
-#: ../../source/man4/animation_register.rst:390
+#: ../../source/man4/animation_register.rst:428
 msgid "`イージング関数チートシート <https://easings.net/ja>`_"
 msgstr "`Easing Function Cheat Sheet <https://easings.net/en>`_"
 
-#: ../../source/man4/animation_register.rst:393
+#: ../../source/man4/animation_register.rst:431
 msgid "VRMViewMeister ver 2.2.0より、連続して同じイージングを指定した範囲はそのイージングに沿ってアニメーションするようになりました。"
 msgstr "From VRMViewMeister ver 2.2.0, the range where the same easing is continuously specified will be animated according to that easing."
 
-#: ../../source/man4/animation_register.rst:402
+#: ../../source/man4/animation_register.rst:440
 msgid "キーフレームの間隔を設定する"
 msgstr "Set keyframe intervals"
 
-#: ../../source/man4/animation_register.rst:404
+#: ../../source/man4/animation_register.rst:442
 msgid ""
 "キーフレームを登録した後に設定可能です。該当のキーフレームに至るまでの時間を設定します。基本的に自動で計算されますが、手動で指定することもでき"
 "ます。"
@@ -666,18 +723,22 @@ msgstr ""
 "It can be set after registering the keyframe. Sets the time to reach the corresponding keyframe. Basically it is calculated automatically, but "
 "you can also specify it manually."
 
-#: ../../source/man4/animation_register.rst:420
-msgid "間隔(duration) の欄を秒数で指定します。"
-msgstr "Specify the number of seconds in the Duration field."
+#: ../../source/man4/animation_register.rst:457
+msgid "間隔(duration)タブを開きます。"
+msgstr "Open the duration tab."
 
-#: ../../source/man4/animation_register.rst:427
+#: ../../source/man4/animation_register.rst:458
+msgid "間隔(duration) の欄を秒数で指定します。"
+msgstr "Specify the interval (duration) field in seconds."
+
+#: ../../source/man4/animation_register.rst:465
 msgid ""
 "これにより、実際のフレーム番号に従ってキーフレームを登録していかなくても **タイムライン（ロール）ごとに自由なタイミングで** モーションを作るこ"
 "とができます。"
 msgstr ""
 "With this, you can create motion at any time for each timeline (roll) without registering keyframes according to the actual frame numbers."
 
-#: ../../source/man4/animation_register.rst:430
+#: ../../source/man4/animation_register.rst:468
 msgid ""
 "ただし自分で間隔(duration)をきちんと管理しないと各タイムラインごとのモーションのタイミングを図りづらくなり混乱するおそれがあります。ご注意くだ"
 "さい。"
@@ -685,39 +746,39 @@ msgstr ""
 "However, if you do not properly manage the duration yourself, it may be difficult to determine the motion timing for each timeline and cause "
 "confusion. please note."
 
-#: ../../source/man4/animation_register.rst:433
+#: ../../source/man4/animation_register.rst:471
 msgid "開始フレーム・終了フレームを指定すると、一度に複数のキーフレームの間隔を設定変更できます。"
 msgstr "By specifying the start frame and end frame, you can change the settings for multiple keyframe intervals at once."
 
-#: ../../source/man4/animation_register.rst:443
+#: ../../source/man4/animation_register.rst:481
 msgid "他のアバターのタイムラインから間隔をコピーする"
 msgstr "Copy intervals from another avatar's timeline"
 
-#: ../../source/man4/animation_register.rst:446
+#: ../../source/man4/animation_register.rst:484
 msgid "他のタイムラインの特定の範囲のキーフレームから、間隔を合計したものを簡単に取得することができます。"
 msgstr "You can easily obtain the total interval from a specific range of keyframes on other timelines."
 
-#: ../../source/man4/animation_register.rst:452
+#: ../../source/man4/animation_register.rst:490
 msgid "コピーしたいタイムライン（のロール名）を選択します。"
 msgstr "Select the timeline (role name) you want to copy."
 
-#: ../../source/man4/animation_register.rst:453
+#: ../../source/man4/animation_register.rst:491
 msgid "``開始`` と ``終了`` のフレーム番号を入力します。"
 msgstr "Enter the ``start`` and ``end`` frame numbers."
 
-#: ../../source/man4/animation_register.rst:454
+#: ../../source/man4/animation_register.rst:492
 msgid "コピーボタンを押すと、指定の範囲の間隔の合計値が間隔(duration)の入力ボックスに反映されます。"
 msgstr "When you press the copy button, the total value of the interval in the specified range will be reflected in the duration input box."
 
-#: ../../source/man4/animation_register.rst:455
+#: ../../source/man4/animation_register.rst:493
 msgid "本当に適用してもよい場合は間隔(duration)の入力ボックスで端数を消すなどの **キー操作をします。すると変更が確定** します。"
 msgstr "If you really want to apply it, use the ** key to erase fractions in the duration input box. The changes will be confirmed** ."
 
-#: ../../source/man4/animation_register.rst:458
+#: ../../source/man4/animation_register.rst:496
 msgid "コピーボタンを押すと間隔の合計値が入力ボックスにセットされます。"
 msgstr "When you press the copy button, the total value of the interval is set in the input box."
 
-#: ../../source/man4/animation_register.rst:460
+#: ../../source/man4/animation_register.rst:498
 msgid ""
 "その入力を **キャンセルしたい** 場合は入力ボックスで **キー操作をせず、タイムラインの選択を切り替えるなどして** ください。そうすることで変更が"
 "キャンセルされ、別のタイムラインやアバターの編集に移ることができます。"
@@ -725,11 +786,11 @@ msgstr ""
 "If you want to **cancel** the input, please do not press **keys in the input box and switch the selection of the timeline**. Doing so cancels "
 "the changes and allows you to move on to another timeline or avatar editing."
 
-#: ../../source/man4/animation_register.rst:467
+#: ../../source/man4/animation_register.rst:505
 msgid "位置や回転を変更する"
 msgstr "Change position or rotation"
 
-#: ../../source/man4/animation_register.rst:469
+#: ../../source/man4/animation_register.rst:507
 msgid ""
 "キーフレームを登録した後に設定可能です。選択中のアバターがVRM、OtherObject、カメラ、ライト、エフェクトの場合にそのオブジェクト自体の位置や回転"
 "を調整する事ができます。"
@@ -737,11 +798,11 @@ msgstr ""
 "It can be set after registering the keyframe. If the selected avatar is VRM, OtherObject, Camera, Light, or Effect, you can adjust the "
 "position and rotation of the object itself."
 
-#: ../../source/man4/animation_register.rst:471
+#: ../../source/man4/animation_register.rst:509
 msgid "位置または回転のX, Y, Z軸の入力欄に入力します。"
 msgstr "Fill in the input fields for the X, Y and Z axes of position or rotation."
 
-#: ../../source/man4/animation_register.rst:472
+#: ../../source/man4/animation_register.rst:510
 msgid "初期設定では相対位置・相対の角度で対象となるキーフレームに変更を適用します。"
 msgstr "By default, changes are applied to target keyframes with relative position and relative angle."
 
@@ -749,7 +810,7 @@ msgstr "By default, changes are applied to target keyframes with relative positi
 msgid "位置"
 msgstr "Position"
 
-#: ../../source/man4/animation_register.rst:477
+#: ../../source/man4/animation_register.rst:515
 msgid "オブジェクトを現在の位置からプラス・マイナスして移動させます。0の場合は変更しません。"
 msgstr "Moves the object plus or minus from its current position. If 0, do not change."
 
@@ -757,11 +818,11 @@ msgstr "Moves the object plus or minus from its current position. If 0, do not c
 msgid "回転"
 msgstr "Rotation"
 
-#: ../../source/man4/animation_register.rst:478
+#: ../../source/man4/animation_register.rst:516
 msgid "オブジェクトを現在の角度からプラス・マイナスして回転させます。指定可能な値は-180～+180度の範囲です。0の場合は変更しません。"
 msgstr "Rotate the object plus or minus from the current angle. Possible values are in the range -180 to +180 degrees. If 0, do not change."
 
-#: ../../source/man4/animation_register.rst:481
+#: ../../source/man4/animation_register.rst:519
 msgid ""
 "``絶対指定`` にチェックを入れると絶対指定ができます。 しかし既存のキーフレーム内の位置・回転を容易に上書きできてしまうため、複数のキーフレーム"
 "を対象とする際は注意して使って下さい。"
@@ -769,94 +830,94 @@ msgstr ""
 "If you check ``absolute specification``, you can specify absolute.However, it can easily overwrite the position and rotation in existing "
 "keyframes, so be careful when targeting multiple keyframes."
 
-#: ../../source/man4/animation_register.rst:485
+#: ../../source/man4/animation_register.rst:523
 msgid "開始フレーム・終了フレームを指定すると、一度に複数のキーフレーム内のオブジェクトの位置・回転を変更できます。"
 msgstr "By specifying the start frame and end frame, you can change the position and rotation of objects in multiple keyframes at once."
 
-#: ../../source/man4/animation_register.rst:495
+#: ../../source/man4/animation_register.rst:533
 msgid "現在位置に空のフレームを挿入する"
 msgstr "Insert an empty frame at the current position"
 
-#: ../../source/man4/animation_register.rst:497
+#: ../../source/man4/animation_register.rst:535
 msgid "現在選択中のフレーム番号に空のフレームを挿入し、右のすべてのフレームを1つずつずらします。"
 msgstr "Inserts an empty frame at the currently selected frame number and shifts all frames to the right by one."
 
-#: ../../source/man4/animation_register.rst:502 ../../source/man4/animation_register.rst:516
+#: ../../source/man4/animation_register.rst:540 ../../source/man4/animation_register.rst:554
 msgid "このアイコンのボタンを押します。"
 msgstr "Press the button for this icon."
 
-#: ../../source/man4/animation_register.rst:503
+#: ../../source/man4/animation_register.rst:541
 msgid "すると現在選択中のフレーム位置含めて右すべてのフレームが1つ右にずれ、最大フレーム数が1つ増えます。"
 msgstr ""
 "Then, all frames to the right, including the currently selected frame position, will shift to the right by one, and the maximum number of "
 "frames will increase by one."
 
-#: ../../source/man4/animation_register.rst:509
+#: ../../source/man4/animation_register.rst:547
 msgid "現在のフレーム位置を削除"
 msgstr "Delete current frame position"
 
-#: ../../source/man4/animation_register.rst:511
+#: ../../source/man4/animation_register.rst:549
 msgid "現在選択中のフレーム位置を削除します。"
 msgstr "Deletes the currently selected frame position."
 
-#: ../../source/man4/animation_register.rst:517
+#: ../../source/man4/animation_register.rst:555
 msgid "現在選択中のフレーム位置が削除され、右すべてのフレームが1つ左にずれ、最大フレーム数が1つ減ります。"
 msgstr ""
 "The currently selected frame position is deleted, all right frames are shifted left by one, and the maximum number of frames is reduced by one."
 
-#: ../../source/man4/animation_register.rst:520
+#: ../../source/man4/animation_register.rst:558
 msgid "対象のフレーム位置の各タイムラインにキーフレームが登録済みの場合、それらのキーフレームも削除されます。"
 msgstr "If keyframes have been registered on each timeline at the target frame position, those keyframes will also be deleted."
 
-#: ../../source/man4/animation_register.rst:531
+#: ../../source/man4/animation_register.rst:569
 msgid "キーフレームを切り取り・コピー・貼り付けする"
 msgstr "Cut/copy/paste keyframes"
 
-#: ../../source/man4/animation_register.rst:533
+#: ../../source/man4/animation_register.rst:571
 msgid "登録済みのキーフレームはコピーしたり切り取って貼り付けて移動などを行えます。"
 msgstr "You can copy, cut, paste, and move registered keyframes."
 
-#: ../../source/man4/animation_register.rst:538
+#: ../../source/man4/animation_register.rst:576
 msgid "リボンバーの ``アニメーション`` タブのこれらのボタンを押します。"
 msgstr "Press these buttons on the ``Animation`` tab of the ribbon bar."
 
-#: ../../source/man4/animation_register.rst:540
+#: ../../source/man4/animation_register.rst:578
 msgid "**コピーして貼り付ける**"
 msgstr "**Copy and Paste**"
 
-#: ../../source/man4/animation_register.rst:542
+#: ../../source/man4/animation_register.rst:580
 msgid "コピーボタンを押します。"
 msgstr "Press the Copy button."
 
-#: ../../source/man4/animation_register.rst:543 ../../source/man4/animation_register.rst:550
+#: ../../source/man4/animation_register.rst:581 ../../source/man4/animation_register.rst:588
 msgid "任意のフレーム番号を選択し、貼り付けボタンを押します。"
 msgstr "Select any frame number and press the Paste button."
 
-#: ../../source/man4/animation_register.rst:547
+#: ../../source/man4/animation_register.rst:585
 msgid "**切り取って貼り付ける**"
 msgstr "**Cut and Paste**"
 
-#: ../../source/man4/animation_register.rst:549
+#: ../../source/man4/animation_register.rst:587
 msgid "切り取りボタンを押します。"
 msgstr "Press the cut button."
 
-#: ../../source/man4/animation_register.rst:554
+#: ../../source/man4/animation_register.rst:592
 msgid "いずれの場合も、すでにキーフレームが登録済みのフレームに貼り付けた場合は内容が上書きされます。"
 msgstr "In either case, if pasted to a frame that already has a keyframe registered, the contents will be overwritten."
 
-#: ../../source/man4/animation_register.rst:557
+#: ../../source/man4/animation_register.rst:595
 msgid "貼り付け先のタイムライン（ロール）は同じである必要があります。"
 msgstr "The destination timeline (role) must be the same."
 
-#: ../../source/man4/animation_register.rst:559
+#: ../../source/man4/animation_register.rst:597
 msgid "※オブジェクトの種類が同じであってもロールが異なると貼り付けはできません。"
 msgstr "Even if the object type is the same, it cannot be pasted if the roles are different."
 
-#: ../../source/man4/animation_register.rst:563
+#: ../../source/man4/animation_register.rst:601
 msgid "子キー機能"
 msgstr "Child key function"
 
-#: ../../source/man4/animation_register.rst:565
+#: ../../source/man4/animation_register.rst:603
 msgid ""
 "``ver 2.2.0`` で廃止しました。全てのモーションはイージングを連続して設定することで滑らかにモーションするようになりました。本来の目的を達成でき"
 "たので子キー機能は廃止しました。"

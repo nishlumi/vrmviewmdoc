@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-28 00:06+0900\n"
-"PO-Revision-Date: 2023-12-28 00:17+0900\n"
+"POT-Creation-Date: 2024-04-04 20:51+0900\n"
+"PO-Revision-Date: 2024-04-04 20:51+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -20,29 +20,43 @@ msgstr ""
 "Generated-By: Babel 2.11.0\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: ../../source/man3/posing_open.rst:3 ../../source/man3/posing_open.rst:9
+#: ../../source/man3/posing_open.rst:3
 msgid "ポーズ・モーションを開く"
 msgstr "Open pose/motion"
 
-#: ../../source/man3/posing_open.rst:6
+#: ../../source/man3/posing_open.rst:5
 msgid "目次"
 msgstr "Contents"
 
-#: ../../source/man3/posing_open.rst:1 ../../source/man3/posing_open.rst:15
-msgid "ポーズ"
-msgstr "Pose"
+#: ../../source/man3/posing_open.rst:7
+msgid "ver 2.6.0より、ポーズとモーションを開くメニューを統合しました。VRMAnimation同じメニュー内から開くことができます。"
+msgstr ""
+"From ver 2.6.0, we have integrated the menu that opens poses and motions. VRMAnimation can be opened from within the same "
+"menu."
+
+#: ../../source/man3/posing_open.rst:10
+msgid "基本の使い方"
+msgstr "Basic usage"
+
+#: ../../source/man3/posing_open.rst:12
+msgid "基本的にはリボンバーから機能を利用できます。"
+msgstr "Basically, you can use the functions from the ribbon bar."
+
+#: ../../source/man3/posing_open.rst:15
+msgid "ポーズを開く"
+msgstr "Open pose"
 
 #: ../../source/man3/posing_open.rst:17
 msgid "保存したポーズをどのVRoid/VRMにでも即座に反映させることができます。"
 msgstr "The saved pose can be instantly reflected in any VRoid/VRM."
 
-#: ../../source/man3/posing_open.rst:19 ../../source/man3/posing_open.rst:83
-msgid "「3Dモデル」タブの「ポーズ一覧」をクリックします。"
-msgstr "Click “Pose list” on the “3D model” tab."
+#: ../../source/man3/posing_open.rst:19
+msgid "「3Dモデル」タブの「開く」から「アプリ用ポーズ」をクリックします。"
+msgstr "Click \"Open\" on the \"3D Model\" tab and then \"Pose for App\"."
 
 #: ../../source/man3/posing_open.rst:26
-msgid "ポーズ一覧のウィンドウが表示されるので右端の「Pose」タブをクリックします。"
-msgstr "A pose list window will be displayed, so click the \"Pose\" tab on the far right."
+msgid "ポーズ一覧のウィンドウが表示されます（右端の「Pose」タブは選択済み）。"
+msgstr "A pose list window will be displayed (the \"Pose\" tab on the far right is already selected)."
 
 #: ../../source/man3/posing_open.rst:32
 msgid "目的のポーズを選び、「適用」をクリックします。"
@@ -117,65 +131,100 @@ msgid ""
 msgstr ""
 "Please select the timeline, not the object list. By doing so, you can apply motion correctly to SystemEffect and each audio."
 
+#: ../../source/man3/posing_open.rst:83
+msgid "「3Dモデル」タブの「開く」から「アプリ用モーション」をクリックします。"
+msgstr "Click \"Motion for App\" from \"Open\" on the \"3D Model\" tab."
+
 #: ../../source/man3/posing_open.rst:89
-msgid "ポーズ一覧のウィンドウが表示されるので右端の「Motion」タブをクリックします。"
-msgstr "A pose list window will be displayed, so click the \"Motion\" tab on the far right."
+msgid "ポーズ一覧のウィンドウが表示されます（右端の「Motion」タブは選択済み）。"
+msgstr "A pose list window will be displayed (the \"Motion\" tab on the far right is already selected)."
 
 #: ../../source/man3/posing_open.rst:94
 msgid "目的のモーションを選び、「適用」をクリックします。"
 msgstr "Select the desired motion and click \"Apply\"."
 
 #: ../../source/man3/posing_open.rst:102
-msgid "モーションもドラッグアンドドロップに対応しています。"
-msgstr "Motion also supports drag and drop."
-
-#: ../../source/man3/posing_open.rst:105
 msgid ""
 "``オブジェクトの種類`` が選択中のタイムラインのオブジェクト（キャスト）の種類と異なる場合はモーションを適用することはできま"
 "せん。"
 msgstr "If the ``object type`` is different from the selected timeline object (cast) type, motion cannot be applied."
 
-#: ../../source/man3/posing_open.rst:108
+#: ../../source/man3/posing_open.rst:107
+msgid "VRMAnimationを開く"
+msgstr "Open VRMAnimation"
+
+#: ../../source/man3/posing_open.rst:109
+msgid "VRMAnimationを開く機能をリボンバーへと移設しました。"
+msgstr "The function to open VRMAnimation has been moved to the ribbon bar."
+
+#: ../../source/man3/posing_open.rst:111
+msgid "「3Dモデル」タブの「開く」から「VRMAnimation」をクリックします。"
+msgstr "Click \"VRMAnimation\" from \"Open\" on the \"3D Model\" tab."
+
+#: ../../source/man3/posing_open.rst:116
+msgid "``端末`` , ``内蔵ストレージ`` , ``Googleドライブ`` のいずれかをクリックします。"
+msgstr "Click ``Terminal``, ``Internal Storage``, or ``Google Drive``."
+
+#: ../../source/man3/posing_open.rst:118
+msgid "それぞれの場所から対象の.vrmaファイルを指定して読み込みます。"
+msgstr "Specify and load the target .vrma file from each location."
+
+#: ../../source/man3/posing_open.rst:121
+msgid "読み込んだVRMAnimationはアプリ全体で貯めておくことができます。"
+msgstr "Loaded VRMAnimation can be saved throughout the app."
+
+#: ../../source/man3/posing_open.rst:122
+msgid "一度開いたVRMAnimationはアプリの履歴として内蔵ストレージに自動的に保持されます。"
+msgstr "Once opened, VRMAnimation is automatically saved in the built-in storage as app history."
+
+#: ../../source/man3/posing_open.rst:126
 msgid "ポーズとモーションの別の読み込み方法"
 msgstr "Alternative ways to import poses and motions"
 
-#: ../../source/man3/posing_open.rst:110
+#: ../../source/man3/posing_open.rst:128
 msgid ""
-"ポーズやモーションを読み込むもう一つの手順として、 PC内に保存した ``.vvmpose`` または ``.vvmmot`` ファイルをWebGL画面にド"
-"ラッグアンドドロップする方法も可能です。"
+"ポーズやモーションを読み込むもう一つの手順として、 PC内に保存した以下のファイルをWebGL画面にドラッグアンドドロップする方法も"
+"可能です。"
+msgstr "Another way to load poses and motions is to drag and drop the following files saved on your PC onto the WebGL screen."
+
+#: ../../source/man3/posing_open.rst:130
+msgid "``.vvmpose`` (VRMのみ)"
+msgstr "``.vvmpose`` (VRM only)"
+
+#: ../../source/man3/posing_open.rst:131
+msgid "``.vvmmot``"
+msgstr "``.vvmmot``"
+
+#: ../../source/man3/posing_open.rst:132
+msgid "``.vrma`` (VRMのみ)"
+msgstr "``.vrma`` (VRM only)"
+
+#: ../../source/man3/posing_open.rst:135
+msgid "ポーズファイルの場合エクスプローラー等からドラッグしてくるだけでいつでもすぐにポーズを再現できます。"
 msgstr ""
-"Another way to load poses and motions is to drag and drop a ``.vvmpose`` or ``.vvmmot`` file saved on your PC onto the "
-"WebGL screen."
+"In the case of a pose file, you can immediately reproduce the pose at any time by simply dragging it from Explorer, etc."
 
-#: ../../source/man3/posing_open.rst:112
-msgid ""
-"こちらの方法の場合、ポーズ一覧に登録していなくてもかまいません。 ポーズファイルの場合 **VRMに限りますが** エクスプローラー等"
-"からドラッグしてくるだけでいつでもすぐにポーズを再現できます。"
-msgstr ""
-"If you use this method, you do not need to register it in the pose list. In the case of a pose file **VRM only** You can "
-"immediately reproduce the pose at any time by simply dragging it from Explorer, etc."
+#: ../../source/man3/posing_open.rst:137
+msgid "**アプリ用モーションの場合**"
+msgstr "**For app motion**"
 
-#: ../../source/man3/posing_open.rst:114
-msgid "**モーションの場合**"
-msgstr "**For motion**"
-
-#: ../../source/man3/posing_open.rst:116
+#: ../../source/man3/posing_open.rst:139
 msgid "モーションを適用したいタイムライン（ロール）を選択します。"
 msgstr "Select the timeline (roll) to which you want to apply the motion."
 
-#: ../../source/man3/posing_open.rst:117
+#: ../../source/man3/posing_open.rst:140
 msgid "エクスプローラ等から ``.vvmmot`` ファイルをWebGL画面にドラッグアンドドロップします。"
 msgstr "Drag and drop the ``.vvmmot`` file from Explorer etc. onto the WebGL screen."
 
-#: ../../source/man3/posing_open.rst:120
+#: ../../source/man3/posing_open.rst:143
 msgid "タイムライン（ロール）の種類が同じである必要があります。"
 msgstr "The timeline (role) types must be the same."
 
-#: ../../source/man3/posing_open.rst:121
+#: ../../source/man3/posing_open.rst:144
 msgid "すでにモーションデータが存在する場合は上書きされますのでご注意ください（全部削除してから新規登録の扱い）。"
 msgstr "Please note that if motion data already exists, it will be overwritten (delete all before registering new data)."
 
-#: ../../source/man3/posing_open.rst:122
+#: ../../source/man3/posing_open.rst:145
 msgid ""
 "現在のプロジェクトの最大フレーム数より多い場合、その最大フレーム数までにカットされます。事前にある程度フレーム数を拡張してお"
 "くことをオススメします。"
@@ -183,11 +232,11 @@ msgstr ""
 "If the number of frames is greater than the maximum number of frames in the current project, it will be cut to that maximum "
 "number of frames. We recommend expanding the number of frames to some extent in advance."
 
-#: ../../source/man3/posing_open.rst:123
+#: ../../source/man3/posing_open.rst:146
 msgid "ドラッグアンドドロップする場合、 ``.vvmmot`` の拡張子のみ有効です。（ ``.json`` では開けません）"
 msgstr "When dragging and dropping, only the ``.vvmmot`` extension is valid. (Cannot be opened with ``.json``)"
 
-#: ../../source/man3/posing_open.rst:124
+#: ../../source/man3/posing_open.rst:147
 msgid ""
 "ドラッグアンドドロップする場合、現在選択中のキャストが何らかのタイムライン（ロール）に割り当てられている必要があります。（プ"
 "ロジェクトの設定画面から行う場合はロールに直接適用されるため、キャストが割り当てられていなくても問題ありません）"
@@ -195,7 +244,7 @@ msgstr ""
 "When dragging and dropping, the currently selected cast must be assigned to some timeline (role). (If you do this from the "
 "project settings screen, it will be applied directly to the role, so there is no problem even if no cast is assigned.)"
 
-#: ../../source/man3/posing_open.rst:127
+#: ../../source/man3/posing_open.rst:150
 msgid ""
 "モーションにかかる各フレームの時間(duration)はタイムラインごとに（さらにはフレームごとに）独立しているため、既存のプロジェク"
 "トに読み込ませても他のタイムラインに影響はありません。"
@@ -203,15 +252,27 @@ msgstr ""
 "The duration of each frame of motion is independent for each timeline (and even for each frame), so importing it into an "
 "existing project will not affect other timelines."
 
-#: ../../source/man3/posing_open.rst:132
-msgid "その他機能"
-msgstr "Other functions"
+#: ../../source/man3/posing_open.rst:152
+msgid "**VRMAnimationの場合**"
+msgstr "**For VRMAnimation**"
 
-#: ../../source/man3/posing_open.rst:139
+#: ../../source/man3/posing_open.rst:154
+msgid "モーションを適用したいVRMのタイムライン（ロール）を選択します。"
+msgstr "Select the VRM timeline (role) to which you want to apply the motion."
+
+#: ../../source/man3/posing_open.rst:155
+msgid "エクスプローラ等から ``.vrma`` ファイルをWebGL画面にドラッグアンドドロップします。"
+msgstr "Drag and drop the ``.vrma`` file from Explorer etc. onto the WebGL screen."
+
+#: ../../source/man3/posing_open.rst:159
+msgid "ポーズ・モーション一覧ウィンドウ"
+msgstr "Pose/motion list window"
+
+#: ../../source/man3/posing_open.rst:166
 msgid "ポーズの読み込み場所を変更する"
 msgstr "Change the pose loading location"
 
-#: ../../source/man3/posing_open.rst:141
+#: ../../source/man3/posing_open.rst:168
 msgid "ver 2.3.0から対応しました。ポーズを保存してある次の場所を自由に切り替えることができます。"
 msgstr "Supported from ver 2.3.0. You can freely switch between the locations where poses are saved."
 
@@ -247,11 +308,15 @@ msgstr "Application"
 msgid "本アプリのサンプルを読み込みます。"
 msgstr "Load the sample of this application."
 
-#: ../../source/man3/posing_open.rst:151
+#: ../../source/man3/posing_open.rst:178
+msgid "ポーズ・モーションの一覧ウィンドウを表示します。"
+msgstr "Displays the pose/motion list window."
+
+#: ../../source/man3/posing_open.rst:179
 msgid "ツールバーの中央にあるコンボボックスをクリックし、選択します。"
 msgstr "Click the combo box in the center of the toolbar to make your selection."
 
-#: ../../source/man3/posing_open.rst:152
+#: ../../source/man3/posing_open.rst:180
 msgid ""
 "Google DriveおよびApplicationの場合、読み込みがしばらく発生した後、保存されているポーズが表示されます。Internal Storageの場"
 "合は即座に表示されます。"
@@ -259,66 +324,68 @@ msgstr ""
 "For Google Drive and Application, saved poses will be displayed after loading occurs for a while. Internal Storage is "
 "displayed immediately."
 
-#: ../../source/man3/posing_open.rst:156
+#: ../../source/man3/posing_open.rst:184
 msgid "ポーズ・モーションを検索する"
 msgstr "Search poses/motions"
 
-#: ../../source/man3/posing_open.rst:158
+#: ../../source/man3/posing_open.rst:186
 msgid "本アプリの他の一覧部分と同様に、インクリメンタルサーチができます。"
 msgstr "Incremental search is possible in the same way as other lists in this application."
 
-#: ../../source/man3/posing_open.rst:168
+#: ../../source/man3/posing_open.rst:196
 msgid "ディスクからポーズ・モーションファイルを読み込む"
 msgstr "Load pose/motion files from disk"
 
-#: ../../source/man3/posing_open.rst:171
+#: ../../source/man3/posing_open.rst:199
 msgid ""
 "PCのディスクに保存したポーズやモーションファイルをアプリに読み込ませることができます。ポーズ一覧のアップロードボタンを押して"
 "ください。"
 msgstr ""
 "You can load poses and motion files saved on your PC's disk into the app. Please press the upload button for the pose list."
 
-#: ../../source/man3/posing_open.rst:173
+#: ../../source/man3/posing_open.rst:201
 msgid "読み込み場所が ``Internal Storage`` の場合のみ使用可能です。"
-msgstr ""
+msgstr "Available only when the load location is ``Internal Storage``."
 
-#: ../../source/man3/posing_open.rst:180
+#: ../../source/man3/posing_open.rst:208
 msgid "対象のファイル"
-msgstr ""
+msgstr "Target file"
 
 #: ../../source/man3/posing_open.rst:1
 msgid "種類"
-msgstr ""
+msgstr "Kind"
 
 #: ../../source/man3/posing_open.rst:1
 msgid "拡張子"
-msgstr ""
+msgstr "Extension"
 
 #: ../../source/man3/posing_open.rst:1
-#, fuzzy
+msgid "ポーズ"
+msgstr "Pose"
+
+#: ../../source/man3/posing_open.rst:1
 msgid "**.vvmpose** または **.json**"
-msgstr "The target file is **.vvmpose** or **.json**."
+msgstr "**.vvmpose** or **.json**"
 
 #: ../../source/man3/posing_open.rst:1
 msgid "モーション"
-msgstr ""
+msgstr "Motion"
 
 #: ../../source/man3/posing_open.rst:1
-#, fuzzy
 msgid "**.vvmmot** または **.json**"
-msgstr "The target file is **.vvmpose** or **.json**."
+msgstr "**.vvmmot** or **.json**"
 
-#: ../../source/man3/posing_open.rst:187
-#, fuzzy
+#: ../../source/man3/posing_open.rst:215
 msgid ""
 "本アプリ独自拡張子の **.vvmpose** や **.vvmmot** はあくまで判別のしやすさのためだけのものですが、 .jsonのままだと他と混同す"
 "るおそれがあるので間違えないように気をつけてください。"
-msgstr "The extension \"**.vvmpose**\" unique to this application is only for ease of identification. Please attach."
+msgstr ""
+"The unique extensions of this app, **.vvmpose** and **.vvmmot**, are only for ease of identification, but if they are left "
+"as .json, they may be confused with other files, so please do not confuse them. Please be careful."
 
-#: ../../source/man3/posing_open.rst:189
-#, fuzzy
+#: ../../source/man3/posing_open.rst:217
 msgid "読み込み終わると一覧に表示されるようになります。（ポーズの場合、サムネイルはなくても問題ありません）"
-msgstr "When it finishes loading, it will be displayed in the list. (It doesn't matter if there is no thumbnail)"
+msgstr "Once loaded, it will be displayed in the list. (For poses, there is no problem even if there is no thumbnail)"
 
 #: ../../source/man3/posing_open.rst
 msgid "※データ中に必要な項目がないと読み込み時にエラーとなります。"
@@ -328,5 +395,24 @@ msgstr "If the data does not contain the necessary items, an error will occur wh
 msgid "※正しくないデータを読み込んだ場合の動作は保証致しません。"
 msgstr "Operation is not guaranteed if incorrect data is read."
 
+#: ../../source/man3/posing_open.rst:227
+msgid "その他機能"
+msgstr "Other functions"
+
+#: ../../source/man3/posing_open.rst:230
+msgid "VRMAnimationを管理する"
+msgstr "Manage VRMAnimation"
+
+#: ../../source/man3/posing_open.rst:232
+msgid "開いたVRMAnimationはプロジェクトの設定画面で管理することができます。"
+msgstr "Opened VRMAnimation can be managed on the project settings screen."
+
+#: ../../source/man3/posing_open.rst:234
+msgid "詳しくはプロジェクトの設定の :ref:`prop_vrma_project` をご覧ください。"
+msgstr "For more information, see :ref:`prop_vrma_project` in the project settings."
+
 #~ msgid "VRoid/VRMのポーズを再現する"
 #~ msgstr "Open VRoid/VRM poses"
+
+#~ msgid "モーションもドラッグアンドドロップに対応しています。"
+#~ msgstr "Motion also supports drag and drop."

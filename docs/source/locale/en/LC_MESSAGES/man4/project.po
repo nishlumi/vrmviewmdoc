@@ -1,0 +1,352 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-24 22:04+0900\n"
+"PO-Revision-Date: 2024-04-04 20:44+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: ../../source/man4/project.rst:3
+msgid "プロジェクトの設定"
+msgstr "Project settings"
+
+#: ../../source/man4/project.rst:5
+msgid "目次"
+msgstr "Contents"
+
+#: ../../source/man4/project.rst:8
+msgid "プロジェクトの設定を開く"
+msgstr "Open project settings"
+
+#: ../../source/man4/project.rst:10
+msgid "現在開いているプロジェクトの設定をします。"
+msgstr "Configure settings for the currently open project."
+
+#: ../../source/man4/project.rst:12
+msgid "リボンバーの ``アニメーション`` タブから ``設定`` をクリックします。"
+msgstr "Click ``Settings`` from the ``Animations`` tab in the ribbon bar."
+
+#: ../../source/man4/project.rst:19
+msgid "ここでは次のことを行えます。"
+msgstr "Here you can:"
+
+#: ../../source/man4/project.rst:21
+msgid "プロジェクトの名称やその他明記する情報の編集"
+msgstr "Editing the project name and other specified information"
+
+#: ../../source/man4/project.rst:22
+msgid "プロジェクトに含む役割とキャストの管理"
+msgstr "Manage roles and casts included in your project"
+
+#: ../../source/man4/project.rst:23 ../../source/man4/project.rst:114
+msgid "素材の管理"
+msgstr "Material management"
+
+#: ../../source/man4/project.rst:24
+msgid "VRMAnimationなど、プロジェクトに含む追加ファイルの管理"
+msgstr "Manage additional files included in your project, such as VRMAnimation"
+
+#: ../../source/man4/project.rst:29
+msgid "プロジェクトの基本的な情報を記入する"
+msgstr "Fill in basic project information"
+
+#: ../../source/man4/project.rst:31
+msgid ""
+"プロジェクト情報タブでは次の情報を記入できます。アニメーションやポーズ、その他演出には影響しません。あくまでメモ書きのためだけに"
+"記入するものです。"
+msgstr ""
+"The Project Information tab allows you to enter the following information: It does not affect animation, poses, or other "
+"effects. This is only for writing notes."
+
+#: ../../source/man4/project.rst:33
+msgid "項目の説明は :ref:`screen_projectdlg` をご覧ください。"
+msgstr "See :ref:`screen_projectdlg` for item descriptions."
+
+#: ../../source/man4/project.rst
+msgid "FPS"
+msgstr "FPS"
+
+#: ../../source/man4/project.rst:36
+msgid ""
+"アニメーションの全体的な速度に関わる基本値を指定します。デフォルトでは ``FPS / 6000.0`` の計算結果が時間の間隔となります。その計"
+"算にFPSが使われます。"
+msgstr ""
+"Specifies the basic value related to the overall speed of the animation. By default, the time interval is calculated as ``FPS / "
+"6000.0``. FPS is used in the calculation."
+
+#: ../../source/man4/project.rst
+msgid "デフォルトの間隔"
+msgstr "default duration"
+
+#: ../../source/man4/project.rst:39
+msgid ""
+"1フレームあたりの変化する秒数を指定します。キーフレーム間が複数フレーム空いている場合、 ``デフォルトの間隔 * フレーム数`` で計算"
+"されます。"
+msgstr ""
+"Specifies the number of seconds to change per frame. If there are multiple frames between keyframes, it will be calculated as "
+"``default interval * number of frames``."
+
+#: ../../source/man4/project.rst:41
+msgid "なお、キーフレームの設定で個別にそのキーフレームになるまでの間隔を独自に指定することができます。"
+msgstr "In addition, in the key frame settings, you can individually specify the interval until the key frame is reached."
+
+#: ../../source/man4/project.rst:43
+msgid "詳しくは :ref:`modifyeachduration` をご覧ください。"
+msgstr "See :ref:`modifyeachduration` for details."
+
+#: ../../source/man4/project.rst:48
+msgid "VRMAnimation"
+msgstr "VRMAnimation"
+
+#: ../../source/man4/project.rst:50
+msgid "このタブでは、アプリ全体で現在開いているVRMAnimationを一覧で確認することができます。"
+msgstr "On this tab, you can see a list of VRMAnimations currently open throughout the app."
+
+#: ../../source/man4/project.rst:57
+msgid "項目の説明は画面の構成の :ref:`screen_vrmadlg` をご覧ください。"
+msgstr "For item descriptions, see :ref:`screen_vrmadlg` in screen configuration."
+
+#: ../../source/man4/project.rst:60
+msgid "VRMAnimationを削除"
+msgstr "Delete VRMAnimation"
+
+#: ../../source/man4/project.rst:62
+msgid "削除したい .vrmaファイルにチェックを入れます。"
+msgstr "Check the .vrma files you want to delete."
+
+#: ../../source/man4/project.rst:63
+msgid "左上の削除ボタンをクリックします。"
+msgstr "Click the delete button in the top left."
+
+#: ../../source/man4/project.rst:64
+msgid "確認メッセージが表示されるので、よければOKボタンをクリックします。"
+msgstr "A confirmation message will be displayed, so click the OK button if you agree."
+
+#: ../../source/man4/project.rst:67
+msgid "プロジェクトファイルに含める"
+msgstr "Include in project file"
+
+#: ../../source/man4/project.rst:69
+msgid ""
+"``プロジェクトに保存`` にチェックを入れたVRMAnimationファイルは、そのファイルパスをプロジェクトファイル内に含めることができま"
+"す。"
+msgstr "VRMAnimation files with ``Save in project`` checked can have their file paths included in the project file."
+
+#: ../../source/man4/project.rst:71
+msgid ""
+"プロジェクトに含めることで、プロジェクトファイルを開いたときに対象の .vrmaファイルを同時に開いて読み込みます。そのVRMAnimationは"
+"すぐに使用可能になります。"
+msgstr ""
+"By including it in the project, the target .vrma file will be opened and read at the same time when the project file is opened. "
+"That VRMAnimation will be available immediately."
+
+#: ../../source/man4/project.rst:74
+msgid "対象は内蔵ストレージに保存している .vrmaファイルか、各OS版では履歴に掲載されたことのあるファイルのみです。"
+msgstr ""
+"The target is only .vrma files saved in the internal storage or files that have been posted in the history for each OS version."
+
+#: ../../source/man4/project.rst:78
+msgid "役割の管理"
+msgstr "Role management"
+
+#: ../../source/man4/project.rst:80
+msgid "現在開いているVRMやその他オブジェクト、そしてそれらに紐づいている役割(ロール,タイムライン)の情報を管理します。"
+msgstr "Manages information on currently open VRMs and other objects, and the roles (roles, timelines) associated with them."
+
+#: ../../source/man4/project.rst:87
+msgid "項目の説明は :ref:`screen_roledlg` をご覧ください。"
+msgstr "See :ref:`screen_roledlg` for item descriptions."
+
+#: ../../source/man4/project.rst:89
+msgid "ここでは次のことをできます。"
+msgstr "Here you can:"
+
+#: ../../source/man4/project.rst:91
+msgid "ロールとキャスト(オブジェクト)の削除"
+msgstr "Deleting roles and casts (objects)"
+
+#: ../../source/man4/project.rst:92
+msgid "ロールに紐づけるキャストの変更"
+msgstr "Change cast associated with role"
+
+#: ../../source/man4/project.rst:93
+msgid "ロールの名称(表示名)の変更"
+msgstr "Change role name (display name)"
+
+#: ../../source/man4/project.rst:95
+msgid "役割とキャストの割当ての変更については :ref:`settingcast2role` をご覧ください。"
+msgstr "See :ref:`settingcast2role` for changing role and cast assignments."
+
+#: ../../source/man4/project.rst:106
+msgid "素材"
+msgstr "material"
+
+#: ../../source/man4/project.rst:108
+msgid "現在のアプリまたはプロジェクトで開いている画像素材を管理します。"
+msgstr "Manage the image assets open in the current app or project."
+
+#: ../../source/man4/project.rst:110
+msgid "項目の説明は :ref:`screen_materialdlg` をご覧ください。"
+msgstr "See :ref:`screen_materialdlg` for item descriptions."
+
+#: ../../source/man4/project.rst:116
+msgid "本アプリ全体で使用できるよう、テクスチャファイルなどを管理できます。"
+msgstr "You can manage texture files etc. so that they can be used throughout this application."
+
+#: ../../source/man4/project.rst:119
+msgid "リボンバーの ``アニメーション`` タブ → ``設定`` ボタンを押します。"
+msgstr "Click the ``Animation`` tab on the ribbon bar ~ ``Settings`` button."
+
+#: ../../source/man4/project.rst:120
+msgid "``素材`` タブを開きます。"
+msgstr "Open the ``Materials`` tab."
+
+#: ../../source/man4/project.rst:128
+msgid "素材の追加"
+msgstr "Add material"
+
+#: ../../source/man4/project.rst:133
+msgid "``素材の種類`` から目的の素材の種類を選びます。"
+msgstr "Select the desired material type from ``Material Type``."
+
+#: ../../source/man4/project.rst:134
+msgid "``素材の場所`` で追加先の場所を ``App`` または ``Project`` から選びます。"
+msgstr "Select ``App`` or ``Project`` as the ``location of resources``."
+
+#: ../../source/man4/project.rst:135
+msgid "``追加`` ボタンを押します。"
+msgstr "Press the ``Add`` button."
+
+#: ../../source/man4/project.rst:136
+msgid "素材の追加のポップアップウィンドウが表示されます。"
+msgstr "An Add Material pop-up window will appear."
+
+#: ../../source/man4/project.rst:137
+msgid "``素材ファイル`` をクリックして端末からファイルを選びます。"
+msgstr "Click ``material file`` to select a file from the terminal."
+
+#: ../../source/man4/project.rst:138
+msgid "``素材のラベル`` で自分が管理しやすい名称を入力します。"
+msgstr "In ``Material Label``, enter a name that you can easily manage."
+
+#: ../../source/man4/project.rst:139
+msgid "OKボタンを押して素材をアプリに追加します。"
+msgstr "Press the OK button to add the material to the app."
+
+#: ../../source/man4/project.rst:141
+msgid "※追加後、一覧にプレビュー付きで表示されるようになります。"
+msgstr "(*)After adding, it will be displayed in the list with a preview."
+
+#: ../../source/man4/project.rst
+msgid ""
+"アプリ内またはアニメーションプロジェクト内の素材ファイルは本アプリの専用ストレージに保存されます。PC上でそれらのファイルの場所が"
+"変わっても影響ありません。"
+msgstr ""
+"Material files within the app or within the animation project are saved in the dedicated storage of this app. It doesn't matter "
+"if the location of those files changes on your PC."
+
+#: ../../source/man4/project.rst
+msgid "例えば画像ファイル自体に変更がある場合、それは反映されませんので素材を一旦削除し、再度追加する必要があります。"
+msgstr ""
+"For example, if there is a change to the image file itself, it will not be reflected and you will need to delete the material "
+"and add it again."
+
+#: ../../source/man4/project.rst:147
+msgid "追加後の素材の使い道"
+msgstr "How to use the material after adding it"
+
+#: ../../source/man4/project.rst:149
+msgid ""
+"OtherObjectのテクスチャ、Stageの ``UserStage`` のテクスチャなどで使用することができます。それぞれのプロパティにおいて、使いたい"
+"素材名を指定してください。"
+msgstr ""
+"It can be used in OtherObject's texture, Stage's ``UserStage`` texture, etc. Please specify the material name you want to use "
+"in each property."
+
+#: ../../source/man4/project.rst:150
+msgid "別の素材名を選ぶと参照が解除されます。"
+msgstr "If you select a different material name, the reference will be canceled."
+
+#: ../../source/man4/project.rst:151
+msgid ""
+"一つのテクスチャを複数のオブジェクトにセットすることもできますが、全体で共有しているため素材を削除などすると対象のすべてのオブ"
+"ジェクトに変更が影響します。"
+msgstr ""
+"You can set one texture to multiple objects, but since it is shared throughout, if you delete the material, the changes will "
+"affect all the objects."
+
+#: ../../source/man4/project.rst:152
+msgid ""
+"各オブジェクトでは素材名で参照されるため、実際のテクスチャなどのファイルが何であるかは考慮されません。プロジェクトファイルを配布"
+"して別のユーザーに使ってもらうなどの場合、テクスチャファイルを想定通りに使ってもらえるよう注意してもらってください。"
+msgstr ""
+"Each object is referenced by its material name, so it doesn't care what the actual texture or other file is. If you are "
+"distributing the project file for other users to use, please make sure that they use the texture files as expected."
+
+#: ../../source/man4/project.rst:155
+msgid "素材の更新"
+msgstr "Update material"
+
+#: ../../source/man4/project.rst:157
+msgid "一度追加した素材はラベル名の更新、または画像の再読み込みが行なえます。"
+msgstr "Once you have added a material, you can update the label name or reload the image."
+
+#: ../../source/man4/project.rst:165
+msgid "ラベル名の更新"
+msgstr "Update label name"
+
+#: ../../source/man4/project.rst:165
+msgid "各行の素材名のセルをクリックすると入力ダイアログが表示されます。そこに新しい名称を入力します。"
+msgstr "Clicking the material name cell in each row will display an input dialog. Enter the new name there."
+
+#: ../../source/man4/project.rst:168
+msgid "画像の再読み込み"
+msgstr "Reload an image"
+
+#: ../../source/man4/project.rst:168
+msgid ""
+"プロジェクト内の素材の場合に使います。ファイルから読み込んだ（インポートした）プロジェクトが素材を保有している場合、どの素材も実"
+"体となるファイルは読み込まれていません。想定される画像などのファイルを再度指定して読み込む必要があります。"
+msgstr ""
+"Used for materials within a project. If a project loaded (imported) from a file contains materials, the files that make up any "
+"of the materials are not loaded. You will need to specify and load the expected images and other files again."
+
+#: ../../source/man4/project.rst:171
+msgid "素材の削除"
+msgstr "Delete material"
+
+#: ../../source/man4/project.rst:173
+msgid "一覧から削除したい素材にチェックを入れて選択します。"
+msgstr "Check and select the material you want to delete from the list."
+
+#: ../../source/man4/project.rst:174
+msgid "削除ボタンを押します。"
+msgstr "Press the delete button."
+
+#: ../../source/man4/project.rst:177
+msgid ""
+"どこかでその素材を一つでも参照している場合は削除できません。そのオブジェクトで参照を解除（別の素材を選択・あるいは ``--`` で選択"
+"を取り消す）してどこからも参照がされなくなったのを確認してから再度お試しください。"
+msgstr ""
+"If even one of the materials is referenced somewhere, it cannot be deleted. Please remove the reference from that object "
+"(select another material or cancel the selection with ``--`` ), make sure it is no longer referenced anywhere, and then try "
+"again."
+
+#: ../../source/man4/project.rst:178
+msgid "実際の素材ファイルがアプリ内の専用ストレージからも削除されます。"
+msgstr "The actual material files will also be deleted from the dedicated storage within the app."
