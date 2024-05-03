@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 21:27+0900\n"
+"POT-Creation-Date: 2024-05-03 21:23+0900\n"
+"PO-Revision-Date: 2024-05-03 21:27+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,13 +18,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/man1/screen_prop.rst:5
 msgid "プロパティ一覧"
 msgstr "Property list"
 
-#: ../../source/man1/screen_prop.rst:10
+#: ../../source/man1/screen_prop.rst:7
+msgid "目次"
+msgstr "Contents"
+
+#: ../../source/man1/screen_prop.rst:12
 msgid "WebGL画面の右にある一覧です。読み込んだ各オブジェクトの設定項目が並びます。"
 msgstr "This is the list on the right side of the WebGL screen. Setting items for each loaded object are listed."
 
@@ -32,14 +36,69 @@ msgstr "This is the list on the right side of the WebGL screen. Setting items fo
 msgid "矢印ボタン"
 msgstr "arrow button"
 
-#: ../../source/man1/screen_prop.rst:15
+#: ../../source/man1/screen_prop.rst:17
 msgid "押すとプロパティ一覧を折りたたんで細くすることができます。"
 msgstr "When pressed, the property list can be collapsed and narrowed."
 
-#: ../../source/man1/screen_prop.rst:17
-msgid "**各アコーディオンパネル：**"
-msgstr "**Each accordion panel:**"
+#: ../../source/man1/screen_prop.rst:21
+msgid "一定のサイズ以下の画面解像度のモバイル端末では、プロパティ一覧はオーバーレイ形式で表示されます。"
+msgstr ""
+"On mobile devices with screen resolutions below a certain size, the property list is displayed in an overlay "
+"format."
 
-#: ../../source/man1/screen_prop.rst:19
+#: ../../source/man1/screen_prop.rst:23
+msgid "つまり、なにか操作をするとパネルが自動的に折りたたまれます。"
+msgstr "This means that the panel will automatically collapse when you do something."
+
+#: ../../source/man1/screen_prop.rst:27
+msgid "各アコーディオンパネル"
+msgstr "Each accordion panel"
+
+#: ../../source/man1/screen_prop.rst:29
 msgid "オブジェクトの種類により表示されるプロパティは異なります。"
 msgstr "Different properties are displayed depending on the object type."
+
+#: ../../source/man1/screen_prop.rst:32
+msgid "スワイプパネル"
+msgstr "Swipe panel"
+
+#: ../../source/man1/screen_prop.rst:34
+msgid ""
+"ver 2.7.0より導入しました。上下左右にスワイプすることで数値の入力ボックスの値を増減することができます。入力ボックス"
+"の直下にある白いボックスです。"
+msgstr ""
+"Introduced from ver 2.7.0. You can increase/decrease the value in the numerical input box by swiping up/down/left/"
+"right. It is a white box directly below the input box."
+
+#: ../../source/man1/screen_prop.rst:36
+msgid "スワイプすると、``+`` や ``-`` が表示されます。"
+msgstr "Swipe to see ``+`` or ``-``."
+
+#: ../../source/man1/screen_prop.rst:44
+msgid "主にモバイル端末での操作に効果的です。"
+msgstr "Mainly effective for operation on mobile devices."
+
+#: ../../source/man1/screen_prop.rst:46
+msgid ""
+"プロパティ一覧に設置された入力ボックス系のUIは、操作をするために入力フォーカスが当たると、自動的にパネルが折りたた"
+"まれてしまいます。そうすると操作したいのにすぐパネルが閉じてしまって操作できなくなるおそれがあります。"
+msgstr ""
+"The input box type UI installed in the property list automatically collapses the panel when input focus is applied "
+"to it for operation. If you do so, the panel may close immediately and you may not be able to operate it even "
+"though you want to operate it."
+
+#: ../../source/man1/screen_prop.rst:48
+msgid "このスワイプパネルを使うことで、モバイル端末でも値を操作することが簡単にできるようになります。"
+msgstr "By using this swipe panel, you can easily manipulate values even on mobile devices."
+
+#: ../../source/man1/screen_prop.rst:53
+msgid "パネルの折りたたみ時"
+msgstr "When folding the panel"
+
+#: ../../source/man1/screen_prop.rst:55
+msgid "ver 2.7.0より導入しました。パネルを折りたたんだときに、v-padと同等の機能を利用することができます。"
+msgstr "Introduced from ver 2.7.0. When the panel is folded, you can use the same functions as the v-pad."
+
+#: ../../source/man1/screen_prop.rst:57
+msgid "機能は :ref:`leftpanelclosing` をご覧ください。"
+msgstr "See :ref:`leftpanelclosing` for functionality."
