@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-26 11:46+0900\n"
-"PO-Revision-Date: 2023-12-26 12:27+0900\n"
+"POT-Creation-Date: 2024-05-14 22:26+0900\n"
+"PO-Revision-Date: 2024-05-14 22:39+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,17 +18,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
-#: ../../source/man1/screen_main.rst:5
+#: ../../source/man1/screen_main.rst:5 ../../source/man1/screen_main.rst:12
 msgid "メイン画面"
 msgstr "Main screen"
+
+#: ../../source/man1/screen_main.rst:7
+msgid "目次"
+msgstr "Contents"
 
 #: ../../source/man1/screen_main.rst
 msgid "A リボンバー（タブ）"
 msgstr "A Ribbon bar (tab)"
 
-#: ../../source/man1/screen_main.rst:13
+#: ../../source/man1/screen_main.rst:20
 msgid "アプリの各機能を呼び出すメニュー。"
 msgstr "A menu that calls each function of the app."
 
@@ -36,7 +40,7 @@ msgstr "A menu that calls each function of the app."
 msgid "B オブジェクト一覧"
 msgstr "B Object list"
 
-#: ../../source/man1/screen_main.rst:15
+#: ../../source/man1/screen_main.rst:22
 msgid "読み込んだVRMやFBX、各オブジェクトの一覧。"
 msgstr "A list of loaded VRMs, FBXs, and objects."
 
@@ -44,7 +48,7 @@ msgstr "A list of loaded VRMs, FBXs, and objects."
 msgid "C WebGL"
 msgstr "C WebGL"
 
-#: ../../source/man1/screen_main.rst:17
+#: ../../source/man1/screen_main.rst:24
 msgid "VRMなどが実際に表示される画面。WebGLという形式。サイズの変更可能。"
 msgstr ""
 "The screen where VRM etc. is actually displayed. A format called WebGL. "
@@ -54,7 +58,7 @@ msgstr ""
 msgid "D プロパティ一覧"
 msgstr "D Property list"
 
-#: ../../source/man1/screen_main.rst:19
+#: ../../source/man1/screen_main.rst:26
 msgid "選択したVRMや各オブジェクトの細かいプロパティ変更の一覧。"
 msgstr "A list of selected VRMs and detailed property changes for each object."
 
@@ -62,18 +66,18 @@ msgstr "A list of selected VRMs and detailed property changes for each object."
 msgid "E タイムライン"
 msgstr "E Timeline"
 
-#: ../../source/man1/screen_main.rst:21
+#: ../../source/man1/screen_main.rst:28
 msgid ""
 "アニメーション用のタイムライン。登録したキーフレームがここに表示される。"
 msgstr "animation timeline. Registered keyframes are displayed here."
 
-#: ../../source/man1/screen_main.rst:24
+#: ../../source/man1/screen_main.rst:31
 msgid "WebGL画面には、設定によりメインカメラの中心点が表示されます。"
 msgstr ""
 "The WebGL screen displays the center point of the main camera depending on "
 "the settings."
 
-#: ../../source/man1/screen_main.rst:25
+#: ../../source/man1/screen_main.rst:32
 msgid ""
 "B、Dはそれぞれの右端のボタンで最小化することができます。（その分CのWebGLが拡"
 "大縮小します）"
@@ -81,11 +85,95 @@ msgstr ""
 "B and D can be minimized with their rightmost buttons. (WebGL in C scales "
 "accordingly)"
 
-#: ../../source/man1/screen_main.rst:29
+#: ../../source/man1/screen_main.rst:37
+msgid "モバイル表示"
+msgstr "Mobile viewing"
+
+#: ../../source/man1/screen_main.rst:39
+msgid "[URL]/mui でこの表示モードで使用することができます。"
+msgstr "You can use this display mode with [URL]/mui."
+
+#: ../../source/man1/screen_main.rst:41
+msgid ""
+"スマートフォンなどの画面が狭いモバイル端末ではこれらのような表示になります。"
+"左右やタイムラインパネルは初期状態では非表示です。"
+msgstr ""
+"Mobile devices with narrow screens, such as smartphones, will display "
+"something like these. The left and right panels and timeline panels are "
+"initially hidden."
+
+#: ../../source/man1/screen_main.rst
+msgid "この表示モードが適しているデバイス"
+msgstr "Devices for which this display mode is suitable"
+
+#: ../../source/man1/screen_main.rst:43
+msgid "スマートフォン, タブレット, ファブレット(例: Galaxy Fold など)"
+msgstr "Smartphones, tablets, phablets (e.g. Galaxy Fold, etc.)"
+
+#: ../../source/man1/screen_main.rst:46
+msgid "mblport"
+msgstr "mblport"
+
+#: ../../source/man1/screen_main.rst:47
+msgid "mblland"
+msgstr "mblland"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ポートレート"
+msgstr "Portrait"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "ランドスケープ"
+msgstr "Landscape"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "|mblport|"
+msgstr "|mblport|"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "|mblland|"
+msgstr "|mblland|"
+
+#: ../../source/man1/screen_main.rst
+msgid "画面下部"
+msgstr "bottom of screen"
+
+#: ../../source/man1/screen_main.rst:56
+msgid ""
+"左から次の順にボタンが並んでいます。もっともよく使いそうな機能のボタンです。"
+msgstr ""
+"The buttons are arranged in the following order from the left: This is the "
+"button for the function that you are likely to use most often."
+
+#: ../../source/man1/screen_main.rst:1
+msgid "アニメーション再生・一時停止"
+msgstr "Animation play/pause"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "キーフレーム登録"
+msgstr "Key frame registration"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "オブジェクト一覧パネル表示"
+msgstr "Object list panel display"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "タイムラインパネル表示(青いボタン)"
+msgstr "Timeline panel display (blue button)"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "プロパティパネル表示"
+msgstr "プロパティパネル表示"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "V-padパネル表示"
+msgstr "V-pad panel display"
+
+#: ../../source/man1/screen_main.rst:63
 msgid "アプリのウィンドウとサブウィンドウ"
 msgstr "App windows and sub windows"
 
-#: ../../source/man1/screen_main.rst:31
+#: ../../source/man1/screen_main.rst:65
 msgid ""
 "本アプリではこのメイン画面を示すウィンドウと、後述のいくつかのサブウィンドウ"
 "で構成されています。"
@@ -106,6 +194,10 @@ msgid "ウィンドウの種類(各OS版)"
 msgstr "Window type (each OS version)"
 
 #: ../../source/man1/screen_main.rst:1
+msgid "ウィンドウの種類(モバイル表示)"
+msgstr "Window type (mobile viewing)"
+
+#: ../../source/man1/screen_main.rst:1
 msgid "メインウィンドウ"
 msgstr "main window"
 
@@ -118,8 +210,16 @@ msgid "別ウィンドウ"
 msgstr "other window"
 
 #: ../../source/man1/screen_main.rst:1
+msgid "ブラウザタブ"
+msgstr "browser tab"
+
+#: ../../source/man1/screen_main.rst:1
 msgid "スクリーンショット"
 msgstr "Screenshot"
+
+#: ../../source/man1/screen_main.rst:1
+msgid "別タブ"
+msgstr "Separate tab"
 
 #: ../../source/man1/screen_main.rst:1
 msgid "ポーズ一覧"
@@ -154,6 +254,10 @@ msgid "別ウィンドウまたはアプリ内ウィンドウ"
 msgstr "In-app window"
 
 #: ../../source/man1/screen_main.rst:1
+msgid "別タブまたはアプリ内ウィンドウ"
+msgstr "Other tab or in-app window"
+
+#: ../../source/man1/screen_main.rst:1
 msgid "内部ストレージダイアログ"
 msgstr "Internal storage dialog"
 
@@ -161,7 +265,7 @@ msgstr "Internal storage dialog"
 msgid "ナビゲーション"
 msgstr "Nnavigation"
 
-#: ../../source/man1/screen_main.rst:48
+#: ../../source/man1/screen_main.rst:82
 msgid ""
 "別ウィンドウの場合、メインウィンドウ（またはタブ）を閉じるとその時開いている"
 "サブウィンドウらも全て閉じます。"

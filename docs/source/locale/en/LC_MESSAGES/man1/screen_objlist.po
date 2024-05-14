@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-03 22:23+0900\n"
-"PO-Revision-Date: 2024-05-03 22:23+0900\n"
+"POT-Creation-Date: 2024-05-14 22:26+0900\n"
+"PO-Revision-Date: 2024-05-14 22:37+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/screen_objlist.rst:5
 msgid "オブジェクト一覧"
@@ -195,8 +195,8 @@ msgid "オブジェクトとそれに紐づくロール（役割）をアプリ�
 msgstr "Delete an object and its associated role from the app."
 
 #: ../../source/man1/screen_objlist.rst:78
-msgid "パネルの折りたたみ時"
-msgstr "When folding the panel"
+msgid "V-pad（左）"
+msgstr "V-pad (left)"
 
 #: ../../source/man1/screen_objlist.rst:80
 msgid ""
@@ -210,15 +210,19 @@ msgstr ""
 msgid "主にモバイル端末の操作に効果的です。"
 msgstr "Mainly effective for operating mobile devices."
 
-#: ../../source/man1/screen_objlist.rst:90
+#: ../../source/man1/screen_objlist.rst:86
+msgid "モバイル表示(/mui)モード時には表示されません。"
+msgstr "It is not displayed in mobile display (/mui) mode."
+
+#: ../../source/man1/screen_objlist.rst:93
 msgid "vpprogress"
 msgstr "vpprogress"
 
-#: ../../source/man1/screen_objlist.rst:91
+#: ../../source/man1/screen_objlist.rst:94
 msgid "vpmove"
 msgstr "vpmove"
 
-#: ../../source/man1/screen_objlist.rst:92
+#: ../../source/man1/screen_objlist.rst:95
 msgid "vpcamera"
 msgstr "vpcamera"
 
@@ -256,7 +260,7 @@ msgstr ""
 "Move the main camera and the object at the center of rotation closer together "
 "or farther apart."
 
-#: ../../source/man1/screen_objlist.rst:101
+#: ../../source/man1/screen_objlist.rst:104
 msgid ""
 "スマートフォンで操作する場合、画面端からのスワイプはOSの機能である ``戻る`` "
 "や ``進む`` に割り当てられていることがあります。画面端からスワイプせず、なるべ"
@@ -266,11 +270,11 @@ msgstr ""
 "assigned to the OS functions ``back`` and ``forward`` . Try to swipe from the "
 "center of this square panel instead of from the edge of the screen."
 
-#: ../../source/man1/screen_objlist.rst:103
+#: ../../source/man1/screen_objlist.rst:106
 msgid "移動と回転のスピードについて"
 msgstr "About the speed of movement and rotation"
 
-#: ../../source/man1/screen_objlist.rst:105
+#: ../../source/man1/screen_objlist.rst:108
 msgid ""
 "アプリケーションの設定の ``アプリケーション`` タブにあるV-padの ``移動速度"
 "`` 、 ``回転速度`` でスピードを調整することができます。"
@@ -283,3 +287,6 @@ msgstr ""
 
 #~ msgid "**下部：**"
 #~ msgstr "**Bottom:**"
+
+#~ msgid "パネルの折りたたみ時"
+#~ msgstr "When folding the panel"

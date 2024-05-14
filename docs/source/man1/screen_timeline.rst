@@ -4,6 +4,8 @@
 タイムライン
 ####################################
 
+.. contents::
+
 .. image:: ../img/screen_timeline.png
     :align: center
 
@@ -55,5 +57,23 @@ D  タイムライン:
 
 :E  パネル拡大・縮小ボタン:
     タイムラインのパネルを拡大、縮小（ツールバーのみ）を切り替えます。
+
+
+モバイル表示
+=============================
+
+.. |mblport| image:: ../img/screen_timelinemobile01.png
+.. |mblland| image:: ../img/screen_timelinemobile02.png
+
+.. csv-table::
+    :header-rows: 1
+
+    ポートレート, ランドスケープ
+    |mblport|, |mblland|
+
+.. note::
+    * モバイル表示の場合、 ``再生/一時停止`` と ``キーフレームを登録`` はメイン画面の最下部のフッターにあります。
+    * ポートレートの場合、ツールバーは2行に分割されます。
+
 
 

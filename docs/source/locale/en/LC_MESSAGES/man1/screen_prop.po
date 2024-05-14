@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-03 21:23+0900\n"
-"PO-Revision-Date: 2024-05-03 21:27+0900\n"
+"POT-Creation-Date: 2024-05-14 22:26+0900\n"
+"PO-Revision-Date: 2024-05-14 22:36+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/screen_prop.rst:5
 msgid "プロパティ一覧"
@@ -74,11 +74,27 @@ msgstr ""
 msgid "スワイプすると、``+`` や ``-`` が表示されます。"
 msgstr "Swipe to see ``+`` or ``-``."
 
-#: ../../source/man1/screen_prop.rst:44
+#: ../../source/man1/screen_prop.rst
+msgid "左にスワイプ, 下にスワイプ"
+msgstr "Swipe left, swipe down"
+
+#: ../../source/man1/screen_prop.rst:43
+msgid "値の減少"
+msgstr "Decrease in value"
+
+#: ../../source/man1/screen_prop.rst
+msgid "右にスワイプ, 上にスワイプ"
+msgstr "Swipe right, swipe up"
+
+#: ../../source/man1/screen_prop.rst:45
+msgid "値の増加"
+msgstr "increase in value"
+
+#: ../../source/man1/screen_prop.rst:49
 msgid "主にモバイル端末での操作に効果的です。"
 msgstr "Mainly effective for operation on mobile devices."
 
-#: ../../source/man1/screen_prop.rst:46
+#: ../../source/man1/screen_prop.rst:51
 msgid ""
 "プロパティ一覧に設置された入力ボックス系のUIは、操作をするために入力フォーカスが当たると、自動的にパネルが折りたた"
 "まれてしまいます。そうすると操作したいのにすぐパネルが閉じてしまって操作できなくなるおそれがあります。"
@@ -87,18 +103,21 @@ msgstr ""
 "to it for operation. If you do so, the panel may close immediately and you may not be able to operate it even "
 "though you want to operate it."
 
-#: ../../source/man1/screen_prop.rst:48
+#: ../../source/man1/screen_prop.rst:53
 msgid "このスワイプパネルを使うことで、モバイル端末でも値を操作することが簡単にできるようになります。"
 msgstr "By using this swipe panel, you can easily manipulate values even on mobile devices."
 
-#: ../../source/man1/screen_prop.rst:53
-msgid "パネルの折りたたみ時"
-msgstr "When folding the panel"
+#: ../../source/man1/screen_prop.rst:58
+msgid "V-pad（右）"
+msgstr "V-pad (right)"
 
-#: ../../source/man1/screen_prop.rst:55
+#: ../../source/man1/screen_prop.rst:60
 msgid "ver 2.7.0より導入しました。パネルを折りたたんだときに、v-padと同等の機能を利用することができます。"
 msgstr "Introduced from ver 2.7.0. When the panel is folded, you can use the same functions as the v-pad."
 
-#: ../../source/man1/screen_prop.rst:57
+#: ../../source/man1/screen_prop.rst:62
 msgid "機能は :ref:`leftpanelclosing` をご覧ください。"
 msgstr "See :ref:`leftpanelclosing` for functionality."
+
+#~ msgid "パネルの折りたたみ時"
+#~ msgstr "When folding the panel"

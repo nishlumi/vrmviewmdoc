@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 22:04+0900\n"
-"PO-Revision-Date: 2024-03-24 22:26+0900\n"
+"POT-Creation-Date: 2024-05-14 22:26+0900\n"
+"PO-Revision-Date: 2024-05-14 22:40+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/menu.rst:6
 msgid "メニューの構成"
@@ -28,27 +28,35 @@ msgstr "Menu structure"
 msgid "リボンバー（タブ）にある機能を紹介していきます。"
 msgstr "We will introduce the functions in the ribbon bar (tab)."
 
-#: ../../source/man1/menu.rst:11
+#: ../../source/man1/menu.rst:10
+msgid "目次"
+msgstr "Contents"
+
+#: ../../source/man1/menu.rst:13
 msgid "各タブ"
 msgstr "Each tab"
 
-#: ../../source/man1/menu.rst:27
+#: ../../source/man1/menu.rst:29
 msgid "リボンバーの開閉"
 msgstr "Opening and closing the ribbon bar"
 
-#: ../../source/man1/menu.rst:29
-msgid "リボンバーの右端のトグルスイッチをオフにすると、リボンバーをたたむことができます。 ver 2.6.0より対応しました。"
-msgstr "You can collapse the ribbon bar by turning off the toggle switch on the right end of the ribbon bar. Supported from ver 2.6.0."
+#: ../../source/man1/menu.rst:31
+msgid ""
+"リボンバーの右端のトグルスイッチをオフにすると、リボンバーをたたむことが"
+"できます。 ver 2.6.0より対応しました。"
+msgstr ""
+"You can collapse the ribbon bar by turning off the toggle switch on the "
+"right end of the ribbon bar. Supported from ver 2.6.0."
 
-#: ../../source/man1/menu.rst:34
+#: ../../source/man1/menu.rst:36
 msgid "リボンバーを閉じることでWebGL画面が広くなります。"
 msgstr "Closing the ribbon bar will make the WebGL screen wider."
 
-#: ../../source/man1/menu.rst:36
+#: ../../source/man1/menu.rst:38
 msgid "ribbonbar_show"
 msgstr "ribbonbar_show"
 
-#: ../../source/man1/menu.rst:37
+#: ../../source/man1/menu.rst:39
 msgid "ribbonbar_hidden"
 msgstr "ribbonbar_hidden"
 
@@ -68,14 +76,60 @@ msgstr "closed state"
 msgid "|ribbonbar_hidden|"
 msgstr "|ribbonbar_hidden|"
 
-#: ../../source/man1/menu.rst:44
+#: ../../source/man1/menu.rst:46
 msgid "リボンバーを畳んだ状態でタブを開く"
 msgstr "Open tabs with ribbon bar collapsed"
 
-#: ../../source/man1/menu.rst:46
-msgid "リボンバーを畳んだ状態で開くと、リボンバーのタブはWebGL画面やプロパティパネルの上に覆いかぶさるように表示されます。"
-msgstr "When the ribbon bar is collapsed and opened, the ribbon bar tabs will be displayed over the top of the WebGL screen and property panel."
+#: ../../source/man1/menu.rst:48
+msgid ""
+"リボンバーを畳んだ状態で開くと、リボンバーのタブはWebGL画面やプロパティパ"
+"ネルの上に覆いかぶさるように表示されます。"
+msgstr ""
+"When the ribbon bar is collapsed and opened, the ribbon bar tabs will be "
+"displayed over the top of the WebGL screen and property panel."
 
-#: ../../source/man1/menu.rst:53
-msgid "この状態でなにかメニューを実行するか、リボンバーのパネル名をクリックすると閉じることができます。"
-msgstr "In this state, you can close it by executing a menu item or clicking the panel name on the ribbon bar."
+#: ../../source/man1/menu.rst:55
+msgid ""
+"この状態でなにかメニューを実行するか、リボンバーのパネル名をクリックする"
+"と閉じることができます。"
+msgstr ""
+"In this state, you can close it by executing a menu item or clicking the "
+"panel name on the ribbon bar."
+
+#: ../../source/man1/menu.rst:59
+msgid "スワイプパネル"
+msgstr "Swipe panel"
+
+#: ../../source/man1/menu.rst:61
+msgid "ver 2.8.0よりリボンバーの各パネルにも導入しました。"
+msgstr ""
+"From ver 2.8.0, it has also been introduced to each panel of the ribbon "
+"bar."
+
+#: ../../source/man1/menu.rst:63
+msgid "リボンバーの全ての数値の入力ボックス"
+msgstr "All numerical input boxes on the ribbon bar"
+
+#: ../../source/man1/menu.rst
+msgid "左にスワイプ, 下にスワイプ"
+msgstr "Swipe left, swipe down"
+
+#: ../../source/man1/menu.rst:68
+msgid "値の減少"
+msgstr "Decrease in value"
+
+#: ../../source/man1/menu.rst
+msgid "右にスワイプ, 上にスワイプ"
+msgstr "Swipe right, swipe up"
+
+#: ../../source/man1/menu.rst:70
+msgid "値の増加"
+msgstr "increase in value"
+
+#: ../../source/man1/menu.rst:73
+msgid ""
+"スペースの関係上、入力ボックスの直下ではなく、真横に配置している場合もあ"
+"ります。"
+msgstr ""
+"Due to space constraints, it may be placed right next to the input box "
+"instead of directly below it."

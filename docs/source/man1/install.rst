@@ -30,8 +30,29 @@
 URL
 -----
 
-https://vrmviewmeister.azurewebsites.net
+通常モード
+^^^^^^^^^^^^^^^^^
 
+    PCやタブレット、VRデバイスでの利用を想定したモードのページです。
+
+    https://vrmviewmeister.azurewebsites.net
+
+    画面の見た目は :ref:`screenmain_normal` をご覧ください。
+
+    .. caution::
+        このモードをスマートフォン～ファブレットでも開くことはできますが、操作がしづらいと思います。
+
+モバイル表示モード
+^^^^^^^^^^^^^^^^^^^^^
+
+    モバイル端末での使用に最適化した画面構成のモードのページです。
+
+    https://vrmviewmeister.azurewebsites.net/mui
+
+    画面の見た目は :ref:`screenmain_mobile` をご覧ください。
+
+    .. caution::
+        このモードをPCでも開くことはできますが、いくつかのパネルが初期状態では閉じています。
 
 |
 

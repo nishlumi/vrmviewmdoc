@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-30 18:13+0900\n"
-"PO-Revision-Date: 2023-12-30 18:14+0900\n"
+"POT-Creation-Date: 2024-05-14 22:26+0900\n"
+"PO-Revision-Date: 2024-05-14 22:51+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man5/photograph.rst:3
 msgid "スクリーンショット"
@@ -76,27 +76,33 @@ msgstr "To view the screenshots you have taken, click \"List\"."
 msgid "※別ウィンドウでスクリーンショット一覧が表示されます。"
 msgstr "Screenshots will be displayed in a separate window."
 
-#: ../../source/man5/photograph.rst
-msgid "※ホームタブにはよく使うと思われる「キャプチャ」ボタンのみ置かれています。"
-msgstr "Only the \"capture\" button, which is thought to be used frequently, is placed on the home tab."
+#: ../../source/man5/photograph.rst:33
+msgid "スマートフォンなどのモバイル端末、MetaQuest3などのVRデバイスでは各機種標準の画面録画・スクリーンショット機能でも撮影することができます。"
+msgstr ""
+"With mobile terminals such as smartphones and VR devices such as MetaQuest3, you can also take pictures using the standard screen recording and "
+"screenshot functions of each model."
 
-#: ../../source/man5/photograph.rst
-msgid "※背景オプションで「**透明にする**」にチェックを入れると空と地面を透明にして撮影することができます。"
-msgstr "You can shoot with the sky and ground transparent by checking \"**Make transparent**\" in the background options."
+#: ../../source/man5/photograph.rst:36
+msgid "ホームタブにはよく使うと思われる「キャプチャ」ボタンのみ置かれています。"
+msgstr "On the home tab, there is only a \"capture\" button that is likely to be used often."
 
-#: ../../source/man5/photograph.rst
-msgid "※IKマーカーは設定変更しなくても自動的にカットされます。"
+#: ../../source/man5/photograph.rst:37
+msgid "背景オプションで「**透明にする**」にチェックを入れると空と地面を透明にして撮影することができます。"
+msgstr "If you check \" **Make Transparent** \" in the background options, you can make the sky and ground transparent."
+
+#: ../../source/man5/photograph.rst:38
+msgid "IKマーカーは設定変更しなくても自動的にカットされます。"
 msgstr "IK markers are automatically cut without changing settings."
 
-#: ../../source/man5/photograph.rst:44
+#: ../../source/man5/photograph.rst:46
 msgid "見る"
 msgstr "look"
 
-#: ../../source/man5/photograph.rst:46
+#: ../../source/man5/photograph.rst:48
 msgid "撮影したスクリーンショットはアプリ内に保存されます。別ウィンドウですべて閲覧したり必要に応じて保存することができます。"
 msgstr "The screenshots you take are saved in the app. All can be viewed in a separate window and saved as needed."
 
-#: ../../source/man5/photograph.rst:49
+#: ../../source/man5/photograph.rst:51
 msgid "リボンバーの画面タブにある「一覧」をクリックして開きます。"
 msgstr "Click “List” on the screen tab of the ribbon bar to open it."
 
@@ -104,27 +110,27 @@ msgstr "Click “List” on the screen tab of the ribbon bar to open it."
 msgid "できること"
 msgstr "What you can do"
 
-#: ../../source/man5/photograph.rst:57
+#: ../../source/man5/photograph.rst:59
 msgid "時系列で表示"
 msgstr "display in chronological order"
 
-#: ../../source/man5/photograph.rst:58
+#: ../../source/man5/photograph.rst:60
 msgid "最新の状態に更新（メイン画面で撮影しても別ウィンドウにはすぐに反映されないため）"
 msgstr "Update to the latest state (because shooting on the main screen is not immediately reflected in another window)"
 
-#: ../../source/man5/photograph.rst:59
+#: ../../source/man5/photograph.rst:61
 msgid "削除"
 msgstr "Remove"
 
-#: ../../source/man5/photograph.rst:60
+#: ../../source/man5/photograph.rst:62
 msgid "ローカルディスクに保存"
 msgstr "Save to local disk"
 
-#: ../../source/man5/photograph.rst:61
+#: ../../source/man5/photograph.rst:63
 msgid "共有（ver 2.3.0より）"
 msgstr "Share (from ver 2.3.0)"
 
-#: ../../source/man5/photograph.rst:70
+#: ../../source/man5/photograph.rst:72
 msgid ""
 "Cameraオブジェクトが1つ以上存在する場合、いずれかでプレビューをするとその映像がスクリーンショットの対象になります。すべてをプレビュー停止すると、メインカ"
 "メラからの映像に戻ります。"
@@ -132,7 +138,7 @@ msgstr ""
 "If there is more than one Camera object, previewing with one of them will make that image the target of the screenshot. When you stop previewing "
 "everything, it will return to the image from the main camera."
 
-#: ../../source/man5/photograph.rst:72
+#: ../../source/man5/photograph.rst:74
 msgid ""
 "ビューポートやレンダーテクスチャ中のプレビューも反映されてしまうため、必要に応じて設定の「スクリーンショットをHTMLの機能で撮影する」をONにしてください。そ"
 "うするとWebGL画面に写った(Cameraオブジェクトのビューポートやレンダーテクスチャ含め)そのままがスクリーンショットになります。"
@@ -140,66 +146,66 @@ msgstr ""
 "Since the preview in the viewport and render texture is also reflected, please turn on \"Take screenshots with HTML function\" in the settings as "
 "necessary. Then, the screen shot will be taken as it is (including the camera object viewport and render texture) on the WebGL screen."
 
-#: ../../source/man5/photograph.rst:80
+#: ../../source/man5/photograph.rst:82
 msgid "探す"
 msgstr "Search"
 
-#: ../../source/man5/photograph.rst:82
+#: ../../source/man5/photograph.rst:84
 msgid "撮影したスクリーンショットは日付順に管理されており、カレンダーから特定の日付だけを探すことが可能です。"
 msgstr "The screenshots taken are managed in date order, and it is possible to search for specific dates from the calendar."
 
-#: ../../source/man5/photograph.rst:89
+#: ../../source/man5/photograph.rst:91
 msgid "スクリーンショットがある日付は日にちの色が濃くなっていてクリックできるようになっています。"
 msgstr "Dates with screenshots are darkened and clickable."
 
-#: ../../source/man5/photograph.rst:91
+#: ../../source/man5/photograph.rst:93
 msgid "色が濃くなっている日にちをクリックします。"
 msgstr "Click the darkened date."
 
-#: ../../source/man5/photograph.rst:92
+#: ../../source/man5/photograph.rst:94
 msgid "スクリーンショット一覧の表示内容が更新され、選択した日にちのスクリーンショットが並びます。"
 msgstr "The displayed contents of the screenshot list are updated, and the screenshots for the selected date are displayed."
 
-#: ../../source/man5/photograph.rst:97
+#: ../../source/man5/photograph.rst:99
 msgid "保存する"
 msgstr "Save"
 
-#: ../../source/man5/photograph.rst:99
+#: ../../source/man5/photograph.rst:101
 msgid "dwnbtn"
 msgstr "dwnbtn"
 
-#: ../../source/man5/photograph.rst:101
+#: ../../source/man5/photograph.rst:103
 msgid "保存したいスクリーンショットを選択します。"
 msgstr "Select the screenshot you want to save."
 
-#: ../../source/man5/photograph.rst:102
+#: ../../source/man5/photograph.rst:104
 msgid "ツールバー上のこのボタン |dwnbtn| を押します。"
 msgstr "Press this button |dwnbtn| on the toolbar."
 
-#: ../../source/man5/photograph.rst:105
+#: ../../source/man5/photograph.rst:107
 msgid "※ブラウザからの利用の場合、右クリックでも画像をクリップボードにコピーしたりその他機能を利用可能です。"
 msgstr "When using from a browser, you can also copy the image to the clipboard and use other functions by right-clicking."
 
-#: ../../source/man5/photograph.rst:108
+#: ../../source/man5/photograph.rst:110
 msgid "共有する"
 msgstr "Share"
 
-#: ../../source/man5/photograph.rst:110
+#: ../../source/man5/photograph.rst:112
 msgid "ver 2.3.0より、画像の共有に対応しました。ブラウザから利用する場合のみ使用できます。"
 msgstr "From ver 2.3.0, image sharing is supported. It can only be used from a browser."
 
-#: ../../source/man5/photograph.rst:112
+#: ../../source/man5/photograph.rst:114
 msgid "shrbtn"
 msgstr "shrbtn"
 
-#: ../../source/man5/photograph.rst:114
+#: ../../source/man5/photograph.rst:116
 msgid "共有したいスクリーンショットを選択します。"
 msgstr "Select the screenshot you want to share."
 
-#: ../../source/man5/photograph.rst:115
+#: ../../source/man5/photograph.rst:117
 msgid "ツールバー上の |shrbtn| 共有ボタンを押します。"
 msgstr "Press the |shrbtn| share button on the toolbar."
 
-#: ../../source/man5/photograph.rst:116
+#: ../../source/man5/photograph.rst:118
 msgid "各OSごとに共有機能のウィンドウが表示されるので、送りたい先のアプリを選択します。"
 msgstr "A sharing function window will be displayed for each OS, so select the app you want to send."
