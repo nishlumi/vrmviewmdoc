@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 20:52+0900\n"
+"POT-Creation-Date: 2024-05-26 15:36+0900\n"
+"PO-Revision-Date: 2024-05-26 15:39+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,17 +18,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/screen_gravity.rst:5
 msgid "重力設定"
 msgstr "gravity settings"
 
 #: ../../source/man1/screen_gravity.rst:10
-msgid "VRoid/VRMの場合に使う機能です。本アプリで用いるモデルのボーンにかかる重力を手動で調整できます。本ウィンドウはドラッグ可能です。"
-msgstr "This function is used for VRoid/VRM. You can manually adjust the gravity applied to the bones of the model used in this application. This window is draggable."
+msgid ""
+"VRoid/VRMの場合に使う機能です。本アプリで用いるモデルのボーンにかかる重力"
+"を手動で調整できます。本ウィンドウはドラッグ可能です。"
+msgstr ""
+"This function is used for VRoid/VRM. You can manually adjust the gravity "
+"applied to the bones of the model used in this application. This window "
+"is draggable."
 
 #: ../../source/man1/screen_gravity.rst:12
+msgid ""
+"ver 2.9.0より、設定により外部ウィンドウに表示することもできるようになりま"
+"した。"
+msgstr ""
+"From ver 2.9.0, it is now possible to display in an external window by "
+"setting."
+
+#: ../../source/man1/screen_gravity.rst:14
 msgid "**上部：**"
 msgstr "**Top:**"
 
@@ -36,7 +49,7 @@ msgstr "**Top:**"
 msgid "重力設定を適用"
 msgstr "Apply Gravity Settings"
 
-#: ../../source/man1/screen_gravity.rst:15
+#: ../../source/man1/screen_gravity.rst:17
 msgid "下部のスプレッドシートで指定した値で重力を適用。"
 msgstr "Apply gravity with the values specified in the spreadsheet below."
 
@@ -44,11 +57,11 @@ msgstr "Apply gravity with the values specified in the spreadsheet below."
 msgid "再読み込み"
 msgstr "Reload"
 
-#: ../../source/man1/screen_gravity.rst:17
+#: ../../source/man1/screen_gravity.rst:19
 msgid "現在の重力の情報を再読み込みする。"
 msgstr "Reload the current gravity information."
 
-#: ../../source/man1/screen_gravity.rst:20
+#: ../../source/man1/screen_gravity.rst:22
 msgid "**下部：**"
 msgstr "**Bottom:**"
 
@@ -56,6 +69,10 @@ msgstr "**Bottom:**"
 msgid "スプレッドシート"
 msgstr "Spreadsheet"
 
-#: ../../source/man1/screen_gravity.rst:23
-msgid "存在するボーンごとの重力の強さ（Power）、方向（Direction X, Y, Z）を小数点含めて入力。"
-msgstr "存在するボーンごとの重力の強さ（Power）、方向（Direction X, Y, Z）を小数点含めて入力。"
+#: ../../source/man1/screen_gravity.rst:25
+msgid ""
+"存在するボーンごとの重力の強さ（Power）、方向（Direction X, Y, Z）を小数点"
+"含めて入力。"
+msgstr ""
+"Enter the gravity strength (Power) and direction (Direction X, Y, Z) for "
+"each existing bone, including the decimal point."

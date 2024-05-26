@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 22:26+0900\n"
-"PO-Revision-Date: 2024-05-14 22:48+0900\n"
+"POT-Creation-Date: 2024-05-26 15:36+0900\n"
+"PO-Revision-Date: 2024-05-26 15:43+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -155,7 +155,7 @@ msgstr "Move the right stick forward/backward"
 
 #: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:53
 #: ../../source/man5/vrar_operation.rst:57 ../../source/man5/vrar_operation.rst:71
-#: ../../source/man5/vrar_operation.rst:76 ../../source/man5/vrar_operation.rst:207
+#: ../../source/man5/vrar_operation.rst:76 ../../source/man5/vrar_operation.rst:236
 msgid "右手の仮想コントローラ"
 msgstr "right hand virtual controller"
 
@@ -272,7 +272,67 @@ msgstr "mobilectrlland"
 msgid "mobilectrlfoot"
 msgstr "mobilectrlfoot"
 
-#: ../../source/man5/vrar_operation.rst:109
+#: ../../source/man5/vrar_operation.rst:106
+msgid "mobilectrlvrmbone"
+msgstr "mobilectrlvrmbone"
+
+#: ../../source/man5/vrar_operation.rst:112
+msgid "各ボタンの機能について"
+msgstr "About the functions of each button"
+
+#: ../../source/man5/vrar_operation.rst:114
+msgid ""
+"同じアイコンのボタンは、VR・モバイル端末時どちらの場合も同じ機能が使用可能です。（配置は"
+"若干異なります）"
+msgstr ""
+"Buttons with the same icon can have the same functions in both VR and mobile devices. "
+"(Placement may vary slightly)"
+
+#: ../../source/man5/vrar_operation.rst:121
+msgid "仮想コントローラ(VR)"
+msgstr "Virtual controller (VR)"
+
+#: ../../source/man5/vrar_operation.rst:123
+msgid "実際のコントローラと同じく左右の手元に表示されます。"
+msgstr "It will be displayed on the left and right hand like the actual controller."
+
+#: ../../source/man5/vrar_operation.rst:125
+msgid "デフォルトでは邪魔にならないように非表示になっています。"
+msgstr "By default it is hidden to avoid distractions."
+
+#: ../../source/man5/vrar_operation.rst:127
+msgid ""
+"ハンドトラッキング時は全ての指先が当たり判定になっており、指先とボタンを重ねるとボタンが"
+"沈み込みます。VRデバイスのコントローラではトリガー時の人差し指のみです。"
+msgstr ""
+"During hand tracking, all fingertips are used as collision detection, and if you overlap "
+"your fingertips with the button, the button will sink. For VR device controllers, only "
+"the index finger is used when triggering."
+
+#: ../../source/man5/vrar_operation.rst:129
+msgid "黄色のCube"
+msgstr "yellow cube"
+
+#: ../../source/man5/vrar_operation.rst:130
+msgid ""
+"仮想の手の指先で触れると仮想コントローラが表示されます。VRデバイスのみ表示されます。"
+msgstr ""
+"When you touch it with the fingertips of your virtual hand, a virtual controller will "
+"appear. Only VR devices are displayed."
+
+#: ../../source/man5/vrar_operation.rst:133
+msgid "青色のCube"
+msgstr "blue cube"
+
+#: ../../source/man5/vrar_operation.rst:132
+msgid ""
+"仮想の手の指先で触れるとアニメーションの再生・一時停止をします。VRデバイスのみ表示されま"
+"す。"
+msgstr ""
+"Touch it with the fingertip of your virtual hand to play or pause the animation. Only VR "
+"devices are displayed."
+
+#: ../../source/man5/vrar_operation.rst:135
 msgid "仮想の手"
 msgstr "virtual hand"
 
@@ -287,74 +347,6 @@ msgstr "|vrarctrl_on|"
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|vrarctrl_off|"
 msgstr "|vrarctrl_off|"
-
-#: ../../source/man5/vrar_operation.rst:114
-msgid "**仮想コントローラ**"
-msgstr "**Virtual Controller**"
-
-#: ../../source/man5/vrar_operation.rst
-msgid "VRデバイス"
-msgstr "VR device"
-
-#: ../../source/man5/vrar_operation.rst:116
-msgid "実際のコントローラと同じく左右の手元に表示されます。"
-msgstr "It will be displayed on the left and right hand like the actual controller."
-
-#: ../../source/man5/vrar_operation.rst:118
-msgid "画面の左下・右下にメニューパネルとして表示されます。"
-msgstr "It is displayed as a menu panel at the bottom left and bottom right of the screen."
-
-#: ../../source/man5/vrar_operation.rst:120
-msgid "デフォルトでは邪魔にならないように非表示になっています。"
-msgstr "By default it is hidden to avoid distractions."
-
-#: ../../source/man5/vrar_operation.rst:122
-msgid ""
-"ハンドトラッキング時は全ての指先が当たり判定になっており、指先とボタンを重ねるとボタンが"
-"沈み込みます。VRデバイスのコントローラではトリガー時の人差し指のみです。"
-msgstr ""
-"During hand tracking, all fingertips are used as collision detection, and if you overlap "
-"your fingertips with the button, the button will sink. For VR device controllers, only "
-"the index finger is used when triggering."
-
-#: ../../source/man5/vrar_operation.rst:124
-msgid "黄色のCube"
-msgstr "yellow cube"
-
-#: ../../source/man5/vrar_operation.rst:125
-msgid ""
-"仮想の手の指先で触れると仮想コントローラが表示されます。VRデバイスのみ表示されます。"
-msgstr ""
-"When you touch it with the fingertips of your virtual hand, a virtual controller will "
-"appear. Only VR devices are displayed."
-
-#: ../../source/man5/vrar_operation.rst:127
-msgid "青色のCube"
-msgstr "blue cube"
-
-#: ../../source/man5/vrar_operation.rst:127
-msgid ""
-"仮想の手の指先で触れるとアニメーションの再生・一時停止をします。VRデバイスのみ表示されま"
-"す。"
-msgstr ""
-"Touch it with the fingertip of your virtual hand to play or pause the animation. Only VR "
-"devices are displayed."
-
-#: ../../source/man5/vrar_operation.rst:131
-msgid "各ボタンの機能について"
-msgstr "About the functions of each button"
-
-#: ../../source/man5/vrar_operation.rst:130
-msgid ""
-"同じアイコンのボタンは、VR・モバイル端末時どちらの場合も同じ機能が使用可能です。（配置は"
-"若干異なります）"
-msgstr ""
-"Buttons with the same icon can have the same functions in both VR and mobile devices. "
-"(Placement may vary slightly)"
-
-#: ../../source/man5/vrar_operation.rst:136
-msgid "仮想コントローラ(VR)"
-msgstr "Virtual controller (VR)"
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "左手"
@@ -372,9 +364,15 @@ msgstr "|leftctrl|"
 msgid "|rightctrl|"
 msgstr "|rightctrl|"
 
-#: ../../source/man5/vrar_operation.rst:142
+#: ../../source/man5/vrar_operation.rst:147
 msgid "仮想コントローラ(モバイル)"
 msgstr "Virtual controller (mobile)"
+
+#: ../../source/man5/vrar_operation.rst:149
+msgid "画面の左下・右下・右上にメニューパネルとして表示されます。"
+msgstr ""
+"It is displayed as a menu panel at the bottom left, bottom right, and top right of the "
+"screen."
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "ポートレート"
@@ -392,18 +390,26 @@ msgstr "|mobilectrlport|"
 msgid "|mobilectrlland|"
 msgstr "|mobilectrlland|"
 
-#: ../../source/man5/vrar_operation.rst:155
-msgid "モバイル端末時 |mobilectrlfoot|"
-msgstr "On mobile device |mobilectrlfoot|"
+#: ../../source/man5/vrar_operation.rst:167
+msgid "フッター"
+msgstr "Footer"
 
-#: ../../source/man5/vrar_operation.rst:149
+#: ../../source/man5/vrar_operation.rst:159
+msgid "|mobilectrlfoot|"
+msgstr "|mobilectrlfoot|"
+
+#: ../../source/man5/vrar_operation.rst:161
 msgid ""
-"フッター。左から順に次の機能を利用できます。モバイル端末の画面録画やスクリーンショット機"
-"能を使っていただくため、赤枠の部分は実際には何も表示されません。"
+"画面下にある見えないボタンです。モバイル端末の画面録画やスクリーンショット機能を使ってい"
+"ただくため、赤枠の部分は実際には何も表示されません。"
 msgstr ""
-"footer. The following functions are available from left to right: Since you will be "
-"using your mobile device's screen recording and screenshot functions, nothing will "
-"actually be displayed in the red frame."
+"It's an invisible button at the bottom of the screen. Since you will be using your "
+"mobile device's screen recording and screenshot functions, nothing will actually be "
+"displayed in the red frame."
+
+#: ../../source/man5/vrar_operation.rst:163
+msgid "左から順に次の機能を利用できます。"
+msgstr "The following functions are available from left to right:"
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "左の仮想コントローラを表示/非表示"
@@ -417,47 +423,87 @@ msgstr "Animation play/pause"
 msgid "右の仮想コントローラを表示/非表示"
 msgstr "Show/hide virtual controller on the right"
 
-#: ../../source/man5/vrar_operation.rst:157
+#: ../../source/man5/vrar_operation.rst:181
+msgid "VRMのボーン選択"
+msgstr "To select a VRM bone"
+
+#: ../../source/man5/vrar_operation.rst:172
+msgid "|mobilectrlvrmbone|"
+msgstr "|mobilectrlvrmbone|"
+
+#: ../../source/man5/vrar_operation.rst:174
+msgid ""
+"右の仮想コントローラの |rightctrl12| をタップすると表示されます。操作対象をVRMに切り替え"
+"たうえで |rightctrl05| をタップするとこのボタンが表示されます。"
+msgstr ""
+"It will be displayed when you tap |rightctrl12| on the right virtual controller. This "
+"button will be displayed when you switch the operation target to VRM and tap |"
+"rightctrl05| ."
+
+#: ../../source/man5/vrar_operation.rst:230
+msgid "rightctrl12"
+msgstr "rightctrl12"
+
+#: ../../source/man5/vrar_operation.rst:223
+msgid "rightctrl05"
+msgstr "rightctrl05"
+
+#: ../../source/man5/vrar_operation.rst:176
+msgid ""
+"X/Y/Z軸の操作対象を各ボーンに切り替えます。操作したいボーンのボタンをタップしてください。"
+msgstr ""
+"Switch the X/Y/Z axis operation target to each bone. Tap the button for the bone you "
+"want to operate."
+
+#: ../../source/man5/vrar_operation.rst:178
+msgid "アイコンとその意味は :ref:`inputikasmarker` を御覧ください。"
+msgstr "See :ref:`inputikasmarker` for icons and their meanings."
+
+#: ../../source/man5/vrar_operation.rst:183
 msgid "leftctrl01"
 msgstr "leftctrl01"
 
-#: ../../source/man5/vrar_operation.rst:158
+#: ../../source/man5/vrar_operation.rst:184
 msgid "leftctrl02"
 msgstr "leftctrl02"
 
-#: ../../source/man5/vrar_operation.rst:159
+#: ../../source/man5/vrar_operation.rst:185
 msgid "leftctrl03"
 msgstr "leftctrl03"
 
-#: ../../source/man5/vrar_operation.rst:160
+#: ../../source/man5/vrar_operation.rst:186
 msgid "leftctrl04"
 msgstr "leftctrl04"
 
-#: ../../source/man5/vrar_operation.rst:161
+#: ../../source/man5/vrar_operation.rst:187
 msgid "leftctrl05"
 msgstr "leftctrl05"
 
-#: ../../source/man5/vrar_operation.rst:162
+#: ../../source/man5/vrar_operation.rst:188
 msgid "leftctrl06"
 msgstr "leftctrl06"
 
-#: ../../source/man5/vrar_operation.rst:163
+#: ../../source/man5/vrar_operation.rst:189
 msgid "leftctrl07"
 msgstr "leftctrl07"
 
-#: ../../source/man5/vrar_operation.rst:164
+#: ../../source/man5/vrar_operation.rst:190
 msgid "leftctrl08"
 msgstr "leftctrl08"
 
-#: ../../source/man5/vrar_operation.rst:165
+#: ../../source/man5/vrar_operation.rst:191
 msgid "leftctrl09"
 msgstr "leftctrl09"
 
-#: ../../source/man5/vrar_operation.rst:166
+#: ../../source/man5/vrar_operation.rst:192
 msgid "leftctrl10"
 msgstr "leftctrl10"
 
-#: ../../source/man5/vrar_operation.rst:172
+#: ../../source/man5/vrar_operation.rst:193
+msgid "leftctrl11"
+msgstr "leftctrl11"
+
+#: ../../source/man5/vrar_operation.rst:199
 msgid "左手の仮想コントローラ"
 msgstr "left hand virtual controller"
 
@@ -588,47 +634,55 @@ msgstr ""
 "(OtherObject only) Set the shader of all materials of the object to Cutout to make them "
 "transparent. See below for details. (texture :ref:`shader_cutout`  )"
 
-#: ../../source/man5/vrar_operation.rst:191
+#: ../../source/man5/vrar_operation.rst:1
+msgid "|leftctrl11|"
+msgstr "|leftctrl11|"
+
+#: ../../source/man5/vrar_operation.rst:1
+msgid ""
+"操作モードの軸の基準を G - ``グローバル座標`` または L - ``ローカル座標`` に切り替えま"
+"す。"
+msgstr ""
+"Switches the axis reference of the operating mode to G - ``Global Coordinates`` or L - "
+"``Local Coordinates`` ."
+
+#: ../../source/man5/vrar_operation.rst:219
 msgid "rightctrl01"
 msgstr "rightctrl01"
 
-#: ../../source/man5/vrar_operation.rst:192
+#: ../../source/man5/vrar_operation.rst:220
 msgid "rightctrl02"
 msgstr "rightctrl02"
 
-#: ../../source/man5/vrar_operation.rst:193
+#: ../../source/man5/vrar_operation.rst:221
 msgid "rightctrl03"
 msgstr "rightctrl03"
 
-#: ../../source/man5/vrar_operation.rst:194
+#: ../../source/man5/vrar_operation.rst:222
 msgid "rightctrl04"
 msgstr "rightctrl04"
 
-#: ../../source/man5/vrar_operation.rst:195
-msgid "rightctrl05"
-msgstr "rightctrl05"
-
-#: ../../source/man5/vrar_operation.rst:196
+#: ../../source/man5/vrar_operation.rst:224
 msgid "rightctrl06"
 msgstr "rightctrl06"
 
-#: ../../source/man5/vrar_operation.rst:197
+#: ../../source/man5/vrar_operation.rst:225
 msgid "rightctrl07"
 msgstr "rightctrl07"
 
-#: ../../source/man5/vrar_operation.rst:198
+#: ../../source/man5/vrar_operation.rst:226
 msgid "rightctrl08"
 msgstr "rightctrl08"
 
-#: ../../source/man5/vrar_operation.rst:199
+#: ../../source/man5/vrar_operation.rst:227
 msgid "rightctrl09"
 msgstr "rightctrl09"
 
-#: ../../source/man5/vrar_operation.rst:200
+#: ../../source/man5/vrar_operation.rst:228
 msgid "rightctrl10"
 msgstr "rightctrl10"
 
-#: ../../source/man5/vrar_operation.rst:201
+#: ../../source/man5/vrar_operation.rst:229
 msgid "rightctrl11"
 msgstr "rightctrl11"
 
@@ -671,6 +725,14 @@ msgstr "|rightctrl05|"
 #: ../../source/man5/vrar_operation.rst:1
 msgid "操作対象を ``現在選択中の3Dオブジェクト`` にします。"
 msgstr "Sets the operation target to the ``currently selected 3D object``."
+
+#: ../../source/man5/vrar_operation.rst:1
+msgid "|rightctrl12|"
+msgstr "|rightctrl12|"
+
+#: ../../source/man5/vrar_operation.rst:1
+msgid "操作対象を ``VRMの各ボーン`` にします。(モバイル端末のみ)"
+msgstr "Set the operation target to ``Each bone of VRM``. (Mobile devices only)"
 
 #: ../../source/man5/vrar_operation.rst:1
 msgid "|rightctrl06|"
@@ -720,19 +782,19 @@ msgstr "|rightctrl11|"
 msgid "現在選択中のオブジェクトのサイズをリセットします。"
 msgstr "Resets the size of the currently selected object."
 
-#: ../../source/man5/vrar_operation.rst:226
+#: ../../source/man5/vrar_operation.rst:256
 msgid "上記以外の操作は通常画面に戻って行ってください。"
 msgstr "For operations other than those listed above, return to the normal screen."
 
-#: ../../source/man5/vrar_operation.rst:229
+#: ../../source/man5/vrar_operation.rst:259
 msgid "操作のまとめ"
 msgstr "Summary of operations"
 
-#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:271
+#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:301
 msgid "Meta Quest 3"
 msgstr "Meta Quest 3"
 
-#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:275
+#: ../../source/man5/vrar_operation.rst:1 ../../source/man5/vrar_operation.rst:305
 msgid "PICO4"
 msgstr "PICO4"
 
@@ -785,10 +847,6 @@ msgid "VRMの移動・回転"
 msgstr "Moving/rotating VRM"
 
 #: ../../source/man5/vrar_operation.rst:1
-msgid "不可"
-msgstr "Not possible"
-
-#: ../../source/man5/vrar_operation.rst:1
 msgid "VRM以外の移動・回転"
 msgstr "Moving/rotating other than VRM"
 
@@ -796,7 +854,7 @@ msgstr "Moving/rotating other than VRM"
 msgid "掴むor右手の仮想コントローラ"
 msgstr "Grasp or right hand virtual controller"
 
-#: ../../source/man5/vrar_operation.rst:243
+#: ../../source/man5/vrar_operation.rst:273
 msgid ""
 "本アプリのメインカメラとVR機器のカメラ（視点）にズレが生じた場合、各VR機器を操作して視点"
 "を中央に戻してください。"
@@ -805,7 +863,7 @@ msgstr ""
 "(viewpoint) of the VR device, please operate each VR device to return the viewpoint to "
 "the center."
 
-#: ../../source/man5/vrar_operation.rst:246
+#: ../../source/man5/vrar_operation.rst:276
 msgid ""
 "PICO4のブラウザアプリでは、コントローラのBとYはブラウザの ``戻る`` に機能が割り当てられて"
 "いると思われます。そのため、誤って押した場合は確認メッセージをよく見て操作してください。"
@@ -814,15 +872,15 @@ msgstr ""
 "browser's ``back`` button. Therefore, if you press it by mistake, carefully read the "
 "confirmation message before proceeding."
 
-#: ../../source/man5/vrar_operation.rst:250
+#: ../../source/man5/vrar_operation.rst:280
 msgid "便利な操作機能"
 msgstr "Convenient operation functions"
 
-#: ../../source/man5/vrar_operation.rst:258
+#: ../../source/man5/vrar_operation.rst:288
 msgid "VR/AR環境におけるV-pad"
 msgstr "V-pad in VR/AR environment"
 
-#: ../../source/man5/vrar_operation.rst:260
+#: ../../source/man5/vrar_operation.rst:290
 msgid ""
 "VR機器だとマウスに相当するのがコントローラです。ただしマウスと異なり細かい作業に向きませ"
 "ん。本アプリではマウスが使えない環境でもある程度操作できるように、 ``V-pad`` という機能を"
@@ -832,11 +890,11 @@ msgstr ""
 "is not suitable for detailed work. This app provides a function called ``V-pad`` so that "
 "you can operate it to some extent even in environments where you cannot use a mouse."
 
-#: ../../source/man5/vrar_operation.rst:262
+#: ../../source/man5/vrar_operation.rst:292
 msgid "VR機器でもそれを使えば、通常画面を操作できます。"
 msgstr "You can also use it on VR devices to operate the regular screen."
 
-#: ../../source/man5/vrar_operation.rst:267
+#: ../../source/man5/vrar_operation.rst:297
 msgid ""
 "このV-padはそれぞれの四角の中をスワイプすることによってメインカメラを移動したり回転できま"
 "す。VR機器では、製品によって若干操作感が変わります。"
@@ -844,13 +902,13 @@ msgstr ""
 "This V-pad allows you to move and rotate the main camera by swiping inside each square. "
 "The operating feel of VR devices varies slightly depending on the product."
 
-#: ../../source/man5/vrar_operation.rst:270 ../../source/man5/vrar_operation.rst:274
+#: ../../source/man5/vrar_operation.rst:300 ../../source/man5/vrar_operation.rst:304
 msgid "トリガーを押しながらV-pad内の四角の中をコントローラを動かすことで操作できます。"
 msgstr ""
 "You can operate by holding down the trigger and moving the controller inside the square "
 "inside the V-pad."
 
-#: ../../source/man5/vrar_operation.rst:271
+#: ../../source/man5/vrar_operation.rst:301
 msgid ""
 "メインカメラの回転は両方のコントローラのトリガーを押しながらWebGL画面にフォーカスを当てる"
 "と操作できます。"
@@ -858,14 +916,14 @@ msgstr ""
 "You can rotate the main camera by holding the triggers on both controllers and focusing "
 "on the WebGL screen."
 
-#: ../../source/man5/vrar_operation.rst:275
+#: ../../source/man5/vrar_operation.rst:305
 msgid ""
 "V-pad内の四角の中をスティックで動かすだけで操作できます。 ``一番お勧め`` の操作方法です。"
 msgstr ""
 "You can operate it by simply moving the stick within the squares on the V-pad. This is "
 "the ``most recommended`` method of operation."
 
-#: ../../source/man5/vrar_operation.rst:278
+#: ../../source/man5/vrar_operation.rst:308
 msgid ""
 "反応速度が良すぎる場合があります。その場合は設定の ``アプリケーション`` から、V-padの移動"
 "速度と回転速度を調整してください。"
@@ -873,18 +931,18 @@ msgstr ""
 "The reaction rate may be too fast. In that case, please adjust the movement speed and "
 "rotation speed of the V-pad from ``Application`` in the settings."
 
-#: ../../source/man5/vrar_operation.rst:284
+#: ../../source/man5/vrar_operation.rst:314
 msgid "オブジェクトのtransform"
 msgstr "Object transformation"
 
-#: ../../source/man5/vrar_operation.rst:286
+#: ../../source/man5/vrar_operation.rst:316
 msgid ""
 "選択中のオブジェクトの移動・回転・リサイズを行うには右手の仮想コントローラを使います。"
 msgstr ""
 "Use the virtual controller on your right hand to move, rotate, and resize the selected "
 "object."
 
-#: ../../source/man5/vrar_operation.rst:288
+#: ../../source/man5/vrar_operation.rst:318
 msgid ""
 "移動と回転はVRデバイスのコントローラまたはハンドトラッキングで直接掴んで動かすこともでき"
 "ますが、細かい調整をしたい場合は仮想コントローラで行うほうがよいでしょう。"
@@ -893,7 +951,7 @@ msgstr ""
 "tracking, but if you want to make fine adjustments, it's better to use a virtual "
 "controller."
 
-#: ../../source/man5/vrar_operation.rst:291
+#: ../../source/man5/vrar_operation.rst:321
 msgid ""
 "下記のいずれの操作も、設定の ``アプリケーション`` タブにあるVR/ARの移動速度と回転速度を調"
 "整してください。"
@@ -901,51 +959,51 @@ msgstr ""
 "For any of the operations below, please adjust the VR/AR movement speed and rotation "
 "speed in the ``Applications`` tab of the settings."
 
-#: ../../source/man5/vrar_operation.rst:292
+#: ../../source/man5/vrar_operation.rst:322
 msgid "基準はローカル軸です。"
 msgstr "The reference is the local axis."
 
-#: ../../source/man5/vrar_operation.rst:300
+#: ../../source/man5/vrar_operation.rst:330
 msgid "移動モード"
 msgstr "Positioning mode"
 
-#: ../../source/man5/vrar_operation.rst:295
+#: ../../source/man5/vrar_operation.rst:325
 msgid "|rightctrl06| を押して移動モードに切り替えます。"
 msgstr "Press |rightctrl06| to switch to move mode."
 
-#: ../../source/man5/vrar_operation.rst:296
+#: ../../source/man5/vrar_operation.rst:326
 msgid "下記のいずれかを押してその軸に沿って移動させます。"
 msgstr "Press one of the following to move along that axis."
 
-#: ../../source/man5/vrar_operation.rst:304
+#: ../../source/man5/vrar_operation.rst:334
 msgid "回転モード"
 msgstr "Rotation mode"
 
-#: ../../source/man5/vrar_operation.rst:303
+#: ../../source/man5/vrar_operation.rst:333
 msgid "|rightctrl07| を押して回転モードに切り替えます。"
 msgstr "Press |rightctrl07| to switch to rotation mode."
 
-#: ../../source/man5/vrar_operation.rst:304
+#: ../../source/man5/vrar_operation.rst:334
 msgid "上図のボタンを押して回転させます。"
 msgstr "Press the button shown above to rotate."
 
-#: ../../source/man5/vrar_operation.rst:308
+#: ../../source/man5/vrar_operation.rst:338
 msgid "リサイズモード"
 msgstr "resize mode"
 
-#: ../../source/man5/vrar_operation.rst:307
+#: ../../source/man5/vrar_operation.rst:337
 msgid "|rightctrl10| を押してリサイズモードに切り替えます。"
 msgstr "Press |rightctrl10| to switch to resize mode."
 
-#: ../../source/man5/vrar_operation.rst:308
+#: ../../source/man5/vrar_operation.rst:338
 msgid "上図のボタンを押してサイズを変更します。"
 msgstr "Press the button shown above to change the size."
 
-#: ../../source/man5/vrar_operation.rst:316
+#: ../../source/man5/vrar_operation.rst:346
 msgid "変更をリセットする"
 msgstr "Reset changes"
 
-#: ../../source/man5/vrar_operation.rst:311
+#: ../../source/man5/vrar_operation.rst:341
 msgid "以下のいずれかのボタンを押してください。"
 msgstr "Please press one of the buttons below."
 
@@ -980,3 +1038,15 @@ msgstr "Please press one of the buttons below."
 
 #~ msgid "V-pad"
 #~ msgstr "V-pad"
+
+#~ msgid "**仮想コントローラ**"
+#~ msgstr "**Virtual Controller**"
+
+#~ msgid "VRデバイス"
+#~ msgstr "VR device"
+
+#~ msgid "モバイル端末時 |mobilectrlfoot|"
+#~ msgstr "On mobile device |mobilectrlfoot|"
+
+#~ msgid "不可"
+#~ msgstr "Not possible"

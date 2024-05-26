@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-26 11:46+0900\n"
-"PO-Revision-Date: 2023-12-29 13:00+0900\n"
+"POT-Creation-Date: 2024-05-26 15:36+0900\n"
+"PO-Revision-Date: 2024-05-26 15:39+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/screen_pose.rst:5
 msgid "ポーズ・モーション一覧"
@@ -49,23 +49,31 @@ msgstr ""
 "will open. It is a separate window from the app."
 
 #: ../../source/man1/screen_pose.rst:18
+msgid ""
+"ver 2.9.0より、設定によりアプリのメインウィンドウ内部に表示することもできるよう"
+"になりました。"
+msgstr ""
+"From ver 2.9.0, it is now possible to display it inside the main window of the "
+"app by setting."
+
+#: ../../source/man1/screen_pose.rst:20
 msgid "ポーズはVRoid/VRMの単一のポーズを保存しておくことができます。"
 msgstr "You can save a single pose for VRoid/VRM."
 
-#: ../../source/man1/screen_pose.rst:19
+#: ../../source/man1/screen_pose.rst:21
 msgid ""
 "モーションはすべてのオブジェクト（キャスト）の種類を読み込むことができます。"
 msgstr "Motion can load all object (cast) types."
 
-#: ../../source/man1/screen_pose.rst:23
-msgid "**上部：**"
-msgstr "**Top:**"
+#: ../../source/man1/screen_pose.rst:35
+msgid "ツールバー"
+msgstr "Toolbar"
 
 #: ../../source/man1/screen_pose.rst
 msgid "再読み込み"
 msgstr "Reload"
 
-#: ../../source/man1/screen_pose.rst:26
+#: ../../source/man1/screen_pose.rst:27
 msgid "ポーズ一覧を再読み込みする。"
 msgstr "Reload the pose list."
 
@@ -73,7 +81,7 @@ msgstr "Reload the pose list."
 msgid "ポーズを適用"
 msgstr "Apply Pose"
 
-#: ../../source/man1/screen_pose.rst:28
+#: ../../source/man1/screen_pose.rst:29
 msgid "現在選択中のポーズを現在選択中のVRoid/VRMに反映する。"
 msgstr "Reflect the currently selected pose to the currently selected VRoid/VRM."
 
@@ -81,7 +89,7 @@ msgstr "Reflect the currently selected pose to the currently selected VRoid/VRM.
 msgid "ポーズを削除"
 msgstr "delete pose"
 
-#: ../../source/man1/screen_pose.rst:30
+#: ../../source/man1/screen_pose.rst:31
 msgid "現在選択中のポーズを削除する。"
 msgstr "Delete the currently selected pose."
 
@@ -89,7 +97,7 @@ msgstr "Delete the currently selected pose."
 msgid "ファイルとしてダウンロード"
 msgstr "Download as file"
 
-#: ../../source/man1/screen_pose.rst:32
+#: ../../source/man1/screen_pose.rst:33
 msgid "現在選択中のポーズをファイルにダウンロードする。"
 msgstr "Download the currently selected pose to a file."
 
@@ -97,55 +105,19 @@ msgstr "Download the currently selected pose to a file."
 msgid "ファイルから開く"
 msgstr "open from file"
 
-#: ../../source/man1/screen_pose.rst:34
+#: ../../source/man1/screen_pose.rst:35
 msgid "端末からポーズファイルを開く。"
 msgstr "Open the pose file from your terminal."
 
-#: ../../source/man1/screen_pose.rst
-msgid "読み込み場所"
-msgstr "Load location"
-
-#: ../../source/man1/screen_pose.rst:36
-msgid "Internal Storage, Google Drive, Applicationのいずれかから選択します。"
-msgstr "Select from Internal Storage, Google Drive, or Application."
-
 #: ../../source/man1/screen_pose.rst:39
-msgid "種類"
-msgstr "Kind"
-
-#: ../../source/man1/screen_pose.rst:39
-msgid "意味"
-msgstr "Meaning"
-
-#: ../../source/man1/screen_pose.rst:41
-msgid "Internal Storage"
-msgstr "Internal Storage"
-
-#: ../../source/man1/screen_pose.rst:41
-msgid "内部ストレージ"
-msgstr "Internal Storage"
-
-#: ../../source/man1/screen_pose.rst:42
-msgid "Google Drive"
-msgstr "Google Drive"
-
-#: ../../source/man1/screen_pose.rst:42
-msgid "Googleドライブ"
-msgstr "Google Drive"
-
-#: ../../source/man1/screen_pose.rst:43
-msgid "Application"
-msgstr "Application"
-
-#: ../../source/man1/screen_pose.rst:43
-msgid "アプリケーション（つまりプリセットのサンプル）"
-msgstr "Application (i.e. preset sample)"
+msgid "タブ"
+msgstr "Tab"
 
 #: ../../source/man1/screen_pose.rst
 msgid "Pose"
 msgstr "Pose"
 
-#: ../../source/man1/screen_pose.rst:46
+#: ../../source/man1/screen_pose.rst:38
 msgid "一覧をポーズに切り替える"
 msgstr "Switch list to pose"
 
@@ -153,23 +125,68 @@ msgstr "Switch list to pose"
 msgid "Motion"
 msgstr "Motion"
 
-#: ../../source/man1/screen_pose.rst:47
+#: ../../source/man1/screen_pose.rst:39
 msgid "一覧をモーションに切り替える"
 msgstr "Switch list to motion"
 
-#: ../../source/man1/screen_pose.rst:49
-msgid "**下部：**"
-msgstr "**Bottom:**"
-
-#: ../../source/man1/screen_pose.rst:57
-msgid "ポーズ一覧:"
-msgstr "Pose list"
-
 #: ../../source/man1/screen_pose.rst:52
+msgid "コンボボックス"
+msgstr "Combo-box"
+
+#: ../../source/man1/screen_pose.rst
+msgid "読み込み場所"
+msgstr "Load location"
+
+#: ../../source/man1/screen_pose.rst:43
+msgid "Internal Storage, Google Drive, Applicationのいずれかから選択します。"
+msgstr "Select from Internal Storage, Google Drive, or Application."
+
+#: ../../source/man1/screen_pose.rst:46
+msgid "種類"
+msgstr "Kind"
+
+#: ../../source/man1/screen_pose.rst:46
+msgid "意味"
+msgstr "Meaning"
+
+#: ../../source/man1/screen_pose.rst:48
+msgid "Internal Storage"
+msgstr "Internal Storage"
+
+#: ../../source/man1/screen_pose.rst:48
+msgid "内部ストレージ"
+msgstr "Internal Storage"
+
+#: ../../source/man1/screen_pose.rst:49
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: ../../source/man1/screen_pose.rst:49
+msgid "Googleドライブ"
+msgstr "Google Drive"
+
+#: ../../source/man1/screen_pose.rst:50
+msgid "Application"
+msgstr "Application"
+
+#: ../../source/man1/screen_pose.rst:50
+msgid "アプリケーション（つまりプリセットのサンプル）"
+msgstr "Application (i.e. preset sample)"
+
+#: ../../source/man1/screen_pose.rst:61
+msgid "下部"
+msgstr "Bottom"
+
+#: ../../source/man1/screen_pose.rst:61
+#, fuzzy
+msgid "ポーズ・モーション一覧:"
+msgstr "Pose/Motion list"
+
+#: ../../source/man1/screen_pose.rst:56
 msgid "保存したポーズやモーションを表示します。"
 msgstr "Displays saved poses and motions."
 
-#: ../../source/man1/screen_pose.rst:54
+#: ../../source/man1/screen_pose.rst:58
 msgid ""
 "ポーズはサムネイル付きです。サムネイルの横にはポーズ名と保存時のアバター（VRM）"
 "名を合わせて表示します。"
@@ -177,7 +194,7 @@ msgstr ""
 "The poses come with thumbnails. The pose name and the avatar (VRM) name at the "
 "time of saving are displayed next to the thumbnail."
 
-#: ../../source/man1/screen_pose.rst:56
+#: ../../source/man1/screen_pose.rst:60
 msgid ""
 "モーションは対応するオブジェクトの種類、フォーマットのバージョン、キーフレーム"
 "数、開始フレーム、終了フレームを表示します。"
@@ -185,8 +202,17 @@ msgstr ""
 "Motion displays the corresponding object type, format version, number of "
 "keyframes, start frame, and end frame."
 
-#: ../../source/man1/screen_pose.rst:62
+#: ../../source/man1/screen_pose.rst:66
 msgid "ウィンドウのサイズに応じて2列・3列と多段表示になります。"
 msgstr ""
 "Depending on the size of the window, it will be displayed in 2 columns or 3 "
 "columns."
+
+#~ msgid "**上部：**"
+#~ msgstr "**Top:**"
+
+#~ msgid "**下部：**"
+#~ msgstr "**Bottom:**"
+
+#~ msgid "ポーズ一覧:"
+#~ msgstr "Pose list"

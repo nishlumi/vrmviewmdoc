@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 22:26+0900\n"
-"PO-Revision-Date: 2024-05-14 22:52+0900\n"
+"POT-Creation-Date: 2024-05-26 15:36+0900\n"
+"PO-Revision-Date: 2024-05-26 15:37+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -112,15 +112,15 @@ msgstr "Displayed to identify the timeline."
 msgid "表示・非表示ボタン・・・オブジェクトをWebGL画面から隠します。"
 msgstr "Show/Hide button ... Hide the object from the WebGL screen."
 
-#: ../../source/man1/screen_timeline.rst:56
+#: ../../source/man1/screen_timeline.rst:58
 msgid "D  タイムライン:"
 msgstr "D  Timeline:"
 
 #: ../../source/man1/screen_timeline.rst:46
 msgid ""
-"各オブジェクトごとにキーフレームを表示します。上部の番号を押すことで操作するフレームを切り替えできます。登録した"
-"キーフレームの箇所には赤く塗りつぶされます。 **子キーを登録するとキーフレームの赤いセル部分の数値がその分カウント"
-"されます。**"
+"各オブジェクトごとにキーフレームを表示します。上部の番号を押すことで操作するフレームを切り替えできます。登録したキー"
+"フレームの箇所には赤く塗りつぶされます。 **子キーを登録するとキーフレームの赤いセル部分の数値がその分カウントされま"
+"す。**"
 msgstr ""
 "Displays keyframes for each object. You can switch the frame to operate by pressing the number at the top. The "
 "registered keyframes are filled in red. ** Register a child key ** and the number in the red cell part of the key "
@@ -134,23 +134,27 @@ msgstr "Double-click to open the keyframe settings window."
 msgid "登録済みのキーフレームにマウスカーソルを当てると現在の設定がポップアップで確認できます。"
 msgstr "If you place the mouse cursor over a registered keyframe, you can check the current settings in a popup."
 
+#: ../../source/man1/screen_timeline.rst:57
+msgid "アイコンとその意味は :ref:`inputikasmarker` を御覧ください。"
+msgstr "See :ref:`inputikasmarker` for icons and their meanings."
+
 #: ../../source/man1/screen_timeline.rst
 msgid "E  パネル拡大・縮小ボタン"
 msgstr "E Panel enlarge/reduce button"
 
-#: ../../source/man1/screen_timeline.rst:59
+#: ../../source/man1/screen_timeline.rst:61
 msgid "タイムラインのパネルを拡大、縮小（ツールバーのみ）を切り替えます。"
 msgstr "Toggles between expanding and contracting the timeline panel (toolbar only)."
 
-#: ../../source/man1/screen_timeline.rst:63
+#: ../../source/man1/screen_timeline.rst:65
 msgid "モバイル表示"
 msgstr "Mobile viewing"
 
-#: ../../source/man1/screen_timeline.rst:65
+#: ../../source/man1/screen_timeline.rst:67
 msgid "mblport"
 msgstr "mblport"
 
-#: ../../source/man1/screen_timeline.rst:66
+#: ../../source/man1/screen_timeline.rst:68
 msgid "mblland"
 msgstr "mblland"
 
@@ -170,13 +174,13 @@ msgstr "|mblport|"
 msgid "|mblland|"
 msgstr "|mblland|"
 
-#: ../../source/man1/screen_timeline.rst:75
+#: ../../source/man1/screen_timeline.rst:77
 msgid "モバイル表示の場合、 ``再生/一時停止`` と ``キーフレームを登録`` はメイン画面の最下部のフッターにあります。"
 msgstr ""
 "For mobile viewing, ``Play/Pause`` and ``Register Keyframe`` are located in the footer at the bottom of the main "
 "screen."
 
-#: ../../source/man1/screen_timeline.rst:76
+#: ../../source/man1/screen_timeline.rst:78
 msgid "ポートレートの場合、ツールバーは2行に分割されます。"
 msgstr "For portraits, the toolbar is split into two lines."
 
@@ -187,8 +191,8 @@ msgstr "For portraits, the toolbar is split into two lines."
 #~ msgstr "From left: child key registration, child key selection box, child key deletion"
 
 #~ msgid ""
-#~ "左から・・・フレームの現在位置を戻す・進める、表示を縮小・表示を拡大、最初から再生、再生/一時停止、停止、フレー"
-#~ "ムを読み込む、キーフレーム設定ウィンドウ表示、現在の位置に空のフレームを挿入、現在のフレーム位置を削除"
+#~ "左から・・・フレームの現在位置を戻す・進める、表示を縮小・表示を拡大、最初から再生、再生/一時停止、停止、フレーム"
+#~ "を読み込む、キーフレーム設定ウィンドウ表示、現在の位置に空のフレームを挿入、現在のフレーム位置を削除"
 #~ msgstr ""
 #~ "From the left: Move back/advance the current position of the frame, reduce/enlarge the display, play from the "
 #~ "beginning, play/pause, stop, load the frame, display the keyframe setting window, empty frame at the current "

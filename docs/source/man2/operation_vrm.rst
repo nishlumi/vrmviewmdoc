@@ -47,19 +47,38 @@ VRMのIKマーカーの操作
 
 |
 
+.. |ico_aim| image:: ../img/vvmico_bn_aim.png
+.. |ico_chest| image:: ../img/vvmico_bn_chest.png
+.. |ico_eyeviewhandle| image:: ../img/vvmico_bn_eyeviewhandle.png
+.. |ico_head| image:: ../img/vvmico_bn_head.png
+.. |ico_ikparent| image:: ../img/vvmico_bn_ikparent.png
+.. |ico_lefthand| image:: ../img/vvmico_bn_lefthand.png
+.. |ico_leftleg| image:: ../img/vvmico_bn_leftleg.png
+.. |ico_leftlowerarm| image:: ../img/vvmico_bn_leftlowerarm.png
+.. |ico_leftlowerleg| image:: ../img/vvmico_bn_leftlowerleg.png
+.. |ico_leftshoulder| image:: ../img/vvmico_bn_leftshoulder.png
+.. |ico_lookat| image:: ../img/vvmico_bn_lookat.png
+.. |ico_pelvis| image:: ../img/vvmico_bn_pelvis.png
+.. |ico_righthand| image:: ../img/vvmico_bn_righthand.png
+.. |ico_rightleg| image:: ../img/vvmico_bn_rightleg.png
+.. |ico_rightlowerarm| image:: ../img/vvmico_bn_rightlowerarm.png
+.. |ico_rightlowerleg| image:: ../img/vvmico_bn_rightlowerleg.png
+.. |ico_rightshoulder| image:: ../img/vvmico_bn_rightshoulder.png
+
+
 .. csv-table::
     :header-rows: 1
 
-    No, 部位, 対応操作,                           No, 部位, 対応操作
-    1,  視線（EyeViewHandle）,移動,               2,   頭の左右の傾き・顎突き出し（Head）,回転
-    3,  頭の向き（LookAt）,移動,                  4,   上半身の向き（Aim）,回転 
-    5,  上半身・肩の左右の傾き（Chest）,回転,      6,  腰の向き・傾き・移動（Pelvis）,移動・回転
-    7,  左肩（LeftShoulder）,回転,                8, 左ひじ（LeftLowerArm）,移動
-    9,  左手（LeftHand）,移動・回転 ,              ,  , 
-    10, 右肩（RightShoulder）, 回転,              11,  右ひじ（RightLowerArm）,移動,
-    12,  右手（RightHand）,移動・回転,              ,  ,
-    13, 左足の方向（LeftLowerLeg）≠ひざ,移動,        14, 左足首（LeftLeg）,移動・回転
-    15, 右足の方向（RightLowerLeg）≠ひざ,移動,      16, 右足首（RightLeg）,移動・回転
+    No, アイコン, 部位, 対応操作,                           No, アイコン, 部位, 対応操作
+    1,  |ico_eyeviewhandle|, 視線（EyeViewHandle）,移動,               2, |ico_head|,  頭の左右の傾き・顎突き出し（Head）,回転
+    3,  |ico_lookat|, 頭の向き（LookAt）,移動,                  4,   |ico_aim|, 上半身の向き（Aim）,回転 
+    5,  |ico_chest|, 上半身・肩の左右の傾き（Chest）,回転,      6,  |ico_pelvis|, 腰の向き・傾き・移動（Pelvis）,移動・回転
+    7,  |ico_leftshoulder|, 左肩（LeftShoulder）,回転,                8, |ico_leftlowerarm|, 左ひじ（LeftLowerArm）,移動
+    9,  |ico_lefthand|, 左手（LeftHand）,移動・回転 ,              , , , 
+    10, |ico_rightshoulder|, 右肩（RightShoulder）, 回転,              11,  |ico_rightlowerarm|, 右ひじ（RightLowerArm）,移動,
+    12,  |ico_righthand|, 右手（RightHand）,移動・回転,              , , ,
+    13, |ico_leftlowerleg|, 左足の方向（LeftLowerLeg）≠ひざ,移動,        14, |ico_leftleg|, 左足首（LeftLeg）,移動・回転
+    15, |ico_rightlowerleg|, 右足の方向（RightLowerLeg）≠ひざ,移動,      16, |ico_rightleg|, 右足首（RightLeg）,移動・回転
 
 .. index:: IKシステムの変更(VRM)
 

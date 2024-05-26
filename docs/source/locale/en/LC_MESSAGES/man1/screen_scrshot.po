@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-29 16:24+0900\n"
-"PO-Revision-Date: 2023-12-29 16:25+0900\n"
+"POT-Creation-Date: 2024-05-26 15:36+0900\n"
+"PO-Revision-Date: 2024-05-26 15:38+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/screen_scrshot.rst:5
 msgid "スクリーンショット"
@@ -32,19 +32,35 @@ msgstr ""
 "The screenshot list is a window for checking, downloading, and deleting "
 "currently saved screenshots. It is a separate window from the app."
 
+#: ../../source/man1/screen_scrshot.rst:14
+msgid ""
+"ver 2.9.0より、設定によりアプリのメインウィンドウ内部に表示することもでき"
+"るようになりました。"
+msgstr ""
+"From ver 2.9.0, it is now possible to display it inside the main window "
+"of the app by setting."
+
 #: ../../source/man1/screen_scrshot.rst
 msgid "A ツールバー"
 msgstr "A Toolbar"
 
-#: ../../source/man1/screen_scrshot.rst:15
-msgid "削除ボタン、再読み込みボタン、ダウンロードボタン、共有ボタン"
-msgstr "Delete button, reload button, download button, share button"
+#: ../../source/man1/screen_scrshot.rst:17
+msgid ""
+"左パネル開閉ボタン、削除ボタン、再読み込みボタン、ダウンロードボタン、共"
+"有ボタン、閉じるボタン"
+msgstr ""
+"Left panel open/close button, delete button, reload button, download "
+"button, share button, close button"
+
+#: ../../source/man1/screen_scrshot.rst:19
+msgid "閉じるボタンはアプリ内ウィンドウで表示した場合のみ"
+msgstr "Close button is only available when displayed in an in-app window"
 
 #: ../../source/man1/screen_scrshot.rst
 msgid "B スクリーンショット"
 msgstr "B Screenshot"
 
-#: ../../source/man1/screen_scrshot.rst:17
+#: ../../source/man1/screen_scrshot.rst:22
 msgid ""
 "実際のスクリーンショット。ブラウザの場合は右クリックして保存も可能。"
 msgstr ""
@@ -52,13 +68,48 @@ msgstr ""
 "and save."
 
 #: ../../source/man1/screen_scrshot.rst
-msgid "C 日付一覧"
-msgstr "C Date list"
+msgid "C カレンダー"
+msgstr "C Calendar"
 
-#: ../../source/man1/screen_scrshot.rst:19
-msgid "スクリーンショットを撮影した日付のカレンダー"
-msgstr "Calendar of the date the screenshot was taken"
+#: ../../source/man1/screen_scrshot.rst:24
+msgid ""
+"左パネル内にあります。スクリーンショットを撮影した日付のカレンダー。右の"
+"アイコンをクリックするとカレンダーが開きます。"
+msgstr ""
+"It's in the left panel. Calendar of the date the screenshot was taken. "
+"Click the icon on the right to open the calendar."
 
-#: ../../source/man1/screen_scrshot.rst:20
-msgid "スクリーンショットを撮った日付の一覧。クリックすると画像を表示。"
-msgstr "A list of dates when screenshots were taken. Click to view image."
+#: ../../source/man1/screen_scrshot.rst
+#, fuzzy
+msgid "D スクリーンショット一覧"
+msgstr "B Screenshot"
+
+#: ../../source/man1/screen_scrshot.rst:26
+msgid ""
+"左パネル内にあります。スクリーンショットを撮った日付の一覧。クリックする"
+"と画像を表示。"
+msgstr ""
+"It's in the left panel. List of dates when screenshots were taken. Click "
+"to display image."
+
+#: ../../source/man1/screen_scrshot.rst:29
+msgid "他の画面"
+msgstr "other screen"
+
+#: ../../source/man1/screen_scrshot.rst:35
+msgid "モバイル表示、ポートレート"
+msgstr "Mobile viewing, portrait"
+
+#: ../../source/man1/screen_scrshot.rst:32
+msgid ""
+"カレンダーやスクリーンショット一覧は非表示にすることができます。ツール"
+"バーの左端のボタンをクリックしてください。"
+msgstr ""
+"You can hide the calendar and screenshot list. Click the leftmost button "
+"on the toolbar."
+
+#~ msgid "C 日付一覧"
+#~ msgstr "C Date list"
+
+#~ msgid "スクリーンショットを撮影した日付のカレンダー"
+#~ msgstr "Calendar of the date the screenshot was taken"
