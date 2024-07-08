@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-15 21:39+0900\n"
-"PO-Revision-Date: 2024-02-15 21:53+0900\n"
+"POT-Creation-Date: 2024-07-08 00:33+0900\n"
+"PO-Revision-Date: 2024-07-08 00:47+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man2/operation_texture.rst:6
 msgid "テクスチャ"
@@ -195,6 +195,8 @@ msgstr ""
 msgid ""
 "Standard, VRM/MToon, VRM10/MToon10以外のシェーダーはUnityのバージョンやレンダリングの仕様により、変更する可能性があります。"
 msgstr ""
+"Shaders other than Standard, VRM/MToon, VRM10/MToon10 may change depending on the Unity version and rendering "
+"specifications."
 
 #: ../../source/man2/operation_texture.rst:80
 msgid "Standard"
@@ -648,3 +650,14 @@ msgid ""
 msgstr ""
 "When you press the **Transparency** button on the left hand virtual controller of VR/AR, the shader of all materials will "
 "be automatically switched to Cutout."
+
+#: ../../source/man2/operation_texture.rst:298
+msgid "Transparent"
+msgstr "Transparent"
+
+#: ../../source/man2/operation_texture.rst:300
+msgid ""
+"このシェーダーはImage, UImageオブジェクトの初期値です。透明な部分がある画像を読み込んだときに透明度を保ったまま表示します。"
+msgstr ""
+"This shader is the initial value for Image and UImage objects. When you load an image that has transparent parts, it "
+"displays it while maintaining its transparency."

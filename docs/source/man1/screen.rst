@@ -8,6 +8,7 @@
     :maxdepth: 2
 
     screen_main
+    screen_appdlg
     screen_webgl
     screen_appconfig
     screen_vrminfo

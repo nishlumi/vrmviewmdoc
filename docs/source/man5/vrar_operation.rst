@@ -102,6 +102,7 @@ ver 2.8.0から、モバイル端末でも同等の操作パネルを導入し�
 .. |rightctrl| image:: img/vrar_ctrl04.jpg
 .. |mobilectrlport| image:: img/vrar_ctrl05.jpg
 .. |mobilectrlland| image:: img/vrar_ctrl06.jpg
+.. |mobilectrlwhole| image:: img/vrar_ctrl09.jpg
 .. |mobilectrlfoot| image:: img/vrar_ctrl07.jpg
 .. |mobilectrlvrmbone| image:: img/vrar_ctrl08.jpg
 
@@ -148,11 +149,10 @@ ver 2.8.0から、モバイル端末でも同等の操作パネルを導入し�
 
     画面の左下・右下・右上にメニューパネルとして表示されます。
 
-    .. csv-table:: 
-        :header-rows: 1
+    ポートレート・ランドスケープで幅や高さに違いはありますがほぼ同じです。
+    操作モードにより、X/Y/Zにアイコンが加わります。（実際の動きを連想しやすいアイコンです）
 
-        ポートレート,ランドスケープ
-        |mobilectrlport|, |mobilectrlland|
+    |mobilectrlwhole|
 
 
     フッター
@@ -169,13 +169,17 @@ ver 2.8.0から、モバイル端末でも同等の操作パネルを導入し�
 |
 
     VRMのボーン選択
-        |mobilectrlvrmbone|
-        
-        右の仮想コントローラの |rightctrl12| をタップすると表示されます。操作対象をVRMに切り替えたうえで |rightctrl05| をタップするとこのボタンが表示されます。
-
-        X/Y/Z軸の操作対象を各ボーンに切り替えます。操作したいボーンのボタンをタップしてください。
+        操作対象を各ボーンに切り替えます。操作したいボーンのボタンをタップしてください。
 
         アイコンとその意味は :ref:`inputikasmarker` を御覧ください。
+
+        |mobilectrlvrmbone|
+        
+        右の仮想コントローラの次のボタンををタップすると表示されます: |rightctrl12|
+        
+        操作対象がVRMの時、次のボタンをタップするとこのボタンが表示されます: |rightctrl05| 
+
+
 
 
 

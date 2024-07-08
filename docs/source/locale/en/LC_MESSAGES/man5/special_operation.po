@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-03 18:14+0900\n"
-"PO-Revision-Date: 2024-02-03 18:42+0900\n"
+"POT-Creation-Date: 2024-07-08 22:17+0900\n"
+"PO-Revision-Date: 2024-07-08 22:39+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man5/special_operation.rst:3
-msgid "キーボードショートカット"
-msgstr "Keyboard shortcut"
+msgid "特殊な操作"
+msgstr "Special operation"
 
 #: ../../source/man5/special_operation.rst:6
 msgid "目次"
@@ -289,3 +289,76 @@ msgstr "Shift + Y"
 #: ../../source/man5/special_operation.rst:1
 msgid "IKの移動・回転をやり直す"
 msgstr "redo movement/rotation of IK"
+
+#: ../../source/man5/special_operation.rst:83
+msgid "ゲームパッドでの操作"
+msgstr "Gamepad Controls"
+
+#: ../../source/man5/special_operation.rst:85
+msgid "ver 2.10.0より追加しました。"
+msgstr "Added from version 2.10.0."
+
+#: ../../source/man5/special_operation.rst:1
+msgid "左スティック"
+msgstr "left stick"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "前後左右に移動"
+msgstr "Move forward, backward, left and right"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "右スティック"
+msgstr "Right stick"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "上下左右に回転"
+msgstr "Rotate up, down, left and right"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "十字キー(上)"
+msgstr "D-pad (up)"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "上へ移動"
+msgstr "Move Up"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "十字キー(下)"
+msgstr "D-pad (Down)"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "下へ移動"
+msgstr "Move Down"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "L1"
+msgstr "L1"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "操作対象をメインカメラに切り替え"
+msgstr "Switch the operation target to the main camera"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "R1"
+msgstr "R1"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "操作対象を現在選択中のオブジェクトに切り替え"
+msgstr "Switch the operation target to the currently selected object"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "Select"
+msgstr "Select"
+
+#: ../../source/man5/special_operation.rst:1
+msgid "押すたびに操作空間をWorldとLocalに切り替え"
+msgstr ""
+"Each time you press it, the operating space switches between World and Local."
+
+#: ../../source/man5/special_operation.rst:102
+msgid "移動速度や回転速度は ``キー操作時`` の設定値が使われます。"
+msgstr ""
+"The movement speed and rotation speed will use the ``Key operation`` setting."
+
+#~ msgid "キーボードショートカット"
+#~ msgstr "Keyboard shortcut"

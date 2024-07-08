@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-08 22:17+0900\n"
+"PO-Revision-Date: 2024-07-08 22:20+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: ../../source/man1/screen_appdlg.rst:5
+msgid "このアプリについて"
+msgstr "About this app"
+
+#: ../../source/man1/screen_appdlg.rst:7
+msgid "本アプリのバージョンや概要を確認できます。"
+msgstr "You can check the version and overview of this app."
+
+#: ../../source/man1/screen_appdlg.rst:15
+msgid "確認できる情報"
+msgstr "Information you can check"
+
+#: ../../source/man1/screen_appdlg.rst
+msgid "Version"
+msgstr "Version"
+
+#: ../../source/man1/screen_appdlg.rst:17
+msgid "バージョン番号です。"
+msgstr "The version number."
+
+#: ../../source/man1/screen_appdlg.rst
+msgid "Revision"
+msgstr "Revision"
+
+#: ../../source/man1/screen_appdlg.rst:18
+msgid "ビルド番号や同じバージョンでも区別をつける場合に使用する番号です。"
+msgstr "This number is used to distinguish between build numbers and versions of the same version."
+
+#: ../../source/man1/screen_appdlg.rst
+msgid "Platform"
+msgstr "Platform"
+
+#: ../../source/man1/screen_appdlg.rst:19
+msgid "アプリを起動しているプラットフォームやブラウザの情報です。"
+msgstr "Information about the platform and browser the app is running on."
+
+#: ../../source/man1/screen_appdlg.rst
+msgid "Memory"
+msgstr "Memory"
+
+#: ../../source/man1/screen_appdlg.rst:20
+msgid "WebGLとJavascriptの使用メモリです。"
+msgstr "Memory used by WebGL and Javascript."
+
+#: ../../source/man1/screen_appdlg.rst
+msgid "Width,Height,Type"
+msgstr "Width,Height,Type"
+
+#: ../../source/man1/screen_appdlg.rst:21
+msgid "画面サイズです。"
+msgstr "The screen size."
+
+#: ../../source/man1/screen_appdlg.rst
+msgid "UserAgent"
+msgstr "UserAgent"
+
+#: ../../source/man1/screen_appdlg.rst:22
+msgid "アプリを実行している環境の詳細な情報です。"
+msgstr "Detailed information about the environment in which the app is running."
+
+#: ../../source/man1/screen_appdlg.rst:28
+msgid "ボタン類"
+msgstr "Buttons"
+
+#: ../../source/man1/screen_appdlg.rst
+msgid "通常表示モード"
+msgstr "Normal display mode"
+
+#: ../../source/man1/screen_appdlg.rst:30
+msgid "モバイル表示モードの場合、通常表示の画面に切り替えます。"
+msgstr "If you are in mobile display mode, switch to the normal display screen."
+
+#: ../../source/man1/screen_appdlg.rst
+msgid "モバイル表示モード"
+msgstr "Mobile display mode"
+
+#: ../../source/man1/screen_appdlg.rst:32
+msgid "通常表示モードの場合、モバイル表示に最適化した画面に切り替えます。"
+msgstr "If you are in normal display mode, the screen will switch to one optimized for mobile display."

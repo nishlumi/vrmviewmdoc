@@ -9,48 +9,51 @@
 .. mermaid::
 
     flowchart TB
-    subgraph First
-        direction LR
-        input_vrm[["Load VRM"]]
-        input_3d[["Load 3D model"]]
-        open_internalobj[["Generate Light/Camera etc"]]
+    subgraph Open
+        direction TB
+        open_func[["Open"]]
 
         file_vrm[("VRMs")]
         file_3d[("3D models")]
-        file_vrm -..-> input_vrm
-        file_3d -..-> input_3d
+        file_cam[("Camera")]
+        file_other[("etc...")]
+        file_vrm -..-> open_func
+        file_3d -..-> open_func
+        file_cam -..-> open_func
+        file_other -..-> open_func
 
-        style input_vrm fill:#FFFF00
-        style input_3d fill:#FFFF00
-        style open_internalobj fill:#FFFF00
+        style open_func fill:#FFFF00
     end
     
-    subgraph Second
+    subgraph Change
         direction TB
-        change_pose[["Change pose"]]
-        change_transform[["Change transform"]]
-        change_properties[["Change properties"]]
+        chtarget_pose["Pose"]
+        chtarget_transform["Transform"]
+        chtarget_properties["Properties"]
+        chtarget_resolution["Resolution"]
+        change_duration["Duration"]
+        change_easing["Easing"]
+        change_syseff["SystemEffect"]
 
-        data_vrm[("VRMs")]
-        data_3d[("3D models")]
-        data_camera[("Camera etc")]
+        change_func[["Change"]]
 
-        %%data_vrm & data_3d & data_camera -..-> change_pose & change_properties
-        change_pose -..-> data_vrm
-        change_transform & change_properties -..-> data_vrm & data_3d & data_camera
+        chtarget_pose -..-> change_func
+        chtarget_transform -..-> change_func
+        chtarget_properties -..-> change_func
+        chtarget_resolution -..-> change_func
+        change_duration -..-> change_func
+        change_easing -..-> change_func
+        change_syseff -..-> change_func
 
-        style change_pose fill:#FFFF00
-        style change_transform fill:#FFFF00
-        style change_properties fill:#FFFF00
+        style change_func fill:#FFFF00
+
     end
 
     reg_keyframe[["Register a keyframe"]]
 
-    subgraph Next
+    subgraph Play
         direction LR
         
-        change_duration[["Change a duration"]]
-        change_easing[["Change an easing"]]
         play_animation[["Play an animation"]]
         get_screenshot[["Take screenshot"]]
         get_movie[["Recording"]]
@@ -59,28 +62,26 @@
         file_picture[("Picture")]
         file_movie[("Video")]
 
-        change_duration & change_easing -..-> play_animation -..-> get_movie -..-> file_movie
+        play_animation -..-> get_movie -..-> file_movie
         play_vrar -..-> get_movie -..-> file_movie
         get_screenshot -..-> file_picture
 
         style reg_keyframe fill:#FFFF00
-        style change_duration fill:#FFFF00
-        style change_easing fill:#FFFF00
         style play_animation fill:#FFFF00
         style get_screenshot fill:#FFFF00
         style get_movie fill:#FFFF00
         style play_vrar fill:#FFFF00
     end
 
-    First ~~~ Second  ~~~ Next 
+    Open ~~~ Change  ~~~ Play 
 
-    First --> Second
-    Second ---> reg_keyframe --> Next
-    Next --> Second
+    Open --> Change
+    Change ---> reg_keyframe --> Play
+    Play --> Change
 
-:First: VRMや3Dモデル・その他オブジェクトを開く。準備のステップ。
-:Second: 各オブジェクトのプロパティを変更する。確認や作り込むステップ
-:Next: アニメーション再生したりVR/AR空間で見る・スクリーンショットを撮るなどの実行のステップ。
+:Open: VRMや3Dモデル・その他オブジェクトを開く。準備のステップ。
+:Change: 各オブジェクトのプロパティを変更する。確認や作り込むステップ
+:Play: アニメーション再生したりVR/AR空間で見る・スクリーンショットを撮るなどの実行のステップ。
 
 **Second** と **Next** を繰り返していくことになると思います。
 

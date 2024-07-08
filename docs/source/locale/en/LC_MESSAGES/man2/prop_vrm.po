@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 22:04+0900\n"
-"PO-Revision-Date: 2024-03-24 22:51+0900\n"
+"POT-Creation-Date: 2024-07-08 00:33+0900\n"
+"PO-Revision-Date: 2024-07-08 22:23+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man2/prop_vrm.rst:5
 msgid "VRoid/VRM"
@@ -53,10 +53,63 @@ msgstr ""
 "each IK part while this is enabled."
 
 #: ../../source/man2/prop_vrm.rst
+msgid "手と足首の自然な回転"
+msgstr "Natural rotation of hands and ankles"
+
+#: ../../source/man2/prop_vrm.rst:32
+msgid ""
+"ver 2.10.0より追加しました。 オフにすると、オンにしている間の手や足の回転角度がIKマーカーに保存されま"
+"す。細かい回転はその後で行うことができます。"
+msgstr ""
+"Added in ver 2.10.0. When turned off, the rotation angle of the hands and feet while it was on will "
+"be saved in the IK marker. Fine rotation can be done afterwards."
+
+#: ../../source/man2/prop_vrm.rst:40
+msgid "左手:"
+msgstr "Left hand"
+
+#: ../../source/man2/prop_vrm.rst:41
+msgid "左上腕から左手を自然な回転にします。"
+msgstr "Allow the left hand to rotate naturally from the left upper arm."
+
+#: ../../source/man2/prop_vrm.rst:42
+msgid "右手:"
+msgstr "Right Hand:."
+
+#: ../../source/man2/prop_vrm.rst:43
+msgid "右上腕から右手を自然な回転にします。"
+msgstr "Allow the right hand to rotate naturally from the upper right arm."
+
+#: ../../source/man2/prop_vrm.rst:44
+msgid "左足:"
+msgstr "Left leg:"
+
+#: ../../source/man2/prop_vrm.rst:45
+msgid "左すねから左足首を自然な回転にします。"
+msgstr "Allow your left ankle to rotate naturally from your left shin."
+
+#: ../../source/man2/prop_vrm.rst:47
+msgid "右足:"
+msgstr "Right leg:"
+
+#: ../../source/man2/prop_vrm.rst:47
+msgid "右すねから右足首を自然な回転にします。"
+msgstr "Allow your right ankle to rotate naturally from your right shin."
+
+#: ../../source/man2/prop_vrm.rst:50
+msgid ""
+"いずれもオンにすると動かした後に余計な回転操作が不要になり、現実的な動きをします。しかし細かい操作がで"
+"きなくなるため、基本的にはモーションを作る際の補助的な機能と考えてください。"
+msgstr ""
+"When either of these are turned on, unnecessary rotation operations after movement are unnecessary, "
+"resulting in more realistic movements. However, since finer control is not possible, they should "
+"basically be considered as auxiliary functions when creating motions."
+
+#: ../../source/man2/prop_vrm.rst
 msgid "IK位置の一括変更"
 msgstr "Batch change of IK position"
 
-#: ../../source/man2/prop_vrm.rst:32
+#: ../../source/man2/prop_vrm.rst:54
 msgid "スプレッドシート形式でIKパーツの位置や回転を指定できるウィンドウを表示します。"
 msgstr ""
 "Displays a window that allows you to specify the position and rotation of IK parts in a spreadsheet "
@@ -66,39 +119,39 @@ msgstr ""
 msgid "重力の設定"
 msgstr "Gravity settings"
 
-#: ../../source/man2/prop_vrm.rst:34
+#: ../../source/man2/prop_vrm.rst:56
 msgid "VRMが標準で持つボーンに対して重力の設定を行います。"
 msgstr "Set the gravity for the bones that VRM has as standard."
 
-#: ../../source/man2/prop_vrm.rst ../../source/man2/prop_vrm.rst:44
+#: ../../source/man2/prop_vrm.rst ../../source/man2/prop_vrm.rst:66
 msgid "IKマーカーの割り当て"
 msgstr "Assign the IK marker"
 
-#: ../../source/man2/prop_vrm.rst:36
+#: ../../source/man2/prop_vrm.rst:58
 msgid "VRMが持つIKマーカーを別のオブジェクトに切り替えます。"
 msgstr "Switch the VRM's IK markers to another object."
 
-#: ../../source/man2/prop_vrm.rst:39
+#: ../../source/man2/prop_vrm.rst:61
 msgid "IKマーカーの部位:"
 msgstr "IK marker in body:"
 
-#: ../../source/man2/prop_vrm.rst:40
+#: ../../source/man2/prop_vrm.rst:62
 msgid "切り替え対象のIKのマーカーの部位を選択します。"
 msgstr "Select the part of the IK marker to be switched."
 
-#: ../../source/man2/prop_vrm.rst:41
+#: ../../source/man2/prop_vrm.rst:63
 msgid "割り当て中のロール:"
 msgstr "Assigning role:"
 
-#: ../../source/man2/prop_vrm.rst:42
+#: ../../source/man2/prop_vrm.rst:64
 msgid "選択した部位に対しどのオブジェクトをIKマーカーとして割り当てるか選択します。"
 msgstr "Select which objects to assign as IK markers for the selected part."
 
-#: ../../source/man2/prop_vrm.rst:44
+#: ../../source/man2/prop_vrm.rst:66
 msgid "Reset:"
 msgstr "Reset:"
 
-#: ../../source/man2/prop_vrm.rst:44
+#: ../../source/man2/prop_vrm.rst:66
 msgid "IKマーカーを元のマーカーに戻します。"
 msgstr "Reverts the IK markers back to their original markers."
 
@@ -106,15 +159,15 @@ msgstr "Reverts the IK markers back to their original markers."
 msgid "ポーズを反転する"
 msgstr "flip pose"
 
-#: ../../source/man2/prop_vrm.rst:47
+#: ../../source/man2/prop_vrm.rst:69
 msgid "現在のVRMのポーズを反転します。"
 msgstr "Reverses the current VRM pose."
 
-#: ../../source/man2/prop_vrm.rst:54
+#: ../../source/man2/prop_vrm.rst:76
 msgid "腕、手"
 msgstr "Arm, Hand"
 
-#: ../../source/man2/prop_vrm.rst:61
+#: ../../source/man2/prop_vrm.rst:83
 msgid "**右手・左手：**"
 msgstr "**Right hand left hand:**"
 
@@ -122,7 +175,7 @@ msgstr "**Right hand left hand:**"
 msgid "コンボボックス"
 msgstr "combo box"
 
-#: ../../source/man2/prop_vrm.rst:64
+#: ../../source/man2/prop_vrm.rst:86
 msgid "手動操作・開く・通常・グー・指差し・Vサイン・サムズアップ・握るのいずれかに切り替えます。"
 msgstr "Switch between manual operation, open, normal, close, pointing, V sign, thumbs up, and grasp."
 
@@ -130,35 +183,35 @@ msgstr "Switch between manual operation, open, normal, close, pointing, V sign, 
 msgid "スライダー"
 msgstr "Slider"
 
-#: ../../source/man2/prop_vrm.rst:66
+#: ../../source/man2/prop_vrm.rst:88
 msgid "コンボボックスで指定したポーズの変化の度合いを指定します。"
 msgstr "Specifies the degree of change of the pose specified in the combo box."
 
-#: ../../source/man2/prop_vrm.rst:69
+#: ../../source/man2/prop_vrm.rst:91
 msgid "手動操作"
 msgstr "Manual operation"
 
-#: ../../source/man2/prop_vrm.rst:71
+#: ../../source/man2/prop_vrm.rst:93
 msgid "ver 1.0.4より導入しました。手の指を一本ずつ回転操作して細かく手のひらのポーズを編集できます。"
 msgstr ""
 "Introduced from ver 1.0.4. You can edit the pose of the palm in detail by rotating each finger of the "
 "hand."
 
-#: ../../source/man2/prop_vrm.rst:78
+#: ../../source/man2/prop_vrm.rst:100
 msgid "``手動動作`` を選択するとUIが表示されます。指のUIは実際の手のひらと指に似せています。"
 msgstr ""
 "When ``manual operation`` is selected, the UI will be displayed. The finger UI mimics a real palm and "
 "fingers."
 
-#: ../../source/man2/prop_vrm.rst:86
+#: ../../source/man2/prop_vrm.rst:108
 msgid "ブレンドシェイプ"
 msgstr "BlendShape"
 
-#: ../../source/man2/prop_vrm.rst:88
+#: ../../source/man2/prop_vrm.rst:110
 msgid "VRoid/VRMの表情等を細かく調整する項目です。"
 msgstr "This is an item for finely adjusting the facial expressions of the VRoid/VRM."
 
-#: ../../source/man2/prop_vrm.rst:95
+#: ../../source/man2/prop_vrm.rst:117
 msgid ""
 "VRoid/VRMはブレンドシェイプを2種類保有しています。Unity的な意味と本アプリでの捉え方は次のとおりに分類"
 "しています。"
@@ -222,7 +275,7 @@ msgstr "1.x"
 msgid "共通"
 msgstr "Common"
 
-#: ../../source/man2/prop_vrm.rst:106
+#: ../../source/man2/prop_vrm.rst:128
 msgid ""
 "SkinnedMeshRendererのブレンドシェイプについて、その命名規則が次のように大体決まっています。キャラク"
 "ターによりその実際の数は異なるのでご注意ください。"
@@ -286,11 +339,11 @@ msgstr "~Other~"
 msgid "上記に当てはまらない部位を動かす"
 msgstr "Move parts that do not apply to the above"
 
-#: ../../source/man2/prop_vrm.rst:121
+#: ../../source/man2/prop_vrm.rst:143
 msgid "VRoidStudio製のVRMの場合です。"
 msgstr "For VRM made by VRoidStudio."
 
-#: ../../source/man2/prop_vrm.rst:122
+#: ../../source/man2/prop_vrm.rst:144
 msgid ""
 "本アプリではわかりやすさのため、本来のブレンドシェイプの接頭辞を一括して非表示にしてあります。ご了承く"
 "ださい。"
@@ -298,12 +351,12 @@ msgstr ""
 "In this application, for the sake of clarity, the prefixes of the original blendshapes are all "
 "hidden. note that."
 
-#: ../../source/man2/prop_vrm.rst:123
+#: ../../source/man2/prop_vrm.rst:145
 msgid "なお、他のアプリでも上記を目印にすればブレンドシェイプを探しやすいと思います。"
 msgstr ""
 "In addition, I think that it is easy to find blendshapes in other apps if you use the above as a mark."
 
-#: ../../source/man2/prop_vrm.rst:126
+#: ../../source/man2/prop_vrm.rst:148
 msgid ""
 "VRM 1.xの仕様によりExpressionとBlendShapeでは動作が変わります。詳しくは :ref:`blendshape_vrm` をご覧く"
 "ださい。"
@@ -311,23 +364,23 @@ msgstr ""
 "Due to VRM 1.x specifications, Expression and BlendShape behave differently. See :ref:"
 "`blendshape_vrm` for details."
 
-#: ../../source/man2/prop_vrm.rst:128
+#: ../../source/man2/prop_vrm.rst:150
 msgid "素のVRM1.xですと、主に次のBlendShapeが動かない傾向にあります。"
 msgstr "With plain VRM1.x, the following BlendShapes tend not to work."
 
-#: ../../source/man2/prop_vrm.rst:130
+#: ../../source/man2/prop_vrm.rst:152
 msgid "喜怒哀楽（Fcl_Allなど、眉・目・口がすべて動くタイプ）"
 msgstr "Emotions (Type where eyebrows, eyes, and mouth all move, such as Fcl_All)"
 
-#: ../../source/man2/prop_vrm.rst:131
+#: ../../source/man2/prop_vrm.rst:153
 msgid "口（あいうえお）"
 msgstr "mouth"
 
-#: ../../source/man2/prop_vrm.rst:132
+#: ../../source/man2/prop_vrm.rst:154
 msgid "etc"
 msgstr "etc"
 
-#: ../../source/man2/prop_vrm.rst:134
+#: ../../source/man2/prop_vrm.rst:156
 msgid ""
 "※本アプリではどのVRMのどのブレンドシェイプが動かなくなるのか判別しきれないため、新しい方式の"
 "「Expression」に機能を移行しました。（独自改修あり）"
@@ -335,11 +388,11 @@ msgstr ""
 "Since this application cannot determine which blend shape of which VRM is stuck, the function has "
 "been moved to the new method \"Expression\". (with original repairs)"
 
-#: ../../source/man2/prop_vrm.rst:141
+#: ../../source/man2/prop_vrm.rst:163
 msgid "自動まばたき"
 msgstr "Automatic blink"
 
-#: ../../source/man2/prop_vrm.rst:143
+#: ../../source/man2/prop_vrm.rst:165
 msgid "VRoid/VRMの表情について、まばたきを自動的にさせます。"
 msgstr "Make the VRoid/VRM facial expressions blink automatically."
 
@@ -347,7 +400,7 @@ msgstr "Make the VRoid/VRM facial expressions blink automatically."
 msgid "自動まばたきを有効"
 msgstr "Enable Auto Blink"
 
-#: ../../source/man2/prop_vrm.rst:151
+#: ../../source/man2/prop_vrm.rst:173
 msgid "自動まばたきをオンオフ切り替えます。デフォルトはオンです。"
 msgstr "Toggles automatic blinking on and off. Default is on."
 
@@ -355,7 +408,7 @@ msgstr "Toggles automatic blinking on and off. Default is on."
 msgid "まばたきの間隔"
 msgstr "Blink interval"
 
-#: ../../source/man2/prop_vrm.rst:153
+#: ../../source/man2/prop_vrm.rst:175
 msgid "この秒数の間隔でまばたきをします。"
 msgstr "Blink at intervals of this number of seconds."
 
@@ -363,7 +416,7 @@ msgstr "Blink at intervals of this number of seconds."
 msgid "まぶたを開ける秒数"
 msgstr "Seconds to open eyelids"
 
-#: ../../source/man2/prop_vrm.rst:155 ../../source/man2/prop_vrm.rst:157
+#: ../../source/man2/prop_vrm.rst:177 ../../source/man2/prop_vrm.rst:179
 msgid "この秒数をかけてまぶたを開けます。"
 msgstr "Take this number of seconds to open your eyelids."
 
@@ -375,15 +428,15 @@ msgstr "Seconds to close the eyelids"
 msgid "まぶたを閉じている時間"
 msgstr "Time when eyelids are closed"
 
-#: ../../source/man2/prop_vrm.rst:159
+#: ../../source/man2/prop_vrm.rst:181
 msgid "この秒数分まぶたを閉じています。"
 msgstr "VRM has closed its eyelids for this few seconds."
 
-#: ../../source/man2/prop_vrm.rst:165
+#: ../../source/man2/prop_vrm.rst:187
 msgid "口パク"
 msgstr "Lip sync"
 
-#: ../../source/man2/prop_vrm.rst:167
+#: ../../source/man2/prop_vrm.rst:189
 msgid "VRoid/VRMがあたかもしゃべっているかのように口をずっと動かし続けます。"
 msgstr "VRoid/VRM keeps moving its mouth as if it is talking."
 
@@ -391,7 +444,7 @@ msgstr "VRoid/VRM keeps moving its mouth as if it is talking."
 msgid "口パクを有効"
 msgstr "Enable lip sync"
 
-#: ../../source/man2/prop_vrm.rst:173
+#: ../../source/man2/prop_vrm.rst:195
 msgid "口パクを有効にします。``aa`` が 0.0 ~ 0.5 まで自動的に推移します。"
 msgstr "Enable lip sync. ``aa`` automatically changes from 0.0 to 0.5."
 
@@ -399,7 +452,7 @@ msgstr "Enable lip sync. ``aa`` automatically changes from 0.0 to 0.5."
 msgid "口パクの間隔"
 msgstr "Lip sync interval"
 
-#: ../../source/man2/prop_vrm.rst:175
+#: ../../source/man2/prop_vrm.rst:197
 msgid "口が閉じた後、再び開くまでの間隔を指定します。デフォルトは 0.5 です。"
 msgstr "Specifies the interval after which the mouth closes and before it reopens. Default is 0.5."
 
@@ -407,7 +460,7 @@ msgstr "Specifies the interval after which the mouth closes and before it reopen
 msgid "口を開ける速度"
 msgstr "Speed to open the mouth"
 
-#: ../../source/man2/prop_vrm.rst:177
+#: ../../source/man2/prop_vrm.rst:199
 msgid "口を開ける速度を指定します。毎フレームこの数値分増加します。デフォルトは 0.03 です。"
 msgstr ""
 "Specify the speed at which the mouth opens. Increases by this number every frame. Default is 0.03."
@@ -416,28 +469,28 @@ msgstr ""
 msgid "口を閉じる速度"
 msgstr "Speed to close the mouth"
 
-#: ../../source/man2/prop_vrm.rst:179
+#: ../../source/man2/prop_vrm.rst:201
 msgid "口を閉じる速度を指定します。毎フレームこの数値分減少します。デフォルトは 0.1 です。"
 msgstr ""
 "Specify the speed at which the mouth closes. It decreases by this number every frame. Default is 0.1."
 
-#: ../../source/man2/prop_vrm.rst:188
+#: ../../source/man2/prop_vrm.rst:210
 msgid "オブジェクトの装着"
 msgstr "wearing an object"
 
-#: ../../source/man2/prop_vrm.rst:190
+#: ../../source/man2/prop_vrm.rst:212
 msgid "VRoid/VRMの各部位の動きに別のオブジェクトを連動させる機能の一覧です。"
 msgstr ""
 "This is a list of functions that link different objects with the movement of each part of the VRoid/"
 "VRM."
 
-#: ../../source/man2/prop_vrm.rst:198
+#: ../../source/man2/prop_vrm.rst:220
 msgid "オブジェクトを体の次の部位に装着させることができます。装着する数に制限はありません。"
 msgstr ""
 "You can attach objects to the following parts of your body. There is no limit to how many you can "
 "wear."
 
-#: ../../source/man2/prop_vrm.rst:201
+#: ../../source/man2/prop_vrm.rst:223
 msgid "装備させたい部位を選択します。"
 msgstr "Select the parts you want to equip."
 
@@ -445,7 +498,7 @@ msgstr "Select the parts you want to equip."
 msgid "装備ボタン"
 msgstr "Equipment button"
 
-#: ../../source/man2/prop_vrm.rst:203
+#: ../../source/man2/prop_vrm.rst:225
 msgid "オブジェクトの装着ダイアログを表示します。"
 msgstr "Shows the attach object dialog."
 
@@ -453,23 +506,23 @@ msgstr "Shows the attach object dialog."
 msgid "現在の装備欄"
 msgstr "Current equipment column"
 
-#: ../../source/man2/prop_vrm.rst:205
+#: ../../source/man2/prop_vrm.rst:227
 msgid "右端の削除ボタンで装備を解除します。"
 msgstr "Unequip it with the delete button on the far right."
 
-#: ../../source/man2/prop_vrm.rst:208
+#: ../../source/man2/prop_vrm.rst:230
 msgid "お尻、左ふともも、右ふともも、左下脚、右下脚、左足、右足"
 msgstr "Hip, left thigh, right thigh, left lower leg, right lower leg, left leg, right leg"
 
-#: ../../source/man2/prop_vrm.rst:209
+#: ../../source/man2/prop_vrm.rst:231
 msgid "脊柱、胸、首、頭"
 msgstr "spine, chest, neck, head"
 
-#: ../../source/man2/prop_vrm.rst:210
+#: ../../source/man2/prop_vrm.rst:232
 msgid "左肩、右肩、左上腕、右上腕"
 msgstr "Left shoulder, right shoulder, left upper arm, right upper arm"
 
-#: ../../source/man2/prop_vrm.rst:211
+#: ../../source/man2/prop_vrm.rst:233
 msgid "左前腕、右前腕、左手、右手、胸上部"
 msgstr "left forearm, right forearm, left hand, right hand, upper chest"
 
@@ -477,7 +530,7 @@ msgstr "left forearm, right forearm, left hand, right hand, upper chest"
 msgid "ID"
 msgstr "ID"
 
-#: ../../source/man2/prop_vrm.rst:219
+#: ../../source/man2/prop_vrm.rst:241
 msgid "オブジェクトのIDです。"
 msgstr "ID of the object."
 
@@ -485,7 +538,7 @@ msgstr "ID of the object."
 msgid "Type"
 msgstr "Type"
 
-#: ../../source/man2/prop_vrm.rst:222
+#: ../../source/man2/prop_vrm.rst:244
 msgid "オブジェクトの種類です。"
 msgstr "The type of object."
 
@@ -493,19 +546,19 @@ msgstr "The type of object."
 msgid "Name"
 msgstr "Name"
 
-#: ../../source/man2/prop_vrm.rst:225
+#: ../../source/man2/prop_vrm.rst:247
 msgid "オブジェクトの名称です。"
 msgstr "The name of the object."
 
-#: ../../source/man2/prop_vrm.rst:236
+#: ../../source/man2/prop_vrm.rst:258
 msgid "装備させたいオブジェクトを選び、「OK」ボタンを押すと装備できます。"
 msgstr "Select the object you want to equip and press the \"OK\" button to equip it."
 
-#: ../../source/man2/prop_vrm.rst:243
+#: ../../source/man2/prop_vrm.rst:265
 msgid "アニメーション"
 msgstr "Animation"
 
-#: ../../source/man2/prop_vrm.rst:250
+#: ../../source/man2/prop_vrm.rst:272
 msgid ""
 "アプリ全体で開いているVRMAnimationを個々のVRMに指定することができます。動作はOtherObjectのアニメーショ"
 "ンと同等です。"
@@ -517,7 +570,7 @@ msgstr ""
 msgid "モーションファイル名"
 msgstr "Motion file name"
 
-#: ../../source/man2/prop_vrm.rst:253
+#: ../../source/man2/prop_vrm.rst:275
 msgid ""
 "現在開いているVRMAnimationのファイル名を選択するコンボボックスです。一番目の\"---\"は選択を解除しま"
 "す。"
@@ -529,7 +582,7 @@ msgstr ""
 msgid "アニメーションクリップ名"
 msgstr "Animation clip name"
 
-#: ../../source/man2/prop_vrm.rst:256
+#: ../../source/man2/prop_vrm.rst:278
 msgid ""
 "VRMAnimationは一ファイルあたり複数のアニメーションクリップを持つことができます。中に含まれるクリップ名"
 "を選択するコンボボックスです。"
@@ -541,7 +594,7 @@ msgstr ""
 msgid "プレビュー再生・停止"
 msgstr "Preview play/stop"
 
-#: ../../source/man2/prop_vrm.rst:259
+#: ../../source/man2/prop_vrm.rst:281
 msgid "アニメーションが設定されている場合、再生・停止します。ここでの再生はあくまでプレビューです。"
 msgstr "If animation is set, it will play/stop. The playback here is just a preview."
 
@@ -549,7 +602,7 @@ msgstr "If animation is set, it will play/stop. The playback here is just a prev
 msgid "再生モード"
 msgstr "Playback mode"
 
-#: ../../source/man2/prop_vrm.rst:261
+#: ../../source/man2/prop_vrm.rst:283
 msgid "アニメーションの再生モードを ``Default`` ``Loop`` ``PingPong`` のいずれかから選びます。"
 msgstr "Select the animation playback mode from ``Default``, ``Loop``, or ``PingPong``."
 
@@ -557,7 +610,7 @@ msgstr "Select the animation playback mode from ``Default``, ``Loop``, or ``Ping
 msgid "Default"
 msgstr "Default"
 
-#: ../../source/man2/prop_vrm.rst:264
+#: ../../source/man2/prop_vrm.rst:286
 msgid "通常の再生です。一度しか再生されません。"
 msgstr "Normal playback. It is played only once."
 
@@ -565,7 +618,7 @@ msgstr "Normal playback. It is played only once."
 msgid "Loop"
 msgstr "Loop"
 
-#: ../../source/man2/prop_vrm.rst:266
+#: ../../source/man2/prop_vrm.rst:288
 msgid "ループさせます。"
 msgstr "let it loop."
 
@@ -573,7 +626,7 @@ msgstr "let it loop."
 msgid "PingPong"
 msgstr "PingPong"
 
-#: ../../source/man2/prop_vrm.rst:268
+#: ../../source/man2/prop_vrm.rst:290
 msgid "ループさせますが、おもちゃのヨーヨーのようにアニメーションの内容を巻き戻っていきます。"
 msgstr "Loop, but rewind the content of the animation like a toy yo-yo."
 
@@ -581,7 +634,7 @@ msgstr "Loop, but rewind the content of the animation like a toy yo-yo."
 msgid "シーク位置"
 msgstr "Seek position"
 
-#: ../../source/man2/prop_vrm.rst:270
+#: ../../source/man2/prop_vrm.rst:292
 msgid "アニメーションの再生位置を切り替えます。アニメーションプロジェクトに反映されます。"
 msgstr "Switch animation playback position. It will be reflected in your animation project."
 
@@ -589,7 +642,7 @@ msgstr "Switch animation playback position. It will be reflected in your animati
 msgid "アニメーション速度"
 msgstr "Animation speed"
 
-#: ../../source/man2/prop_vrm.rst:272
+#: ../../source/man2/prop_vrm.rst:294
 msgid "アニメーションの再生速度を調整します。"
 msgstr "Adjust the playback speed of the animation."
 
@@ -597,16 +650,16 @@ msgstr "Adjust the playback speed of the animation."
 msgid "アニメーションの状態（登録用）"
 msgstr "Animation state (for registration)"
 
-#: ../../source/man2/prop_vrm.rst:274
+#: ../../source/man2/prop_vrm.rst:296
 msgid "アニメーションプロジェクトに再生状態を登録します。コンボボックスから次のいずれかを選びます。"
 msgstr ""
 "Register the playback state in the animation project. Select one of the following from the combo box:"
 
-#: ../../source/man2/prop_vrm.rst:279
+#: ../../source/man2/prop_vrm.rst:301
 msgid "テクスチャ"
 msgstr "Texture"
 
-#: ../../source/man2/prop_vrm.rst:286
+#: ../../source/man2/prop_vrm.rst:308
 msgid ""
 "VRMが保有しているテクスチャに関するプロパティです。テクスチャやマテリアルが複数存在した場合はコンボ"
 "ボックスから選ぶことができます。検出できるテクスチャの数は実際のVRMによって異なります。"
@@ -619,7 +672,7 @@ msgstr ""
 msgid "マテリアル名"
 msgstr "Material name"
 
-#: ../../source/man2/prop_vrm.rst:289
+#: ../../source/man2/prop_vrm.rst:311
 msgid "現在選択中のテクスチャが保持しているマテリアルの名称です。"
 msgstr "The name of the material held by the currently selected texture."
 
@@ -627,13 +680,13 @@ msgstr "The name of the material held by the currently selected texture."
 msgid "シェーダー"
 msgstr "Shader"
 
-#: ../../source/man2/prop_vrm.rst:291
+#: ../../source/man2/prop_vrm.rst:313
 msgid ""
 "Unity標準のStandard、VRM標準のVRM/MToon、StandardAssetのWater（FX/Water4）のいずれかにシェーダーを切り"
 "替えます。"
 msgstr "Switch the shader to Unity's Standard, VRM's VRM/MToon, or StandardAsset's Water (FX/Water4)."
 
-#: ../../source/man2/prop_vrm.rst:293
+#: ../../source/man2/prop_vrm.rst:315
 msgid "以下のシェーダーの設定を変更できます。詳しくはUnityのヘルプ等でご確認ください。"
 msgstr "You can change the settings of the following shaders. For details, please refer to Unity Help."
 
@@ -641,7 +694,7 @@ msgstr "You can change the settings of the following shaders. For details, pleas
 msgid "Standard"
 msgstr "Standard"
 
-#: ../../source/man2/prop_vrm.rst:296
+#: ../../source/man2/prop_vrm.rst:318
 msgid "色、ブレンドモード、メタリック、光沢、発光色（Emission Color）、テクスチャ"
 msgstr "Color, Blend Mode, Metallic, Glossy, Emission Color, Texture"
 
@@ -649,7 +702,7 @@ msgstr "Color, Blend Mode, Metallic, Glossy, Emission Color, Texture"
 msgid "VRM/MToon"
 msgstr "VRM/MToon"
 
-#: ../../source/man2/prop_vrm.rst:298
+#: ../../source/man2/prop_vrm.rst:320
 msgid ""
 "色、ブレンドモード、カリングモード メタリック、光沢、発光色（Emission Color）、シェードの色（Shade "
 "Color） Shading Toony、 Rim Color、Rim fresnel power SrcBlend、DstBlend、テクスチャ"
@@ -661,7 +714,7 @@ msgstr ""
 msgid "Water"
 msgstr "Water"
 
-#: ../../source/man2/prop_vrm.rst:303
+#: ../../source/man2/prop_vrm.rst:325
 msgid ""
 "フレネルスケール、反射色、鏡面色、波の振れ幅、波の周波数、波の急勾配、波の速度、波方向AB、波方向CD"
 msgstr ""
@@ -672,7 +725,7 @@ msgstr ""
 msgid "Sketch"
 msgstr "Sketch"
 
-#: ../../source/man2/prop_vrm.rst:305
+#: ../../source/man2/prop_vrm.rst:327
 msgid "Outline width、Stroke density、Add brightness、Mult brightness、Shadow brightness"
 msgstr "Outline width、Stroke density、Add brightness、Mult brightness、Shadow brightness"
 
@@ -680,7 +733,7 @@ msgstr "Outline width、Stroke density、Add brightness、Mult brightness、Shad
 msgid "PostSketch"
 msgstr "PostSketch"
 
-#: ../../source/man2/prop_vrm.rst:307
+#: ../../source/man2/prop_vrm.rst:329
 msgid "Outline width、Stroke density、Add brightness、Mult brightness"
 msgstr "Outline width、Stroke density、Add brightness、Mult brightness"
 
@@ -688,15 +741,15 @@ msgstr "Outline width、Stroke density、Add brightness、Mult brightness"
 msgid "Comic"
 msgstr "Comic"
 
-#: ../../source/man2/prop_vrm.rst:309
+#: ../../source/man2/prop_vrm.rst:331
 msgid "enableTexTransparent、Line width、色、Tone threshold"
 msgstr "enableTexTransparent, Line width, Color, Tone threshold"
 
-#: ../../source/man2/prop_vrm.rst:312
+#: ../../source/man2/prop_vrm.rst:334
 msgid "後述のOtherObjectのテクスチャの設定と同一です。"
 msgstr "It is the same as setting the texture of OtherObject described later."
 
-#: ../../source/man2/prop_vrm.rst:315
+#: ../../source/man2/prop_vrm.rst:337
 msgid ""
 "VRMには適さないシェーダーもあります。想定と異なる変化する可能性があるので注意して使用してください。"
 msgstr ""

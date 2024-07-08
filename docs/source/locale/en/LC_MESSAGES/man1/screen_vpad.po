@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 22:26+0900\n"
-"PO-Revision-Date: 2024-05-14 22:32+0900\n"
+"POT-Creation-Date: 2024-07-08 00:58+0900\n"
+"PO-Revision-Date: 2024-07-08 00:59+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -21,8 +21,8 @@ msgstr ""
 "X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/screen_vpad.rst:6
-msgid "v-pad（メインカメラの操作パッド）"
-msgstr "v-pad (control pad for main camera)"
+msgid "v-pad（仮想操作パッド）"
+msgstr "v-pad (virtual control pad)"
 
 #: ../../source/man1/screen_vpad.rst:8
 msgid "目次"
@@ -32,109 +32,115 @@ msgstr "Contents"
 msgid "V-pad"
 msgstr "V-pad"
 
+#: ../../source/man1/screen_vpad.rst:13
+msgid "sub1"
+msgstr "sub1"
+
+#: ../../source/man1/screen_vpad.rst:14
+msgid "sub2"
+msgstr "sub2"
+
+#: ../../source/man1/screen_vpad.rst:15
+msgid "sub3"
+msgstr "sub3"
+
+#: ../../source/man1/screen_vpad.rst:16
+msgid "sub4"
+msgstr "sub4"
+
+#: ../../source/man1/screen_vpad.rst:17
+msgid "sub5"
+msgstr "sub5"
+
 #: ../../source/man1/screen_vpad.rst:18
-#, fuzzy
+msgid "sub6"
+msgstr "sub6"
+
+#: ../../source/man1/screen_vpad.rst:19
+msgid "sub7"
+msgstr "sub7"
+
+#: ../../source/man1/screen_vpad.rst:20
+msgid "sub8"
+msgstr "sub8"
+
+#: ../../source/man1/screen_vpad.rst:28
 msgid ""
 "マウスやVRデバイスのコントローラの代わりにメインカメラの映像を操作できる機能です。四角のパネル内を上下左右にスワイプ"
 "（マウスでドラッグ）するとそのとおりにWebGL画面が動きます。操作の長さにより回転量・移動量は決まります。"
 msgstr ""
-"A virtual mouse pad that allows you to operate the image of the main camera instead of the mouse. If you swipe (drag "
-"with the mouse) up, down, left, or right in the square panel, the WebGL screen will move accordingly. The amount of "
-"rotation and movement is determined by the length of operation."
+"This function allows you to control the image from the main camera instead of using a mouse or a VR device controller. "
+"Swipe (drag with the mouse) up, down, left, right, or right within the square panel and the WebGL screen will move "
+"accordingly. The amount of rotation and movement is determined by the length of the movement."
 
-#: ../../source/man1/screen_vpad.rst:20
+#: ../../source/man1/screen_vpad.rst:31
+msgid "ver 2.10.0 より、操作対象を切り替えられるようになりました。"
+msgstr "Starting with version 2.10.0, you can now switch the object of operation."
+
+#: ../../source/man1/screen_vpad.rst:33
+msgid "メインカメラ"
+msgstr "Main camera"
+
+#: ../../source/man1/screen_vpad.rst:34
+msgid "選択中のオブジェクト"
+msgstr "Selected object"
+
+#: ../../source/man1/screen_vpad.rst:36
 msgid "次の場合にご活用いただけます。"
 msgstr "For explanation purposes: Can be used in the following cases:"
 
-#: ../../source/man1/screen_vpad.rst:22
+#: ../../source/man1/screen_vpad.rst:38
 msgid "キーボードを使わずに片手で操作したい"
 msgstr "I want to operate with one hand without using a keyboard"
 
-#: ../../source/man1/screen_vpad.rst:23
+#: ../../source/man1/screen_vpad.rst:39
 msgid "タブレットPCでも使いたい"
 msgstr "I want to use it on a tablet PC as well."
 
-#: ../../source/man1/screen_vpad.rst:25
-#, fuzzy
+#: ../../source/man1/screen_vpad.rst:41
 msgid ""
 "VRデバイスでもコントローラやハンドトラッキングにより使うことができます。WebGL画面を操作するのに細かい調整ができます。"
 msgstr ""
-"It can also be used on VR devices with controllers and hand tracking. You can make detailed adjustments to operate the "
-"WebGL screen. Also see :ref:`vpad_for_vrar` ."
+"It can also be used with VR devices using controllers and hand tracking, allowing fine adjustments to control the "
+"WebGL screen."
 
-#: ../../source/man1/screen_vpad.rst:27
+#: ../../source/man1/screen_vpad.rst:43
 msgid "合わせて :ref:`vpad_for_vrar` を参照してください。"
 msgstr "Also see :ref:`vpad_for_vrar` ."
 
-#: ../../source/man1/screen_vpad.rst
-msgid "回転"
-msgstr "rotation"
-
-#: ../../source/man1/screen_vpad.rst:30
-msgid "マウスの右クリックしながら上下左右動かすことに相当。"
-msgstr "Equivalent to moving the mouse up, down, left, or right while right-clicking."
-
-#: ../../source/man1/screen_vpad.rst
-msgid "前進"
-msgstr "Forward"
-
-#: ../../source/man1/screen_vpad.rst:32
-msgid "マウスのホイールを動かすことに相当。"
-msgstr "Equivalent to moving the mouse wheel."
-
-#: ../../source/man1/screen_vpad.rst
-msgid "カメラと中心点"
-msgstr "Camera and center point"
-
-#: ../../source/man1/screen_vpad.rst:34
-msgid "メインカメラと中心点を近づけたり遠ざけます。"
-msgstr "Move the main camera closer or farther away from the center point."
-
-#: ../../source/man1/screen_vpad.rst:1
-msgid "近づける"
-msgstr "bring closer"
-
-#: ../../source/man1/screen_vpad.rst:1
-msgid "キーボード操作の ``I`` キーと同じ"
-msgstr "Same as the ``I`` key on the keyboard"
-
-#: ../../source/man1/screen_vpad.rst:1
-msgid "遠ざける"
-msgstr "keep away"
-
-#: ../../source/man1/screen_vpad.rst:1
-msgid "キーボード操作の ``O`` キーと同じ"
-msgstr "Same as the ``O`` key on the keyboard"
-
-#: ../../source/man1/screen_vpad.rst
-msgid "移動"
-msgstr "move"
-
-#: ../../source/man1/screen_vpad.rst:42
-msgid "マウスの中クリックしながら上下左右動かすことに相当。"
-msgstr "Equivalent to moving the mouse up, down, left, or right while clicking the middle mouse button."
-
-#: ../../source/man1/screen_vpad.rst:45
-msgid "sub1"
-msgstr "sub1"
+#: ../../source/man1/screen_vpad.rst:46
+msgid ": |sub4| 移動:"
+msgstr ": |sub4| Move:"
 
 #: ../../source/man1/screen_vpad.rst:46
-msgid "sub2"
-msgstr "sub2"
+msgid "操作対象を前後、左右に移動します。"
+msgstr "Moves the target object forward, backward, left and right."
 
-#: ../../source/man1/screen_vpad.rst:47
-msgid "sub3"
-msgstr "sub3"
+#: ../../source/man1/screen_vpad.rst:50
+msgid ": |sub5| 上下:"
+msgstr ": |sub5| Up and Down:"
+
+#: ../../source/man1/screen_vpad.rst:49
+msgid "操作対象を上や下に移動します。"
+msgstr "Moves the target up or down."
+
+#: ../../source/man1/screen_vpad.rst:54
+msgid ": |sub6| 回転:"
+msgstr ": |sub6| Rotation:"
+
+#: ../../source/man1/screen_vpad.rst:53
+msgid "操作対象を上下左右に回転します。"
+msgstr "Rotates the object up, down, left and right."
 
 #: ../../source/man1/screen_vpad.rst
 msgid "|sub1| カメラのZ軸をリセット"
 msgstr "|sub1| Reset camera Z axis"
 
-#: ../../source/man1/screen_vpad.rst:50
+#: ../../source/man1/screen_vpad.rst:57
 msgid "キーボード操作の ``Q`` キーと同じです。メインカメラのZ軸の回転を初期化します。"
 msgstr "Equivalent to the keyboard ``Q`` key. Initialize the Z-axis rotation of the main camera."
 
-#: ../../source/man1/screen_vpad.rst:54
+#: ../../source/man1/screen_vpad.rst:61
 msgid "カメラをリセット:"
 msgstr "Reset camera:"
 
@@ -146,11 +152,36 @@ msgstr "Restore the default position of the main camera. (Shortcut: R key)"
 msgid "※リボンバーの画面タブにあるボタンと同じです。"
 msgstr "This is the same as the button on the screen tab of the ribbon bar."
 
-#: ../../source/man1/screen_vpad.rst:63
+#: ../../source/man1/screen_vpad.rst:64
+msgid ": |sub7| 操作対象の切り替え:"
+msgstr ": |sub7| Switching the operation target:"
+
+#: ../../source/man1/screen_vpad.rst:64
+msgid ""
+"Camera(メインカメラ)、Object(現在選択中のオブジェクト)のいずれかに切り替えます。アイコンが表示されているほうが現在の操"
+"作対象です。押すたびに切り替わります。"
+msgstr ""
+"Switch between Camera (main camera) and Object (currently selected object). The one with the icon displayed is the "
+"current object to be controlled. Each time you press it, it switches."
+
+#: ../../source/man1/screen_vpad.rst:67
+msgid ": |sub8| 操作空間の切り替え:"
+msgstr ": |sub8| Switching operation space:"
+
+#: ../../source/man1/screen_vpad.rst:67
+msgid ""
+"操作対象が ``Object`` の場合のみ有効です。移動や回転の空間をWorld(グローバル)、Local(ローカル)に切り替えます。アイコン"
+"が表示されているほうが現在の空間です。押すたびに切り替わります。"
+msgstr ""
+"This is only available when the object being operated is an ``Object``. Switches the space of movement and rotation "
+"between World and Local. The space where the icon is displayed is the current space. Each time you press it, it "
+"switches."
+
+#: ../../source/man1/screen_vpad.rst:69
 msgid "移動と回転のスピードについて"
 msgstr "About the speed of movement and rotation"
 
-#: ../../source/man1/screen_vpad.rst:65
+#: ../../source/man1/screen_vpad.rst:71
 msgid ""
 "アプリケーションの設定の ``アプリケーション`` タブにあるV-padの ``移動速度`` 、 ``回転速度`` でスピードを調整することが"
 "できます。"
@@ -158,11 +189,11 @@ msgstr ""
 "You can adjust the speed using the V-pad's ``Movement Speed`` and ``Rotation Speed`` in the ``Application`` tab of the "
 "application settings."
 
-#: ../../source/man1/screen_vpad.rst:68
-msgid "前進のパネルは上下のスワイプ（ドラッグ）のみ可能です。"
-msgstr "The forward panel can only be swiped up and down (drag)."
+#: ../../source/man1/screen_vpad.rst:74
+msgid "上下のパネルは上下のスワイプ（ドラッグ）のみ可能です。"
+msgstr "The top and bottom panels can only be swiped (dragged) up and down."
 
-#: ../../source/man1/screen_vpad.rst:69
+#: ../../source/man1/screen_vpad.rst:75
 msgid ""
 "WebGL画面は画面サイズをアップすることができますが、その分マウス操作がしづらくなる恐れがあります。そういう場合にこのv-"
 "padを使うと細かく表示を調整できるため便利です。"
@@ -170,7 +201,7 @@ msgstr ""
 "You can increase the screen size of the WebGL screen, but that may make it difficult to operate the mouse. In such a "
 "case, using this v-pad is convenient because you can finely adjust the display."
 
-#: ../../source/man1/screen_vpad.rst:72
+#: ../../source/man1/screen_vpad.rst:78
 msgid ""
 "ウィンドウ左右にあるオブジェクト一覧、プロパティ一覧のパネルを折りたたむとv-padと同等の機能が使えるスワイプパネルを用意"
 "しました。"
@@ -178,35 +209,51 @@ msgstr ""
 "By collapsing the object list and property list panels on the left and right sides of the window, we have created a "
 "swipe panel that has the same functionality as the v-pad."
 
-#: ../../source/man1/screen_vpad.rst:74
+#: ../../source/man1/screen_vpad.rst:80
 msgid "機能は :ref:`leftpanelclosing` をご覧ください。"
 msgstr "See :ref:`leftpanelclosing` for functionality."
 
-#: ../../source/man1/screen_vpad.rst:78
+#: ../../source/man1/screen_vpad.rst:84
 msgid "他の画面"
 msgstr "other screen"
 
-#: ../../source/man1/screen_vpad.rst:83
+#: ../../source/man1/screen_vpad.rst
+msgid "FOCUS"
+msgstr "FOCUS"
+
+#: ../../source/man1/screen_vpad.rst:86
+msgid "選択中のオブジェクトにメインカメラをフォーカスします。"
+msgstr "Focus the main camera on the selected object."
+
+#: ../../source/man1/screen_vpad.rst:90
 msgid "オブジェクト一覧パネル・プロパティパネルを折りたたんだ状態"
 msgstr "Object list panel/properties panel collapsed"
 
-#: ../../source/man1/screen_vpad.rst:89
-msgid "モバイル表示、ポートレート"
-msgstr "Mobile viewing, portrait"
+#: ../../source/man1/screen_vpad.rst:98
+msgid "モバイル表示"
+msgstr "Mobile View"
 
-#: ../../source/man1/screen_vpad.rst:86
-msgid "画面の下部に表示されます。通常のV-padとの違いは、ドラッグ用のタイトルバーがありません。"
+#: ../../source/man1/screen_vpad.rst:93
+msgid "画面の端に表示されます。 ver 2.10.0よりポートレート・ランドスケープ両方とも同じ形式にしました。"
 msgstr ""
-"It will be displayed at the bottom of the screen. The difference from normal V-pad is that there is no title bar for "
-"dragging."
+"It will be displayed on the edge of the screen. From version 2.10.0, both portrait and landscape are in the same "
+"format."
 
-#: ../../source/man1/screen_vpad.rst:94
-msgid "モバイル表示、ランドスケープ"
-msgstr "Mobile viewing, landscape"
+#: ../../source/man1/screen_vpad.rst
+msgid "左"
+msgstr "Left"
 
-#: ../../source/man1/screen_vpad.rst:92
-msgid "画面の端に表示されます。"
-msgstr "It will be displayed at the edge of the screen."
+#: ../../source/man1/screen_vpad.rst:98
+msgid "上下、移動、FOCUS、操作対象の切り替え"
+msgstr "Up/down, movement, FOCUS, switching of operation target"
+
+#: ../../source/man1/screen_vpad.rst
+msgid "右"
+msgstr "Right"
+
+#: ../../source/man1/screen_vpad.rst:99
+msgid "回転、FOCUS、操作空間の切り替え"
+msgstr "Rotation, Focus, and switching of operating space"
 
 #~ msgid "|sub2| カメラと中心点の距離を近づける"
 #~ msgstr "|sub2| Close the distance between the camera and the center point"
@@ -228,3 +275,50 @@ msgstr "It will be displayed at the edge of the screen."
 #~ msgstr ""
 #~ "I want to operate with one hand without using the keyboard! I want to use it on my tablet PC! You can also use it "
 #~ "in such cases."
+
+#~ msgid "回転"
+#~ msgstr "rotation"
+
+#~ msgid "マウスの右クリックしながら上下左右動かすことに相当。"
+#~ msgstr "Equivalent to moving the mouse up, down, left, or right while right-clicking."
+
+#~ msgid "前進"
+#~ msgstr "Forward"
+
+#~ msgid "マウスのホイールを動かすことに相当。"
+#~ msgstr "Equivalent to moving the mouse wheel."
+
+#~ msgid "カメラと中心点"
+#~ msgstr "Camera and center point"
+
+#~ msgid "メインカメラと中心点を近づけたり遠ざけます。"
+#~ msgstr "Move the main camera closer or farther away from the center point."
+
+#~ msgid "近づける"
+#~ msgstr "bring closer"
+
+#~ msgid "キーボード操作の ``I`` キーと同じ"
+#~ msgstr "Same as the ``I`` key on the keyboard"
+
+#~ msgid "遠ざける"
+#~ msgstr "keep away"
+
+#~ msgid "キーボード操作の ``O`` キーと同じ"
+#~ msgstr "Same as the ``O`` key on the keyboard"
+
+#~ msgid "移動"
+#~ msgstr "move"
+
+#~ msgid "マウスの中クリックしながら上下左右動かすことに相当。"
+#~ msgstr "Equivalent to moving the mouse up, down, left, or right while clicking the middle mouse button."
+
+#~ msgid "画面の下部に表示されます。通常のV-padとの違いは、ドラッグ用のタイトルバーがありません。"
+#~ msgstr ""
+#~ "It will be displayed at the bottom of the screen. The difference from normal V-pad is that there is no title bar "
+#~ "for dragging."
+
+#~ msgid "モバイル表示、ランドスケープ"
+#~ msgstr "Mobile viewing, landscape"
+
+#~ msgid "画面の端に表示されます。"
+#~ msgstr "It will be displayed at the edge of the screen."
