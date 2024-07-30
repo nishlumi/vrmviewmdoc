@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 01:03+0900\n"
-"PO-Revision-Date: 2024-07-08 01:03+0900\n"
+"POT-Creation-Date: 2024-07-28 21:14+0900\n"
+"PO-Revision-Date: 2024-07-28 21:15+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -28,7 +28,7 @@ msgstr "Feature"
 msgid "できること"
 msgstr "Available features"
 
-#: ../../source/man1/feature.rst:31
+#: ../../source/man1/feature.rst:32
 msgid "本アプリで主にできることは次のとおりです。"
 msgstr "The main things you can do with this app are:"
 
@@ -131,21 +131,25 @@ msgstr "Some pages are optimized for mobile devices (from ver 2.8.0)"
 msgid "ゲームパッドに対応 (ver 2.10.0より)"
 msgstr "Gamepad support (from ver 2.10.0)"
 
-#: ../../source/man1/feature.rst:33
+#: ../../source/man1/feature.rst:31
+msgid "VRoidHubからのモデル読み込み (ver 2.11.0より)"
+msgstr "Importing models from VRoidHub (from ver 2.11.0)"
+
+#: ../../source/man1/feature.rst:34
 msgid ""
 "TriLib2で対応可能なフォーマットすべて（https://ricardoreis.net/trilib-2/）"
 msgstr "All formats supported by TriLib2 (https://ricardoreis.net/trilib-2/)"
 
-#: ../../source/man1/feature.rst:35
+#: ../../source/man1/feature.rst:36
 msgid "UnityのWebGLで対応していないオーディオ効果もあります。"
 msgstr "Some audio effects are not supported by WebGL in Unity."
 
-#: ../../source/man1/feature.rst:37
+#: ../../source/man1/feature.rst:38
 msgid "実験機能のため、完全な再現とはならない可能性もあります。"
 msgstr ""
 "Because it is an experimental feature, it may not be a perfect reproduction."
 
-#: ../../source/man1/feature.rst:44
+#: ../../source/man1/feature.rst:45
 msgid "できないこと"
 msgstr "Not available features"
 
@@ -153,7 +157,7 @@ msgstr "Not available features"
 msgid "本アプリで現在のバージョン（2.0.0）でできないことは次のとおりです。"
 msgstr "What this app can't do in the current version (2.0.0) is as follows."
 
-#: ../../source/man1/feature.rst:47
+#: ../../source/man1/feature.rst:48
 msgid ""
 "Unityの仕様上、各OSネイティブ、コンシューマ機並の描画（WebGL環境はそれらより"
 "描画性能がかなり落ちます）"
@@ -162,7 +166,7 @@ msgstr ""
 "that of consumer machines (WebGL environment's drawing performance is "
 "considerably lower than those)"
 
-#: ../../source/man1/feature.rst:48
+#: ../../source/man1/feature.rst:49
 msgid ""
 "3Dオブジェクトの不透明度（UnityのWebGLの仕様により表現できません。2Dオブジェ"
 "クトはできます）"
@@ -170,27 +174,19 @@ msgstr ""
 "3D object opacity (unable to express due to Unity's WebGL specification, 2D "
 "objects can)"
 
-#: ../../source/man1/feature.rst:49
+#: ../../source/man1/feature.rst:50
 msgid ""
 "VRMの各ボーンを直接回転させてのポージング（いわゆるFK。できることの2番目と同"
 "じ意味）"
 msgstr "Posing by directly rotating each bone of VRM (so-called FK)"
 
-#: ../../source/man1/feature.rst:50
+#: ../../source/man1/feature.rst:51
 msgid ""
 "UnityやMMD・MMMのアニメーションファイル・モーションファイルなどの読み込み"
 "（fbxに含まれるアニメーションデータは読み込み可能です）"
 msgstr ""
 "Loading Unity, MMD/MMM animation files, motion files, etc. (animation data "
 "included in fbx can be loaded)"
-
-#: ../../source/man1/feature.rst:51
-msgid ""
-"VRoidHubからVRoidを読み込むこと（VRoidSDKはC#だけのため、HTMLからはセキュリ"
-"ティ的に無理）"
-msgstr ""
-"Loading VRoid from VRoidHub (VRoidSDK is only C#, so it is impossible from "
-"HTML for security reasons)"
 
 #: ../../source/man1/feature.rst:52
 msgid "VRMを編集・加工して保存すること（本アプリの目的ではないため非対応）"
@@ -221,3 +217,10 @@ msgid ""
 msgstr ""
 "In the future, if the assets and libraries used are upgraded, it may be "
 "possible to use this application as well. note that."
+
+#~ msgid ""
+#~ "VRoidHubからVRoidを読み込むこと（VRoidSDKはC#だけのため、HTMLからはセキュ"
+#~ "リティ的に無理）"
+#~ msgstr ""
+#~ "Loading VRoid from VRoidHub (VRoidSDK is only C#, so it is impossible "
+#~ "from HTML for security reasons)"

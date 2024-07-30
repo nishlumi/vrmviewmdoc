@@ -124,6 +124,9 @@ Github
 
 今後上記スクリプトプロジェクトを更新することがあります。その場合は次のページの手順を実施してください。
 
+:Googleスライドによるアップデート手順:
+    https://docs.google.com/presentation/d/e/2PACX-1vQg1nevQOWSsoUU2GsRYmvOuYiFYcUJRib3W3xCTaw-QTKo2T5OTFVrg-euPVVQKeeA9InbkdBUtFat/pub?start=false&loop=false&delayms=3000
+
 :インストール方法 - Github:
     https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst
 

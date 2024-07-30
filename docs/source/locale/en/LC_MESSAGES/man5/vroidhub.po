@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-28 21:12+0900\n"
+"PO-Revision-Date: 2024-07-28 21:13+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: ../../source/man5/vroidhub.rst ../../source/man5/vroidhub.rst:5
+msgid "VRoidHub"
+msgstr "VRoidHub"
+
+#: ../../source/man5/vroidhub.rst:7
+msgid "目次"
+msgstr "Contents"
+
+#: ../../source/man5/vroidhub.rst:10
+msgid "VRoidHubへの接続"
+msgstr "Connecting to VRoidHub"
+
+#: ../../source/man5/vroidhub.rst:12
+msgid "ver 2.11.0より、VRoidHubからVRMを読み込めるように対応しました。"
+msgstr "From version 2.11.0, it is now possible to load VRM from VRoidHub."
+
+#: ../../source/man5/vroidhub.rst:14
+msgid "事前にVRoidHubのアカウント登録をしておいてください。"
+msgstr "Please register for a VRoidHub account in advance."
+
+#: ../../source/man5/vroidhub.rst:16
+msgid "https://hub.vroid.com/"
+msgstr "https://hub.vroid.com/"
+
+#: ../../source/man5/vroidhub.rst:40
+msgid "ウェブアプリの場合"
+msgstr "For web apps"
+
+#: ../../source/man5/vroidhub.rst:25 ../../source/man5/vroidhub.rst:43
+msgid "本アプリのリボンバーの ``3Dモデル`` タブを開きます。"
+msgstr "Open the ``3D Model`` tab on the ribbon bar of this app."
+
+#: ../../source/man5/vroidhub.rst:26 ../../source/man5/vroidhub.rst:44
+msgid "VRoidHubの領域の ``接続`` ボタンを押します。"
+msgstr "Press the ``Connect`` button in the VRoidHub area."
+
+#: ../../source/man5/vroidhub.rst:27
+msgid "本アプリからVRoidHubのサイトに切り替わります。"
+msgstr "This app will redirect you to the VRoidHub website."
+
+#: ../../source/man5/vroidhub.rst:33 ../../source/man5/vroidhub.rst:50
+msgid "VRoidHubにログインし、本アプリとVRoidHubの接続を許可してください。"
+msgstr "Log in to VRoidHub and allow the connection between this app and VRoidHub."
+
+#: ../../source/man5/vroidhub.rst:39
+msgid "ログイン完了後本アプリの画面が再び表示されます。"
+msgstr "After logging in, the app screen will be displayed again."
+
+#: ../../source/man5/vroidhub.rst:40 ../../source/man5/vroidhub.rst:58
+msgid "本アプリとVRoidHubの接続が完了します。"
+msgstr "The connection between this app and VRoidHub will be completed."
+
+#: ../../source/man5/vroidhub.rst:58
+msgid "各OS版の場合"
+msgstr "For each OS version"
+
+#: ../../source/man5/vroidhub.rst:45
+msgid ""
+"ポップアップダイアログにVRoidHubのURLが入力されているので、コピーしてブラウザで開いてくださ"
+"い。"
+msgstr ""
+"The VRoidHub URL will be entered in the pop-up dialog, so copy it and open it in your "
+"browser."
+
+#: ../../source/man5/vroidhub.rst:51
+msgid "Webページ上のコードが表示されるので、それをコピーしてください。"
+msgstr "You will be shown a code on the web page, please copy it."
+
+#: ../../source/man5/vroidhub.rst:52
+msgid "本アプリ画面を再び見て、ポップアップダイアログのOKボタンを押します。"
+msgstr "Look at the app screen again and press the OK button on the pop-up dialog."
+
+#: ../../source/man5/vroidhub.rst:53
+msgid ""
+"次にコード入力用のポップアップダイアログが開くので、コピーしたコードを貼り付けてOKボタンを押"
+"します。"
+msgstr ""
+"Next, a pop-up dialog box for entering the code will open, so paste the code you copied and "
+"press the OK button."
+
+#: ../../source/man5/vroidhub.rst:61
+msgid ""
+"本アプリは利用者のVRoidHubへのログイン情報を保持しません。VRoidHubの仕様上、一度本アプリと接"
+"続しても、数分後には接続が自動的に切り離されるようになっています。"
+msgstr ""
+"This application does not retain the user's VRoidHub login information. Due to the "
+"specifications of VRoidHub, even if you connect to this application once, the connection "
+"will be automatically disconnected after a few minutes."
+
+#: ../../source/man5/vroidhub.rst:63
+msgid "その場合、再接続が必要です。"
+msgstr "In that case, you will need to reconnect."
+
+#: ../../source/man5/vroidhub.rst:67
+msgid "VRoidHubからモデルを読み込む"
+msgstr "Loading a model from VRoidHub"
+
+#: ../../source/man5/vroidhub.rst:69
+msgid "接続に成功すると、リストのメニューから次の種類のモデルを参照できます。"
+msgstr ""
+"Once the connection is successful, you can browse the following types of models from the "
+"list menu:"
+
+#: ../../source/man5/vroidhub.rst:71
+msgid "自分の登録したモデル"
+msgstr "My registered models"
+
+#: ../../source/man5/vroidhub.rst:72
+msgid "お気に入りしたモデル"
+msgstr "Favorite Models"
+
+#: ../../source/man5/vroidhub.rst:73
+msgid "スタッフおすすめのモデル"
+msgstr "Model recommended by staff"
+
+#: ../../source/man5/vroidhub.rst:78
+msgid ""
+"モデルをクリック（タップ）するとチェックマークがついて選択できます。そしてOKボタンを押すと確"
+"認メッセージが表示されるので進めてください。"
+msgstr ""
+"Clicking (tapping) on ​​a model will display a check mark to select it. Then, pressing the OK "
+"button will display a confirmation message, so you can proceed."
+
+#: ../../source/man5/vroidhub.rst:80
+msgid ""
+"その後は端末から読み込むときと同様にVRMの情報画面が表示され、ライセンスや利用条件を確認できま"
+"す。"
+msgstr ""
+"After that, the VRM information screen will be displayed, just like when loading from a "
+"device, and you can check the license and terms of use."
+
+#: ../../source/man5/vroidhub.rst:82
+msgid "reloadbtn"
+msgstr "reloadbtn"
+
+#: ../../source/man5/vroidhub.rst:84
+msgid "一覧の続きを読み込む場合は |reloadbtn| を押すと一覧の続きが読み込まれます。"
+msgstr ""
+"If you want to reload the rest of the list, press |reloadbtn| and the rest of the list will "
+"be loaded."
+
+#: ../../source/man5/vroidhub.rst:88
+msgid ""
+"スタッフおすすめのモデルはランダムに出るようです。VRM内部のメタ情報に情報が正しくセットされて"
+"いないモデルが多く、本アプリでは予期せぬ動作をする可能性があります。"
+msgstr ""
+"Models recommended by our staff appear randomly. Many of the models do not have the correct "
+"information set in the meta information inside the VRM, and may behave unexpectedly in this "
+"app."
+
+#: ../../source/man5/vroidhub.rst:90
+msgid "スタッフおすすめのモデルについては自己責任でのご利用をお願いします。"
+msgstr "Please use models recommended by our staff at your own risk."

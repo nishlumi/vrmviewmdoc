@@ -42,6 +42,8 @@ Welcome to VRMViewMeister's documentation!
    man5/texttrack
    man5/vrar
    man5/config
+   man5/gen_use_cloud
+   man5/vroidhub
    man5/other
 
 索引と検索

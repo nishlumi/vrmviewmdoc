@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 21:04+0900\n"
+"POT-Creation-Date: 2024-07-28 19:05+0900\n"
+"PO-Revision-Date: 2024-07-28 19:05+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,15 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/screen_internaldlg.rst:5
 msgid "内部ストレージダイアログ"
 msgstr "Internal storage dialog"
 
 #: ../../source/man1/screen_internaldlg.rst:13
-msgid "アプリ内部に保存したアニメーションプロジェクトや一度開いたことのあるファイルを開くための画面です。"
-msgstr "This screen is for opening animation projects saved in the app or files that have been opened before."
+msgid ""
+"アプリ内部に保存したアニメーションプロジェクトや一度開いたことのあるファイルを開"
+"くための画面です。"
+msgstr ""
+"This screen is for opening animation projects saved in the app or files that "
+"have been opened before."
 
 #: ../../source/man1/screen_internaldlg.rst:17
 msgid "**ツールバー：**"
@@ -99,3 +103,7 @@ msgstr "List"
 #: ../../source/man1/screen_internaldlg.rst:40
 msgid "ファイル名、サイズ、作成日付、更新日付を表示する一覧です。"
 msgstr "A list that displays the file name, size, creation date, and update date."
+
+#: ../../source/man1/screen_internaldlg.rst:42
+msgid "ヘッダー部分をクリックするとその列でソートします。"
+msgstr "Click on a header to sort by that column."

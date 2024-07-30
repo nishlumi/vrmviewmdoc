@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 17:36+0900\n"
-"PO-Revision-Date: 2023-06-03 21:06+0900\n"
+"POT-Creation-Date: 2024-07-28 18:51+0900\n"
+"PO-Revision-Date: 2024-07-28 18:54+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/screen_keyframereg.rst:6
 msgid "キーフレームの登録ウィンドウ"
@@ -34,22 +34,21 @@ msgstr "keyframe2"
 
 #: ../../source/man1/screen_keyframereg.rst:11
 msgid ""
-"リボンバーの任意の位置で右クリック（macOSの場合はControlキー押しなが"
-"らクリックまたは2点タップ）するか、アニメーションタブの ``キーフレー"
-"ムを登録`` ボタンを押すと表示されます。ここでキーフレームに登録したい"
-"プロパティやボーンを選択できます。"
+"リボンバーの任意の位置で右クリック（macOSの場合はControlキー押しながらク"
+"リックまたは2点タップ）するか、アニメーションタブの ``キーフレームを登録"
+"`` ボタンを押すと表示されます。ここでキーフレームに登録したいプロパティや"
+"ボーンを選択できます。"
 msgstr ""
 "Right-click (Control-click or double-tap for macOS) anywhere on the "
-"ribbon bar or press the ``Register Keyframe`` button on the "
-"Animation tab to display it. Here you can select properties and "
-"bones that you want to register in keyframes."
+"ribbon bar or press the ``Register Keyframe`` button on the Animation "
+"tab to display it. Here you can select properties and bones that you "
+"want to register in keyframes."
 
 #: ../../source/man1/screen_keyframereg.rst:13
-msgid ""
-"この中の ``キーフレームを登録`` ボタンを押すと実際に登録されます。"
+msgid "この中の ``キーフレームを登録`` ボタンを押すと実際に登録されます。"
 msgstr ""
-"When you press the ``Register keyframe`` button in this, it is "
-"actually registered."
+"When you press the ``Register keyframe`` button in this, it is actually "
+"registered."
 
 #: ../../source/man1/screen_keyframereg.rst:1
 msgid "VRM"
@@ -73,34 +72,127 @@ msgstr "Register keyframe"
 
 #: ../../source/man1/screen_keyframereg.rst:21
 msgid ""
-"現在選択中のオブジェクトの状態を現在のキーフレームに登録します。同じ"
-"キーフレーム位置でもう一度登録すると上書きします。"
+"現在選択中のオブジェクトの状態を現在のキーフレームに登録します。同じキー"
+"フレーム位置でもう一度登録すると上書きします。"
 msgstr ""
 "Registers the state of the currently selected object to the current "
-"keyframe. If you register again at the same keyframe position, it "
-"will be overwritten."
+"keyframe. If you register again at the same keyframe position, it will "
+"be overwritten."
 
 #: ../../source/man1/screen_keyframereg.rst
 msgid "右上のツールバー"
 msgstr "upper right toolbar"
 
-#: ../../source/man1/screen_keyframereg.rst:24
-msgid "将来のバージョンで使用します。 まだ使いません。"
-msgstr "For use in future versions. I don't use it yet."
+#: ../../source/man1/screen_keyframereg.rst:27
+msgid "左から次の順に並んでいます。"
+msgstr "They are listed from left to right in the following order:"
 
-#: ../../source/man1/screen_keyframereg.rst:26
+#: ../../source/man1/screen_keyframereg.rst
+msgid "全ボーンを選択解除"
+msgstr "Deselect all bones"
+
+#: ../../source/man1/screen_keyframereg.rst:30
+msgid "すべてのボーンのチェックボックスを外します。"
+msgstr "Uncheck all bones."
+
+#: ../../source/man1/screen_keyframereg.rst
+msgid "全ボーンを選択"
+msgstr "Select all bones"
+
+#: ../../source/man1/screen_keyframereg.rst:33
+msgid "すべてのボーンのチェックボックスにチェックを入れます。"
+msgstr "Check all the bones checkboxes."
+
+#: ../../source/man1/screen_keyframereg.rst
+msgid "視線関連を選択"
+msgstr "Select the gaze"
+
+#: ../../source/man1/screen_keyframereg.rst:36
+msgid "``EyeViewHandle`` と ``LookAt`` のみチェックを入れます。"
+msgstr "Only check ``EyeViewHandle`` and ``LookAt``."
+
+#: ../../source/man1/screen_keyframereg.rst
+msgid "上半身を選択"
+msgstr "Select the upper body"
+
+#: ../../source/man1/screen_keyframereg.rst:39
+#: ../../source/man1/screen_keyframereg.rst:52
+msgid "次のボーンにチェックを入れます。"
+msgstr "Check the following bones:"
+
+#: ../../source/man1/screen_keyframereg.rst:41
+msgid "``Head``"
+msgstr "``Head``"
+
+#: ../../source/man1/screen_keyframereg.rst:42
+msgid "``Chest``"
+msgstr "``Chest``"
+
+#: ../../source/man1/screen_keyframereg.rst:43
+msgid "``Aim``"
+msgstr "``Aim``"
+
+#: ../../source/man1/screen_keyframereg.rst:44
+msgid "``LeftShoulder``"
+msgstr "``LeftShoulder``"
+
+#: ../../source/man1/screen_keyframereg.rst:45
+msgid "``RightShoulder``"
+msgstr "``RightShoulder``"
+
+#: ../../source/man1/screen_keyframereg.rst:46
+msgid "``LeftLowerArm``"
+msgstr "``LeftLowerArm``"
+
+#: ../../source/man1/screen_keyframereg.rst:47
+msgid "``RightLowerArm``"
+msgstr "``RightLowerArm``"
+
+#: ../../source/man1/screen_keyframereg.rst:48
+msgid "``LeftHand``"
+msgstr "``LeftHand``"
+
+#: ../../source/man1/screen_keyframereg.rst:49
+msgid "``RightHand``"
+msgstr "``RightHand``"
+
+#: ../../source/man1/screen_keyframereg.rst
+msgid "下半身を選択"
+msgstr "Select the lower body"
+
+#: ../../source/man1/screen_keyframereg.rst:54
+msgid "``Pelvis``"
+msgstr "``Pelvis``"
+
+#: ../../source/man1/screen_keyframereg.rst:55
+msgid "``LeftLowerLeg``"
+msgstr "``LeftLowerLeg``"
+
+#: ../../source/man1/screen_keyframereg.rst:56
+msgid "``RightLowerLeg``"
+msgstr "``RightLowerLeg``"
+
+#: ../../source/man1/screen_keyframereg.rst:57
+msgid "``LeftLeg``"
+msgstr "``LeftLeg``"
+
+#: ../../source/man1/screen_keyframereg.rst:58
+msgid "``RightLeg``"
+msgstr "``RightLeg``"
+
+#: ../../source/man1/screen_keyframereg.rst:60
 msgid ""
-"左から全ボーンを選択解除、全ボーンを選択、IKParentを選択、上半身を選"
-"択、下半身を選択"
+"VRM以外は 上半身を選択、下半身を選択、視線関連を選択 を押すことはできませ"
+"ん。"
 msgstr ""
-"Deselect all bones from the left, select all bones, select IKParent, "
-"select upper body, select lower body"
+"You cannot press Select upper body, Select lower body, or Select gaze "
+"related except for VRM."
 
 #: ../../source/man1/screen_keyframereg.rst
 msgid "登録する内容"
 msgstr "Contents to register"
 
-#: ../../source/man1/screen_keyframereg.rst:30
+#: ../../source/man1/screen_keyframereg.rst:65
 msgid ""
 "キーフレームに登録する内容を移動・移動以外・プロパティから選びます。"
 msgstr ""
@@ -111,10 +203,36 @@ msgstr ""
 msgid "登録するボーン"
 msgstr "Bone to register"
 
-#: ../../source/man1/screen_keyframereg.rst:33
+#: ../../source/man1/screen_keyframereg.rst:71
 msgid ""
-"キーフレームに登録するボーン(IKマーカー)を確認できます。これはVRMとそ"
-"れ以外で数が異なります。"
+"キーフレームに登録するボーン(IKマーカー)を確認できます。これはVRMとそれ以"
+"外で数が異なります。"
 msgstr ""
-"You can check the bones (IK markers) registered in the keyframe. "
-"This number differs between VRM and non-VRM."
+"You can check the bones (IK markers) registered in the keyframe. This "
+"number differs between VRM and non-VRM."
+
+#: ../../source/man1/screen_keyframereg.rst:74
+msgid ""
+"VRMは身体の各部位が存在するため、例えばRightHandの移動だけを登録する。と"
+"いったことができるようになります。"
+msgstr ""
+"Since VRM has each part of the body, it is possible to, for example, "
+"register only the movement of the Right Hand."
+
+#: ../../source/man1/screen_keyframereg.rst:76
+msgid ""
+"VRM以外は一つしかIKマーカーが存在しないため、チェックを外して移動・移動以"
+"外を登録しても意味がありません。"
+msgstr ""
+"There is only one IK marker other than VRM, so there is no point in "
+"unchecking it and registering anything other than movement/movement."
+
+#~ msgid "将来のバージョンで使用します。 まだ使いません。"
+#~ msgstr "For use in future versions. I don't use it yet."
+
+#~ msgid ""
+#~ "左から全ボーンを選択解除、全ボーンを選択、IKParentを選択、上半身を選"
+#~ "択、下半身を選択"
+#~ msgstr ""
+#~ "Deselect all bones from the left, select all bones, select IKParent, "
+#~ "select upper body, select lower body"

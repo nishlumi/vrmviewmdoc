@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-15 21:39+0900\n"
-"PO-Revision-Date: 2024-02-15 21:48+0900\n"
+"POT-Creation-Date: 2024-07-28 18:51+0900\n"
+"PO-Revision-Date: 2024-07-28 18:55+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/screen_keyframe.rst:5
 msgid "キーフレームの設定"
@@ -68,7 +68,7 @@ msgstr "role name"
 msgid "現在編集中のタイムラインのロールの名称を表示しています。"
 msgstr "Displays the name of the role of the timeline currently being edited."
 
-#: ../../source/man1/screen_keyframe.rst:36
+#: ../../source/man1/screen_keyframe.rst:42
 msgid "対象のフレーム"
 msgstr "対象のフレーム"
 
@@ -116,7 +116,27 @@ msgstr ""
 "Confirms the movement of the frame position. If you enter a frame position that already has a "
 "keyframe registered, the button cannot be pressed."
 
-#: ../../source/man1/screen_keyframe.rst:43
+#: ../../source/man1/screen_keyframe.rst
+msgid "複製ボタン"
+msgstr "duplicate button"
+
+#: ../../source/man1/screen_keyframe.rst:39
+msgid ""
+"開始から終了フレーム間のキーフレームを移動先フレームを開始位置として複製します。すでにキーフレー"
+"ムが登録されているフレーム位置を入力した場合、ボタンは押せなくなります。"
+msgstr ""
+"Confirms the movement of the frame position. If you enter a frame position that already has a "
+"keyframe registered, the button cannot be pressed."
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "削除ボタン"
+msgstr "delete button"
+
+#: ../../source/man1/screen_keyframe.rst:42
+msgid "開始から終了フレーム間のキーフレームを削除します。"
+msgstr "Deletes the keyframes between the start and end frames."
+
+#: ../../source/man1/screen_keyframe.rst:49
 msgid "全般タブ"
 msgstr "General tab"
 
@@ -124,7 +144,7 @@ msgstr "General tab"
 msgid "メモ"
 msgstr "Memo"
 
-#: ../../source/man1/screen_keyframe.rst:40
+#: ../../source/man1/screen_keyframe.rst:46
 msgid "編集中のキーフレームにメモを記入します。実際の動きには影響しません。"
 msgstr "Write a memo on the keyframe being edited. It does not affect actual movement."
 
@@ -132,11 +152,11 @@ msgstr "Write a memo on the keyframe being edited. It does not affect actual mov
 msgid "イージング"
 msgstr "easing"
 
-#: ../../source/man1/screen_keyframe.rst:43
+#: ../../source/man1/screen_keyframe.rst:49
 msgid "編集中のキーフレームに至るまでのイージングを選択します。"
 msgstr "Select the easing up to the keyframe you are editing."
 
-#: ../../source/man1/screen_keyframe.rst:56
+#: ../../source/man1/screen_keyframe.rst:62
 msgid "間隔(duration)タブ"
 msgstr "duration tab"
 
@@ -144,7 +164,7 @@ msgstr "duration tab"
 msgid "間隔"
 msgstr "Duration"
 
-#: ../../source/man1/screen_keyframe.rst:47
+#: ../../source/man1/screen_keyframe.rst:53
 msgid ""
 "一つ前の登録済みキーフレームから編集中のキーフレームに至るまでの間隔（秒）を手動で指定します。基"
 "本的に自動で計算されますが、あえて変更したい場合にはここで変更できます。"
@@ -157,7 +177,7 @@ msgstr ""
 msgid "間隔をリセット"
 msgstr "Reset duration"
 
-#: ../../source/man1/screen_keyframe.rst:50
+#: ../../source/man1/screen_keyframe.rst:56
 msgid "編集中のキーフレームに至るまでの間隔（秒）を自動計算された値に戻します。"
 msgstr ""
 "Resets the interval (in seconds) before the keyframe being edited to the automatically "
@@ -167,7 +187,7 @@ msgstr ""
 msgid "次のタイムラインの間隔をコピーする"
 msgstr "Copy duration of the following timeline:"
 
-#: ../../source/man1/screen_keyframe.rst:54
+#: ../../source/man1/screen_keyframe.rst:60
 msgid ""
 "コピー元のタイムライン（役割）を選択し、そのタイムラインに登録されたキーフレームの開始と終了を指"
 "定することで、その範囲の間隔(duration)の合計値をコピーすることができます。"
@@ -175,14 +195,14 @@ msgstr ""
 "By selecting the source timeline (role) and specifying the start and end of the keyframes "
 "registered on that timeline, you can copy the total duration value of that range."
 
-#: ../../source/man1/screen_keyframe.rst:56
+#: ../../source/man1/screen_keyframe.rst:62
 msgid ""
 "**※コピーした後に反映するには、さらに間隔(duration)の入力ボックスを操作する必要があります。**"
 msgstr ""
 "In order to reflect after copying, it is necessary to **manipulate** the input box of the "
 "interval (duration)."
 
-#: ../../source/man1/screen_keyframe.rst:67
+#: ../../source/man1/screen_keyframe.rst:76
 msgid "位置,回転タブ"
 msgstr "position, rotation tab"
 
@@ -190,7 +210,7 @@ msgstr "position, rotation tab"
 msgid "位置X, Y, Z"
 msgstr "Position X, Y, Z"
 
-#: ../../source/man1/screen_keyframe.rst:60
+#: ../../source/man1/screen_keyframe.rst:66
 msgid "それぞれの座標です。"
 msgstr "coordinates of each."
 
@@ -198,7 +218,7 @@ msgstr "coordinates of each."
 msgid "回転X, Y, Z"
 msgstr "Rotation X, Y, Z"
 
-#: ../../source/man1/screen_keyframe.rst:63
+#: ../../source/man1/screen_keyframe.rst:69
 msgid ""
 "それぞれの軸の回転角度です。プロパティ一覧の同項目と異なり、ここでは -180～+180度までとなりま"
 "す。"
@@ -210,15 +230,23 @@ msgstr ""
 msgid "絶対指定"
 msgstr "absolute designation"
 
-#: ../../source/man1/screen_keyframe.rst:66
+#: ../../source/man1/screen_keyframe.rst:72
 msgid "チェックを入れた場合、それぞれの値が絶対値になります。"
 msgstr "If checked, each value will be an absolute value."
 
-#: ../../source/man1/screen_keyframe.rst:68
+#: ../../source/man1/screen_keyframe.rst:74
 msgid "チェックが入っていない場合は現在位置・回転にそれぞれの値が加算・減算されます。"
 msgstr ""
 "If not checked, the respective values will be added or subtracted from the current position and "
 "rotation."
+
+#: ../../source/man1/screen_keyframe.rst
+msgid "適用ボタン"
+msgstr "apply button"
+
+#: ../../source/man1/screen_keyframe.rst:77
+msgid "位置と回転で指定した値を実際に反映します。"
+msgstr "The values specified in position and rotation are actually reflected."
 
 #~ msgid "イージングタブ"
 #~ msgstr "easing tab"
