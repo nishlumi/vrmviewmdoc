@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-28 21:14+0900\n"
-"PO-Revision-Date: 2024-07-28 21:15+0900\n"
+"POT-Creation-Date: 2024-08-11 11:25+0900\n"
+"PO-Revision-Date: 2024-08-11 11:26+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -132,8 +132,8 @@ msgid "ゲームパッドに対応 (ver 2.10.0より)"
 msgstr "Gamepad support (from ver 2.10.0)"
 
 #: ../../source/man1/feature.rst:31
-msgid "VRoidHubからのモデル読み込み (ver 2.11.0より)"
-msgstr "Importing models from VRoidHub (from ver 2.11.0)"
+msgid "VRoid Hubからのモデル読み込み (ver 2.11.0より)"
+msgstr "Importing models from VRoid Hub (from ver 2.11.0)"
 
 #: ../../source/man1/feature.rst:34
 msgid ""

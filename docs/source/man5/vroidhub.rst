@@ -1,69 +1,109 @@
-.. index:: VRoidHub
+.. index:: VRoid Hub
 
 ####################################
-VRoidHub
+VRoid Hub
 ####################################
 
 .. contents::
 
-VRoidHubへの接続
+.. index:: VRoid Hubへの接続
+
+
+VRoid Hubへの接続
 ====================================
 
-ver 2.11.0より、VRoidHubからVRMを読み込めるように対応しました。
+ver 2.11.0より、VRoid HubからVRMを読み込めるように対応しました。
 
-事前にVRoidHubのアカウント登録をしておいてください。
+事前にVRoid Hubのアカウント登録をしておいてください。
 
-:VRoidHub: https://hub.vroid.com/
+:VRoid Hub: https://hub.vroid.com/
 
+
+1. 本アプリのリボンバーの ``3Dモデル`` タブを開きます。
+
+.. image:: img/vroidhubmenu01a.png
+    :align: center
+
+2. VRoid Hubの領域の ``接続`` ボタンを押します。
+
+.. image:: img/vroidhubmenu01c.png
+    :align: center
 
 
 ウェブアプリの場合
-    1. 本アプリのリボンバーの ``3Dモデル`` タブを開きます。
-    2. VRoidHubの領域の ``接続`` ボタンを押します。
-
-    .. image:: img/vroidhubmenu01.png
-        :align: center
-
-    3. 本アプリからVRoidHubのサイトに切り替わります。
+    3. 本アプリからVRoid Hubのサイトに切り替わります。
 
     .. image:: img/vroidhubmenu02.png
         :align: center
 
 
-    4. VRoidHubにログインし、本アプリとVRoidHubの接続を許可してください。
+    4. VRoid Hubにログインし、本アプリとVRoid Hubの接続を許可してください。
 
     .. image:: img/vroidhubmenu03.png
         :align: center
 
+    |
 
     5. ログイン完了後本アプリの画面が再び表示されます。
-    6. 本アプリとVRoidHubの接続が完了します。
+    6. 本アプリとVRoid Hubの接続が完了します。
 
 各OS版の場合
-    1. 本アプリのリボンバーの ``3Dモデル`` タブを開きます。
-    2. VRoidHubの領域の ``接続`` ボタンを押します。
-    3. ポップアップダイアログにVRoidHubのURLが入力されているので、コピーしてブラウザで開いてください。
+    3. ポップアップダイアログにVRoid Hubへのログインボタンが表示されるので、クリックしてブラウザで開いてください。
 
     .. image:: img/vroidhubmenu_pc01.png
         :align: center
 
-    4. VRoidHubにログインし、本アプリとVRoidHubの接続を許可してください。
+    |
+
+    4. VRoid Hubにログインし、本アプリとVRoid Hubの接続を許可してください。
     5. Webページ上のコードが表示されるので、それをコピーしてください。
-    6. 本アプリ画面を再び見て、ポップアップダイアログのOKボタンを押します。
-    7. 次にコード入力用のポップアップダイアログが開くので、コピーしたコードを貼り付けてOKボタンを押します。
-
-    .. image:: img/vroidhubmenu_pc02.png
-        :align: center
-
-    8. 本アプリとVRoidHubの接続が完了します。
+    6. 本アプリ画面を再び見てください。
+    7. 次にコード入力用ボックスが表示されるので、コピーしたコードを貼り付けて送信ボタンを押します。
+    8. 本アプリとVRoid Hubの接続が完了します。
 
 .. hint::
-    本アプリは利用者のVRoidHubへのログイン情報を保持しません。VRoidHubの仕様上、一度本アプリと接続しても、数分後には接続が自動的に切り離されるようになっています。
+    本アプリは利用者のVRoid Hubへのログイン情報を保持しません。VRoid Hubの仕様上、一度本アプリと接続しても、数分後には接続が自動的に切り離されるようになっています。
 
     その場合、再接続が必要です。
 
+|
 
-VRoidHubからモデルを読み込む
+.. index:: VRoid Hubからログアウトする
+
+VRoid Hubからログアウトする
+=====================================
+
+    1. 本アプリのリボンバーの ``3Dモデル`` タブを開きます。
+
+    .. image:: img/vroidhubmenu01a.png
+        :align: center
+
+    2. VRoid Hubの領域の ``ログアウト`` ボタンを押します。
+
+    .. image:: img/vroidhubmenu01d.png
+        :align: center
+
+    3. 確認メッセージが表示されるので、問題なければOKボタンを押します。
+
+    .. image:: img/vroidhub_logout01.png
+        :align: center
+
+.. caution::
+    ログアウトすると次の状態になります。
+    
+    * 現在読み込み済みのVRoid Hubから開いたVRMは、 **現在のプロジェクトからすべて削除されます。**
+    
+    ただしタイムライン（ロール）は残ります。登録済みのキーフレームの内容もそのまま残るため、後から別のVRMを開いてタイムライン（ロール）に割り当てて、モーションを再生することもできます。
+
+    :ref:`settingcast2role` を参照してください。
+
+    **また、VRoid Hubから開いたVRMは履歴にも残りません。** 
+    
+    いつでもすぐに使いたいモデルはVRoid Hubから直接ダウンロードして、PCやスマートフォン、Googleドライブに保存して本アプリで使うようにしてください。
+
+.. index:: VRoid Hubからモデルを読み込む
+
+VRoid Hubからモデルを読み込む
 =====================================
 
 接続に成功すると、リストのメニューから次の種類のモデルを参照できます。

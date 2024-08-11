@@ -42,6 +42,8 @@ VRMのIKマーカーの操作
 
 　読み込んだVRoid/VRMには図のようにIKマーカーと称する半透明の図形がついています。それぞれ次の部位の動きに連動しています。また、部位ごとにIKマーカーの操作の種類や形が決まっています。
 
+ver 2.12.0より、つま先のIKマーカーを追加しました。つま先はX軸のみの回転操作です。
+
 .. image:: ../img/operation_vrm_6.jpg
     :align: center
 
@@ -64,7 +66,8 @@ VRMのIKマーカーの操作
 .. |ico_rightlowerarm| image:: ../img/vvmico_bn_rightlowerarm.png
 .. |ico_rightlowerleg| image:: ../img/vvmico_bn_rightlowerleg.png
 .. |ico_rightshoulder| image:: ../img/vvmico_bn_rightshoulder.png
-
+.. |ico_lefttoes| image:: ../img/vvmico_bn_lefttoes.png
+.. |ico_righttoes| image:: ../img/vvmico_bn_righttoes.png
 
 .. csv-table::
     :header-rows: 1
@@ -79,6 +82,7 @@ VRMのIKマーカーの操作
     12,  |ico_righthand|, 右手（RightHand）,移動・回転,              , , ,
     13, |ico_leftlowerleg|, 左足の方向（LeftLowerLeg）≠ひざ,移動,        14, |ico_leftleg|, 左足首（LeftLeg）,移動・回転
     15, |ico_rightlowerleg|, 右足の方向（RightLowerLeg）≠ひざ,移動,      16, |ico_rightleg|, 右足首（RightLeg）,移動・回転
+    20, |ico_lefttoes|, 左足のつま先, X軸の回転,            21, |ico_righttoes|, 右足のつま先, X軸の回転
 
 .. index:: IKシステムの変更(VRM)
 
