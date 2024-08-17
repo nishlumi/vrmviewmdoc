@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-28 18:51+0900\n"
-"PO-Revision-Date: 2024-07-28 18:54+0900\n"
+"POT-Creation-Date: 2024-08-17 10:59+0900\n"
+"PO-Revision-Date: 2024-08-17 11:01+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -180,7 +180,15 @@ msgstr "``LeftLeg``"
 msgid "``RightLeg``"
 msgstr "``RightLeg``"
 
+#: ../../source/man1/screen_keyframereg.rst:59
+msgid "``LeftToes``"
+msgstr "``LeftToes``"
+
 #: ../../source/man1/screen_keyframereg.rst:60
+msgid "``RightToes``"
+msgstr "``RightToes``"
+
+#: ../../source/man1/screen_keyframereg.rst:62
 msgid ""
 "VRM以外は 上半身を選択、下半身を選択、視線関連を選択 を押すことはできませ"
 "ん。"
@@ -192,7 +200,7 @@ msgstr ""
 msgid "登録する内容"
 msgstr "Contents to register"
 
-#: ../../source/man1/screen_keyframereg.rst:65
+#: ../../source/man1/screen_keyframereg.rst:67
 msgid ""
 "キーフレームに登録する内容を移動・移動以外・プロパティから選びます。"
 msgstr ""
@@ -203,7 +211,7 @@ msgstr ""
 msgid "登録するボーン"
 msgstr "Bone to register"
 
-#: ../../source/man1/screen_keyframereg.rst:71
+#: ../../source/man1/screen_keyframereg.rst:73
 msgid ""
 "キーフレームに登録するボーン(IKマーカー)を確認できます。これはVRMとそれ以"
 "外で数が異なります。"
@@ -211,7 +219,7 @@ msgstr ""
 "You can check the bones (IK markers) registered in the keyframe. This "
 "number differs between VRM and non-VRM."
 
-#: ../../source/man1/screen_keyframereg.rst:74
+#: ../../source/man1/screen_keyframereg.rst:76
 msgid ""
 "VRMは身体の各部位が存在するため、例えばRightHandの移動だけを登録する。と"
 "いったことができるようになります。"
@@ -219,7 +227,7 @@ msgstr ""
 "Since VRM has each part of the body, it is possible to, for example, "
 "register only the movement of the Right Hand."
 
-#: ../../source/man1/screen_keyframereg.rst:76
+#: ../../source/man1/screen_keyframereg.rst:78
 msgid ""
 "VRM以外は一つしかIKマーカーが存在しないため、チェックを外して移動・移動以"
 "外を登録しても意味がありません。"

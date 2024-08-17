@@ -56,6 +56,8 @@
         * ``RightLowerLeg``
         * ``LeftLeg``
         * ``RightLeg``
+        * ``LeftToes``
+        * ``RightToes``
     
     VRM以外は 上半身を選択、下半身を選択、視線関連を選択 を押すことはできません。
 

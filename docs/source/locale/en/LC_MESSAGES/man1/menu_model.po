@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 22:04+0900\n"
-"PO-Revision-Date: 2024-03-24 22:25+0900\n"
+"POT-Creation-Date: 2024-08-17 11:11+0900\n"
+"PO-Revision-Date: 2024-08-17 11:13+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../source/man1/menu_model.rst:5
 msgid "モデルタブ"
@@ -28,7 +28,7 @@ msgstr "Model tab"
 msgid "3Dモデルに関する機能のボタンがあります。"
 msgstr "There are buttons for functions related to 3D models."
 
-#: ../../source/man1/menu_model.rst:15
+#: ../../source/man1/menu_model.rst:29
 msgid "**Add内（上の行4つ、下の行3つ）**"
 msgstr "**In Add (4 rows above, 3 rows below)**"
 
@@ -36,7 +36,7 @@ msgstr "**In Add (4 rows above, 3 rows below)**"
 msgid "テキスト"
 msgstr "Text"
 
-#: ../../source/man1/menu_model.rst:18
+#: ../../source/man1/menu_model.rst:17
 msgid "WebGL画面にテキストを追加します。"
 msgstr "Add text to the WebGL screen."
 
@@ -44,7 +44,7 @@ msgstr "Add text to the WebGL screen."
 msgid "カメラ"
 msgstr "Camera"
 
-#: ../../source/man1/menu_model.rst:20
+#: ../../source/man1/menu_model.rst:19
 msgid "WebGL画面にカメラを追加します。これはサブカメラとなります。"
 msgstr "Add a camera to your WebGL screen. This will be the sub camera."
 
@@ -52,7 +52,7 @@ msgstr "Add a camera to your WebGL screen. This will be the sub camera."
 msgid "スポットライト"
 msgstr "Spotlight"
 
-#: ../../source/man1/menu_model.rst:22
+#: ../../source/man1/menu_model.rst:21
 msgid "WebGL画面にスポットライトを追加します。"
 msgstr "Add a spotlight to your WebGL screen."
 
@@ -60,7 +60,7 @@ msgstr "Add a spotlight to your WebGL screen."
 msgid "基本の図形"
 msgstr "Basic shapes"
 
-#: ../../source/man1/menu_model.rst:24
+#: ../../source/man1/menu_model.rst:23
 msgid "球体や平面、四角形などまっさらなオブジェクトを追加します。"
 msgstr "Add blank objects such as spheres, planes, and rectangles."
 
@@ -68,7 +68,7 @@ msgstr "Add blank objects such as spheres, planes, and rectangles."
 msgid "UI画像"
 msgstr "Image in UI"
 
-#: ../../source/man1/menu_model.rst:26
+#: ../../source/man1/menu_model.rst:25
 msgid "WebGL画面に画像を2Dとして追加します。これは3Dオブジェクトではありません。"
 msgstr "Add image as 2D to WebGL screen. This is not a 3D object."
 
@@ -76,7 +76,7 @@ msgstr "Add image as 2D to WebGL screen. This is not a 3D object."
 msgid "エフェクト"
 msgstr "Effect"
 
-#: ../../source/man1/menu_model.rst:28
+#: ../../source/man1/menu_model.rst:27
 msgid "WebGL画面にエフェクトを追加します。"
 msgstr "Add effects to your WebGL screen."
 
@@ -84,27 +84,57 @@ msgstr "Add effects to your WebGL screen."
 msgid "ポイントライト"
 msgstr "Point light"
 
-#: ../../source/man1/menu_model.rst:30
+#: ../../source/man1/menu_model.rst:29
 msgid "WebGL画面に一定範囲の空間を照らすライトを追加します。"
 msgstr "Adds a light that illuminates a certain area of space on the WebGL screen."
 
-#: ../../source/man1/menu_model.rst:32
+#: ../../source/man1/menu_model.rst:50
 msgid "**Load 内**"
 msgstr "**In Load**"
 
-#: ../../source/man1/menu_model.rst:34
+#: ../../source/man1/menu_model.rst:32
 msgid ""
-"それぞれ、 ``ファイルから`` , ``Googleドライブから直接指定`` , ``Googleドライブか"
-"ら選択`` のメニューを使用可能です。"
+"それぞれ、 ``ファイルから`` , ``Googleドライブから選択`` , ``サンプルデータ`` の"
+"メニューを使用可能です。"
 msgstr ""
-"You can use the ``From File`` , ``Direct from Google Drive`` , or ``Select from "
-"Google Drive`` menus, respectively."
+"The ``From File``, ``Select from Google Drive`` and ``Sample Data`` menus are "
+"available."
+
+#: ../../source/man1/menu_model.rst
+msgid "ファイルから"
+msgstr "From a file"
+
+#: ../../source/man1/menu_model.rst:35
+msgid "PCなどの端末から直接ファイルを読み込みます。"
+msgstr "Read files directly from a PC or other device."
+
+#: ../../source/man1/menu_model.rst
+msgid "Googleドライブから選択"
+msgstr "Select from Google Drive"
+
+#: ../../source/man1/menu_model.rst:37
+msgid "別途ダイアログを表示し、対象のファイルを選択して読み込みます。"
+msgstr ""
+"A separate dialog will be displayed, allowing you to select and load the target "
+"file."
+
+#: ../../source/man1/menu_model.rst
+msgid "サンプルデータ"
+msgstr "Sample data"
+
+#: ../../source/man1/menu_model.rst:39
+msgid "本アプリのサーバに用意した各モデルデータを利用できます。"
+msgstr "You can use the model data provided on this app's server."
+
+#: ../../source/man1/menu_model.rst:50
+msgid "各オブジェクト別"
+msgstr "By each object"
 
 #: ../../source/man1/menu_model.rst
 msgid "VRM"
 msgstr "VRM"
 
-#: ../../source/man1/menu_model.rst:37
+#: ../../source/man1/menu_model.rst:43
 msgid "VRoid(VRM)を読み込んで読み込みます。"
 msgstr "Load the VRoid (VRM) and load it."
 
@@ -112,7 +142,7 @@ msgstr "Load the VRoid (VRM) and load it."
 msgid "オブジェクト"
 msgstr "Object"
 
-#: ../../source/man1/menu_model.rst:39
+#: ../../source/man1/menu_model.rst:45
 msgid "FBXやOBJなどを開いて読み込みます。"
 msgstr "Open and load FBX, OBJ, etc."
 
@@ -120,7 +150,7 @@ msgstr "Open and load FBX, OBJ, etc."
 msgid "Image"
 msgstr "Image"
 
-#: ../../source/man1/menu_model.rst:41
+#: ../../source/man1/menu_model.rst:47
 msgid ""
 "画像を3Dオブジェクトとして読み込みます。読み込んだ後はFBXやObjと同様に操作できま"
 "す。"
@@ -132,11 +162,11 @@ msgstr ""
 msgid "詳細情報"
 msgstr "Detailed information"
 
-#: ../../source/man1/menu_model.rst:43
+#: ../../source/man1/menu_model.rst:49
 msgid "選択したVRMの情報を表示します。VRM以外では機能しません。"
 msgstr "Displays information for the selected VRM. Doesn't work outside VRM."
 
-#: ../../source/man1/menu_model.rst:46
+#: ../../source/man1/menu_model.rst:83
 msgid "**Pose/Motion 内**"
 msgstr "**In the Reset operation**"
 
@@ -144,28 +174,28 @@ msgstr "**In the Reset operation**"
 msgid "開く"
 msgstr "Open"
 
-#: ../../source/man1/menu_model.rst:49
+#: ../../source/man1/menu_model.rst:54
 msgid "従来の ``一覧`` をこのメニューに変更しました。"
 msgstr "The previous ``List`` has been replaced with this menu."
 
-#: ../../source/man1/menu_model.rst:55
+#: ../../source/man1/menu_model.rst:60
 msgid "アプリ用ポーズ、アプリ用モーション"
 msgstr "App pose, App motion"
 
-#: ../../source/man1/menu_model.rst:55
+#: ../../source/man1/menu_model.rst:60
 msgid ""
 "それぞれのタブが選択された状態でポーズ・モーション一覧ダイアログが開きます。"
 msgstr "The pose/motion list dialog opens with each tab selected."
 
-#: ../../source/man1/menu_model.rst:60 ../../source/man1/menu_model.rst:78
+#: ../../source/man1/menu_model.rst:65 ../../source/man1/menu_model.rst:83
 msgid "VRMAnimation"
 msgstr "VRMAnimation"
 
-#: ../../source/man1/menu_model.rst:58
+#: ../../source/man1/menu_model.rst:63
 msgid "下記のいずれかから開きます。"
 msgstr "Open from one of the following."
 
-#: ../../source/man1/menu_model.rst:60 ../../source/man1/menu_model.rst:77
+#: ../../source/man1/menu_model.rst:65 ../../source/man1/menu_model.rst:82
 msgid "``端末`` , ``内部ストレージ``"
 msgstr "``Terminal``, ``Internal Storage``"
 
@@ -173,11 +203,11 @@ msgstr "``Terminal``, ``Internal Storage``"
 msgid "保存"
 msgstr "Save"
 
-#: ../../source/man1/menu_model.rst:63
+#: ../../source/man1/menu_model.rst:68
 msgid "ポーズ保存とモーション保存のメニューを表示します。"
 msgstr "Displays the pose save and motion save menu."
 
-#: ../../source/man1/menu_model.rst:68
+#: ../../source/man1/menu_model.rst:73
 msgid ""
 "各フォーマットごとにサブメニューがあります。それぞれをクリックするとさらに保存先"
 "の場所やフォーマットを選択します。"
@@ -185,23 +215,23 @@ msgstr ""
 "There is a submenu for each format. Click on each to select the save location "
 "and format."
 
-#: ../../source/man1/menu_model.rst:71
+#: ../../source/man1/menu_model.rst:76
 msgid "アプリ用ポーズ・アプリ用ポーズ"
 msgstr "App pose / App motion"
 
-#: ../../source/man1/menu_model.rst:71
+#: ../../source/man1/menu_model.rst:76
 msgid "``端末`` , ``内部ストレージ`` , ``Google Drive``"
 msgstr "``Terminal``, ``Internal Storage``, ``Google Drive``"
 
-#: ../../source/man1/menu_model.rst:74
+#: ../../source/man1/menu_model.rst:79
 msgid "モーション：汎用形式"
 msgstr "Motion: general format"
 
-#: ../../source/man1/menu_model.rst:74
+#: ../../source/man1/menu_model.rst:79
 msgid "汎用形式としては ``.anim`` に対応します。"
 msgstr "The general format is ``.anim``."
 
-#: ../../source/man1/menu_model.rst:80
+#: ../../source/man1/menu_model.rst:93
 msgid "**Reset operation 内**"
 msgstr "**In the Reset operation**"
 
@@ -209,7 +239,7 @@ msgstr "**In the Reset operation**"
 msgid "位置をリセット"
 msgstr "reset position"
 
-#: ../../source/man1/menu_model.rst:83
+#: ../../source/man1/menu_model.rst:87
 msgid "選択した3Dオブジェクトの位置を初期位置にリセットします。"
 msgstr "Resets the position of the selected 3D object to its initial position."
 
@@ -217,7 +247,7 @@ msgstr "Resets the position of the selected 3D object to its initial position."
 msgid "回転をリセット"
 msgstr "reset rotation"
 
-#: ../../source/man1/menu_model.rst:85
+#: ../../source/man1/menu_model.rst:89
 msgid "選択した3Dオブジェクトの回転を初期角度にリセットします。"
 msgstr "Resets the rotation of the selected 3D object to its initial angle."
 
@@ -225,7 +255,7 @@ msgstr "Resets the rotation of the selected 3D object to its initial angle."
 msgid "モデルを削除"
 msgstr "delete model"
 
-#: ../../source/man1/menu_model.rst:87
+#: ../../source/man1/menu_model.rst:91
 msgid "選択した3Dオブジェクトをアプリから削除します。"
 msgstr "Delete the selected 3D object from the app."
 
@@ -233,7 +263,7 @@ msgstr "Delete the selected 3D object from the app."
 msgid "全ボーンをリセット"
 msgstr "reset all bones"
 
-#: ../../source/man1/menu_model.rst:89
+#: ../../source/man1/menu_model.rst:93
 msgid ""
 "選択したVRMの全身のボーンとIKの位置・回転をすべてリセットします。（Tポーズに戻り"
 "ます）"
@@ -241,7 +271,7 @@ msgstr ""
 "Resets all bones and IK positions and rotations of the whole body of the "
 "selected VRM. (return to T pose)"
 
-#: ../../source/man1/menu_model.rst:91
+#: ../../source/man1/menu_model.rst:97
 msgid "**その他**"
 msgstr "**others**"
 
@@ -249,49 +279,50 @@ msgstr "**others**"
 msgid "MediaPipe"
 msgstr "MediaPipe"
 
-#: ../../source/man1/menu_model.rst:94
+#: ../../source/man1/menu_model.rst:97
 msgid "AIによるポーズトラッキング機能を使用します。"
 msgstr "Use the pose tracking function by AI."
 
-#~ msgid "**Pose 内**"
-#~ msgstr "**In Pose**"
+#: ../../source/man1/menu_model.rst:108
+msgid "**VRoid Hub**"
+msgstr "**VRoid Hub**"
 
-#~ msgid "ポーズ保存"
-#~ msgstr "save pose"
+#: ../../source/man1/menu_model.rst
+msgid "接続"
+msgstr "Connect"
 
-#~ msgid "ポーズ一覧"
-#~ msgstr "Pose list"
+#: ../../source/man1/menu_model.rst:101
+msgid ""
+"VRoid Hubに接続開始します。VRoid Hubへのログイン後、接続確認ページが表示されま"
+"す。"
+msgstr ""
+"Start connecting to VRoid Hub. After logging in to VRoid Hub, a connection "
+"confirmation page will be displayed."
 
-#~ msgid ""
-#~ "ポーズあるいはモーションのメニューをクリックすると、さらにサブメニューが表示さ"
-#~ "れます。"
-#~ msgstr "Clicking on the Pause or Motion menu will bring up additional submenus."
+#: ../../source/man1/menu_model.rst
+msgid "ログアウト"
+msgstr "Log out"
 
-#~ msgid ""
-#~ "``端末`` , ``内部ストレージ`` , ``Google Drive`` いずれかに保存できます。モー"
-#~ "ションの場合、さらに次のフォーマットにエクスポートが可能です。"
-#~ msgstr ""
-#~ "It can be saved to ``terminal`` , ``internal storage`` , or ``Google Drive``. "
-#~ "For motions, you can additionally export to the following formats"
+#: ../../source/man1/menu_model.rst:103
+msgid "VRoid Hubと本アプリの接続を解除し、ログイン状態を解除します。"
+msgstr "Disconnects this app from VRoid Hub and cancels your login status."
 
-#~ msgid ".anim"
-#~ msgstr ".anim"
+#: ../../source/man1/menu_model.rst
+msgid "一覧"
+msgstr "List"
 
-#~ msgid ".vrma"
-#~ msgstr ".vrma"
+#: ../../source/man1/menu_model.rst:105
+msgid "いずれかをクリックするとモデル選択画面が表示されます。"
+msgstr "Clicking on one of them will display the model selection screen."
 
-#~ msgid ""
-#~ "ポーズはVRMのみです。現在選択中のVRMの現在のポーズをポーズファイルに保存しま"
-#~ "す。"
-#~ msgstr ""
-#~ "Pose is for VRM only. Saves the current pose of the currently selected VRM to "
-#~ "a pose file."
+#: ../../source/man1/menu_model.rst:107
+msgid "ユーザー作成モデル"
+msgstr "My models"
 
-#~ msgid "モーションは現在選択中のタイムラインのモーションを保存します。"
-#~ msgstr "Motion saves the motion of the currently selected timeline."
+#: ../../source/man1/menu_model.rst:108
+msgid "お気に入り"
+msgstr "My favorites "
 
-#~ msgid "一覧"
-#~ msgstr "List"
-
-#~ msgid "保存したポーズ・モーションの一覧を表示します。"
-#~ msgstr "Displays a list of saved poses and motions."
+#: ../../source/man1/menu_model.rst:109
+msgid "スタッフおすすめ"
+msgstr "Recommended models by staff"

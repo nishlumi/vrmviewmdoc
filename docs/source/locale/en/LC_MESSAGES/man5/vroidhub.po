@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-11 11:25+0900\n"
-"PO-Revision-Date: 2024-08-11 11:30+0900\n"
+"POT-Creation-Date: 2024-08-17 10:59+0900\n"
+"PO-Revision-Date: 2024-08-17 11:15+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -187,24 +187,45 @@ msgstr ""
 "Clicking (tapping) on ​​a model will display a check mark to select it. Then, pressing the OK "
 "button will display a confirmation message, so you can proceed."
 
-#: ../../source/man5/vroidhub.rst:120
+#: ../../source/man5/vroidhub.rst:123
+msgid "モデルを利用する"
+msgstr "Using the model"
+
+#: ../../source/man5/vroidhub.rst:125
 msgid ""
 "その後は端末から読み込むときと同様にVRMの情報画面が表示され、ライセンスや利用条件を確認できます。"
 msgstr ""
 "After that, the VRM information screen will be displayed, just like when loading from a device, "
 "and you can check the license and terms of use."
 
-#: ../../source/man5/vroidhub.rst:122
+#: ../../source/man5/vroidhub.rst:130
+msgid ""
+"このダイアログはVRoid Hubの利用条件のため、VRMのメタデータとは一部項目が異なる場合があります。"
+msgstr ""
+"Due to the terms of use for VRoid Hub, some items in this dialog may differ from the VRM metadata."
+
+#: ../../source/man5/vroidhub.rst:133
+msgid ""
+"自分で登録したモデルは利用条件のダイアログは表示されず、簡単な確認メッセージのみ表示されます。"
+msgstr ""
+"If you register a model yourself, the terms of use dialog will not be displayed; only a simple "
+"confirmation message will be displayed."
+
+#: ../../source/man5/vroidhub.rst:137
+msgid "一覧の続きを読み込む"
+msgstr "Continue loading the list"
+
+#: ../../source/man5/vroidhub.rst:139
 msgid "reloadbtn"
 msgstr "reloadbtn"
 
-#: ../../source/man5/vroidhub.rst:124
+#: ../../source/man5/vroidhub.rst:141
 msgid "一覧の続きを読み込む場合は |reloadbtn| を押すと一覧の続きが読み込まれます。"
 msgstr ""
 "If you want to reload the rest of the list, press |reloadbtn| and the rest of the list will be "
 "loaded."
 
-#: ../../source/man5/vroidhub.rst:128
+#: ../../source/man5/vroidhub.rst:145
 msgid ""
 "スタッフおすすめのモデルはランダムに出るようです。VRM内部のメタ情報に情報が正しくセットされていな"
 "いモデルが多く、本アプリでは予期せぬ動作をする可能性があります。"
@@ -212,7 +233,7 @@ msgstr ""
 "Models recommended by our staff appear randomly. Many of the models do not have the correct "
 "information set in the meta information inside the VRM, and may behave unexpectedly in this app."
 
-#: ../../source/man5/vroidhub.rst:130
+#: ../../source/man5/vroidhub.rst:147
 msgid "スタッフおすすめのモデルについては自己責任でのご利用をお願いします。"
 msgstr "Please use models recommended by our staff at your own risk."
 

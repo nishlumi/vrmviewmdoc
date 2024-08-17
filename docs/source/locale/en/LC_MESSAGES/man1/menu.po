@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 22:26+0900\n"
-"PO-Revision-Date: 2024-05-14 22:40+0900\n"
+"POT-Creation-Date: 2024-08-17 10:59+0900\n"
+"PO-Revision-Date: 2024-08-17 11:14+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -111,16 +111,16 @@ msgid "リボンバーの全ての数値の入力ボックス"
 msgstr "All numerical input boxes on the ribbon bar"
 
 #: ../../source/man1/menu.rst
-msgid "左にスワイプ, 下にスワイプ"
-msgstr "Swipe left, swipe down"
+msgid "左にスワイプ, 下にスワイプ, 左ボタン"
+msgstr "Swipe left, Swipe down, Left button"
 
 #: ../../source/man1/menu.rst:68
 msgid "値の減少"
 msgstr "Decrease in value"
 
 #: ../../source/man1/menu.rst
-msgid "右にスワイプ, 上にスワイプ"
-msgstr "Swipe right, swipe up"
+msgid "右にスワイプ, 上にスワイプ, 右ボタン"
+msgstr "Swipe right, Swipe up, Right button"
 
 #: ../../source/man1/menu.rst:70
 msgid "値の増加"

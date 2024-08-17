@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 22:26+0900\n"
-"PO-Revision-Date: 2024-05-14 22:37+0900\n"
+"POT-Creation-Date: 2024-08-17 10:59+0900\n"
+"PO-Revision-Date: 2024-08-17 11:01+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -54,14 +54,14 @@ msgstr "combo box"
 
 #: ../../source/man1/screen_objlist.rst:21
 msgid ""
-"オブジェクトの種類を選択します。下の一覧がその種類のオブジェクトのみ表示されま"
-"す。"
+"オブジェクトの種類を選択します。下の一覧がその種類のオブジェクトのみ表示され"
+"ます。"
 msgstr "Select an object type. The list below shows only objects of that type."
 
 #: ../../source/man1/screen_objlist.rst:24
 msgid ""
-"一定のサイズ以下の画面解像度のモバイル端末では、オブジェクト一覧はオーバーレイ"
-"形式で表示されます。"
+"一定のサイズ以下の画面解像度のモバイル端末では、オブジェクト一覧はオーバーレ"
+"イ形式で表示されます。"
 msgstr ""
 "On mobile devices with screen resolutions below a certain size, the object "
 "list is displayed in an overlay format."
@@ -85,8 +85,8 @@ msgstr "Object list. The following types are displayed here:"
 
 #: ../../source/man1/screen_objlist.rst:35
 msgid ""
-"``VRM``、 ``他3Dオブジェクト``、 ``カメラ``、 ``エフェクト``、 ``ライト``、 ``"
-"画像``、 ``テキスト``、 ``UI画像``、 ``ステージ``"
+"``VRM``、 ``他3Dオブジェクト``、 ``カメラ``、 ``エフェクト``、 ``ライト``、 "
+"``画像``、 ``テキスト``、 ``UI画像``、 ``ステージ``"
 msgstr ""
 "``VRM``, ``other 3D object``, ``camera``, ``effect``, ``light``, ``image``, "
 "``text``, ``UI image`` , ``stage``"
@@ -97,16 +97,16 @@ msgstr "System effects, audio are not shown here."
 
 #: ../../source/man1/screen_objlist.rst:40
 msgid ""
-"選択したオブジェクトが割り当てられているロールのタイムラインも自動的に選択され"
-"ます。"
+"選択したオブジェクトが割り当てられているロールのタイムラインも自動的に選択さ"
+"れます。"
 msgstr ""
 "The timelines of roles to which the selected object is assigned are also "
 "automatically selected."
 
 #: ../../source/man1/screen_objlist.rst:41
 msgid ""
-"名称が長い場合、末尾は省略されます。その代わりマウスカーソルを当てるとフル名称"
-"がツールチップとして表示されます。"
+"名称が長い場合、末尾は省略されます。その代わりマウスカーソルを当てるとフル名"
+"称がツールチップとして表示されます。"
 msgstr ""
 "Long names are truncated. Instead, the full name is displayed as a tooltip "
 "when hovered over with the mouse cursor."
@@ -120,8 +120,8 @@ msgid ""
 "オブジェクト一覧で右クリックするとそのオブジェクトに対する個別の操作を行えま"
 "す。"
 msgstr ""
-"Right-clicking in the object list allows you to perform individual operations "
-"on that object."
+"Right-clicking in the object list allows you to perform individual "
+"operations on that object."
 
 #: ../../source/man1/screen_objlist.rst
 msgid "名前変更"
@@ -153,10 +153,11 @@ msgstr "Register pose to current frame"
 
 #: ../../source/man1/screen_objlist.rst:64
 msgid ""
-"アニメーションプロジェクトで使用します。現在のポーズを現在のキーフレームに登録"
-"します。"
+"アニメーションプロジェクトで使用します。現在のポーズを現在のキーフレームに登"
+"録します。"
 msgstr ""
-"Use in animation projects. Registers the current pose to the current keyframe."
+"Use in animation projects. Registers the current pose to the current "
+"keyframe."
 
 #: ../../source/man1/screen_objlist.rst
 msgid "全ボーンをリセット"
@@ -167,22 +168,10 @@ msgid "ポーズをリセットしてTポーズ（デフォルト）に戻しま
 msgstr "Reset pose back to T pose (default)."
 
 #: ../../source/man1/screen_objlist.rst
-msgid "モーションファイルを読み込む"
-msgstr "Load motion file"
-
-#: ../../source/man1/screen_objlist.rst:68
-msgid ""
-"プロジェクト設定の ``モーションファイルを読み込む`` と同じです。現在選択中のオ"
-"ブジェクトに対してモーションファイルを読み込んで適用します。"
-msgstr ""
-"It is the same as ``Load motion file`` in the project settings. Load and "
-"apply a motion file to the currently selected object."
-
-#: ../../source/man1/screen_objlist.rst
 msgid "モデルを削除"
 msgstr "delete model"
 
-#: ../../source/man1/screen_objlist.rst:70
+#: ../../source/man1/screen_objlist.rst:68
 msgid "オブジェクトをアプリから削除します。"
 msgstr "Remove the object from the app."
 
@@ -190,39 +179,39 @@ msgstr "Remove the object from the app."
 msgid "このモデルとロールを両方削除する"
 msgstr "Delete both this object and roll"
 
-#: ../../source/man1/screen_objlist.rst:72
+#: ../../source/man1/screen_objlist.rst:70
 msgid "オブジェクトとそれに紐づくロール（役割）をアプリから削除します。"
 msgstr "Delete an object and its associated role from the app."
 
-#: ../../source/man1/screen_objlist.rst:78
+#: ../../source/man1/screen_objlist.rst:76
 msgid "V-pad（左）"
 msgstr "V-pad (left)"
 
-#: ../../source/man1/screen_objlist.rst:80
+#: ../../source/man1/screen_objlist.rst:78
 msgid ""
-"ver 2.7.0より導入しました。パネルを折りたたんだときに、v-padと同等の機能を利用"
-"することができます。"
+"ver 2.7.0より導入しました。パネルを折りたたんだときに、v-padと同等の機能を利"
+"用することができます。"
 msgstr ""
 "Introduced from ver 2.7.0. When the panel is folded, you can use the same "
 "functions as the v-pad."
 
-#: ../../source/man1/screen_objlist.rst:83
+#: ../../source/man1/screen_objlist.rst:81
 msgid "主にモバイル端末の操作に効果的です。"
 msgstr "Mainly effective for operating mobile devices."
 
-#: ../../source/man1/screen_objlist.rst:86
+#: ../../source/man1/screen_objlist.rst:84
 msgid "モバイル表示(/mui)モード時には表示されません。"
 msgstr "It is not displayed in mobile display (/mui) mode."
 
-#: ../../source/man1/screen_objlist.rst:93
+#: ../../source/man1/screen_objlist.rst:91
 msgid "vpprogress"
 msgstr "vpprogress"
 
-#: ../../source/man1/screen_objlist.rst:94
+#: ../../source/man1/screen_objlist.rst:92
 msgid "vpmove"
 msgstr "vpmove"
 
-#: ../../source/man1/screen_objlist.rst:95
+#: ../../source/man1/screen_objlist.rst:93
 msgid "vpcamera"
 msgstr "vpcamera"
 
@@ -232,8 +221,8 @@ msgstr "|vpprogress|"
 
 #: ../../source/man1/screen_objlist.rst:1
 msgid ""
-"上下にスワイプ（ドラッグアンドドロップ）することで、メインカメラを前進・後進し"
-"ます。マウスのホイールの操作に相当します。"
+"上下にスワイプ（ドラッグアンドドロップ）することで、メインカメラを前進・後進"
+"します。マウスのホイールの操作に相当します。"
 msgstr ""
 "Swipe up and down (drag and drop) to move the main camera forward or "
 "backward. Equivalent to operating the mouse wheel."
@@ -244,8 +233,8 @@ msgstr "|vpmove|"
 
 #: ../../source/man1/screen_objlist.rst:1
 msgid ""
-"上下にスワイプ（ドラッグアンドドロップ）することでメインカメラが上昇・下降しま"
-"す。左右にスワイプして左右に移動します。[1]_"
+"上下にスワイプ（ドラッグアンドドロップ）することでメインカメラが上昇・下降し"
+"ます。左右にスワイプして左右に移動します。[1]_"
 msgstr ""
 "Swipe up and down (drag and drop) to raise and lower the main camera. Swipe "
 "left or right to move left or right. [1]_"
@@ -257,24 +246,24 @@ msgstr "|vpcamera|"
 #: ../../source/man1/screen_objlist.rst:1
 msgid "メインカメラと回転の中心のオブジェクトを近づけたり離したりします。"
 msgstr ""
-"Move the main camera and the object at the center of rotation closer together "
-"or farther apart."
+"Move the main camera and the object at the center of rotation closer "
+"together or farther apart."
 
-#: ../../source/man1/screen_objlist.rst:104
+#: ../../source/man1/screen_objlist.rst:102
 msgid ""
 "スマートフォンで操作する場合、画面端からのスワイプはOSの機能である ``戻る`` "
-"や ``進む`` に割り当てられていることがあります。画面端からスワイプせず、なるべ"
-"くこの四角いパネルの中心からスワイプするようにしてみてください。"
+"や ``進む`` に割り当てられていることがあります。画面端からスワイプせず、なる"
+"べくこの四角いパネルの中心からスワイプするようにしてみてください。"
 msgstr ""
 "When operating on a smartphone, swiping from the edge of the screen may be "
-"assigned to the OS functions ``back`` and ``forward`` . Try to swipe from the "
-"center of this square panel instead of from the edge of the screen."
+"assigned to the OS functions ``back`` and ``forward`` . Try to swipe from "
+"the center of this square panel instead of from the edge of the screen."
 
-#: ../../source/man1/screen_objlist.rst:106
+#: ../../source/man1/screen_objlist.rst:104
 msgid "移動と回転のスピードについて"
 msgstr "About the speed of movement and rotation"
 
-#: ../../source/man1/screen_objlist.rst:108
+#: ../../source/man1/screen_objlist.rst:106
 msgid ""
 "アプリケーションの設定の ``アプリケーション`` タブにあるV-padの ``移動速度"
 "`` 、 ``回転速度`` でスピードを調整することができます。"
@@ -290,3 +279,13 @@ msgstr ""
 
 #~ msgid "パネルの折りたたみ時"
 #~ msgstr "When folding the panel"
+
+#~ msgid "モーションファイルを読み込む"
+#~ msgstr "Load motion file"
+
+#~ msgid ""
+#~ "プロジェクト設定の ``モーションファイルを読み込む`` と同じです。現在選択中"
+#~ "のオブジェクトに対してモーションファイルを読み込んで適用します。"
+#~ msgstr ""
+#~ "It is the same as ``Load motion file`` in the project settings. Load and "
+#~ "apply a motion file to the currently selected object."
