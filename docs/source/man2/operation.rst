@@ -10,6 +10,7 @@
     operation_initial
     operation_texture
     operation_vrm
+    operation_vrm2
     operation_obj
     operation_light
     operation_camera

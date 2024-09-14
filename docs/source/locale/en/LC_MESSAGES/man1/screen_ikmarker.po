@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-26 15:36+0900\n"
-"PO-Revision-Date: 2024-05-26 15:39+0900\n"
+"POT-Creation-Date: 2024-09-13 23:49+0900\n"
+"PO-Revision-Date: 2024-09-13 23:55+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,13 +18,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../../source/man1/screen_ikmarker.rst:5
 msgid "IKマーカーの位置変更"
 msgstr "Repositioning of IK markers"
 
-#: ../../source/man1/screen_ikmarker.rst:10
+#: ../../source/man1/screen_ikmarker.rst:8
+msgid "目次"
+msgstr "Contents"
+
+#: ../../source/man1/screen_ikmarker.rst:11
+msgid "入力モード"
+msgstr "Input mode"
+
+#: ../../source/man1/screen_ikmarker.rst:16
 msgid ""
 "VRoid/VRMの場合に使う機能です。本アプリで用いるモデルの体パーツの位置と回転を直接指定できます。別ウィンドウが開き"
 "ます。アプリとは別ウィンドウです。"
@@ -32,11 +40,15 @@ msgstr ""
 "This function is used for VRoid/VRM. You can directly specify the position and rotation of the body parts of the "
 "model used in this application. A new window will open. It is a separate window from the app."
 
-#: ../../source/man1/screen_ikmarker.rst:12
+#: ../../source/man1/screen_ikmarker.rst:18
 msgid "ver 2.9.0より、設定によりアプリのメインウィンドウ内部に表示することもできるようになりました。"
 msgstr "From ver 2.9.0, it is now possible to display it inside the main window of the app by setting."
 
-#: ../../source/man1/screen_ikmarker.rst:14
+#: ../../source/man1/screen_ikmarker.rst:19
+msgid "ver 2.13.0より、 ``入力モード`` と名称をつけました。"
+msgstr "Starting with version 2.13.0, it has been named ``Input Mode`` ."
+
+#: ../../source/man1/screen_ikmarker.rst:22
 msgid "**上部：**"
 msgstr "**Top:**"
 
@@ -44,7 +56,7 @@ msgstr "**Top:**"
 msgid "ポーズを適用"
 msgstr "Apply Pose"
 
-#: ../../source/man1/screen_ikmarker.rst:17
+#: ../../source/man1/screen_ikmarker.rst:25
 msgid "下部のスプレッドシートで指定した値でポーズを適用。"
 msgstr "Apply a pose with the values specified in the spreadsheet below."
 
@@ -52,7 +64,7 @@ msgstr "Apply a pose with the values specified in the spreadsheet below."
 msgid "再読み込み"
 msgstr "Reload"
 
-#: ../../source/man1/screen_ikmarker.rst:19
+#: ../../source/man1/screen_ikmarker.rst:27
 msgid "現在のポーズの情報を再読み込みする。"
 msgstr "Reload the current pose information."
 
@@ -60,23 +72,23 @@ msgstr "Reload the current pose information."
 msgid "ポーズを反転する"
 msgstr "flip pose"
 
-#: ../../source/man1/screen_ikmarker.rst:21
+#: ../../source/man1/screen_ikmarker.rst:29
 msgid "現在のポーズの値を左右逆転する"
 msgstr "Flip the values of the current pose left to right"
 
-#: ../../source/man1/screen_ikmarker.rst:24
+#: ../../source/man1/screen_ikmarker.rst:32
 msgid "**下部：**"
 msgstr "**Bottom:**"
 
-#: ../../source/man1/screen_ikmarker.rst:28
+#: ../../source/man1/screen_ikmarker.rst:36
 msgid "スプレッドシート:"
 msgstr "Spreadsheet:"
 
-#: ../../source/man1/screen_ikmarker.rst:27
+#: ../../source/man1/screen_ikmarker.rst:35
 msgid "体の部位ごとのPosition（位置）・Rotation（回転）を数値で指定する。"
 msgstr "Specify the Position and Rotation values for each part of the body."
 
-#: ../../source/man1/screen_ikmarker.rst:31
+#: ../../source/man1/screen_ikmarker.rst:39
 msgid ""
 "このウィンドウを表示している最中もVRoid/VRMを直接移動・回転できますが、仕様によりすぐにこのウィンドウのスプレッド"
 "シートには反映されません。再読み込みボタンを押すことで位置・回転の情報がすぐに取得できます。"
@@ -85,12 +97,154 @@ msgstr ""
 "it is not immediately reflected in the spreadsheet in this window. By pressing the reload button, you can get "
 "the position and rotation information immediately."
 
-#: ../../source/man1/screen_ikmarker.rst:32
+#: ../../source/man1/screen_ikmarker.rst:40
 msgid "オブジェクトの選択を変えた時、タイムラインのキーフレームの選択を変更した時には自動的に再読み込みされます。"
 msgstr ""
 "It is automatically reloaded when you change the object selection, or when you change the timeline keyframe "
 "selection."
 
-#: ../../source/man1/screen_ikmarker.rst:33
+#: ../../source/man1/screen_ikmarker.rst:41
 msgid "VRM以外を選択した場合はスプレッドシートは使用できなくなります。"
 msgstr "If you choose anything other than VRM, the spreadsheet will not be available."
+
+#: ../../source/man1/screen_ikmarker.rst:45
+msgid "簡単IKモード"
+msgstr "Easy IK mode"
+
+#: ../../source/man1/screen_ikmarker.rst:48
+msgid "easyik_desktop"
+msgstr "easyik_desktop"
+
+#: ../../source/man1/screen_ikmarker.rst:49
+msgid "easyik_mobile"
+msgstr "easyik_mobile"
+
+#: ../../source/man1/screen_ikmarker.rst:51
+msgid ""
+"ver 2.13.0より導入しました。VRoid/VRMのみですが、4種類の部位から好きな動き方を選択するだけで、簡単にいろんなポー"
+"ズを取らせることができる機能です。入力モードとは別ウィンドウです。"
+msgstr ""
+"Introduced in ver 2.13.0. This is a function that is only available for VRoid/VRM, but you can easily make the "
+"character take various poses by simply selecting the movement you like from four different body parts. It is a "
+"separate window from the input mode."
+
+#: ../../source/man1/screen_ikmarker.rst:1
+msgid "PC～ファブレット"
+msgstr "PC to Phablet"
+
+#: ../../source/man1/screen_ikmarker.rst:1
+msgid "スマートフォン"
+msgstr "Smartphone"
+
+#: ../../source/man1/screen_ikmarker.rst:1
+msgid "|easyik_desktop|"
+msgstr "|easyik_desktop|"
+
+#: ../../source/man1/screen_ikmarker.rst:1
+msgid "|easyik_mobile|"
+msgstr "|easyik_mobile|"
+
+#: ../../source/man1/screen_ikmarker.rst:74
+msgid "ツールバー"
+msgstr "Toolbar"
+
+#: ../../source/man1/screen_ikmarker.rst:60
+msgid "左から次の順に並んでいます。"
+msgstr "They are listed from left to right in the following order:"
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "適用"
+msgstr "Apply"
+
+#: ../../source/man1/screen_ikmarker.rst:62
+msgid "選択した部位の動きを適用して新たなポーズを取ります。"
+msgstr "Apply the movement of the selected body part to achieve a new pose."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "デフォルトのサンプルデータ"
+msgstr "Default sample data"
+
+#: ../../source/man1/screen_ikmarker.rst:65
+msgid "4種類の部位の動き方をアプリのサンプルデータに戻します。または最新のデータを読み込みます。"
+msgstr "Reset the four body part movements to the app's sample data, or load the latest data."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "現在のボーン情報を取得"
+msgstr "Get current bone information"
+
+#: ../../source/man1/screen_ikmarker.rst:68
+msgid "現在選択中のVRMのボーン情報、Tポーズ時のボーン情報を再取得します。"
+msgstr "Reacquire the bone information of the currently selected VRM and the bone information for the T-pose."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "選択を解除"
+msgstr "Deselect"
+
+#: ../../source/man1/screen_ikmarker.rst:71
+msgid "各コンボボックスの選択をすべて解除します。"
+msgstr "Deselect everything in each combo box."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "開く"
+msgstr "Open"
+
+#: ../../source/man1/screen_ikmarker.rst:73
+msgid "自分で作った動き方データのCSVがある場合、このボタンを押して読み込むことができます。"
+msgstr ""
+"If you have a CSV file of movement data that you created yourself, you can load it by pressing this button."
+
+#: ../../source/man1/screen_ikmarker.rst:78
+msgid "ウィンドウ中央"
+msgstr "Window Center"
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "Tポーズを起点にする"
+msgstr "Starting with the T-pose"
+
+#: ../../source/man1/screen_ikmarker.rst:78
+msgid ""
+"チェックをいれると、Tポーズのボーン情報を初期値として使用します。チェックを入れない場合は現在のボーン情報を使用し"
+"ます。"
+msgstr ""
+"If checked, the bone information of the T-pose will be used as the initial value. If unchecked, the current bone "
+"information will be used."
+
+#: ../../source/man1/screen_ikmarker.rst:89
+msgid "各コンボボックス"
+msgstr "Each combo box"
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "姿勢"
+msgstr "posture"
+
+#: ../../source/man1/screen_ikmarker.rst:81
+msgid "主に体の上半身～腰を動かします。"
+msgstr "It mainly moves the upper body and hips."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "視線"
+msgstr "line of sight"
+
+#: ../../source/man1/screen_ikmarker.rst:83
+msgid "主に視線や顔の向きを動かします。"
+msgstr "Mainly the gaze and face direction are moved."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "腕"
+msgstr "Arm"
+
+#: ../../source/man1/screen_ikmarker.rst:85
+msgid "腕・手を動かします。"
+msgstr "Move your arms and hands."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "脚"
+msgstr "leg"
+
+#: ../../source/man1/screen_ikmarker.rst:87
+msgid "脚・足を動かします。"
+msgstr "Move your legs and feet."
+
+#: ../../source/man1/screen_ikmarker.rst:90
+msgid "スマートフォンあるいはそれに近い画面サイズの端末の場合、タブパネルになります。"
+msgstr "For smartphones or devices with similar screen sizes, this will be a tab panel."
