@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-30 18:13+0900\n"
-"PO-Revision-Date: 2023-12-30 18:17+0900\n"
+"POT-Creation-Date: 2024-11-01 20:52+0900\n"
+"PO-Revision-Date: 2024-11-01 20:53+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../../source/man1/menu_screen.rst:5
 msgid "画面タブ"
@@ -197,3 +197,11 @@ msgstr "IK marker size"
 #: ../../source/man1/menu_screen.rst:63
 msgid "IKマーカーの大きさを変更します。（0.01～0.2）"
 msgstr "Change the size of the IK marker. (0.01 to 0.2)"
+
+#: ../../source/man1/menu_screen.rst
+msgid "オニオンスキン"
+msgstr "Onion skin"
+
+#: ../../source/man1/menu_screen.rst:65
+msgid "オニオンスキン機能を有効・無効を切り替えます。"
+msgstr "Enables or disables the onion skin function."

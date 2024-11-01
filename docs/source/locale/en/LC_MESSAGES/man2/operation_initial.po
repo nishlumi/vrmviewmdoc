@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-17 12:52+0900\n"
-"PO-Revision-Date: 2024-02-17 12:55+0900\n"
+"POT-Creation-Date: 2024-11-01 20:52+0900\n"
+"PO-Revision-Date: 2024-11-01 20:56+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../../source/man2/operation_initial.rst:3
 msgid "オブジェクト操作の基本"
@@ -613,3 +613,118 @@ msgstr ""
 #: ../../source/man2/operation_initial.rst:348
 msgid "本アプリが単なるポーズ・アニメーション作成だけでなく、様々な用途に使えるかもしれません。"
 msgstr "You may be able to use this app for a variety of purposes, not just creating poses and animations."
+
+#: ../../source/man2/operation_initial.rst:353
+msgid "オニオンスキン"
+msgstr "Onion skin"
+
+#: ../../source/man2/operation_initial.rst:355
+msgid ""
+"ver 2.14.0より導入しました。現在選択中のオブジェクトのポーズをまるごと赤色のオブジェクトとしてコピーしま"
+"す。キーフレームを切り替えてモーションを作っていくときに、任意のフレームのポーズを残しておけるので、連続し"
+"たモーションを作成するときに便利な機能です。"
+msgstr ""
+"Introduced in ver 2.14.0. Copies the entire pose of the currently selected object as a red object. This is "
+"a useful function when creating continuous motions, as it allows you to keep the pose of any frame when "
+"switching keyframes to create a motion."
+
+#: ../../source/man2/operation_initial.rst:357
+msgid "リボンバーの画面タブを開きます。"
+msgstr "Open the Screen tab on the ribbon bar."
+
+#: ../../source/man2/operation_initial.rst:358
+msgid "``Options`` エリアにある ``オニオンスキン`` のチェックボックスにチェックを入れます。"
+msgstr "Check the ``Onion Skin`` checkbox in the ``Options`` area."
+
+#: ../../source/man2/operation_initial.rst:365
+msgid ""
+"現在選択中のオブジェクトの重なるようにオニオンスキン化したコピーオブジェクト（以後、オニオンスキン）が表示"
+"されます。"
+msgstr ""
+"An onion-skinned copy object (hereafter referred to as onion skin) will be displayed overlapping the "
+"currently selected object."
+
+#: ../../source/man2/operation_initial.rst:372
+msgid ""
+"VRMの場合、元のVRMと重なった状態なので見た目は少々怖いですが、気にせず任意の部位のIKマーカーを動かしてくだ"
+"さい。"
+msgstr ""
+"In the case of VRM, it looks a little scary because it is overlapping with the original VRM, but don’t "
+"worry about it, just move the IK markers of any part."
+
+#: ../../source/man2/operation_initial.rst:374
+msgid ""
+"するとオニオンスキンは操作前のオブジェクトのポーズを保ったままになります。これで少しずつ動かしてキーフレー"
+"ムに登録していくことで、スムーズなモーションを作成しやすくなるでしょう。"
+msgstr ""
+"This will cause the onion skin to maintain the pose of the object before the operation. This will allow "
+"you to move the object little by little and register it in a keyframe, making it easier to create a smooth "
+"motion."
+
+#: ../../source/man2/operation_initial.rst:376
+msgid "イメージとしては次の操作をしていくことになります。"
+msgstr "The image shows the following operations:"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "オニオンスキンを表示"
+msgstr "Show Onion Skin"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "2"
+msgstr "2"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "ポーズを変更して動かす"
+msgstr "Change the pose and move it"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "3"
+msgstr "3"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "キーフレームに登録する"
+msgstr "Register to keyframe"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "4"
+msgstr "4"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "オニオンスキンを非表示にする"
+msgstr "Hide onion skins"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "5"
+msgstr "5"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "次のフレームを選択する"
+msgstr "Select the next frame"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "6"
+msgstr "6"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "1と同じ操作をする"
+msgstr "Do the same as step 1"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "7"
+msgstr "7"
+
+#: ../../source/man2/operation_initial.rst:1
+msgid "以後、繰り返し"
+msgstr "After that, repeat"
+
+#: ../../source/man2/operation_initial.rst:390
+msgid "以下の操作をするとオニオンスキンは非表示になります。"
+msgstr "The onion skin will be hidden if you do the following:"
+
+#: ../../source/man2/operation_initial.rst:392
+msgid "オニオンスキンのチェックボックスのチェックを外す"
+msgstr "Uncheck the Onion Skin checkbox"
+
+#: ../../source/man2/operation_initial.rst:393
+msgid "別のオブジェクトを選択する"
+msgstr "Select a different object"
