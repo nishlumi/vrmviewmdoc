@@ -28,3 +28,4 @@
     screen_internaldlg
     screen_vpad
     screen_naviwin
+    screen_transref

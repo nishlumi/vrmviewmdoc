@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-01 20:52+0900\n"
-"PO-Revision-Date: 2024-11-01 20:56+0900\n"
+"POT-Creation-Date: 2025-01-25 16:22+0900\n"
+"PO-Revision-Date: 2025-01-25 16:34+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 "X-Generator: Poedit 3.5\n"
 
 #: ../../source/man2/operation_initial.rst:3
@@ -36,14 +36,6 @@ msgstr "Open an Object"
 msgid "リボンバーのホームタブあるいは3Dモデルタブから各ボタンを押してください。"
 msgstr "Please press each button from the home tab or 3D model tab of the ribbon bar."
 
-#: ../../source/man2/operation_initial.rst:16
-msgid "ribbon_home"
-msgstr "ribbon_home"
-
-#: ../../source/man2/operation_initial.rst:17
-msgid "ribbon_model"
-msgstr "ribbon_model"
-
 #: ../../source/man2/operation_initial.rst:20
 msgid "ホームタブ"
 msgstr "Home tab"
@@ -56,11 +48,19 @@ msgstr "Model tab"
 msgid "|ribbon_home|"
 msgstr "|ribbon_home|"
 
+#: ../../source/man2/operation_initial.rst:16
+msgid "ribbon_home"
+msgstr "ribbon_home"
+
 #: ../../source/man2/operation_initial.rst:22
 msgid "|ribbon_model|"
 msgstr "|ribbon_model|"
 
-#: ../../source/man2/operation_initial.rst:26
+#: ../../source/man2/operation_initial.rst:17
+msgid "ribbon_model"
+msgstr "ribbon_model"
+
+#: ../../source/man2/operation_initial.rst:25
 msgid "VRMの場合"
 msgstr "For VRMs"
 
@@ -71,7 +71,7 @@ msgstr ""
 "After loading, the terms of use confirmation screen (VRM information screen) will be displayed. If you "
 "don't give permission there, it won't really load."
 
-#: ../../source/man2/operation_initial.rst:40
+#: ../../source/man2/operation_initial.rst:28
 msgid "OtherObjectの場合"
 msgstr "For OtherObject"
 
@@ -105,7 +105,7 @@ msgstr ""
 msgid "3Dモデルファイルであらかじめ適切にテクスチャの設定がされている必要があります。"
 msgstr "The 3D model file must have the appropriate texture settings in advance."
 
-#: ../../source/man2/operation_initial.rst:44
+#: ../../source/man2/operation_initial.rst:42
 msgid "それ以外"
 msgstr "other than that"
 
@@ -214,10 +214,6 @@ msgstr "Delete history"
 msgid "貯まりすぎた履歴を削除できます。"
 msgstr "You can delete the accumulated history."
 
-#: ../../source/man2/operation_initial.rst:124
-msgid "histdelbtn"
-msgstr "histdelbtn"
-
 #: ../../source/man2/operation_initial.rst:126
 msgid "**個別に削除する**"
 msgstr "**delete individually**"
@@ -229,6 +225,10 @@ msgstr "Check the objects you want to delete."
 #: ../../source/man2/operation_initial.rst:129
 msgid "内部ストレージダイアログの上部にある |histdelbtn| をクリックします。"
 msgstr "Click |histdelbtn| at the top of the Internal Storage dialog."
+
+#: ../../source/man2/operation_initial.rst:124
+msgid "histdelbtn"
+msgstr "histdelbtn"
 
 #: ../../source/man2/operation_initial.rst:133
 msgid "**すべて削除する**"
@@ -368,14 +368,6 @@ msgstr "Move, rotate and scale objects"
 msgid "全てのオブジェクトは共通プロパティが使用可能です。ここでは 移動・回転・倍率を行うことができます。"
 msgstr "Common properties are available for all objects. Here you can move, rotate and scale."
 
-#: ../../source/man2/operation_initial.rst:240
-msgid "prop3d"
-msgstr "prop3d"
-
-#: ../../source/man2/operation_initial.rst:241
-msgid "prop2d"
-msgstr "prop2d"
-
 #: ../../source/man2/operation_initial.rst:1 ../../source/man2/operation_initial.rst:256
 msgid "3Dオブジェクト"
 msgstr "3D object"
@@ -388,9 +380,17 @@ msgstr "2D object"
 msgid "|prop3d|"
 msgstr "|prop3d|"
 
+#: ../../source/man2/operation_initial.rst:240
+msgid "prop3d"
+msgstr "prop3d"
+
 #: ../../source/man2/operation_initial.rst:1
 msgid "|prop2d|"
 msgstr "|prop2d|"
+
+#: ../../source/man2/operation_initial.rst:241
+msgid "prop2d"
+msgstr "prop2d"
 
 #: ../../source/man2/operation_initial.rst:258
 msgid ""
@@ -418,7 +418,7 @@ msgid ""
 msgstr ""
 "Only 3D objects can be operated with the keyboard. ``Text`` and ``UImage`` are **not keyboard accessible**."
 
-#: ../../source/man2/operation_initial.rst:287
+#: ../../source/man2/operation_initial.rst:271
 msgid "360度回転を考慮"
 msgstr "Consider 360 degree rotation"
 
@@ -482,7 +482,7 @@ msgstr ""
 "This option is not saved as motion data. This is an option only when registering a keyframe. Toggling "
 "object selection will return this toggle to OFF."
 
-#: ../../source/man2/operation_initial.rst:292
+#: ../../source/man2/operation_initial.rst:291
 msgid "比率を固定"
 msgstr "fixed ratio"
 
@@ -495,7 +495,7 @@ msgstr ""
 "ratio``, there will be only one input field. If you enter in this state, you can change the size while "
 "maintaining the current ratio."
 
-#: ../../source/man2/operation_initial.rst:299
+#: ../../source/man2/operation_initial.rst:294
 msgid "ジャンプ・揺れ"
 msgstr "jumping/swaying"
 
@@ -520,7 +520,7 @@ msgstr "Unlike the Unity editor, 2D objects have limited input fields for clarit
 msgid "位置はX, Y、回転はZ軸のみです。"
 msgstr "Position is X, Y, rotation is Z axis only."
 
-#: ../../source/man2/operation_initial.rst:309
+#: ../../source/man2/operation_initial.rst:308
 msgid "サイズ"
 msgstr "Size"
 
@@ -528,7 +528,7 @@ msgstr "Size"
 msgid "3Dオブジェクトと異なり、描画される領域の大きさを示します。"
 msgstr "Unlike 3D objects, it indicates the size of the area to be drawn."
 
-#: ../../source/man2/operation_initial.rst:312
+#: ../../source/man2/operation_initial.rst:311
 msgid "倍率"
 msgstr "Scale"
 
@@ -536,19 +536,186 @@ msgstr "Scale"
 msgid "3Dオブジェクトと同様の意味の大きさです。"
 msgstr "It has the same size of meaning as a 3D object."
 
+#: ../../source/man2/operation_initial.rst:315
+msgid "移動・回転の参照"
+msgstr "Position and rotation reference"
+
 #: ../../source/man2/operation_initial.rst:317
+msgid ""
+"ver 2.15.0より導入しました。他のオブジェクトの位置を参照し、現在選択中のオブジェクトの向きや位置を変更でき"
+"ます。"
+msgstr ""
+"Introduced in version 2.15.0. You can refer to the positions of other objects and change the orientation "
+"and position of the currently selected object."
+
+#: ../../source/man2/operation_initial.rst:320
+msgid "3Dオブジェクトのみ使用できます。"
+msgstr "Only 3D objects are allowed."
+
+#: ../../source/man2/operation_initial.rst:326
+msgid "開き方"
+msgstr "How to open"
+
+#: ../../source/man2/operation_initial.rst:327
+msgid "VRMなどの3Dオブジェクトを選択し、プロパティパネルより、共通パネルを開きます。"
+msgstr "Select a 3D object such as VRM and open the Common panel from the Properties panel."
+
+#: ../../source/man2/operation_initial.rst:328
+msgid "位置の右端にあるボタンをクリックします。"
+msgstr "Click the button to the far right of the position."
+
+#: ../../source/man2/operation_initial.rst:330
+msgid "|transref03|"
+msgstr "|transref03|"
+
+#: ../../source/man2/operation_initial.rst:324
+msgid "transref03"
+msgstr "transref03"
+
+#: ../../source/man2/operation_initial.rst:332
+msgid "位置・回転の参照ウィンドウが開きます。"
+msgstr "The Position and Rotation Reference window will open."
+
+#: ../../source/man2/operation_initial.rst:334
+msgid "使用方法"
+msgstr "How to use"
+
+#: ../../source/man2/operation_initial.rst:335
+msgid "まずは移動や向きを変えたい3Dオブジェクトを選択します。"
+msgstr "First, select the 3D object you want to move or rotate."
+
+#: ../../source/man2/operation_initial.rst:338
+msgid ""
+"VRMの場合、移動や向きを変えたいIKマーカーを選択してください。（色がオレンジ色に変わった状態） これにより、"
+"移動や回転の対象がそのIKマーカーだけになります。"
+msgstr ""
+"For VRM, select the IK marker you want to move or change the orientation of. (Its color will turn orange.) "
+"This will limit the movement and rotation to that IK marker."
+
+#: ../../source/man2/operation_initial.rst:341
+msgid "本ウィンドウを開きます。"
+msgstr "Open this window."
+
+#: ../../source/man2/operation_initial.rst:343
+msgid "|transref01|"
+msgstr "|transref01|"
+
+#: ../../source/man2/operation_initial.rst:322
+msgid "transref01"
+msgstr "transref01"
+
+#: ../../source/man2/operation_initial.rst:345
+msgid "参照したいアバター（オブジェクト）を選択します。"
+msgstr "Select the avatar (object) you want to reference."
+
+#: ../../source/man2/operation_initial.rst:348
+msgid "メインカメラも選択できます。"
+msgstr "You can also choose the main camera."
+
+#: ../../source/man2/operation_initial.rst:350
+msgid "参照アバターがVRMの場合、さらに参照部位を指定できます。"
+msgstr "If the reference avatar is VRM, you can further specify reference parts."
+
+#: ../../source/man2/operation_initial.rst:352
+msgid "|transref02|"
+msgstr "|transref02|"
+
+#: ../../source/man2/operation_initial.rst:323
+msgid "transref02"
+msgstr "transref02"
+
+#: ../../source/man2/operation_initial.rst:354
+msgid "必要に応じてOffsetを指定します。"
+msgstr "Specify Offset if necessary."
+
+#: ../../source/man2/operation_initial.rst:355
+msgid "移動させる場合は ``位置`` ボタン、向きを変える場合は ``向き`` ボタンをクリックします。"
+msgstr "Click the ``Position`` button to move it, or the ``Orientation`` button to change its orientation."
+
+#: ../../source/man2/operation_initial.rst:358
+msgid ""
+"VRM自体を対象とする場合、IKマーカーを一つも選択しない状態か、あるいは ``移動モード`` のトグルスイッチをONに"
+"した状態で足元のIKマーカーを選択した状態で使用してください。"
+msgstr ""
+"When targeting the VRM itself, use it with no IK markers selected, or with the ``Movement Mode`` toggle "
+"switch turned on and an IK marker at the feet selected."
+
+#: ../../source/man2/operation_initial.rst:363
+msgid "本ウィンドウ上では ``All`` と表示されます。"
+msgstr "This window will display ``All``."
+
+#: ../../source/man2/operation_initial.rst:367
+msgid "例"
+msgstr "Example"
+
+#: ../../source/man2/operation_initial.rst:368
+msgid "最初の状態は次の状態とします。"
+msgstr "The initial state is as follows:"
+
+#: ../../source/man2/operation_initial.rst
+msgid "選択中のオブジェクト"
+msgstr "The currently selected object"
+
+#: ../../source/man2/operation_initial.rst:373
+msgid "VRM_A (左)"
+msgstr "VRM_A (left)"
+
+#: ../../source/man2/operation_initial.rst
+msgid "選択中のVRMの選択IKマーカー"
+msgstr "Selected IK marker for selected VRM"
+
+#: ../../source/man2/operation_initial.rst:374
+msgid "LeftHand"
+msgstr "LeftHand"
+
+#: ../../source/man2/operation_initial.rst
+msgid "参照アバター"
+msgstr "Reference Avatar"
+
+#: ../../source/man2/operation_initial.rst:375
+msgid "VRM_B (右)"
+msgstr "VRM_B (right)"
+
+#: ../../source/man2/operation_initial.rst
+msgid "参照部位"
+msgstr "Reference part"
+
+#: ../../source/man2/operation_initial.rst:376
+msgid "Aim"
+msgstr "Aim"
+
+#: ../../source/man2/operation_initial.rst:379
+msgid "``向き`` ボタンを押すとVRM_AのLeftHandはVRM_BのAimに向きます。"
+msgstr "When you press the ``Orientation`` button, VRM_A's LeftHand will face VRM_B's Aim."
+
+#: ../../source/man2/operation_initial.rst:384
+msgid "さらに ``位置`` ボタンを押すと、VRM_AのLeftHandはVRM_BのAimの場所に移動します。"
+msgstr ""
+"If you press the ``Position`` button further, VRM_A's LeftHand will move to the Aim location of VRM_B."
+
+#: ../../source/man2/operation_initial.rst:389
+msgid "これでVRM_Aの左腕はVRM_Bの上半身を指し示すようになり、簡単に複数人のポージングが実現できます。"
+msgstr "Now the left arm of VRM_A points to the upper body of VRM_B, making it easy to pose multiple people."
+
+#: ../../source/man2/operation_initial.rst:391
+msgid "実際にはピッタリ同じ位置にある必要はないと思います。そのため微調整は手動で行う必要があります。"
+msgstr ""
+"In reality, it's not necessary for them to be in exactly the same position, so any fine adjustments will "
+"need to be done manually."
+
+#: ../../source/man2/operation_initial.rst:396
 msgid "物理効果"
 msgstr "Physical effect"
 
-#: ../../source/man2/operation_initial.rst:319
+#: ../../source/man2/operation_initial.rst:398
 msgid "ver 2.4.0で追加した機能です。"
 msgstr "This is a feature added in ver 2.4.0."
 
-#: ../../source/man2/operation_initial.rst:324
+#: ../../source/man2/operation_initial.rst:403
 msgid "プロパティの説明は :ref:`rigid_property` を参照してください。"
 msgstr "See :ref:`rigid_property` for a description of the property."
 
-#: ../../source/man2/operation_initial.rst:326
+#: ../../source/man2/operation_initial.rst:405
 msgid ""
 "本アプリのIKマーカーはあくまでオブジェクトを動かすためのものです。 この設定はオブジェクト同士がぶつかったり"
 "ときにどのように動くかを決めます。"
@@ -556,19 +723,19 @@ msgstr ""
 "The IK marker in this application is only for moving objects. This setting determines how objects move "
 "when they collide with each other."
 
-#: ../../source/man2/operation_initial.rst:330
+#: ../../source/man2/operation_initial.rst:408
 msgid "オブジェクトがぶつかったら反応させる"
 msgstr "React when objects collide"
 
-#: ../../source/man2/operation_initial.rst:330
+#: ../../source/man2/operation_initial.rst:409
 msgid "``衝突検知`` のトグルスイッチをONにします。対象のオブジェクト全てに対して設定してください。"
 msgstr "Turn on the ``Use Collision`` toggle switch. Please set it for all target objects."
 
-#: ../../source/man2/operation_initial.rst:334
+#: ../../source/man2/operation_initial.rst:411
 msgid "ぶつかった後の移動力を調整する"
 msgstr "Adjust movement power after collision"
 
-#: ../../source/man2/operation_initial.rst:333
+#: ../../source/man2/operation_initial.rst:412
 msgid ""
 "``抗力`` の値を変更してください。 デフォルトは10です。低ければ低いほどオブジェクトの移動が停止するまでに時"
 "間がかかるようになります。"
@@ -576,11 +743,11 @@ msgstr ""
 "Change the value of ``drag``. Default is 10. The lower the value, the longer it will take for the object "
 "to stop moving."
 
-#: ../../source/man2/operation_initial.rst:338
+#: ../../source/man2/operation_initial.rst:415
 msgid "ぶつかった後の回転力を調整する"
 msgstr "Adjust the rotational force after collision"
 
-#: ../../source/man2/operation_initial.rst:337
+#: ../../source/man2/operation_initial.rst:416
 msgid ""
 "``回転抗力`` の値を変更してください。 デフォルトは10です。低ければ低いほどオブジェクトの回転が停止するまで"
 "に時間がかかるようになります。"
@@ -588,11 +755,11 @@ msgstr ""
 "Change the value of ``Angular Drag``. Default is 10. The lower it is, the longer it will take for the "
 "object to stop rotating."
 
-#: ../../source/man2/operation_initial.rst:342
+#: ../../source/man2/operation_initial.rst:419
 msgid "重力に従う"
 msgstr "follows gravity"
 
-#: ../../source/man2/operation_initial.rst:341
+#: ../../source/man2/operation_initial.rst:420
 msgid ""
 "``重力を使う`` のトグルスイッチをONにします。ONにした瞬間、オブジェクトは地面に向かって落ちるようになりま"
 "す。 IKマーカーで動かしている間はその位置と回転になりますが、操作をやめると再び重力に従って落下します。"
@@ -601,7 +768,7 @@ msgstr ""
 "ground. While you are moving it with an IK marker, it will remain at that position and rotation, but when "
 "you stop operating it, it will fall again according to gravity."
 
-#: ../../source/man2/operation_initial.rst:345
+#: ../../source/man2/operation_initial.rst:424
 msgid ""
 "VR/AR空間で使うと、より現実の感覚で使用することができます。 ハンドトラッキングが実用的なMetaQuest3以降のデ"
 "バイスですと、オブジェクトを手に掴んで投げて別のオブジェクトにぶつけることもできます。"
@@ -610,15 +777,15 @@ msgstr ""
 "device that has practical hand tracking, you can also grab an object in your hand and throw it to hit "
 "another object."
 
-#: ../../source/man2/operation_initial.rst:348
+#: ../../source/man2/operation_initial.rst:427
 msgid "本アプリが単なるポーズ・アニメーション作成だけでなく、様々な用途に使えるかもしれません。"
 msgstr "You may be able to use this app for a variety of purposes, not just creating poses and animations."
 
-#: ../../source/man2/operation_initial.rst:353
+#: ../../source/man2/operation_initial.rst:432
 msgid "オニオンスキン"
 msgstr "Onion skin"
 
-#: ../../source/man2/operation_initial.rst:355
+#: ../../source/man2/operation_initial.rst:434
 msgid ""
 "ver 2.14.0より導入しました。現在選択中のオブジェクトのポーズをまるごと赤色のオブジェクトとしてコピーしま"
 "す。キーフレームを切り替えてモーションを作っていくときに、任意のフレームのポーズを残しておけるので、連続し"
@@ -628,15 +795,15 @@ msgstr ""
 "a useful function when creating continuous motions, as it allows you to keep the pose of any frame when "
 "switching keyframes to create a motion."
 
-#: ../../source/man2/operation_initial.rst:357
+#: ../../source/man2/operation_initial.rst:436
 msgid "リボンバーの画面タブを開きます。"
 msgstr "Open the Screen tab on the ribbon bar."
 
-#: ../../source/man2/operation_initial.rst:358
+#: ../../source/man2/operation_initial.rst:437
 msgid "``Options`` エリアにある ``オニオンスキン`` のチェックボックスにチェックを入れます。"
 msgstr "Check the ``Onion Skin`` checkbox in the ``Options`` area."
 
-#: ../../source/man2/operation_initial.rst:365
+#: ../../source/man2/operation_initial.rst:444
 msgid ""
 "現在選択中のオブジェクトの重なるようにオニオンスキン化したコピーオブジェクト（以後、オニオンスキン）が表示"
 "されます。"
@@ -644,7 +811,7 @@ msgstr ""
 "An onion-skinned copy object (hereafter referred to as onion skin) will be displayed overlapping the "
 "currently selected object."
 
-#: ../../source/man2/operation_initial.rst:372
+#: ../../source/man2/operation_initial.rst:451
 msgid ""
 "VRMの場合、元のVRMと重なった状態なので見た目は少々怖いですが、気にせず任意の部位のIKマーカーを動かしてくだ"
 "さい。"
@@ -652,7 +819,7 @@ msgstr ""
 "In the case of VRM, it looks a little scary because it is overlapping with the original VRM, but don’t "
 "worry about it, just move the IK markers of any part."
 
-#: ../../source/man2/operation_initial.rst:374
+#: ../../source/man2/operation_initial.rst:453
 msgid ""
 "するとオニオンスキンは操作前のオブジェクトのポーズを保ったままになります。これで少しずつ動かしてキーフレー"
 "ムに登録していくことで、スムーズなモーションを作成しやすくなるでしょう。"
@@ -661,7 +828,7 @@ msgstr ""
 "you to move the object little by little and register it in a keyframe, making it easier to create a smooth "
 "motion."
 
-#: ../../source/man2/operation_initial.rst:376
+#: ../../source/man2/operation_initial.rst:455
 msgid "イメージとしては次の操作をしていくことになります。"
 msgstr "The image shows the following operations:"
 
@@ -717,14 +884,14 @@ msgstr "7"
 msgid "以後、繰り返し"
 msgstr "After that, repeat"
 
-#: ../../source/man2/operation_initial.rst:390
+#: ../../source/man2/operation_initial.rst:469
 msgid "以下の操作をするとオニオンスキンは非表示になります。"
 msgstr "The onion skin will be hidden if you do the following:"
 
-#: ../../source/man2/operation_initial.rst:392
+#: ../../source/man2/operation_initial.rst:471
 msgid "オニオンスキンのチェックボックスのチェックを外す"
 msgstr "Uncheck the Onion Skin checkbox"
 
-#: ../../source/man2/operation_initial.rst:393
+#: ../../source/man2/operation_initial.rst:472
 msgid "別のオブジェクトを選択する"
 msgstr "Select a different object"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 23:49+0900\n"
-"PO-Revision-Date: 2024-09-13 23:55+0900\n"
+"POT-Creation-Date: 2025-01-26 14:20+0900\n"
+"PO-Revision-Date: 2025-01-26 14:22+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 "X-Generator: Poedit 3.5\n"
 
 #: ../../source/man1/screen_ikmarker.rst:5
@@ -80,7 +80,7 @@ msgstr "Flip the values of the current pose left to right"
 msgid "**下部：**"
 msgstr "**Bottom:**"
 
-#: ../../source/man1/screen_ikmarker.rst:36
+#: ../../source/man1/screen_ikmarker.rst:34
 msgid "スプレッドシート:"
 msgstr "Spreadsheet:"
 
@@ -111,22 +111,16 @@ msgstr "If you choose anything other than VRM, the spreadsheet will not be avail
 msgid "簡単IKモード"
 msgstr "Easy IK mode"
 
-#: ../../source/man1/screen_ikmarker.rst:48
-msgid "easyik_desktop"
-msgstr "easyik_desktop"
-
-#: ../../source/man1/screen_ikmarker.rst:49
-msgid "easyik_mobile"
-msgstr "easyik_mobile"
-
 #: ../../source/man1/screen_ikmarker.rst:51
 msgid ""
 "ver 2.13.0より導入しました。VRoid/VRMのみですが、4種類の部位から好きな動き方を選択するだけで、簡単にいろんなポー"
-"ズを取らせることができる機能です。入力モードとは別ウィンドウです。"
+"ズを取らせることができる機能です。入力モードとは別ウィンドウです。本ウィンドウは内部ウィンドウですが、設定により"
+"別ウィンドウでも表示できます。"
 msgstr ""
 "Introduced in ver 2.13.0. This is a function that is only available for VRoid/VRM, but you can easily make the "
-"character take various poses by simply selecting the movement you like from four different body parts. It is a "
-"separate window from the input mode."
+"character take various poses by simply selecting the movement you like from four different body parts. This is a "
+"separate window from the input mode. This window is an internal window, but you can also display it as a "
+"separate window depending on the settings."
 
 #: ../../source/man1/screen_ikmarker.rst:1
 msgid "PC～ファブレット"
@@ -140,11 +134,19 @@ msgstr "Smartphone"
 msgid "|easyik_desktop|"
 msgstr "|easyik_desktop|"
 
+#: ../../source/man1/screen_ikmarker.rst:48
+msgid "easyik_desktop"
+msgstr "easyik_desktop"
+
 #: ../../source/man1/screen_ikmarker.rst:1
 msgid "|easyik_mobile|"
 msgstr "|easyik_mobile|"
 
-#: ../../source/man1/screen_ikmarker.rst:74
+#: ../../source/man1/screen_ikmarker.rst:49
+msgid "easyik_mobile"
+msgstr "easyik_mobile"
+
+#: ../../source/man1/screen_ikmarker.rst:59
 msgid "ツールバー"
 msgstr "Toolbar"
 
@@ -193,7 +195,7 @@ msgid "自分で作った動き方データのCSVがある場合、このボタ�
 msgstr ""
 "If you have a CSV file of movement data that you created yourself, you can load it by pressing this button."
 
-#: ../../source/man1/screen_ikmarker.rst:78
+#: ../../source/man1/screen_ikmarker.rst:76
 msgid "ウィンドウ中央"
 msgstr "Window Center"
 
@@ -209,7 +211,7 @@ msgstr ""
 "If checked, the bone information of the T-pose will be used as the initial value. If unchecked, the current bone "
 "information will be used."
 
-#: ../../source/man1/screen_ikmarker.rst:89
+#: ../../source/man1/screen_ikmarker.rst:80
 msgid "各コンボボックス"
 msgstr "Each combo box"
 

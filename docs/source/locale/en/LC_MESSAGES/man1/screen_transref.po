@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ISHII Eiju
+# This file is distributed under the same license as the VRMViewMeister
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VRMViewMeister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-26 14:20+0900\n"
+"PO-Revision-Date: 2025-01-26 14:21+0900\n"
+"Last-Translator: \n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.16.0\n"
+"X-Generator: Poedit 3.5\n"
+
+#: ../../source/man1/screen_transref.rst:5
+msgid "位置・回転の参照"
+msgstr "Position and rotation reference"
+
+#: ../../source/man1/screen_transref.rst:8
+msgid ""
+"ver 2.15.0より導入しました。現在選択中のオブジェクトとは別のオブジェクト"
+"の位置を参照し、そのオブジェクトへ向きを変えたり、移動させたりできます。 "
+"　VRMであれば腕や視線などの個別のIKマーカーを別のVRMの頭や腕に向けて移動"
+"させることで、複数のVRMでのポーズの演出がしやすくなるでしょう。本ウィンド"
+"ウは内部ウィンドウですが、設定により別ウィンドウでも表示できます。"
+msgstr ""
+"Introduced in version 2.15.0. You can refer to the position of an object "
+"other than the currently selected object and change the orientation or "
+"move to that object.In the case of VRM, you can move individual IK "
+"markers such as arms and gaze points toward the head or arms of another "
+"VRM, making it easier to direct poses with multiple VRMs. This window is "
+"an internal window, but it can also be displayed as a separate window "
+"depending on the settings."
+
+#: ../../source/man1/screen_transref.rst
+#: ../../source/man1/screen_transref.rst:1
+msgid "参照アバター"
+msgstr "Reference Avatar"
+
+#: ../../source/man1/screen_transref.rst:1
+msgid "VRM"
+msgstr "VRM"
+
+#: ../../source/man1/screen_transref.rst:1
+msgid "VRM以外"
+msgstr "Other than VRM"
+
+#: ../../source/man1/screen_transref.rst:1
+msgid "Image"
+msgstr "Image"
+
+#: ../../source/man1/screen_transref.rst:1
+msgid "|transref02|"
+msgstr "|transref02|"
+
+#: ../../source/man1/screen_transref.rst:12
+msgid "transref02"
+msgstr "transref02"
+
+#: ../../source/man1/screen_transref.rst:1
+msgid "|transref01|"
+msgstr "|transref01|"
+
+#: ../../source/man1/screen_transref.rst:11
+msgid "transref01"
+msgstr "transref01"
+
+#: ../../source/man1/screen_transref.rst
+msgid "現在選択中のオブジェクト"
+msgstr "The currently selected object"
+
+#: ../../source/man1/screen_transref.rst:21
+msgid "サムネイルとタイトルが表示されます。"
+msgstr "The thumbnail and title are displayed."
+
+#: ../../source/man1/screen_transref.rst:24
+msgid "他の3Dオブジェクトを選択するコンボボックスです。"
+msgstr "A combo box for selecting other 3D objects."
+
+#: ../../source/man1/screen_transref.rst:27
+msgid "以下は選択できません。"
+msgstr "The following cannot be selected:"
+
+#: ../../source/man1/screen_transref.rst:29
+msgid "2Dオブジェクト"
+msgstr "2D Objects"
+
+#: ../../source/man1/screen_transref.rst:30
+msgid "Stage"
+msgstr "Stage"
+
+#: ../../source/man1/screen_transref.rst:31
+msgid "BGM/SE"
+msgstr "BGM/SE"
+
+#: ../../source/man1/screen_transref.rst:32
+msgid "SystemEffect"
+msgstr "SystemEffect"
+
+#: ../../source/man1/screen_transref.rst
+msgid "参照部位"
+msgstr "Reference part"
+
+#: ../../source/man1/screen_transref.rst:35
+msgid ""
+"参照アバターがVRMのときのみ選択できます。対象のVRMのどの部位のIKマーカー"
+"の位置を参照するかを選択します。"
+msgstr ""
+"This can only be selected when the reference avatar is VRM. Select which "
+"part of the target VRM to reference the IK marker position."
+
+#: ../../source/man1/screen_transref.rst
+msgid "Offset"
+msgstr "Offset"
+
+#: ../../source/man1/screen_transref.rst:38
+msgid ""
+"現在選択中のオブジェクトを移動させる場合、参照先のオブジェクトからのオフ"
+"セットの距離を指定できます。"
+msgstr ""
+"When moving the currently selected object, you can specify an offset "
+"distance from the reference object."
+
+#: ../../source/man1/screen_transref.rst
+msgid "位置ボタン"
+msgstr "Position Button"
+
+#: ../../source/man1/screen_transref.rst:41
+msgid "実際に現在選択中のオブジェクトやIKマーカーを移動させます。"
+msgstr "Actually moves the currently selected object or IK marker."
+
+#: ../../source/man1/screen_transref.rst
+msgid "ポーズを反転する"
+msgstr "Reverse pose"
+
+#: ../../source/man1/screen_transref.rst:44
+msgid "向きを変える場合、Y軸を基準に反転できるチェックボックスです。"
+msgstr ""
+"If you want to change the orientation, this is a checkbox that allows "
+"you to flip the orientation along the Y axis."
+
+#: ../../source/man1/screen_transref.rst
+msgid "向きボタン"
+msgstr "Direction button"
+
+#: ../../source/man1/screen_transref.rst:47
+msgid ""
+"実際に現在選択中のオブジェクトやIKマーカーを参照先のアバターの参照部位に"
+"向けて回転します。"
+msgstr ""
+"It actually rotates the currently selected object or IK marker toward "
+"the reference part of the reference avatar."
