@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-26 14:26+0900\n"
-"PO-Revision-Date: 2025-01-26 14:29+0900\n"
+"POT-Creation-Date: 2025-02-11 22:18+0900\n"
+"PO-Revision-Date: 2025-02-11 22:25+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -385,23 +385,47 @@ msgstr "Reset button"
 msgid "CSVのURLをアプリの初期値に戻します。"
 msgstr "Reset the CSV URL to the app's default value."
 
+#: ../../source/man5/config.rst:188
+msgid "コーデック"
+msgstr "Codec"
+
+#: ../../source/man5/config.rst:189
+msgid "録画のフォーマットを選択します。コンボボックスに表示されるのは現在使用中のブラウザでサポートされているものが列挙されます。"
+msgstr "If you change the color of certain motions, it will be easier to understand when looking at the timeline later."
+
+#: ../../source/man5/config.rst:191
+msgid "フレームレート"
+msgstr "Framerate"
+
+#: ../../source/man5/config.rst:192
+msgid "録画時のフレームレートを設定します。"
+msgstr "Set the frame rate for recording."
+
+#: ../../source/man5/config.rst:194
+msgid "ビデオbps"
+msgstr "Video bps"
+
 #: ../../source/man5/config.rst:195
+msgid "bpsを小数点込みで設定します。"
+msgstr "Set the bps value including the decimal point."
+
+#: ../../source/man5/config.rst:204
 msgid "モデルタブ"
 msgstr "Model tab"
 
-#: ../../source/man5/config.rst:197
+#: ../../source/man5/config.rst:206
 msgid "モデルタブ内の設定項目です。主にオブジェクト自体の動きに関する設定です。"
 msgstr "This is a setting item in the model tab. These are mainly settings related to the movement of the object itself."
 
-#: ../../source/man5/config.rst:200
+#: ../../source/man5/config.rst:209
 msgid "ポーズの保存時にサムネイルも保存する"
 msgstr "Save thumbnails when saving poses"
 
-#: ../../source/man5/config.rst:201
+#: ../../source/man5/config.rst:210
 msgid "ポーズを保存する際にそのポーズのスクリーンショットを合わせて保存します。保存しなくてもポーズ・ポーズファイル自体に影響はありません。"
 msgstr "When saving a pose, save a screenshot of that pose as well. There is no effect on the pose/pose file itself even if it is not saved."
 
-#: ../../source/man5/config.rst:203
+#: ../../source/man5/config.rst:212
 msgid "ポーズのオープン時にグローバル座標をも適用する"
 msgstr "Also apply global coordinates when opening poses"
 
@@ -413,7 +437,7 @@ msgstr "When applying the pose file to the selected VRM, also apply the global c
 msgid "これを有効にすると、複数のVRMにポーズを適用したときに位置が重複してしまうことになります。必要に応じてオン・オフを切り替えて使用してください。"
 msgstr "If this is enabled, the positions will be duplicated when applying poses to multiple VRMs. Please use it by switching on / off as necessary."
 
-#: ../../source/man5/config.rst:207
+#: ../../source/man5/config.rst:216
 msgid "足首の回転を自動で行う"
 msgstr "Automatic ankle rotation"
 
@@ -429,7 +453,7 @@ msgstr ""
 msgid "アニメーションの再生時は自動的にオフになります。"
 msgstr "Automatically turns off when playing animation."
 
-#: ../../source/man5/config.rst:215
+#: ../../source/man5/config.rst:224
 msgid "※どちらもLowerLegをy軸・z軸に後方へ移動のみさせた例"
 msgstr "Both are examples in which LowerLeg is only moved backward on the y-axis and z-axis"
 
@@ -445,7 +469,7 @@ msgstr "if setting is off"
 msgid "|ashi_on|"
 msgstr "|ashi_on|"
 
-#: ../../source/man5/config.rst:211
+#: ../../source/man5/config.rst:220
 msgid "ashi_on"
 msgstr "ashi_on"
 
@@ -453,17 +477,17 @@ msgstr "ashi_on"
 msgid "|ashi_off|"
 msgstr "|ashi_off|"
 
-#: ../../source/man5/config.rst:212
+#: ../../source/man5/config.rst:221
 msgid "ashi_off"
 msgstr "ashi_off"
 
-#: ../../source/man5/config.rst:222
+#: ../../source/man5/config.rst:231
 msgid "このように足首から下部分が自然な回転を伴うようになります。しかし意図しない回転が伴うことになるため、足首を動かした後に手動で回転を戻す必要があります。"
 msgstr ""
 "In this way, the lower part from the ankle comes to accompany the natural rotation. However, this would involve unintentional rotation, so it would be "
 "necessary to manually unrotate the ankle after moving it."
 
-#: ../../source/man5/config.rst:224
+#: ../../source/man5/config.rst:233
 msgid "VRMの体に自然な稼働制御を適用する"
 msgstr "Apply natural running controls to VRM bodies"
 
@@ -482,11 +506,11 @@ msgstr ""
 msgid "必要に応じてオフにすることをおすすめします。"
 msgstr "It is recommended to turn it off if necessary."
 
-#: ../../source/man5/config.rst:230
+#: ../../source/man5/config.rst:239
 msgid "ボーンの連動"
 msgstr "Linking bones"
 
-#: ../../source/man5/config.rst:231
+#: ../../source/man5/config.rst:240
 msgid "いずれの場合もアニメーションの再生時は自動的にオフになります。"
 msgstr "Automatically turns off when playing animation."
 
@@ -494,7 +518,7 @@ msgstr "Automatically turns off when playing animation."
 msgid "Chest & LowerArm & Head"
 msgstr "Chest / LowerArm / Head"
 
-#: ../../source/man5/config.rst:234
+#: ../../source/man5/config.rst:243
 msgid "``Chest`` の動きに合わせて左右の ``LowerArm`` そして ``Head`` も追随させます。ただしX軸・Z軸のみです。"
 msgstr "As the ``Chest`` moves, the left and right ``LowerArms`` and ``Head`` will also follow. However, it is only for the X-axis and Z-axis."
 
@@ -502,7 +526,7 @@ msgstr "As the ``Chest`` moves, the left and right ``LowerArms`` and ``Head`` wi
 msgid "Aim & Chest"
 msgstr "Aim / Chest"
 
-#: ../../source/man5/config.rst:236
+#: ../../source/man5/config.rst:245
 msgid "``Aim`` の動きに合わせて ``Chest`` も追随させます。ただしX軸・Z軸のみです。"
 msgstr "Make the ``Chest`` follow the movement of the ``Aim``. However, it is only for the X-axis and Z-axis."
 
@@ -510,7 +534,7 @@ msgstr "Make the ``Chest`` follow the movement of the ``Aim``. However, it is on
 msgid "Pelvis & LowerLeg"
 msgstr "Pelvis / LowerLeg"
 
-#: ../../source/man5/config.rst:238
+#: ../../source/man5/config.rst:247
 msgid "``Pelvis`` の動きに合わせて左右の ``LowerLeg`` を上下前後に動かします。"
 msgstr "Move the left and right ``LowerLegs`` up and down and back and forth according to the movement of the ``Pelvis``."
 
@@ -518,7 +542,7 @@ msgstr "Move the left and right ``LowerLegs`` up and down and back and forth acc
 msgid "Hand & LowerArm"
 msgstr "Hand / LowerArm"
 
-#: ../../source/man5/config.rst:240
+#: ../../source/man5/config.rst:249
 msgid "``Hand`` の動きに合わせて左右の ``LowerArm`` を追随して動かします。ただしX軸・Z軸のみです。"
 msgstr "Move the left and right ``LowerArms`` according to the movement of the ``Hand``. However, it is only for the X-axis and Z-axis."
 
@@ -526,51 +550,51 @@ msgstr "Move the left and right ``LowerArms`` according to the movement of the `
 msgid "Leg & LowerLeg"
 msgstr "Leg / LowerLeg"
 
-#: ../../source/man5/config.rst:242
+#: ../../source/man5/config.rst:251
 msgid ""
 "``Leg`` の動きに合わせて左右の ``LowerLeg`` を追随して動かします。これによりひざ付近の動きが制限がかかる場合がありますので必要に応じてオフにしてください。"
 msgstr ""
 "Move the left and right ``LowerLeg`` according to the movement of the ``Leg``. This may restrict movement around the knees, so turn it off if necessary."
 
-#: ../../source/man5/config.rst:249
+#: ../../source/man5/config.rst:258
 msgid "アニメーションタブ"
 msgstr "Animation tab"
 
-#: ../../source/man5/config.rst:251
+#: ../../source/man5/config.rst:260
 msgid "アニメーションタブ内の設定項目です。主にアニメーションに関する設定です。"
 msgstr "This is a setting item in the animation tab. These are mainly settings related to animation."
 
-#: ../../source/man5/config.rst:254
+#: ../../source/man5/config.rst:263
 msgid "フレーム数の初期値"
 msgstr "Initial number of frames"
 
-#: ../../source/man5/config.rst:255
+#: ../../source/man5/config.rst:264
 msgid "アニメーションプロジェクトのデフォルトのフレーム数を 60～300 の範囲で指定します。これはあくまでも初期値であり、後から拡張する制限には当たりません。"
 msgstr ""
 "Specify the default number of frames for the animation project in the range of 60 to 300. This is only an initial value and does not apply to the limit that "
 "will be extended later."
 
-#: ../../source/man5/config.rst:257
+#: ../../source/man5/config.rst:266
 msgid "再生終了後、最初のフレームに戻す"
 msgstr "Return to first frame after playback ends"
 
-#: ../../source/man5/config.rst:258
+#: ../../source/man5/config.rst:267
 msgid "アニメーションを再生しそれが終了した後にフレーム位置を1番目に戻します。"
 msgstr "Play the animation and return the frame position to the first after it finishes."
 
-#: ../../source/man5/config.rst:260
+#: ../../source/man5/config.rst:269
 msgid "戻すタイミング(ミリ秒)"
 msgstr "Return timing (ms)"
 
-#: ../../source/man5/config.rst:261
+#: ../../source/man5/config.rst:270
 msgid "フレーム位置を1番目に戻すタイミングを0～2秒の間で調整します。0は遅延なく即座に1フレーム目に戻します。"
 msgstr "Adjust the timing to return the frame position to the first from 0 to 2 seconds. 0 immediately returns to the first frame without delay."
 
-#: ../../source/man5/config.rst:263
+#: ../../source/man5/config.rst:272
 msgid "フレームを選択する時、プレビューする"
 msgstr "Preview when selecting a frame"
 
-#: ../../source/man5/config.rst:264
+#: ../../source/man5/config.rst:273
 msgid ""
 "フレームを選択したら各オブジェクトが登録されたキーフレーム通りにポーズを復元するようにします。これがオフの場合、現在編集中のフレームおよびアニメーションの再生"
 "時にしかポーズを確認できなくなります。"
@@ -578,32 +602,32 @@ msgstr ""
 "After selecting the frame, restore the pose according to the registered keyframe for each object. If this is off, you will only be able to see the pose at "
 "the frame you are currently editing and when playing the animation."
 
-#: ../../source/man5/config.rst:267
+#: ../../source/man5/config.rst:276
 msgid "※タイムラインのツールバーにある「:doc:`このフレームを読み込む <../man4/animation_tl>` 」を使用して随時ポーズやプロパティを復元してください。"
 msgstr "Restore poses and properties at any time using \":doc:`load this frame <../man4/animation_tl>`\" on the toolbar of the timeline."
 
-#: ../../source/man5/config.rst:269
+#: ../../source/man5/config.rst:278
 msgid "現在選択中のロールのみプレビューする"
 msgstr "Preview only the currently selected role"
 
-#: ../../source/man5/config.rst:270
+#: ../../source/man5/config.rst:279
 msgid ""
 "これがオンの場合、現在選択中のタイムライン（ロール・オブジェクト）のみそのキーフレーム時のポーズを再現します。オフの場合はすべてのタイムラインを対象にします。"
 msgstr "When this is on, only the currently selected timeline (roll object) reproduces the pose at that keyframe. When off, all timelines are targeted."
 
-#: ../../source/man5/config.rst:272
+#: ../../source/man5/config.rst:281
 msgid "再生中はIKマーカーの表示をオフにする"
 msgstr "Turn off the display of IK markers during playback"
 
-#: ../../source/man5/config.rst:273
+#: ../../source/man5/config.rst:282
 msgid "これがオンの場合、アニメーションの再生開始時にIKマーカーが自動的にオフになります。再生が終了するとIKマーカーの表示が戻ります。"
 msgstr "When this is on, the IK markers will automatically turn off when the animation starts playing. When playback ends, the IK marker display returns."
 
-#: ../../source/man5/config.rst:275
+#: ../../source/man5/config.rst:284
 msgid "プレビュー時に登録キーフレームの位置を超えたら最後のキーフレームを復元する"
 msgstr "Restore the last keyframe when the position of the registration keyframe is exceeded during preview"
 
-#: ../../source/man5/config.rst:276
+#: ../../source/man5/config.rst:285
 msgid ""
 "図を交えて説明すると、 ``1`` と ``15`` の位置にキーフレームが登録されていたとします。 この設定がオンのときに ``16`` 以降のフレーム番号を選択すると、 ``15`` の"
 "位置のキーフレームの内容を復元します。 オフの場合は最後に選択したキーフレームの内容のままとなります。（例えば ``7`` を選択していて急に ``19`` を選択した場合は"
@@ -613,11 +637,11 @@ msgstr ""
 "is on, the contents of the keyframe at position ``15`` will be restored.When turned off, the contents of the last selected keyframe will remain. (For "
 "example, if you select ``7`` and then suddenly select ``19``, the contents of 7 remain as they are.)"
 
-#: ../../source/man5/config.rst:285
+#: ../../source/man5/config.rst:294
 msgid "録画時に音声も保存する"
 msgstr "Save audio when recording"
 
-#: ../../source/man5/config.rst:286
+#: ../../source/man5/config.rst:295
 msgid ""
 "録画時にBGMやSEが録音されるようにします。この設定を切り替えたときはアプリを再起動させてください。ウェブアプリ版はブラウザによってマイクの使用確認メッセージが"
 "表示されます。"
@@ -625,7 +649,7 @@ msgstr ""
 "BGM and SE will be recorded when recording. Please restart the app after changing this setting. The web application version will display a microphone use "
 "confirmation message depending on the browser."
 
-#: ../../source/man5/config.rst:293
+#: ../../source/man5/config.rst:302
 msgid ""
 "ウェブアプリ版の場合（なおかつPWAによる別ウィンドウ化した場合）、右上のマイクのアイコンから、マイクの許可を後から切り替えることができます。ただし、本アプリで"
 "の設定が有効なのにブラウザのここの設定でブロックをしてしまうと正常に動かなくなります。必ず本アプリの設定と2つ合わせて設定を切り替えてください。"
@@ -634,27 +658,27 @@ msgstr ""
 "upper right. However, even if the setting in this application is valid, if you block it with the browser setting here, it will not work properly. Be sure to "
 "switch the settings together with the settings of this application."
 
-#: ../../source/man5/config.rst:300
+#: ../../source/man5/config.rst:309
 msgid "なお、 管理ボタンを押すとブラウザの設定ページに遷移し、使用するマイクのデバイスを切り替えたりできます。"
 msgstr "By pressing the management button, you can transition to the browser settings page and switch the microphone device to use."
 
-#: ../../source/man5/config.rst:303
+#: ../../source/man5/config.rst:312
 msgid "PC版の場合は各OSのサウンドの設定に従ってください。"
 msgstr "For the PC version, follow the sound settings of each OS."
 
-#: ../../source/man5/config.rst:305
+#: ../../source/man5/config.rst:314
 msgid "前回指定した間隔とイージングを記憶する（キーフレーム登録ダイアログ）"
 msgstr "Remember the last specified interval and easing (key frame registration dialog)"
 
-#: ../../source/man5/config.rst:306
+#: ../../source/man5/config.rst:315
 msgid "キーフレーム登録ダイアログにて、前回入力した時間の間隔や選択したイージングを記憶させます。"
 msgstr "In the key frame registration dialog, the last time input interval and selected easing will be memorized."
 
-#: ../../source/man5/config.rst:318
+#: ../../source/man5/config.rst:327
 msgid "ファイルローダタブ"
 msgstr "File loader tab"
 
-#: ../../source/man5/config.rst:320
+#: ../../source/man5/config.rst:329
 msgid ""
 "Googleドライブから読み込んだり保存可能にする拡張機能に関する設定です。この機能を使用するためには、ユーザー側で事前にGoogleアカウントの取得と、GoogleAppsScript"
 "の設定が必要になります。"
@@ -662,7 +686,7 @@ msgstr ""
 "These are settings related to extensions that allow you to read and save from Google Drive. To use this feature, the user must first obtain a Google account "
 "and set up GoogleAppsScript."
 
-#: ../../source/man5/config.rst:322
+#: ../../source/man5/config.rst:331
 msgid "詳しくは下記を御覧ください。"
 msgstr "Please see below for details."
 
@@ -670,7 +694,7 @@ msgstr "Please see below for details."
 msgid "vrmviewmeister-gdrive-extension - Github"
 msgstr "vrmviewmeister-gdrive-extension - Github"
 
-#: ../../source/man5/config.rst:325
+#: ../../source/man5/config.rst:334
 msgid "https://github.com/nishlumi/vrmviewmeister-gdrive-extension"
 msgstr "https://github.com/nishlumi/vrmviewmeister-gdrive-extension"
 
@@ -678,7 +702,7 @@ msgstr "https://github.com/nishlumi/vrmviewmeister-gdrive-extension"
 msgid "インストール方法 - Github"
 msgstr "How to Install - Github"
 
-#: ../../source/man5/config.rst:327
+#: ../../source/man5/config.rst:336
 msgid "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst"
 msgstr "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/install.rst"
 
@@ -686,7 +710,7 @@ msgstr "https://github.com/nishlumi/vrmviewmeister-gdrive-extension/blob/main/in
 msgid "Googleスライドによるインストール方法"
 msgstr "Installation instructions by Google Slides"
 
-#: ../../source/man5/config.rst:329
+#: ../../source/man5/config.rst:338
 msgid ""
 "https://docs.google.com/presentation/d/e/2PACX-1vQP2RstLGn82dh_FOqBfbPPBGvx9o-YQXc-3ol8Gk4_IseKrzsgs0hgAt0h4uYX2kA71ENrnI-XXbBf/pub?"
 "start=false&loop=false&delayms=3000&slide=id.p"
@@ -694,31 +718,31 @@ msgstr ""
 "https://docs.google.com/presentation/d/e/2PACX-1vQP2RstLGn82dh_FOqBfbPPBGvx9o-YQXc-3ol8Gk4_IseKrzsgs0hgAt0h4uYX2kA71ENrnI-XXbBf/pub?"
 "start=false&loop=false&delayms=3000&slide=id.p"
 
-#: ../../source/man5/config.rst:331
+#: ../../source/man5/config.rst:340
 msgid "Googleドライブの読み込み拡張機能のURL"
 msgstr "Google Drive loading extension URL"
 
-#: ../../source/man5/config.rst:332
+#: ../../source/man5/config.rst:341
 msgid "チェックを入れることで読み込み機能を有効化します。"
 msgstr "Check this to enable the loading function."
 
-#: ../../source/man5/config.rst:334
+#: ../../source/man5/config.rst:343
 msgid "URL"
 msgstr "URL"
 
-#: ../../source/man5/config.rst:335
+#: ../../source/man5/config.rst:344
 msgid "別途ユーザー各自に用意してもらうGoogleAppsScriptのウェブアプリのURLを入力する欄です。"
 msgstr "This field is for entering the URL of the Google AppsScript web application that each user must prepare separately."
 
-#: ../../source/man5/config.rst:337
+#: ../../source/man5/config.rst:346
 msgid "APIKEY"
 msgstr "APIKEY"
 
-#: ../../source/man5/config.rst:338
+#: ../../source/man5/config.rst:347
 msgid "GoogleAppsScript内でユーザー各自が決めたAPIKEYを入力する欄です。"
 msgstr "This is a field for entering the APIKEY determined by each user within Google AppsScript."
 
-#: ../../source/man5/config.rst:340
+#: ../../source/man5/config.rst:349
 msgid "ユーザーフォルダのID"
 msgstr "User folder ID"
 
@@ -733,11 +757,11 @@ msgstr ""
 msgid "指定がない場合はドライブのすべての場所から検索して読み込むため、動作に時間がかかる可能性があります。"
 msgstr "If it is not specified, it will search and read from all locations on the drive, which may take some time."
 
-#: ../../source/man5/config.rst:344
+#: ../../source/man5/config.rst:353
 msgid "名前指定"
 msgstr "By name"
 
-#: ../../source/man5/config.rst:345
+#: ../../source/man5/config.rst:354
 msgid ""
 "ユーザーフォルダの欄に入力した内容をフォルダ名とします。フォルダIDだと長くて打ちにくい、といった場合にこのトグルスイッチをオンにすれば、フォルダ名を入力できま"
 "す。"
@@ -745,7 +769,7 @@ msgstr ""
 "The contents entered in the user folder field will be used as the folder name. If the folder ID is long and difficult to type, turn on this toggle switch to "
 "enter the folder name."
 
-#: ../../source/man5/config.rst:348
+#: ../../source/man5/config.rst:357
 msgid "Googleドライブ上では必ず一意になるフォルダ名を付けてください。複数同じ名前が見つかった場合、最初のフォルダを検索します。"
 msgstr "Be sure to give the folder a unique name on Google Drive. If multiple names with the same name are found, the first folder will be searched."
 
