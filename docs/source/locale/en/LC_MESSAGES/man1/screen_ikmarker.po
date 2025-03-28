@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VRMViewMeister\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-26 14:20+0900\n"
-"PO-Revision-Date: 2025-01-26 14:22+0900\n"
+"POT-Creation-Date: 2025-03-28 15:59+0900\n"
+"PO-Revision-Date: 2025-03-28 16:00+0900\n"
 "Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -111,7 +111,7 @@ msgstr "If you choose anything other than VRM, the spreadsheet will not be avail
 msgid "簡単IKモード"
 msgstr "Easy IK mode"
 
-#: ../../source/man1/screen_ikmarker.rst:51
+#: ../../source/man1/screen_ikmarker.rst:52
 msgid ""
 "ver 2.13.0より導入しました。VRoid/VRMのみですが、4種類の部位から好きな動き方を選択するだけで、簡単にいろんなポー"
 "ズを取らせることができる機能です。入力モードとは別ウィンドウです。本ウィンドウは内部ウィンドウですが、設定により"
@@ -123,20 +123,12 @@ msgstr ""
 "separate window depending on the settings."
 
 #: ../../source/man1/screen_ikmarker.rst:1
-msgid "PC～ファブレット"
-msgstr "PC to Phablet"
+msgid "初期状態"
+msgstr "Initial state"
 
 #: ../../source/man1/screen_ikmarker.rst:1
-msgid "スマートフォン"
-msgstr "Smartphone"
-
-#: ../../source/man1/screen_ikmarker.rst:1
-msgid "|easyik_desktop|"
-msgstr "|easyik_desktop|"
-
-#: ../../source/man1/screen_ikmarker.rst:48
-msgid "easyik_desktop"
-msgstr "easyik_desktop"
+msgid "ポーズ選択後"
+msgstr "After selecting a pose"
 
 #: ../../source/man1/screen_ikmarker.rst:1
 msgid "|easyik_mobile|"
@@ -146,11 +138,23 @@ msgstr "|easyik_mobile|"
 msgid "easyik_mobile"
 msgstr "easyik_mobile"
 
-#: ../../source/man1/screen_ikmarker.rst:59
+#: ../../source/man1/screen_ikmarker.rst:1
+msgid "|easyik_mobile_after|"
+msgstr "|easyik_mobile_after|"
+
+#: ../../source/man1/screen_ikmarker.rst:50
+msgid "easyik_mobile_after"
+msgstr "easyik_mobile_after"
+
+#: ../../source/man1/screen_ikmarker.rst:61
+msgid "ver .2.16.1 よりPC,ファブレット,モバイルすべてでUIを統一しました。"
+msgstr "Starting with version 2.16.1, the UI has been unified across PC, phablet, and mobile."
+
+#: ../../source/man1/screen_ikmarker.rst:63
 msgid "ツールバー"
 msgstr "Toolbar"
 
-#: ../../source/man1/screen_ikmarker.rst:60
+#: ../../source/man1/screen_ikmarker.rst:64
 msgid "左から次の順に並んでいます。"
 msgstr "They are listed from left to right in the following order:"
 
@@ -158,7 +162,7 @@ msgstr "They are listed from left to right in the following order:"
 msgid "適用"
 msgstr "Apply"
 
-#: ../../source/man1/screen_ikmarker.rst:62
+#: ../../source/man1/screen_ikmarker.rst:66
 msgid "選択した部位の動きを適用して新たなポーズを取ります。"
 msgstr "Apply the movement of the selected body part to achieve a new pose."
 
@@ -166,7 +170,7 @@ msgstr "Apply the movement of the selected body part to achieve a new pose."
 msgid "デフォルトのサンプルデータ"
 msgstr "Default sample data"
 
-#: ../../source/man1/screen_ikmarker.rst:65
+#: ../../source/man1/screen_ikmarker.rst:69
 msgid "4種類の部位の動き方をアプリのサンプルデータに戻します。または最新のデータを読み込みます。"
 msgstr "Reset the four body part movements to the app's sample data, or load the latest data."
 
@@ -174,7 +178,7 @@ msgstr "Reset the four body part movements to the app's sample data, or load the
 msgid "現在のボーン情報を取得"
 msgstr "Get current bone information"
 
-#: ../../source/man1/screen_ikmarker.rst:68
+#: ../../source/man1/screen_ikmarker.rst:72
 msgid "現在選択中のVRMのボーン情報、Tポーズ時のボーン情報を再取得します。"
 msgstr "Reacquire the bone information of the currently selected VRM and the bone information for the T-pose."
 
@@ -182,20 +186,28 @@ msgstr "Reacquire the bone information of the currently selected VRM and the bon
 msgid "選択を解除"
 msgstr "Deselect"
 
-#: ../../source/man1/screen_ikmarker.rst:71
+#: ../../source/man1/screen_ikmarker.rst:75
 msgid "各コンボボックスの選択をすべて解除します。"
 msgstr "Deselect everything in each combo box."
+
+#: ../../source/man1/screen_ikmarker.rst
+msgid "ランダムポーズ"
+msgstr "Random pose"
+
+#: ../../source/man1/screen_ikmarker.rst:78
+msgid "各部位をランダムに選択します。"
+msgstr "Each part is selected randomly."
 
 #: ../../source/man1/screen_ikmarker.rst
 msgid "開く"
 msgstr "Open"
 
-#: ../../source/man1/screen_ikmarker.rst:73
+#: ../../source/man1/screen_ikmarker.rst:81
 msgid "自分で作った動き方データのCSVがある場合、このボタンを押して読み込むことができます。"
 msgstr ""
 "If you have a CSV file of movement data that you created yourself, you can load it by pressing this button."
 
-#: ../../source/man1/screen_ikmarker.rst:76
+#: ../../source/man1/screen_ikmarker.rst:84
 msgid "ウィンドウ中央"
 msgstr "Window Center"
 
@@ -203,7 +215,7 @@ msgstr "Window Center"
 msgid "Tポーズを起点にする"
 msgstr "Starting with the T-pose"
 
-#: ../../source/man1/screen_ikmarker.rst:78
+#: ../../source/man1/screen_ikmarker.rst:86
 msgid ""
 "チェックをいれると、Tポーズのボーン情報を初期値として使用します。チェックを入れない場合は現在のボーン情報を使用し"
 "ます。"
@@ -211,7 +223,7 @@ msgstr ""
 "If checked, the bone information of the T-pose will be used as the initial value. If unchecked, the current bone "
 "information will be used."
 
-#: ../../source/man1/screen_ikmarker.rst:80
+#: ../../source/man1/screen_ikmarker.rst:88
 msgid "各コンボボックス"
 msgstr "Each combo box"
 
@@ -219,7 +231,7 @@ msgstr "Each combo box"
 msgid "姿勢"
 msgstr "posture"
 
-#: ../../source/man1/screen_ikmarker.rst:81
+#: ../../source/man1/screen_ikmarker.rst:89
 msgid "主に体の上半身～腰を動かします。"
 msgstr "It mainly moves the upper body and hips."
 
@@ -227,7 +239,7 @@ msgstr "It mainly moves the upper body and hips."
 msgid "視線"
 msgstr "line of sight"
 
-#: ../../source/man1/screen_ikmarker.rst:83
+#: ../../source/man1/screen_ikmarker.rst:91
 msgid "主に視線や顔の向きを動かします。"
 msgstr "Mainly the gaze and face direction are moved."
 
@@ -235,7 +247,7 @@ msgstr "Mainly the gaze and face direction are moved."
 msgid "腕"
 msgstr "Arm"
 
-#: ../../source/man1/screen_ikmarker.rst:85
+#: ../../source/man1/screen_ikmarker.rst:93
 msgid "腕・手を動かします。"
 msgstr "Move your arms and hands."
 
@@ -243,10 +255,25 @@ msgstr "Move your arms and hands."
 msgid "脚"
 msgstr "leg"
 
-#: ../../source/man1/screen_ikmarker.rst:87
+#: ../../source/man1/screen_ikmarker.rst:95
 msgid "脚・足を動かします。"
 msgstr "Move your legs and feet."
 
-#: ../../source/man1/screen_ikmarker.rst:90
-msgid "スマートフォンあるいはそれに近い画面サイズの端末の場合、タブパネルになります。"
-msgstr "For smartphones or devices with similar screen sizes, this will be a tab panel."
+#: ../../source/man1/screen_ikmarker.rst:98
+msgid "各ポーズを選択するとサムネイルがある場合、その画像が表示されます。"
+msgstr "When you select each pose, if there is a thumbnail, that image will be displayed."
+
+#~ msgid "PC～ファブレット"
+#~ msgstr "PC to Phablet"
+
+#~ msgid "スマートフォン"
+#~ msgstr "Smartphone"
+
+#~ msgid "|easyik_desktop|"
+#~ msgstr "|easyik_desktop|"
+
+#~ msgid "easyik_desktop"
+#~ msgstr "easyik_desktop"
+
+#~ msgid "スマートフォンあるいはそれに近い画面サイズの端末の場合、タブパネルになります。"
+#~ msgstr "For smartphones or devices with similar screen sizes, this will be a tab panel."
