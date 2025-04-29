@@ -34,7 +34,7 @@ ver 2.8.0 より、モバイル端末でもVR/ARに対応しました。
             Meta Quest 3のハンドトラッキングの場合、手のひらを自分に向けるとシステム的な操作が発動する可能性があります。なるべく手のひらをオブジェクトに向けた状態で行ってください。
 
     :モバイル端末:
-        タップで掴んで画面内を上下左右に指を動かす。ただし回転は不可。
+        タップで掴んで画面内を上下左右に指を動かす。ver 2.17.0より2点タップによる回転も可能。
 
     掴んで動かせるのは次のとおりです。
 
@@ -102,9 +102,21 @@ ver 2.8.0から、モバイル端末でも同等の操作パネルを導入し�
 .. |rightctrl| image:: img/vrar_ctrl04.jpg
 .. |mobilectrlport| image:: img/vrar_ctrl05.jpg
 .. |mobilectrlland| image:: img/vrar_ctrl06.jpg
-.. |mobilectrlwhole| image:: img/vrar_ctrl09.jpg
+.. |mobilectrl_tra| image:: img/vrar_ctrl09a.jpg
+.. |mobilectrl_rot| image:: img/vrar_ctrl09b.jpg
+.. |mobilectrl_sca| image:: img/vrar_ctrl09c.jpg
 .. |mobilectrlfoot| image:: img/vrar_ctrl07.jpg
 .. |mobilectrlvrmbone| image:: img/vrar_ctrl08.jpg
+.. |mobilectrl_rotx| image:: img/vrar_ctrl10x.jpg
+.. |mobilectrl_roty| image:: img/vrar_ctrl10y.jpg
+.. |mobilectrl_rotz| image:: img/vrar_ctrl10z.jpg
+.. |mobilectrl_tab01| image:: img/vrar_ctrl11a.jpg
+.. |mobilectrl_tab02| image:: img/vrar_ctrl11b.jpg
+.. |mobilectrl_tab03| image:: img/vrar_ctrl11c.jpg
+.. |mobilectrl_tab04| image:: img/vrar_ctrl11d1.jpg
+.. |mobilectrl_tab04b| image:: img/vrar_ctrl11d2.jpg
+.. |mobilectrl_tabmenu| image:: img/vrar_ctrl12.jpg
+.. |mobilectrl_name| image:: img/vrar_ctrl13.jpg
 
 .. index:: VR/ARの仮想の手
 
@@ -141,8 +153,10 @@ ver 2.8.0から、モバイル端末でも同等の操作パネルを導入し�
     .. csv-table:: 
         :header-rows: 1
 
-        左手,右手
+        左手（左パネル・メニューパネル）,右手（右パネル・操作パネル）
         |leftctrl|, |rightctrl|
+
+.. index:: モバイル時の仮想コントローラ
 
 仮想コントローラ(モバイル)
 ================================
@@ -152,8 +166,22 @@ ver 2.8.0から、モバイル端末でも同等の操作パネルを導入し�
     ポートレート・ランドスケープで幅や高さに違いはありますがほぼ同じです。
     操作モードにより、X/Y/Zにアイコンが加わります。（実際の動きを連想しやすいアイコンです）
 
-    |mobilectrlwhole|
+    右パネル
+        .. csv-table:: 右パネルの操作モードごとのアイコン表示
+            :header-rows: 1
 
+            移動, 回転, スケール
+            |mobilectrl_tra|, |mobilectrl_rot|, |mobilectrl_sca|
+
+    タップによる回転
+        ver 2.17.0より、IKマーカーを2点タップによる回転に対応しました。1点タップで従来通りの移動の操作ができます。
+
+    ヘッダー
+        |mobilectrl_name|
+
+        左パネルにあったアバター名の表示部分を、ver 2.17.0よりヘッダーに移しました。選択中のアバター（オブジェクト）と、選択中のIKマーカー名を表示します。
+
+        表示と非表示を切り替えるには、左端のなにもない部分をタップしてください。
 
     フッター
         |mobilectrlfoot|
@@ -168,16 +196,65 @@ ver 2.8.0から、モバイル端末でも同等の操作パネルを導入し�
 
 |
 
-    VRMのボーン選択
-        操作対象を各ボーンに切り替えます。操作したいボーンのボタンをタップしてください。
+    プロパティパネル
+        ver 2.17.0より、VRMのボーン選択だけでなく他のプロパティも変更できるようにしたため、名称変更しました。次のタブがあります。
 
-        アイコンとその意味は :ref:`inputikasmarker` を御覧ください。
+        |mobilectrl_tabmenu|
 
-        |mobilectrlvrmbone|
+        * ボーン選択
+        * ブレンドシェイプ（エクスプレッション）
+        * 手のひら操作
+        * アニメーション操作
+
+        :|rightctrl05|: 右パネルのこのボタンを押すと、次のボタンが表示されます。
+
+        :|rightctrl12|: 右パネルのこのボタンを押すと、プロパティパネルが表示されます。
         
-        右の仮想コントローラの次のボタンををタップすると表示されます: |rightctrl12|
+
+
+        ボーン選択
+            操作対象を各ボーンに切り替えます。操作したいボーンのボタンをタップしてください。
+
+            |mobilectrl_tab01|
+
+            アイコンとその意味は :ref:`inputikasmarker` を御覧ください。
+
+            なお、選択した部位により、操作モードの初期値が異なります。
+
+            Head, Chest, Aim, LeftShoulder, RightShoulder
+                これらの部位を選択すると、操作モードが ``回転`` となります。
+            上記以外
+                操作モードは ``移動`` となります。
+
+        ブレンドシェイプ（エクスプレッション）
+            VRMが持つブレンドシェイプ（エクスプレッション）をスライダーで操作します。通常のHTML画面と使い方は同じです。
+
+            |mobilectrl_tab02|
+
+            スライダーを動かすと、自動的にチェックボックスにチェックが入ります。チェックが入ったブレンドシェイプのみ、キーフレームに登録されます。
+
+        手のひら操作
+            VRMの手のひらを操作します。通常のHTML画面と異なり、 ``手動操作`` はありません。
+
+            |mobilectrl_tab03|
         
-        操作対象がVRMの時、次のボタンをタップするとこのボタンが表示されます: |rightctrl05| 
+        アニメーション操作
+            FBXやgltfやvrmaなどの内蔵アニメーションを再生する操作をします。VRMとOtherObjectのみ使用可能です。
+
+            .. csv-table::
+                :header-rows: 1
+
+                VRM, OtherObject
+                |mobilectrl_tab04|,|mobilectrl_tab04b|
+
+            UIは上から次の順に並んでいます。
+
+            1. モーション選択
+            2. シーク位置変更
+            3. スピード変更
+            4. 再生・停止ボタン
+            5. ループトグルスイッチ
+            6. キーフレーム登録用、アニメーションの状態
 
 
 
@@ -231,7 +308,9 @@ ver 2.8.0から、モバイル端末でも同等の操作パネルを導入し�
 .. |rightctrl09| image:: img/vrar_ctrlright_09.png
 .. |rightctrl10| image:: img/vrar_ctrlright_10.png
 .. |rightctrl11| image:: img/vrar_ctrlright_11.png
-.. |rightctrl12| image:: img/vrar_ctrlright_12.jpg
+.. |rightctrl12| image:: img/vrar_ctrlright_12.png
+.. |rightctrl13| image:: img/vrar_ctrlright_13.png
+.. |rightctrl15| image:: img/vrar_ctrlright_15.jpg
 
 .. index::
     VR/ARの仮想コントローラ(右手)
@@ -248,13 +327,12 @@ ver 2.8.0から、モバイル端末でも同等の操作パネルを導入し�
     |rightctrl03|, Z軸を基準に操作します。
     |rightctrl04|, 操作対象を ``メインカメラ`` にします。
     |rightctrl05|, 操作対象を ``現在選択中の3Dオブジェクト`` にします。
-    |rightctrl12|, 操作対象を ``VRMの各ボーン`` にします。(モバイル端末のみ)
+    |rightctrl12|, 操作対象を ``VRMの各ボーン`` にし、プロパティパネルを表示します。(モバイル端末のみ)
     |rightctrl06|, 操作モードを ``移動`` にします。
     |rightctrl07|, 操作モードを ``回転`` にします。
     |rightctrl10|, 操作モードを ``サイズ`` にします。
-    |rightctrl08|, 現在選択中のオブジェクトの位置をリセットします。
-    |rightctrl09|, 現在選択中のオブジェクトの回転をリセットします。
-    |rightctrl11|, 現在選択中のオブジェクトのサイズをリセットします。
+    |rightctrl13|, 現在の操作モードにより、位置・回転・サイズのいずれかをリセットします。
+    |rightctrl15|, VRMをTポーズに戻します。（すべてのIKマーカーを初期位置に戻す）
 
 .. note::
     上記以外の操作は通常画面に戻って行ってください。
@@ -313,6 +391,8 @@ PICO4
 
 .. index::
     オブジェクトの移動・回転・リサイズ(VR/AR)
+    タップによる移動・回転
+    回転軸の切り替えボタン
 
 オブジェクトのtransform
 ============================
@@ -323,7 +403,7 @@ PICO4
 
 .. hint::
     * 下記のいずれの操作も、設定の ``アプリケーション`` タブにあるVR/ARの移動速度と回転速度を調整してください。
-    * 基準はローカル軸です。
+    * 基準はローカル軸です。切り替えるには左パネルの |leftctrl11| ボタンを押してください。
 
 移動モード
     1. |rightctrl06| を押して移動モードに切り替えます。
@@ -342,10 +422,37 @@ PICO4
     2. 上図のボタンを押してサイズを変更します。
 
 変更をリセットする
-    以下のいずれかのボタンを押してください。
+    現在の操作モードに応じて状態がリセットされます。次のボタンを押してください。
 
-    .. csv-table::
+    |rightctrl13|
 
-        |rightctrl08|, 現在選択中のオブジェクトの位置をリセットします。
-        |rightctrl09|, 現在選択中のオブジェクトの回転をリセットします。
-        |rightctrl11|, 現在選択中のオブジェクトのサイズをリセットします。
+タップによる移動と回転
+    ver 2.17.0より、タップの操作性を向上させ、移動だけでなく回転もできるようにしました。
+
+    .. image:: img/vrar_ctrlright_14.jpg
+        :align: center
+    
+    :1点タップ: 
+        IKマーカーの移動
+
+        画面をタップしたままドラッグしても動かせますが、 **実際にスマートフォンを持ちながら自分が移動** してもIKマーカーを移動させることができます。おそらくそうしたほうがVRデバイスで操作するのと近い感覚で操作できるでしょう。
+        
+        Z軸による奥行きも、スマートフォンを持ちながら移動するその通り再現されて動きます。
+
+    |
+
+    :2点タップ: 
+        IKマーカーの回転
+
+        操作のポイントは、2本の指の間に操作したいIKマーカーが位置するようにしてください。その状態で2本指を回転させると、現在の回転軸に沿ってIKマーカーが回転し、オブジェクトが実際に回転します。
+
+    .. hint::
+        その補足機能として、右のパネルに回転軸を切り替えるボタンを用意しました。
+
+        .. csv-table:: 回転軸の切り替えボタン
+            :header-rows: 1
+
+            X軸, Y軸, Z軸
+            |mobilectrl_rotx|, |mobilectrl_roty|, |mobilectrl_rotz|
+        
+        ボタンをタップすることにより、X - Y - Zと順に切り替わります。また、IKマーカーごとに回転軸は保存されます。
